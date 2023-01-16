@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_room_content_getter_8cs" kind="file" language="C#">
+    <compoundname>RoomContentGetter.cs</compoundname>
+    <innerclass refid="class_events_1_1_room_content_1_1_room_content_getter" prot="public">Events::RoomContent::RoomContentGetter</innerclass>
+    <innernamespace refid="namespace_events">Events</innernamespace>
+    <innernamespace refid="namespace_events_1_1_room_content">Events::RoomContent</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content" kindref="compound">Room.RoomContent</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content_1_1_enemys" kindref="compound">Room.RoomContent.Enemys</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content_1_1_obsticle" kindref="compound">Room.RoomContent.Obsticle</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespace_events_1_1_room_content" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_events_1_1_room_content" kindref="compound">Events.RoomContent</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;RoomContentGetter&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;RoomContentGetter/RoomContentGetter&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="14" refid="class_events_1_1_room_content_1_1_room_content_getter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_events_1_1_room_content_1_1_room_content_getter" kindref="compound">RoomContentGetter</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;int,<sp/>EntityParty&gt;<sp/><ref refid="class_events_1_1_room_content_1_1_room_content_getter_1ae19d8dc4e06230569b462b0a0ef874a4" kindref="member">GetEnemyParty</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;EntityParty&gt;<sp/><ref refid="class_events_1_1_room_content_1_1_room_content_getter_1a96e6a0c169216f0f02c568a91387dc17" kindref="member">GetRandomEnemyParty</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;List&lt;EntityParty&gt;&gt;<sp/><ref refid="class_events_1_1_room_content_1_1_room_content_getter_1acbbf764ed926ffadead949b14fab4226" kindref="member">GetEnemyList</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;List&lt;RoomObstacle&gt;&gt;<sp/><ref refid="class_events_1_1_room_content_1_1_room_content_getter_1a227b9ef86b7e6e10f45c3a5e1c670282" kindref="member">GetObstacleList</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;int,<sp/>RoomObstacle&gt;<sp/><ref refid="class_events_1_1_room_content_1_1_room_content_getter_1a06fd9adf48b1929d44349301addd3566" kindref="member">GetObstacle</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;RoomObstacle&gt;<sp/><ref refid="class_events_1_1_room_content_1_1_room_content_getter_1a6690f491594261b82db0a12fee88b59b" kindref="member">GetRandomObstacle</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/RoomContent/RoomContentGetter.cs"/>
+  </compounddef>
+</doxygen>

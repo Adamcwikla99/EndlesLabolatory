@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_room_1_1_room_position_comparer" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::Room::RoomPositionComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEqualityComparer&lt; CordsXY &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_position_comparer_1a4d9d88a7002779948cd3fdbc3fd1d4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomPositionComparer.Equals</definition>
+        <argsstring>(CordsXY cordA, CordsXY cordB)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Structures.Map.Room.RoomPositionComparer.Equals</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordA</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordB</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if cords are equal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomPositionComparer.cs" line="15" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_position_comparer_1aaccc3df3b5c3e0151ef05c965950d104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Structures.Map.Room.RoomPositionComparer.GetHashCode</definition>
+        <argsstring>(CordsXY obj)</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>Structures.Map.Room.RoomPositionComparer.GetHashCode</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>required hascode definition </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomPositionComparer.cs" line="20" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class implementing compare operation for cords class </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEqualityComparer&lt; CordsXY &gt;</label>
+      </node>
+      <node id="1">
+        <label>Structures.Map.Room.RoomPositionComparer</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEqualityComparer&lt; CordsXY &gt;</label>
+      </node>
+      <node id="1">
+        <label>Structures.Map.Room.RoomPositionComparer</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomPositionComparer.cs" line="8" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomPositionComparer.cs" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer_1a4d9d88a7002779948cd3fdbc3fd1d4e8" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomPositionComparer</scope><name>Equals</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer_1aaccc3df3b5c3e0151ef05c965950d104" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomPositionComparer</scope><name>GetHashCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

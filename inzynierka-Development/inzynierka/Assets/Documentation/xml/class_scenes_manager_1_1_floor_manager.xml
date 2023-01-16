@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_scenes_manager_1_1_floor_manager" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager::FloorManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1a8bdafa2336ec7747d07f9888397ec115" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref> &gt;</type>
+        <definition>List&lt;FloorRoom&gt; ScenesManager.FloorManager.GeneratedRooms</definition>
+        <argsstring></argsstring>
+        <name>GeneratedRooms</name>
+        <qualifiedname>ScenesManager.FloorManager.GeneratedRooms</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="23" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1affd73fe5103e4a647619d9a6b7004b47" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_gate_events" kindref="compound">GateEvents</ref></type>
+        <definition>GateEvents ScenesManager.FloorManager.IndividualGateEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualGateEvents</name>
+        <qualifiedname>ScenesManager.FloorManager.IndividualGateEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="26" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1aa797a4f6ed8d33250311cc01ff4df30f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_tunnel_events" kindref="compound">TunnelEvents</ref></type>
+        <definition>TunnelEvents ScenesManager.FloorManager.IndividualTunnelEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualTunnelEvents</name>
+        <qualifiedname>ScenesManager.FloorManager.IndividualTunnelEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="29" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1a502cede96547d2ce075ad061d232beb3" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_floor_1_1_floor_events" kindref="compound">FloorEvents</ref></type>
+        <definition>FloorEvents ScenesManager.FloorManager.IndividualFloorEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualFloorEvents</name>
+        <qualifiedname>ScenesManager.FloorManager.IndividualFloorEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="32" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1af60f9c30bd2c3067808fab32f2ae0dc4" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_player_1_1_player" kindref="compound">Player.Player</ref></type>
+        <definition>Player.Player ScenesManager.FloorManager.GamePlayer</definition>
+        <argsstring></argsstring>
+        <name>GamePlayer</name>
+        <qualifiedname>ScenesManager.FloorManager.GamePlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="35" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1a1b397a6d2c2e9edc3660498a1d6dcf68" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform ScenesManager.FloorManager.Middle</definition>
+        <argsstring></argsstring>
+        <name>Middle</name>
+        <qualifiedname>ScenesManager.FloorManager.Middle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="38" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1a6d14ff9427540471ffbbd2e6ad977628" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY ScenesManager.FloorManager.MiddleCord</definition>
+        <argsstring></argsstring>
+        <name>MiddleCord</name>
+        <qualifiedname>ScenesManager.FloorManager.MiddleCord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="41" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_floor_manager_1ae9b94df443359c626cf18e6580854495" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_hostile_room_events" kindref="compound">HostileRoomEvents</ref></type>
+        <definition>HostileRoomEvents ScenesManager.FloorManager.HostileRoom</definition>
+        <argsstring></argsstring>
+        <name>HostileRoom</name>
+        <qualifiedname>ScenesManager.FloorManager.HostileRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="44" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_floor_manager_1aefbbd4a4c19115adddf959e902213d11" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ScenesManager.FloorManager.nextGeneration</definition>
+        <argsstring></argsstring>
+        <name>nextGeneration</name>
+        <qualifiedname>ScenesManager.FloorManager.nextGeneration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="50" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a41a1774f885f204430b0b70a06d1642c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ScenesManager.FloorManager.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="55" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="55" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a0a6fdb27c3d32a2b2fb5e034c3e7b70c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ScenesManager.FloorManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="65" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a457a117be4b48d22398b7ead62368e1c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>ScenesManager.FloorManager.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="70" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1aec9ffa3bbabcbf40487f6a2fe098e59f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.AwakeRoomEntities</definition>
+        <argsstring>(CordsXY position)</argsstring>
+        <name>AwakeRoomEntities</name>
+        <qualifiedname>ScenesManager.FloorManager.AwakeRoomEntities</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for activation off all previously inactive room entity&apos;s </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="81" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="81" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1aa5f47acddc4e2059e6e31f781cd6e4d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.MoveBetweenClearedRooms</definition>
+        <argsstring>(FloorRoom roomToModify, Structures.Enums.Direction movementDirection, CordsXY position)</argsstring>
+        <name>MoveBetweenClearedRooms</name>
+        <qualifiedname>ScenesManager.FloorManager.MoveBetweenClearedRooms</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></type>
+          <declname>roomToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Structures.Enums.Direction</ref></type>
+          <declname>movementDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode that manages player movement between cleared rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="103" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a770c5fe0517ef1d957e283d9a6c02734" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.ForceOpenAllGates</definition>
+        <argsstring>(FloorRoom roomToModify)</argsstring>
+        <name>ForceOpenAllGates</name>
+        <qualifiedname>ScenesManager.FloorManager.ForceOpenAllGates</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></type>
+          <declname>roomToModify</declname>
+        </param>
+        <briefdescription>
+<para>methode that opens all room gates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="114" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a0efe84d6336e5b90153190c53f3db974" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.MoveBetweenNotClearedRooms</definition>
+        <argsstring>(FloorRoom roomToModify, Structures.Enums.Direction movementDirection, CordsXY position)</argsstring>
+        <name>MoveBetweenNotClearedRooms</name>
+        <qualifiedname>ScenesManager.FloorManager.MoveBetweenNotClearedRooms</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></type>
+          <declname>roomToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Structures.Enums.Direction</ref></type>
+          <declname>movementDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode that manages player movement between cleared and not cleared rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="122" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1ae37e7d6d4aad6f7aec00ae735afe3f15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.RoomActivationSwitch</definition>
+        <argsstring>(FloorRoom roomToModify, RoomType roomType)</argsstring>
+        <name>RoomActivationSwitch</name>
+        <qualifiedname>ScenesManager.FloorManager.RoomActivationSwitch</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></type>
+          <declname>roomToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>roomType</declname>
+        </param>
+        <briefdescription>
+<para>methode that activates room entity&apos;s base on room type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="134" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="134" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a521c9e8e8eb0c01c5a70b26de8bc974b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.ManageGate</definition>
+        <argsstring>(FloorRoom roomToModify, Structures.Enums.Direction movementDirection, bool closeGate=false)</argsstring>
+        <name>ManageGate</name>
+        <qualifiedname>ScenesManager.FloorManager.ManageGate</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></type>
+          <declname>roomToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Structures.Enums.Direction</ref></type>
+          <declname>movementDirection</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closeGate</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>methode responsible for opening correct gates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="164" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="164" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a5fd060054e6c75060c8a82a53b809a38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Structures.Enums.Direction</ref></type>
+        <definition>Structures.Enums.Direction ScenesManager.FloorManager.GateToOpenDirection</definition>
+        <argsstring>(CordsXY oldPos, CordsXY newPos)</argsstring>
+        <name>GateToOpenDirection</name>
+        <qualifiedname>ScenesManager.FloorManager.GateToOpenDirection</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>oldPos</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>newPos</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns information witch gate of aligned room should be opened </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="188" column="42" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="188" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1ac62af92c4c1106dd3efee6aabe499d21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.RemoveAllEntities</definition>
+        <argsstring>(CordsXY position)</argsstring>
+        <name>RemoveAllEntities</name>
+        <qualifiedname>ScenesManager.FloorManager.RemoveAllEntities</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode that removes all entity&apos;s - for future development </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="211" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1afc96650eb146220989cbca43673f57d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.AcknowledgeRoomClear</definition>
+        <argsstring>(CordsXY position)</argsstring>
+        <name>AcknowledgeRoomClear</name>
+        <qualifiedname>ScenesManager.FloorManager.AcknowledgeRoomClear</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode that acknowledges room clear </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="219" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="219" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a9f0d0075cdf8746cd41ed4a4b708223a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.ReceiveGeneratedMap</definition>
+        <argsstring>(List&lt; FloorRoom &gt; generatedMap)</argsstring>
+        <name>ReceiveGeneratedMap</name>
+        <qualifiedname>ScenesManager.FloorManager.ReceiveGeneratedMap</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref> &gt;</type>
+          <declname>generatedMap</declname>
+        </param>
+        <briefdescription>
+<para>methode that processes received floor map layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="230" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="230" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a7a3e956569a9c8f6934cfacf446ea5c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.AdjustPlayerSettings</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustPlayerSettings</name>
+        <qualifiedname>ScenesManager.FloorManager.AdjustPlayerSettings</qualifiedname>
+        <briefdescription>
+<para>methode that adjusts player position and information about whether he is in created room or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="241" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="241" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1aef43a576378d5dc7de9b6a63197e161f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.AdjustStartRoomGates</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustStartRoomGates</name>
+        <qualifiedname>ScenesManager.FloorManager.AdjustStartRoomGates</qualifiedname>
+        <briefdescription>
+<para>methode that adjusts start room gates state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="253" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="253" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a0451105f88ed07e6c5e3a9016c72c6cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></type>
+        <definition>FloorRoom ScenesManager.FloorManager.FindRoomWithCords</definition>
+        <argsstring>(CordsXY roomCords)</argsstring>
+        <name>FindRoomWithCords</name>
+        <qualifiedname>ScenesManager.FloorManager.FindRoomWithCords</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>roomCords</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns room cord with selected cords </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="262" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="262" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1ae67428496f83a9bccb3464b61331d97a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>ScenesManager.FloorManager.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables room activation, room state change and map generation events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="270" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="270" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_floor_manager_1a8dadaa146a972ed33209882a574af23d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.FloorManager.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>ScenesManager.FloorManager.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables room activation, room state change and map generation events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="281" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="281" bodyend="287"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that manages generated floor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.FloorManager</label>
+        <link refid="class_scenes_manager_1_1_floor_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.FloorManager</label>
+        <link refid="class_scenes_manager_1_1_floor_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" line="18" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/FloorManager.cs" bodystart="19" bodyend="290"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1_1_floor_manager_1afc96650eb146220989cbca43673f57d5" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>AcknowledgeRoomClear</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a7a3e956569a9c8f6934cfacf446ea5c1" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>AdjustPlayerSettings</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1aef43a576378d5dc7de9b6a63197e161f" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>AdjustStartRoomGates</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1aec9ffa3bbabcbf40487f6a2fe098e59f" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>AwakeRoomEntities</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a8dadaa146a972ed33209882a574af23d" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>DisableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1ae67428496f83a9bccb3464b61331d97a" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>EnableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a0451105f88ed07e6c5e3a9016c72c6cd" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>FindRoomWithCords</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a770c5fe0517ef1d957e283d9a6c02734" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>ForceOpenAllGates</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1af60f9c30bd2c3067808fab32f2ae0dc4" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>GamePlayer</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a5fd060054e6c75060c8a82a53b809a38" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>GateToOpenDirection</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a8bdafa2336ec7747d07f9888397ec115" prot="public" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>GeneratedRooms</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1ae9b94df443359c626cf18e6580854495" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>HostileRoom</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a502cede96547d2ce075ad061d232beb3" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>IndividualFloorEvents</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1affd73fe5103e4a647619d9a6b7004b47" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>IndividualGateEvents</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1aa797a4f6ed8d33250311cc01ff4df30f" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>IndividualTunnelEvents</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a521c9e8e8eb0c01c5a70b26de8bc974b" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>ManageGate</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a1b397a6d2c2e9edc3660498a1d6dcf68" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>Middle</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a6d14ff9427540471ffbbd2e6ad977628" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>MiddleCord</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1aa5f47acddc4e2059e6e31f781cd6e4d5" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>MoveBetweenClearedRooms</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a0efe84d6336e5b90153190c53f3db974" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>MoveBetweenNotClearedRooms</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1aefbbd4a4c19115adddf959e902213d11" prot="public" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>nextGeneration</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a457a117be4b48d22398b7ead62368e1c" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>OnDisable</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a0a6fdb27c3d32a2b2fb5e034c3e7b70c" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>OnEnable</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a9f0d0075cdf8746cd41ed4a4b708223a" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>ReceiveGeneratedMap</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1ac62af92c4c1106dd3efee6aabe499d21" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>RemoveAllEntities</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1ae37e7d6d4aad6f7aec00ae735afe3f15" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>RoomActivationSwitch</name></member>
+      <member refid="class_scenes_manager_1_1_floor_manager_1a41a1774f885f204430b0b70a06d1642c" prot="private" virt="non-virtual"><scope>ScenesManager::FloorManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_studio_1_1_v_c_a" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Studio::VCA</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1abff66f9244352ae58488609a75241fac" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Studio.VCA.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Studio.VCA.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1788" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1788" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1ab350829651915f90450607c12cee278b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.VCA.getID</definition>
+        <argsstring>(out GUID id)</argsstring>
+        <name>getID</name>
+        <qualifiedname>FMOD.Studio.VCA.getID</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1730" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1730" bodyend="1733"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1ad960bc48ba05d8ac4bf0ef33514c7089" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.VCA.getPath</definition>
+        <argsstring>(out string path)</argsstring>
+        <name>getPath</name>
+        <qualifiedname>FMOD.Studio.VCA.getPath</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1734" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1734" bodyend="1758"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a131da0ecb792c2c94b87d9983b1152ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.VCA.getVolume</definition>
+        <argsstring>(out float volume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.Studio.VCA.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1759" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1759" bodyend="1763"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a402f1f154ca879c7392e6ad150c35b92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.VCA.getVolume</definition>
+        <argsstring>(out float volume, out float finalvolume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.Studio.VCA.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1764" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1764" bodyend="1767"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1aac09b54f1509d334f639fd414a41138c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.VCA.setVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>setVolume</name>
+        <qualifiedname>FMOD.Studio.VCA.setVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1768" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1768" bodyend="1771"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a9131ea1b452520223e92cff1aa57d5ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Studio.VCA.VCA</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>VCA</name>
+        <qualifiedname>FMOD.Studio.VCA.VCA</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1790" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1790" bodyend="1790"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a4de45234ee5587d09b63159bab21e864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.VCA.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Studio.VCA.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1791" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1791" bodyend="1791"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a26e58f2cff80c99dd99019d668baa374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Studio.VCA.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Studio.VCA.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1792" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1792" bodyend="1792"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a5f3b514a66f76f0cec1cf68cea9ec88d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.VCA.isValid</definition>
+        <argsstring>()</argsstring>
+        <name>isValid</name>
+        <qualifiedname>FMOD.Studio.VCA.isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1794" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1794" bodyend="1797"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1aacf327e432a8e6f401629450675c5784" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMOD.Studio.VCA.FMOD_Studio_VCA_IsValid</definition>
+        <argsstring>(IntPtr vca)</argsstring>
+        <name>FMOD_Studio_VCA_IsValid</name>
+        <qualifiedname>FMOD.Studio.VCA.FMOD_Studio_VCA_IsValid</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1775" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a1843d89f767b483a35bfceb2a42e7992" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.VCA.FMOD_Studio_VCA_GetID</definition>
+        <argsstring>(IntPtr vca, out GUID id)</argsstring>
+        <name>FMOD_Studio_VCA_GetID</name>
+        <qualifiedname>FMOD.Studio.VCA.FMOD_Studio_VCA_GetID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1777" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1ac6876e302a5fcc5240f03e3752cec928" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.VCA.FMOD_Studio_VCA_GetPath</definition>
+        <argsstring>(IntPtr vca, IntPtr path, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_VCA_GetPath</name>
+        <qualifiedname>FMOD.Studio.VCA.FMOD_Studio_VCA_GetPath</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1779" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1aec0064e8fd52c0ca42133e54fbf1b16d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.VCA.FMOD_Studio_VCA_GetVolume</definition>
+        <argsstring>(IntPtr vca, out float volume, out float finalvolume)</argsstring>
+        <name>FMOD_Studio_VCA_GetVolume</name>
+        <qualifiedname>FMOD.Studio.VCA.FMOD_Studio_VCA_GetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1781" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a3566243b9f01eacfddc5860e91f1b2ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.VCA.FMOD_Studio_VCA_SetVolume</definition>
+        <argsstring>(IntPtr vca, float volume)</argsstring>
+        <name>FMOD_Studio_VCA_SetVolume</name>
+        <qualifiedname>FMOD.Studio.VCA.FMOD_Studio_VCA_SetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1783" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1728" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1729" bodyend="1800"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a26e58f2cff80c99dd99019d668baa374" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a1843d89f767b483a35bfceb2a42e7992" prot="private" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>FMOD_Studio_VCA_GetID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1ac6876e302a5fcc5240f03e3752cec928" prot="private" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>FMOD_Studio_VCA_GetPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1aec0064e8fd52c0ca42133e54fbf1b16d" prot="private" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>FMOD_Studio_VCA_GetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1aacf327e432a8e6f401629450675c5784" prot="private" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>FMOD_Studio_VCA_IsValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a3566243b9f01eacfddc5860e91f1b2ca" prot="private" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>FMOD_Studio_VCA_SetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1ab350829651915f90450607c12cee278b" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>getID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1ad960bc48ba05d8ac4bf0ef33514c7089" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>getPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a131da0ecb792c2c94b87d9983b1152ef" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a402f1f154ca879c7392e6ad150c35b92" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1abff66f9244352ae58488609a75241fac" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a4de45234ee5587d09b63159bab21e864" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a5f3b514a66f76f0cec1cf68cea9ec88d" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>isValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1aac09b54f1509d334f639fd414a41138c" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>setVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a_1a9131ea1b452520223e92cff1aa57d5ff" prot="public" virt="non-virtual"><scope>FMOD::Studio::VCA</scope><name>VCA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

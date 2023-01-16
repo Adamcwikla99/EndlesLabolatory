@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_scenes_manager_1_1_saving_manager" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager::SavingManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_scenes_manager_1_1_saving_manager_1_1_room_cell_saved_data" prot="public">ScenesManager::SavingManager::RoomCellSavedData</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scenes_manager_1_1_saving_manager_1a16d96031f5c38ea966a24b66f3c0dd10" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_file_managment_1_1_save_system" kindref="compound">SaveSystem</ref></type>
+        <definition>SaveSystem ScenesManager.SavingManager.SaveEvents</definition>
+        <argsstring></argsstring>
+        <name>SaveEvents</name>
+        <qualifiedname>ScenesManager.SavingManager.SaveEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="20" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_saving_manager_1af8fa13183d3dffd0847612ea26959b27" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_data_1_1_room_template_nam_list" kindref="compound">RoomTemplateNamList</ref></type>
+        <definition>RoomTemplateNamList ScenesManager.SavingManager.TemplateNamList</definition>
+        <argsstring></argsstring>
+        <name>TemplateNamList</name>
+        <qualifiedname>ScenesManager.SavingManager.TemplateNamList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="23" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_saving_manager_1ae2894fe241123bef556b457c57f567f3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ScenesManager.SavingManager.destination</definition>
+        <argsstring></argsstring>
+        <name>destination</name>
+        <qualifiedname>ScenesManager.SavingManager.destination</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="28" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_saving_manager_1a4aa380d4a470673865fa98e32f13b3bb" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ScenesManager.SavingManager.templatesPaths</definition>
+        <argsstring></argsstring>
+        <name>templatesPaths</name>
+        <qualifiedname>ScenesManager.SavingManager.templatesPaths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="29" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_saving_manager_1a8338c87e42e1fd0a272c9054d42589d6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ScenesManager.SavingManager.tempPath</definition>
+        <argsstring></argsstring>
+        <name>tempPath</name>
+        <qualifiedname>ScenesManager.SavingManager.tempPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="30" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_saving_manager_1a283fcee62e1c977483bb2ceac3629ece" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref> &gt;</type>
+        <definition>List&lt;RoomCellLayout&gt; ScenesManager.SavingManager.roomTemplates</definition>
+        <argsstring></argsstring>
+        <name>roomTemplates</name>
+        <qualifiedname>ScenesManager.SavingManager.roomTemplates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="32" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1ae2cbf1afec6818d126724fffc5b4adfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ScenesManager.SavingManager.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="37" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a00509eab223fd1d4f652571087ca149c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ScenesManager.SavingManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="39" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a0c0aeceb62fb83b5fed097e74714d1eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>ScenesManager.SavingManager.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="44" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1aa0e4ddd24a8c8c4d24a518599ba44176" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>ScenesManager.SavingManager.Init</qualifiedname>
+        <briefdescription>
+<para>methode that loads room templates form data files and finds theirs paths locations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="55" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a9b1c2505edf3a7061acb6832ab362c39" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.InitVariables</definition>
+        <argsstring>()</argsstring>
+        <name>InitVariables</name>
+        <qualifiedname>ScenesManager.SavingManager.InitVariables</qualifiedname>
+        <briefdescription>
+<para>methode that initializes files paths locations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="64" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a48d0b1952d7860fd504d73774acf752e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.GetTemplatesLocations</definition>
+        <argsstring>()</argsstring>
+        <name>GetTemplatesLocations</name>
+        <qualifiedname>ScenesManager.SavingManager.GetTemplatesLocations</qualifiedname>
+        <briefdescription>
+<para>methode that returns file paths locations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="74" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="74" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a14ff994129e54272691414af8df548bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.LoadAllTemplates</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAllTemplates</name>
+        <qualifiedname>ScenesManager.SavingManager.LoadAllTemplates</qualifiedname>
+        <briefdescription>
+<para>methode that loads all data files data to lists </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="90" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a6d326fb52ecdc3eeceb5f6236789fc8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref></type>
+        <definition>RoomCellLayout ScenesManager.SavingManager.LoadRoomCellLayout</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadRoomCellLayout</name>
+        <qualifiedname>ScenesManager.SavingManager.LoadRoomCellLayout</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>methode that loads room cell layout form data file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="101" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="101" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a1649ae75b8cbecd6a3a4e4c9cf84dfa7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.SaveRoomCellLayout</definition>
+        <argsstring>(RoomCellLayout cellLayout, string fileName)</argsstring>
+        <name>SaveRoomCellLayout</name>
+        <qualifiedname>ScenesManager.SavingManager.SaveRoomCellLayout</qualifiedname>
+        <param>
+          <type><ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref></type>
+          <declname>cellLayout</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>methode that saves room cell layout to file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="113" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1af99f8e33139985f50a52e474202f75d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref> &gt;</type>
+        <definition>List&lt; RoomCellLayout &gt; ScenesManager.SavingManager.GetAllTemplates</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTemplates</name>
+        <qualifiedname>ScenesManager.SavingManager.GetAllTemplates</qualifiedname>
+        <briefdescription>
+<para>methode that returns all loaded files templates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="122" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a1917d33b218a9bf4deebfa9446a8dea4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>ScenesManager.SavingManager.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables saving and loading events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="127" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_saving_manager_1a8cf476fb7f758854b949ce542d77c41b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SavingManager.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>ScenesManager.SavingManager.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disbales saving and loading events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="138" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="138" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements saving and loading logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.SavingManager</label>
+        <link refid="class_scenes_manager_1_1_saving_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.SavingManager</label>
+        <link refid="class_scenes_manager_1_1_saving_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" line="15" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SavingManager.cs" bodystart="16" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1_1_saving_manager_1ae2cbf1afec6818d126724fffc5b4adfb" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>Awake</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1ae2894fe241123bef556b457c57f567f3" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>destination</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a8cf476fb7f758854b949ce542d77c41b" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>DisableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a1917d33b218a9bf4deebfa9446a8dea4" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>EnableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1af99f8e33139985f50a52e474202f75d1" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>GetAllTemplates</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a48d0b1952d7860fd504d73774acf752e" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>GetTemplatesLocations</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1aa0e4ddd24a8c8c4d24a518599ba44176" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>Init</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a9b1c2505edf3a7061acb6832ab362c39" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>InitVariables</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a14ff994129e54272691414af8df548bf" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>LoadAllTemplates</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a6d326fb52ecdc3eeceb5f6236789fc8d" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>LoadRoomCellLayout</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a0c0aeceb62fb83b5fed097e74714d1eb" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>OnDisable</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a00509eab223fd1d4f652571087ca149c" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>OnEnable</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a283fcee62e1c977483bb2ceac3629ece" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>roomTemplates</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a16d96031f5c38ea966a24b66f3c0dd10" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>SaveEvents</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a1649ae75b8cbecd6a3a4e4c9cf84dfa7" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>SaveRoomCellLayout</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1af8fa13183d3dffd0847612ea26959b27" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>TemplateNamList</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a4aa380d4a470673865fa98e32f13b3bb" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>templatesPaths</name></member>
+      <member refid="class_scenes_manager_1_1_saving_manager_1a8338c87e42e1fd0a272c9054d42589d6" prot="private" virt="non-virtual"><scope>ScenesManager::SavingManager</scope><name>tempPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

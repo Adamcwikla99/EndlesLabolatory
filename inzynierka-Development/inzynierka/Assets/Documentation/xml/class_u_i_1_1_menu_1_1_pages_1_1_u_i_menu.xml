@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>UI::Menu::Pages::UIMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu" prot="public" virt="non-virtual">UI.Menu.Pages.CreditsMenu</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu" prot="public" virt="non-virtual">UI.Menu.Pages.EndGameMenu</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_popup" prot="public" virt="non-virtual">UI.Menu.Pages.EndGamePopup</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_main_menu" prot="public" virt="non-virtual">UI.Menu.Pages.MainMenu</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_options_menu" prot="public" virt="non-virtual">UI.Menu.Pages.OptionsMenu</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_pause_menu" prot="public" virt="non-virtual">UI.Menu.Pages.PauseMenu</derivedcompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a12aaec1e5ab532b24922e876038759dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.Pages.UIMenu.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>UI.Menu.Pages.UIMenu.OnEnable</qualifiedname>
+        <briefdescription>
+<para>methode that assures that event assignment methode will be always called </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" line="15" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a79d4b1063d0399e9e07b572fa626222d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.Pages.UIMenu.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>UI.Menu.Pages.UIMenu.OnDisable</qualifiedname>
+        <briefdescription>
+<para>methode that assures that event unassignment methode will be always called </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" line="23" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a31b0c9caf56b78e516d9198387427d0b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UI.Menu.Pages.UIMenu.SubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeEvents</name>
+        <qualifiedname>UI.Menu.Pages.UIMenu.SubscribeEvents</qualifiedname>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a95f4a54319628108c65163738e18a82b">SubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ab71e4041259d853ad59975c096c70049">SubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_popup_1adc7e4b785daeb58305e03d8a1ffbdda8">SubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_main_menu_1a6eb2ec5403dc2b44a61939a9738ed61f">SubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_options_menu_1a843a5d9a1ecf3c36722ecabaeb3cca3e">SubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_pause_menu_1a22c5af7378501349dd0cd3c62fdbbab2">SubscribeEvents</reimplementedby>
+        <briefdescription>
+<para>abstract methode that should contain assigment of action methods and initializing values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" line="34" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a0a54b6c0601a701b30daa453b530b7a4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void UI.Menu.Pages.UIMenu.UnsubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeEvents</name>
+        <qualifiedname>UI.Menu.Pages.UIMenu.UnsubscribeEvents</qualifiedname>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1ab8e7296d4565b0e2b5b7a0e6d15ee97c">UnsubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ac74687cbd1121c05cdd76358457c9c25">UnsubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_popup_1a63822ba0c2ba9d1a0d91693bd00322fd">UnsubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_main_menu_1abb9592d1608ff1c724ba4dd090a78473">UnsubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_options_menu_1a661c917980ff046d88b61ac70d63ce01">UnsubscribeEvents</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_menu_1_1_pages_1_1_pause_menu_1a784ce4ef6926defa6b8d19912686934b">UnsubscribeEvents</reimplementedby>
+        <briefdescription>
+<para>abstract methode that should contain assigment of action methods and initializing values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" line="39" column="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements basic ui methods logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.Pages.UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UI.Menu.Pages.CreditsMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UI.Menu.Pages.EndGameMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UI.Menu.Pages.EndGamePopup</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_popup"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>UI.Menu.Pages.MainMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_main_menu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>UI.Menu.Pages.OptionsMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_options_menu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>UI.Menu.Pages.PauseMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_pause_menu"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.Pages.UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" line="8" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/UIMenu.cs" bodystart="9" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a79d4b1063d0399e9e07b572fa626222d" prot="protected" virt="non-virtual"><scope>UI::Menu::Pages::UIMenu</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a12aaec1e5ab532b24922e876038759dd" prot="protected" virt="non-virtual"><scope>UI::Menu::Pages::UIMenu</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a31b0c9caf56b78e516d9198387427d0b" prot="protected" virt="pure-virtual"><scope>UI::Menu::Pages::UIMenu</scope><name>SubscribeEvents</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a0a54b6c0601a701b30daa453b530b7a4" prot="protected" virt="pure-virtual"><scope>UI::Menu::Pages::UIMenu</scope><name>UnsubscribeEvents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

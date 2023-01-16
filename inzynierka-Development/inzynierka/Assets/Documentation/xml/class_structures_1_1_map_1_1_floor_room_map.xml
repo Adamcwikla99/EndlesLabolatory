@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_floor_room_map" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::FloorRoomMap</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a7765daafcfd4962e76e01078718ed000" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+        <definition>FloorDimensions Structures.Map.FloorRoomMap.floorDimensions</definition>
+        <argsstring></argsstring>
+        <name>floorDimensions</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.floorDimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="16" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a4308ef41f71c5c427ee7226faea33312" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Structures.Map.FloorRoomMap.gridCount</definition>
+        <argsstring></argsstring>
+        <name>gridCount</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.gridCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="18" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1aba431a28b25f113688e7fb05cd8c45d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Structures.Map.FloorRoomMap.mapGenerated</definition>
+        <argsstring></argsstring>
+        <name>mapGenerated</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.mapGenerated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="20" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1aa5da52e296c3d7d403d798cdd30e5882" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref></type>
+        <definition>MapGenerationParameters Structures.Map.FloorRoomMap.generationParameters</definition>
+        <argsstring></argsstring>
+        <name>generationParameters</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.generationParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="22" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a7f271a2516961c6dbd47eb95af3e9f8c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.FloorRoomMap.middle</definition>
+        <argsstring></argsstring>
+        <name>middle</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.middle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="24" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a119edbfdb1e68002fe87e7c54a540d06" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+        <definition>CordsXY [] Structures.Map.FloorRoomMap.allCordsAroundMiddle</definition>
+        <argsstring></argsstring>
+        <name>allCordsAroundMiddle</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.allCordsAroundMiddle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="26" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1ac71f6fed6f3cfd296bba1fc5ba279fd7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Structures.Map.FloorRoomMap.pointsAroundMiddleCount</definition>
+        <argsstring></argsstring>
+        <name>pointsAroundMiddleCount</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.pointsAroundMiddleCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="28" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1acfec53de087a2f687d5639656abfc14c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+        <definition>FloorEssentialRooms Structures.Map.FloorRoomMap.floorEssentialRooms</definition>
+        <argsstring></argsstring>
+        <name>floorEssentialRooms</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.floorEssentialRooms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="30" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1aa3e1347a2299ec059ab9226a006fa70e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_rooms_nodes" kindref="compound">FloorRoomsNodes</ref></type>
+        <definition>FloorRoomsNodes Structures.Map.FloorRoomMap.roomsNodes</definition>
+        <argsstring></argsstring>
+        <name>roomsNodes</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.roomsNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="32" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1aa4953c54fa43fc199efda143b3edc591" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+        <definition>Row [] Structures.Map.FloorRoomMap.rows</definition>
+        <argsstring></argsstring>
+        <name>rows</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="34" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a33426dcc0668c971b8fb992466d05be3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Structures.Map.FloorRoomMap.mapFilment</definition>
+        <argsstring></argsstring>
+        <name>mapFilment</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.mapFilment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="36" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a64bd99b686cfd4bc9e0b9b9fe182a928" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_inicjalizator" kindref="compound">FloorInicjalizator</ref></type>
+        <definition>FloorInicjalizator Structures.Map.FloorRoomMap.mapInicjalizator</definition>
+        <argsstring></argsstring>
+        <name>mapInicjalizator</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.mapInicjalizator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="38" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1af676a327f3f33c2f0c634816de5acc7a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator" kindref="compound">BasePathsGenerator</ref></type>
+        <definition>BasePathsGenerator Structures.Map.FloorRoomMap.basePathsGenerator</definition>
+        <argsstring></argsstring>
+        <name>basePathsGenerator</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.basePathsGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="40" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a4a716da1aba6e3e33bd18e62b58618ea" prot="private" static="no" mutable="no">
+        <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_boss_room_generator" kindref="compound">BossRoomGenerator</ref></type>
+        <definition>BossRoomGenerator Structures.Map.FloorRoomMap.bossRoomGenerator</definition>
+        <argsstring></argsstring>
+        <name>bossRoomGenerator</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.bossRoomGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="42" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_room_map_1a8a48fcb8b6e049f30b261155edc3e7d4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator" kindref="compound">ShopRoomGenerator</ref></type>
+        <definition>ShopRoomGenerator Structures.Map.FloorRoomMap.shopRoomGenerator</definition>
+        <argsstring></argsstring>
+        <name>shopRoomGenerator</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.shopRoomGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="44" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a9a3c419becc9c472e6ccc2a1c60d532d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.FloorRoomMap.FloorRoomMap</definition>
+        <argsstring>(int rowsAmount, int columnsAmount)</argsstring>
+        <name>FloorRoomMap</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.FloorRoomMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rowsAmount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnsAmount</declname>
+        </param>
+        <briefdescription>
+<para>constructor that initializes class initial values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="52" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1ac1505b4035895bff75136f6bc5c2f61a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.GenerateNewMapLayout</definition>
+        <argsstring>(int rowsAmount, int columnsAmount)</argsstring>
+        <name>GenerateNewMapLayout</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GenerateNewMapLayout</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rowsAmount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnsAmount</declname>
+        </param>
+        <briefdescription>
+<para>method that generates new map layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="63" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a6b59d99a4cc8ef9f9f996f44a7d3e159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.GenerateNewMap</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateNewMap</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GenerateNewMap</qualifiedname>
+        <briefdescription>
+<para>methode responsible for map generation process, clears previous attempt and generates new map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="68" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1af95993c28b4b1a6dbeb22b03a397a371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.DebugFloorDisplay</definition>
+        <argsstring>()</argsstring>
+        <name>DebugFloorDisplay</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.DebugFloorDisplay</qualifiedname>
+        <briefdescription>
+<para>debuging methode responsible for displaying generated map layout on console </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="82" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="82" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a7913063021cb7917b3094d47ff9bf254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+        <definition>FloorEssentialRooms Structures.Map.FloorRoomMap.GetFloorEssentialRooms</definition>
+        <argsstring>()</argsstring>
+        <name>GetFloorEssentialRooms</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GetFloorEssentialRooms</qualifiedname>
+        <briefdescription>
+<para>methode responsible for returning special rooms generated on map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="102" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a098003ebfb9d117af53a0864a184cf21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+        <definition>Row[] Structures.Map.FloorRoomMap.GetMap</definition>
+        <argsstring>()</argsstring>
+        <name>GetMap</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GetMap</qualifiedname>
+        <briefdescription>
+<para>methode that returns generated map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="107" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a8dc439315acf838d0cf6f17876b95e52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+        <definition>FloorDimensions Structures.Map.FloorRoomMap.GetMapSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetMapSize</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GetMapSize</qualifiedname>
+        <briefdescription>
+<para>methode that returns generated floor dimensiones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="112" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a17ca9cbb89e24ca3fb037eb3b30a925f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.FloorRoomMap.GetMiddle</definition>
+        <argsstring>()</argsstring>
+        <name>GetMiddle</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GetMiddle</qualifiedname>
+        <briefdescription>
+<para>methode that returns coordinates of middle point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="118" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a9301b0097e534b2c79114e1f38487227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.AdjustGoodMove</definition>
+        <argsstring>(int goodMove)</argsstring>
+        <name>AdjustGoodMove</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.AdjustGoodMove</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>goodMove</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes good move chance parameter of map generation parameter value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="123" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a43ad7a938e7463d21e084de0f32bebb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+        <definition>FloorDimensions Structures.Map.FloorRoomMap.GetFloorDimensions</definition>
+        <argsstring>()</argsstring>
+        <name>GetFloorDimensions</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GetFloorDimensions</qualifiedname>
+        <briefdescription>
+<para>methode that returns floor dimensions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="128" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a3eda69a4ef86cd37dac09f819256f15b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.AdjustGenerationSettings</definition>
+        <argsstring>(int goodMove, float boosDistance, float shopDistance, float maxNodePercentage, float mapFillPercentage)</argsstring>
+        <name>AdjustGenerationSettings</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.AdjustGenerationSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>goodMove</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boosDistance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shopDistance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNodePercentage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mapFillPercentage</declname>
+        </param>
+        <briefdescription>
+<para>methode that allows for adjustments of floor generation parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>goodMove</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boosDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shopDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxNodePercentage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mapFillPercentage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="138" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="138" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1abee7075413401b2e01cbed6477f69460" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.AdjustDistance</definition>
+        <argsstring>(float boosDistance, float shopDistance)</argsstring>
+        <name>AdjustDistance</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.AdjustDistance</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>boosDistance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shopDistance</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes shop room nad boss room spawning distance parameter of map generation parameter value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="150" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a51f8ea2a73b3aa2be36321310004d6a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.AdjustMapFillParameters</definition>
+        <argsstring>(float maxNodePercentage, float mapFillPercentage)</argsstring>
+        <name>AdjustMapFillParameters</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.AdjustMapFillParameters</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxNodePercentage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mapFillPercentage</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes map filment parameter of map generation parameter value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="159" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="159" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a0130dae10ad1fba0889e8478a6b0e326" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.ClearMap</definition>
+        <argsstring>()</argsstring>
+        <name>ClearMap</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.ClearMap</qualifiedname>
+        <briefdescription>
+<para>methode responsible for removing previous attempt traces </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="171" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="171" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1aaa61190b0511bcc2d15420c7bc9bf89d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.InitMapConsts</definition>
+        <argsstring>(int rowsAmount, int columnsAmount)</argsstring>
+        <name>InitMapConsts</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.InitMapConsts</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rowsAmount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnsAmount</declname>
+        </param>
+        <briefdescription>
+<para>methode that initializes class variables </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="191" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="191" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a969fd467b98eff47f492590f12c7dda9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.Generate</definition>
+        <argsstring>()</argsstring>
+        <name>Generate</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.Generate</qualifiedname>
+        <briefdescription>
+<para>methode responsible for whole floor layout generation process - setting special rooms and normal rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="204" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="204" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a0a35000dcee7309550855bdeb193a634" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.GenerateBasePaths</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateBasePaths</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GenerateBasePaths</qualifiedname>
+        <briefdescription>
+<para>methode responsible for setting layout base paths </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="217" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="217" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1ae3b272dee7a53e8f3dc91235d8c2f68b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.GenerateBossRoom</definition>
+        <argsstring>(ref List&lt;(CordsXY cord, float dist)&gt; distanceList)</argsstring>
+        <name>GenerateBossRoom</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GenerateBossRoom</qualifiedname>
+        <param>
+          <type>ref List&lt;(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> cord, float dist)&gt;</type>
+          <declname>distanceList</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for setting boss room on floor layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="226" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="226" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1ab9d1f1fbdcca834d45ad7ae38b5f5e1c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.GenerateShopRoom</definition>
+        <argsstring>(List&lt;(CordsXY cord, float dist)&gt; distanceList)</argsstring>
+        <name>GenerateShopRoom</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GenerateShopRoom</qualifiedname>
+        <param>
+          <type>List&lt;(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> cord, float dist)&gt;</type>
+          <declname>distanceList</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for setting shop room on floor layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="239" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="239" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1ac97df400daffbc90e0cc8e7bd3055ae5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.GenerateItemRoomBasedOnShopRoom</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateItemRoomBasedOnShopRoom</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.GenerateItemRoomBasedOnShopRoom</qualifiedname>
+        <briefdescription>
+<para>methode responsible for setting item room on floor layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="253" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="253" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1ac4d12a07073d2e2a46609390afd5145c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.FloorEssentialCheck</definition>
+        <argsstring>()</argsstring>
+        <name>FloorEssentialCheck</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.FloorEssentialCheck</qualifiedname>
+        <briefdescription>
+<para>methode check if the generator placed all essential rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="264" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="264" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_room_map_1a2cc45bc96b93dd85139e2e9f2df89d1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorRoomMap.IndividualColumnCheck</definition>
+        <argsstring>(RoomType column, ref bool itemRoom, ref bool shopRoom, ref bool bossRoom)</argsstring>
+        <name>IndividualColumnCheck</name>
+        <qualifiedname>Structures.Map.FloorRoomMap.IndividualColumnCheck</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>itemRoom</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>shopRoom</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>bossRoom</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if selected cell if of one of special room types </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="286" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="286" bodyend="302"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements floor room map generation and managment logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" line="12" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorRoomMap.cs" bodystart="13" bodyend="305"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1abee7075413401b2e01cbed6477f69460" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>AdjustDistance</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a3eda69a4ef86cd37dac09f819256f15b" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>AdjustGenerationSettings</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a9301b0097e534b2c79114e1f38487227" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>AdjustGoodMove</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a51f8ea2a73b3aa2be36321310004d6a6" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>AdjustMapFillParameters</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a119edbfdb1e68002fe87e7c54a540d06" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>allCordsAroundMiddle</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1af676a327f3f33c2f0c634816de5acc7a" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>basePathsGenerator</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a4a716da1aba6e3e33bd18e62b58618ea" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>bossRoomGenerator</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a0130dae10ad1fba0889e8478a6b0e326" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>ClearMap</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1af95993c28b4b1a6dbeb22b03a397a371" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>DebugFloorDisplay</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a7765daafcfd4962e76e01078718ed000" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>floorDimensions</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1ac4d12a07073d2e2a46609390afd5145c" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>FloorEssentialCheck</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1acfec53de087a2f687d5639656abfc14c" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>floorEssentialRooms</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a9a3c419becc9c472e6ccc2a1c60d532d" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>FloorRoomMap</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a969fd467b98eff47f492590f12c7dda9" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>Generate</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a0a35000dcee7309550855bdeb193a634" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GenerateBasePaths</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1ae3b272dee7a53e8f3dc91235d8c2f68b" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GenerateBossRoom</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1ac97df400daffbc90e0cc8e7bd3055ae5" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GenerateItemRoomBasedOnShopRoom</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a6b59d99a4cc8ef9f9f996f44a7d3e159" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GenerateNewMap</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1ac1505b4035895bff75136f6bc5c2f61a" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GenerateNewMapLayout</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1ab9d1f1fbdcca834d45ad7ae38b5f5e1c" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GenerateShopRoom</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1aa5da52e296c3d7d403d798cdd30e5882" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>generationParameters</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a43ad7a938e7463d21e084de0f32bebb4" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GetFloorDimensions</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a7913063021cb7917b3094d47ff9bf254" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GetFloorEssentialRooms</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a098003ebfb9d117af53a0864a184cf21" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GetMap</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a8dc439315acf838d0cf6f17876b95e52" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GetMapSize</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a17ca9cbb89e24ca3fb037eb3b30a925f" prot="public" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>GetMiddle</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a4308ef41f71c5c427ee7226faea33312" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>gridCount</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a2cc45bc96b93dd85139e2e9f2df89d1d" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>IndividualColumnCheck</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1aaa61190b0511bcc2d15420c7bc9bf89d" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>InitMapConsts</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a33426dcc0668c971b8fb992466d05be3" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>mapFilment</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1aba431a28b25f113688e7fb05cd8c45d2" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>mapGenerated</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a64bd99b686cfd4bc9e0b9b9fe182a928" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>mapInicjalizator</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a7f271a2516961c6dbd47eb95af3e9f8c" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>middle</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1ac71f6fed6f3cfd296bba1fc5ba279fd7" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>pointsAroundMiddleCount</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1aa3e1347a2299ec059ab9226a006fa70e" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>roomsNodes</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1aa4953c54fa43fc199efda143b3edc591" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>rows</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_room_map_1a8a48fcb8b6e049f30b261155edc3e7d4" prot="private" virt="non-virtual"><scope>Structures::Map::FloorRoomMap</scope><name>shopRoomGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

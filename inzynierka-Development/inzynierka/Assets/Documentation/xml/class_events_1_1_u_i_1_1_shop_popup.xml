@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_u_i_1_1_shop_popup" kind="class" language="C#" prot="public">
+    <compoundname>Events::UI::ShopPopup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_u_i_1_1_shop_popup_1a5816794b3a23fa3e46dfe22e5462c49c" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="namespace_structures_1_1_enums_1a353e642a7ebf8ccd94fdb8ac70b41796" kindref="member">ShopItemType</ref>, float, float &gt;</type>
+        <definition>System.Action&lt;ShopItemType, float, float&gt; Events.UI.ShopPopup.PopPopup</definition>
+        <argsstring></argsstring>
+        <name>PopPopup</name>
+        <qualifiedname>Events.UI.ShopPopup.PopPopup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/ShopPopup.cs" line="12" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/ShopPopup.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_u_i_1_1_shop_popup_1ae24564f1d8f0866a40b4312a36c1f40a" prot="public" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Events.UI.ShopPopup.TurnOffPopup</definition>
+        <argsstring></argsstring>
+        <name>TurnOffPopup</name>
+        <qualifiedname>Events.UI.ShopPopup.TurnOffPopup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/ShopPopup.cs" line="13" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/ShopPopup.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying showing and hiding events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.UI.ShopPopup</label>
+        <link refid="class_events_1_1_u_i_1_1_shop_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.UI.ShopPopup</label>
+        <link refid="class_events_1_1_u_i_1_1_shop_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>PopPopup</edgelabel>
+          <edgelabel>TurnOffPopup</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/ShopPopup.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/ShopPopup.cs" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_u_i_1_1_shop_popup_1a5816794b3a23fa3e46dfe22e5462c49c" prot="public" virt="non-virtual"><scope>Events::UI::ShopPopup</scope><name>PopPopup</name></member>
+      <member refid="class_events_1_1_u_i_1_1_shop_popup_1ae24564f1d8f0866a40b4312a36c1f40a" prot="public" virt="non-virtual"><scope>Events::UI::ShopPopup</scope><name>TurnOffPopup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

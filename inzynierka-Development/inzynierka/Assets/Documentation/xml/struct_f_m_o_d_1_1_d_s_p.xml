@@ -1,0 +1,2293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_d_s_p" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::DSP</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_d_s_p_1a05cd14b288abd9dea2ca6f08abcd2e41" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.DSP.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.DSP.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3532" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3532" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ae40c39c8ab23fe06bdecb96edd8bbe32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.DSP.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3239" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3239" bodyend="3242"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a01c133af7873b83bee48889f2f075bf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getSystemObject</definition>
+        <argsstring>(out System system)</argsstring>
+        <name>getSystemObject</name>
+        <qualifiedname>FMOD.DSP.getSystemObject</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_system" kindref="compound">System</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3243" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3243" bodyend="3246"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a67c5e1faeb2427163a4fc57248c2c178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.addInput</definition>
+        <argsstring>(DSP input)</argsstring>
+        <name>addInput</name>
+        <qualifiedname>FMOD.DSP.addInput</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">DSP</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3249" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3249" bodyend="3252"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a8e98e39c19b50b698a48399c144203b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.addInput</definition>
+        <argsstring>(DSP input, out DSPConnection connection, DSPCONNECTION_TYPE type=DSPCONNECTION_TYPE.STANDARD)</argsstring>
+        <name>addInput</name>
+        <qualifiedname>FMOD.DSP.addInput</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">DSP</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p_connection" kindref="compound">DSPConnection</ref></type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1abd730a6ff8b969c2f90d4123deb42aca" kindref="member">DSPCONNECTION_TYPE</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="namespace_f_m_o_d_1abd730a6ff8b969c2f90d4123deb42acaa94e94133f4bdc1794c6b647b8ea134d0" kindref="member">DSPCONNECTION_TYPE.STANDARD</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3253" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3253" bodyend="3256"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a7de3055ef8036b3c45fe708489fa9091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.disconnectFrom</definition>
+        <argsstring>(DSP target, DSPConnection connection)</argsstring>
+        <name>disconnectFrom</name>
+        <qualifiedname>FMOD.DSP.disconnectFrom</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">DSP</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_d_s_p_connection" kindref="compound">DSPConnection</ref></type>
+          <declname>connection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3257" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3257" bodyend="3260"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a8b07d66e98e0c959763b746df5422fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.disconnectAll</definition>
+        <argsstring>(bool inputs, bool outputs)</argsstring>
+        <name>disconnectAll</name>
+        <qualifiedname>FMOD.DSP.disconnectAll</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>outputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3261" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3261" bodyend="3264"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1af26eb2c452f0ef816a6098395e4f0c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getNumInputs</definition>
+        <argsstring>(out int numinputs)</argsstring>
+        <name>getNumInputs</name>
+        <qualifiedname>FMOD.DSP.getNumInputs</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numinputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3265" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3265" bodyend="3268"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a02296a0f4370041e74d427172750bd76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getNumOutputs</definition>
+        <argsstring>(out int numoutputs)</argsstring>
+        <name>getNumOutputs</name>
+        <qualifiedname>FMOD.DSP.getNumOutputs</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numoutputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3269" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3269" bodyend="3272"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a9cdc8729a61c64aba4c951b4e175358f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getInput</definition>
+        <argsstring>(int index, out DSP input, out DSPConnection inputconnection)</argsstring>
+        <name>getInput</name>
+        <qualifiedname>FMOD.DSP.getInput</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">DSP</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p_connection" kindref="compound">DSPConnection</ref></type>
+          <declname>inputconnection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3273" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3273" bodyend="3276"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ab9a4ff367880a3f11f0d9fd1b13b6471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getOutput</definition>
+        <argsstring>(int index, out DSP output, out DSPConnection outputconnection)</argsstring>
+        <name>getOutput</name>
+        <qualifiedname>FMOD.DSP.getOutput</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">DSP</ref></type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p_connection" kindref="compound">DSPConnection</ref></type>
+          <declname>outputconnection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3277" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3277" bodyend="3280"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a4550289d35ae8cbc8705b6336b8f9442" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setActive</name>
+        <qualifiedname>FMOD.DSP.setActive</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3283" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3283" bodyend="3286"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a23023e1c53c97ab3a1931a4ec5a9ea5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getActive</definition>
+        <argsstring>(out bool active)</argsstring>
+        <name>getActive</name>
+        <qualifiedname>FMOD.DSP.getActive</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3287" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3287" bodyend="3290"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a4168480afea4775637ed9443046de78f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setBypass</definition>
+        <argsstring>(bool bypass)</argsstring>
+        <name>setBypass</name>
+        <qualifiedname>FMOD.DSP.setBypass</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bypass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3291" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3291" bodyend="3294"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a5fd30b33615332c87ed8f19975f910a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getBypass</definition>
+        <argsstring>(out bool bypass)</argsstring>
+        <name>getBypass</name>
+        <qualifiedname>FMOD.DSP.getBypass</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>bypass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3295" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3295" bodyend="3298"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a1e4aa96dc5b5082f506adbb913c1bc6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setWetDryMix</definition>
+        <argsstring>(float prewet, float postwet, float dry)</argsstring>
+        <name>setWetDryMix</name>
+        <qualifiedname>FMOD.DSP.setWetDryMix</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>prewet</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>postwet</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3299" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3299" bodyend="3302"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ae5fffc548d67b21ba56c0c678e7d3a78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getWetDryMix</definition>
+        <argsstring>(out float prewet, out float postwet, out float dry)</argsstring>
+        <name>getWetDryMix</name>
+        <qualifiedname>FMOD.DSP.getWetDryMix</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>prewet</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>postwet</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>dry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3303" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3303" bodyend="3306"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a9e209a66e01c2373bc7d93e0a61a3afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setChannelFormat</definition>
+        <argsstring>(CHANNELMASK channelmask, int numchannels, SPEAKERMODE source_speakermode)</argsstring>
+        <name>setChannelFormat</name>
+        <qualifiedname>FMOD.DSP.setChannelFormat</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>channelmask</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numchannels</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>source_speakermode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3307" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3307" bodyend="3310"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1afcba15be09b480630d20aa4312918723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getChannelFormat</definition>
+        <argsstring>(out CHANNELMASK channelmask, out int numchannels, out SPEAKERMODE source_speakermode)</argsstring>
+        <name>getChannelFormat</name>
+        <qualifiedname>FMOD.DSP.getChannelFormat</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>channelmask</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numchannels</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>source_speakermode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3311" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3311" bodyend="3314"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a14c95c99fc6698bb176a85cb4d380036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getOutputChannelFormat</definition>
+        <argsstring>(CHANNELMASK inmask, int inchannels, SPEAKERMODE inspeakermode, out CHANNELMASK outmask, out int outchannels, out SPEAKERMODE outspeakermode)</argsstring>
+        <name>getOutputChannelFormat</name>
+        <qualifiedname>FMOD.DSP.getOutputChannelFormat</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>inmask</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inchannels</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>inspeakermode</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>outmask</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>outchannels</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>outspeakermode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3315" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3315" bodyend="3318"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a9d60931bf4c560ff79a28e48ff7da66d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>FMOD.DSP.reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3319" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3319" bodyend="3322"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aaa3b811b9eaf31dad15e695cf2770645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setParameterFloat</definition>
+        <argsstring>(int index, float value)</argsstring>
+        <name>setParameterFloat</name>
+        <qualifiedname>FMOD.DSP.setParameterFloat</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3325" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3325" bodyend="3328"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a8d8a5a568001f1df253d1842393187ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setParameterInt</definition>
+        <argsstring>(int index, int value)</argsstring>
+        <name>setParameterInt</name>
+        <qualifiedname>FMOD.DSP.setParameterInt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3329" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3329" bodyend="3332"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a3a9e7406668ed5b8a6b3d2d402901741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setParameterBool</definition>
+        <argsstring>(int index, bool value)</argsstring>
+        <name>setParameterBool</name>
+        <qualifiedname>FMOD.DSP.setParameterBool</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3333" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3333" bodyend="3336"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aed93a25cbab0c186134d5725e761315b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setParameterData</definition>
+        <argsstring>(int index, byte[] data)</argsstring>
+        <name>setParameterData</name>
+        <qualifiedname>FMOD.DSP.setParameterData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3337" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3337" bodyend="3340"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a126a21495cfc47d5a7782779f58bf2fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getParameterFloat</definition>
+        <argsstring>(int index, out float value)</argsstring>
+        <name>getParameterFloat</name>
+        <qualifiedname>FMOD.DSP.getParameterFloat</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3341" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3341" bodyend="3344"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a93b5432794048642c905e41eaeb3566c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getParameterInt</definition>
+        <argsstring>(int index, out int value)</argsstring>
+        <name>getParameterInt</name>
+        <qualifiedname>FMOD.DSP.getParameterInt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3345" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3345" bodyend="3348"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1acc04bea0fdec2a13b8c2109ab99a9f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getParameterBool</definition>
+        <argsstring>(int index, out bool value)</argsstring>
+        <name>getParameterBool</name>
+        <qualifiedname>FMOD.DSP.getParameterBool</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3349" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3349" bodyend="3352"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a228cbd3a8b9104395c749730ca094226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getParameterData</definition>
+        <argsstring>(int index, out IntPtr data, out uint length)</argsstring>
+        <name>getParameterData</name>
+        <qualifiedname>FMOD.DSP.getParameterData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3353" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3353" bodyend="3356"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ae1438b5d53f7c2c6e7ba023c8fd8b06f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getNumParameters</definition>
+        <argsstring>(out int numparams)</argsstring>
+        <name>getNumParameters</name>
+        <qualifiedname>FMOD.DSP.getNumParameters</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numparams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3357" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3357" bodyend="3360"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a86296128281b8872e1494647f2fa41f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getParameterInfo</definition>
+        <argsstring>(int index, out DSP_PARAMETER_DESC desc)</argsstring>
+        <name>getParameterInfo</name>
+        <qualifiedname>FMOD.DSP.getParameterInfo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r___d_e_s_c" kindref="compound">DSP_PARAMETER_DESC</ref></type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3361" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3361" bodyend="3367"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ab68360d5ad1f662b6af4b5d8e5caf80d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getDataParameterIndex</definition>
+        <argsstring>(int datatype, out int index)</argsstring>
+        <name>getDataParameterIndex</name>
+        <qualifiedname>FMOD.DSP.getDataParameterIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>datatype</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3368" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3368" bodyend="3371"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ab7dddd8b248f1b83464cc984094bffb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.showConfigDialog</definition>
+        <argsstring>(IntPtr hwnd, bool show)</argsstring>
+        <name>showConfigDialog</name>
+        <qualifiedname>FMOD.DSP.showConfigDialog</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>hwnd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3372" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3372" bodyend="3375"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ae2a8bdce836428f69c32ea99b7c038f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getInfo</definition>
+        <argsstring>(out string name, out uint version, out int channels, out int configwidth, out int configheight)</argsstring>
+        <name>getInfo</name>
+        <qualifiedname>FMOD.DSP.getInfo</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>channels</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>configwidth</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>configheight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3378" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3378" bodyend="3389"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a30f254fbd4e71c637815c524bcd2c1af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getInfo</definition>
+        <argsstring>(out uint version, out int channels, out int configwidth, out int configheight)</argsstring>
+        <name>getInfo</name>
+        <qualifiedname>FMOD.DSP.getInfo</qualifiedname>
+        <param>
+          <type>out uint</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>channels</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>configwidth</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>configheight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3390" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3390" bodyend="3393"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a90873e967a2e0bec74828ed1da507cde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getType</definition>
+        <argsstring>(out DSP_TYPE type)</argsstring>
+        <name>getType</name>
+        <qualifiedname>FMOD.DSP.getType</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1abfbbfe13740257430ae8350c2456b0ff" kindref="member">DSP_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3394" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3394" bodyend="3397"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a3f643f98646f1f15c1fc3cf446aa7c25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getIdle</definition>
+        <argsstring>(out bool idle)</argsstring>
+        <name>getIdle</name>
+        <qualifiedname>FMOD.DSP.getIdle</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>idle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3398" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3398" bodyend="3401"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a9d1f48a083751c222998aeaaf1ea7c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.DSP.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3404" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3404" bodyend="3407"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ade41e932d36f2075c359f9531215fad5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.DSP.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3408" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3408" bodyend="3411"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ab6bb9f4fa104f2ec9ad8c865901cb58f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.setMeteringEnabled</definition>
+        <argsstring>(bool inputEnabled, bool outputEnabled)</argsstring>
+        <name>setMeteringEnabled</name>
+        <qualifiedname>FMOD.DSP.setMeteringEnabled</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>inputEnabled</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>outputEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3414" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3414" bodyend="3417"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a1e6600f84abe122d30f3f708b41dd24e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getMeteringEnabled</definition>
+        <argsstring>(out bool inputEnabled, out bool outputEnabled)</argsstring>
+        <name>getMeteringEnabled</name>
+        <qualifiedname>FMOD.DSP.getMeteringEnabled</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>inputEnabled</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>outputEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3418" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3418" bodyend="3421"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aea1a9c6ca03fdb46a6f3a506e5fe0679" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getMeteringInfo</definition>
+        <argsstring>(IntPtr zero, out DSP_METERING_INFO outputInfo)</argsstring>
+        <name>getMeteringInfo</name>
+        <qualifiedname>FMOD.DSP.getMeteringInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>outputInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3423" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3423" bodyend="3426"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a20336442c70422c3f0619f32232aee10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getMeteringInfo</definition>
+        <argsstring>(out DSP_METERING_INFO inputInfo, IntPtr zero)</argsstring>
+        <name>getMeteringInfo</name>
+        <qualifiedname>FMOD.DSP.getMeteringInfo</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>inputInfo</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3427" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3427" bodyend="3430"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a8586394443e1e5261083fccb2e232bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getMeteringInfo</definition>
+        <argsstring>(out DSP_METERING_INFO inputInfo, out DSP_METERING_INFO outputInfo)</argsstring>
+        <name>getMeteringInfo</name>
+        <qualifiedname>FMOD.DSP.getMeteringInfo</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>inputInfo</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>outputInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3431" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3431" bodyend="3434"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a459d1ee7faed4741f967c38d07b87342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.DSP.getCPUUsage</definition>
+        <argsstring>(out uint exclusive, out uint inclusive)</argsstring>
+        <name>getCPUUsage</name>
+        <qualifiedname>FMOD.DSP.getCPUUsage</qualifiedname>
+        <param>
+          <type>out uint</type>
+          <declname>exclusive</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>inclusive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3436" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3436" bodyend="3439"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a7071044a62721e02e1726275179e9007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetMeteringEnabled</definition>
+        <argsstring>(IntPtr dsp, bool inputEnabled, bool outputEnabled)</argsstring>
+        <name>FMOD5_DSP_SetMeteringEnabled</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetMeteringEnabled</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inputEnabled</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>outputEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3517" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1af8fe580a1e5182a351a3f4b3574eb0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetMeteringEnabled</definition>
+        <argsstring>(IntPtr dsp, out bool inputEnabled, out bool outputEnabled)</argsstring>
+        <name>FMOD5_DSP_GetMeteringEnabled</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetMeteringEnabled</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>inputEnabled</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>outputEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3519" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a5c06ec2536f742c22ba98932290ca8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetMeteringInfo</definition>
+        <argsstring>(IntPtr dsp, IntPtr zero, out DSP_METERING_INFO outputInfo)</argsstring>
+        <name>FMOD5_DSP_GetMeteringInfo</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetMeteringInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>outputInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3521" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a314fb6c21e59de5a124404490feea443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetMeteringInfo</definition>
+        <argsstring>(IntPtr dsp, out DSP_METERING_INFO inputInfo, IntPtr zero)</argsstring>
+        <name>FMOD5_DSP_GetMeteringInfo</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetMeteringInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>inputInfo</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3523" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1acf96462a4c07e0bd42f1c48fd31d8920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetMeteringInfo</definition>
+        <argsstring>(IntPtr dsp, out DSP_METERING_INFO inputInfo, out DSP_METERING_INFO outputInfo)</argsstring>
+        <name>FMOD5_DSP_GetMeteringInfo</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetMeteringInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>inputInfo</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_d_s_p___m_e_t_e_r_i_n_g___i_n_f_o" kindref="compound">DSP_METERING_INFO</ref></type>
+          <declname>outputInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3525" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a42b6d185b5802126b948aa15d77ddd0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetCPUUsage</definition>
+        <argsstring>(IntPtr dsp, out uint exclusive, out uint inclusive)</argsstring>
+        <name>FMOD5_DSP_GetCPUUsage</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetCPUUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>exclusive</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>inclusive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3527" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a69ced77fe9ebb0d356d9e2c950e32a1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.DSP.DSP</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>DSP</name>
+        <qualifiedname>FMOD.DSP.DSP</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3534" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3534" bodyend="3534"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a856488338ceac3390694db7a3df88d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.DSP.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.DSP.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3535" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3535" bodyend="3535"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a17b874f20358839dcbe9f2bd292ee228" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.DSP.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.DSP.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3536" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3536" bodyend="3536"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a20c2fa3932e5e60182086cbfbd52e632" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_Release</definition>
+        <argsstring>(IntPtr dsp)</argsstring>
+        <name>FMOD5_DSP_Release</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3443" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a5af6dae2fee02011f3cadfb036124335" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetSystemObject</definition>
+        <argsstring>(IntPtr dsp, out IntPtr system)</argsstring>
+        <name>FMOD5_DSP_GetSystemObject</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetSystemObject</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3445" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a0263b1413733dd9c0c92c3158f7d91e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_AddInput</definition>
+        <argsstring>(IntPtr dsp, IntPtr input, IntPtr zero, DSPCONNECTION_TYPE type)</argsstring>
+        <name>FMOD5_DSP_AddInput</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_AddInput</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1abd730a6ff8b969c2f90d4123deb42aca" kindref="member">DSPCONNECTION_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3447" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a364288e5e7c6a2f949234d36e97aa7c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_AddInput</definition>
+        <argsstring>(IntPtr dsp, IntPtr input, out IntPtr connection, DSPCONNECTION_TYPE type)</argsstring>
+        <name>FMOD5_DSP_AddInput</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_AddInput</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1abd730a6ff8b969c2f90d4123deb42aca" kindref="member">DSPCONNECTION_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3449" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ac3179604994b475efc05c3641c1718b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_DisconnectFrom</definition>
+        <argsstring>(IntPtr dsp, IntPtr target, IntPtr connection)</argsstring>
+        <name>FMOD5_DSP_DisconnectFrom</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_DisconnectFrom</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>connection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3451" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ada1f909644db599ed290452ebb6e938b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_DisconnectAll</definition>
+        <argsstring>(IntPtr dsp, bool inputs, bool outputs)</argsstring>
+        <name>FMOD5_DSP_DisconnectAll</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_DisconnectAll</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>outputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3453" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ad2c46840aa0d854a8f8303ee4f20c73a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetNumInputs</definition>
+        <argsstring>(IntPtr dsp, out int numinputs)</argsstring>
+        <name>FMOD5_DSP_GetNumInputs</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetNumInputs</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numinputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3455" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a17671c0b0ba5093d699d95f2d453f161" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetNumOutputs</definition>
+        <argsstring>(IntPtr dsp, out int numoutputs)</argsstring>
+        <name>FMOD5_DSP_GetNumOutputs</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetNumOutputs</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numoutputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3457" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a84022f433ce35b717c2cd9d2c078ffb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetInput</definition>
+        <argsstring>(IntPtr dsp, int index, out IntPtr input, out IntPtr inputconnection)</argsstring>
+        <name>FMOD5_DSP_GetInput</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetInput</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>inputconnection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3459" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a6afdd5e149a7bb8e6e4549fc25403393" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetOutput</definition>
+        <argsstring>(IntPtr dsp, int index, out IntPtr output, out IntPtr outputconnection)</argsstring>
+        <name>FMOD5_DSP_GetOutput</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetOutput</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>outputconnection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3461" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a9a69aa10bd1e321fa22d5ecf2bf68a8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetActive</definition>
+        <argsstring>(IntPtr dsp, bool active)</argsstring>
+        <name>FMOD5_DSP_SetActive</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetActive</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3463" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a7ace6d205e838949771cde111c1408ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetActive</definition>
+        <argsstring>(IntPtr dsp, out bool active)</argsstring>
+        <name>FMOD5_DSP_GetActive</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetActive</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3465" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a987cd332118a1cf2f7d746a11e961895" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetBypass</definition>
+        <argsstring>(IntPtr dsp, bool bypass)</argsstring>
+        <name>FMOD5_DSP_SetBypass</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetBypass</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bypass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3467" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aa351c1bdeaf1a131c1d129b625388f58" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetBypass</definition>
+        <argsstring>(IntPtr dsp, out bool bypass)</argsstring>
+        <name>FMOD5_DSP_GetBypass</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetBypass</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>bypass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3469" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a815ad53a51e7e51969a5d3412bf77f83" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetWetDryMix</definition>
+        <argsstring>(IntPtr dsp, float prewet, float postwet, float dry)</argsstring>
+        <name>FMOD5_DSP_SetWetDryMix</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetWetDryMix</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prewet</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>postwet</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3471" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a487d1cd708d4dd833300c27e584836e7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetWetDryMix</definition>
+        <argsstring>(IntPtr dsp, out float prewet, out float postwet, out float dry)</argsstring>
+        <name>FMOD5_DSP_GetWetDryMix</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetWetDryMix</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>prewet</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>postwet</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>dry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3473" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a384cd20af5e2bcd4355fbc0a00e45bc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetChannelFormat</definition>
+        <argsstring>(IntPtr dsp, CHANNELMASK channelmask, int numchannels, SPEAKERMODE source_speakermode)</argsstring>
+        <name>FMOD5_DSP_SetChannelFormat</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetChannelFormat</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>channelmask</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numchannels</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>source_speakermode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3475" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a504c6a0a9515cb6937c01eacf141d274" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetChannelFormat</definition>
+        <argsstring>(IntPtr dsp, out CHANNELMASK channelmask, out int numchannels, out SPEAKERMODE source_speakermode)</argsstring>
+        <name>FMOD5_DSP_GetChannelFormat</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetChannelFormat</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>channelmask</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numchannels</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>source_speakermode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3477" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aaf288758994dcaaccd8026a31f058f36" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetOutputChannelFormat</definition>
+        <argsstring>(IntPtr dsp, CHANNELMASK inmask, int inchannels, SPEAKERMODE inspeakermode, out CHANNELMASK outmask, out int outchannels, out SPEAKERMODE outspeakermode)</argsstring>
+        <name>FMOD5_DSP_GetOutputChannelFormat</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetOutputChannelFormat</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>inmask</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inchannels</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>inspeakermode</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1ae295945ff00acb5f2e5ef0b3f217f5e2" kindref="member">CHANNELMASK</ref></type>
+          <declname>outmask</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>outchannels</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">SPEAKERMODE</ref></type>
+          <declname>outspeakermode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3479" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a4da8f68412b87a8ac200e54f9e92472a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_Reset</definition>
+        <argsstring>(IntPtr dsp)</argsstring>
+        <name>FMOD5_DSP_Reset</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_Reset</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3481" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aad9a6060e78d93d3f4ca9b1996bde818" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetParameterFloat</definition>
+        <argsstring>(IntPtr dsp, int index, float value)</argsstring>
+        <name>FMOD5_DSP_SetParameterFloat</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetParameterFloat</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3483" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a097bad1a56e6845283f5b0ffa9b91d2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetParameterInt</definition>
+        <argsstring>(IntPtr dsp, int index, int value)</argsstring>
+        <name>FMOD5_DSP_SetParameterInt</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetParameterInt</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3485" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ae91e7977a3ca28ae0e9ebd610f3a4aab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetParameterBool</definition>
+        <argsstring>(IntPtr dsp, int index, bool value)</argsstring>
+        <name>FMOD5_DSP_SetParameterBool</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetParameterBool</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3487" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ad4304e616da04fb23ea5b8349830a73a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetParameterData</definition>
+        <argsstring>(IntPtr dsp, int index, IntPtr data, uint length)</argsstring>
+        <name>FMOD5_DSP_SetParameterData</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetParameterData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3489" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1af43bbc788c483f2a003f9086e43d6857" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetParameterFloat</definition>
+        <argsstring>(IntPtr dsp, int index, out float value, IntPtr valuestr, int valuestrlen)</argsstring>
+        <name>FMOD5_DSP_GetParameterFloat</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetParameterFloat</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>valuestr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valuestrlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3491" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a4673b36088c8abac795d2c612f935ee0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetParameterInt</definition>
+        <argsstring>(IntPtr dsp, int index, out int value, IntPtr valuestr, int valuestrlen)</argsstring>
+        <name>FMOD5_DSP_GetParameterInt</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetParameterInt</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>valuestr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valuestrlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3493" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1aac0adbbcf128ccc7bca6c639e4b45d5b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetParameterBool</definition>
+        <argsstring>(IntPtr dsp, int index, out bool value, IntPtr valuestr, int valuestrlen)</argsstring>
+        <name>FMOD5_DSP_GetParameterBool</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetParameterBool</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>valuestr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valuestrlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3495" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a3c5d2c3b029340aa41b24a7defd70a9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetParameterData</definition>
+        <argsstring>(IntPtr dsp, int index, out IntPtr data, out uint length, IntPtr valuestr, int valuestrlen)</argsstring>
+        <name>FMOD5_DSP_GetParameterData</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetParameterData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>valuestr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valuestrlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3497" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1ac25c4075cf50f697253584676c6efece" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetNumParameters</definition>
+        <argsstring>(IntPtr dsp, out int numparams)</argsstring>
+        <name>FMOD5_DSP_GetNumParameters</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetNumParameters</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numparams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3499" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a20800d32137a0e7eced76b999d4c7fe0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetParameterInfo</definition>
+        <argsstring>(IntPtr dsp, int index, out IntPtr desc)</argsstring>
+        <name>FMOD5_DSP_GetParameterInfo</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetParameterInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3501" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a76f69dbf4d0af969a9e11f2bf999f73d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetDataParameterIndex</definition>
+        <argsstring>(IntPtr dsp, int datatype, out int index)</argsstring>
+        <name>FMOD5_DSP_GetDataParameterIndex</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetDataParameterIndex</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>datatype</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3503" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a37f25385a55d2b10799eae013d6f97fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_ShowConfigDialog</definition>
+        <argsstring>(IntPtr dsp, IntPtr hwnd, bool show)</argsstring>
+        <name>FMOD5_DSP_ShowConfigDialog</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_ShowConfigDialog</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>hwnd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3505" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a5f2c49600874a0bb8530290b08db2f70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetInfo</definition>
+        <argsstring>(IntPtr dsp, IntPtr name, out uint version, out int channels, out int configwidth, out int configheight)</argsstring>
+        <name>FMOD5_DSP_GetInfo</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>channels</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>configwidth</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>configheight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3507" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a8741fdc02a4232d4558b5c1436896311" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetType</definition>
+        <argsstring>(IntPtr dsp, out DSP_TYPE type)</argsstring>
+        <name>FMOD5_DSP_GetType</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetType</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1abfbbfe13740257430ae8350c2456b0ff" kindref="member">DSP_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3509" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a1e8e3bb66b4ac53fba4cb604a20cd2df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetIdle</definition>
+        <argsstring>(IntPtr dsp, out bool idle)</argsstring>
+        <name>FMOD5_DSP_GetIdle</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetIdle</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>idle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3511" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a55e6cc96b70ee0a31f7839baa4d20e15" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_SetUserData</definition>
+        <argsstring>(IntPtr dsp, IntPtr userdata)</argsstring>
+        <name>FMOD5_DSP_SetUserData</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3513" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_d_s_p_1a8c63c6a205504d71b747402aece19483" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.DSP.FMOD5_DSP_GetUserData</definition>
+        <argsstring>(IntPtr dsp, out IntPtr userdata)</argsstring>
+        <name>FMOD5_DSP_GetUserData</name>
+        <qualifiedname>FMOD.DSP.FMOD5_DSP_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>dsp</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3515" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3237" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3238" bodyend="3539"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a67c5e1faeb2427163a4fc57248c2c178" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>addInput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a8e98e39c19b50b698a48399c144203b0" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>addInput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a17b874f20358839dcbe9f2bd292ee228" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a8b07d66e98e0c959763b746df5422fbb" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>disconnectAll</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a7de3055ef8036b3c45fe708489fa9091" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>disconnectFrom</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a69ced77fe9ebb0d356d9e2c950e32a1f" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>DSP</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a0263b1413733dd9c0c92c3158f7d91e2" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_AddInput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a364288e5e7c6a2f949234d36e97aa7c4" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_AddInput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ada1f909644db599ed290452ebb6e938b" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_DisconnectAll</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ac3179604994b475efc05c3641c1718b7" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_DisconnectFrom</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a7ace6d205e838949771cde111c1408ae" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aa351c1bdeaf1a131c1d129b625388f58" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetBypass</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a504c6a0a9515cb6937c01eacf141d274" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetChannelFormat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a42b6d185b5802126b948aa15d77ddd0b" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a76f69dbf4d0af969a9e11f2bf999f73d" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetDataParameterIndex</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a1e8e3bb66b4ac53fba4cb604a20cd2df" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetIdle</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a5f2c49600874a0bb8530290b08db2f70" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a84022f433ce35b717c2cd9d2c078ffb7" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetInput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1af8fe580a1e5182a351a3f4b3574eb0bd" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetMeteringEnabled</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a5c06ec2536f742c22ba98932290ca8f8" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetMeteringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a314fb6c21e59de5a124404490feea443" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetMeteringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1acf96462a4c07e0bd42f1c48fd31d8920" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetMeteringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ad2c46840aa0d854a8f8303ee4f20c73a" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetNumInputs</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a17671c0b0ba5093d699d95f2d453f161" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetNumOutputs</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ac25c4075cf50f697253584676c6efece" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetNumParameters</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a6afdd5e149a7bb8e6e4549fc25403393" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetOutput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aaf288758994dcaaccd8026a31f058f36" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetOutputChannelFormat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aac0adbbcf128ccc7bca6c639e4b45d5b" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetParameterBool</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a3c5d2c3b029340aa41b24a7defd70a9b" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetParameterData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1af43bbc788c483f2a003f9086e43d6857" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetParameterFloat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a20800d32137a0e7eced76b999d4c7fe0" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetParameterInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a4673b36088c8abac795d2c612f935ee0" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetParameterInt</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a5af6dae2fee02011f3cadfb036124335" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetSystemObject</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a8741fdc02a4232d4558b5c1436896311" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetType</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a8c63c6a205504d71b747402aece19483" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a487d1cd708d4dd833300c27e584836e7" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_GetWetDryMix</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a20c2fa3932e5e60182086cbfbd52e632" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a4da8f68412b87a8ac200e54f9e92472a" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_Reset</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a9a69aa10bd1e321fa22d5ecf2bf68a8e" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a987cd332118a1cf2f7d746a11e961895" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetBypass</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a384cd20af5e2bcd4355fbc0a00e45bc7" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetChannelFormat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a7071044a62721e02e1726275179e9007" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetMeteringEnabled</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ae91e7977a3ca28ae0e9ebd610f3a4aab" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetParameterBool</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ad4304e616da04fb23ea5b8349830a73a" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetParameterData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aad9a6060e78d93d3f4ca9b1996bde818" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetParameterFloat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a097bad1a56e6845283f5b0ffa9b91d2e" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetParameterInt</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a55e6cc96b70ee0a31f7839baa4d20e15" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a815ad53a51e7e51969a5d3412bf77f83" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_SetWetDryMix</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a37f25385a55d2b10799eae013d6f97fa" prot="private" virt="non-virtual"><scope>FMOD::DSP</scope><name>FMOD5_DSP_ShowConfigDialog</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a23023e1c53c97ab3a1931a4ec5a9ea5c" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a5fd30b33615332c87ed8f19975f910a5" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getBypass</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1afcba15be09b480630d20aa4312918723" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getChannelFormat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a459d1ee7faed4741f967c38d07b87342" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ab68360d5ad1f662b6af4b5d8e5caf80d" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getDataParameterIndex</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a3f643f98646f1f15c1fc3cf446aa7c25" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getIdle</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ae2a8bdce836428f69c32ea99b7c038f8" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a30f254fbd4e71c637815c524bcd2c1af" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a9cdc8729a61c64aba4c951b4e175358f" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getInput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a1e6600f84abe122d30f3f708b41dd24e" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getMeteringEnabled</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aea1a9c6ca03fdb46a6f3a506e5fe0679" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getMeteringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a20336442c70422c3f0619f32232aee10" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getMeteringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a8586394443e1e5261083fccb2e232bbb" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getMeteringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1af26eb2c452f0ef816a6098395e4f0c6d" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getNumInputs</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a02296a0f4370041e74d427172750bd76" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getNumOutputs</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ae1438b5d53f7c2c6e7ba023c8fd8b06f" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getNumParameters</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ab9a4ff367880a3f11f0d9fd1b13b6471" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getOutput</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a14c95c99fc6698bb176a85cb4d380036" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getOutputChannelFormat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1acc04bea0fdec2a13b8c2109ab99a9f7e" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getParameterBool</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a228cbd3a8b9104395c749730ca094226" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getParameterData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a126a21495cfc47d5a7782779f58bf2fd" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getParameterFloat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a86296128281b8872e1494647f2fa41f0" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getParameterInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a93b5432794048642c905e41eaeb3566c" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getParameterInt</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a01c133af7873b83bee48889f2f075bf0" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getSystemObject</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a90873e967a2e0bec74828ed1da507cde" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getType</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ade41e932d36f2075c359f9531215fad5" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ae5fffc548d67b21ba56c0c678e7d3a78" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>getWetDryMix</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a05cd14b288abd9dea2ca6f08abcd2e41" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a856488338ceac3390694db7a3df88d44" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ae40c39c8ab23fe06bdecb96edd8bbe32" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a9d60931bf4c560ff79a28e48ff7da66d" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>reset</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a4550289d35ae8cbc8705b6336b8f9442" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a4168480afea4775637ed9443046de78f" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setBypass</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a9e209a66e01c2373bc7d93e0a61a3afa" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setChannelFormat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ab6bb9f4fa104f2ec9ad8c865901cb58f" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setMeteringEnabled</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a3a9e7406668ed5b8a6b3d2d402901741" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setParameterBool</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aed93a25cbab0c186134d5725e761315b" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setParameterData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1aaa3b811b9eaf31dad15e695cf2770645" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setParameterFloat</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a8d8a5a568001f1df253d1842393187ac" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setParameterInt</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a9d1f48a083751c222998aeaaf1ea7c60" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1a1e4aa96dc5b5082f506adbb913c1bc6f" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>setWetDryMix</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p_1ab7dddd8b248f1b83464cc984094bffb0" prot="public" virt="non-virtual"><scope>FMOD::DSP</scope><name>showConfigDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

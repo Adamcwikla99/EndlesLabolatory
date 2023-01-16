@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_tunnel_entry_caller" kind="class" language="C#" prot="public">
+    <compoundname>Room::TunnelEntryCaller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_tunnel_entry_caller_1af4426e3b49b56767b833583a3594634c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_tunnel_controller" kindref="compound">TunnelController</ref></type>
+        <definition>TunnelController Room.TunnelEntryCaller.ThisTunnelController</definition>
+        <argsstring></argsstring>
+        <name>ThisTunnelController</name>
+        <qualifiedname>Room.TunnelEntryCaller.ThisTunnelController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/TunnelEntryCaller.cs" line="13" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/TunnelEntryCaller.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_tunnel_entry_caller_1a44ae7b36b3c4ea7147fe994b1b982d4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.TunnelEntryCaller.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Room.TunnelEntryCaller.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that triggers awakening of room entitys <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/TunnelEntryCaller.cs" line="26" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/TunnelEntryCaller.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements tunnel movement logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.TunnelEntryCaller</label>
+        <link refid="class_room_1_1_tunnel_entry_caller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.TunnelEntryCaller</label>
+        <link refid="class_room_1_1_tunnel_entry_caller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/TunnelEntryCaller.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/TunnelEntryCaller.cs" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_tunnel_entry_caller_1a44ae7b36b3c4ea7147fe994b1b982d4e" prot="private" virt="non-virtual"><scope>Room::TunnelEntryCaller</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_room_1_1_tunnel_entry_caller_1af4426e3b49b56767b833583a3594634c" prot="private" virt="non-virtual"><scope>Room::TunnelEntryCaller</scope><name>ThisTunnelController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

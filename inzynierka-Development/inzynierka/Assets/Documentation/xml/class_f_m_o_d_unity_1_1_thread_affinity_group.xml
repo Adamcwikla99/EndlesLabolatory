@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_thread_affinity_group" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::ThreadAffinityGroup</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_thread_affinity_group_1a8e69ce74b98add25c47195f9028b0d61" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="namespace_f_m_o_d_unity_1ac5c53297bab6d5178806199d10eb0266" kindref="member">ThreadType</ref> &gt;</type>
+        <definition>List&lt;ThreadType&gt; FMODUnity.ThreadAffinityGroup.threads</definition>
+        <argsstring></argsstring>
+        <name>threads</name>
+        <qualifiedname>FMODUnity.ThreadAffinityGroup.threads</qualifiedname>
+        <initializer>= new List&lt;<ref refid="namespace_f_m_o_d_unity_1ac5c53297bab6d5178806199d10eb0266" kindref="member">ThreadType</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="267" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_thread_affinity_group_1a5745d711aa385c048e81fc2cb43ba084" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1ad7390dda29e4e2cc21af5b958871d042" kindref="member">ThreadAffinity</ref></type>
+        <definition>ThreadAffinity FMODUnity.ThreadAffinityGroup.affinity</definition>
+        <argsstring></argsstring>
+        <name>affinity</name>
+        <qualifiedname>FMODUnity.ThreadAffinityGroup.affinity</qualifiedname>
+        <initializer>= <ref refid="namespace_f_m_o_d_unity_1ad7390dda29e4e2cc21af5b958871d042aed36a1ef76a59ee3f15180e0441188ad" kindref="member">ThreadAffinity.Any</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="268" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_thread_affinity_group_1a447c6bfd4994d4132f65916e9d2181f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.ThreadAffinityGroup.ThreadAffinityGroup</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadAffinityGroup</name>
+        <qualifiedname>FMODUnity.ThreadAffinityGroup.ThreadAffinityGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="270" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="270" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_thread_affinity_group_1a0f9f52c8b52a11db75efbe8299d6e9a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.ThreadAffinityGroup.ThreadAffinityGroup</definition>
+        <argsstring>(ThreadAffinityGroup other)</argsstring>
+        <name>ThreadAffinityGroup</name>
+        <qualifiedname>FMODUnity.ThreadAffinityGroup.ThreadAffinityGroup</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_thread_affinity_group" kindref="compound">ThreadAffinityGroup</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="274" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="274" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_thread_affinity_group_1a774857ad19188c5b327752e3ba4b3357" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.ThreadAffinityGroup.ThreadAffinityGroup</definition>
+        <argsstring>(ThreadAffinity affinity, params ThreadType[] threads)</argsstring>
+        <name>ThreadAffinityGroup</name>
+        <qualifiedname>FMODUnity.ThreadAffinityGroup.ThreadAffinityGroup</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1ad7390dda29e4e2cc21af5b958871d042" kindref="member">ThreadAffinity</ref></type>
+          <declname>affinity</declname>
+        </param>
+        <param>
+          <type>params <ref refid="namespace_f_m_o_d_unity_1ac5c53297bab6d5178806199d10eb0266" kindref="member">ThreadType</ref>[]</type>
+          <declname>threads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="280" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="280" bodyend="284"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="265" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="266" bodyend="285"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_thread_affinity_group_1a5745d711aa385c048e81fc2cb43ba084" prot="public" virt="non-virtual"><scope>FMODUnity::ThreadAffinityGroup</scope><name>affinity</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_thread_affinity_group_1a447c6bfd4994d4132f65916e9d2181f7" prot="public" virt="non-virtual"><scope>FMODUnity::ThreadAffinityGroup</scope><name>ThreadAffinityGroup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_thread_affinity_group_1a0f9f52c8b52a11db75efbe8299d6e9a6" prot="public" virt="non-virtual"><scope>FMODUnity::ThreadAffinityGroup</scope><name>ThreadAffinityGroup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_thread_affinity_group_1a774857ad19188c5b327752e3ba4b3357" prot="public" virt="non-virtual"><scope>FMODUnity::ThreadAffinityGroup</scope><name>ThreadAffinityGroup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_thread_affinity_group_1a8e69ce74b98add25c47195f9028b0d61" prot="public" virt="non-virtual"><scope>FMODUnity::ThreadAffinityGroup</scope><name>threads</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

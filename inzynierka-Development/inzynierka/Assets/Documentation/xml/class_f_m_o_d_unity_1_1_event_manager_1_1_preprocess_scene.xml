@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EventManager::PreprocessScene</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IProcessSceneWithReport</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene_1a1149301cfb971d3d00d1ca26f3716cba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int FMODUnity.EventManager.PreprocessScene.callbackOrder</definition>
+        <argsstring></argsstring>
+        <name>callbackOrder</name>
+        <qualifiedname>FMODUnity.EventManager.PreprocessScene.callbackOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1239" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1239" bodyend="1239"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene_1a900e18fc7f95ed1e4cea4c1657650a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventManager.PreprocessScene.OnProcessScene</definition>
+        <argsstring>(Scene scene, BuildReport report)</argsstring>
+        <name>OnProcessScene</name>
+        <qualifiedname>FMODUnity.EventManager.PreprocessScene.OnProcessScene</qualifiedname>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>BuildReport</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1241" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1241" bodyend="1246"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EventManager.PreprocessScene</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IProcessSceneWithReport</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EventManager.PreprocessScene</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IProcessSceneWithReport</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1237" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1238" bodyend="1247"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene_1a1149301cfb971d3d00d1ca26f3716cba" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager::PreprocessScene</scope><name>callbackOrder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene_1a900e18fc7f95ed1e4cea4c1657650a48" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager::PreprocessScene</scope><name>OnProcessScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_memory" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Memory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_memory_1a95bb279275f87e1551010b7e703e2072" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Memory.Initialize</definition>
+        <argsstring>(IntPtr poolmem, int poollen, MEMORY_ALLOC_CALLBACK useralloc, MEMORY_REALLOC_CALLBACK userrealloc, MEMORY_FREE_CALLBACK userfree, MEMORY_TYPE memtypeflags=MEMORY_TYPE.ALL)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>FMOD.Memory.Initialize</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>poolmem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>poollen</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ab91aed675795daa32b652cebfd9acd29" kindref="member">MEMORY_ALLOC_CALLBACK</ref></type>
+          <declname>useralloc</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae9fe624a910b7277d58ef16313267604" kindref="member">MEMORY_REALLOC_CALLBACK</ref></type>
+          <declname>userrealloc</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a9c5bdca8a4c659cc4b08eda5f4d16f28" kindref="member">MEMORY_FREE_CALLBACK</ref></type>
+          <declname>userfree</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a3eb4c9654cbf371b668f8eb46358e931" kindref="member">MEMORY_TYPE</ref></type>
+          <declname>memtypeflags</declname>
+          <defval><ref refid="namespace_f_m_o_d_1a3eb4c9654cbf371b668f8eb46358e931a5fb1f955b45e38e31789286a1790398d" kindref="member">MEMORY_TYPE.ALL</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="967" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="967" bodyend="970"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_memory_1a50c812b626cad4e1c42d334266749769" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Memory.GetStats</definition>
+        <argsstring>(out int currentalloced, out int maxalloced, bool blocking=true)</argsstring>
+        <name>GetStats</name>
+        <qualifiedname>FMOD.Memory.GetStats</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>currentalloced</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>maxalloced</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>blocking</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="972" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="972" bodyend="975"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_memory_1ab3954fcaf6767fc7cc9b8959e19f4b72" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Memory.FMOD5_Memory_Initialize</definition>
+        <argsstring>(IntPtr poolmem, int poollen, MEMORY_ALLOC_CALLBACK useralloc, MEMORY_REALLOC_CALLBACK userrealloc, MEMORY_FREE_CALLBACK userfree, MEMORY_TYPE memtypeflags)</argsstring>
+        <name>FMOD5_Memory_Initialize</name>
+        <qualifiedname>FMOD.Memory.FMOD5_Memory_Initialize</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>poolmem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>poollen</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ab91aed675795daa32b652cebfd9acd29" kindref="member">MEMORY_ALLOC_CALLBACK</ref></type>
+          <declname>useralloc</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae9fe624a910b7277d58ef16313267604" kindref="member">MEMORY_REALLOC_CALLBACK</ref></type>
+          <declname>userrealloc</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a9c5bdca8a4c659cc4b08eda5f4d16f28" kindref="member">MEMORY_FREE_CALLBACK</ref></type>
+          <declname>userfree</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a3eb4c9654cbf371b668f8eb46358e931" kindref="member">MEMORY_TYPE</ref></type>
+          <declname>memtypeflags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="979" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_memory_1a800cbe873ec279b9bd5e36b96e8a9395" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Memory.FMOD5_Memory_GetStats</definition>
+        <argsstring>(out int currentalloced, out int maxalloced, bool blocking)</argsstring>
+        <name>FMOD5_Memory_GetStats</name>
+        <qualifiedname>FMOD.Memory.FMOD5_Memory_GetStats</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>currentalloced</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>maxalloced</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>blocking</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="981" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="965" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="966" bodyend="984"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_memory_1a800cbe873ec279b9bd5e36b96e8a9395" prot="private" virt="non-virtual"><scope>FMOD::Memory</scope><name>FMOD5_Memory_GetStats</name></member>
+      <member refid="struct_f_m_o_d_1_1_memory_1ab3954fcaf6767fc7cc9b8959e19f4b72" prot="private" virt="non-virtual"><scope>FMOD::Memory</scope><name>FMOD5_Memory_Initialize</name></member>
+      <member refid="struct_f_m_o_d_1_1_memory_1a50c812b626cad4e1c42d334266749769" prot="public" virt="non-virtual"><scope>FMOD::Memory</scope><name>GetStats</name></member>
+      <member refid="struct_f_m_o_d_1_1_memory_1a95bb279275f87e1551010b7e703e2072" prot="public" virt="non-virtual"><scope>FMOD::Memory</scope><name>Initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

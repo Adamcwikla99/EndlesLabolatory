@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::StudioEventEmitterEditor::ParameterValueView</compoundname>
+    <innerclass refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1_1_property_record" prot="private">FMODUnity::StudioEventEmitterEditor::ParameterValueView::PropertyRecord</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1abb71b7a4fb046e5b0a7804b727ada0f7" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.StudioEventEmitterEditor.ParameterValueView.paramsProperty</definition>
+        <argsstring></argsstring>
+        <name>paramsProperty</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.paramsProperty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="132" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1acf8b6704e91aa48d907451018f3011ed" prot="private" static="no" mutable="no">
+        <type>List&lt; SerializedObject &gt;</type>
+        <definition>List&lt;SerializedObject&gt; FMODUnity.StudioEventEmitterEditor.ParameterValueView.serializedTargets</definition>
+        <argsstring></argsstring>
+        <name>serializedTargets</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.serializedTargets</qualifiedname>
+        <initializer>= new List&lt;SerializedObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="135" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1ace9048fb42085b94c35604cda4ce8651" prot="private" static="no" mutable="no">
+        <type>List&lt; PropertyRecord &gt;</type>
+        <definition>List&lt;PropertyRecord&gt; FMODUnity.StudioEventEmitterEditor.ParameterValueView.propertyRecords</definition>
+        <argsstring></argsstring>
+        <name>propertyRecords</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.propertyRecords</qualifiedname>
+        <initializer>= new List&lt;PropertyRecord&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="139" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a56a588a373ad0d6e8a04e0074eda59eb" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref> &gt;</type>
+        <definition>List&lt;EditorParamRef&gt; FMODUnity.StudioEventEmitterEditor.ParameterValueView.missingParameters</definition>
+        <argsstring></argsstring>
+        <name>missingParameters</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.missingParameters</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="143" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a5bee81d9f5bdd36ac901957f82864dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.StudioEventEmitterEditor.ParameterValueView.ParameterValueView</definition>
+        <argsstring>(SerializedObject serializedObject)</argsstring>
+        <name>ParameterValueView</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.ParameterValueView</qualifiedname>
+        <param>
+          <type>SerializedObject</type>
+          <declname>serializedObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="156" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="156" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a122cb6fd8549d4188f1d43b469e0a517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.OnGUI</definition>
+        <argsstring>(EditorEventRef eventRef, bool matchingEvents)</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.OnGUI</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+          <declname>eventRef</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>matchingEvents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="218" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="218" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a9cc92afc329537f778ae71cd12234616" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.RefreshPropertyRecords</definition>
+        <argsstring>(EditorEventRef eventRef)</argsstring>
+        <name>RefreshPropertyRecords</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.RefreshPropertyRecords</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+          <declname>eventRef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="167" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="167" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a4dfa90aa78f5a18f664b4ee919872dac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawHeader</definition>
+        <argsstring>(bool enableAddButton)</argsstring>
+        <name>DrawHeader</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawHeader</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enableAddButton</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="250" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="250" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1af558c51e3be31139b661bcd643dae6ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawAddButton</definition>
+        <argsstring>(Rect position)</argsstring>
+        <name>DrawAddButton</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawAddButton</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="275" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="275" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1aeba05f032c73cafc18fd4fdd1c6230d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawValues</definition>
+        <argsstring>()</argsstring>
+        <name>DrawValues</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="308" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="308" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1ac99e7035fd9e9accc055563167128123" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawValue</definition>
+        <argsstring>(PropertyRecord record, out bool delete)</argsstring>
+        <name>DrawValue</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.DrawValue</qualifiedname>
+        <param>
+          <type>PropertyRecord</type>
+          <declname>record</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>delete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="334" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="334" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a2760d4fd832de8d263d788d80eb57c3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.CopyValueToAll</definition>
+        <argsstring>(SerializedProperty sourceProperty, List&lt; SerializedProperty &gt; targetProperties)</argsstring>
+        <name>CopyValueToAll</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.CopyValueToAll</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>sourceProperty</declname>
+        </param>
+        <param>
+          <type>List&lt; SerializedProperty &gt;</type>
+          <declname>targetProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="473" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="473" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1abeece53033e5091316d2c2d32f480a16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.AddParameter</definition>
+        <argsstring>(EditorParamRef parameter)</argsstring>
+        <name>AddParameter</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.AddParameter</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="486" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="486" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a21d7f4a02197d9484ed570ebea0a90ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitterEditor.ParameterValueView.DeleteParameter</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DeleteParameter</name>
+        <qualifiedname>FMODUnity.StudioEventEmitterEditor.ParameterValueView.DeleteParameter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="510" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="510" bodyend="525"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" line="128" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs" bodystart="129" bodyend="526"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1abeece53033e5091316d2c2d32f480a16" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>AddParameter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a2760d4fd832de8d263d788d80eb57c3f" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>CopyValueToAll</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a21d7f4a02197d9484ed570ebea0a90ef" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>DeleteParameter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1af558c51e3be31139b661bcd643dae6ff" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>DrawAddButton</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a4dfa90aa78f5a18f664b4ee919872dac" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>DrawHeader</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1ac99e7035fd9e9accc055563167128123" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>DrawValue</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1aeba05f032c73cafc18fd4fdd1c6230d1" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>DrawValues</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a56a588a373ad0d6e8a04e0074eda59eb" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>missingParameters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a122cb6fd8549d4188f1d43b469e0a517" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a5bee81d9f5bdd36ac901957f82864dde" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>ParameterValueView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1abb71b7a4fb046e5b0a7804b727ada0f7" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>paramsProperty</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1ace9048fb42085b94c35604cda4ce8651" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>propertyRecords</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1a9cc92afc329537f778ae71cd12234616" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>RefreshPropertyRecords</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_editor_1_1_parameter_value_view_1acf8b6704e91aa48d907451018f3011ed" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitterEditor::ParameterValueView</scope><name>serializedTargets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

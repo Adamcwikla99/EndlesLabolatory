@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::EventReferenceUpdater::Task</compoundname>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1_1_delegates" prot="private">FMODUnity::EventReferenceUpdater::Task::Delegates</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Type</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a5cb099fb3d4a5bf5e1d4a12232ea5b53" prot="private">
+          <name>EmitterClearEvent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4acfdd7ac15f0440e980f2c70f9d3e21ee" prot="private">
+          <name>EmitterMoveEventToEventReference</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a52e9a86a6d8f042f4c1b01ee8c0d219f" prot="private">
+          <name>EmitterMoveEventOverrideToEventReference</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4aa360803aa36f6785624881fe39a11520" prot="private">
+          <name>PlayableClearEventName</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a24b3f02d731a0855b447eba397f09a5c" prot="private">
+          <name>PlayableMoveEventNameToEventReference</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a895ca3155d0cb2418b7a1cf698ff015f" prot="private">
+          <name>GenericRemoveEventRefField</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a5e6e33cac436890a900756900d4571da" prot="private">
+          <name>GenericRemoveEmptyEventRefField</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a30998460b4b80fd462ee4c43acf256b4" prot="private">
+          <name>GenericMoveEventRefFieldToEventReferenceField</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a270a440d9690ff3936df21b3aadb2645" prot="private">
+          <name>GenericAddMigrationTarget</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a2603e82faaf12a4c6137f70ca9a6f800" prot="private">
+          <name>GenericUpdateEventReferencePath</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a3660a20673fe5b05a1995d05d28ed716" prot="private">
+          <name>GenericUpdateEventReferenceGuid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4a700e62b2aec9c03452e924a23cb245e7" prot="private">
+          <name>GenericFixMigrationTargetConflict</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4ae93f994f01c537c4e2f7d8528c3eb5e9" prot="private">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="746" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="747" bodyend="762"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a25bfd03d651da0b644629a2350029969" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventReferenceUpdater.Task.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Enabled</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="727" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a349a2aba2ac66d1afbdaf5bc114bf7fb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.EventReferenceUpdater.Task.AssetIndex</definition>
+        <argsstring></argsstring>
+        <name>AssetIndex</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.AssetIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="728" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a7bc92f6a1c566f3720ffc3b78591cf7b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.EventReferenceUpdater.Task.ComponentIndex</definition>
+        <argsstring></argsstring>
+        <name>ComponentIndex</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.ComponentIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="729" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1acb3ef17b728440e62d24215ed225355d" prot="private" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type FMODUnity.EventReferenceUpdater.Task.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="731" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a39b518d64e336c6760533a2f63a939e5" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] FMODUnity.EventReferenceUpdater.Task.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="732" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="732" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a8c1c120cb48d3341041bc32f8507d013" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventReferenceUpdater.Task.EmitterEventField</definition>
+        <argsstring></argsstring>
+        <name>EmitterEventField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.EmitterEventField</qualifiedname>
+        <initializer>= &quot;Event&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="734" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a2e1c8a67178a94ed74ac848b161c44f0" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventReferenceUpdater.Task.EmitterEventReferenceField</definition>
+        <argsstring></argsstring>
+        <name>EmitterEventReferenceField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.EmitterEventReferenceField</qualifiedname>
+        <initializer>= &quot;EventReference&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="735" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a655880b1818fe1c019c96e81a3dee6d0" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventReferenceUpdater.Task.PlayableEventNameField</definition>
+        <argsstring></argsstring>
+        <name>PlayableEventNameField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.PlayableEventNameField</qualifiedname>
+        <initializer>= &quot;eventName&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="736" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ac7eef6318ecc495a935cee939dcc0570" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventReferenceUpdater.Task.PlayableEventReferenceField</definition>
+        <argsstring></argsstring>
+        <name>PlayableEventReferenceField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.PlayableEventReferenceField</qualifiedname>
+        <initializer>= &quot;eventReference&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="737" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1abc00c090b50184eb17f483eeab8709d2" prot="private" static="yes" mutable="no">
+        <type>readonly Delegates[]</type>
+        <definition>readonly Delegates [] FMODUnity.EventReferenceUpdater.Task.Implementations</definition>
+        <argsstring></argsstring>
+        <name>Implementations</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Implementations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="744" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="744" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a7fc326c750f14dbcbed28bcf1e947303" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventReferenceUpdater.Task.HasExecuted</definition>
+        <argsstring></argsstring>
+        <name>HasExecuted</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.HasExecuted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="764" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="764" bodyend="764"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a5f8732ae2478e758b0d4412b6448338c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate string</type>
+        <definition>delegate string FMODUnity.EventReferenceUpdater.Task.DescriptionDelegate</definition>
+        <argsstring>(string[] data)</argsstring>
+        <name>DescriptionDelegate</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.DescriptionDelegate</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="739" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a93371cdf2f8b4ad222a8a59fd4acd2d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate string</type>
+        <definition>delegate string FMODUnity.EventReferenceUpdater.Task.ManualInstructionsDelegate</definition>
+        <argsstring>(string[] data, Component component)</argsstring>
+        <name>ManualInstructionsDelegate</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.ManualInstructionsDelegate</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Component</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="740" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ae1b1e22e957ed9596b93548456271439" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate bool</type>
+        <definition>delegate bool FMODUnity.EventReferenceUpdater.Task.IsValidDelegate</definition>
+        <argsstring>(string[] data, UnityEngine.Object target)</argsstring>
+        <name>IsValidDelegate</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.IsValidDelegate</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>UnityEngine.Object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="741" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a454aa6a2af289cc01da51b56df63e7cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void FMODUnity.EventReferenceUpdater.Task.ExecuteDelegate</definition>
+        <argsstring>(string[] data, UnityEngine.Object target)</argsstring>
+        <name>ExecuteDelegate</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.ExecuteDelegate</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>UnityEngine.Object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="742" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a5f0d4de16abebf7cd207fab47e0cd395" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Delegates</type>
+        <definition>Delegates FMODUnity.EventReferenceUpdater.Task.GetDelegates</definition>
+        <argsstring>()</argsstring>
+        <name>GetDelegates</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.GetDelegates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="907" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="907" bodyend="910"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a3aaf400b860d124a1adb78cb967f9ea4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.ClearEvent</definition>
+        <argsstring>(StudioEventEmitter emitter)</argsstring>
+        <name>ClearEvent</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.ClearEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="768" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="768" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1af027e8875c4f592120b3433e40a253c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.MoveEventToEventReference</definition>
+        <argsstring>(StudioEventEmitter emitter)</argsstring>
+        <name>MoveEventToEventReference</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.MoveEventToEventReference</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="788" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="788" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1aa8b1716a88c6da1c763672fc765f6f1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.MoveEventOverrideToEventReference</definition>
+        <argsstring>(StudioEventEmitter emitter)</argsstring>
+        <name>MoveEventOverrideToEventReference</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.MoveEventOverrideToEventReference</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="809" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="809" bodyend="816"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a1db4d65dc7e620b669880ee867a8cca6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.RemoveEventRefField</definition>
+        <argsstring>(string value, string fieldName)</argsstring>
+        <name>RemoveEventRefField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.RemoveEventRefField</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="819" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="819" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1accd0b3cf85a8f94e1d13e0d9e8e18126" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.RemoveEmptyEventRefField</definition>
+        <argsstring>(string fieldName)</argsstring>
+        <name>RemoveEmptyEventRefField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.RemoveEmptyEventRefField</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="828" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="828" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a5b9c66b36ca62a9f1d43dc79e60ce493" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.MoveEventRefFieldToEventReferenceField</definition>
+        <argsstring>(string value, string oldFieldName, string newFieldName)</argsstring>
+        <name>MoveEventRefFieldToEventReferenceField</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.MoveEventRefFieldToEventReferenceField</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>oldFieldName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>newFieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="837" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="837" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a7c4863541cfe86144ebf64c43e1c62c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.AddMigrationTarget</definition>
+        <argsstring>(string value, string fieldName, string targetName=null)</argsstring>
+        <name>AddMigrationTarget</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.AddMigrationTarget</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>targetName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="847" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="847" bodyend="854"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1aaa1fde96df503f0bf612f20a152022a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.UpdateEventReferencePath</definition>
+        <argsstring>(string fieldName, string oldPath, string newPath, FMOD.GUID guid)</argsstring>
+        <name>UpdateEventReferencePath</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.UpdateEventReferencePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>oldPath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>newPath</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="856" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="856" bodyend="864"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a21790e3434b706747ffc9398baf6ad48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.UpdateEventReferenceGuid</definition>
+        <argsstring>(string fieldName, FMOD.GUID oldGuid, FMOD.GUID newGuid, string path)</argsstring>
+        <name>UpdateEventReferenceGuid</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.UpdateEventReferenceGuid</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>oldGuid</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>newGuid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="866" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="866" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ab03a8a53ab96c158f8dbf52ff8f48b72" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FMODUnity.EventReferenceUpdater.Task.FixMigrationTargetConflict</definition>
+        <argsstring>(params string[] fieldNames)</argsstring>
+        <name>FixMigrationTargetConflict</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.FixMigrationTargetConflict</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>fieldNames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="876" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="876" bodyend="883"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1aa14215a2660cfbf423d2286b929b1764" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventReferenceUpdater.Task.Implement</definition>
+        <argsstring>(Type type, DescriptionDelegate Description, IsValidDelegate IsValid, ExecuteDelegate Execute, ManualInstructionsDelegate ManualInstructions=null)</argsstring>
+        <name>Implement</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Implement</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>DescriptionDelegate</type>
+          <declname>Description</declname>
+        </param>
+        <param>
+          <type>IsValidDelegate</type>
+          <declname>IsValid</declname>
+        </param>
+        <param>
+          <type>ExecuteDelegate</type>
+          <declname>Execute</declname>
+        </param>
+        <param>
+          <type>ManualInstructionsDelegate</type>
+          <declname>ManualInstructions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="893" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="893" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a482a0575b0dee3fbe3bf3e8d2c521483" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FMODUnity.EventReferenceUpdater.Task.Task</definition>
+        <argsstring>()</argsstring>
+        <name>Task</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="912" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="912" bodyend="1305"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1acb30225f913b6e058fed763c28489ba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string FMODUnity.EventReferenceUpdater.Task.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1307" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1307" bodyend="1310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1af1db790c84e62cf8b58aed9e6ddbd067" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string FMODUnity.EventReferenceUpdater.Task.PlainDescription</definition>
+        <argsstring>()</argsstring>
+        <name>PlainDescription</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.PlainDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1312" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1312" bodyend="1315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ab4b1fb430b06de1e9a5d2492d9260cc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string FMODUnity.EventReferenceUpdater.Task.ManualInstructions</definition>
+        <argsstring>(Component component)</argsstring>
+        <name>ManualInstructions</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.ManualInstructions</qualifiedname>
+        <param>
+          <type>Component</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1317" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1317" bodyend="1329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a9dc42d5f95e8530fc4a0f93227072c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventReferenceUpdater.Task.CanExecute</definition>
+        <argsstring>()</argsstring>
+        <name>CanExecute</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.CanExecute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1331" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1331" bodyend="1334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a4880212534f24cc70db1e82165d5c2bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventReferenceUpdater.Task.IsManual</definition>
+        <argsstring>()</argsstring>
+        <name>IsManual</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.IsManual</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1336" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1336" bodyend="1339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a242530d6d73359983b93b175b8c137bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventReferenceUpdater.Task.IsValid</definition>
+        <argsstring>(UnityEngine.Object target)</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.IsValid</qualifiedname>
+        <param>
+          <type>UnityEngine.Object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1341" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1341" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a65dad6a0480dbdd830a74a3a29d25914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventReferenceUpdater.Task.Execute</definition>
+        <argsstring>(UnityEngine.Object target)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.Task.Execute</qualifiedname>
+        <param>
+          <type>UnityEngine.Object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1346" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1346" bodyend="1364"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="725" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="726" bodyend="1365"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a7c4863541cfe86144ebf64c43e1c62c1" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>AddMigrationTarget</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a349a2aba2ac66d1afbdaf5bc114bf7fb" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>AssetIndex</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a9dc42d5f95e8530fc4a0f93227072c3e" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>CanExecute</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a3aaf400b860d124a1adb78cb967f9ea4" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>ClearEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a7bc92f6a1c566f3720ffc3b78591cf7b" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>ComponentIndex</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a39b518d64e336c6760533a2f63a939e5" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Data</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a5f8732ae2478e758b0d4412b6448338c" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>DescriptionDelegate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a8c1c120cb48d3341041bc32f8507d013" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>EmitterEventField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a2e1c8a67178a94ed74ac848b161c44f0" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>EmitterEventReferenceField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a25bfd03d651da0b644629a2350029969" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Enabled</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a65dad6a0480dbdd830a74a3a29d25914" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Execute</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a454aa6a2af289cc01da51b56df63e7cb" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>ExecuteDelegate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ab03a8a53ab96c158f8dbf52ff8f48b72" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>FixMigrationTargetConflict</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a5f0d4de16abebf7cd207fab47e0cd395" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>GetDelegates</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a7fc326c750f14dbcbed28bcf1e947303" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>HasExecuted</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1aa14215a2660cfbf423d2286b929b1764" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Implement</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1abc00c090b50184eb17f483eeab8709d2" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Implementations</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a4880212534f24cc70db1e82165d5c2bd" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>IsManual</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a242530d6d73359983b93b175b8c137bc" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>IsValid</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ae1b1e22e957ed9596b93548456271439" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>IsValidDelegate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ab4b1fb430b06de1e9a5d2492d9260cc0" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>ManualInstructions</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a93371cdf2f8b4ad222a8a59fd4acd2d2" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>ManualInstructionsDelegate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1aa8b1716a88c6da1c763672fc765f6f1f" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>MoveEventOverrideToEventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a5b9c66b36ca62a9f1d43dc79e60ce493" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>MoveEventRefFieldToEventReferenceField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1af027e8875c4f592120b3433e40a253c0" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>MoveEventToEventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1af1db790c84e62cf8b58aed9e6ddbd067" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>PlainDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a655880b1818fe1c019c96e81a3dee6d0" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>PlayableEventNameField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1ac7eef6318ecc495a935cee939dcc0570" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>PlayableEventReferenceField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1accd0b3cf85a8f94e1d13e0d9e8e18126" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>RemoveEmptyEventRefField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a1db4d65dc7e620b669880ee867a8cca6" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>RemoveEventRefField</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a482a0575b0dee3fbe3bf3e8d2c521483" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Task</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1acb30225f913b6e058fed763c28489ba9" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>ToString</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1acb3ef17b728440e62d24215ed225355d" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>type</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a44850eb78aee9fc9aa1d1c6f345e4ef4" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>Type</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1a21790e3434b706747ffc9398baf6ad48" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>UpdateEventReferenceGuid</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_1aaa1fde96df503f0bf612f20a152022a0" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::Task</scope><name>UpdateEventReferencePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

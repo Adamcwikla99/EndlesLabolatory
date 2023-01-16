@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_thread" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Thread</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_thread_1a7173bfdc0f01ee21bdbe5edf9f037d85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Thread.SetAttributes</definition>
+        <argsstring>(THREAD_TYPE type, THREAD_AFFINITY affinity=THREAD_AFFINITY.GROUP_DEFAULT, THREAD_PRIORITY priority=THREAD_PRIORITY.DEFAULT, THREAD_STACK_SIZE stacksize=THREAD_STACK_SIZE.DEFAULT)</argsstring>
+        <name>SetAttributes</name>
+        <qualifiedname>FMOD.Thread.SetAttributes</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a0b7941251dee019d2109ffd1ff79016f" kindref="member">THREAD_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1abe505fb113d9e481bccf967f266c2152" kindref="member">THREAD_AFFINITY</ref></type>
+          <declname>affinity</declname>
+          <defval><ref refid="namespace_f_m_o_d_1abe505fb113d9e481bccf967f266c2152a358cd37c5e637b167d3a59edbaaf9967" kindref="member">THREAD_AFFINITY.GROUP_DEFAULT</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a652f4f4545bb85b8f403628575b6f87b" kindref="member">THREAD_PRIORITY</ref></type>
+          <declname>priority</declname>
+          <defval><ref refid="namespace_f_m_o_d_1a652f4f4545bb85b8f403628575b6f87ba5b39c8b553c821e7cddc6da64b5bd2ee" kindref="member">THREAD_PRIORITY.DEFAULT</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1af431c644270b0d5df397f383c00c2b31" kindref="member">THREAD_STACK_SIZE</ref></type>
+          <declname>stacksize</declname>
+          <defval><ref refid="namespace_f_m_o_d_1af431c644270b0d5df397f383c00c2b31a5b39c8b553c821e7cddc6da64b5bd2ee" kindref="member">THREAD_STACK_SIZE.DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="1005" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="1005" bodyend="1008"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_thread_1ad1af8dbd6cd81ddcb2bee17d6688a571" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Thread.FMOD5_Thread_SetAttributes</definition>
+        <argsstring>(THREAD_TYPE type, THREAD_AFFINITY affinity, THREAD_PRIORITY priority, THREAD_STACK_SIZE stacksize)</argsstring>
+        <name>FMOD5_Thread_SetAttributes</name>
+        <qualifiedname>FMOD.Thread.FMOD5_Thread_SetAttributes</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a0b7941251dee019d2109ffd1ff79016f" kindref="member">THREAD_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1abe505fb113d9e481bccf967f266c2152" kindref="member">THREAD_AFFINITY</ref></type>
+          <declname>affinity</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a652f4f4545bb85b8f403628575b6f87b" kindref="member">THREAD_PRIORITY</ref></type>
+          <declname>priority</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1af431c644270b0d5df397f383c00c2b31" kindref="member">THREAD_STACK_SIZE</ref></type>
+          <declname>stacksize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="1012" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="1003" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="1004" bodyend="1014"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_thread_1ad1af8dbd6cd81ddcb2bee17d6688a571" prot="private" virt="non-virtual"><scope>FMOD::Thread</scope><name>FMOD5_Thread_SetAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_thread_1a7173bfdc0f01ee21bdbe5edf9f037d85" prot="public" virt="non-virtual"><scope>FMOD::Thread</scope><name>SetAttributes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

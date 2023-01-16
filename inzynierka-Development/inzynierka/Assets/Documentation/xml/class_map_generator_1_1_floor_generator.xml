@@ -1,0 +1,779 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_floor_generator" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::FloorGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a2f216cbb9cb9c6f6403451a733bb8904" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.FloorGenerator.NormalRoom</definition>
+        <argsstring></argsstring>
+        <name>NormalRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.NormalRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="23" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a369073b50c27bbf81a780b1ea1646462" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.FloorGenerator.ShopRoom</definition>
+        <argsstring></argsstring>
+        <name>ShopRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.ShopRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="26" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a74bf824b88429dda80df123268c67e73" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.FloorGenerator.BossRoom</definition>
+        <argsstring></argsstring>
+        <name>BossRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.BossRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="29" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a2f08182824935b5c3a62015433567a04" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.FloorGenerator.StartRoom</definition>
+        <argsstring></argsstring>
+        <name>StartRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.StartRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="32" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a2752a7070ded6019ede1f843e6fa9ace" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.FloorGenerator.ItemRoom</definition>
+        <argsstring></argsstring>
+        <name>ItemRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.ItemRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="35" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1af69a8b9466357b849ece22922f8e7ab6" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform MapGenerator.FloorGenerator.GenerationStart</definition>
+        <argsstring></argsstring>
+        <name>GenerationStart</name>
+        <qualifiedname>MapGenerator.FloorGenerator.GenerationStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="38" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a2ef782600ed673ec57ae01899949f367" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_room_map" kindref="compound">FloorRoomMap</ref></type>
+        <definition>FloorRoomMap MapGenerator.FloorGenerator.LayoutGenerator</definition>
+        <argsstring></argsstring>
+        <name>LayoutGenerator</name>
+        <qualifiedname>MapGenerator.FloorGenerator.LayoutGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="41" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a5cb4d8f6babf0e26b6ddb1f92f1b3897" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_floor_1_1_floor_events" kindref="compound">FloorEvents</ref></type>
+        <definition>FloorEvents MapGenerator.FloorGenerator.IndividualFloorEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualFloorEvents</name>
+        <qualifiedname>MapGenerator.FloorGenerator.IndividualFloorEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="44" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1aef5790ced53a00fb244b0ece0e1e77f9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MapGenerator.FloorGenerator.MapWidthLength</definition>
+        <argsstring></argsstring>
+        <name>MapWidthLength</name>
+        <qualifiedname>MapGenerator.FloorGenerator.MapWidthLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="47" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a634c2e3a328620c7542e83b65f520354" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float MapGenerator.FloorGenerator.RoomWithGateLength</definition>
+        <argsstring></argsstring>
+        <name>RoomWithGateLength</name>
+        <qualifiedname>MapGenerator.FloorGenerator.RoomWithGateLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="50" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1a6ea29346fe32806a4cc5fb80f0c7a7b6" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_player_1_1_player" kindref="compound">Player.Player</ref></type>
+        <definition>Player.Player MapGenerator.FloorGenerator.GamePlayer</definition>
+        <argsstring></argsstring>
+        <name>GamePlayer</name>
+        <qualifiedname>MapGenerator.FloorGenerator.GamePlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="53" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_floor_generator_1ad02d715f177cf3bb832cda3414ff72fb" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_game_1_1_game_score" kindref="compound">GameScore</ref></type>
+        <definition>GameScore MapGenerator.FloorGenerator.ManageGameScore</definition>
+        <argsstring></argsstring>
+        <name>ManageGameScore</name>
+        <qualifiedname>MapGenerator.FloorGenerator.ManageGameScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="56" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_floor_generator_1ade642e56291f3c7888f81e82041d6127" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.FloorGenerator.currentX</definition>
+        <argsstring></argsstring>
+        <name>currentX</name>
+        <qualifiedname>MapGenerator.FloorGenerator.currentX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="61" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_floor_generator_1a48a22c7f077e665ed651b60c96548eed" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.FloorGenerator.currentZ</definition>
+        <argsstring></argsstring>
+        <name>currentZ</name>
+        <qualifiedname>MapGenerator.FloorGenerator.currentZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="62" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_floor_generator_1ac294791f767196f40eb6439a1380a9af" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref> &gt;</type>
+        <definition>List&lt;FloorRoom&gt; MapGenerator.FloorGenerator.spawnedMapRooms</definition>
+        <argsstring></argsstring>
+        <name>spawnedMapRooms</name>
+        <qualifiedname>MapGenerator.FloorGenerator.spawnedMapRooms</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="63" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a195393ee92d16a3ca2e92c49fcb1dfa2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>MapGenerator.FloorGenerator.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="68" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a53e3b6f4f47a87cb1dae92368fecb697" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>MapGenerator.FloorGenerator.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="73" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a41e279bd9ae1ef1b9fae0b33f7c84646" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.GenerateMap</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateMap</name>
+        <qualifiedname>MapGenerator.FloorGenerator.GenerateMap</qualifiedname>
+        <briefdescription>
+<para>methode responsible for starting new map generation process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="84" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a053ded2609f66c83f2e342d3f027c58d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.GenerateNewLayout</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateNewLayout</name>
+        <qualifiedname>MapGenerator.FloorGenerator.GenerateNewLayout</qualifiedname>
+        <briefdescription>
+<para>methode that sets new map layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="96" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1ac5bf9d3515eaefe10943b9e0d48d7cd1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.GenerateMapFromLayout</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateMapFromLayout</name>
+        <qualifiedname>MapGenerator.FloorGenerator.GenerateMapFromLayout</qualifiedname>
+        <briefdescription>
+<para>methode that spawns room base on floor layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="105" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1ab74360b7e01fa93012ad651749fd9f98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.RowSpawningProcess</definition>
+        <argsstring>(Row[] mapRows, int i)</argsstring>
+        <name>RowSpawningProcess</name>
+        <qualifiedname>MapGenerator.FloorGenerator.RowSpawningProcess</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>mapRows</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for rooms spawn </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="117" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="117" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1aa9f6ea8d119dd274aebb66b1893dcabe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.ClearPreviousFloor</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPreviousFloor</name>
+        <qualifiedname>MapGenerator.FloorGenerator.ClearPreviousFloor</qualifiedname>
+        <briefdescription>
+<para>methode responsible for removing previously generated map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="129" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1ac377e4dccd10886d05e33675c2e35923" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.IndividualRoomSpawn</definition>
+        <argsstring>(int i, int j, Row[] mapRows, RoomType[] columns)</argsstring>
+        <name>IndividualRoomSpawn</name>
+        <qualifiedname>MapGenerator.FloorGenerator.IndividualRoomSpawn</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>mapRows</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref>[]</type>
+          <declname>columns</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for individual room spawn </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="141" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="141" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a843c9de4458d7d17b6ec085f09a6a221" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.SpawnCorrectRoom</definition>
+        <argsstring>(GameObject spawned, RoomType column, Vector3 spawnedRoomPosition, CordsXY currentCord, List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>SpawnCorrectRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.SpawnCorrectRoom</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawned</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>spawnedRoomPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns room of correct type base of map cell layout </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="156" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="156" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a807bb1df6ca5531788bbe7cd44a6c04b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.SpawnStartRoom</definition>
+        <argsstring>(GameObject spawned, RoomType column, Vector3 spawnedRoomPosition, CordsXY currentCord, List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>SpawnStartRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.SpawnStartRoom</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawned</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>spawnedRoomPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning start room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="187" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="187" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1ad51c3bc36ee74fc6a720ab7dde8eb90b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.SpawnShopRoom</definition>
+        <argsstring>(GameObject spawned, RoomType column, Vector3 spawnedRoomPosition, CordsXY currentCord, List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>SpawnShopRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.SpawnShopRoom</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawned</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>spawnedRoomPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning shop room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="200" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="200" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a916abf31085b97cb4eba4318ee37b5e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.SpawnBossRoom</definition>
+        <argsstring>(GameObject spawned, RoomType column, Vector3 spawnedRoomPosition, CordsXY currentCord, List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>SpawnBossRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.SpawnBossRoom</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawned</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>spawnedRoomPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning boss room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="214" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="214" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a2685c6a9bc461745193e72fe7eadafd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.SpawnNormalRoom</definition>
+        <argsstring>(GameObject spawned, RoomType column, Vector3 spawnedRoomPosition, CordsXY currentCord, List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>SpawnNormalRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.SpawnNormalRoom</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawned</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>spawnedRoomPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning enemy room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="228" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="228" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1abb70a8b9d7fad6171b81c52d72ede42e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.SpawnItemRoom</definition>
+        <argsstring>(GameObject spawned, RoomType column, Vector3 spawnedRoomPosition, CordsXY currentCord, List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>SpawnItemRoom</name>
+        <qualifiedname>MapGenerator.FloorGenerator.SpawnItemRoom</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>spawned</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>spawnedRoomPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning item room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="244" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="244" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1abf5e8dd172e41652b9a2815205d5f4df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+        <definition>List&lt; Direction &gt; MapGenerator.FloorGenerator.GetGatesToDisable</definition>
+        <argsstring>(int i, int j, Row[] MapRows)</argsstring>
+        <name>GetGatesToDisable</name>
+        <qualifiedname>MapGenerator.FloorGenerator.GetGatesToDisable</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>MapRows</declname>
+        </param>
+        <briefdescription>
+<para>methode chooses with room gate are supposed to be closed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="258" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="258" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a8ddf4aa0258497dc095bfc98305f5077" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.InitBorderConditions</definition>
+        <argsstring>(out bool borderNorthCondition, out bool borderEastCondition, out bool borderSouthCondition, out bool borderWestCondition, int i, int j)</argsstring>
+        <name>InitBorderConditions</name>
+        <qualifiedname>MapGenerator.FloorGenerator.InitBorderConditions</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>borderNorthCondition</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>borderEastCondition</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>borderSouthCondition</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>borderWestCondition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if room is nest to map border </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="277" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="277" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a6d69ab545ce21981df3415ccedf4053b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.InitRemoveDirectionConditions</definition>
+        <argsstring>(out bool removeNorthCondition, out bool removeEastCondition, out bool removeSouthCondition, out bool removeWestCondition, int i, int j, Row[] MapRows)</argsstring>
+        <name>InitRemoveDirectionConditions</name>
+        <qualifiedname>MapGenerator.FloorGenerator.InitRemoveDirectionConditions</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>removeNorthCondition</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>removeEastCondition</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>removeSouthCondition</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>removeWestCondition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>MapRows</declname>
+        </param>
+        <briefdescription>
+<para>methode that return information about room gates not connected to next room gate </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="288" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="288" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_floor_generator_1a5245b271831c951289257f9c141fca1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.FloorGenerator.ConditionalDirectionAdder</definition>
+        <argsstring>(bool baseCondition, bool advancedCondition, Direction direction, ref List&lt; Direction &gt; roomDirections)</argsstring>
+        <name>ConditionalDirectionAdder</name>
+        <qualifiedname>MapGenerator.FloorGenerator.ConditionalDirectionAdder</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>baseCondition</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>advancedCondition</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref> &gt;</type>
+          <declname>roomDirections</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds room gates direction&apos;s that should be open </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="299" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="299" bodyend="305"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>methode that generates new game floor map and initialize it </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.FloorGenerator</label>
+        <link refid="class_map_generator_1_1_floor_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.FloorGenerator</label>
+        <link refid="class_map_generator_1_1_floor_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" line="18" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/FloorGenerator.cs" bodystart="19" bodyend="308"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_floor_generator_1a74bf824b88429dda80df123268c67e73" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>BossRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1aa9f6ea8d119dd274aebb66b1893dcabe" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>ClearPreviousFloor</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a5245b271831c951289257f9c141fca1e" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>ConditionalDirectionAdder</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ade642e56291f3c7888f81e82041d6127" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>currentX</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a48a22c7f077e665ed651b60c96548eed" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>currentZ</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a6ea29346fe32806a4cc5fb80f0c7a7b6" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>GamePlayer</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a41e279bd9ae1ef1b9fae0b33f7c84646" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>GenerateMap</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ac5bf9d3515eaefe10943b9e0d48d7cd1" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>GenerateMapFromLayout</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a053ded2609f66c83f2e342d3f027c58d" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>GenerateNewLayout</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1af69a8b9466357b849ece22922f8e7ab6" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>GenerationStart</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1abf5e8dd172e41652b9a2815205d5f4df" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>GetGatesToDisable</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a5cb4d8f6babf0e26b6ddb1f92f1b3897" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>IndividualFloorEvents</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ac377e4dccd10886d05e33675c2e35923" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>IndividualRoomSpawn</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a8ddf4aa0258497dc095bfc98305f5077" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>InitBorderConditions</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a6d69ab545ce21981df3415ccedf4053b" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>InitRemoveDirectionConditions</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a2752a7070ded6019ede1f843e6fa9ace" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>ItemRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a2ef782600ed673ec57ae01899949f367" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>LayoutGenerator</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ad02d715f177cf3bb832cda3414ff72fb" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>ManageGameScore</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1aef5790ced53a00fb244b0ece0e1e77f9" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>MapWidthLength</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a2f216cbb9cb9c6f6403451a733bb8904" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>NormalRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a53e3b6f4f47a87cb1dae92368fecb697" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>OnDisable</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a195393ee92d16a3ca2e92c49fcb1dfa2" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>OnEnable</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a634c2e3a328620c7542e83b65f520354" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>RoomWithGateLength</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ab74360b7e01fa93012ad651749fd9f98" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>RowSpawningProcess</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a369073b50c27bbf81a780b1ea1646462" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>ShopRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a916abf31085b97cb4eba4318ee37b5e5" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>SpawnBossRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a843c9de4458d7d17b6ec085f09a6a221" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>SpawnCorrectRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ac294791f767196f40eb6439a1380a9af" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>spawnedMapRooms</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1abb70a8b9d7fad6171b81c52d72ede42e" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>SpawnItemRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a2685c6a9bc461745193e72fe7eadafd4" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>SpawnNormalRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1ad51c3bc36ee74fc6a720ab7dde8eb90b" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>SpawnShopRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a807bb1df6ca5531788bbe7cd44a6c04b" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>SpawnStartRoom</name></member>
+      <member refid="class_map_generator_1_1_floor_generator_1a2f08182824935b5c3a62015433567a04" prot="private" virt="non-virtual"><scope>MapGenerator::FloorGenerator</scope><name>StartRoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

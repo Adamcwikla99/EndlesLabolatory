@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_f_m_o_d_unity_1_1_platform_1_1_property_override_control" kind="interface" language="C#" prot="package">
+    <compoundname>FMODUnity::Platform::PropertyOverrideControl</compoundname>
+    <derivedcompoundref refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor" prot="public" virt="non-virtual">FMODUnity.Platform.PropertyAccessor&lt; T &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_f_m_o_d_unity_1_1_platform_1_1_property_override_control_1ad24be6103789cfd92abc3864d397f6e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.Platform.PropertyOverrideControl.HasValue</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>HasValue</name>
+        <qualifiedname>FMODUnity.Platform.PropertyOverrideControl.HasValue</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="731" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_f_m_o_d_unity_1_1_platform_1_1_property_override_control_1a48cd217925d2468483c012c1bb6f1b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Platform.PropertyOverrideControl.Clear</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>Clear</name>
+        <qualifiedname>FMODUnity.Platform.PropertyOverrideControl.Clear</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="732" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.Platform.PropertyOverrideControl</label>
+      </node>
+      <node id="2">
+        <label>FMODUnity.Platform.PropertyAccessor&lt; T &gt;</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="729" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="730" bodyend="733"/>
+    <listofallmembers>
+      <member refid="interface_f_m_o_d_unity_1_1_platform_1_1_property_override_control_1a48cd217925d2468483c012c1bb6f1b21" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyOverrideControl</scope><name>Clear</name></member>
+      <member refid="interface_f_m_o_d_unity_1_1_platform_1_1_property_override_control_1ad24be6103789cfd92abc3864d397f6e6" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyOverrideControl</scope><name>HasValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

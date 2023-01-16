@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_menu_1_1_menu_controller" kind="class" language="C#" prot="public">
+    <compoundname>UI::Menu::MenuController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_u_i_1_1_menu_1_1_menu_controller_1abc2e8281d76f78b89005e80a83962de0" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_serializable_dictionary" kindref="compound">SerializableDictionary</ref>&lt; <ref refid="namespace_structures_1_1_enums_1a75aeced676cfc6b2b05a2a4d9833dbeb" kindref="member">MenuType</ref>, <ref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" kindref="compound">UIMenu</ref> &gt;</type>
+        <definition>SerializableDictionary&lt;MenuType, UIMenu&gt; UI.Menu.MenuController.MenuPrefabs</definition>
+        <argsstring></argsstring>
+        <name>MenuPrefabs</name>
+        <qualifiedname>UI.Menu.MenuController.MenuPrefabs</qualifiedname>
+        <initializer>= new <ref refid="class_serializable_dictionary" kindref="compound">SerializableDictionary</ref>&lt;<ref refid="namespace_structures_1_1_enums_1a75aeced676cfc6b2b05a2a4d9833dbeb" kindref="member">MenuType</ref>, <ref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" kindref="compound">UIMenu</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="19" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_menu_1_1_menu_controller_1a994d9bcf229b11035310e4a96aad9d3c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_switch_menu" kindref="compound">SwitchMenu</ref></type>
+        <definition>SwitchMenu UI.Menu.MenuController.SwitchActiveUI</definition>
+        <argsstring></argsstring>
+        <name>SwitchActiveUI</name>
+        <qualifiedname>UI.Menu.MenuController.SwitchActiveUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="22" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_menu_1_1_menu_controller_1a0a712d4e0d74b394f75010132467dc6c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" kindref="compound">UIMenu</ref></type>
+        <definition>UIMenu UI.Menu.MenuController.CurrentActiveMenu</definition>
+        <argsstring></argsstring>
+        <name>CurrentActiveMenu</name>
+        <qualifiedname>UI.Menu.MenuController.CurrentActiveMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="25" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_menu_1_1_menu_controller_1ab9173ed79c1a0162464d6a7e5512dc4a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_shop_popup" kindref="compound">ShopPopup</ref></type>
+        <definition>ShopPopup UI.Menu.MenuController.PopupManagement</definition>
+        <argsstring></argsstring>
+        <name>PopupManagement</name>
+        <qualifiedname>UI.Menu.MenuController.PopupManagement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="28" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_menu_1_1_menu_controller_1a1367f1778711fd3e76196a9cd985e658" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_u_i_1_1_popup_1_1_shop_item_popup" kindref="compound">ShopItemPopup</ref></type>
+        <definition>ShopItemPopup UI.Menu.MenuController.ItemPopup</definition>
+        <argsstring></argsstring>
+        <name>ItemPopup</name>
+        <qualifiedname>UI.Menu.MenuController.ItemPopup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="31" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_1_1_menu_1_1_menu_controller_1a5517dc83a85a008be10b0526a5db4eb2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UI.Menu.MenuController.isGameFinished</definition>
+        <argsstring></argsstring>
+        <name>isGameFinished</name>
+        <qualifiedname>UI.Menu.MenuController.isGameFinished</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="36" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1abee8111c57b6373ab6d42170befb4fe1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>UI.Menu.MenuController.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="41" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1a7e75318a34c3e8bf75d86fba23610346" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>UI.Menu.MenuController.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="45" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1abdad10154d18580872c45f7642741331" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>UI.Menu.MenuController.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="50" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1a47a8a90e2e1c7027564aa57edd82bcd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>UI.Menu.MenuController.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>method responsible for assigning event actions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="61" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1abd23a2cff7956f1a817138ae5348add4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>UI.Menu.MenuController.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode responsible for removing assigment of event actions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="71" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1ad988d7388e3deddf4e385849618eb834" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.LoadUIMenu</definition>
+        <argsstring>(MenuType toLoad)</argsstring>
+        <name>LoadUIMenu</name>
+        <qualifiedname>UI.Menu.MenuController.LoadUIMenu</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a75aeced676cfc6b2b05a2a4d9833dbeb" kindref="member">MenuType</ref></type>
+          <declname>toLoad</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for process of showing and hiding selected user interface popup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toLoad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user interface popup to show</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="82" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="82" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1ac9db12c3d5947bdfae239a03af359509" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.TurnOffPopup</definition>
+        <argsstring>(UIMenu displayedMenu)</argsstring>
+        <name>TurnOffPopup</name>
+        <qualifiedname>UI.Menu.MenuController.TurnOffPopup</qualifiedname>
+        <param>
+          <type><ref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" kindref="compound">UIMenu</ref></type>
+          <declname>displayedMenu</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for hiding currently displaying user interface popup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>displayedMenu</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>currently active user interface popup</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="108" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1ac178ada806a4306c250811affad6e2a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.ChangeUI</definition>
+        <argsstring>(UIMenu displayedMenu)</argsstring>
+        <name>ChangeUI</name>
+        <qualifiedname>UI.Menu.MenuController.ChangeUI</qualifiedname>
+        <param>
+          <type><ref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" kindref="compound">UIMenu</ref></type>
+          <declname>displayedMenu</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for showing selected user interface popup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>displayedMenu</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>currently active user interface popup</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="118" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="118" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1a328a2a7b87266eca0dada3ae827f1aca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.TurnOffPopup</definition>
+        <argsstring>()</argsstring>
+        <name>TurnOffPopup</name>
+        <qualifiedname>UI.Menu.MenuController.TurnOffPopup</qualifiedname>
+        <briefdescription>
+<para>methode that deactivates shop price popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="132" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_menu_controller_1a9df5a68b5ffdbc13f2842d1c2242bc4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.MenuController.PopPopup</definition>
+        <argsstring>(ShopItemType type, float price, float value)</argsstring>
+        <name>PopPopup</name>
+        <qualifiedname>UI.Menu.MenuController.PopPopup</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a353e642a7ebf8ccd94fdb8ac70b41796" kindref="member">ShopItemType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>methode that show shop price popup </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of shop item</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>price of shop item</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value or amount of bought item</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="145" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="145" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for displaying showing and hiding user interface popup. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.MenuController</label>
+        <link refid="class_u_i_1_1_menu_1_1_menu_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.MenuController</label>
+        <link refid="class_u_i_1_1_menu_1_1_menu_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" line="14" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/MenuController.cs" bodystart="15" bodyend="173"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1ac178ada806a4306c250811affad6e2a4" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>ChangeUI</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a0a712d4e0d74b394f75010132467dc6c" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>CurrentActiveMenu</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1abd23a2cff7956f1a817138ae5348add4" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>DisableEvents</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a47a8a90e2e1c7027564aa57edd82bcd9" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>EnableEvents</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a5517dc83a85a008be10b0526a5db4eb2" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>isGameFinished</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a1367f1778711fd3e76196a9cd985e658" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>ItemPopup</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1ad988d7388e3deddf4e385849618eb834" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>LoadUIMenu</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1abc2e8281d76f78b89005e80a83962de0" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>MenuPrefabs</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1abdad10154d18580872c45f7642741331" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a7e75318a34c3e8bf75d86fba23610346" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a9df5a68b5ffdbc13f2842d1c2242bc4f" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>PopPopup</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1ab9173ed79c1a0162464d6a7e5512dc4a" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>PopupManagement</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1abee8111c57b6373ab6d42170befb4fe1" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>Start</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a994d9bcf229b11035310e4a96aad9d3c" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>SwitchActiveUI</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1ac9db12c3d5947bdfae239a03af359509" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>TurnOffPopup</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_menu_controller_1a328a2a7b87266eca0dada3ae827f1aca" prot="private" virt="non-virtual"><scope>UI::Menu::MenuController</scope><name>TurnOffPopup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

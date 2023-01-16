@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_serialized_property_extensions" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::SerializedPropertyExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1ab0cef4746e859b10df5e7437e7488685" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.SerializedPropertyExtensions.ArrayContains</definition>
+        <argsstring>(this SerializedProperty array, Func&lt; SerializedProperty, bool &gt; predicate)</argsstring>
+        <name>ArrayContains</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.ArrayContains</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>Func&lt; SerializedProperty, bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1728" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1728" bodyend="1731"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1af8970079069052702fe83a6e366b32e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.SerializedPropertyExtensions.ArrayContains</definition>
+        <argsstring>(this SerializedProperty array, string subPropertyName, Func&lt; SerializedProperty, bool &gt; predicate)</argsstring>
+        <name>ArrayContains</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.ArrayContains</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subPropertyName</declname>
+        </param>
+        <param>
+          <type>Func&lt; SerializedProperty, bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1733" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1733" bodyend="1737"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aa758567b8c560b0e26b7039a503dc5e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FMODUnity.SerializedPropertyExtensions.FindArrayIndex</definition>
+        <argsstring>(this SerializedProperty array, Func&lt; SerializedProperty, bool &gt; predicate)</argsstring>
+        <name>FindArrayIndex</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.FindArrayIndex</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>Func&lt; SerializedProperty, bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1739" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1739" bodyend="1752"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a9f707b7c70a0446a33a72d5ba5ab4997" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FMODUnity.SerializedPropertyExtensions.FindArrayIndex</definition>
+        <argsstring>(this SerializedProperty array, string subPropertyName, Func&lt; SerializedProperty, bool &gt; predicate)</argsstring>
+        <name>FindArrayIndex</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.FindArrayIndex</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subPropertyName</declname>
+        </param>
+        <param>
+          <type>Func&lt; SerializedProperty, bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1754" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1754" bodyend="1769"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a69db40ce4871956d30027cec23ebe830" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SerializedPropertyExtensions.ArrayAdd</definition>
+        <argsstring>(this SerializedProperty array, Action&lt; SerializedProperty &gt; initialize)</argsstring>
+        <name>ArrayAdd</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.ArrayAdd</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>Action&lt; SerializedProperty &gt;</type>
+          <declname>initialize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1771" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1771" bodyend="1775"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aa610ed65bafc5f06e9f95e9a668a677f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SerializedPropertyExtensions.ArrayClear</definition>
+        <argsstring>(this SerializedProperty array)</argsstring>
+        <name>ArrayClear</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.ArrayClear</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1777" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1777" bodyend="1783"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aee8985c58f4b82bfd23e8dcd4177169d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SerializedPropertyExtensions.SetGuid</definition>
+        <argsstring>(this SerializedProperty property, FMOD.GUID guid)</argsstring>
+        <name>SetGuid</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.SetGuid</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1795" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1795" bodyend="1801"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aee0117ca54e686fec799d0c1a05e7b9b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SerializedPropertyExtensions.SetEventReference</definition>
+        <argsstring>(this SerializedProperty property, FMOD.GUID guid, string path)</argsstring>
+        <name>SetEventReference</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.SetEventReference</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1803" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1803" bodyend="1810"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a04fa7886ee379c87b352234201de336a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+        <definition>static EventReference FMODUnity.SerializedPropertyExtensions.GetEventReference</definition>
+        <argsstring>(this SerializedProperty property)</argsstring>
+        <name>GetEventReference</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.GetEventReference</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1812" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1812" bodyend="1821"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a7319d453513348ce97c64873d639b329" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+        <definition>static FMOD.GUID FMODUnity.SerializedPropertyExtensions.GetGuid</definition>
+        <argsstring>(this SerializedProperty property)</argsstring>
+        <name>GetGuid</name>
+        <qualifiedname>FMODUnity.SerializedPropertyExtensions.GetGuid</qualifiedname>
+        <param>
+          <type>this SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1785" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1785" bodyend="1793"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1726" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1727" bodyend="1822"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a69db40ce4871956d30027cec23ebe830" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>ArrayAdd</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aa610ed65bafc5f06e9f95e9a668a677f" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>ArrayClear</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1ab0cef4746e859b10df5e7437e7488685" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>ArrayContains</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1af8970079069052702fe83a6e366b32e8" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>ArrayContains</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aa758567b8c560b0e26b7039a503dc5e3" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>FindArrayIndex</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a9f707b7c70a0446a33a72d5ba5ab4997" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>FindArrayIndex</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a04fa7886ee379c87b352234201de336a" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>GetEventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1a7319d453513348ce97c64873d639b329" prot="private" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>GetGuid</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aee0117ca54e686fec799d0c1a05e7b9b" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>SetEventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_serialized_property_extensions_1aee8985c58f4b82bfd23e8dcd4177169d" prot="public" virt="non-virtual"><scope>FMODUnity::SerializedPropertyExtensions</scope><name>SetGuid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

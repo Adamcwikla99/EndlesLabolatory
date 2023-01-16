@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_reverb3_d" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Reverb3D</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_reverb3_d_1ac91ce2464898c358b9e0ee28f00ee31f" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Reverb3D.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Reverb3D.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3832" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3832" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a7f8fc7adb28c09c2d36cfc725c9f3110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.Reverb3D.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3768" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3768" bodyend="3771"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1adaf18959a4a422eaa5fb73bd9b0a895e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.set3DAttributes</definition>
+        <argsstring>(ref VECTOR position, float mindistance, float maxdistance)</argsstring>
+        <name>set3DAttributes</name>
+        <qualifiedname>FMOD.Reverb3D.set3DAttributes</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mindistance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxdistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3774" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3774" bodyend="3777"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a6d8250616062ae21af248c92eece725b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.get3DAttributes</definition>
+        <argsstring>(ref VECTOR position, ref float mindistance, ref float maxdistance)</argsstring>
+        <name>get3DAttributes</name>
+        <qualifiedname>FMOD.Reverb3D.get3DAttributes</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>mindistance</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>maxdistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3778" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3778" bodyend="3781"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1af16e44ba6013b50085dcf63a6a879d60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.setProperties</definition>
+        <argsstring>(ref REVERB_PROPERTIES properties)</argsstring>
+        <name>setProperties</name>
+        <qualifiedname>FMOD.Reverb3D.setProperties</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_r_e_v_e_r_b___p_r_o_p_e_r_t_i_e_s" kindref="compound">REVERB_PROPERTIES</ref></type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3782" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3782" bodyend="3785"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a9ed77465cb5c92a1f06ad874eccf85db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.getProperties</definition>
+        <argsstring>(ref REVERB_PROPERTIES properties)</argsstring>
+        <name>getProperties</name>
+        <qualifiedname>FMOD.Reverb3D.getProperties</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_r_e_v_e_r_b___p_r_o_p_e_r_t_i_e_s" kindref="compound">REVERB_PROPERTIES</ref></type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3786" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3786" bodyend="3789"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a4d528c30020c3426e65dac1f5427e878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.setActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setActive</name>
+        <qualifiedname>FMOD.Reverb3D.setActive</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3790" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3790" bodyend="3793"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a3a0591025bc4ba9c5be4eee2e1cdbd62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.getActive</definition>
+        <argsstring>(out bool active)</argsstring>
+        <name>getActive</name>
+        <qualifiedname>FMOD.Reverb3D.getActive</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3794" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3794" bodyend="3797"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a3300368e83bffa3e4b753f520e335952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.Reverb3D.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3800" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3800" bodyend="3803"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a0193d3e1ffd3f9a38afaf122a7b7b095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Reverb3D.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.Reverb3D.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3804" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3804" bodyend="3807"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a5fd480116d1ffaa01cf0775d4d9cae7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Reverb3D.Reverb3D</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>Reverb3D</name>
+        <qualifiedname>FMOD.Reverb3D.Reverb3D</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3834" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3834" bodyend="3834"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1aca2036d048bcb04265cf3a422595da74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Reverb3D.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Reverb3D.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3835" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3835" bodyend="3835"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a8d7d113be2cbaec88701777b6ac948b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Reverb3D.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Reverb3D.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3836" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3836" bodyend="3836"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1aacafc81479cb8c566a714ea19d33b78a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_Release</definition>
+        <argsstring>(IntPtr reverb3d)</argsstring>
+        <name>FMOD5_Reverb3D_Release</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3811" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1af3fe13d820918588e36703b325396f87" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_Set3DAttributes</definition>
+        <argsstring>(IntPtr reverb3d, ref VECTOR position, float mindistance, float maxdistance)</argsstring>
+        <name>FMOD5_Reverb3D_Set3DAttributes</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_Set3DAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mindistance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxdistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3813" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a75a4dbec0f12a1a925d312bc2d809ee5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_Get3DAttributes</definition>
+        <argsstring>(IntPtr reverb3d, ref VECTOR position, ref float mindistance, ref float maxdistance)</argsstring>
+        <name>FMOD5_Reverb3D_Get3DAttributes</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_Get3DAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>mindistance</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>maxdistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3815" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a4a13fd2d563dbf24eb2716973d0a5e75" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_SetProperties</definition>
+        <argsstring>(IntPtr reverb3d, ref REVERB_PROPERTIES properties)</argsstring>
+        <name>FMOD5_Reverb3D_SetProperties</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_SetProperties</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_r_e_v_e_r_b___p_r_o_p_e_r_t_i_e_s" kindref="compound">REVERB_PROPERTIES</ref></type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3817" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1a5c70e059f643af684a639d9761b6f805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_GetProperties</definition>
+        <argsstring>(IntPtr reverb3d, ref REVERB_PROPERTIES properties)</argsstring>
+        <name>FMOD5_Reverb3D_GetProperties</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_GetProperties</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_r_e_v_e_r_b___p_r_o_p_e_r_t_i_e_s" kindref="compound">REVERB_PROPERTIES</ref></type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3819" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1ab5e6add626816c27d567c03230bf129e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_SetActive</definition>
+        <argsstring>(IntPtr reverb3d, bool active)</argsstring>
+        <name>FMOD5_Reverb3D_SetActive</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_SetActive</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3821" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1aab5fde07e4212c15ed1027535fd6d0b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_GetActive</definition>
+        <argsstring>(IntPtr reverb3d, out bool active)</argsstring>
+        <name>FMOD5_Reverb3D_GetActive</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_GetActive</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3823" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1af45bebb29dae4a8ac3884f0bbbdfb074" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_SetUserData</definition>
+        <argsstring>(IntPtr reverb3d, IntPtr userdata)</argsstring>
+        <name>FMOD5_Reverb3D_SetUserData</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3825" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_reverb3_d_1ad1b4d1a628771c2fdaa1e515bdca3a2c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Reverb3D.FMOD5_Reverb3D_GetUserData</definition>
+        <argsstring>(IntPtr reverb3d, out IntPtr userdata)</argsstring>
+        <name>FMOD5_Reverb3D_GetUserData</name>
+        <qualifiedname>FMOD.Reverb3D.FMOD5_Reverb3D_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>reverb3d</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3827" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3766" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3767" bodyend="3839"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a8d7d113be2cbaec88701777b6ac948b8" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a75a4dbec0f12a1a925d312bc2d809ee5" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_Get3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1aab5fde07e4212c15ed1027535fd6d0b3" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_GetActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a5c70e059f643af684a639d9761b6f805" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_GetProperties</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1ad1b4d1a628771c2fdaa1e515bdca3a2c" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1aacafc81479cb8c566a714ea19d33b78a" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1af3fe13d820918588e36703b325396f87" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_Set3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1ab5e6add626816c27d567c03230bf129e" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_SetActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a4a13fd2d563dbf24eb2716973d0a5e75" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_SetProperties</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1af45bebb29dae4a8ac3884f0bbbdfb074" prot="private" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>FMOD5_Reverb3D_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a6d8250616062ae21af248c92eece725b" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>get3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a3a0591025bc4ba9c5be4eee2e1cdbd62" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>getActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a9ed77465cb5c92a1f06ad874eccf85db" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>getProperties</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a0193d3e1ffd3f9a38afaf122a7b7b095" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1ac91ce2464898c358b9e0ee28f00ee31f" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1aca2036d048bcb04265cf3a422595da74" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a7f8fc7adb28c09c2d36cfc725c9f3110" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a5fd480116d1ffaa01cf0775d4d9cae7e" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>Reverb3D</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1adaf18959a4a422eaa5fb73bd9b0a895e" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>set3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a4d528c30020c3426e65dac1f5427e878" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>setActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1af16e44ba6013b50085dcf63a6a879d60" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>setProperties</name></member>
+      <member refid="struct_f_m_o_d_1_1_reverb3_d_1a3300368e83bffa3e4b753f520e335952" prot="public" virt="non-virtual"><scope>FMOD::Reverb3D</scope><name>setUserData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

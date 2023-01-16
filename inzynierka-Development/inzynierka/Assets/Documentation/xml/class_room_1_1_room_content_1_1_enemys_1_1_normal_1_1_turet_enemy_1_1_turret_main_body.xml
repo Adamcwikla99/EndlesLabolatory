@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretMainBody</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_interface_1_1_i_damage" prot="public" virt="non-virtual">Interface.IDamage</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1a771a5d776f3177544db816d70c72c2df" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller" kindref="compound">TurretController</ref></type>
+        <definition>TurretController Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody.ThisTurretController</definition>
+        <argsstring></argsstring>
+        <name>ThisTurretController</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody.ThisTurretController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" line="14" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1ab29861744fdb149c7f1c0d567d283de5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody.TakeDamage</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2">TakeDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that applies damage to <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" line="31" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1af95aef2bc069876f7e6716359adb5519" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody.DeflectProjectile</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419">DeflectProjectile</reimplements>
+        <briefdescription>
+<para>methode that determines if turret main body can deflect projectiles <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" line="39" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements turret main body logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretMainBody.cs" bodystart="10" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1af95aef2bc069876f7e6716359adb5519" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretMainBody</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1ab29861744fdb149c7f1c0d567d283de5" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretMainBody</scope><name>TakeDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1a771a5d776f3177544db816d70c72c2df" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretMainBody</scope><name>ThisTurretController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

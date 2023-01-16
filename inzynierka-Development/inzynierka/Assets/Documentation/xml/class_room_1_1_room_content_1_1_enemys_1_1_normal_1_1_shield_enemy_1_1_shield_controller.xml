@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" prot="public" virt="non-virtual">Room.RoomContent.Enemys.RoomEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a7b7d17270eca51f04bf8410fcd22b264" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator" kindref="compound">ShieldEnemyAnimator</ref></type>
+        <definition>ShieldEnemyAnimator Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.DesolveAnimation</definition>
+        <argsstring></argsstring>
+        <name>DesolveAnimation</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.DesolveAnimation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="14" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a401daf4a32f4d09524d3d9740ff023eb" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.animationTime</definition>
+        <argsstring></argsstring>
+        <name>animationTime</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.animationTime</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="19" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a25b4102b8f7538d8da1b23c3fae79d6f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.currentAnimationTime</definition>
+        <argsstring></argsstring>
+        <name>currentAnimationTime</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.currentAnimationTime</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="20" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1ad9dda301dcd9366438dd42a96f99c437" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.startCount</definition>
+        <argsstring></argsstring>
+        <name>startCount</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.startCount</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="21" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1ab963869e8274380a494dae7754572178" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="26" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1ab2c59dda3718dd64105513c078a422e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="31" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a4d152835a94cc0861931a140144be24d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.CountTime</definition>
+        <argsstring>()</argsstring>
+        <name>CountTime</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.CountTime</qualifiedname>
+        <briefdescription>
+<para>methode that starts desolve animation countdown and destroys game object after it was finished </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="64" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="64" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a0230f6ca53d98c528ed546e6f0dda3c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.BodyReceivedDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>BodyReceivedDamage</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.BodyReceivedDamage</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that applies damage to shield entity <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="42" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a286077ff3e6fe355b33a2c276e26543c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.DeflectProjectile</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a053c9c463e545dc8fd7c6a40e8b323cc">DeflectProjectile</reimplements>
+        <briefdescription>
+<para>methode that determines if shield entity can deflect projectiles <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="50" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a2dafad549fdf5fa94aa4b0b61c02a62a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.PlayDesolveAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayDesolveAnimation</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController.PlayDesolveAnimation</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8b0a71856b1c291573d9e14a7aaa0598">PlayDesolveAnimation</reimplements>
+        <briefdescription>
+<para>methode that plays desolve animation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="55" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements shield controller logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Room.RoomContent.Enemys.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Structures.Wrapper.ContentAttackStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_attack_stats"/>
+      </node>
+      <node id="5">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldController.cs" bodystart="10" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a678e98e91d910397c141fb120bff9cb4" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>AdjustOutline</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a401daf4a32f4d09524d3d9740ff023eb" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>animationTime</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ad918920fdfce315c36c6b687e3bae29e" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>attackStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a0230f6ca53d98c528ed546e6f0dda3c3" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>BodyReceivedDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1acc57f8b0fad7871ab4c5d1a47393538f" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>CalculateNewOutlineIntensity</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1aa1f2251a93dfad5d5bb8aeafef25af6e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>CheckIfSurvived</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a4d152835a94cc0861931a140144be24d" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>CountTime</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a25b4102b8f7538d8da1b23c3fae79d6f" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>currentAnimationTime</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a286077ff3e6fe355b33a2c276e26543c" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a7b7d17270eca51f04bf8410fcd22b264" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>DesolveAnimation</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1aaa355175f135adaa9bae5107c8ab6898" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8d5ea56a34abed99dce5575bf45cc538" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a81aa745c4890409c45554a8eaf12a82e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>ManageEnemyFloorBoost</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a72042c037621941c5348e974c3c52cad" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>MAX_OUTLINE_INTENSITY</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a44e2c319a84d92de6a27cdd1f81e0d24" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>OnParticleCollision</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a2dafad549fdf5fa94aa4b0b61c02a62a" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>PlayDesolveAnimation</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af6396b30984e85d9ba0da930db752553" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>PlayerGameScore</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ac2790791b7b4a9aa45625c330151f1ea" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>SpawnReword</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1ab963869e8274380a494dae7754572178" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1ad9dda301dcd9366438dd42a96f99c437" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>startCount</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af500209a8af5ff7d47c9ac69b7c7516e" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>TakeDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ace5b1abac330e5e8caaaf4d819569858" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>thisEntity</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1ab2c59dda3718dd64105513c078a422e7" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::ShieldEnemy::ShieldController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

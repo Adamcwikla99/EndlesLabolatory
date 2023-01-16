@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_popup_1_1_shop_item_popup" kind="class" language="C#" prot="public">
+    <compoundname>UI::Popup::ShopItemPopup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_shop_item_popup_1a19c1be8f1db468d22d7ad56cc3e2cf56" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text UI.Popup.ShopItemPopup.Item</definition>
+        <argsstring></argsstring>
+        <name>Item</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.Item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="15" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_shop_item_popup_1a489d177a05388a4482599a6f25278cbf" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text UI.Popup.ShopItemPopup.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.Price</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="18" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_shop_item_popup_1a3a53d79caff4b0e9c7a620b13477359b" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text UI.Popup.ShopItemPopup.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="21" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_shop_item_popup_1aa7e7c939b3186c33a4211bd3cf479486" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_toggle_player_pointer" kindref="compound">TogglePlayerPointer</ref></type>
+        <definition>TogglePlayerPointer UI.Popup.ShopItemPopup.PointerToggle</definition>
+        <argsstring></argsstring>
+        <name>PointerToggle</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.PointerToggle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="24" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_shop_item_popup_1a52806a687470e9e8ba29aa6560034c7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.ShopItemPopup.SetNewValues</definition>
+        <argsstring>(string itemText, string priceText, string valueText)</argsstring>
+        <name>SetNewValues</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.SetNewValues</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>itemText</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>priceText</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>valueText</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for setting displayed shop item information </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="33" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_shop_item_popup_1a48300ccbe4f00f6ea9a69cadf81d2371" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.ShopItemPopup.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.OnEnable</qualifiedname>
+        <briefdescription>
+<para>methode that hides player pointer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="43" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_shop_item_popup_1a0f7bccc5600c61b39f8d825c99a17196" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.ShopItemPopup.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>UI.Popup.ShopItemPopup.OnDisable</qualifiedname>
+        <briefdescription>
+<para>methode that shows player pointer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="51" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for setting shop item value and price </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Popup.ShopItemPopup</label>
+        <link refid="class_u_i_1_1_popup_1_1_shop_item_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Popup.ShopItemPopup</label>
+        <link refid="class_u_i_1_1_popup_1_1_shop_item_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/ShopItemPopup.cs" bodystart="11" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1a19c1be8f1db468d22d7ad56cc3e2cf56" prot="private" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>Item</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1a0f7bccc5600c61b39f8d825c99a17196" prot="private" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1a48300ccbe4f00f6ea9a69cadf81d2371" prot="private" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1aa7e7c939b3186c33a4211bd3cf479486" prot="private" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>PointerToggle</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1a489d177a05388a4482599a6f25278cbf" prot="private" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>Price</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1a52806a687470e9e8ba29aa6560034c7b" prot="public" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>SetNewValues</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_shop_item_popup_1a3a53d79caff4b0e9c7a620b13477359b" prot="private" virt="non-virtual"><scope>UI::Popup::ShopItemPopup</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

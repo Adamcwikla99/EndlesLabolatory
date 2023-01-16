@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EditorSettings::BuildProcessor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IPreprocessBuildWithReport</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPostprocessBuildWithReport</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor_1a85a6cb549f07149c7a7d53cf4cbe8d61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int FMODUnity.EditorSettings.BuildProcessor.callbackOrder</definition>
+        <argsstring></argsstring>
+        <name>callbackOrder</name>
+        <qualifiedname>FMODUnity.EditorSettings.BuildProcessor.callbackOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="622" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="622" bodyend="622"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor_1ac7e4f7d717faa07a9009522ab81a0133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.BuildProcessor.OnPreprocessBuild</definition>
+        <argsstring>(BuildReport report)</argsstring>
+        <name>OnPreprocessBuild</name>
+        <qualifiedname>FMODUnity.EditorSettings.BuildProcessor.OnPreprocessBuild</qualifiedname>
+        <param>
+          <type>BuildReport</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="624" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="624" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor_1a0a65ef5b3d5af01111878333706ecf72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.BuildProcessor.OnPostprocessBuild</definition>
+        <argsstring>(BuildReport report)</argsstring>
+        <name>OnPostprocessBuild</name>
+        <qualifiedname>FMODUnity.EditorSettings.BuildProcessor.OnPostprocessBuild</qualifiedname>
+        <param>
+          <type>BuildReport</type>
+          <declname>report</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="647" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="647" bodyend="650"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EditorSettings.BuildProcessor</label>
+        <link refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPostprocessBuildWithReport</label>
+      </node>
+      <node id="2">
+        <label>IPreprocessBuildWithReport</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EditorSettings.BuildProcessor</label>
+        <link refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPostprocessBuildWithReport</label>
+      </node>
+      <node id="2">
+        <label>IPreprocessBuildWithReport</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="620" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="621" bodyend="651"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor_1a85a6cb549f07149c7a7d53cf4cbe8d61" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings::BuildProcessor</scope><name>callbackOrder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor_1a0a65ef5b3d5af01111878333706ecf72" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings::BuildProcessor</scope><name>OnPostprocessBuild</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor_1ac7e4f7d717faa07a9009522ab81a0133" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings::BuildProcessor</scope><name>OnPreprocessBuild</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

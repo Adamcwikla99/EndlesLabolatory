@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_popup_1_1_minimap_toggle" kind="class" language="C#" prot="public">
+    <compoundname>UI::Popup::MinimapToggle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a0f9ae47628e75a5cb00612143be63f6e" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject UI.Popup.MinimapToggle.Minimap</definition>
+        <argsstring></argsstring>
+        <name>Minimap</name>
+        <qualifiedname>UI.Popup.MinimapToggle.Minimap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="16" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a8765143dc9f24bdb9fcc0dff616ff732" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject UI.Popup.MinimapToggle.Pointer</definition>
+        <argsstring></argsstring>
+        <name>Pointer</name>
+        <qualifiedname>UI.Popup.MinimapToggle.Pointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="19" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a2e3bf7df85c560ce012aa1e1a9fe978f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_toggle_minimap_event" kindref="compound">ToggleMinimapEvent</ref></type>
+        <definition>ToggleMinimapEvent UI.Popup.MinimapToggle.Toggle</definition>
+        <argsstring></argsstring>
+        <name>Toggle</name>
+        <qualifiedname>UI.Popup.MinimapToggle.Toggle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="22" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a1c6cf6208c9b5e0b380ec6a7da79d7e7" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_toggle_player_pointer" kindref="compound">TogglePlayerPointer</ref></type>
+        <definition>TogglePlayerPointer UI.Popup.MinimapToggle.PointerToggle</definition>
+        <argsstring></argsstring>
+        <name>PointerToggle</name>
+        <qualifiedname>UI.Popup.MinimapToggle.PointerToggle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="25" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_1_1_popup_1_1_minimap_toggle_1ae3dbb1f3fb8a275940e617f3618d97fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UI.Popup.MinimapToggle.canToggleMinimap</definition>
+        <argsstring></argsstring>
+        <name>canToggleMinimap</name>
+        <qualifiedname>UI.Popup.MinimapToggle.canToggleMinimap</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="31" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1aaa7b66bebfc0b585c2599535555dfffd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>UI.Popup.MinimapToggle.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="37" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a91e4349fbf0e3073f1139d8e7d639c29" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>UI.Popup.MinimapToggle.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="42" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a4938298ca3230757390f4222d9e5485f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>UI.Popup.MinimapToggle.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that assigns actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="50" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1ab43e86cd310dc58b1da6903ea01ec5f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>UI.Popup.MinimapToggle.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that unassigned actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="60" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1aa839082ed50eef6e1a8bf252732595ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.ShowMinimap</definition>
+        <argsstring>()</argsstring>
+        <name>ShowMinimap</name>
+        <qualifiedname>UI.Popup.MinimapToggle.ShowMinimap</qualifiedname>
+        <briefdescription>
+<para>methode responsible for showing minimap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="70" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="70" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a4378fa58b8ae81f8a2f898d862af8486" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.SetMinimapState</definition>
+        <argsstring>(bool newState)</argsstring>
+        <name>SetMinimapState</name>
+        <qualifiedname>UI.Popup.MinimapToggle.SetMinimapState</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>methode that allows to set minimap state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="83" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_popup_1_1_minimap_toggle_1a5e889f37ff8f5b647aaf26e7c1d95db4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Popup.MinimapToggle.TogglePointer</definition>
+        <argsstring>(bool newState)</argsstring>
+        <name>TogglePointer</name>
+        <qualifiedname>UI.Popup.MinimapToggle.TogglePointer</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for showing/hiding player pointer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="92" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements minimap toggle logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Popup.MinimapToggle</label>
+        <link refid="class_u_i_1_1_popup_1_1_minimap_toggle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Popup.MinimapToggle</label>
+        <link refid="class_u_i_1_1_popup_1_1_minimap_toggle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" line="11" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Popup/MinimapToggle.cs" bodystart="12" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1ae3dbb1f3fb8a275940e617f3618d97fb" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>canToggleMinimap</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1ab43e86cd310dc58b1da6903ea01ec5f9" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>DisableEvents</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a4938298ca3230757390f4222d9e5485f" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>EnableEvents</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a0f9ae47628e75a5cb00612143be63f6e" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>Minimap</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a91e4349fbf0e3073f1139d8e7d639c29" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1aaa7b66bebfc0b585c2599535555dfffd" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a8765143dc9f24bdb9fcc0dff616ff732" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>Pointer</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a1c6cf6208c9b5e0b380ec6a7da79d7e7" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>PointerToggle</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a4378fa58b8ae81f8a2f898d862af8486" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>SetMinimapState</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1aa839082ed50eef6e1a8bf252732595ef" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>ShowMinimap</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a2e3bf7df85c560ce012aa1e1a9fe978f" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>Toggle</name></member>
+      <member refid="class_u_i_1_1_popup_1_1_minimap_toggle_1a5e889f37ff8f5b647aaf26e7c1d95db4" prot="private" virt="non-virtual"><scope>UI::Popup::MinimapToggle</scope><name>TogglePointer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

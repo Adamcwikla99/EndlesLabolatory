@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_debug" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Debug</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_debug_1af355bc13183504e0edfc74b5c4449707" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Debug.Initialize</definition>
+        <argsstring>(DEBUG_FLAGS flags, DEBUG_MODE mode=DEBUG_MODE.TTY, DEBUG_CALLBACK callback=null, string filename=null)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>FMOD.Debug.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae26c0e42bca4d9ba2b529ed29cf35b33" kindref="member">DEBUG_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a51fb07f23c688e88199e560657a65c77" kindref="member">DEBUG_MODE</ref></type>
+          <declname>mode</declname>
+          <defval><ref refid="namespace_f_m_o_d_1a51fb07f23c688e88199e560657a65c77a77ffb0038a392d97d302ada53a282ceb" kindref="member">DEBUG_MODE.TTY</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aedff85cbd65cd27d81ed0ac6479df7e0" kindref="member">DEBUG_CALLBACK</ref></type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="988" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="988" bodyend="994"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_debug_1a09577e3b844477db97fde2e9ae5411cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Debug.FMOD5_Debug_Initialize</definition>
+        <argsstring>(DEBUG_FLAGS flags, DEBUG_MODE mode, DEBUG_CALLBACK callback, byte[] filename)</argsstring>
+        <name>FMOD5_Debug_Initialize</name>
+        <qualifiedname>FMOD.Debug.FMOD5_Debug_Initialize</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae26c0e42bca4d9ba2b529ed29cf35b33" kindref="member">DEBUG_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a51fb07f23c688e88199e560657a65c77" kindref="member">DEBUG_MODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aedff85cbd65cd27d81ed0ac6479df7e0" kindref="member">DEBUG_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="998" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="986" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="987" bodyend="1001"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_debug_1a09577e3b844477db97fde2e9ae5411cd" prot="private" virt="non-virtual"><scope>FMOD::Debug</scope><name>FMOD5_Debug_Initialize</name></member>
+      <member refid="struct_f_m_o_d_1_1_debug_1af355bc13183504e0edfc74b5c4449707" prot="public" virt="non-virtual"><scope>FMOD::Debug</scope><name>Initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_help_content" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>FMODUnity::HelpContent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PopupWindowContent</basecompoundref>
+    <derivedcompoundref refid="class_f_m_o_d_unity_1_1_simple_help" prot="public" virt="non-virtual">FMODUnity.SimpleHelp</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_help_content_1a5979a44dbdfa44168ca9411d2f1dfa70" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent FMODUnity.HelpContent.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <qualifiedname>FMODUnity.HelpContent.icon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1580" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1580" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_help_content_1a49cc357c88375f747f792688116f4994" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FMODUnity.HelpContent.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <qualifiedname>FMODUnity.HelpContent.Prepare</qualifiedname>
+        <reimplementedby refid="class_f_m_o_d_unity_1_1_simple_help_1a1b29af0e01c117149d397a99eb0a844c">Prepare</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1582" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_help_content_1a83700ba0f7698f31a7afb28161f24235" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract Vector2</type>
+        <definition>abstract Vector2 FMODUnity.HelpContent.GetContentSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetContentSize</name>
+        <qualifiedname>FMODUnity.HelpContent.GetContentSize</qualifiedname>
+        <reimplementedby refid="class_f_m_o_d_unity_1_1_simple_help_1a0a0cec21627535ebf4972e4df0434b72">GetContentSize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1583" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_help_content_1a9fadb3edc14634e4483cec96c368757b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FMODUnity.HelpContent.DrawContent</definition>
+        <argsstring>()</argsstring>
+        <name>DrawContent</name>
+        <qualifiedname>FMODUnity.HelpContent.DrawContent</qualifiedname>
+        <reimplementedby refid="class_f_m_o_d_unity_1_1_simple_help_1a48dc1593e283bd5ee85dc3aa73b59337">DrawContent</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1584" column="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_help_content_1aed5dc1bc1bcc648e86b011343a94d57e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.HelpContent.OnOpen</definition>
+        <argsstring>()</argsstring>
+        <name>OnOpen</name>
+        <qualifiedname>FMODUnity.HelpContent.OnOpen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1586" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1586" bodyend="1591"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_help_content_1a1a1df9fccfefba7c1de627cb9740ccbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Vector2</type>
+        <definition>override Vector2 FMODUnity.HelpContent.GetWindowSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetWindowSize</name>
+        <qualifiedname>FMODUnity.HelpContent.GetWindowSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1593" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1593" bodyend="1601"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_help_content_1aaa02fe80dbd734b9ec4c9229b437a67c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.HelpContent.OnGUI</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.HelpContent.OnGUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1603" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1603" bodyend="1617"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.HelpContent</label>
+        <link refid="class_f_m_o_d_unity_1_1_help_content"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FMODUnity.SimpleHelp</label>
+        <link refid="class_f_m_o_d_unity_1_1_simple_help"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PopupWindowContent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.HelpContent</label>
+        <link refid="class_f_m_o_d_unity_1_1_help_content"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PopupWindowContent</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1578" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1579" bodyend="1618"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1a9fadb3edc14634e4483cec96c368757b" prot="protected" virt="pure-virtual"><scope>FMODUnity::HelpContent</scope><name>DrawContent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1a83700ba0f7698f31a7afb28161f24235" prot="protected" virt="pure-virtual"><scope>FMODUnity::HelpContent</scope><name>GetContentSize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1a1a1df9fccfefba7c1de627cb9740ccbb" prot="public" virt="non-virtual"><scope>FMODUnity::HelpContent</scope><name>GetWindowSize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1a5979a44dbdfa44168ca9411d2f1dfa70" prot="private" virt="non-virtual"><scope>FMODUnity::HelpContent</scope><name>icon</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1aaa02fe80dbd734b9ec4c9229b437a67c" prot="public" virt="non-virtual"><scope>FMODUnity::HelpContent</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1aed5dc1bc1bcc648e86b011343a94d57e" prot="public" virt="non-virtual"><scope>FMODUnity::HelpContent</scope><name>OnOpen</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1a49cc357c88375f747f792688116f4994" prot="protected" virt="pure-virtual"><scope>FMODUnity::HelpContent</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

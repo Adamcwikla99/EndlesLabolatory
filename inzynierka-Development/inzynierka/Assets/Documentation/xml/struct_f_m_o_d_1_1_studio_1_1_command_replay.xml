@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_studio_1_1_command_replay" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Studio::CommandReplay</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ae447a2276fd9ecee1583d42094e48a69" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Studio.CommandReplay.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2237" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2237" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ae9ea37bd6a9507bb05044321688d947d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getSystem</definition>
+        <argsstring>(out System system)</argsstring>
+        <name>getSystem</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getSystem</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_system" kindref="compound">System</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2074" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2074" bodyend="2077"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac3dccf2d74e1b5bd4c07c5bb10d5b73f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getLength</definition>
+        <argsstring>(out float length)</argsstring>
+        <name>getLength</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getLength</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2079" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2079" bodyend="2082"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1aab480198224f4bf8a01a9329a1d4ee7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getCommandCount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getCommandCount</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getCommandCount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2083" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2083" bodyend="2086"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac0c493eb989cee4282d20764fe0a5988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getCommandInfo</definition>
+        <argsstring>(int commandIndex, out COMMAND_INFO info)</argsstring>
+        <name>getCommandInfo</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getCommandInfo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_c_o_m_m_a_n_d___i_n_f_o" kindref="compound">COMMAND_INFO</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2087" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2087" bodyend="2090"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a905455914b841f59180c057fd3633a09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getCommandString</definition>
+        <argsstring>(int commandIndex, out string buffer)</argsstring>
+        <name>getCommandString</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getCommandString</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2092" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2092" bodyend="2116"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ae8cbc4a2383d92742c353c093c14c34e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getCommandAtTime</definition>
+        <argsstring>(float time, out int commandIndex)</argsstring>
+        <name>getCommandAtTime</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getCommandAtTime</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2117" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2117" bodyend="2120"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a71e4256df794266954913d3ef2ce1061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.setBankPath</definition>
+        <argsstring>(string bankPath)</argsstring>
+        <name>setBankPath</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.setBankPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>bankPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2122" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2122" bodyend="2128"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ab1a366a534a17e0e49ed468b7f87c81a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2129" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2129" bodyend="2132"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a2d263d7d9f7d0545b94b1f9b801b930a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2133" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2133" bodyend="2136"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a5d3375a26afa306bf21d2f1b8f178d7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.seekToTime</definition>
+        <argsstring>(float time)</argsstring>
+        <name>seekToTime</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.seekToTime</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2137" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2137" bodyend="2140"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a4903873641391d5b40470df7fb73837b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.seekToCommand</definition>
+        <argsstring>(int commandIndex)</argsstring>
+        <name>seekToCommand</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.seekToCommand</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2141" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2141" bodyend="2144"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a6462b8103f5af4f5164c2e5a233220e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getPaused</definition>
+        <argsstring>(out bool paused)</argsstring>
+        <name>getPaused</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getPaused</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2145" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2145" bodyend="2148"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1afbfda1ea2c64b526ff805c26664a94df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.setPaused</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>setPaused</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.setPaused</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2149" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2149" bodyend="2152"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a28783ebbe46a7a95755d0776bb121ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getPlaybackState</definition>
+        <argsstring>(out PLAYBACK_STATE state)</argsstring>
+        <name>getPlaybackState</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getPlaybackState</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602d" kindref="member">PLAYBACK_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2153" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2153" bodyend="2156"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ab068b4e74ebc02c24076ca0c75bb4205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getCurrentCommand</definition>
+        <argsstring>(out int commandIndex, out float currentTime)</argsstring>
+        <name>getCurrentCommand</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getCurrentCommand</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>currentTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2157" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2157" bodyend="2160"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a12f81d9adcc8b7ab231ac691c15725de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2162" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2162" bodyend="2165"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac1003b0c2206c7c21af4eefd268bab2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.setFrameCallback</definition>
+        <argsstring>(COMMANDREPLAY_FRAME_CALLBACK callback)</argsstring>
+        <name>setFrameCallback</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.setFrameCallback</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1aca1b4ec5deb7a4d672b7578965fc8fb1" kindref="member">COMMANDREPLAY_FRAME_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2167" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2167" bodyend="2170"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3031c9af6190423aab9252c521f24b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.setLoadBankCallback</definition>
+        <argsstring>(COMMANDREPLAY_LOAD_BANK_CALLBACK callback)</argsstring>
+        <name>setLoadBankCallback</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.setLoadBankCallback</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a112087d93f4f8841d9d9b220b7de7e59" kindref="member">COMMANDREPLAY_LOAD_BANK_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2171" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2171" bodyend="2174"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a376a6788b39c202ccba9e2b9234435c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.setCreateInstanceCallback</definition>
+        <argsstring>(COMMANDREPLAY_CREATE_INSTANCE_CALLBACK callback)</argsstring>
+        <name>setCreateInstanceCallback</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.setCreateInstanceCallback</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a2688de77492e02fcb560e273db986d6e" kindref="member">COMMANDREPLAY_CREATE_INSTANCE_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2175" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2175" bodyend="2178"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a03d3c9e9d4d79c46a9dc38e5793c328b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2179" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2179" bodyend="2182"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a761792fe8adabf96e33cd9cd07924d9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.CommandReplay.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2183" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2183" bodyend="2186"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a79c3fd3d133e1faa35944250ab75ec4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Studio.CommandReplay.CommandReplay</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>CommandReplay</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.CommandReplay</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2239" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2239" bodyend="2239"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac48fbb66ff2ded53475eba52c0a4bce4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.CommandReplay.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2240" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2240" bodyend="2240"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a46b341b7e65758a4e03e2848047e4e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Studio.CommandReplay.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2241" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2241" bodyend="2241"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a123623a6b5e195bbd09a4e451d6a357a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.CommandReplay.isValid</definition>
+        <argsstring>()</argsstring>
+        <name>isValid</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2243" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2243" bodyend="2246"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1af148d02f19b6f97d9e0ffc1d3b47e99e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_IsValid</definition>
+        <argsstring>(IntPtr replay)</argsstring>
+        <name>FMOD_Studio_CommandReplay_IsValid</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_IsValid</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2190" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a646da7d63914535b80e5d9128aa4c0f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetSystem</definition>
+        <argsstring>(IntPtr replay, out IntPtr system)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetSystem</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetSystem</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2192" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9261f9fe492002807ad507a43531fefd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetLength</definition>
+        <argsstring>(IntPtr replay, out float length)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetLength</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetLength</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2194" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9455bb7c9401fba2c2ef5ce600ad7f82" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandCount</definition>
+        <argsstring>(IntPtr replay, out int count)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetCommandCount</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandCount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2196" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3cf37ebf70595a910788790f7d728898" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandInfo</definition>
+        <argsstring>(IntPtr replay, int commandindex, out COMMAND_INFO info)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetCommandInfo</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commandindex</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_c_o_m_m_a_n_d___i_n_f_o" kindref="compound">COMMAND_INFO</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2198" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a061a623398ef1ac1d1780988b780bdd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandString</definition>
+        <argsstring>(IntPtr replay, int commandIndex, IntPtr buffer, int length)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetCommandString</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandString</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2200" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac6194f0a58c0db788e79dc3879d58801" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandAtTime</definition>
+        <argsstring>(IntPtr replay, float time, out int commandIndex)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetCommandAtTime</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCommandAtTime</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2202" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac80b108a8dd5b1f70acc2a5121c0d190" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetBankPath</definition>
+        <argsstring>(IntPtr replay, byte[] bankPath)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SetBankPath</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetBankPath</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>bankPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2204" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9b6eb91285c7a45bb9e852578b9bdd91" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_Start</definition>
+        <argsstring>(IntPtr replay)</argsstring>
+        <name>FMOD_Studio_CommandReplay_Start</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_Start</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2206" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1adf49c94ea8b5e48f169154ffd5663a9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_Stop</definition>
+        <argsstring>(IntPtr replay)</argsstring>
+        <name>FMOD_Studio_CommandReplay_Stop</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_Stop</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2208" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a87e1130c2e836904531094b2164c9d45" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SeekToTime</definition>
+        <argsstring>(IntPtr replay, float time)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SeekToTime</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SeekToTime</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2210" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a801d0ce2ead7fa25ba3bf5e9bc0a1d89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SeekToCommand</definition>
+        <argsstring>(IntPtr replay, int commandIndex)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SeekToCommand</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SeekToCommand</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2212" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3efd92a6e6af481b1077ad1f19e93bec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetPaused</definition>
+        <argsstring>(IntPtr replay, out bool paused)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetPaused</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetPaused</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2214" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9b31588ad3f6e20e8b39f4a4f75c0842" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetPaused</definition>
+        <argsstring>(IntPtr replay, bool paused)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SetPaused</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetPaused</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2216" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a164c378fbf5c4a2f82f10b6108ffa6b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetPlaybackState</definition>
+        <argsstring>(IntPtr replay, out PLAYBACK_STATE state)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetPlaybackState</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetPlaybackState</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602d" kindref="member">PLAYBACK_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2218" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a2567b657ce009dd79df699811c9cbbd9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCurrentCommand</definition>
+        <argsstring>(IntPtr replay, out int commandIndex, out float currentTime)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetCurrentCommand</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetCurrentCommand</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>commandIndex</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>currentTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2220" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ad625b69ad4a113ccf2976056af6c58f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_Release</definition>
+        <argsstring>(IntPtr replay)</argsstring>
+        <name>FMOD_Studio_CommandReplay_Release</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2222" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a001941991a3ab3451c37cc7a50246202" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetFrameCallback</definition>
+        <argsstring>(IntPtr replay, COMMANDREPLAY_FRAME_CALLBACK callback)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SetFrameCallback</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetFrameCallback</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1aca1b4ec5deb7a4d672b7578965fc8fb1" kindref="member">COMMANDREPLAY_FRAME_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2224" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3a4831922b400e13a03044bd4ce43f22" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetLoadBankCallback</definition>
+        <argsstring>(IntPtr replay, COMMANDREPLAY_LOAD_BANK_CALLBACK callback)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SetLoadBankCallback</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetLoadBankCallback</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a112087d93f4f8841d9d9b220b7de7e59" kindref="member">COMMANDREPLAY_LOAD_BANK_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2226" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a5e77f0b4b6cb738d198cdd82a21b5ee3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetCreateInstanceCallback</definition>
+        <argsstring>(IntPtr replay, COMMANDREPLAY_CREATE_INSTANCE_CALLBACK callback)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SetCreateInstanceCallback</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetCreateInstanceCallback</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a2688de77492e02fcb560e273db986d6e" kindref="member">COMMANDREPLAY_CREATE_INSTANCE_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2228" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a11489c0cbb50e8ae25f10b26d31eb286" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetUserData</definition>
+        <argsstring>(IntPtr replay, out IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_CommandReplay_GetUserData</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2230" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_command_replay_1aff97b498747623419fc478604f47d9cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetUserData</definition>
+        <argsstring>(IntPtr replay, IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_CommandReplay_SetUserData</name>
+        <qualifiedname>FMOD.Studio.CommandReplay.FMOD_Studio_CommandReplay_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2232" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2071" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2072" bodyend="2249"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a46b341b7e65758a4e03e2848047e4e33" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a79c3fd3d133e1faa35944250ab75ec4c" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>CommandReplay</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac6194f0a58c0db788e79dc3879d58801" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetCommandAtTime</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9455bb7c9401fba2c2ef5ce600ad7f82" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetCommandCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3cf37ebf70595a910788790f7d728898" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetCommandInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a061a623398ef1ac1d1780988b780bdd0" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetCommandString</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a2567b657ce009dd79df699811c9cbbd9" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetCurrentCommand</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9261f9fe492002807ad507a43531fefd" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetLength</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3efd92a6e6af481b1077ad1f19e93bec" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a164c378fbf5c4a2f82f10b6108ffa6b3" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetPlaybackState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a646da7d63914535b80e5d9128aa4c0f8" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetSystem</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a11489c0cbb50e8ae25f10b26d31eb286" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1af148d02f19b6f97d9e0ffc1d3b47e99e" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_IsValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ad625b69ad4a113ccf2976056af6c58f5" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a801d0ce2ead7fa25ba3bf5e9bc0a1d89" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SeekToCommand</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a87e1130c2e836904531094b2164c9d45" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SeekToTime</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac80b108a8dd5b1f70acc2a5121c0d190" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SetBankPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a5e77f0b4b6cb738d198cdd82a21b5ee3" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SetCreateInstanceCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a001941991a3ab3451c37cc7a50246202" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SetFrameCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3a4831922b400e13a03044bd4ce43f22" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SetLoadBankCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9b31588ad3f6e20e8b39f4a4f75c0842" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SetPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1aff97b498747623419fc478604f47d9cb" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a9b6eb91285c7a45bb9e852578b9bdd91" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_Start</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1adf49c94ea8b5e48f169154ffd5663a9a" prot="private" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>FMOD_Studio_CommandReplay_Stop</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ae8cbc4a2383d92742c353c093c14c34e" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getCommandAtTime</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1aab480198224f4bf8a01a9329a1d4ee7d" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getCommandCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac0c493eb989cee4282d20764fe0a5988" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getCommandInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a905455914b841f59180c057fd3633a09" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getCommandString</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ab068b4e74ebc02c24076ca0c75bb4205" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getCurrentCommand</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac3dccf2d74e1b5bd4c07c5bb10d5b73f" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getLength</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a6462b8103f5af4f5164c2e5a233220e7" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a28783ebbe46a7a95755d0776bb121ec2" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getPlaybackState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ae9ea37bd6a9507bb05044321688d947d" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getSystem</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a03d3c9e9d4d79c46a9dc38e5793c328b" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ae447a2276fd9ecee1583d42094e48a69" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac48fbb66ff2ded53475eba52c0a4bce4" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a123623a6b5e195bbd09a4e451d6a357a" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>isValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a12f81d9adcc8b7ab231ac691c15725de" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a4903873641391d5b40470df7fb73837b" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>seekToCommand</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a5d3375a26afa306bf21d2f1b8f178d7a" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>seekToTime</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a71e4256df794266954913d3ef2ce1061" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>setBankPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a376a6788b39c202ccba9e2b9234435c9" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>setCreateInstanceCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ac1003b0c2206c7c21af4eefd268bab2a" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>setFrameCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a3031c9af6190423aab9252c521f24b31" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>setLoadBankCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1afbfda1ea2c64b526ff805c26664a94df" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>setPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a761792fe8adabf96e33cd9cd07924d9f" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>setUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1ab1a366a534a17e0e49ed468b7f87c81a" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>start</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_command_replay_1a2d263d7d9f7d0545b94b1f9b801b930a" prot="public" virt="non-virtual"><scope>FMOD::Studio::CommandReplay</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

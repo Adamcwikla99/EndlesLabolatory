@@ -1,0 +1,1075 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_geometry" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Geometry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_geometry_1a302ff2dd6ea4363cf84f13c793b68803" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Geometry.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Geometry.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3754" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3754" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a55059fcb7fce590d4135cb84404d7cbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.Geometry.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3622" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3622" bodyend="3625"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ae46964f58a37da3881e74857cfedce73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.addPolygon</definition>
+        <argsstring>(float directocclusion, float reverbocclusion, bool doublesided, int numvertices, VECTOR[] vertices, out int polygonindex)</argsstring>
+        <name>addPolygon</name>
+        <qualifiedname>FMOD.Geometry.addPolygon</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>directocclusion</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>reverbocclusion</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doublesided</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numvertices</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref>[]</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>polygonindex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3628" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3628" bodyend="3631"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a71e2d84a9cd5e4fff67cf8a25b92c471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getNumPolygons</definition>
+        <argsstring>(out int numpolygons)</argsstring>
+        <name>getNumPolygons</name>
+        <qualifiedname>FMOD.Geometry.getNumPolygons</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numpolygons</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3632" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3632" bodyend="3635"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a19177e49f9de1cd6d5c0ae50ae147da8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getMaxPolygons</definition>
+        <argsstring>(out int maxpolygons, out int maxvertices)</argsstring>
+        <name>getMaxPolygons</name>
+        <qualifiedname>FMOD.Geometry.getMaxPolygons</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>maxpolygons</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>maxvertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3636" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3636" bodyend="3639"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1afd25eca4187834a8b3466345852ce2d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getPolygonNumVertices</definition>
+        <argsstring>(int index, out int numvertices)</argsstring>
+        <name>getPolygonNumVertices</name>
+        <qualifiedname>FMOD.Geometry.getPolygonNumVertices</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numvertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3640" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3640" bodyend="3643"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1aaaafc144eb110ffd6f0c251d54057782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setPolygonVertex</definition>
+        <argsstring>(int index, int vertexindex, ref VECTOR vertex)</argsstring>
+        <name>setPolygonVertex</name>
+        <qualifiedname>FMOD.Geometry.setPolygonVertex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertexindex</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>vertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3644" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3644" bodyend="3647"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a9cf35f206581bd84eb6d1c04d499cbf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getPolygonVertex</definition>
+        <argsstring>(int index, int vertexindex, out VECTOR vertex)</argsstring>
+        <name>getPolygonVertex</name>
+        <qualifiedname>FMOD.Geometry.getPolygonVertex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertexindex</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>vertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3648" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3648" bodyend="3651"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a3dea6ebfee0b6c91237b7136c3cf0b78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setPolygonAttributes</definition>
+        <argsstring>(int index, float directocclusion, float reverbocclusion, bool doublesided)</argsstring>
+        <name>setPolygonAttributes</name>
+        <qualifiedname>FMOD.Geometry.setPolygonAttributes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>directocclusion</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>reverbocclusion</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doublesided</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3652" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3652" bodyend="3655"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a5993fb0a4a428a9de5262a6254daeeef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getPolygonAttributes</definition>
+        <argsstring>(int index, out float directocclusion, out float reverbocclusion, out bool doublesided)</argsstring>
+        <name>getPolygonAttributes</name>
+        <qualifiedname>FMOD.Geometry.getPolygonAttributes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>directocclusion</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>reverbocclusion</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>doublesided</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3656" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3656" bodyend="3659"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a1d58b449d41ca263631a1789f037d6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setActive</name>
+        <qualifiedname>FMOD.Geometry.setActive</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3662" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3662" bodyend="3665"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ad588549fa909fcdcc695c7396d553f68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getActive</definition>
+        <argsstring>(out bool active)</argsstring>
+        <name>getActive</name>
+        <qualifiedname>FMOD.Geometry.getActive</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3666" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3666" bodyend="3669"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1aa1b290acb751d1464c1cb2c5ff85bf22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setRotation</definition>
+        <argsstring>(ref VECTOR forward, ref VECTOR up)</argsstring>
+        <name>setRotation</name>
+        <qualifiedname>FMOD.Geometry.setRotation</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3670" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3670" bodyend="3673"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a4404e35a5d036794d04a090be76d56df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getRotation</definition>
+        <argsstring>(out VECTOR forward, out VECTOR up)</argsstring>
+        <name>getRotation</name>
+        <qualifiedname>FMOD.Geometry.getRotation</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3674" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3674" bodyend="3677"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a6a9ffd3421759d70a2b406e3982eaad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setPosition</definition>
+        <argsstring>(ref VECTOR position)</argsstring>
+        <name>setPosition</name>
+        <qualifiedname>FMOD.Geometry.setPosition</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3678" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3678" bodyend="3681"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1abc470dd5be42ffb0007b2046f1195d2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getPosition</definition>
+        <argsstring>(out VECTOR position)</argsstring>
+        <name>getPosition</name>
+        <qualifiedname>FMOD.Geometry.getPosition</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3682" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3682" bodyend="3685"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a44a7ca44b0fd116a3091f0e8ff1ef5db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setScale</definition>
+        <argsstring>(ref VECTOR scale)</argsstring>
+        <name>setScale</name>
+        <qualifiedname>FMOD.Geometry.setScale</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3686" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3686" bodyend="3689"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1aae31972e889008ca660f0458c7a13459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getScale</definition>
+        <argsstring>(out VECTOR scale)</argsstring>
+        <name>getScale</name>
+        <qualifiedname>FMOD.Geometry.getScale</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3690" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3690" bodyend="3693"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ab1c1659f4c3183ec0238ad2ce1bdcc12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.save</definition>
+        <argsstring>(IntPtr data, out int datasize)</argsstring>
+        <name>save</name>
+        <qualifiedname>FMOD.Geometry.save</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>datasize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3694" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3694" bodyend="3697"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ad8119f19c0d90e9b18685881b9362585" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.Geometry.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3700" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3700" bodyend="3703"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a988a68c2633336b5ee8a6654e11a1c8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Geometry.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.Geometry.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3704" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3704" bodyend="3707"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a82a1a84cde7cb4c5459bab410e70bc70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Geometry.Geometry</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>Geometry</name>
+        <qualifiedname>FMOD.Geometry.Geometry</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3756" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3756" bodyend="3756"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a6d3538d41c01f47bd4007176ccea4694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Geometry.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Geometry.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3757" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3757" bodyend="3757"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a1edebcd7281cba32a9099e22d567f5c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Geometry.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Geometry.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3758" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3758" bodyend="3758"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ad3ba8d3d125bc9b8f52e87de73ea82be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_Release</definition>
+        <argsstring>(IntPtr geometry)</argsstring>
+        <name>FMOD5_Geometry_Release</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3711" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1afae263aa7d9c3bd3790002c82ea02f49" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_AddPolygon</definition>
+        <argsstring>(IntPtr geometry, float directocclusion, float reverbocclusion, bool doublesided, int numvertices, VECTOR[] vertices, out int polygonindex)</argsstring>
+        <name>FMOD5_Geometry_AddPolygon</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_AddPolygon</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>directocclusion</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>reverbocclusion</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doublesided</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numvertices</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref>[]</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>polygonindex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3713" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a771d0f1ddc09e0fc5312c7a3fad0bb37" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetNumPolygons</definition>
+        <argsstring>(IntPtr geometry, out int numpolygons)</argsstring>
+        <name>FMOD5_Geometry_GetNumPolygons</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetNumPolygons</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numpolygons</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3715" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1aa1b39ac826f7c10470bbe86b4268c373" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetMaxPolygons</definition>
+        <argsstring>(IntPtr geometry, out int maxpolygons, out int maxvertices)</argsstring>
+        <name>FMOD5_Geometry_GetMaxPolygons</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetMaxPolygons</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>maxpolygons</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>maxvertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3717" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ad0bd4be7dcdc874f991e73e6a88d7a8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetPolygonNumVertices</definition>
+        <argsstring>(IntPtr geometry, int index, out int numvertices)</argsstring>
+        <name>FMOD5_Geometry_GetPolygonNumVertices</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetPolygonNumVertices</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numvertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3719" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1aaaafb54eac93fcbef16d536ddc219eae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetPolygonVertex</definition>
+        <argsstring>(IntPtr geometry, int index, int vertexindex, ref VECTOR vertex)</argsstring>
+        <name>FMOD5_Geometry_SetPolygonVertex</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetPolygonVertex</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertexindex</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>vertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3721" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a4467283d15f30912038ab766912f8adb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetPolygonVertex</definition>
+        <argsstring>(IntPtr geometry, int index, int vertexindex, out VECTOR vertex)</argsstring>
+        <name>FMOD5_Geometry_GetPolygonVertex</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetPolygonVertex</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertexindex</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>vertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3723" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ae6be8436b8e2d9a6d30510a61fdbeb1e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetPolygonAttributes</definition>
+        <argsstring>(IntPtr geometry, int index, float directocclusion, float reverbocclusion, bool doublesided)</argsstring>
+        <name>FMOD5_Geometry_SetPolygonAttributes</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetPolygonAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>directocclusion</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>reverbocclusion</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doublesided</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3725" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ac38065153d922228255a5b620ce82d1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetPolygonAttributes</definition>
+        <argsstring>(IntPtr geometry, int index, out float directocclusion, out float reverbocclusion, out bool doublesided)</argsstring>
+        <name>FMOD5_Geometry_GetPolygonAttributes</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetPolygonAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>directocclusion</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>reverbocclusion</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>doublesided</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3727" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ac9a55780f4e2282f59f21d0b4254aeab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetActive</definition>
+        <argsstring>(IntPtr geometry, bool active)</argsstring>
+        <name>FMOD5_Geometry_SetActive</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetActive</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3729" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a6e853f4b312c5b87fd8a2d60bf0f1354" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetActive</definition>
+        <argsstring>(IntPtr geometry, out bool active)</argsstring>
+        <name>FMOD5_Geometry_GetActive</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetActive</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3731" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a53a3967e6155ccec4f606c51ea7afc48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetRotation</definition>
+        <argsstring>(IntPtr geometry, ref VECTOR forward, ref VECTOR up)</argsstring>
+        <name>FMOD5_Geometry_SetRotation</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetRotation</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3733" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a623ffd726bf575af6e2428e4cc1b5673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetRotation</definition>
+        <argsstring>(IntPtr geometry, out VECTOR forward, out VECTOR up)</argsstring>
+        <name>FMOD5_Geometry_GetRotation</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetRotation</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3735" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a0701ca330daf2b84a77ffcd5bdbe8f04" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetPosition</definition>
+        <argsstring>(IntPtr geometry, ref VECTOR position)</argsstring>
+        <name>FMOD5_Geometry_SetPosition</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetPosition</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3737" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a3462d0fed2ed1643f982979084dcdd42" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetPosition</definition>
+        <argsstring>(IntPtr geometry, out VECTOR position)</argsstring>
+        <name>FMOD5_Geometry_GetPosition</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetPosition</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3739" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1ad77d54834d70d38ea39401819fd49df5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetScale</definition>
+        <argsstring>(IntPtr geometry, ref VECTOR scale)</argsstring>
+        <name>FMOD5_Geometry_SetScale</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetScale</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3741" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1abd05e270af49180e83f49583ea116f32" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetScale</definition>
+        <argsstring>(IntPtr geometry, out VECTOR scale)</argsstring>
+        <name>FMOD5_Geometry_GetScale</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetScale</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3743" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a6d8bdca854db1ebafa7c4f01f567bb7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_Save</definition>
+        <argsstring>(IntPtr geometry, IntPtr data, out int datasize)</argsstring>
+        <name>FMOD5_Geometry_Save</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_Save</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>datasize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3745" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a2ef480249370e6993ce88ff9c66512e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_SetUserData</definition>
+        <argsstring>(IntPtr geometry, IntPtr userdata)</argsstring>
+        <name>FMOD5_Geometry_SetUserData</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3747" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_geometry_1a96aa298d7f1dae40aaae54e5e9c05ba5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Geometry.FMOD5_Geometry_GetUserData</definition>
+        <argsstring>(IntPtr geometry, out IntPtr userdata)</argsstring>
+        <name>FMOD5_Geometry_GetUserData</name>
+        <qualifiedname>FMOD.Geometry.FMOD5_Geometry_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3749" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3620" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3621" bodyend="3761"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ae46964f58a37da3881e74857cfedce73" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>addPolygon</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a1edebcd7281cba32a9099e22d567f5c7" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1afae263aa7d9c3bd3790002c82ea02f49" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_AddPolygon</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a6e853f4b312c5b87fd8a2d60bf0f1354" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1aa1b39ac826f7c10470bbe86b4268c373" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetMaxPolygons</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a771d0f1ddc09e0fc5312c7a3fad0bb37" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetNumPolygons</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ac38065153d922228255a5b620ce82d1d" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetPolygonAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ad0bd4be7dcdc874f991e73e6a88d7a8e" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetPolygonNumVertices</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a4467283d15f30912038ab766912f8adb" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetPolygonVertex</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a3462d0fed2ed1643f982979084dcdd42" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetPosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a623ffd726bf575af6e2428e4cc1b5673" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetRotation</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1abd05e270af49180e83f49583ea116f32" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetScale</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a96aa298d7f1dae40aaae54e5e9c05ba5" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ad3ba8d3d125bc9b8f52e87de73ea82be" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a6d8bdca854db1ebafa7c4f01f567bb7a" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_Save</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ac9a55780f4e2282f59f21d0b4254aeab" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ae6be8436b8e2d9a6d30510a61fdbeb1e" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetPolygonAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1aaaafb54eac93fcbef16d536ddc219eae" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetPolygonVertex</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a0701ca330daf2b84a77ffcd5bdbe8f04" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetPosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a53a3967e6155ccec4f606c51ea7afc48" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetRotation</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ad77d54834d70d38ea39401819fd49df5" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetScale</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a2ef480249370e6993ce88ff9c66512e5" prot="private" virt="non-virtual"><scope>FMOD::Geometry</scope><name>FMOD5_Geometry_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a82a1a84cde7cb4c5459bab410e70bc70" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>Geometry</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ad588549fa909fcdcc695c7396d553f68" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a19177e49f9de1cd6d5c0ae50ae147da8" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getMaxPolygons</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a71e2d84a9cd5e4fff67cf8a25b92c471" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getNumPolygons</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a5993fb0a4a428a9de5262a6254daeeef" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getPolygonAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1afd25eca4187834a8b3466345852ce2d2" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getPolygonNumVertices</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a9cf35f206581bd84eb6d1c04d499cbf7" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getPolygonVertex</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1abc470dd5be42ffb0007b2046f1195d2b" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getPosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a4404e35a5d036794d04a090be76d56df" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getRotation</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1aae31972e889008ca660f0458c7a13459" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getScale</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a988a68c2633336b5ee8a6654e11a1c8e" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a302ff2dd6ea4363cf84f13c793b68803" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a6d3538d41c01f47bd4007176ccea4694" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a55059fcb7fce590d4135cb84404d7cbb" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ab1c1659f4c3183ec0238ad2ce1bdcc12" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>save</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a1d58b449d41ca263631a1789f037d6ea" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setActive</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a3dea6ebfee0b6c91237b7136c3cf0b78" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setPolygonAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1aaaafc144eb110ffd6f0c251d54057782" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setPolygonVertex</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a6a9ffd3421759d70a2b406e3982eaad1" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setPosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1aa1b290acb751d1464c1cb2c5ff85bf22" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setRotation</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1a44a7ca44b0fd116a3091f0e8ff1ef5db" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setScale</name></member>
+      <member refid="struct_f_m_o_d_1_1_geometry_1ad8119f19c0d90e9b18685881b9362585" prot="public" virt="non-virtual"><scope>FMOD::Geometry</scope><name>setUserData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

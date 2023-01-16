@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_sound_group" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::SoundGroup</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_sound_group_1aac16e793a90fd8e4fc17933f4b4ab2c4" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.SoundGroup.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.SoundGroup.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3225" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3225" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a9bb0b3fae5f856aa57fcb606e6deddc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.SoundGroup.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3101" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3101" bodyend="3104"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1adc184d4f394931e221aab789388d87e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getSystemObject</definition>
+        <argsstring>(out System system)</argsstring>
+        <name>getSystemObject</name>
+        <qualifiedname>FMOD.SoundGroup.getSystemObject</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_system" kindref="compound">System</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3106" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3106" bodyend="3109"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ac0997b73603f4a10e8f0d211a7055065" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.setMaxAudible</definition>
+        <argsstring>(int maxaudible)</argsstring>
+        <name>setMaxAudible</name>
+        <qualifiedname>FMOD.SoundGroup.setMaxAudible</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxaudible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3112" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3112" bodyend="3115"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1adc8e64e12d32bfb5bd6fe06f3af8b6eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getMaxAudible</definition>
+        <argsstring>(out int maxaudible)</argsstring>
+        <name>getMaxAudible</name>
+        <qualifiedname>FMOD.SoundGroup.getMaxAudible</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>maxaudible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3116" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3116" bodyend="3119"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ad552379d4266a3709d25d2f4c7693d98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.setMaxAudibleBehavior</definition>
+        <argsstring>(SOUNDGROUP_BEHAVIOR behavior)</argsstring>
+        <name>setMaxAudibleBehavior</name>
+        <qualifiedname>FMOD.SoundGroup.setMaxAudibleBehavior</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a94f1c442afacdfb52f62fc4ef91f425b" kindref="member">SOUNDGROUP_BEHAVIOR</ref></type>
+          <declname>behavior</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3120" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3120" bodyend="3123"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a972114fe709bbbbb765c13703b87c83c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getMaxAudibleBehavior</definition>
+        <argsstring>(out SOUNDGROUP_BEHAVIOR behavior)</argsstring>
+        <name>getMaxAudibleBehavior</name>
+        <qualifiedname>FMOD.SoundGroup.getMaxAudibleBehavior</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1a94f1c442afacdfb52f62fc4ef91f425b" kindref="member">SOUNDGROUP_BEHAVIOR</ref></type>
+          <declname>behavior</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3124" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3124" bodyend="3127"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1aaf859d2d7f883a05309de648e750ff48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.setMuteFadeSpeed</definition>
+        <argsstring>(float speed)</argsstring>
+        <name>setMuteFadeSpeed</name>
+        <qualifiedname>FMOD.SoundGroup.setMuteFadeSpeed</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3128" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3128" bodyend="3131"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a482cb6a3ff5236871d63325f16f931ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getMuteFadeSpeed</definition>
+        <argsstring>(out float speed)</argsstring>
+        <name>getMuteFadeSpeed</name>
+        <qualifiedname>FMOD.SoundGroup.getMuteFadeSpeed</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3132" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3132" bodyend="3135"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a9c5a0509676c6941fee8566f94aeff48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.setVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>setVolume</name>
+        <qualifiedname>FMOD.SoundGroup.setVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3136" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3136" bodyend="3139"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a15bc18aab8645f3acf37404970d090f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getVolume</definition>
+        <argsstring>(out float volume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.SoundGroup.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3140" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3140" bodyend="3143"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a925cd965a5b796515c94e60bb4951ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <qualifiedname>FMOD.SoundGroup.stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3144" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3144" bodyend="3147"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a837f4b1ecd86ef007a1131cff39e35bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getName</definition>
+        <argsstring>(out string name, int namelen)</argsstring>
+        <name>getName</name>
+        <qualifiedname>FMOD.SoundGroup.getName</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>namelen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3150" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3150" bodyend="3162"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a82d3cd3500a5befad41630a8383d5f69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getNumSounds</definition>
+        <argsstring>(out int numsounds)</argsstring>
+        <name>getNumSounds</name>
+        <qualifiedname>FMOD.SoundGroup.getNumSounds</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numsounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3163" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3163" bodyend="3166"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a1e42f0b0d90d30f70fc751367ca0b6e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getSound</definition>
+        <argsstring>(int index, out Sound sound)</argsstring>
+        <name>getSound</name>
+        <qualifiedname>FMOD.SoundGroup.getSound</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_sound" kindref="compound">Sound</ref></type>
+          <declname>sound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3167" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3167" bodyend="3170"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a0212da67240536acb48477d47935c5a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getNumPlaying</definition>
+        <argsstring>(out int numplaying)</argsstring>
+        <name>getNumPlaying</name>
+        <qualifiedname>FMOD.SoundGroup.getNumPlaying</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numplaying</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3171" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3171" bodyend="3174"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ac73a1233539877dd44a467120e50735b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.SoundGroup.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3177" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3177" bodyend="3180"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ae5e45ff7f79cac2160adbc630188712c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.SoundGroup.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.SoundGroup.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3181" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3181" bodyend="3184"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a211edba42c1bfe8c53b0501c7ca09da2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.SoundGroup.SoundGroup</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>SoundGroup</name>
+        <qualifiedname>FMOD.SoundGroup.SoundGroup</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3227" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3227" bodyend="3227"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a0b997be255e36ba86a126ce7c20503cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.SoundGroup.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.SoundGroup.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3228" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3228" bodyend="3228"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a17babf2e057a955d1cc318ab86487c9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.SoundGroup.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.SoundGroup.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3229" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3229" bodyend="3229"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a4d021cfe47c043df4e56d006d4e175dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_Release</definition>
+        <argsstring>(IntPtr soundgroup)</argsstring>
+        <name>FMOD5_SoundGroup_Release</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3188" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ad67f030c70184cbddcd7e8b14fef3981" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetSystemObject</definition>
+        <argsstring>(IntPtr soundgroup, out IntPtr system)</argsstring>
+        <name>FMOD5_SoundGroup_GetSystemObject</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetSystemObject</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3190" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1afe89e2ca651ace5b295fe35046c30f8c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_SetMaxAudible</definition>
+        <argsstring>(IntPtr soundgroup, int maxaudible)</argsstring>
+        <name>FMOD5_SoundGroup_SetMaxAudible</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_SetMaxAudible</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxaudible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3192" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1aaee53ceb5e945a9a21b69386ad257cba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetMaxAudible</definition>
+        <argsstring>(IntPtr soundgroup, out int maxaudible)</argsstring>
+        <name>FMOD5_SoundGroup_GetMaxAudible</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetMaxAudible</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>maxaudible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3194" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a1f0142c9b441d1c5121c8a757769dcee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_SetMaxAudibleBehavior</definition>
+        <argsstring>(IntPtr soundgroup, SOUNDGROUP_BEHAVIOR behavior)</argsstring>
+        <name>FMOD5_SoundGroup_SetMaxAudibleBehavior</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_SetMaxAudibleBehavior</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a94f1c442afacdfb52f62fc4ef91f425b" kindref="member">SOUNDGROUP_BEHAVIOR</ref></type>
+          <declname>behavior</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3196" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a97fe1e7a821d16c32c366623f4f86cde" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetMaxAudibleBehavior</definition>
+        <argsstring>(IntPtr soundgroup, out SOUNDGROUP_BEHAVIOR behavior)</argsstring>
+        <name>FMOD5_SoundGroup_GetMaxAudibleBehavior</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetMaxAudibleBehavior</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1a94f1c442afacdfb52f62fc4ef91f425b" kindref="member">SOUNDGROUP_BEHAVIOR</ref></type>
+          <declname>behavior</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3198" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ad14329f3a361ab143cdfdeeeec4bb8c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_SetMuteFadeSpeed</definition>
+        <argsstring>(IntPtr soundgroup, float speed)</argsstring>
+        <name>FMOD5_SoundGroup_SetMuteFadeSpeed</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_SetMuteFadeSpeed</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3200" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a4335194d1b5867b1c5686fd4b6cf1262" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetMuteFadeSpeed</definition>
+        <argsstring>(IntPtr soundgroup, out float speed)</argsstring>
+        <name>FMOD5_SoundGroup_GetMuteFadeSpeed</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetMuteFadeSpeed</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3202" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1afb2f52daff416434373064cef2c3bf55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_SetVolume</definition>
+        <argsstring>(IntPtr soundgroup, float volume)</argsstring>
+        <name>FMOD5_SoundGroup_SetVolume</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_SetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3204" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a7c4e04e9b84aafba5445c58918427693" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetVolume</definition>
+        <argsstring>(IntPtr soundgroup, out float volume)</argsstring>
+        <name>FMOD5_SoundGroup_GetVolume</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3206" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1aa6a69e833eedb92efb271ef88bdea9e0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_Stop</definition>
+        <argsstring>(IntPtr soundgroup)</argsstring>
+        <name>FMOD5_SoundGroup_Stop</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_Stop</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3208" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a2efd466c7970aa193424f1dff42bd7d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetName</definition>
+        <argsstring>(IntPtr soundgroup, IntPtr name, int namelen)</argsstring>
+        <name>FMOD5_SoundGroup_GetName</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>namelen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3210" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a0ae8d6a7002ccbad4ae46e75ff1ab3a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetNumSounds</definition>
+        <argsstring>(IntPtr soundgroup, out int numsounds)</argsstring>
+        <name>FMOD5_SoundGroup_GetNumSounds</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetNumSounds</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numsounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3212" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a9802868fa8a35adf758b80fbbf07e0e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetSound</definition>
+        <argsstring>(IntPtr soundgroup, int index, out IntPtr sound)</argsstring>
+        <name>FMOD5_SoundGroup_GetSound</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetSound</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>sound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3214" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1ac889ef5f85142d8249fd624f4ff2cdfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetNumPlaying</definition>
+        <argsstring>(IntPtr soundgroup, out int numplaying)</argsstring>
+        <name>FMOD5_SoundGroup_GetNumPlaying</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetNumPlaying</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numplaying</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3216" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a085283cafa7fd6ec6a585495401a7e62" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_SetUserData</definition>
+        <argsstring>(IntPtr soundgroup, IntPtr userdata)</argsstring>
+        <name>FMOD5_SoundGroup_SetUserData</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3218" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_sound_group_1a429d1ecfb5e57048c550e8b4ba8a2b59" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.SoundGroup.FMOD5_SoundGroup_GetUserData</definition>
+        <argsstring>(IntPtr soundgroup, out IntPtr userdata)</argsstring>
+        <name>FMOD5_SoundGroup_GetUserData</name>
+        <qualifiedname>FMOD.SoundGroup.FMOD5_SoundGroup_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>soundgroup</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3220" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3099" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3100" bodyend="3232"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a17babf2e057a955d1cc318ab86487c9f" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1aaee53ceb5e945a9a21b69386ad257cba" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetMaxAudible</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a97fe1e7a821d16c32c366623f4f86cde" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetMaxAudibleBehavior</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a4335194d1b5867b1c5686fd4b6cf1262" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetMuteFadeSpeed</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a2efd466c7970aa193424f1dff42bd7d0" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetName</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ac889ef5f85142d8249fd624f4ff2cdfb" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetNumPlaying</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a0ae8d6a7002ccbad4ae46e75ff1ab3a6" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetNumSounds</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a9802868fa8a35adf758b80fbbf07e0e5" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetSound</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ad67f030c70184cbddcd7e8b14fef3981" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetSystemObject</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a429d1ecfb5e57048c550e8b4ba8a2b59" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a7c4e04e9b84aafba5445c58918427693" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_GetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a4d021cfe47c043df4e56d006d4e175dd" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1afe89e2ca651ace5b295fe35046c30f8c" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_SetMaxAudible</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a1f0142c9b441d1c5121c8a757769dcee" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_SetMaxAudibleBehavior</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ad14329f3a361ab143cdfdeeeec4bb8c4" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_SetMuteFadeSpeed</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a085283cafa7fd6ec6a585495401a7e62" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1afb2f52daff416434373064cef2c3bf55" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_SetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1aa6a69e833eedb92efb271ef88bdea9e0" prot="private" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>FMOD5_SoundGroup_Stop</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1adc8e64e12d32bfb5bd6fe06f3af8b6eb" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getMaxAudible</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a972114fe709bbbbb765c13703b87c83c" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getMaxAudibleBehavior</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a482cb6a3ff5236871d63325f16f931ae" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getMuteFadeSpeed</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a837f4b1ecd86ef007a1131cff39e35bd" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getName</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a0212da67240536acb48477d47935c5a3" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getNumPlaying</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a82d3cd3500a5befad41630a8383d5f69" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getNumSounds</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a1e42f0b0d90d30f70fc751367ca0b6e2" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getSound</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1adc184d4f394931e221aab789388d87e5" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getSystemObject</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ae5e45ff7f79cac2160adbc630188712c" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a15bc18aab8645f3acf37404970d090f2" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1aac16e793a90fd8e4fc17933f4b4ab2c4" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a0b997be255e36ba86a126ce7c20503cb" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a9bb0b3fae5f856aa57fcb606e6deddc1" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ac0997b73603f4a10e8f0d211a7055065" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>setMaxAudible</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ad552379d4266a3709d25d2f4c7693d98" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>setMaxAudibleBehavior</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1aaf859d2d7f883a05309de648e750ff48" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>setMuteFadeSpeed</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1ac73a1233539877dd44a467120e50735b" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>setUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a9c5a0509676c6941fee8566f94aeff48" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>setVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a211edba42c1bfe8c53b0501c7ca09da2" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>SoundGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_sound_group_1a925cd965a5b796515c94e60bb4951ba8" prot="public" virt="non-virtual"><scope>FMOD::SoundGroup</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Room::RoomContent::Enemys::Normal::EnemyAttackAi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Boss.BossEnemyAttackAi</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.BaseEnemy.BaseEnemyAttackAI</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_turet_enemy_attack_ai" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.BaseEnemy.TuretEnemyAttackAi</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a34e97bf83c3e66b738cfee417cf44cc2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>System.Action&lt; bool &gt;</type>
+        <definition>System.Action&lt;bool&gt; Room.RoomContent.Enemys.Normal.EnemyAttackAi.AllowFire</definition>
+        <argsstring></argsstring>
+        <name>AllowFire</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.AllowFire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="14" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a52e183ccf07c97c6008fb8dc4c5c0415" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_projectile_1_1_projectile_getter" kindref="compound">ProjectileGetter</ref></type>
+        <definition>ProjectileGetter Room.RoomContent.Enemys.Normal.EnemyAttackAi.GetProjectileEvents</definition>
+        <argsstring></argsstring>
+        <name>GetProjectileEvents</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.GetProjectileEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="17" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1ac6905a23401904b903414070e66c89eb" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.EnemyAttackAi.FireDeley</definition>
+        <argsstring></argsstring>
+        <name>FireDeley</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.FireDeley</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="20" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a0bb0d918f2a6c835de316e3812d7ae97" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.EnemyAttackAi.Accuracy</definition>
+        <argsstring></argsstring>
+        <name>Accuracy</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.Accuracy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="23" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a6ea20803e53233bf21712a41fa25e63e" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.EnemyAttackAi.canFire</definition>
+        <argsstring></argsstring>
+        <name>canFire</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.canFire</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="28" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a2b666b93d930fc3f3a54fa63bda09408" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.EnemyAttackAi.currentReloadTime</definition>
+        <argsstring></argsstring>
+        <name>currentReloadTime</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.currentReloadTime</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="29" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a4594998a6b02c639e2305971fe9c60e0" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.EnemyAttackAi.isReoladed</definition>
+        <argsstring></argsstring>
+        <name>isReoladed</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.isReoladed</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="30" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abcbe9dc9ff314af090f1255a742715d1" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.RoomContent.Enemys.Normal.EnemyAttackAi.playerObject</definition>
+        <argsstring></argsstring>
+        <name>playerObject</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.playerObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="31" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aa02d8952e05bebecf6cf6af822c456f8" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.EnemyAttackAi.bonusDamage</definition>
+        <argsstring></argsstring>
+        <name>bonusDamage</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.bonusDamage</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="32" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a8ca5fcac374d254cbb9a3236bb5fdaf1" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.EnemyAttackAi.bonusSpeed</definition>
+        <argsstring></argsstring>
+        <name>bonusSpeed</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.bonusSpeed</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="33" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abb6970290e8dfcb879f1666084365222" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="38" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aa00fd4f7339f9e7d227f37136aa2c929" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="43" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a6f415a53d524ad414e6826c41b62f2a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="48" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1ac0f8b946403088d5a30c4001779a37f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.SetPlayer</definition>
+        <argsstring>(GameObject playerObject)</argsstring>
+        <name>SetPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.SetPlayer</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>playerObject</declname>
+        </param>
+        <briefdescription>
+<para>method that assigns player game object reference to variable </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="59" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a3f1353f59f2dd03da95332e9718f8597" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.SetBonusStats</definition>
+        <argsstring>(float bonusDamage, float bonusSpeed)</argsstring>
+        <name>SetBonusStats</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.SetBonusStats</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+        </param>
+        <briefdescription>
+<para>methode that boosts up enemy entity stats </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="64" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="64" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aaf15d38139f4d14d478e1fc44ddeae99" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.ChangeCanFireState</definition>
+        <argsstring>(bool newState)</argsstring>
+        <name>ChangeCanFireState</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.ChangeCanFireState</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>methode that determines if enemy can fire at player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="73" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a1c7f0e12f7bfff216d31cfb4ecee64f4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.UpdateActions</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateActions</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.UpdateActions</qualifiedname>
+        <briefdescription>
+<para>fire cycle methode - fire at player if all conditions are met </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="81" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="81" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a7db1886757324940fffd2938a8d91a02" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAttackAi.UpdateReloadTime</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateReloadTime</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.UpdateReloadTime</qualifiedname>
+        <briefdescription>
+<para>reload and fire cycle methode - fire bullet at player or reloads the weapon if it&apos;s not ready to fire </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="95" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="95" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a03d7e323a54b30b9d4d6008798f0abe9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Room.RoomContent.Enemys.Normal.EnemyAttackAi.FireAtPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>FireAtPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.FireAtPlayer</qualifiedname>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a0b77bcc85822f894dc971a5a8d7f80ab">FireAtPlayer</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i_1ae0c257185809b85ae1b1163e12e5595a">FireAtPlayer</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_turet_enemy_attack_ai_1a3141233d57cfefa578d08f7b16a1c2fc">FireAtPlayer</reimplementedby>
+        <briefdescription>
+<para>method implementing fire at player logick </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="115" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aebdba749378bbde06ed9ec99994aa0c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 Room.RoomContent.Enemys.Normal.EnemyAttackAi.GetAccuracyError</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccuracyError</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAttackAi.GetAccuracyError</qualifiedname>
+        <briefdescription>
+<para>methode that determines accuracy error </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="121" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="121" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract class that implements basic enemy attack AI universally used methods. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.EnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Enemys.Normal.BaseEnemy.BaseEnemyAttackAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomContent.Enemys.Normal.BaseEnemy.TuretEnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_turet_enemy_attack_ai"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.EnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" line="9" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAttackAi.cs" bodystart="10" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a0bb0d918f2a6c835de316e3812d7ae97" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>Accuracy</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a34e97bf83c3e66b738cfee417cf44cc2" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>AllowFire</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aa02d8952e05bebecf6cf6af822c456f8" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>bonusDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a8ca5fcac374d254cbb9a3236bb5fdaf1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>bonusSpeed</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a6ea20803e53233bf21712a41fa25e63e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>canFire</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aaf15d38139f4d14d478e1fc44ddeae99" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>ChangeCanFireState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a2b666b93d930fc3f3a54fa63bda09408" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>currentReloadTime</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a03d7e323a54b30b9d4d6008798f0abe9" prot="protected" virt="pure-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>FireAtPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1ac6905a23401904b903414070e66c89eb" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>FireDeley</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aebdba749378bbde06ed9ec99994aa0c3" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>GetAccuracyError</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a52e183ccf07c97c6008fb8dc4c5c0415" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>GetProjectileEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a4594998a6b02c639e2305971fe9c60e0" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>isReoladed</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aa00fd4f7339f9e7d227f37136aa2c929" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>OnDisable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abb6970290e8dfcb879f1666084365222" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>OnEnable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abcbe9dc9ff314af090f1255a742715d1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>playerObject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a3f1353f59f2dd03da95332e9718f8597" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>SetBonusStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1ac0f8b946403088d5a30c4001779a37f7" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>SetPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a6f415a53d524ad414e6826c41b62f2a1" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>Update</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a1c7f0e12f7bfff216d31cfb4ecee64f4" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>UpdateActions</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a7db1886757324940fffd2938a8d91a02" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAttackAi</scope><name>UpdateReloadTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

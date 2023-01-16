@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::EventBrowser::PreviewArea</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1aa949740d51df394e4b2ed3d2401052cc" prot="public" static="no" mutable="no">
+        <type>TreeView</type>
+        <definition>TreeView FMODUnity.EventBrowser.PreviewArea.treeView</definition>
+        <argsstring></argsstring>
+        <name>treeView</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.treeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="742" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="742" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1af35b6efbfeb4bf3ca12eacd5b137f675" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+        <definition>EditorEventRef FMODUnity.EventBrowser.PreviewArea.currentEvent</definition>
+        <argsstring></argsstring>
+        <name>currentEvent</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.currentEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="745" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1ac688b484080822f2fe9b8e4394d3a84f" prot="private" static="no" mutable="no">
+        <type>DetailsView</type>
+        <definition>DetailsView FMODUnity.EventBrowser.PreviewArea.detailsView</definition>
+        <argsstring></argsstring>
+        <name>detailsView</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.detailsView</qualifiedname>
+        <initializer>= new DetailsView()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="748" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1af87809c07643cc5f94c30b8b6f93b365" prot="private" static="no" mutable="no">
+        <type>TransportControls</type>
+        <definition>TransportControls FMODUnity.EventBrowser.PreviewArea.transportControls</definition>
+        <argsstring></argsstring>
+        <name>transportControls</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.transportControls</qualifiedname>
+        <initializer>= new TransportControls()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="751" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a15d6880ea8c1792a95382c2dc7ba638f" prot="private" static="no" mutable="no">
+        <type>Event3DPreview</type>
+        <definition>Event3DPreview FMODUnity.EventBrowser.PreviewArea.event3DPreview</definition>
+        <argsstring></argsstring>
+        <name>event3DPreview</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.event3DPreview</qualifiedname>
+        <initializer>= new Event3DPreview()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="754" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1ae6d69d9c54f7c4f6703026fd86956758" prot="private" static="no" mutable="no">
+        <type>PreviewMeters</type>
+        <definition>PreviewMeters FMODUnity.EventBrowser.PreviewArea.meters</definition>
+        <argsstring></argsstring>
+        <name>meters</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.meters</qualifiedname>
+        <initializer>= new PreviewMeters()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="757" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a88ac12e7dcaf4a32cf61451d42fc8a9c" prot="private" static="no" mutable="no">
+        <type>EventParameterControls</type>
+        <definition>EventParameterControls FMODUnity.EventBrowser.PreviewArea.parameterControls</definition>
+        <argsstring></argsstring>
+        <name>parameterControls</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.parameterControls</qualifiedname>
+        <initializer>= new EventParameterControls()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="760" column="44" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1af6ce44debaa7ec0222f8010bdf580bd5" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.EventBrowser.PreviewArea.mainStyle</definition>
+        <argsstring></argsstring>
+        <name>mainStyle</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.mainStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="762" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1ad10616eb9e280267382c925b0c81de95" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventBrowser.PreviewArea.isNarrow</definition>
+        <argsstring></argsstring>
+        <name>isNarrow</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.isNarrow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="764" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="764" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a8a52578b020031c5630f17a4bde1c9eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventBrowser.PreviewArea.forceRepaint</definition>
+        <argsstring></argsstring>
+        <name>forceRepaint</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.forceRepaint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="766" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="766" bodyend="766"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1aaebe0838c2ce97c58ecf1aa95b8c3511" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewArea.SetEvent</definition>
+        <argsstring>(EditorEventRef eventRef)</argsstring>
+        <name>SetEvent</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.SetEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+          <declname>eventRef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="768" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="768" bodyend="779"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a3bfa729b9b87902b677b621a9c0a1d5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewArea.AffirmResources</definition>
+        <argsstring>()</argsstring>
+        <name>AffirmResources</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.AffirmResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="781" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="781" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1aa6aeacf561c8b75171dacad8ded7148f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewArea.DrawSeparatorLine</definition>
+        <argsstring>()</argsstring>
+        <name>DrawSeparatorLine</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.DrawSeparatorLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="837" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="837" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a35a94636196cff704276f89ae80581bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewArea.DrawEventPreview</definition>
+        <argsstring>(EditorEventRef eventRef, float[] metering)</argsstring>
+        <name>DrawEventPreview</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.DrawEventPreview</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+          <declname>eventRef</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>metering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="842" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="842" bodyend="886"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a2e34442a315c0610441061efafd18cef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewArea.OnGUI</definition>
+        <argsstring>(float width, float[] metering)</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewArea.OnGUI</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>metering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="790" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="790" bodyend="835"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EventBrowser.PreviewArea</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>treeView</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FMODUnity.EventBrowser.TreeView</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UnityEditor::IMGUI::Controls::TreeView</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="739" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="740" bodyend="887"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a3bfa729b9b87902b677b621a9c0a1d5d" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>AffirmResources</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1af35b6efbfeb4bf3ca12eacd5b137f675" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>currentEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1ac688b484080822f2fe9b8e4394d3a84f" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>detailsView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a35a94636196cff704276f89ae80581bf" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>DrawEventPreview</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1aa6aeacf561c8b75171dacad8ded7148f" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>DrawSeparatorLine</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a15d6880ea8c1792a95382c2dc7ba638f" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>event3DPreview</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a8a52578b020031c5630f17a4bde1c9eb" prot="public" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>forceRepaint</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1ad10616eb9e280267382c925b0c81de95" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>isNarrow</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1af6ce44debaa7ec0222f8010bdf580bd5" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>mainStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1ae6d69d9c54f7c4f6703026fd86956758" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>meters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a2e34442a315c0610441061efafd18cef" prot="public" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1a88ac12e7dcaf4a32cf61451d42fc8a9c" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>parameterControls</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1aaebe0838c2ce97c58ecf1aa95b8c3511" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>SetEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1af87809c07643cc5f94c30b8b6f93b365" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>transportControls</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_area_1aa949740d51df394e4b2ed3d2401052cc" prot="public" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewArea</scope><name>treeView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

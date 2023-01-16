@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_column" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::Column</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_column_1ad1a689b533f118664a95ab88f35723c5" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref>[]</type>
+        <definition>readonly RoomType [] Structures.Map.Column.RowData</definition>
+        <argsstring></argsstring>
+        <name>RowData</name>
+        <qualifiedname>Structures.Map.Column.RowData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="13" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_column_1aeecdd3b1fb36dd99b3a4a61f21ddd923" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Structures.Map.Column.RowLength</definition>
+        <argsstring></argsstring>
+        <name>RowLength</name>
+        <qualifiedname>Structures.Map.Column.RowLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="15" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_column_1ae008567f58a098d59fd4c7dfdd664add" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.Column.Column</definition>
+        <argsstring>(int length)</argsstring>
+        <name>Column</name>
+        <qualifiedname>Structures.Map.Column.Column</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>constructor responsible for setting arrays of column cells </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="23" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_column_1a13c516da5162b2e57bb2ea3e77be5829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Column.ResetRow</definition>
+        <argsstring>()</argsstring>
+        <name>ResetRow</name>
+        <qualifiedname>Structures.Map.Column.ResetRow</qualifiedname>
+        <briefdescription>
+<para>methode that restarts row </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="35" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_column_1a59fe2a58e9743b01a189df20775a9216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Column.SetSelectedRoomType</definition>
+        <argsstring>(int index, RoomType type)</argsstring>
+        <name>SetSelectedRoomType</name>
+        <qualifiedname>Structures.Map.Column.SetSelectedRoomType</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets room type of selected column cell </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="40" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_column_1ac58d950101c8ceed96a350964c0a0728" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Column.SetRowRoomType</definition>
+        <argsstring>(RoomType type)</argsstring>
+        <name>SetRowRoomType</name>
+        <qualifiedname>Structures.Map.Column.SetRowRoomType</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>sets all columns cell type to selected type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="45" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_column_1a89c342127b5c7f1972678b86f39f91bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref>[]</type>
+        <definition>RoomType[] Structures.Map.Column.GetRowData</definition>
+        <argsstring>()</argsstring>
+        <name>GetRowData</name>
+        <qualifiedname>Structures.Map.Column.GetRowData</qualifiedname>
+        <briefdescription>
+<para>methode that returns arrays of column cells </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="57" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_column_1a6b2a64cd76787a78f7d29dc60731659c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Structures.Map.Column.GetLength</definition>
+        <argsstring>()</argsstring>
+        <name>GetLength</name>
+        <qualifiedname>Structures.Map.Column.GetLength</qualifiedname>
+        <briefdescription>
+<para>methode that returns length of column array </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="63" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements map layout column logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" line="9" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Column.cs" bodystart="10" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_column_1ae008567f58a098d59fd4c7dfdd664add" prot="public" virt="non-virtual"><scope>Structures::Map::Column</scope><name>Column</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1a6b2a64cd76787a78f7d29dc60731659c" prot="public" virt="non-virtual"><scope>Structures::Map::Column</scope><name>GetLength</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1a89c342127b5c7f1972678b86f39f91bf" prot="public" virt="non-virtual"><scope>Structures::Map::Column</scope><name>GetRowData</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1a13c516da5162b2e57bb2ea3e77be5829" prot="public" virt="non-virtual"><scope>Structures::Map::Column</scope><name>ResetRow</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1ad1a689b533f118664a95ab88f35723c5" prot="private" virt="non-virtual"><scope>Structures::Map::Column</scope><name>RowData</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1aeecdd3b1fb36dd99b3a4a61f21ddd923" prot="private" virt="non-virtual"><scope>Structures::Map::Column</scope><name>RowLength</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1ac58d950101c8ceed96a350964c0a0728" prot="public" virt="non-virtual"><scope>Structures::Map::Column</scope><name>SetRowRoomType</name></member>
+      <member refid="class_structures_1_1_map_1_1_column_1a59fe2a58e9743b01a189df20775a9216" prot="public" virt="non-virtual"><scope>Structures::Map::Column</scope><name>SetSelectedRoomType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

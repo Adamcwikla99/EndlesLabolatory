@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_menu_1_1_toggle_minimap_event" kind="class" language="C#" prot="public">
+    <compoundname>Events::Menu::ToggleMinimapEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_menu_1_1_toggle_minimap_event_1ac73b0a1b24fb896a0ec381f0695a0ab5" prot="public" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Events.Menu.ToggleMinimapEvent.ToggleMinimap</definition>
+        <argsstring></argsstring>
+        <name>ToggleMinimap</name>
+        <qualifiedname>Events.Menu.ToggleMinimapEvent.ToggleMinimap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs" line="11" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_menu_1_1_toggle_minimap_event_1a056d17b41a9860c2e3ff7710edc235c6" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; bool &gt;</type>
+        <definition>System.Action&lt;bool&gt; Events.Menu.ToggleMinimapEvent.ChangeMinimapState</definition>
+        <argsstring></argsstring>
+        <name>ChangeMinimapState</name>
+        <qualifiedname>Events.Menu.ToggleMinimapEvent.ChangeMinimapState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs" line="12" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying minimap manipulation events events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Menu.ToggleMinimapEvent</label>
+        <link refid="class_events_1_1_menu_1_1_toggle_minimap_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Menu.ToggleMinimapEvent</label>
+        <link refid="class_events_1_1_menu_1_1_toggle_minimap_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ChangeMinimapState</edgelabel>
+          <edgelabel>ToggleMinimap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs" bodystart="10" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_menu_1_1_toggle_minimap_event_1a056d17b41a9860c2e3ff7710edc235c6" prot="public" virt="non-virtual"><scope>Events::Menu::ToggleMinimapEvent</scope><name>ChangeMinimapState</name></member>
+      <member refid="class_events_1_1_menu_1_1_toggle_minimap_event_1ac73b0a1b24fb896a0ec381f0695a0ab5" prot="public" virt="non-virtual"><scope>Events::Menu::ToggleMinimapEvent</scope><name>ToggleMinimap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

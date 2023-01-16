@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_start_room_controller_8cs" kind="file" language="C#">
+    <compoundname>StartRoomController.cs</compoundname>
+    <innerclass refid="class_room_1_1_room_controlers_1_1_start_room_controller" prot="public">Room::RoomControlers::StartRoomController</innerclass>
+    <innernamespace refid="namespace_room">Room</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_controlers">Room::RoomControlers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content" kindref="compound">Room.RoomContent</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_structures_1_1_enums" kindref="compound">Structures.Enums</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_controlers" kindref="compound">Room.RoomControlers</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_room_1_1_room_controlers_1_1_start_room_controller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_room_1_1_room_controlers_1_1_start_room_controller" kindref="compound">StartRoomController</ref><sp/>:<sp/><ref refid="class_room_1_1_room_content_1_1_floor_room" kindref="compound">FloorRoom</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Unity<sp/>Callbacks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Public<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_controlers_1_1_start_room_controller_1ab24fa6dfeea5e207f1fa3ad43b7700f3" kindref="member">Init</ref>(<ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]<sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" kindref="member">nonActiveGates</ref><sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" kindref="member">florLevel</ref><sp/>=<sp/>1)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.InitRoomVariables(<ref refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" kindref="member">nonActiveGates</ref>,<sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" kindref="member">florLevel</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.<ref refid="class_room_1_1_room_content_1_1_floor_room_1a34cf24785d3aece8f6a0c97db3ddf68c" kindref="member">InitRoomGates</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Private<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitRoomVariables(<ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]<sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" kindref="member">nonActiveGates</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" kindref="member">florLevel</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.nonActiveGates<sp/>=<sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" kindref="member">nonActiveGates</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.florLevel<sp/>=<sp/><ref refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" kindref="member">florLevel</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.ThisRoomType<sp/>=<sp/><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref>.StartRoom;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/StartRoomController.cs"/>
+  </compounddef>
+</doxygen>

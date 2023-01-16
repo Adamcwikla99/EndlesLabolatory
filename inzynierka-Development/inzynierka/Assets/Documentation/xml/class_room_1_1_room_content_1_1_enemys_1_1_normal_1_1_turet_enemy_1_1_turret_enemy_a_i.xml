@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.EnemyAI</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a732b0b049f1c131c06db894ab5e46bfc" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_turet_enemy_attack_ai" kindref="compound">TuretEnemyAttackAi</ref></type>
+        <definition>TuretEnemyAttackAi Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.EnemyAttackController</definition>
+        <argsstring></argsstring>
+        <name>EnemyAttackController</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.EnemyAttackController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="15" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a20cd3d31818acc646e5251b5a3eef23b" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.FireDistance</definition>
+        <argsstring></argsstring>
+        <name>FireDistance</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.FireDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="18" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1ad11959a2571d4bce4a3954cce1e13b17" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.reloadCountdown</definition>
+        <argsstring></argsstring>
+        <name>reloadCountdown</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.reloadCountdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="23" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1abe0e8cff438182ced6c538239768fd81" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.lastSeenStatus</definition>
+        <argsstring></argsstring>
+        <name>lastSeenStatus</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.lastSeenStatus</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="24" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a85a36f13a5a7b024d1e95cfe5289240c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.newSeenStatus</definition>
+        <argsstring></argsstring>
+        <name>newSeenStatus</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.newSeenStatus</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="25" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a689f9a0a51a1a39203a50c8fd3e2b87c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.CanSeePlayer</definition>
+        <argsstring>()</argsstring>
+        <name>CanSeePlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.CanSeePlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a281cb3306e1b1ab5b666565569e29e41">CanSeePlayer</reimplements>
+        <briefdescription>
+<para>methode that determins if entity can see player game object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="37" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="37" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a3e7de179be6e44c79f8fb5ad82a2f995" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.SetFoundPlayer</definition>
+        <argsstring>(GameObject player)</argsstring>
+        <name>SetFoundPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.SetFoundPlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a2330e5df77339baea4b91bb071e1c6b8">SetFoundPlayer</reimplements>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets reference to player game object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="69" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="69" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a9b12cb54a31012e0feecbc5de4c8deef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.ToggleFire</definition>
+        <argsstring>(RaycastHit hit, Vector3 playerDirection)</argsstring>
+        <name>ToggleFire</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI.ToggleFire</qualifiedname>
+        <param>
+          <type>RaycastHit</type>
+          <declname>hit</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that allows for performing fire action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="55" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="55" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements turret enemy AI logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/TuretEnemy/TurretEnemyAI.cs" bodystart="11" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a689f9a0a51a1a39203a50c8fd3e2b87c" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>CanSeePlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a8b921ec3a85ee2a5fbb184f8148edd5e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>detectedPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4f2ce267a30eca56bb470709ccbddf0d" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>DisableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1af0a4d7e715891015301ca2244b6878e1" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>EnableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a732b0b049f1c131c06db894ab5e46bfc" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>EnemyAttackController</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a20cd3d31818acc646e5251b5a3eef23b" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>FireDistance</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1afb1705769ff4049a725ce5739ee432c8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>FoundPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1abe0e8cff438182ced6c538239768fd81" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>lastSeenStatus</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a91b09f1f9fb121e4de332137d51a1d94" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>Mask</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a85a36f13a5a7b024d1e95cfe5289240c" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>newSeenStatus</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4452b7332ee4bae54e37d9bb06eb1451" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>Player</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a9dd101342db3c1f15fb3d56429805009" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>PlayerObject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1ad11959a2571d4bce4a3954cce1e13b17" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>reloadCountdown</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a3e7de179be6e44c79f8fb5ad82a2f995" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>SetFoundPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a9b12cb54a31012e0feecbc5de4c8deef" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>ToggleFire</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ab676dddc2dbb697ad15f0e3751080efe" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::TuretEnemy::TurretEnemyAI</scope><name>wasPlayerDetected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

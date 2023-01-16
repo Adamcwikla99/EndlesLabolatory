@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_u_i_1_1_update_beaten_enemys" kind="class" language="C#" prot="public">
+    <compoundname>Events::UI::UpdateBeatenEnemys</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_u_i_1_1_update_beaten_enemys_1ab71802fa506f44e2ff4208ca270a4309" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; int &gt;</type>
+        <definition>System.Action&lt;int&gt; Events.UI.UpdateBeatenEnemys.RelayNewBeatenEnemysCount</definition>
+        <argsstring></argsstring>
+        <name>RelayNewBeatenEnemysCount</name>
+        <qualifiedname>Events.UI.UpdateBeatenEnemys.RelayNewBeatenEnemysCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/UpdateBeatenEnemys.cs" line="11" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/UpdateBeatenEnemys.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying update beaten enemy count events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.UI.UpdateBeatenEnemys</label>
+        <link refid="class_events_1_1_u_i_1_1_update_beaten_enemys"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.UI.UpdateBeatenEnemys</label>
+        <link refid="class_events_1_1_u_i_1_1_update_beaten_enemys"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>RelayNewBeatenEnemysCount</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/UpdateBeatenEnemys.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/UpdateBeatenEnemys.cs" bodystart="10" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_u_i_1_1_update_beaten_enemys_1ab71802fa506f44e2ff4208ca270a4309" prot="public" virt="non-virtual"><scope>Events::UI::UpdateBeatenEnemys</scope><name>RelayNewBeatenEnemysCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

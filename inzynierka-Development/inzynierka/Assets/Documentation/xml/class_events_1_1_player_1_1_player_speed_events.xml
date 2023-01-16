@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_player_1_1_player_speed_events" kind="class" language="C#" prot="public">
+    <compoundname>Events::Player::PlayerSpeedEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_player_1_1_player_speed_events_1a87adbe93694c3342f3f8da01466c08d5" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; bool &gt;</type>
+        <definition>System.Action&lt;bool&gt; Events.Player.PlayerSpeedEvents.AddSpeedUp</definition>
+        <argsstring></argsstring>
+        <name>AddSpeedUp</name>
+        <qualifiedname>Events.Player.PlayerSpeedEvents.AddSpeedUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerSpeedEvents.cs" line="11" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerSpeedEvents.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_player_1_1_player_speed_events_1adc6190664df394a9a9b19527f85c7d4c" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; bool &gt;</type>
+        <definition>System.Action&lt;bool&gt; Events.Player.PlayerSpeedEvents.AddSpeedDown</definition>
+        <argsstring></argsstring>
+        <name>AddSpeedDown</name>
+        <qualifiedname>Events.Player.PlayerSpeedEvents.AddSpeedDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerSpeedEvents.cs" line="12" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerSpeedEvents.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for player movement speed manipulation events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Player.PlayerSpeedEvents</label>
+        <link refid="class_events_1_1_player_1_1_player_speed_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Player.PlayerSpeedEvents</label>
+        <link refid="class_events_1_1_player_1_1_player_speed_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>AddSpeedDown</edgelabel>
+          <edgelabel>AddSpeedUp</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerSpeedEvents.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerSpeedEvents.cs" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_player_1_1_player_speed_events_1adc6190664df394a9a9b19527f85c7d4c" prot="public" virt="non-virtual"><scope>Events::Player::PlayerSpeedEvents</scope><name>AddSpeedDown</name></member>
+      <member refid="class_events_1_1_player_1_1_player_speed_events_1a87adbe93694c3342f3f8da01466c08d5" prot="public" virt="non-virtual"><scope>Events::Player::PlayerSpeedEvents</scope><name>AddSpeedUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

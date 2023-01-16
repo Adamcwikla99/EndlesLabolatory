@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_file_reorganizer" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::FileReorganizer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISerializationCallbackReceiver</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_resources" prot="private">FMODUnity::FileReorganizer::Resources</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task" prot="private">FMODUnity::FileReorganizer::Task</innerclass>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator" prot="private">FMODUnity::FileReorganizer::TaskGenerator</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view" prot="private">FMODUnity::FileReorganizer::TaskView</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a7e80763bea35b7caf8dd8a755734491d" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.FileReorganizer.ReorganizerMenuItemPath</definition>
+        <argsstring></argsstring>
+        <name>ReorganizerMenuItemPath</name>
+        <qualifiedname>FMODUnity.FileReorganizer.ReorganizerMenuItemPath</qualifiedname>
+        <initializer>= &quot;FMOD/Reorganize Plugin Files&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="13" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a3d0383c6a43861a43adaeac724a90eb1" prot="private" static="no" mutable="no">
+        <type>List&lt; Task &gt;</type>
+        <definition>List&lt;Task&gt; FMODUnity.FileReorganizer.tasks</definition>
+        <argsstring></argsstring>
+        <name>tasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.tasks</qualifiedname>
+        <initializer>= new List&lt;Task&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="16" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1aabf6570d3b65c4f78680ef812120aaa0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.FileReorganizer.taskCount</definition>
+        <argsstring></argsstring>
+        <name>taskCount</name>
+        <qualifiedname>FMODUnity.FileReorganizer.taskCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="19" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a44f2faf332e4fe1135f2fd4c4ce2148e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.FileReorganizer.currentTask</definition>
+        <argsstring></argsstring>
+        <name>currentTask</name>
+        <qualifiedname>FMODUnity.FileReorganizer.currentTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="22" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a25ecd9430f202deda493b24d7f34eb5f" prot="private" static="no" mutable="no">
+        <type>TaskView</type>
+        <definition>TaskView FMODUnity.FileReorganizer.taskView</definition>
+        <argsstring></argsstring>
+        <name>taskView</name>
+        <qualifiedname>FMODUnity.FileReorganizer.taskView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="24" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a51be679306ac19d03f29f798265639cd" prot="private" static="no" mutable="no">
+        <type>TreeViewState</type>
+        <definition>TreeViewState FMODUnity.FileReorganizer.taskViewState</definition>
+        <argsstring></argsstring>
+        <name>taskViewState</name>
+        <qualifiedname>FMODUnity.FileReorganizer.taskViewState</qualifiedname>
+        <initializer>= new TreeViewState()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="27" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1abbb4af7a44b1687d0a81550e4c3472f7" prot="private" static="no" mutable="no">
+        <type>MultiColumnHeaderState</type>
+        <definition>MultiColumnHeaderState FMODUnity.FileReorganizer.taskHeaderState</definition>
+        <argsstring></argsstring>
+        <name>taskHeaderState</name>
+        <qualifiedname>FMODUnity.FileReorganizer.taskHeaderState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="30" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a59c0479e38395954947886875ccc51ac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.FileReorganizer.reloadingFromSerializedState</definition>
+        <argsstring></argsstring>
+        <name>reloadingFromSerializedState</name>
+        <qualifiedname>FMODUnity.FileReorganizer.reloadingFromSerializedState</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1aa23f9a204bb787bb39e55f3ddc4bd545" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent FMODUnity.FileReorganizer.statusContent</definition>
+        <argsstring></argsstring>
+        <name>statusContent</name>
+        <qualifiedname>FMODUnity.FileReorganizer.statusContent</qualifiedname>
+        <initializer>= GUIContent.none</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="36" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1aebb891d53523d0750608d3dafecc9a7a" prot="private" static="no" mutable="no">
+        <type>IEnumerator&lt; string &gt;</type>
+        <definition>IEnumerator&lt;string&gt; FMODUnity.FileReorganizer.processingState</definition>
+        <argsstring></argsstring>
+        <name>processingState</name>
+        <qualifiedname>FMODUnity.FileReorganizer.processingState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="38" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1aa8b2c060a5c3214a5a4b278b173835b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.FileReorganizer.ShowWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWindow</name>
+        <qualifiedname>FMODUnity.FileReorganizer.ShowWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="41" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a02fb880e3d2235d77ad6974fcfc8714f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.FileReorganizer.IsUpToDate</definition>
+        <argsstring>()</argsstring>
+        <name>IsUpToDate</name>
+        <qualifiedname>FMODUnity.FileReorganizer.IsUpToDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="212" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="212" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a347972951c30e4c413377623f684b075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnBeforeSerialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnBeforeSerialize</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnBeforeSerialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="146" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="146" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a462c332286b02984c0eae2c0386c0dbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnAfterDeserialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnAfterDeserialize</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnAfterDeserialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="152" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="152" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a462473978c4a096727ba2d85fa342470" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="156" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="156" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1ab9a4c748413d1036e67d377719a1887f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="191" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="191" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a270da90d9e0e9dbb111d939b2c400cdf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.PopulateTasks</definition>
+        <argsstring>()</argsstring>
+        <name>PopulateTasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.PopulateTasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="198" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="198" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a948f8b24e60a4e4d6bc2281b28aa3e8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.SetDefaultStatus</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaultStatus</name>
+        <qualifiedname>FMODUnity.FileReorganizer.SetDefaultStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="221" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="221" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a1aaedc44d02ac48cbb941038cd6d6298" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.SetTaskSequence</definition>
+        <argsstring>()</argsstring>
+        <name>SetTaskSequence</name>
+        <qualifiedname>FMODUnity.FileReorganizer.SetTaskSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="247" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="247" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a8db25055a72f216531a2571ef8db73c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.UpdateTaskCount</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTaskCount</name>
+        <qualifiedname>FMODUnity.FileReorganizer.UpdateTaskCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="273" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="273" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a5ec3130dc437d70654610286b8e13d33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnTaskSelected</definition>
+        <argsstring>(Task task)</argsstring>
+        <name>OnTaskSelected</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnTaskSelected</qualifiedname>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="791" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="791" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a26bf8f4d9eddfb37a9ae221b0a0aca8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="803" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="803" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a0956c2830678ef0ebc0f85e40c96c85f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.Cancel</definition>
+        <argsstring>()</argsstring>
+        <name>Cancel</name>
+        <qualifiedname>FMODUnity.FileReorganizer.Cancel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="868" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="868" bodyend="878"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a3b312ae98adfb7c3f794ab8be96bd030" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.OnInspectorUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorUpdate</name>
+        <qualifiedname>FMODUnity.FileReorganizer.OnInspectorUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="914" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="914" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a0d4bbe2cdc3c1a243fd0a95a59bdf338" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.StartProcessing</definition>
+        <argsstring>()</argsstring>
+        <name>StartProcessing</name>
+        <qualifiedname>FMODUnity.FileReorganizer.StartProcessing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1198" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1198" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a2c9f21e54de579d7f2b3d5f1d9b604e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.StopProcessing</definition>
+        <argsstring>()</argsstring>
+        <name>StopProcessing</name>
+        <qualifiedname>FMODUnity.FileReorganizer.StopProcessing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1212" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1212" bodyend="1227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a9f721d9139520c158015d04d2ab5cd1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.FileReorganizer.IsProcessing</definition>
+        <argsstring>()</argsstring>
+        <name>IsProcessing</name>
+        <qualifiedname>FMODUnity.FileReorganizer.IsProcessing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1229" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1229" bodyend="1232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a9d2fb14e3ace74af516899e467ff46a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.ProcessNextTask</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessNextTask</name>
+        <qualifiedname>FMODUnity.FileReorganizer.ProcessNextTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1234" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1234" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a5605945b376b75e09fbe56f61c48b006" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt; string &gt; FMODUnity.FileReorganizer.ProcessMoveTasks</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessMoveTasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.ProcessMoveTasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1250" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1250" bodyend="1274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1aa4f044bc67c17339c252651ffe4faa8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt; string &gt; FMODUnity.FileReorganizer.ProcessRemoveAssetTasks</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessRemoveAssetTasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.ProcessRemoveAssetTasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1281" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1281" bodyend="1298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a781ae0fcf82f6d6d628d5c5f3d01f13e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt; string &gt; FMODUnity.FileReorganizer.ProcessRemoveFolderTasks</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessRemoveFolderTasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.ProcessRemoveFolderTasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1305" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1305" bodyend="1316"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1aa926aac438c7ed71b3a3a0bb8fa62aab" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IOrderedEnumerable&lt; T1 &gt;</type>
+        <definition>static IOrderedEnumerable&lt; T1 &gt; FMODUnity.FileReorganizer.Sort&lt; T1, T2 &gt;</definition>
+        <argsstring>(IEnumerable&lt; T1 &gt; enumerable, Func&lt; T1, T2 &gt; keySelector, bool ascending)</argsstring>
+        <name>Sort&lt; T1, T2 &gt;</name>
+        <qualifiedname>FMODUnity.FileReorganizer.Sort&lt; T1, T2 &gt;</qualifiedname>
+        <param>
+          <type>IEnumerable&lt; T1 &gt;</type>
+          <declname>enumerable</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1, T2 &gt;</type>
+          <declname>keySelector</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ascending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="629" column="9" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="629" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a90b682954c67f04184889653185793f5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IOrderedEnumerable&lt; T1 &gt;</type>
+        <definition>static IOrderedEnumerable&lt; T1 &gt; FMODUnity.FileReorganizer.SubSort&lt; T1, T2 &gt;</definition>
+        <argsstring>(IOrderedEnumerable&lt; T1 &gt; enumerable, Func&lt; T1, T2 &gt; keySelector, bool ascending)</argsstring>
+        <name>SubSort&lt; T1, T2 &gt;</name>
+        <qualifiedname>FMODUnity.FileReorganizer.SubSort&lt; T1, T2 &gt;</qualifiedname>
+        <param>
+          <type>IOrderedEnumerable&lt; T1 &gt;</type>
+          <declname>enumerable</declname>
+        </param>
+        <param>
+          <type>Func&lt; T1, T2 &gt;</type>
+          <declname>keySelector</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ascending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="642" column="9" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="642" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a78530ff9109b1d8062383b8ad913c23c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.FileReorganizer.DrawAssetPath</definition>
+        <argsstring>(Rect rect, string path)</argsstring>
+        <name>DrawAssetPath</name>
+        <qualifiedname>FMODUnity.FileReorganizer.DrawAssetPath</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="880" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="880" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a0afc2714c8f21fc35cca0db0ed630b56" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.FileReorganizer.SelectAssetOrParentFolder</definition>
+        <argsstring>(string path)</argsstring>
+        <name>SelectAssetOrParentFolder</name>
+        <qualifiedname>FMODUnity.FileReorganizer.SelectAssetOrParentFolder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="899" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="899" bodyend="912"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a6eefdb2c11fae01408a6f87865a43948" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.FileReorganizer.AssetExists</definition>
+        <argsstring>(string path)</argsstring>
+        <name>AssetExists</name>
+        <qualifiedname>FMODUnity.FileReorganizer.AssetExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1276" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1276" bodyend="1279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a73220910862dc44db9ac019127619dbe" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.FileReorganizer.IsFolderEmpty</definition>
+        <argsstring>(string path)</argsstring>
+        <name>IsFolderEmpty</name>
+        <qualifiedname>FMODUnity.FileReorganizer.IsFolderEmpty</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1300" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1300" bodyend="1303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1a03159793c177754150a8cabe793f23bc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>static IEnumerable&lt; string &gt; FMODUnity.FileReorganizer.RemoveFolderIfEmpty</definition>
+        <argsstring>(Task task)</argsstring>
+        <name>RemoveFolderIfEmpty</name>
+        <qualifiedname>FMODUnity.FileReorganizer.RemoveFolderIfEmpty</qualifiedname>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1318" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1318" bodyend="1350"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.FileReorganizer</label>
+        <link refid="class_f_m_o_d_unity_1_1_file_reorganizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.FileReorganizer</label>
+        <link refid="class_f_m_o_d_unity_1_1_file_reorganizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="11" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="12" bodyend="1351"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a6eefdb2c11fae01408a6f87865a43948" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>AssetExists</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a0956c2830678ef0ebc0f85e40c96c85f" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>Cancel</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a44f2faf332e4fe1135f2fd4c4ce2148e" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>currentTask</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a78530ff9109b1d8062383b8ad913c23c" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>DrawAssetPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a73220910862dc44db9ac019127619dbe" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>IsFolderEmpty</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a9f721d9139520c158015d04d2ab5cd1d" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>IsProcessing</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a02fb880e3d2235d77ad6974fcfc8714f" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>IsUpToDate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a462c332286b02984c0eae2c0386c0dbe" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnAfterDeserialize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a347972951c30e4c413377623f684b075" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnBeforeSerialize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1ab9a4c748413d1036e67d377719a1887f" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnDestroy</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a462473978c4a096727ba2d85fa342470" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a26bf8f4d9eddfb37a9ae221b0a0aca8e" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a3b312ae98adfb7c3f794ab8be96bd030" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnInspectorUpdate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a5ec3130dc437d70654610286b8e13d33" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>OnTaskSelected</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a270da90d9e0e9dbb111d939b2c400cdf" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>PopulateTasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aebb891d53523d0750608d3dafecc9a7a" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>processingState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a5605945b376b75e09fbe56f61c48b006" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>ProcessMoveTasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a9d2fb14e3ace74af516899e467ff46a6" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>ProcessNextTask</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aa4f044bc67c17339c252651ffe4faa8b" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>ProcessRemoveAssetTasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a781ae0fcf82f6d6d628d5c5f3d01f13e" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>ProcessRemoveFolderTasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a59c0479e38395954947886875ccc51ac" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>reloadingFromSerializedState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a03159793c177754150a8cabe793f23bc" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>RemoveFolderIfEmpty</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a7e80763bea35b7caf8dd8a755734491d" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>ReorganizerMenuItemPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a0afc2714c8f21fc35cca0db0ed630b56" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>SelectAssetOrParentFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a948f8b24e60a4e4d6bc2281b28aa3e8e" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>SetDefaultStatus</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a1aaedc44d02ac48cbb941038cd6d6298" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>SetTaskSequence</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aa8b2c060a5c3214a5a4b278b173835b7" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>ShowWindow</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aa926aac438c7ed71b3a3a0bb8fa62aab" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>Sort&lt; T1, T2 &gt;</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a0d4bbe2cdc3c1a243fd0a95a59bdf338" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>StartProcessing</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aa23f9a204bb787bb39e55f3ddc4bd545" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>statusContent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a2c9f21e54de579d7f2b3d5f1d9b604e8" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>StopProcessing</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a90b682954c67f04184889653185793f5" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>SubSort&lt; T1, T2 &gt;</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aabf6570d3b65c4f78680ef812120aaa0" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>taskCount</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1abbb4af7a44b1687d0a81550e4c3472f7" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>taskHeaderState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a3d0383c6a43861a43adaeac724a90eb1" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>tasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a25ecd9430f202deda493b24d7f34eb5f" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>taskView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a51be679306ac19d03f29f798265639cd" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>taskViewState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a8db25055a72f216531a2571ef8db73c0" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer</scope><name>UpdateTaskCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

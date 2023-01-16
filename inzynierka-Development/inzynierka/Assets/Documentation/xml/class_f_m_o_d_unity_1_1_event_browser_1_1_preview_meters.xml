@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::EventBrowser::PreviewMeters</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1aebdad4b020cad5c296af9fc2566c9fbc" prot="private" static="no" mutable="no">
+        <type>Texture</type>
+        <definition>Texture FMODUnity.EventBrowser.PreviewMeters.meterOn</definition>
+        <argsstring></argsstring>
+        <name>meterOn</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewMeters.meterOn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1297" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a8a5194aa1a2c7207fab1e4f06ceee355" prot="private" static="no" mutable="no">
+        <type>Texture</type>
+        <definition>Texture FMODUnity.EventBrowser.PreviewMeters.meterOff</definition>
+        <argsstring></argsstring>
+        <name>meterOff</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewMeters.meterOff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1298" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a34eec49196cb2c56a79865bcfed1a8cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewMeters.AffirmResources</definition>
+        <argsstring>()</argsstring>
+        <name>AffirmResources</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewMeters.AffirmResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1300" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1300" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a26abad39153a0dbf233a708af230a08e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">FMOD.SPEAKERMODE</ref></type>
+        <definition>FMOD.SPEAKERMODE FMODUnity.EventBrowser.PreviewMeters.speakerModeForChannelCount</definition>
+        <argsstring>(int channelCount)</argsstring>
+        <name>speakerModeForChannelCount</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewMeters.speakerModeForChannelCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>channelCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1353" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1353" bodyend="1372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1aaee8aa911506a53d2ca7c08c1ee1e741" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; float &gt;</type>
+        <definition>List&lt; float &gt; FMODUnity.EventBrowser.PreviewMeters.meterPositionsForSpeakerMode</definition>
+        <argsstring>(FMOD.SPEAKERMODE mode, float meterWidth, float groupGap, float lfeGap)</argsstring>
+        <name>meterPositionsForSpeakerMode</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewMeters.meterPositionsForSpeakerMode</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aa0732e7e8efd3b96b526a7f2f8479634" kindref="member">FMOD.SPEAKERMODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>meterWidth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>groupGap</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lfeGap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1374" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1374" bodyend="1545"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a8f8cc270ea529366fe6ee5dc612e0d1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventBrowser.PreviewMeters.OnGUI</definition>
+        <argsstring>(bool minimized, float[] metering)</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.EventBrowser.PreviewMeters.OnGUI</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>minimized</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>metering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1309" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1309" bodyend="1351"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" line="1295" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventBrowser.cs" bodystart="1296" bodyend="1546"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a34eec49196cb2c56a79865bcfed1a8cc" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewMeters</scope><name>AffirmResources</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a8a5194aa1a2c7207fab1e4f06ceee355" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewMeters</scope><name>meterOff</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1aebdad4b020cad5c296af9fc2566c9fbc" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewMeters</scope><name>meterOn</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1aaee8aa911506a53d2ca7c08c1ee1e741" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewMeters</scope><name>meterPositionsForSpeakerMode</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a8f8cc270ea529366fe6ee5dc612e0d1e" prot="public" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewMeters</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_browser_1_1_preview_meters_1a26abad39153a0dbf233a708af230a08e" prot="private" virt="non-virtual"><scope>FMODUnity::EventBrowser::PreviewMeters</scope><name>speakerModeForChannelCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

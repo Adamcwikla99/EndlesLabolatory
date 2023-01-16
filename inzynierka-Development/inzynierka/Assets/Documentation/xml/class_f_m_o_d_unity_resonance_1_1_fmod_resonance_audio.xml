@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnityResonance::FmodResonanceAudio</compoundname>
+    <innerclass refid="struct_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1_1_room_properties" prot="private">FMODUnityResonance::FmodResonanceAudio::RoomProperties</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1aa48deece196e6aac62a4de882d31e428" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnityResonance.FmodResonanceAudio.MaxGainDb</definition>
+        <argsstring></argsstring>
+        <name>MaxGainDb</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.MaxGainDb</qualifiedname>
+        <initializer>= 24.0f</initializer>
+        <briefdescription>
+<para>Maximum allowed gain value in decibels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="30" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1afd42d37b00080764e6e04dd8ade9b7cb" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnityResonance.FmodResonanceAudio.MinGainDb</definition>
+        <argsstring></argsstring>
+        <name>MinGainDb</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.MinGainDb</qualifiedname>
+        <initializer>= -24.0f</initializer>
+        <briefdescription>
+<para>Minimum allowed gain value in decibels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="33" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a7bd963181972346a0970c4e2fb2d3bbd" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnityResonance.FmodResonanceAudio.MaxReverbBrightness</definition>
+        <argsstring></argsstring>
+        <name>MaxReverbBrightness</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.MaxReverbBrightness</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+<para>Maximum allowed reverb brightness modifier value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="36" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a86b986bc2dae33bd3fade91fff668204" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnityResonance.FmodResonanceAudio.MinReverbBrightness</definition>
+        <argsstring></argsstring>
+        <name>MinReverbBrightness</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.MinReverbBrightness</qualifiedname>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+<para>Minimum allowed reverb brightness modifier value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="39" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1abd01a83c8fdf3015c58604b77299d617" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnityResonance.FmodResonanceAudio.MaxReverbTime</definition>
+        <argsstring></argsstring>
+        <name>MaxReverbTime</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.MaxReverbTime</qualifiedname>
+        <initializer>= 3.0f</initializer>
+        <briefdescription>
+<para>Maximum allowed reverb time modifier value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="42" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1ae423c7d0dd6e7b41cfb4dbe361ddfc86" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnityResonance.FmodResonanceAudio.MaxReflectivity</definition>
+        <argsstring></argsstring>
+        <name>MaxReflectivity</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.MaxReflectivity</qualifiedname>
+        <initializer>= 2.0f</initializer>
+        <briefdescription>
+<para>Maximum allowed reflectivity multiplier of a room surface material. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="45" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a774252754640f2574a1eb3b89be65737" prot="private" static="yes" mutable="no">
+        <type>readonly Matrix4x4</type>
+        <definition>readonly Matrix4x4 FMODUnityResonance.FmodResonanceAudio.flipZ</definition>
+        <argsstring></argsstring>
+        <name>flipZ</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.flipZ</qualifiedname>
+        <initializer>= Matrix4x4.Scale(new Vector3(1, 1, -1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="48" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a8eb8e5a1af19bfc368b5bda3e2c52d94" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string FMODUnityResonance.FmodResonanceAudio.listenerPluginName</definition>
+        <argsstring></argsstring>
+        <name>listenerPluginName</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.listenerPluginName</qualifiedname>
+        <initializer>= &quot;Resonance Audio Listener&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="51" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a8ad4b592ab85eb845996f959ded179f4" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int FMODUnityResonance.FmodResonanceAudio.roomPropertiesSize</definition>
+        <argsstring></argsstring>
+        <name>roomPropertiesSize</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.roomPropertiesSize</qualifiedname>
+        <initializer>= FMOD.MarshalHelper.SizeOf(typeof(RoomProperties))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="54" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a077fbf456a27e02817fd06ed64ea77ae" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int FMODUnityResonance.FmodResonanceAudio.roomPropertiesIndex</definition>
+        <argsstring></argsstring>
+        <name>roomPropertiesIndex</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.roomPropertiesIndex</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="57" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1af1000a5f23dfc028207a01f2455c0a5e" prot="private" static="yes" mutable="no">
+        <type>Bounds</type>
+        <definition>Bounds FMODUnityResonance.FmodResonanceAudio.bounds</definition>
+        <argsstring></argsstring>
+        <name>bounds</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.bounds</qualifiedname>
+        <initializer>= new Bounds(Vector3.zero, Vector3.zero)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="60" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a8b12ec2c9ef1c1afa368ded5d24b0748" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room" kindref="compound">FmodResonanceAudioRoom</ref> &gt;</type>
+        <definition>List&lt;FmodResonanceAudioRoom&gt; FMODUnityResonance.FmodResonanceAudio.enabledRooms</definition>
+        <argsstring></argsstring>
+        <name>enabledRooms</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.enabledRooms</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room" kindref="compound">FmodResonanceAudioRoom</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="63" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a666cb23b2ed1b5bc802c7280a2d92f69" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">FMOD.VECTOR</ref></type>
+        <definition>FMOD.VECTOR FMODUnityResonance.FmodResonanceAudio.listenerPositionFmod</definition>
+        <argsstring></argsstring>
+        <name>listenerPositionFmod</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.listenerPositionFmod</qualifiedname>
+        <initializer>= new <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">FMOD.VECTOR</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="66" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a1efd97e5f05a512bf07329b76b6ec859" prot="private" static="yes" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">FMOD.DSP</ref></type>
+        <definition>FMOD.DSP FMODUnityResonance.FmodResonanceAudio.listenerPlugin</definition>
+        <argsstring></argsstring>
+        <name>listenerPlugin</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.listenerPlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="69" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a2eab97d4ca652ba839ea65012f521e4d" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">FMOD.DSP</ref></type>
+        <definition>FMOD.DSP FMODUnityResonance.FmodResonanceAudio.ListenerPlugin</definition>
+        <argsstring></argsstring>
+        <name>ListenerPlugin</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.ListenerPlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="166" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="167" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a992f98a24373ab99f61f8c1c57e04b4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnityResonance.FmodResonanceAudio.UpdateAudioRoom</definition>
+        <argsstring>(FmodResonanceAudioRoom room, bool roomEnabled)</argsstring>
+        <name>UpdateAudioRoom</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.UpdateAudioRoom</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room" kindref="compound">FmodResonanceAudioRoom</ref></type>
+          <declname>room</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>roomEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the room effects of the environment with given |room| properties. <simplesect kind="note"><para>This should only be called from the main Unity thread. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="73" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="73" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1aba888bd1ce057c7cea081091b907a353" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnityResonance.FmodResonanceAudio.IsListenerInsideRoom</definition>
+        <argsstring>(FmodResonanceAudioRoom room)</argsstring>
+        <name>IsListenerInsideRoom</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.IsListenerInsideRoom</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room" kindref="compound">FmodResonanceAudioRoom</ref></type>
+          <declname>room</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether the listener is currently inside the given |room| boundaries. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="107" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="107" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a81c357e19dbbe03bc682d1a571128769" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float FMODUnityResonance.FmodResonanceAudio.ConvertAmplitudeFromDb</definition>
+        <argsstring>(float db)</argsstring>
+        <name>ConvertAmplitudeFromDb</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.ConvertAmplitudeFromDb</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="179" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a45652f19d16acba75f7282d6a7e7ae29" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnityResonance.FmodResonanceAudio.ConvertAudioTransformFromUnity</definition>
+        <argsstring>(ref Vector3 position, ref Quaternion rotation)</argsstring>
+        <name>ConvertAudioTransformFromUnity</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.ConvertAudioTransformFromUnity</qualifiedname>
+        <param>
+          <type>ref Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="_turet_enemy_attack_ai_8cs_1a3115aee88de19f0e23050e8650bc3153" kindref="member">Quaternion</ref></type>
+          <declname>rotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="185" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="185" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1afbcb78214f5d1a4cba5bdb73323a2ce4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] FMODUnityResonance.FmodResonanceAudio.GetBytes</definition>
+        <argsstring>(IntPtr ptr, int length)</argsstring>
+        <name>GetBytes</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.GetBytes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="198" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="198" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a3b2b697bfb90c1a602776d1ae574e011" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RoomProperties</type>
+        <definition>static RoomProperties FMODUnityResonance.FmodResonanceAudio.GetRoomProperties</definition>
+        <argsstring>(FmodResonanceAudioRoom room)</argsstring>
+        <name>GetRoomProperties</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.GetRoomProperties</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room" kindref="compound">FmodResonanceAudioRoom</ref></type>
+          <declname>room</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="211" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="211" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1ace74188baccba1afae36b0e0b638e54b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">FMOD.DSP</ref></type>
+        <definition>static FMOD.DSP FMODUnityResonance.FmodResonanceAudio.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudio.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="242" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="242" bodyend="288"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the main Resonance Audio class that communicates with the <ref refid="namespace_f_m_o_d" kindref="compound">FMOD</ref> Unity integration. Native functions of the system can only be called through this class to preserve the internal system functionality. </para>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" line="27" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs" bodystart="28" bodyend="289"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1af1000a5f23dfc028207a01f2455c0a5e" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>bounds</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a81c357e19dbbe03bc682d1a571128769" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>ConvertAmplitudeFromDb</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a45652f19d16acba75f7282d6a7e7ae29" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>ConvertAudioTransformFromUnity</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a8b12ec2c9ef1c1afa368ded5d24b0748" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>enabledRooms</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a774252754640f2574a1eb3b89be65737" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>flipZ</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1afbcb78214f5d1a4cba5bdb73323a2ce4" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>GetBytes</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a3b2b697bfb90c1a602776d1ae574e011" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>GetRoomProperties</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1ace74188baccba1afae36b0e0b638e54b" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>Initialize</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1aba888bd1ce057c7cea081091b907a353" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>IsListenerInsideRoom</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a1efd97e5f05a512bf07329b76b6ec859" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>listenerPlugin</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a2eab97d4ca652ba839ea65012f521e4d" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>ListenerPlugin</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a8eb8e5a1af19bfc368b5bda3e2c52d94" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>listenerPluginName</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a666cb23b2ed1b5bc802c7280a2d92f69" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>listenerPositionFmod</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1aa48deece196e6aac62a4de882d31e428" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>MaxGainDb</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1ae423c7d0dd6e7b41cfb4dbe361ddfc86" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>MaxReflectivity</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a7bd963181972346a0970c4e2fb2d3bbd" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>MaxReverbBrightness</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1abd01a83c8fdf3015c58604b77299d617" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>MaxReverbTime</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1afd42d37b00080764e6e04dd8ade9b7cb" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>MinGainDb</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a86b986bc2dae33bd3fade91fff668204" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>MinReverbBrightness</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a077fbf456a27e02817fd06ed64ea77ae" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>roomPropertiesIndex</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a8ad4b592ab85eb845996f959ded179f4" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>roomPropertiesSize</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_1a992f98a24373ab99f61f8c1c57e04b4a" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudio</scope><name>UpdateAudioRoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

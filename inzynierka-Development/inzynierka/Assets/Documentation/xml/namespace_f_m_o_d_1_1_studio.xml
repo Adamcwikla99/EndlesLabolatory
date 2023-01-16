@@ -1,0 +1,1110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_f_m_o_d_1_1_studio" kind="namespace" language="C#">
+    <compoundname>FMOD::Studio</compoundname>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_a_d_v_a_n_c_e_d_s_e_t_t_i_n_g_s" prot="public">FMOD::Studio::ADVANCEDSETTINGS</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_bank" prot="public">FMOD::Studio::Bank</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_b_a_n_k___i_n_f_o" prot="public">FMOD::Studio::BANK_INFO</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_b_u_f_f_e_r___i_n_f_o" prot="public">FMOD::Studio::BUFFER_INFO</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_b_u_f_f_e_r___u_s_a_g_e" prot="public">FMOD::Studio::BUFFER_USAGE</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_bus" prot="public">FMOD::Studio::Bus</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_c_o_m_m_a_n_d___i_n_f_o" prot="public">FMOD::Studio::COMMAND_INFO</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_command_replay" prot="public">FMOD::Studio::CommandReplay</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_c_p_u___u_s_a_g_e" prot="public">FMOD::Studio::CPU_USAGE</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_event_description" prot="public">FMOD::Studio::EventDescription</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" prot="public">FMOD::Studio::EventInstance</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" prot="public">FMOD::Studio::MEMORY_USAGE</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" prot="public">FMOD::Studio::PARAMETER_DESCRIPTION</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" prot="public">FMOD::Studio::PARAMETER_ID</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_p_l_u_g_i_n___i_n_s_t_a_n_c_e___p_r_o_p_e_r_t_i_e_s" prot="public">FMOD::Studio::PLUGIN_INSTANCE_PROPERTIES</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_p_r_o_g_r_a_m_m_e_r___s_o_u_n_d___p_r_o_p_e_r_t_i_e_s" prot="public">FMOD::Studio::PROGRAMMER_SOUND_PROPERTIES</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_s_o_u_n_d___i_n_f_o" prot="public">FMOD::Studio::SOUND_INFO</innerclass>
+    <innerclass refid="class_f_m_o_d_1_1_studio_1_1_s_t_u_d_i_o___v_e_r_s_i_o_n" prot="public">FMOD::Studio::STUDIO_VERSION</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_system" prot="public">FMOD::Studio::System</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_t_i_m_e_l_i_n_e___b_e_a_t___p_r_o_p_e_r_t_i_e_s" prot="public">FMOD::Studio::TIMELINE_BEAT_PROPERTIES</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_t_i_m_e_l_i_n_e___m_a_r_k_e_r___p_r_o_p_e_r_t_i_e_s" prot="public">FMOD::Studio::TIMELINE_MARKER_PROPERTIES</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_t_i_m_e_l_i_n_e___n_e_s_t_e_d___b_e_a_t___p_r_o_p_e_r_t_i_e_s" prot="public">FMOD::Studio::TIMELINE_NESTED_BEAT_PROPERTIES</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_union___int_bool_float_string" prot="public">FMOD::Studio::Union_IntBoolFloatString</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_u_s_e_r___p_r_o_p_e_r_t_y" prot="public">FMOD::Studio::USER_PROPERTY</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_util" prot="public">FMOD::Studio::Util</innerclass>
+    <innerclass refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a" prot="public">FMOD::Studio::VCA</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>STOP_MODE</name>
+        <qualifiedname>FMOD.Studio.STOP_MODE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881a80a19d2b7749d5463061a12f0b2f8856" prot="public">
+          <name>ALLOWFADEOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881ae35884a2445bc4ae2df52f188763273c" prot="public">
+          <name>IMMEDIATE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="23" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>LOADING_STATE</name>
+        <qualifiedname>FMOD.Studio.LOADING_STATE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548a47a9a5e95b0b32bb9f2c74187c02bddd" prot="public">
+          <name>UNLOADING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548a795b8a51556d0b2cf4fbc11a896f6269" prot="public">
+          <name>UNLOADED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548af9f6955ebca09a484157c05f80acd65e" prot="public">
+          <name>LOADING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548ab638272ceeff54912f043465e9a28c9b" prot="public">
+          <name>LOADED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548abb1ca97ec761fc37101737ba0aa2e7c5" prot="public">
+          <name>ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="29" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6f" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>SYSTEM_CALLBACK_TYPE</name>
+        <qualifiedname>FMOD.Studio.SYSTEM_CALLBACK_TYPE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6fa5e198d4962feb620429e828b414c186e" prot="public">
+          <name>PREUPDATE</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6face43c5f18cef5c0b87a1a5be406e8d07" prot="public">
+          <name>POSTUPDATE</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6faa292cabdc61699588a8bc04d3eca906f" prot="public">
+          <name>BANK_UNLOAD</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6fa09e7baaa3a5e22c2f9b26e06dbd1d92f" prot="public">
+          <name>LIVEUPDATE_CONNECTED</name>
+          <initializer>= 0x00000008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6fa8bf454dfdcd09220e0dddefaad69d2f8" prot="public">
+          <name>LIVEUPDATE_DISCONNECTED</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6fa5fb1f955b45e38e31789286a1790398d" prot="public">
+          <name>ALL</name>
+          <initializer>= 0xFFFFFFFF</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="119" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>PARAMETER_TYPE</name>
+        <qualifiedname>FMOD.Studio.PARAMETER_TYPE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0ae7f71f36c2c31b0383c415f52c25f77c" prot="public">
+          <name>GAME_CONTROLLED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0ad77e5187c79133140a05462194c162fd" prot="public">
+          <name>AUTOMATIC_DISTANCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a30a9157443fd8f4742ad560faa99bba2" prot="public">
+          <name>AUTOMATIC_EVENT_CONE_ANGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a57830cded7a83f3e71aa70dce7802423" prot="public">
+          <name>AUTOMATIC_EVENT_ORIENTATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a1b6a095d04db43b86cb81faf64ceb769" prot="public">
+          <name>AUTOMATIC_DIRECTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a5506409bd83b9efd6eedb2880ab82ff4" prot="public">
+          <name>AUTOMATIC_ELEVATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a9b88d69702ba279319ed43bb2ba06e71" prot="public">
+          <name>AUTOMATIC_LISTENER_ORIENTATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a05781853a9c8cf8308f72c35580e67f8" prot="public">
+          <name>AUTOMATIC_SPEED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a9c77b3794c250b1ae499af776db56138" prot="public">
+          <name>AUTOMATIC_SPEED_ABSOLUTE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0af13fd332465c7855a8735e2a0b96627d" prot="public">
+          <name>AUTOMATIC_DISTANCE_NORMALIZED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a46f93d1455a727436c7aabac3d9025f0a26a4b44a837bf97b972628509912b4a5" prot="public">
+          <name>MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="131" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="132" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a84afb7e9b74f1900b34d5905747d7700" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>PARAMETER_FLAGS</name>
+        <qualifiedname>FMOD.Studio.PARAMETER_FLAGS</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a84afb7e9b74f1900b34d5905747d7700a34db6698cff32ac89724758fdaa5512e" prot="public">
+          <name>READONLY</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a84afb7e9b74f1900b34d5905747d7700a008f6cdd0c190839e9885cf9f9e2a652" prot="public">
+          <name>AUTOMATIC</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a84afb7e9b74f1900b34d5905747d7700a6eecfba72d12922ee1dead07a0ef3334" prot="public">
+          <name>GLOBAL</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a84afb7e9b74f1900b34d5905747d7700a947436f2927405d3b5997a9ffbaee5c1" prot="public">
+          <name>DISCRETE</name>
+          <initializer>= 0x00000008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a84afb7e9b74f1900b34d5905747d7700a1c2d70e0ceafa9931cbe5ff7841a1771" prot="public">
+          <name>LABELED</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="147" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="148" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a489db0ea3d521b9ce73e5192a6af8e7e" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>LOAD_MEMORY_MODE</name>
+        <qualifiedname>FMOD.Studio.LOAD_MEMORY_MODE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a489db0ea3d521b9ce73e5192a6af8e7ea344204ed311b807e5da88bff1949337a" prot="public">
+          <name>LOAD_MEMORY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a489db0ea3d521b9ce73e5192a6af8e7eae021074a370e54425899846c453012f3" prot="public">
+          <name>LOAD_MEMORY_POINT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="177" column="5" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1aaa65be2e48f7abe3cc80113f9eebd5b9" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>LOAD_MEMORY_ALIGNMENT</name>
+        <qualifiedname>FMOD.Studio.LOAD_MEMORY_ALIGNMENT</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aaa65be2e48f7abe3cc80113f9eebd5b9aecc2e9c313faddb07e7da223c1dc5c3f" prot="public">
+          <name>VALUE</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="183" column="5" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a37689fe0c4dd85c937af497acba74628" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>USER_PROPERTY_TYPE</name>
+        <qualifiedname>FMOD.Studio.USER_PROPERTY_TYPE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a37689fe0c4dd85c937af497acba74628a5d5cd46919fa987731fb2edefe0f2a0c" prot="public">
+          <name>INTEGER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a37689fe0c4dd85c937af497acba74628ac48d5da12d702e73d6966069f2687376" prot="public">
+          <name>BOOLEAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a37689fe0c4dd85c937af497acba74628ae738c26bf4ce1037fa81b039a915cbf6" prot="public">
+          <name>FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a37689fe0c4dd85c937af497acba74628a63b588d5559f64f89a416e656880b949" prot="public">
+          <name>STRING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="208" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="209" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>INITFLAGS</name>
+        <qualifiedname>FMOD.Studio.INITFLAGS</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4a1e23852820b9154316c7c06e2b7ba051" prot="public">
+          <name>NORMAL</name>
+          <initializer>= 0x00000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4ab2fa9091a19340a9c6adc9bffb07efa1" prot="public">
+          <name>LIVEUPDATE</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4ac216527fd81d69d1fc93a9253b2068af" prot="public">
+          <name>ALLOW_MISSING_PLUGINS</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4a64447d218885a8ed2d9ea0b6e4fafbc6" prot="public">
+          <name>SYNCHRONOUS_UPDATE</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4a0449f8de02c563036aff7f1a58ee97d7" prot="public">
+          <name>DEFERRED_CALLBACKS</name>
+          <initializer>= 0x00000008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4a106da88ea6094967c21f051793be8d8a" prot="public">
+          <name>LOAD_FROM_UPDATE</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4a8bb987dfaadc6fba56b83e53cb0faee8" prot="public">
+          <name>MEMORY_TRACKING</name>
+          <initializer>= 0x00000020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="243" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="244" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>LOAD_BANK_FLAGS</name>
+        <qualifiedname>FMOD.Studio.LOAD_BANK_FLAGS</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220a1e23852820b9154316c7c06e2b7ba051" prot="public">
+          <name>NORMAL</name>
+          <initializer>= 0x00000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220a96aa07a625aac998fe9bd5cfd36a6880" prot="public">
+          <name>NONBLOCKING</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220a0d41f3de8174cbece55d755b91f1fc0f" prot="public">
+          <name>DECOMPRESS_SAMPLES</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220ae2af6a8986d58569b67859426d6760d8" prot="public">
+          <name>UNENCRYPTED</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="255" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="256" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a351bea8424b177847afa3ffbd5813c35" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>COMMANDCAPTURE_FLAGS</name>
+        <qualifiedname>FMOD.Studio.COMMANDCAPTURE_FLAGS</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a351bea8424b177847afa3ffbd5813c35a1e23852820b9154316c7c06e2b7ba051" prot="public">
+          <name>NORMAL</name>
+          <initializer>= 0x00000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a351bea8424b177847afa3ffbd5813c35a6d11021c9bb0bf4ec8f590a0d57c29ea" prot="public">
+          <name>FILEFLUSH</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a351bea8424b177847afa3ffbd5813c35aee18c2ae989196c9ff50b6ab09065c0a" prot="public">
+          <name>SKIP_INITIAL_STATE</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="264" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="265" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>COMMANDREPLAY_FLAGS</name>
+        <qualifiedname>FMOD.Studio.COMMANDREPLAY_FLAGS</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7a1e23852820b9154316c7c06e2b7ba051" prot="public">
+          <name>NORMAL</name>
+          <initializer>= 0x00000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7a2ef28541f67a758ec0f9dde56b9852b4" prot="public">
+          <name>SKIP_CLEANUP</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7afe48dc1aa055edc05bb3f1db44bf9e3f" prot="public">
+          <name>FAST_FORWARD</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7aa2c53397a35e4b6c520e91c8bd83a5de" prot="public">
+          <name>SKIP_BANK_LOAD</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="272" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="273" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602d" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>PLAYBACK_STATE</name>
+        <qualifiedname>FMOD.Studio.PLAYBACK_STATE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602da50366a49630a416ab3ccaa004196027e" prot="public">
+          <name>PLAYING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602daed529a6cf37d8f4f6ddd4effc11b160d" prot="public">
+          <name>SUSTAINING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602da09d4d696b4e935115b9313e3c412509a" prot="public">
+          <name>STOPPED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602da034312d8adc8099c1c6f53aaff745e26" prot="public">
+          <name>STARTING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602daf6cdb3c6710b50ec65ee07f740847e10" prot="public">
+          <name>STOPPING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="280" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="281" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14a" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>EVENT_PROPERTY</name>
+        <qualifiedname>FMOD.Studio.EVENT_PROPERTY</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aa9d21c7131dd9020302d1c447a3bb548a" prot="public">
+          <name>CHANNELPRIORITY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aa88518eafd54d418437e06aba2a4345ba" prot="public">
+          <name>SCHEDULE_DELAY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aad7b3afbda21769256fdfdcdf3020da05" prot="public">
+          <name>SCHEDULE_LOOKAHEAD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aabdec46833daefcf93a0b233a97c20a02" prot="public">
+          <name>MINIMUM_DISTANCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aa2bb63d1c896be8e18bb20174c3516550" prot="public">
+          <name>MAXIMUM_DISTANCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aa6397c936615b97b70adb188970dfc31b" prot="public">
+          <name>COOLDOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14aa26a4b44a837bf97b972628509912b4a5" prot="public">
+          <name>MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="289" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="290" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777" prot="public" static="no" strong="yes">
+        <type>uint</type>
+        <name>EVENT_CALLBACK_TYPE</name>
+        <qualifiedname>FMOD.Studio.EVENT_CALLBACK_TYPE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a98690bf632c29c17c9e4c5a64069903c" prot="public">
+          <name>CREATED</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a5d7e41d3ac0abca5974598807df874ea" prot="public">
+          <name>DESTROYED</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a034312d8adc8099c1c6f53aaff745e26" prot="public">
+          <name>STARTING</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a17130e6c806885e23770df1519b18eb7" prot="public">
+          <name>STARTED</name>
+          <initializer>= 0x00000008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777ab0490f2a6601806e683a220cbcff87bb" prot="public">
+          <name>RESTARTED</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a09d4d696b4e935115b9313e3c412509a" prot="public">
+          <name>STOPPED</name>
+          <initializer>= 0x00000020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a65a8079dabea48dfdc47743a60eee6d2" prot="public">
+          <name>START_FAILED</name>
+          <initializer>= 0x00000040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a1597f85b9d4b1ba9eef708891a190653" prot="public">
+          <name>CREATE_PROGRAMMER_SOUND</name>
+          <initializer>= 0x00000080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a21b160f0065ab7914aad45b8c0aba9d5" prot="public">
+          <name>DESTROY_PROGRAMMER_SOUND</name>
+          <initializer>= 0x00000100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a6abc39e37eaafcf279b04e73260eb35b" prot="public">
+          <name>PLUGIN_CREATED</name>
+          <initializer>= 0x00000200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777ac2cde1d3eaa33e74caaeef0eb89fe41a" prot="public">
+          <name>PLUGIN_DESTROYED</name>
+          <initializer>= 0x00000400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a02b269a28e5f2308d28cac244bc37313" prot="public">
+          <name>TIMELINE_MARKER</name>
+          <initializer>= 0x00000800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777aca6656290a892f60bb940fc23edfb1ab" prot="public">
+          <name>TIMELINE_BEAT</name>
+          <initializer>= 0x00001000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a00153f9835d59a7d1602a6751b63290e" prot="public">
+          <name>SOUND_PLAYED</name>
+          <initializer>= 0x00002000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a522ebb54dc13638ed5779dd266ad5c85" prot="public">
+          <name>SOUND_STOPPED</name>
+          <initializer>= 0x00004000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777af7403ba99b3c385f739e40ba5ad231be" prot="public">
+          <name>REAL_TO_VIRTUAL</name>
+          <initializer>= 0x00008000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a3c5d0a16175bea8854d944a826d55278" prot="public">
+          <name>VIRTUAL_TO_REAL</name>
+          <initializer>= 0x00010000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777aed549daeca25f887f734cbf5ca683c08" prot="public">
+          <name>START_EVENT_COMMAND</name>
+          <initializer>= 0x00020000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a037592df15354af9cfbb196e9b0a7ba5" prot="public">
+          <name>NESTED_TIMELINE_BEAT</name>
+          <initializer>= 0x00040000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a5fb1f955b45e38e31789286a1790398d" prot="public">
+          <name>ALL</name>
+          <initializer>= 0xFFFFFFFF</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="308" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="309" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>INSTANCETYPE</name>
+        <qualifiedname>FMOD.Studio.INSTANCETYPE</qualifiedname>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7ab50339a10e1de285ac99d4c3990b8693" prot="public">
+          <name>NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7afa177138f94a7ea01f549b1aa7893d03" prot="public">
+          <name>SYSTEM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7ae56bcb1c4080f66819f3cc88e20b88f5" prot="public">
+          <name>EVENTDESCRIPTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7ac14ef6923531270d4d0c0037b4cc3b5d" prot="public">
+          <name>EVENTINSTANCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7abc4ba951ded5e41b7a2a8c9c618d5ac1" prot="public">
+          <name>PARAMETERINSTANCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7a0e0c9d888d1093cb2dfa6b25cbce19d8" prot="public">
+          <name>BUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7ad3d85f072985af3dd2cc517706390cc1" prot="public">
+          <name>VCA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7a702ccd4c4de96dda2108bed873989158" prot="public">
+          <name>BANK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_f_m_o_d_1_1_studio_1aae7a505f1baa5b19c9ee0a5bb846c0d7aa9561a77cb2b83284619402c9d067556" prot="public">
+          <name>COMMANDREPLAY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="339" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="340" bodyend="350"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_f_m_o_d_1_1_studio_1a578aeda8b7f6905827a524b77f480d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>delegate RESULT FMOD.Studio.SYSTEM_CALLBACK</definition>
+        <argsstring>(IntPtr system, SYSTEM_CALLBACK_TYPE type, IntPtr commanddata, IntPtr userdata)</argsstring>
+        <name>SYSTEM_CALLBACK</name>
+        <qualifiedname>FMOD.Studio.SYSTEM_CALLBACK</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6f" kindref="member">SYSTEM_CALLBACK_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>commanddata</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="129" column="28" declfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" declline="129" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_f_m_o_d_1_1_studio_1a5dbcaa08826b04164cc1456c31e87b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>delegate RESULT FMOD.Studio.EVENT_CALLBACK</definition>
+        <argsstring>(EVENT_CALLBACK_TYPE type, IntPtr _event, IntPtr parameters)</argsstring>
+        <name>EVENT_CALLBACK</name>
+        <qualifiedname>FMOD.Studio.EVENT_CALLBACK</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777" kindref="member">EVENT_CALLBACK_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="333" column="28" declfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" declline="333" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_f_m_o_d_1_1_studio_1aca1b4ec5deb7a4d672b7578965fc8fb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>delegate RESULT FMOD.Studio.COMMANDREPLAY_FRAME_CALLBACK</definition>
+        <argsstring>(IntPtr replay, int commandindex, float currenttime, IntPtr userdata)</argsstring>
+        <name>COMMANDREPLAY_FRAME_CALLBACK</name>
+        <qualifiedname>FMOD.Studio.COMMANDREPLAY_FRAME_CALLBACK</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commandindex</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>currenttime</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="335" column="28" declfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" declline="335" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_f_m_o_d_1_1_studio_1a112087d93f4f8841d9d9b220b7de7e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>delegate RESULT FMOD.Studio.COMMANDREPLAY_LOAD_BANK_CALLBACK</definition>
+        <argsstring>(IntPtr replay, int commandindex, GUID bankguid, IntPtr bankfilename, LOAD_BANK_FLAGS flags, out IntPtr bank, IntPtr userdata)</argsstring>
+        <name>COMMANDREPLAY_LOAD_BANK_CALLBACK</name>
+        <qualifiedname>FMOD.Studio.COMMANDREPLAY_LOAD_BANK_CALLBACK</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commandindex</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>bankguid</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>bankfilename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="336" column="28" declfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" declline="336" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_f_m_o_d_1_1_studio_1a2688de77492e02fcb560e273db986d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>delegate RESULT FMOD.Studio.COMMANDREPLAY_CREATE_INSTANCE_CALLBACK</definition>
+        <argsstring>(IntPtr replay, int commandindex, IntPtr eventdescription, out IntPtr instance, IntPtr userdata)</argsstring>
+        <name>COMMANDREPLAY_CREATE_INSTANCE_CALLBACK</name>
+        <qualifiedname>FMOD.Studio.COMMANDREPLAY_CREATE_INSTANCE_CALLBACK</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commandindex</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>eventdescription</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="337" column="28" declfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" declline="337" declcolumn="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/platforms/win/src/PlatformWindows.cs" line="20" column="1"/>
+  </compounddef>
+</doxygen>

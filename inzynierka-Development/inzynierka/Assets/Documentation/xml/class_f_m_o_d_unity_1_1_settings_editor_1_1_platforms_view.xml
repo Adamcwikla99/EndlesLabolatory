@@ -1,0 +1,804 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::SettingsEditor::PlatformsView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditor.IMGUI.Controls.TreeView</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1_1_platform_item" prot="private">FMODUnity::SettingsEditor::PlatformsView::PlatformItem</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4f9955924c3c97da3040ecbb1fe5aff0" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.RowPadding</definition>
+        <argsstring></argsstring>
+        <name>RowPadding</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.RowPadding</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1849" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a7ae8467d4a256b0b2b6123a573af7f3b" prot="private" static="yes" mutable="no">
+        <type>UnityEditorInternal.ReorderableList.Defaults</type>
+        <definition>UnityEditorInternal.ReorderableList.Defaults FMODUnity.SettingsEditor.PlatformsView.s_Defaults</definition>
+        <argsstring></argsstring>
+        <name>s_Defaults</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.s_Defaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1853" column="71" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aae9fbf9b74fe6cf73d490c41c932a517" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.HeaderHeight</definition>
+        <argsstring></argsstring>
+        <name>HeaderHeight</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.HeaderHeight</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1855" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1add0080fc6066c993102af1087d1ab4e9" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.BodyHeight</definition>
+        <argsstring></argsstring>
+        <name>BodyHeight</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.BodyHeight</qualifiedname>
+        <initializer>= 150</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1856" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a926f84ebeb65a3f96bd6b82f2f0c03fa" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.FooterHeight</definition>
+        <argsstring></argsstring>
+        <name>FooterHeight</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.FooterHeight</qualifiedname>
+        <initializer>= 13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1857" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1af31e2b80023eb7fea32fb8356ea6ff9f" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.TotalHeight</definition>
+        <argsstring></argsstring>
+        <name>TotalHeight</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.TotalHeight</qualifiedname>
+        <initializer>= HeaderHeight + BodyHeight + FooterHeight</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1858" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ad300a92cb47accb631cec41cc8abbf67" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.ButtonWidth</definition>
+        <argsstring></argsstring>
+        <name>ButtonWidth</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.ButtonWidth</qualifiedname>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1860" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a9f538436136e28d2a89676bab20b49f9" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.ButtonHeight</definition>
+        <argsstring></argsstring>
+        <name>ButtonHeight</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.ButtonHeight</qualifiedname>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1861" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aa4d60fff0cb2bfac82709cbefcfeb8e0" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.ButtonMarginTop</definition>
+        <argsstring></argsstring>
+        <name>ButtonMarginTop</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.ButtonMarginTop</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1862" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aa019c1b3877507bff228d0022f245207" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformsView.FooterMarginRight</definition>
+        <argsstring></argsstring>
+        <name>FooterMarginRight</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.FooterMarginRight</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1864" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a942954c17b41dee885148a5f3c9d4d7c" prot="private" static="yes" mutable="no">
+        <type>readonly RectOffset</type>
+        <definition>readonly RectOffset FMODUnity.SettingsEditor.PlatformsView.BodyPadding</definition>
+        <argsstring></argsstring>
+        <name>BodyPadding</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.BodyPadding</qualifiedname>
+        <initializer>= new RectOffset(1, 2, 1, 4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1866" column="48" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a8e0cb94d726630345dda2dbbb196f2a6" prot="private" static="yes" mutable="no">
+        <type>readonly RectOffset</type>
+        <definition>readonly RectOffset FMODUnity.SettingsEditor.PlatformsView.FooterPadding</definition>
+        <argsstring></argsstring>
+        <name>FooterPadding</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.FooterPadding</qualifiedname>
+        <initializer>= new RectOffset(4, 4, 0, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1867" column="48" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ade10396aebd1f65d7a71fd63b7455178" prot="private" static="yes" mutable="no">
+        <type>readonly Vector2</type>
+        <definition>readonly Vector2 FMODUnity.SettingsEditor.PlatformsView.DragHandleSize</definition>
+        <argsstring></argsstring>
+        <name>DragHandleSize</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.DragHandleSize</qualifiedname>
+        <initializer>= new Vector2(10, 7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1869" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a7021d9363a26b7bd080d4e56369af8be" prot="private" static="yes" mutable="no">
+        <type>readonly Vector2</type>
+        <definition>readonly Vector2 FMODUnity.SettingsEditor.PlatformsView.DragHandlePadding</definition>
+        <argsstring></argsstring>
+        <name>DragHandlePadding</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.DragHandlePadding</qualifiedname>
+        <initializer>= new Vector2(5, 6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1870" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1870" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a231bb3871812ad830e2fea24838f145e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings FMODUnity.SettingsEditor.PlatformsView.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1851" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1851" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a6c3d5f525a562e450ec1dc2de4526e81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.SettingsEditor.PlatformsView.SelectedPlatform</definition>
+        <argsstring></argsstring>
+        <name>SelectedPlatform</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.SelectedPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1878" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1879" bodyend="1898"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a82e55cd9c89e6fd42cc1a3c918d906fa" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>UnityEditorInternal.ReorderableList.Defaults</type>
+        <definition>UnityEditorInternal.ReorderableList.Defaults FMODUnity.SettingsEditor.PlatformsView.defaultBehaviours</definition>
+        <argsstring></argsstring>
+        <name>defaultBehaviours</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.defaultBehaviours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1900" column="71" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1901" bodyend="1911"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4a2c7312cf390cf32516cfc84dfb9118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SettingsEditor.PlatformsView.PlatformsView</definition>
+        <argsstring>(Settings settings, TreeViewState state)</argsstring>
+        <name>PlatformsView</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.PlatformsView</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>TreeViewState</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1872" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1872" bodyend="1876"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ae17679087791fa84c285fa14d5b69e6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.DrawLayout</definition>
+        <argsstring>()</argsstring>
+        <name>DrawLayout</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.DrawLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1913" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1913" bodyend="1976"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a79bada1ad24dcd4e2e84907b6554d562" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.SelectAndFramePlatform</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>SelectAndFramePlatform</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.SelectAndFramePlatform</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2101" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2101" bodyend="2105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a2f1c2e373f208cd9ca2b533f3f94a583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.ForceReload</definition>
+        <argsstring>()</argsstring>
+        <name>ForceReload</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.ForceReload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2157" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2157" bodyend="2161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1afeb53c5c7643c3e78fd6491aa0e2dacf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.ReloadIfNecessary</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadIfNecessary</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.ReloadIfNecessary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2163" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2163" bodyend="2169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a488c2dacc8c931d5fa87c4e4ec6e7df3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.DoAddMenu</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>DoAddMenu</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.DoAddMenu</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1978" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1978" bodyend="1996"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a0be8f828909548484478b383f4175934" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.AddPlatform</definition>
+        <argsstring>(object data)</argsstring>
+        <name>AddPlatform</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.AddPlatform</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1998" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1998" bodyend="2015"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a1e6fad3a6245e3253c95238cc370878c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.AddGroup</definition>
+        <argsstring>()</argsstring>
+        <name>AddGroup</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.AddGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2017" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2017" bodyend="2035"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a00ad9e7b0f3f9aa78cffe3269e3be8b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int FMODUnity.SettingsEditor.PlatformsView.UpdateSortOrderForChildren</definition>
+        <argsstring>(Platform platform, Platform skipChild, string undoMessage)</argsstring>
+        <name>UpdateSortOrderForChildren</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.UpdateSortOrderForChildren</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>skipChild</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>undoMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2037" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2037" bodyend="2055"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1abff4bb34e6280e01d534d56933900a3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.DeleteSelectedPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteSelectedPlatform</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.DeleteSelectedPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2059" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2059" bodyend="2099"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a07d36cea714c657ef0b7fa61cfb500d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformsView.CreateItems</definition>
+        <argsstring>(TreeViewItem parent, IEnumerable&lt; string &gt; platformIdentifiers)</argsstring>
+        <name>CreateItems</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.CreateItems</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>platformIdentifiers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2208" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2208" bodyend="2222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a689922a39bb4682aaf7069e37586335a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.SettingsEditor.PlatformsView.IsItemDraggable</definition>
+        <argsstring>(TreeViewItem draggedItem)</argsstring>
+        <name>IsItemDraggable</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.IsItemDraggable</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>draggedItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2283" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2283" bodyend="2288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aa35af6063bb448559618972733551412" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DragAndDropVisualMode</type>
+        <definition>DragAndDropVisualMode FMODUnity.SettingsEditor.PlatformsView.HandleDragOverPlatform</definition>
+        <argsstring>(Platform draggedPlatform, Platform parent, bool performDrop)</argsstring>
+        <name>HandleDragOverPlatform</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.HandleDragOverPlatform</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>draggedPlatform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>performDrop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2343" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2343" bodyend="2362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a00d890c17351b39d39cf648d09629c97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DragAndDropVisualMode</type>
+        <definition>DragAndDropVisualMode FMODUnity.SettingsEditor.PlatformsView.HandleDragBetweenChildren</definition>
+        <argsstring>(Platform draggedPlatform, Platform parent, int insertAtIndex, bool performDrop)</argsstring>
+        <name>HandleDragBetweenChildren</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.HandleDragBetweenChildren</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>draggedPlatform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>insertAtIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>performDrop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2364" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2364" bodyend="2379"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ab23cdc542dc7a3bd976389e00b385d08" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SettingsEditor.PlatformsView.RowGUI</definition>
+        <argsstring>(RowGUIArgs args)</argsstring>
+        <name>RowGUI</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.RowGUI</qualifiedname>
+        <param>
+          <type>RowGUIArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2107" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2107" bodyend="2155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a25ac023af033426866ab8c31a75ee69d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.SettingsEditor.PlatformsView.CanMultiSelect</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanMultiSelect</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.CanMultiSelect</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2171" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2171" bodyend="2174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a2ac72b57ca5297b1953d4bb497272dc9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.SettingsEditor.PlatformsView.CanChangeExpandedState</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanChangeExpandedState</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.CanChangeExpandedState</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2176" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2176" bodyend="2179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4ec20dfd30c0b4dc3e0f42d9fe5741ea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override TreeViewItem</type>
+        <definition>override TreeViewItem FMODUnity.SettingsEditor.PlatformsView.BuildRoot</definition>
+        <argsstring>()</argsstring>
+        <name>BuildRoot</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.BuildRoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2181" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2181" bodyend="2195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4cae7e084f4e8568121bf7dbb71fd831" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SettingsEditor.PlatformsView.DoubleClickedItem</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DoubleClickedItem</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.DoubleClickedItem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2229" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2229" bodyend="2237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aabf71b84ebd4caf3a223e96684d32506" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.SettingsEditor.PlatformsView.CanRename</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanRename</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.CanRename</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2239" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2239" bodyend="2243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a530d086c622a9bd6b54f1c3af34215d2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SettingsEditor.PlatformsView.RenameEnded</definition>
+        <argsstring>(RenameEndedArgs args)</argsstring>
+        <name>RenameEnded</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.RenameEnded</qualifiedname>
+        <param>
+          <type>RenameEndedArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2245" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2245" bodyend="2276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4659c368503b7fae379b3bdab55f5aba" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.SettingsEditor.PlatformsView.CanStartDrag</definition>
+        <argsstring>(CanStartDragArgs args)</argsstring>
+        <name>CanStartDrag</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.CanStartDrag</qualifiedname>
+        <param>
+          <type>CanStartDragArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2278" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2278" bodyend="2281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aaeac8c3fbdf05dd5deaa86e9cd470814" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SettingsEditor.PlatformsView.SetupDragAndDrop</definition>
+        <argsstring>(SetupDragAndDropArgs args)</argsstring>
+        <name>SetupDragAndDrop</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.SetupDragAndDrop</qualifiedname>
+        <param>
+          <type>SetupDragAndDropArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2290" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2290" bodyend="2300"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a78ddea02df866a7b75d61d114af9672a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DragAndDropVisualMode</type>
+        <definition>override DragAndDropVisualMode FMODUnity.SettingsEditor.PlatformsView.HandleDragAndDrop</definition>
+        <argsstring>(DragAndDropArgs args)</argsstring>
+        <name>HandleDragAndDrop</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.HandleDragAndDrop</qualifiedname>
+        <param>
+          <type>DragAndDropArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2302" column="54" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2302" bodyend="2341"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aec7b758aa5909f64d5cb0dbfbe19391e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TreeViewItem</type>
+        <definition>static TreeViewItem FMODUnity.SettingsEditor.PlatformsView.CreateItem</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>CreateItem</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformsView.CreateItem</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2224" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2224" bodyend="2227"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.PlatformsView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.PlatformsView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1847" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1848" bodyend="2380"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a1e6fad3a6245e3253c95238cc370878c" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>AddGroup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a0be8f828909548484478b383f4175934" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>AddPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1add0080fc6066c993102af1087d1ab4e9" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>BodyHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a942954c17b41dee885148a5f3c9d4d7c" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>BodyPadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4ec20dfd30c0b4dc3e0f42d9fe5741ea" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>BuildRoot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a9f538436136e28d2a89676bab20b49f9" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>ButtonHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aa4d60fff0cb2bfac82709cbefcfeb8e0" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>ButtonMarginTop</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ad300a92cb47accb631cec41cc8abbf67" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>ButtonWidth</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a2ac72b57ca5297b1953d4bb497272dc9" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>CanChangeExpandedState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a25ac023af033426866ab8c31a75ee69d" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>CanMultiSelect</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aabf71b84ebd4caf3a223e96684d32506" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>CanRename</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4659c368503b7fae379b3bdab55f5aba" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>CanStartDrag</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aec7b758aa5909f64d5cb0dbfbe19391e" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>CreateItem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a07d36cea714c657ef0b7fa61cfb500d7" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>CreateItems</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a82e55cd9c89e6fd42cc1a3c918d906fa" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>defaultBehaviours</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1abff4bb34e6280e01d534d56933900a3b" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>DeleteSelectedPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a488c2dacc8c931d5fa87c4e4ec6e7df3" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>DoAddMenu</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4cae7e084f4e8568121bf7dbb71fd831" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>DoubleClickedItem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a7021d9363a26b7bd080d4e56369af8be" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>DragHandlePadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ade10396aebd1f65d7a71fd63b7455178" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>DragHandleSize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ae17679087791fa84c285fa14d5b69e6d" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>DrawLayout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a926f84ebeb65a3f96bd6b82f2f0c03fa" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>FooterHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aa019c1b3877507bff228d0022f245207" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>FooterMarginRight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a8e0cb94d726630345dda2dbbb196f2a6" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>FooterPadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a2f1c2e373f208cd9ca2b533f3f94a583" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>ForceReload</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a78ddea02df866a7b75d61d114af9672a" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>HandleDragAndDrop</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a00d890c17351b39d39cf648d09629c97" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>HandleDragBetweenChildren</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aa35af6063bb448559618972733551412" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>HandleDragOverPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aae9fbf9b74fe6cf73d490c41c932a517" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>HeaderHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a689922a39bb4682aaf7069e37586335a" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>IsItemDraggable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4a2c7312cf390cf32516cfc84dfb9118" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>PlatformsView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1afeb53c5c7643c3e78fd6491aa0e2dacf" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>ReloadIfNecessary</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a530d086c622a9bd6b54f1c3af34215d2" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>RenameEnded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1ab23cdc542dc7a3bd976389e00b385d08" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>RowGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a4f9955924c3c97da3040ecbb1fe5aff0" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>RowPadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a7ae8467d4a256b0b2b6123a573af7f3b" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>s_Defaults</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a79bada1ad24dcd4e2e84907b6554d562" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>SelectAndFramePlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a6c3d5f525a562e450ec1dc2de4526e81" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>SelectedPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a231bb3871812ad830e2fea24838f145e" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>settings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1aaeac8c3fbdf05dd5deaa86e9cd470814" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>SetupDragAndDrop</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1af31e2b80023eb7fea32fb8356ea6ff9f" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>TotalHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platforms_view_1a00ad9e7b0f3f9aa78cffe3269e3be8b7" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformsView</scope><name>UpdateSortOrderForChildren</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

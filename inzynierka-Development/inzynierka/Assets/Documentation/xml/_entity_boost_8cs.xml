@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_entity_boost_8cs" kind="file" language="C#">
+    <compoundname>EntityBoost.cs</compoundname>
+    <innerclass refid="class_structures_1_1_wrapper_1_1_entity_boost" prot="public">Structures::Wrapper::EntityBoost</innerclass>
+    <innernamespace refid="namespace_structures">Structures</innernamespace>
+    <innernamespace refid="namespace_structures_1_1_wrapper">Structures::Wrapper</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_structures_1_1_wrapper" kindref="compound">Structures.Wrapper</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_structures_1_1_wrapper_1_1_entity_boost" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_structures_1_1_wrapper_1_1_entity_boost" kindref="compound">EntityBoost</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_wrapper_1_1_entity_boost_1a614894123d32c55004fad756bfc32a50" kindref="member">BonusMaxHP</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_wrapper_1_1_entity_boost_1a0e09597311eb40f53588175727426e3c" kindref="member">BonusProjectilePower</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_wrapper_1_1_entity_boost_1a8efe8f46d41f5cd4a2156f594b771438" kindref="member">BonusProjectileSpeed</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_wrapper_1_1_entity_boost_1a58788eaf6523af0b7bb1582e660b7726" kindref="member">EntityBoost</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bonusMaxHP,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bonusProjectilePower,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bonusProjectileSpeed)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusMaxHP<sp/>=<sp/>bonusMaxHP;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusProjectilePower<sp/>=<sp/>bonusProjectilePower;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusProjectileSpeed<sp/>=<sp/>bonusProjectileSpeed;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_wrapper_1_1_entity_boost_1a58788eaf6523af0b7bb1582e660b7726" kindref="member">EntityBoost</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusMaxHP<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusProjectilePower<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusProjectileSpeed<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_wrapper_1_1_entity_boost_1a1ad9a27856e25c803a844f2bcd03ad75" kindref="member">CalculateNewBoost</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>beatenFloors,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bonusMaxHPScale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bonusProjectilePowerScale,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bonusProjectileSpeedScale)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusProjectilePower<sp/>=<sp/>beatenFloors<sp/>*<sp/>bonusProjectilePowerScale;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusMaxHP<sp/>=<sp/>(int)(beatenFloors<sp/>*<sp/>bonusMaxHPScale);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.BonusProjectileSpeed<sp/>=<sp/>beatenFloors<sp/>*<sp/>bonusProjectileSpeedScale;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_drop_1_1_stats_drop" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Drop::StatsDrop</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_drop_1_1_drop" prot="public" virt="non-virtual">Room.RoomContent.Drop.Drop</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1a8b89dae1f42d280760cc3588715d05b2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1aa3f180d1ad30e38f57c65f329938fe06" kindref="member">PlayerStats</ref></type>
+        <definition>PlayerStats Room.RoomContent.Drop.StatsDrop.PlayerStatsType</definition>
+        <argsstring></argsstring>
+        <name>PlayerStatsType</name>
+        <qualifiedname>Room.RoomContent.Drop.StatsDrop.PlayerStatsType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" line="17" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1a25fe29fbb1fabe92732ef8e225ddc3e4" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_stats_events" kindref="compound">PlayerStatsEvents</ref></type>
+        <definition>PlayerStatsEvents Room.RoomContent.Drop.StatsDrop.PlayerStats</definition>
+        <argsstring></argsstring>
+        <name>PlayerStats</name>
+        <qualifiedname>Room.RoomContent.Drop.StatsDrop.PlayerStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" line="20" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1ad8a9c15d8661d6e17aa3978065717a48" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.StatsDrop.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Drop.StatsDrop.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" line="32" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1a1fc91f1a6ac3352fa3b20988d032d411" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.StatsDrop.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Room.RoomContent.Drop.StatsDrop.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that acknowledges drop being picked up by player </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" line="41" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" bodystart="41" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing stats drop logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Drop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Drop.StatsDrop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_stats_drop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Drop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisDrop</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Drop.StatsDrop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_stats_drop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Drop.Drop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisDrop</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" line="12" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/StatsDrop.cs" bodystart="13" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1ae2bb5c972527f67ec427920e993378e5" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>AmmunitionDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a6e587144c961b3715ce445d6a58e9bd4" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>DropQueReturner</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1add19b4a2c5a42e65d316e8eaf9996aab" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>DropType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1af264e2754dd6388baa68e6b68d989a0d" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>DropValue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a5f4cd1b8a7fab2fdac927dc077916829" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>InitDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1a1fc91f1a6ac3352fa3b20988d032d411" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1ab21143b0e7ada8a7e2be467f35f4aae1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>PickUpSound</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1a25fe29fbb1fabe92732ef8e225ddc3e4" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>PlayerStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1a8b89dae1f42d280760cc3588715d05b2" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>PlayerStatsType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a222973de84d91fa18a80059506ecd5c5" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>SetDropType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a713f9c919baf68e806468a25df98771c" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>SetDropValue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_stats_drop_1ad8a9c15d8661d6e17aa3978065717a48" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a8baa396c6daa7f0e0bf6ab90def64079" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Drop::StatsDrop</scope><name>thisDrop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

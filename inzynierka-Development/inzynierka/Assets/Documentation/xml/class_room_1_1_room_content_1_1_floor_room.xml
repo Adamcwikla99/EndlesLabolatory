@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_floor_room" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::FloorRoom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_controlers_1_1_boss_room_controller" prot="public" virt="non-virtual">Room.RoomControlers.BossRoomController</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_controlers_1_1_enemy_room_controller" prot="public" virt="non-virtual">Room.RoomControlers.EnemyRoomController</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_controlers_1_1_item_room_controller" prot="public" virt="non-virtual">Room.RoomControlers.ItemRoomController</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_controlers_1_1_shop_room_controller" prot="public" virt="non-virtual">Room.RoomControlers.ShopRoomController</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_controlers_1_1_start_room_controller" prot="public" virt="non-virtual">Room.RoomControlers.StartRoomController</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1a294c4dae94f5d0658062e297f8de6cb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref></type>
+        <definition>RoomType Room.RoomContent.FloorRoom.ThisRoomType</definition>
+        <argsstring></argsstring>
+        <name>ThisRoomType</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.ThisRoomType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="20" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1a59012ab1eaf28c2cde0654c2c00ed012" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Room.RoomContent.FloorRoom.RoomCordsPosition</definition>
+        <argsstring></argsstring>
+        <name>RoomCordsPosition</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.RoomCordsPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="23" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1a1018b56f2e4a010f07bc11010f9cd126" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.FloorRoom.RoomCleared</definition>
+        <argsstring></argsstring>
+        <name>RoomCleared</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.RoomCleared</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="26" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1af21cfcd6d46ae3cf9aba9e51d9d83285" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_room_events" kindref="compound">RoomEvents</ref></type>
+        <definition>RoomEvents Room.RoomContent.FloorRoom.IndividualRoomEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualRoomEvents</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.IndividualRoomEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="32" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1a7fb142491634a547ffbfcf9787aa4360" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_gate_events" kindref="compound">GateEvents</ref></type>
+        <definition>GateEvents Room.RoomContent.FloorRoom.IndividualRoomGateEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualRoomGateEvents</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.IndividualRoomGateEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="35" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1ad47060501df6a1ffa43ae8e58a8bcaa8" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_walls" kindref="compound">RoomWalls</ref></type>
+        <definition>RoomWalls Room.RoomContent.FloorRoom.ThisRoomWalls</definition>
+        <argsstring></argsstring>
+        <name>ThisRoomWalls</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.ThisRoomWalls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="38" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1ad98956e82c236c73941941d0defa814c" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_content_1_1_room_content_getter" kindref="compound">RoomContentGetter</ref></type>
+        <definition>RoomContentGetter Room.RoomContent.FloorRoom.ContentGetter</definition>
+        <argsstring></argsstring>
+        <name>ContentGetter</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.ContentGetter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="41" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1a88d31235ac2aff776e3e4cf79021bcb3" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform Room.RoomContent.FloorRoom.CornerMark</definition>
+        <argsstring></argsstring>
+        <name>CornerMark</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.CornerMark</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="44" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1aff9889d325441b9461bc3fdbb6f33f14" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_wall" kindref="compound">RoomWall</ref> &gt;</type>
+        <definition>List&lt;RoomWall&gt; Room.RoomContent.FloorRoom.WorkingRoomGates</definition>
+        <argsstring></argsstring>
+        <name>WorkingRoomGates</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.WorkingRoomGates</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_structures_1_1_map_1_1_room_1_1_room_wall" kindref="compound">RoomWall</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="47" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_floor_room_1a887d6e6315026477d665d26f7964dcb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.FloorRoom.RoomActive</definition>
+        <argsstring></argsstring>
+        <name>RoomActive</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.RoomActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="50" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+        <definition>Direction [] Room.RoomContent.FloorRoom.nonActiveGates</definition>
+        <argsstring></argsstring>
+        <name>nonActiveGates</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.nonActiveGates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="55" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Room.RoomContent.FloorRoom.florLevel</definition>
+        <argsstring></argsstring>
+        <name>florLevel</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.florLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="56" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_floor_room_1a2f6e7190d0018c5c35a3366c8f708876" prot="protected" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Room.RoomContent.FloorRoom.roomPossition</definition>
+        <argsstring></argsstring>
+        <name>roomPossition</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.roomPossition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="57" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a3bddfe8287e37c0a3c8b2f6b33e0c8d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.SetRoomPosition</definition>
+        <argsstring>(Vector3 roomPossition, CordsXY roomCordsPosition)</argsstring>
+        <name>SetRoomPosition</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.SetRoomPosition</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>roomPossition</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>roomCordsPosition</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets floor room position variables </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="65" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a0adced49599b22ab4682ebcdd794f295" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.SetRoomClearState</definition>
+        <argsstring>(bool currentState)</argsstring>
+        <name>SetRoomClearState</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.SetRoomClearState</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>currentState</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets whether room is cleared </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="75" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1af4d5d2a898155784baaa9c150e01f1ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.ChangeWorkingGatesState</definition>
+        <argsstring>(bool newState)</argsstring>
+        <name>ChangeWorkingGatesState</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.ChangeWorkingGatesState</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes state of all working gates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="83" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a2cf10a4e84d657c7d3e79bc6a8977ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.FloorRoom.ActivateRoomEntitys</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateRoomEntitys</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.ActivateRoomEntitys</qualifiedname>
+        <reimplementedby refid="class_room_1_1_room_controlers_1_1_boss_room_controller_1a306699f978128c25934ecb64270bf959">ActivateRoomEntitys</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af042cd88853d8cc0b71d0dcf8591ec1e">ActivateRoomEntitys</reimplementedby>
+        <briefdescription>
+<para>methode that activates room entitys </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="94" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a72f1cb04d9ea6cd42965b79417578ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.ChangeSpecifiedWorkingGatesState</definition>
+        <argsstring>(Structures.Enums.Direction direction, bool newState)</argsstring>
+        <name>ChangeSpecifiedWorkingGatesState</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.ChangeSpecifiedWorkingGatesState</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Structures.Enums.Direction</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes state of selected gate </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="99" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="99" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a34cf24785d3aece8f6a0c97db3ddf68c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.InitRoomGates</definition>
+        <argsstring>()</argsstring>
+        <name>InitRoomGates</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.InitRoomGates</qualifiedname>
+        <briefdescription>
+<para>methode that sets initial room gates state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="117" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="117" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a4f2e0a48fc7c2ac5fd66cc7eb0cc438b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.InitRoomTunnels</definition>
+        <argsstring>()</argsstring>
+        <name>InitRoomTunnels</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.InitRoomTunnels</qualifiedname>
+        <briefdescription>
+<para>methode that sets initial values of all room runels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="160" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1af8b8957c5c801ce313d12cdff4c5f439" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.DirectionSwitch</definition>
+        <argsstring>(RoomWall individualWall)</argsstring>
+        <name>DirectionSwitch</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.DirectionSwitch</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_wall" kindref="compound">RoomWall</ref></type>
+          <declname>individualWall</declname>
+        </param>
+        <briefdescription>
+<para>methode that determines direction of neighbour room tunnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="171" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="171" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a1a0bf6cb85b7a08c1a9f138f2d8a4385" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.AcctivateAllGates</definition>
+        <argsstring>()</argsstring>
+        <name>AcctivateAllGates</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.AcctivateAllGates</qualifiedname>
+        <briefdescription>
+<para>methode that activates all room gates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="132" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_floor_room_1a535d2a7d500f4c344b3ea338918b0e4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.FloorRoom.DisableGatesWithoutNeighbours</definition>
+        <argsstring>()</argsstring>
+        <name>DisableGatesWithoutNeighbours</name>
+        <qualifiedname>Room.RoomContent.FloorRoom.DisableGatesWithoutNeighbours</qualifiedname>
+        <briefdescription>
+<para>methode that disables gates that doesnt have a neighbour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="143" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="143" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements floor room logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Room.RoomControlers.BossRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_boss_room_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomControlers.ItemRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_item_room_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.ShopRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_shop_room_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Room.RoomControlers.StartRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_start_room_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" line="15" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/FloorRoom.cs" bodystart="16" bodyend="193"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a1a0bf6cb85b7a08c1a9f138f2d8a4385" prot="private" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>AcctivateAllGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a2cf10a4e84d657c7d3e79bc6a8977ef9" prot="public" virt="virtual"><scope>Room::RoomContent::FloorRoom</scope><name>ActivateRoomEntitys</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a72f1cb04d9ea6cd42965b79417578ed1" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>ChangeSpecifiedWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af4d5d2a898155784baaa9c150e01f1ee" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>ChangeWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad98956e82c236c73941941d0defa814c" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>ContentGetter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a88d31235ac2aff776e3e4cf79021bcb3" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>CornerMark</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8b8957c5c801ce313d12cdff4c5f439" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>DirectionSwitch</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a535d2a7d500f4c344b3ea338918b0e4d" prot="private" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>DisableGatesWithoutNeighbours</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>florLevel</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af21cfcd6d46ae3cf9aba9e51d9d83285" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>IndividualRoomEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a7fb142491634a547ffbfcf9787aa4360" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>IndividualRoomGateEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a34cf24785d3aece8f6a0c97db3ddf68c" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>InitRoomGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a4f2e0a48fc7c2ac5fd66cc7eb0cc438b" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>InitRoomTunnels</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>nonActiveGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a887d6e6315026477d665d26f7964dcb9" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>RoomActive</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a1018b56f2e4a010f07bc11010f9cd126" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>RoomCleared</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a59012ab1eaf28c2cde0654c2c00ed012" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>RoomCordsPosition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a2f6e7190d0018c5c35a3366c8f708876" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>roomPossition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a0adced49599b22ab4682ebcdd794f295" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>SetRoomClearState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a3bddfe8287e37c0a3c8b2f6b33e0c8d4" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>SetRoomPosition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a294c4dae94f5d0658062e297f8de6cb0" prot="public" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>ThisRoomType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad47060501df6a1ffa43ae8e58a8bcaa8" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>ThisRoomWalls</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aff9889d325441b9461bc3fdbb6f33f14" prot="protected" virt="non-virtual"><scope>Room::RoomContent::FloorRoom</scope><name>WorkingRoomGates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

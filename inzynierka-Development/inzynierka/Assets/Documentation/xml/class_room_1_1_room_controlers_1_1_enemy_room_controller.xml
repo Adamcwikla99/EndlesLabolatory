@@ -1,0 +1,968 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_controlers_1_1_enemy_room_controller" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomControlers::EnemyRoomController</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_floor_room" prot="public" virt="non-virtual">Room.RoomContent.FloorRoom</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a7de2b3adffbb730b54acaa7fa9c4f199" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref> &gt;</type>
+        <definition>List&lt;RoomObstacle&gt; Room.RoomControlers.EnemyRoomController.RoomSpawnedObstacles</definition>
+        <argsstring></argsstring>
+        <name>RoomSpawnedObstacles</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.RoomSpawnedObstacles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="20" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ac6c530ab346b0d7cf19cb627c8afd940" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" kindref="compound">RoomEntity</ref> &gt;</type>
+        <definition>List&lt;RoomEntity&gt; Room.RoomControlers.EnemyRoomController.RoomSpawnedEntitys</definition>
+        <argsstring></argsstring>
+        <name>RoomSpawnedEntitys</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.RoomSpawnedEntitys</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="23" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1afc14a42a1cfe97b5c0284517649466c4" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.RoomControlers.EnemyRoomController.ObstaclesHolder</definition>
+        <argsstring></argsstring>
+        <name>ObstaclesHolder</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.ObstaclesHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="28" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a8caf3ee67dfb42febbc4b32c803afbb9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.RoomControlers.EnemyRoomController.EntityHolder</definition>
+        <argsstring></argsstring>
+        <name>EntityHolder</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.EntityHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="31" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a9dfac9f8dbd04197b8ebdb4a9a775b5a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_hostile_room_events" kindref="compound">HostileRoomEvents</ref></type>
+        <definition>HostileRoomEvents Room.RoomControlers.EnemyRoomController.HostileRoom</definition>
+        <argsstring></argsstring>
+        <name>HostileRoom</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.HostileRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="34" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ad411042bc6882964c9f375208789a5df" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomControlers.EnemyRoomController.forceClear</definition>
+        <argsstring></argsstring>
+        <name>forceClear</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.forceClear</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="38" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a02bc8652df100f365872b5271aa0cd39" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Room.RoomControlers.EnemyRoomController.templateNumber</definition>
+        <argsstring></argsstring>
+        <name>templateNumber</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.templateNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="40" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a6623f5dd26f242f533f3817559ff94d4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomControlers.EnemyRoomController.wallZoneDenyPercent</definition>
+        <argsstring></argsstring>
+        <name>wallZoneDenyPercent</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.wallZoneDenyPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="41" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab2c10f3b6f18f1e1b140037a297d3405" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomControlers.EnemyRoomController.enemyZoneDenyPercent</definition>
+        <argsstring></argsstring>
+        <name>enemyZoneDenyPercent</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.enemyZoneDenyPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="42" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a40fafff98acb5fbd82424d1ce84e9866" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomControlers.EnemyRoomController.enemyCombinedZonesFilmentPercent</definition>
+        <argsstring></argsstring>
+        <name>enemyCombinedZonesFilmentPercent</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.enemyCombinedZonesFilmentPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="43" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab8552719479eadb43283d636f17f81a9" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;RoomGridCell, List&lt;RoomZones&gt; &gt; Room.RoomControlers.EnemyRoomController.allRoomZones</definition>
+        <argsstring></argsstring>
+        <name>allRoomZones</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.allRoomZones</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="44" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a4c7a43abba4783bb985e3ffd540ab811" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_enemys_1_1_entity_party" kindref="compound">EntityParty</ref> &gt;</type>
+        <definition>List&lt;EntityParty&gt; Room.RoomControlers.EnemyRoomController.roomEntitiesParty</definition>
+        <argsstring></argsstring>
+        <name>roomEntitiesParty</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.roomEntitiesParty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="45" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aeb92b87459f836e41c88779f567c38da" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref> &gt;</type>
+        <definition>List&lt;RoomObstacle&gt; Room.RoomControlers.EnemyRoomController.roomObstacles</definition>
+        <argsstring></argsstring>
+        <name>roomObstacles</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.roomObstacles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="46" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aa75f536a4f965a17bfdfdb7b8618662a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_room_1_1_room_controlers_1_1_enemy_room_controller" kindref="compound">EnemyRoomController</ref></type>
+        <definition>EnemyRoomController Room.RoomControlers.EnemyRoomController.thisRoomController</definition>
+        <argsstring></argsstring>
+        <name>thisRoomController</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.thisRoomController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="47" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a3763cfb4591963a850ebd0052a513d89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="52" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a7668abc3fababd4459b24e7c52c3ad36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.InitRoomVariables</definition>
+        <argsstring>(Direction[] nonActiveGates, int florLevel, int templateNumber, float wallZoneDenyPercent, float enemyZoneDenyPercent, float enemyCombinedZonesFilmentPercent)</argsstring>
+        <name>InitRoomVariables</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.InitRoomVariables</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+          <declname>nonActiveGates</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>florLevel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>templateNumber</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>wallZoneDenyPercent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>enemyZoneDenyPercent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>enemyCombinedZonesFilmentPercent</declname>
+        </param>
+        <briefdescription>
+<para>methode that initializes enemy room variables and lists </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="117" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="117" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1abd8d0880ee5cb1bd15f7fa168d4617bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.InitRoomZones</definition>
+        <argsstring>()</argsstring>
+        <name>InitRoomZones</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.InitRoomZones</qualifiedname>
+        <briefdescription>
+<para>methode that initializes room obstacles and enemy&apos;s zones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="139" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="139" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab1c926fc23a6d2079b8a5f4e2a408a26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.DisableSpecyfiedZones</definition>
+        <argsstring>(RoomGridCell zonesType, float toDisable)</argsstring>
+        <name>DisableSpecyfiedZones</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.DisableSpecyfiedZones</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>zonesType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toDisable</declname>
+        </param>
+        <briefdescription>
+<para>methode that removes selected zone from generation process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="148" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="148" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aa95a5bba1e37cd536edd1de233d09803" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt; int &gt; Room.RoomControlers.EnemyRoomController.SelectZonesToDisable</definition>
+        <argsstring>(RoomGridCell zonesType, int toDisableCount)</argsstring>
+        <name>SelectZonesToDisable</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SelectZonesToDisable</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>zonesType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toDisableCount</declname>
+        </param>
+        <briefdescription>
+<para>methode that selects zone to disable </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="166" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="166" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a52728de76186f08efea1aff211a563d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.ChoseRandomZone</definition>
+        <argsstring>(ref List&lt; int &gt; toDisableList, ref int zonesCount)</argsstring>
+        <name>ChoseRandomZone</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.ChoseRandomZone</qualifiedname>
+        <param>
+          <type>ref List&lt; int &gt;</type>
+          <declname>toDisableList</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>zonesCount</declname>
+        </param>
+        <briefdescription>
+<para>methode that selects random zone form zones list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="182" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="182" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aa7e15662faefb4949a0894b48e9d212c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.GetRoomContent</definition>
+        <argsstring>()</argsstring>
+        <name>GetRoomContent</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.GetRoomContent</qualifiedname>
+        <briefdescription>
+<para>methode that recives content to fill up room with </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="196" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="196" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af13d662c4bff1070bc4d8f505785dda7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawnRoomContent</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnRoomContent</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawnRoomContent</qualifiedname>
+        <briefdescription>
+<para>methode that spawns room content </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="206" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="206" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aff9bdeb105442a1a706a5b9233233527" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawnWalls</definition>
+        <argsstring>(Vector3 roomCoronerPosition)</argsstring>
+        <name>SpawnWalls</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawnWalls</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>roomCoronerPosition</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns room walls in given zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="216" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="216" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a27687bc801ea3bad06bda61038304608" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawnAllZoneWalls</definition>
+        <argsstring>(RoomZones zone, Vector3 roomCoronerPosition, int chosenObsticleID)</argsstring>
+        <name>SpawnAllZoneWalls</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawnAllZoneWalls</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref></type>
+          <declname>zone</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>roomCoronerPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chosenObsticleID</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns initializes individual obstacles objects in wall zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="228" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="228" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af8cf95a362c0987a21b8b74d2b772397" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.IndividualWallSpawn</definition>
+        <argsstring>(CordsXY cords, RoomZones zone, Vector3 roomCoronerPosition, int chosenObsticleID)</argsstring>
+        <name>IndividualWallSpawn</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.IndividualWallSpawn</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cords</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref></type>
+          <declname>zone</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>roomCoronerPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chosenObsticleID</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for individual wall object spawn </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="239" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="239" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a64bbbd930eecaaaa46b83fdbcc3b83cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawnEnemys</definition>
+        <argsstring>(Vector3 roomCoronerPosition)</argsstring>
+        <name>SpawnEnemys</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawnEnemys</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>roomCoronerPosition</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning enemys in room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="256" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="256" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a4a7139873bfe5889ef3934fe0d31289d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawningLoop</definition>
+        <argsstring>(ref int currentFilment, ref List&lt; RoomEnemyZone &gt; enemysZones, int cellsToCover)</argsstring>
+        <name>SpawningLoop</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawningLoop</qualifiedname>
+        <param>
+          <type>ref int</type>
+          <declname>currentFilment</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellsToCover</declname>
+        </param>
+        <briefdescription>
+<para>enemy spawning loop </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="268" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="268" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1abeb04e7258d0634e849ab1c9d1418f83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Room.RoomControlers.EnemyRoomController.CalculateEnemyCellsToCoverCount</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateEnemyCellsToCoverCount</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.CalculateEnemyCellsToCoverCount</qualifiedname>
+        <briefdescription>
+<para>methode that calculate how many cells are already covered with enemys </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="288" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="288" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a47010ea0e4db4f69f0d44f637f0d5741" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.InitEnemysZonesList</definition>
+        <argsstring>(ref List&lt; RoomEnemyZone &gt; enemysZones)</argsstring>
+        <name>InitEnemysZonesList</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.InitEnemysZonesList</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <briefdescription>
+<para>methode that initializes enemys zones list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="303" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="303" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aec7d9c1410da0cd60ea2763ce642017b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.IndividualEnemyZoneInit</definition>
+        <argsstring>(RoomZones zone, ref List&lt; RoomEnemyZone &gt; enemysZones, ref int i)</argsstring>
+        <name>IndividualEnemyZoneInit</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.IndividualEnemyZoneInit</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref></type>
+          <declname>zone</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>methode that initializes indivudual enemys zone form zones list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="316" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="316" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a7a23119f046c40f7e9071b99ed0cbf89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawningProcess</definition>
+        <argsstring>(ref List&lt; RoomEnemyZone &gt; enemysZones, ref int currentFilment)</argsstring>
+        <name>SpawningProcess</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawningProcess</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>currentFilment</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for spawning process of enemys in room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="331" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="331" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a495bd3a36672504fe2cfd733f37215dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.FindNewGenerationCord</definition>
+        <argsstring>(ref List&lt; RoomEnemyZone &gt; enemysZones, ref int randomZone, ref int randomEnemy)</argsstring>
+        <name>FindNewGenerationCord</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.FindNewGenerationCord</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>randomZone</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>randomEnemy</declname>
+        </param>
+        <briefdescription>
+<para>methode that finds nex enemy generations cord </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="343" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="343" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aeb4b460c266ca32502a18c1b37079bba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.DrawNewNumbers</definition>
+        <argsstring>(List&lt; RoomEnemyZone &gt; enemysZones, ref EntityParty entityToSpawn, ref int randomZone, ref int randomEnemy)</argsstring>
+        <name>DrawNewNumbers</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.DrawNewNumbers</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_room_1_1_room_content_1_1_enemys_1_1_entity_party" kindref="compound">EntityParty</ref></type>
+          <declname>entityToSpawn</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>randomZone</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>randomEnemy</declname>
+        </param>
+        <briefdescription>
+<para>methode that draws random zone form list and selects random enemy party to put in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="364" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="364" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af9ce38e8aaf41231bae758bc3d027783" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.SpawnEnemyParty</definition>
+        <argsstring>(ref List&lt; RoomEnemyZone &gt; enemysZones, ref int randomZone, ref int randomEnemy, ref int currentFilment)</argsstring>
+        <name>SpawnEnemyParty</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.SpawnEnemyParty</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>randomZone</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>randomEnemy</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>currentFilment</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns enemy party in zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="374" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="374" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a152c1b8d9f1138f433b8945ded107893" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 Room.RoomControlers.EnemyRoomController.GetEnemyInRoomPosition</definition>
+        <argsstring>(List&lt; RoomEnemyZone &gt; enemysZones, int randomZone, int randomEnemy)</argsstring>
+        <name>GetEnemyInRoomPosition</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.GetEnemyInRoomPosition</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kindref="compound">RoomEnemyZone</ref> &gt;</type>
+          <declname>enemysZones</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>randomZone</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>randomEnemy</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns world position of enemy in room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="393" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="393" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a615281200778cef3123615269d521343" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.ForceClearRoom</definition>
+        <argsstring>()</argsstring>
+        <name>ForceClearRoom</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.ForceClearRoom</qualifiedname>
+        <briefdescription>
+<para>methode that destroys all enemys in room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="406" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="406" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab20c0b805742ce82653424cc3f8d6459" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.AcctivateEnemys</definition>
+        <argsstring>()</argsstring>
+        <name>AcctivateEnemys</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.AcctivateEnemys</qualifiedname>
+        <briefdescription>
+<para>methode that activates all enemys in room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="420" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="420" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ace53f96a86241a1b7b9c48dda2f7da0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.AcctivateWalls</definition>
+        <argsstring>()</argsstring>
+        <name>AcctivateWalls</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.AcctivateWalls</qualifiedname>
+        <briefdescription>
+<para>methode that activates all obstacles in room </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="432" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="432" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a232d98824e47f68b4cd3ed097ac5140e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.UpdateActions</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateActions</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.UpdateActions</qualifiedname>
+        <briefdescription>
+<para>editor metode to allow force clear methode call </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="443" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="443" bodyend="450"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af042cd88853d8cc0b71d0dcf8591ec1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomControlers.EnemyRoomController.ActivateRoomEntitys</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateRoomEntitys</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.ActivateRoomEntitys</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_floor_room_1a2cf10a4e84d657c7d3e79bc6a8977ef9">ActivateRoomEntitys</reimplements>
+        <briefdescription>
+<para>methode responsible for activation of room entity&apos;s </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="63" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="63" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a3612632c89b414a3f5f7f0086b6881b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.Init</definition>
+        <argsstring>(Direction[] nonActiveGates=null, float enemyCombinedZonesFilmentPercent=0.01f, int florLevel=1, int templateNumber=1, float wallZoneDenyPercent=0.7f, float enemyZoneDenyPercent=0.3f)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.Init</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+          <declname>nonActiveGates</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>enemyCombinedZonesFilmentPercent</declname>
+          <defval>0.01f</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>florLevel</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>templateNumber</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>wallZoneDenyPercent</declname>
+          <defval>0.7f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>enemyZoneDenyPercent</declname>
+          <defval>0.3f</defval>
+        </param>
+        <briefdescription>
+<para>methode that initializes initial enemy room state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="77" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1afdfc91e8ef7e4d308afbee2f2600ffbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.DestroyRoomEntity</definition>
+        <argsstring>(RoomEntity toDestroy)</argsstring>
+        <name>DestroyRoomEntity</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.DestroyRoomEntity</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" kindref="compound">RoomEntity</ref></type>
+          <declname>toDestroy</declname>
+        </param>
+        <briefdescription>
+<para>methode that destroys selected room entity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="90" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="90" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ad618c44736256e8d86ccc246acef9207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.EnemyRoomController.DestroyRoomObstacle</definition>
+        <argsstring>(RoomObstacle toDestroy)</argsstring>
+        <name>DestroyRoomObstacle</name>
+        <qualifiedname>Room.RoomControlers.EnemyRoomController.DestroyRoomObstacle</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref></type>
+          <declname>toDestroy</declname>
+        </param>
+        <briefdescription>
+<para>methode that destroys selected room obstacle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="105" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="105" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements enemy room controller logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" line="15" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/EnemyRoomController.cs" bodystart="16" bodyend="453"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab20c0b805742ce82653424cc3f8d6459" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>AcctivateEnemys</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ace53f96a86241a1b7b9c48dda2f7da0e" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>AcctivateWalls</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af042cd88853d8cc0b71d0dcf8591ec1e" prot="public" virt="virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ActivateRoomEntitys</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab8552719479eadb43283d636f17f81a9" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>allRoomZones</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1abeb04e7258d0634e849ab1c9d1418f83" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>CalculateEnemyCellsToCoverCount</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a72f1cb04d9ea6cd42965b79417578ed1" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ChangeSpecifiedWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af4d5d2a898155784baaa9c150e01f1ee" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ChangeWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a52728de76186f08efea1aff211a563d5" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ChoseRandomZone</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad98956e82c236c73941941d0defa814c" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ContentGetter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a88d31235ac2aff776e3e4cf79021bcb3" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>CornerMark</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1afdfc91e8ef7e4d308afbee2f2600ffbe" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>DestroyRoomEntity</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ad618c44736256e8d86ccc246acef9207" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>DestroyRoomObstacle</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8b8957c5c801ce313d12cdff4c5f439" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>DirectionSwitch</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab1c926fc23a6d2079b8a5f4e2a408a26" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>DisableSpecyfiedZones</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aeb4b460c266ca32502a18c1b37079bba" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>DrawNewNumbers</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a40fafff98acb5fbd82424d1ce84e9866" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>enemyCombinedZonesFilmentPercent</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ab2c10f3b6f18f1e1b140037a297d3405" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>enemyZoneDenyPercent</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a8caf3ee67dfb42febbc4b32c803afbb9" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>EntityHolder</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a495bd3a36672504fe2cfd733f37215dc" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>FindNewGenerationCord</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>florLevel</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ad411042bc6882964c9f375208789a5df" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>forceClear</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a615281200778cef3123615269d521343" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ForceClearRoom</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a152c1b8d9f1138f433b8945ded107893" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>GetEnemyInRoomPosition</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aa7e15662faefb4949a0894b48e9d212c" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>GetRoomContent</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a9dfac9f8dbd04197b8ebdb4a9a775b5a" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>HostileRoom</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aec7d9c1410da0cd60ea2763ce642017b" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>IndividualEnemyZoneInit</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af21cfcd6d46ae3cf9aba9e51d9d83285" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>IndividualRoomEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a7fb142491634a547ffbfcf9787aa4360" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>IndividualRoomGateEvents</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af8cf95a362c0987a21b8b74d2b772397" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>IndividualWallSpawn</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a3612632c89b414a3f5f7f0086b6881b1" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a47010ea0e4db4f69f0d44f637f0d5741" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>InitEnemysZonesList</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a34cf24785d3aece8f6a0c97db3ddf68c" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>InitRoomGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a4f2e0a48fc7c2ac5fd66cc7eb0cc438b" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>InitRoomTunnels</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a7668abc3fababd4459b24e7c52c3ad36" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>InitRoomVariables</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1abd8d0880ee5cb1bd15f7fa168d4617bf" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>InitRoomZones</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>nonActiveGates</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1afc14a42a1cfe97b5c0284517649466c4" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ObstaclesHolder</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a887d6e6315026477d665d26f7964dcb9" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>RoomActive</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a1018b56f2e4a010f07bc11010f9cd126" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>RoomCleared</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a59012ab1eaf28c2cde0654c2c00ed012" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>RoomCordsPosition</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a4c7a43abba4783bb985e3ffd540ab811" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>roomEntitiesParty</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aeb92b87459f836e41c88779f567c38da" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>roomObstacles</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a2f6e7190d0018c5c35a3366c8f708876" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>roomPossition</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1ac6c530ab346b0d7cf19cb627c8afd940" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>RoomSpawnedEntitys</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a7de2b3adffbb730b54acaa7fa9c4f199" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>RoomSpawnedObstacles</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aa95a5bba1e37cd536edd1de233d09803" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SelectZonesToDisable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a0adced49599b22ab4682ebcdd794f295" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SetRoomClearState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a3bddfe8287e37c0a3c8b2f6b33e0c8d4" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SetRoomPosition</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a27687bc801ea3bad06bda61038304608" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawnAllZoneWalls</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af9ce38e8aaf41231bae758bc3d027783" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawnEnemyParty</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a64bbbd930eecaaaa46b83fdbcc3b83cc" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawnEnemys</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a4a7139873bfe5889ef3934fe0d31289d" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawningLoop</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a7a23119f046c40f7e9071b99ed0cbf89" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawningProcess</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1af13d662c4bff1070bc4d8f505785dda7" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawnRoomContent</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aff9bdeb105442a1a706a5b9233233527" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>SpawnWalls</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a02bc8652df100f365872b5271aa0cd39" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>templateNumber</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1aa75f536a4f965a17bfdfdb7b8618662a" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>thisRoomController</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a294c4dae94f5d0658062e297f8de6cb0" prot="public" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ThisRoomType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad47060501df6a1ffa43ae8e58a8bcaa8" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>ThisRoomWalls</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a3763cfb4591963a850ebd0052a513d89" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>Update</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a232d98824e47f68b4cd3ed097ac5140e" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>UpdateActions</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_enemy_room_controller_1a6623f5dd26f242f533f3817559ff94d4" prot="private" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>wallZoneDenyPercent</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aff9889d325441b9461bc3fdbb6f33f14" prot="protected" virt="non-virtual"><scope>Room::RoomControlers::EnemyRoomController</scope><name>WorkingRoomGates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

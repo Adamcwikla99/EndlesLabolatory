@@ -1,0 +1,1557 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_runtime_manager" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::RuntimeManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_runtime_manager_1_1_attached_instance" prot="private">FMODUnity::RuntimeManager::AttachedInstance</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_runtime_manager_1_1_guid_comparer" prot="private">FMODUnity::RuntimeManager::GuidComparer</innerclass>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_runtime_manager_1_1_loaded_bank" prot="private">FMODUnity::RuntimeManager::LoadedBank</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a5128bd7350996a4e077d17aaf611111b" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.RuntimeManager.BankStubPrefix</definition>
+        <argsstring></argsstring>
+        <name>BankStubPrefix</name>
+        <qualifiedname>FMODUnity.RuntimeManager.BankStubPrefix</qualifiedname>
+        <initializer>= &quot;bank stub:&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="23" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae070595cd0eea974832640244196a25c" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception" kindref="compound">SystemNotInitializedException</ref></type>
+        <definition>SystemNotInitializedException FMODUnity.RuntimeManager.initException</definition>
+        <argsstring></argsstring>
+        <name>initException</name>
+        <qualifiedname>FMODUnity.RuntimeManager.initException</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="25" column="54" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a8c48ee46d7cde2fbb2e4f9c78c029f3c" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_runtime_manager" kindref="compound">RuntimeManager</ref></type>
+        <definition>RuntimeManager FMODUnity.RuntimeManager.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>FMODUnity.RuntimeManager.instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="26" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a96879121c6147f4de89630579fde0f55" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.RuntimeManager.currentPlatform</definition>
+        <argsstring></argsstring>
+        <name>currentPlatform</name>
+        <qualifiedname>FMODUnity.RuntimeManager.currentPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="28" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a795a0418cbba1cf12c03150c590e1702" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_1aedff85cbd65cd27d81ed0ac6479df7e0" kindref="member">FMOD.DEBUG_CALLBACK</ref></type>
+        <definition>FMOD.DEBUG_CALLBACK FMODUnity.RuntimeManager.debugCallback</definition>
+        <argsstring></argsstring>
+        <name>debugCallback</name>
+        <qualifiedname>FMODUnity.RuntimeManager.debugCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="29" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a500d0f352307b085b9e742cf2903711f" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_1ad81f540427603c33ec9d688644b75774" kindref="member">FMOD.SYSTEM_CALLBACK</ref></type>
+        <definition>FMOD.SYSTEM_CALLBACK FMODUnity.RuntimeManager.errorCallback</definition>
+        <argsstring></argsstring>
+        <name>errorCallback</name>
+        <qualifiedname>FMODUnity.RuntimeManager.errorCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="30" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a4c5d069a7d2158ff33f6e3e8818185b7" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_system" kindref="compound">FMOD.Studio.System</ref></type>
+        <definition>FMOD.Studio.System FMODUnity.RuntimeManager.studioSystem</definition>
+        <argsstring></argsstring>
+        <name>studioSystem</name>
+        <qualifiedname>FMODUnity.RuntimeManager.studioSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="32" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a69e731f4b84718212be73ff0e543b6d1" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_system" kindref="compound">FMOD.System</ref></type>
+        <definition>FMOD.System FMODUnity.RuntimeManager.coreSystem</definition>
+        <argsstring></argsstring>
+        <name>coreSystem</name>
+        <qualifiedname>FMODUnity.RuntimeManager.coreSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="33" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a51a393f9427321b68a4f5cb199e3a3d4" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_d_s_p" kindref="compound">FMOD.DSP</ref></type>
+        <definition>FMOD.DSP FMODUnity.RuntimeManager.mixerHead</definition>
+        <argsstring></argsstring>
+        <name>mixerHead</name>
+        <qualifiedname>FMODUnity.RuntimeManager.mixerHead</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="34" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1ab2108ee2558711d984ede9590cab688e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.isMuted</definition>
+        <argsstring></argsstring>
+        <name>isMuted</name>
+        <qualifiedname>FMODUnity.RuntimeManager.isMuted</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="36" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a250a5d821f51fb0ff1bd8c0ab8ad452a" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref>, <ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref> &gt;</type>
+        <definition>Dictionary&lt;FMOD.GUID, FMOD.Studio.EventDescription&gt; FMODUnity.RuntimeManager.cachedDescriptions</definition>
+        <argsstring></argsstring>
+        <name>cachedDescriptions</name>
+        <qualifiedname>FMODUnity.RuntimeManager.cachedDescriptions</qualifiedname>
+        <initializer>= new Dictionary&lt;<ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref>, <ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref>&gt;(new GuidComparer())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="38" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a5153c60656a8bc30141eea03386e7dc3" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, LoadedBank &gt;</type>
+        <definition>Dictionary&lt;string, LoadedBank&gt; FMODUnity.RuntimeManager.loadedBanks</definition>
+        <argsstring></argsstring>
+        <name>loadedBanks</name>
+        <qualifiedname>FMODUnity.RuntimeManager.loadedBanks</qualifiedname>
+        <initializer>= new Dictionary&lt;string, LoadedBank&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="40" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a9697acf9347633ee0020ac1e3073c4af" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.RuntimeManager.sampleLoadRequests</definition>
+        <argsstring></argsstring>
+        <name>sampleLoadRequests</name>
+        <qualifiedname>FMODUnity.RuntimeManager.sampleLoadRequests</qualifiedname>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="41" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a65ef328d359b6c0978cdaabce9d92d98" prot="private" static="no" mutable="no">
+        <type>List&lt; AttachedInstance &gt;</type>
+        <definition>List&lt;AttachedInstance&gt; FMODUnity.RuntimeManager.attachedInstances</definition>
+        <argsstring></argsstring>
+        <name>attachedInstances</name>
+        <qualifiedname>FMODUnity.RuntimeManager.attachedInstances</qualifiedname>
+        <initializer>= new List&lt;AttachedInstance&gt;(128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="43" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1ab1da850d02a01cc82395d5ecc3546de5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.listenerWarningIssued</definition>
+        <argsstring></argsstring>
+        <name>listenerWarningIssued</name>
+        <qualifiedname>FMODUnity.RuntimeManager.listenerWarningIssued</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="49" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a66940fe117034ced664738d9d281b050" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_f_m_o_d_runtime_manager_on_g_u_i_helper" kindref="compound">FMODRuntimeManagerOnGUIHelper</ref></type>
+        <definition>FMODRuntimeManagerOnGUIHelper FMODUnity.RuntimeManager.overlayDrawer</definition>
+        <argsstring></argsstring>
+        <name>overlayDrawer</name>
+        <qualifiedname>FMODUnity.RuntimeManager.overlayDrawer</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="52" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1aacb71bbde4c5c085ffac4763953e3dde" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect FMODUnity.RuntimeManager.windowRect</definition>
+        <argsstring></argsstring>
+        <name>windowRect</name>
+        <qualifiedname>FMODUnity.RuntimeManager.windowRect</qualifiedname>
+        <initializer>= new Rect(10, 10, 300, 100)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="53" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1adebb29d046ff74d047eb44497b4ebbe1" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.RuntimeManager.lastDebugText</definition>
+        <argsstring></argsstring>
+        <name>lastDebugText</name>
+        <qualifiedname>FMODUnity.RuntimeManager.lastDebugText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="55" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a5276a271d8034ba12ae2062a6b9738a3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.RuntimeManager.lastDebugUpdate</definition>
+        <argsstring></argsstring>
+        <name>lastDebugUpdate</name>
+        <qualifiedname>FMODUnity.RuntimeManager.lastDebugUpdate</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="56" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1a9fbae43bf86f06aba4304da5d0e06640" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.RuntimeManager.loadingBanksRef</definition>
+        <argsstring></argsstring>
+        <name>loadingBanksRef</name>
+        <qualifiedname>FMODUnity.RuntimeManager.loadingBanksRef</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="58" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_runtime_manager_1ab5bdee1972e9397e1ea77d299308eaf2" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.isOverlayEnabled</definition>
+        <argsstring></argsstring>
+        <name>isOverlayEnabled</name>
+        <qualifiedname>FMODUnity.RuntimeManager.isOverlayEnabled</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="51" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1a41f75d81c843bd82de29a94670840c97" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.IsMuted</definition>
+        <argsstring></argsstring>
+        <name>IsMuted</name>
+        <qualifiedname>FMODUnity.RuntimeManager.IsMuted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="60" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1a9880715a6d4cee449cbc48118122cd9d" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_runtime_manager" kindref="compound">RuntimeManager</ref></type>
+        <definition>RuntimeManager FMODUnity.RuntimeManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>FMODUnity.RuntimeManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="106" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="107" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1a241733fdd3e2c20fa924bce01d12b206" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_system" kindref="compound">FMOD.Studio.System</ref></type>
+        <definition>FMOD.Studio.System FMODUnity.RuntimeManager.StudioSystem</definition>
+        <argsstring></argsstring>
+        <name>StudioSystem</name>
+        <qualifiedname>FMODUnity.RuntimeManager.StudioSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="180" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1ad4b6aed3093a17c893d373b2de4c24c1" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_system" kindref="compound">FMOD.System</ref></type>
+        <definition>FMOD.System FMODUnity.RuntimeManager.CoreSystem</definition>
+        <argsstring></argsstring>
+        <name>CoreSystem</name>
+        <qualifiedname>FMODUnity.RuntimeManager.CoreSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="185" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1a75c40638ef5339211f80aab5873a292d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.IsInitialized</definition>
+        <argsstring></argsstring>
+        <name>IsInitialized</name>
+        <qualifiedname>FMODUnity.RuntimeManager.IsInitialized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1349" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1350" bodyend="1355"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1a1281d27780c564f934fd337ca811c618" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.HaveAllBanksLoaded</definition>
+        <argsstring></argsstring>
+        <name>HaveAllBanksLoaded</name>
+        <qualifiedname>FMODUnity.RuntimeManager.HaveAllBanksLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1357" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1358" bodyend="1363"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae826ca3bfb358480b1926c9245125389" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.RuntimeManager.HaveMasterBanksLoaded</definition>
+        <argsstring></argsstring>
+        <name>HaveMasterBanksLoaded</name>
+        <qualifiedname>FMODUnity.RuntimeManager.HaveMasterBanksLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1365" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1366" bodyend="1376"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae421333a4ced91050eed7660d17d1ba6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+        <definition>static FMOD.RESULT FMODUnity.RuntimeManager.DEBUG_CALLBACK</definition>
+        <argsstring>(FMOD.DEBUG_FLAGS flags, IntPtr filePtr, int line, IntPtr funcPtr, IntPtr messagePtr)</argsstring>
+        <name>DEBUG_CALLBACK</name>
+        <qualifiedname>FMODUnity.RuntimeManager.DEBUG_CALLBACK</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1ae26c0e42bca4d9ba2b529ed29cf35b33" kindref="member">FMOD.DEBUG_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>filePtr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>funcPtr</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>messagePtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="69" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="69" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a33ae0fb898286fa535407085a937b621" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+        <definition>static FMOD.RESULT FMODUnity.RuntimeManager.ERROR_CALLBACK</definition>
+        <argsstring>(IntPtr system, FMOD.SYSTEM_CALLBACK_TYPE type, IntPtr commanddata1, IntPtr commanddata2, IntPtr userdata)</argsstring>
+        <name>ERROR_CALLBACK</name>
+        <qualifiedname>FMODUnity.RuntimeManager.ERROR_CALLBACK</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1aa5c808c3670f64c2b51ff4f216362a63" kindref="member">FMOD.SYSTEM_CALLBACK_TYPE</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>commanddata1</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>commanddata2</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="91" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="91" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a27dd57a8dab2a90ec61c76dc88f84bb0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.SetThreadAffinities</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>SetThreadAffinities</name>
+        <qualifiedname>FMODUnity.RuntimeManager.SetThreadAffinities</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="379" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="379" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1acfc3f492f2f6af5dcd14444b81ad05b9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.ReferenceLoadedBank</definition>
+        <argsstring>(string bankName, bool loadSamples)</argsstring>
+        <name>ReferenceLoadedBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.ReferenceLoadedBank</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loadSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="716" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="716" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ac8fc14214330c1d3f2131d42f5b38921" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.LoadBank</definition>
+        <argsstring>(string bankName, bool loadSamples, string bankId)</argsstring>
+        <name>LoadBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.LoadBank</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loadSamples</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bankId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="807" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="807" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a0bbdcc834fbdee14929fc4d3ed3cd550" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.LoadBank</definition>
+        <argsstring>(TextAsset asset, bool loadSamples, string bankId)</argsstring>
+        <name>LoadBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.LoadBank</qualifiedname>
+        <param>
+          <type>TextAsset</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loadSamples</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bankId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="865" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="865" bodyend="886"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a0ef7dcf84c76d43245f6efe121df8e9b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.ApplyMuteState</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyMuteState</name>
+        <qualifiedname>FMODUnity.RuntimeManager.ApplyMuteState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1333" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1333" bodyend="1347"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a09c6879153757685e941f2206de72c63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.CheckInitResult</definition>
+        <argsstring>(FMOD.RESULT result, string cause)</argsstring>
+        <name>CheckInitResult</name>
+        <qualifiedname>FMODUnity.RuntimeManager.CheckInitResult</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="210" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="210" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1aee706b6a912f7f70d9bfd4c71848b5e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.ReleaseStudioSystem</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseStudioSystem</name>
+        <qualifiedname>FMODUnity.RuntimeManager.ReleaseStudioSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="219" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="219" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a934edc85be8a477b6a7285b07fdabb06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+        <definition>FMOD.RESULT FMODUnity.RuntimeManager.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>FMODUnity.RuntimeManager.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="228" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="228" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a13a71ad7e97d2382aa7265140a4e2d09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int FMODUnity.RuntimeManager.GetChannelCountForFormat</definition>
+        <argsstring>(CodecType format)</argsstring>
+        <name>GetChannelCountForFormat</name>
+        <qualifiedname>FMODUnity.RuntimeManager.GetChannelCountForFormat</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1af30ea004185662ad5c3c679cdc4419fd" kindref="member">CodecType</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="372" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="372" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a3bdd3cff6a729408ab1e4da98c0f415a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>FMODUnity.RuntimeManager.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="405" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="405" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a1771060fb6093d42509d8382a8bdb32a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>FMODUnity.RuntimeManager.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="574" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="574" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a10d39a6002d8c73d2010a01d5ddd0cfb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.DrawDebugOverlay</definition>
+        <argsstring>(int windowID)</argsstring>
+        <name>DrawDebugOverlay</name>
+        <qualifiedname>FMODUnity.RuntimeManager.DrawDebugOverlay</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>windowID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="580" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="580" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1aebad5c6ed7eb8c133e9a0c2b5b2c1629" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>FMODUnity.RuntimeManager.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="635" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="635" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a909187a1452e825463edadd6612e5cae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.OnApplicationPause</definition>
+        <argsstring>(bool pauseStatus)</argsstring>
+        <name>OnApplicationPause</name>
+        <qualifiedname>FMODUnity.RuntimeManager.OnApplicationPause</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>pauseStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="698" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="698" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a8047ae574b82896c7408e1203eb71846" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.RegisterLoadedBank</definition>
+        <argsstring>(LoadedBank loadedBank, string bankPath, string bankName, bool loadSamples, FMOD.RESULT loadResult)</argsstring>
+        <name>RegisterLoadedBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.RegisterLoadedBank</qualifiedname>
+        <param>
+          <type>LoadedBank</type>
+          <declname>loadedBank</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bankPath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loadSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+          <declname>loadResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="729" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="729" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1afeb39641267ba907d1f45191bb1ec665" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.ExecuteSampleLoadRequestsIfReady</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteSampleLoadRequestsIfReady</name>
+        <qualifiedname>FMODUnity.RuntimeManager.ExecuteSampleLoadRequestsIfReady</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="754" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="754" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a7115f6ae669fa41babc183c5cdd23116" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.LoadBanks</definition>
+        <argsstring>(Settings fmodSettings)</argsstring>
+        <name>LoadBanks</name>
+        <qualifiedname>FMODUnity.RuntimeManager.LoadBanks</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+          <declname>fmodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="923" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="923" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ac98c89c98323ce663f436d55a173a48a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt; string &gt; FMODUnity.RuntimeManager.BanksToLoad</definition>
+        <argsstring>(Settings fmodSettings)</argsstring>
+        <name>BanksToLoad</name>
+        <qualifiedname>FMODUnity.RuntimeManager.BanksToLoad</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+          <declname>fmodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="948" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="948" bodyend="978"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a91547e41848f71e546f72082b145eddd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.AttachInstanceToGameObject</definition>
+        <argsstring>(FMOD.Studio.EventInstance instance, Transform transform)</argsstring>
+        <name>AttachInstanceToGameObject</name>
+        <qualifiedname>FMODUnity.RuntimeManager.AttachInstanceToGameObject</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="503" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="503" bodyend="515"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a0d115631a7fe0768ec839854b4c6f3a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.DetachInstanceFromGameObject</definition>
+        <argsstring>(FMOD.Studio.EventInstance instance)</argsstring>
+        <name>DetachInstanceFromGameObject</name>
+        <qualifiedname>FMODUnity.RuntimeManager.DetachInstanceFromGameObject</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="551" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="551" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1aaf3a7111e087e29e2f764911e4813803" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.LoadBank</definition>
+        <argsstring>(string bankName, bool loadSamples=false)</argsstring>
+        <name>LoadBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.LoadBank</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loadSamples</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="802" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="802" bodyend="805"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae930edf28f345ea8289fb48fbb91971e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.LoadBank</definition>
+        <argsstring>(TextAsset asset, bool loadSamples=false)</argsstring>
+        <name>LoadBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.LoadBank</qualifiedname>
+        <param>
+          <type>TextAsset</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>loadSamples</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="860" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="860" bodyend="863"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1abf07eca2550699b650f87c628d5d7246" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.UnloadBank</definition>
+        <argsstring>(string bankName)</argsstring>
+        <name>UnloadBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.UnloadBank</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>bankName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="980" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="980" bodyend="995"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1abd4abe5083ebafa7a7e63f506c17d50a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.UnloadBank</definition>
+        <argsstring>(TextAsset asset)</argsstring>
+        <name>UnloadBank</name>
+        <qualifiedname>FMODUnity.RuntimeManager.UnloadBank</qualifiedname>
+        <param>
+          <type>TextAsset</type>
+          <declname>asset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="997" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="997" bodyend="1000"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a86617f060e0023abfbfc5f459a116914" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.RuntimeManager.AnyBankLoading</definition>
+        <argsstring>()</argsstring>
+        <name>AnyBankLoading</name>
+        <qualifiedname>FMODUnity.RuntimeManager.AnyBankLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1010" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1010" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a37dd74505d7af621527a3de408c86aa3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.RuntimeManager.AnySampleDataLoading</definition>
+        <argsstring>()</argsstring>
+        <name>AnySampleDataLoading</name>
+        <qualifiedname>FMODUnity.RuntimeManager.AnySampleDataLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1015" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1015" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1acb37a966dfa71f1471681b33ecd2cb8b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.WaitForAllLoads</definition>
+        <argsstring>()</argsstring>
+        <name>WaitForAllLoads</name>
+        <qualifiedname>FMODUnity.RuntimeManager.WaitForAllLoads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1028" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1028" bodyend="1031"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1aff6c0cc6a5f994a603d2b5c104c8c723" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.WaitForAllSampleLoading</definition>
+        <argsstring>()</argsstring>
+        <name>WaitForAllSampleLoading</name>
+        <qualifiedname>FMODUnity.RuntimeManager.WaitForAllSampleLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1033" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1033" bodyend="1036"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ad63a13545b739e8cea586d8f9fe7c149" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+        <definition>static FMOD.GUID FMODUnity.RuntimeManager.PathToGUID</definition>
+        <argsstring>(string path)</argsstring>
+        <name>PathToGUID</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PathToGUID</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1038" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1038" bodyend="1054"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a68c1294e40c0322b50760359fbbcbc31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+        <definition>static EventReference FMODUnity.RuntimeManager.PathToEventReference</definition>
+        <argsstring>(string path)</argsstring>
+        <name>PathToEventReference</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PathToEventReference</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1056" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1056" bodyend="1074"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a3e5d2f5a4452c630056c7cecbc6a6c3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+        <definition>static FMOD.Studio.EventInstance FMODUnity.RuntimeManager.CreateInstance</definition>
+        <argsstring>(EventReference eventReference)</argsstring>
+        <name>CreateInstance</name>
+        <qualifiedname>FMODUnity.RuntimeManager.CreateInstance</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1076" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1076" bodyend="1086"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae93464303611de65fdd321bbe3aab2e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+        <definition>static FMOD.Studio.EventInstance FMODUnity.RuntimeManager.CreateInstance</definition>
+        <argsstring>(string path)</argsstring>
+        <name>CreateInstance</name>
+        <qualifiedname>FMODUnity.RuntimeManager.CreateInstance</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1088" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1088" bodyend="1099"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a6f9afe415be755da1f341f8480b20a27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+        <definition>static FMOD.Studio.EventInstance FMODUnity.RuntimeManager.CreateInstance</definition>
+        <argsstring>(FMOD.GUID guid)</argsstring>
+        <name>CreateInstance</name>
+        <qualifiedname>FMODUnity.RuntimeManager.CreateInstance</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1101" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1101" bodyend="1119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a19f26b1e65ffa76d20d1b89df30534a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PlayOneShot</definition>
+        <argsstring>(EventReference eventReference, Vector3 position=new Vector3())</argsstring>
+        <name>PlayOneShot</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PlayOneShot</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+          <defval>new Vector3()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1121" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1121" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a0e84010eeb5b462cbb2068eba678e746" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PlayOneShot</definition>
+        <argsstring>(string path, Vector3 position=new Vector3())</argsstring>
+        <name>PlayOneShot</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PlayOneShot</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+          <defval>new Vector3()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1133" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1133" bodyend="1143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a737af64afb5c74200bc13b46fbf60d13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PlayOneShot</definition>
+        <argsstring>(FMOD.GUID guid, Vector3 position=new Vector3())</argsstring>
+        <name>PlayOneShot</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PlayOneShot</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+          <defval>new Vector3()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1145" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1145" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a5f8c05e433c842db85f119fe8177a653" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PlayOneShotAttached</definition>
+        <argsstring>(EventReference eventReference, GameObject gameObject)</argsstring>
+        <name>PlayOneShotAttached</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PlayOneShotAttached</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1153" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1153" bodyend="1163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a96c09f88ab0c4963631d1e69a18b2015" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PlayOneShotAttached</definition>
+        <argsstring>(string path, GameObject gameObject)</argsstring>
+        <name>PlayOneShotAttached</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PlayOneShotAttached</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1165" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1165" bodyend="1175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ade0a9997eebfac34156666d7a04858ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PlayOneShotAttached</definition>
+        <argsstring>(FMOD.GUID guid, GameObject gameObject)</argsstring>
+        <name>PlayOneShotAttached</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PlayOneShotAttached</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1177" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1177" bodyend="1189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a56796e3b8cf923a08deb130bb5a8a2fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref></type>
+        <definition>static FMOD.Studio.EventDescription FMODUnity.RuntimeManager.GetEventDescription</definition>
+        <argsstring>(EventReference eventReference)</argsstring>
+        <name>GetEventDescription</name>
+        <qualifiedname>FMODUnity.RuntimeManager.GetEventDescription</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1191" column="50" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1191" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a0679ea447c1f50935677b7b06c5fdf82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref></type>
+        <definition>static FMOD.Studio.EventDescription FMODUnity.RuntimeManager.GetEventDescription</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetEventDescription</name>
+        <qualifiedname>FMODUnity.RuntimeManager.GetEventDescription</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1203" column="50" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1203" bodyend="1213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1acd7dc1cda9245e5cb058bcb6310a768c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref></type>
+        <definition>static FMOD.Studio.EventDescription FMODUnity.RuntimeManager.GetEventDescription</definition>
+        <argsstring>(FMOD.GUID guid)</argsstring>
+        <name>GetEventDescription</name>
+        <qualifiedname>FMODUnity.RuntimeManager.GetEventDescription</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1215" column="50" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1215" bodyend="1237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae5908500c41af74729cb23192ef0d5ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.SetListenerLocation</definition>
+        <argsstring>(GameObject gameObject, GameObject attenuationObject=null)</argsstring>
+        <name>SetListenerLocation</name>
+        <qualifiedname>FMODUnity.RuntimeManager.SetListenerLocation</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>attenuationObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1277" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1277" bodyend="1280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a1b9f533546a9bc238739ee6e410f27d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.SetListenerLocation</definition>
+        <argsstring>(int listenerIndex, GameObject gameObject, GameObject attenuationObject=null)</argsstring>
+        <name>SetListenerLocation</name>
+        <qualifiedname>FMODUnity.RuntimeManager.SetListenerLocation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listenerIndex</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>attenuationObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1282" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1282" bodyend="1292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a91f2a4f2d16fcd3d62383468a48bc70c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_bus" kindref="compound">FMOD.Studio.Bus</ref></type>
+        <definition>static FMOD.Studio.Bus FMODUnity.RuntimeManager.GetBus</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetBus</name>
+        <qualifiedname>FMODUnity.RuntimeManager.GetBus</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1294" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1294" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ae25d0112478c5eee0b635abd1190fef8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a" kindref="compound">FMOD.Studio.VCA</ref></type>
+        <definition>static FMOD.Studio.VCA FMODUnity.RuntimeManager.GetVCA</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetVCA</name>
+        <qualifiedname>FMODUnity.RuntimeManager.GetVCA</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1304" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1304" bodyend="1312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a8897e900c6cc208ee404a4362fcbb43b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.PauseAllEvents</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>PauseAllEvents</name>
+        <qualifiedname>FMODUnity.RuntimeManager.PauseAllEvents</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1314" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1314" bodyend="1324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1a71634f83527b86a463775a2c806e1f27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeManager.MuteAllEvents</definition>
+        <argsstring>(bool muted)</argsstring>
+        <name>MuteAllEvents</name>
+        <qualifiedname>FMODUnity.RuntimeManager.MuteAllEvents</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>muted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1326" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1326" bodyend="1331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1ac643febdf2a471fcc3a4d70b2719c499" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.RuntimeManager.HasBankLoaded</definition>
+        <argsstring>(string loadedBank)</argsstring>
+        <name>HasBankLoaded</name>
+        <qualifiedname>FMODUnity.RuntimeManager.HasBankLoaded</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>loadedBank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="1378" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="1378" bodyend="1381"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_manager_1aadca5039980f9c2a6fab52f6b0e7986d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.RuntimeManager.ExecuteOnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteOnGUI</name>
+        <qualifiedname>FMODUnity.RuntimeManager.ExecuteOnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="565" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="565" bodyend="571"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.RuntimeManager</label>
+        <link refid="class_f_m_o_d_unity_1_1_runtime_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.RuntimeManager</label>
+        <link refid="class_f_m_o_d_unity_1_1_runtime_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" line="21" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeManager.cs" bodystart="22" bodyend="1387"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a86617f060e0023abfbfc5f459a116914" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>AnyBankLoading</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a37dd74505d7af621527a3de408c86aa3" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>AnySampleDataLoading</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a0ef7dcf84c76d43245f6efe121df8e9b" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>ApplyMuteState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a65ef328d359b6c0978cdaabce9d92d98" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>attachedInstances</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a91547e41848f71e546f72082b145eddd" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>AttachInstanceToGameObject</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ac98c89c98323ce663f436d55a173a48a" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>BanksToLoad</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a5128bd7350996a4e077d17aaf611111b" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>BankStubPrefix</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a250a5d821f51fb0ff1bd8c0ab8ad452a" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>cachedDescriptions</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a09c6879153757685e941f2206de72c63" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>CheckInitResult</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a69e731f4b84718212be73ff0e543b6d1" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>coreSystem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ad4b6aed3093a17c893d373b2de4c24c1" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>CoreSystem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a3e5d2f5a4452c630056c7cecbc6a6c3b" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>CreateInstance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae93464303611de65fdd321bbe3aab2e4" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>CreateInstance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a6f9afe415be755da1f341f8480b20a27" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>CreateInstance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a96879121c6147f4de89630579fde0f55" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>currentPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae421333a4ced91050eed7660d17d1ba6" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>DEBUG_CALLBACK</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a795a0418cbba1cf12c03150c590e1702" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>debugCallback</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a0d115631a7fe0768ec839854b4c6f3a7" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>DetachInstanceFromGameObject</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a10d39a6002d8c73d2010a01d5ddd0cfb" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>DrawDebugOverlay</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a33ae0fb898286fa535407085a937b621" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>ERROR_CALLBACK</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a500d0f352307b085b9e742cf2903711f" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>errorCallback</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1aadca5039980f9c2a6fab52f6b0e7986d" prot="package" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>ExecuteOnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1afeb39641267ba907d1f45191bb1ec665" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>ExecuteSampleLoadRequestsIfReady</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a91f2a4f2d16fcd3d62383468a48bc70c" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>GetBus</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a13a71ad7e97d2382aa7265140a4e2d09" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>GetChannelCountForFormat</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a56796e3b8cf923a08deb130bb5a8a2fa" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>GetEventDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a0679ea447c1f50935677b7b06c5fdf82" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>GetEventDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1acd7dc1cda9245e5cb058bcb6310a768c" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>GetEventDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae25d0112478c5eee0b635abd1190fef8" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>GetVCA</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ac643febdf2a471fcc3a4d70b2719c499" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>HasBankLoaded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a1281d27780c564f934fd337ca811c618" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>HaveAllBanksLoaded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae826ca3bfb358480b1926c9245125389" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>HaveMasterBanksLoaded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae070595cd0eea974832640244196a25c" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>initException</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a934edc85be8a477b6a7285b07fdabb06" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>Initialize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a8c48ee46d7cde2fbb2e4f9c78c029f3c" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a9880715a6d4cee449cbc48118122cd9d" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>Instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a75c40638ef5339211f80aab5873a292d" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>IsInitialized</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a41f75d81c843bd82de29a94670840c97" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>IsMuted</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ab2108ee2558711d984ede9590cab688e" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>isMuted</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ab5bdee1972e9397e1ea77d299308eaf2" prot="protected" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>isOverlayEnabled</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1adebb29d046ff74d047eb44497b4ebbe1" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>lastDebugText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a5276a271d8034ba12ae2062a6b9738a3" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>lastDebugUpdate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ab1da850d02a01cc82395d5ecc3546de5" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>listenerWarningIssued</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1aaf3a7111e087e29e2f764911e4813803" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>LoadBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ac8fc14214330c1d3f2131d42f5b38921" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>LoadBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae930edf28f345ea8289fb48fbb91971e" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>LoadBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a0bbdcc834fbdee14929fc4d3ed3cd550" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>LoadBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a7115f6ae669fa41babc183c5cdd23116" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>LoadBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a5153c60656a8bc30141eea03386e7dc3" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>loadedBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a9fbae43bf86f06aba4304da5d0e06640" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>loadingBanksRef</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a51a393f9427321b68a4f5cb199e3a3d4" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>mixerHead</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a71634f83527b86a463775a2c806e1f27" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>MuteAllEvents</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a909187a1452e825463edadd6612e5cae" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>OnApplicationPause</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1aebad5c6ed7eb8c133e9a0c2b5b2c1629" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>OnDestroy</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a66940fe117034ced664738d9d281b050" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>overlayDrawer</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a68c1294e40c0322b50760359fbbcbc31" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PathToEventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ad63a13545b739e8cea586d8f9fe7c149" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PathToGUID</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a8897e900c6cc208ee404a4362fcbb43b" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PauseAllEvents</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a19f26b1e65ffa76d20d1b89df30534a1" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PlayOneShot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a0e84010eeb5b462cbb2068eba678e746" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PlayOneShot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a737af64afb5c74200bc13b46fbf60d13" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PlayOneShot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a5f8c05e433c842db85f119fe8177a653" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PlayOneShotAttached</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a96c09f88ab0c4963631d1e69a18b2015" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PlayOneShotAttached</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ade0a9997eebfac34156666d7a04858ad" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>PlayOneShotAttached</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1acfc3f492f2f6af5dcd14444b81ad05b9" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>ReferenceLoadedBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a8047ae574b82896c7408e1203eb71846" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>RegisterLoadedBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1aee706b6a912f7f70d9bfd4c71848b5e8" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>ReleaseStudioSystem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a9697acf9347633ee0020ac1e3073c4af" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>sampleLoadRequests</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1ae5908500c41af74729cb23192ef0d5ea" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>SetListenerLocation</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a1b9f533546a9bc238739ee6e410f27d6" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>SetListenerLocation</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a27dd57a8dab2a90ec61c76dc88f84bb0" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>SetThreadAffinities</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a1771060fb6093d42509d8382a8bdb32a" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>Start</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a4c5d069a7d2158ff33f6e3e8818185b7" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>studioSystem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a241733fdd3e2c20fa924bce01d12b206" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>StudioSystem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1abf07eca2550699b650f87c628d5d7246" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>UnloadBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1abd4abe5083ebafa7a7e63f506c17d50a" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>UnloadBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1a3bdd3cff6a729408ab1e4da98c0f415a" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>Update</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1acb37a966dfa71f1471681b33ecd2cb8b" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>WaitForAllLoads</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1aff6c0cc6a5f994a603d2b5c104c8c723" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>WaitForAllSampleLoading</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_manager_1aacb71bbde4c5c085ffac4763953e3dde" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeManager</scope><name>windowRect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

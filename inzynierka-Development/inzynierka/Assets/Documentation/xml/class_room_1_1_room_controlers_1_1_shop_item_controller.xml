@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_controlers_1_1_shop_item_controller" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomControlers::ShopItemController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1abbee1a22fbefa7ae133ae9ed9d94a813" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a353e642a7ebf8ccd94fdb8ac70b41796" kindref="member">ShopItemType</ref></type>
+        <definition>ShopItemType Room.RoomControlers.ShopItemController.ItemType</definition>
+        <argsstring></argsstring>
+        <name>ItemType</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.ItemType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="20" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a255291845391a76337e52e3af2e7c324" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomControlers.ShopItemController.ItemCost</definition>
+        <argsstring></argsstring>
+        <name>ItemCost</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.ItemCost</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="23" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a48accb53b8e0e0987250bf47bec71975" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomControlers.ShopItemController.ItemValue</definition>
+        <argsstring></argsstring>
+        <name>ItemValue</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.ItemValue</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="26" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a8f30cbcb184d45999a16b2c4b20aee71" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_stats_events" kindref="compound">PlayerStatsEvents</ref></type>
+        <definition>PlayerStatsEvents Room.RoomControlers.ShopItemController.StatsEvents</definition>
+        <argsstring></argsstring>
+        <name>StatsEvents</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.StatsEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="29" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1ab00b60d65e9331e56baee1686fa47380" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_projectile_1_1_ammunition_adder" kindref="compound">AmmunitionAdder</ref></type>
+        <definition>AmmunitionAdder Room.RoomControlers.ShopItemController.AmmunitionEvents</definition>
+        <argsstring></argsstring>
+        <name>AmmunitionEvents</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.AmmunitionEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="32" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1ad6602e10e081dd370923eefc0c111891" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_buy_item_event" kindref="compound">BuyItemEvent</ref></type>
+        <definition>BuyItemEvent Room.RoomControlers.ShopItemController.BuyItem</definition>
+        <argsstring></argsstring>
+        <name>BuyItem</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.BuyItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="35" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1acaad4a117cda949e626e1f4c1d476195" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats" kindref="compound">DisplayedUIStats</ref></type>
+        <definition>DisplayedUIStats Room.RoomControlers.ShopItemController.StatsChangeEvents</definition>
+        <argsstring></argsstring>
+        <name>StatsChangeEvents</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.StatsChangeEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="38" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1aff41680e28a2dc834b8f297876d5d5e5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StudioEventEmitter</type>
+        <definition>StudioEventEmitter Room.RoomControlers.ShopItemController.BuySound</definition>
+        <argsstring></argsstring>
+        <name>BuySound</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.BuySound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="41" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1aad7d77923173cb301d704d824a7110dc" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_shop_popup" kindref="compound">ShopPopup</ref></type>
+        <definition>ShopPopup Room.RoomControlers.ShopItemController.PopupManagement</definition>
+        <argsstring></argsstring>
+        <name>PopupManagement</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.PopupManagement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="44" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a867876a0383babd85b94c4155f24bf95" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; bool &gt;</type>
+        <definition>System.Action&lt;bool&gt; Room.RoomControlers.ShopItemController.playerEnteredZone</definition>
+        <argsstring></argsstring>
+        <name>playerEnteredZone</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.playerEnteredZone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="50" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a1ec4295bab39ab0c2d9de86b3640fb9f" prot="private" static="no" mutable="no">
+        <type>ShopZoneBuy</type>
+        <definition>ShopZoneBuy Room.RoomControlers.ShopItemController.buyAction</definition>
+        <argsstring></argsstring>
+        <name>buyAction</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.buyAction</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="51" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a59c79b5fd6786489907f797fff64e97a" prot="private" static="no" mutable="no">
+        <type>ShopZoneBuy</type>
+        <definition>ShopZoneBuy Room.RoomControlers.ShopItemController.actionMethode</definition>
+        <argsstring></argsstring>
+        <name>actionMethode</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.actionMethode</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="52" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1ad1fa11aa233b0bc8d7ca6dc04e1184ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Room.RoomControlers.ShopItemController.ShopZoneBuy</definition>
+        <argsstring>()</argsstring>
+        <name>ShopZoneBuy</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.ShopZoneBuy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="56" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a0e92ccf84a63de349fb94f19aaaeafe6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="60" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1aab2c09d420b9b464dbbb6c3b7832b7fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="66" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1ac4acd456bdcf05ff30affaf3b92e27c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="72" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1aa289a2dccc0f0cb7a318ddb0e91fb673" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.TryBuy</definition>
+        <argsstring>()</argsstring>
+        <name>TryBuy</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.TryBuy</qualifiedname>
+        <briefdescription>
+<para>method that initializes buy action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="84" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1ac087919220df9a2f0e992e61a800b79d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.ShopZoneInteraction</definition>
+        <argsstring>(bool newState)</argsstring>
+        <name>ShopZoneInteraction</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.ShopZoneInteraction</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>method that conducts buy process if player if in buy zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="92" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="92" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a2c99b498f9b0784268d6b792f0a70736" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.PlayerInZone</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerInZone</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.PlayerInZone</qualifiedname>
+        <briefdescription>
+<para>methode that acknowledge player being in item buy zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="106" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a4e9afd8bffd8dc3083f0e70c1aab569e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.DecideItemAction</definition>
+        <argsstring>()</argsstring>
+        <name>DecideItemAction</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.DecideItemAction</qualifiedname>
+        <briefdescription>
+<para>methode that calls action appropriate action to shop item </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="120" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="120" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_controlers_1_1_shop_item_controller_1a1847e865f38729e0d86a63f93a86c050" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomControlers.ShopItemController.PlayerNotInZone</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerNotInZone</name>
+        <qualifiedname>Room.RoomControlers.ShopItemController.PlayerNotInZone</qualifiedname>
+        <briefdescription>
+<para>action when player isn&apos;t in zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="149" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="149" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements shop item logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomControlers.ShopItemController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_shop_item_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomControlers.ShopItemController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_shop_item_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>playerEnteredZone</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" line="15" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomControlers/ShopItemController.cs" bodystart="16" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a59c79b5fd6786489907f797fff64e97a" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>actionMethode</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1ab00b60d65e9331e56baee1686fa47380" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>AmmunitionEvents</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a1ec4295bab39ab0c2d9de86b3640fb9f" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>buyAction</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1ad6602e10e081dd370923eefc0c111891" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>BuyItem</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1aff41680e28a2dc834b8f297876d5d5e5" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>BuySound</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a4e9afd8bffd8dc3083f0e70c1aab569e" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>DecideItemAction</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a255291845391a76337e52e3af2e7c324" prot="public" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>ItemCost</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1abbee1a22fbefa7ae133ae9ed9d94a813" prot="public" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>ItemType</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a48accb53b8e0e0987250bf47bec71975" prot="public" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>ItemValue</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1aab2c09d420b9b464dbbb6c3b7832b7fc" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>OnDisable</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a0e92ccf84a63de349fb94f19aaaeafe6" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>OnEnable</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a867876a0383babd85b94c4155f24bf95" prot="public" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>playerEnteredZone</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a2c99b498f9b0784268d6b792f0a70736" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>PlayerInZone</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a1847e865f38729e0d86a63f93a86c050" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>PlayerNotInZone</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1aad7d77923173cb301d704d824a7110dc" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>PopupManagement</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1ad1fa11aa233b0bc8d7ca6dc04e1184ec" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>ShopZoneBuy</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1ac087919220df9a2f0e992e61a800b79d" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>ShopZoneInteraction</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1ac4acd456bdcf05ff30affaf3b92e27c4" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1acaad4a117cda949e626e1f4c1d476195" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>StatsChangeEvents</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1a8f30cbcb184d45999a16b2c4b20aee71" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>StatsEvents</name></member>
+      <member refid="class_room_1_1_room_controlers_1_1_shop_item_controller_1aa289a2dccc0f0cb7a318ddb0e91fb673" prot="private" virt="non-virtual"><scope>Room::RoomControlers::ShopItemController</scope><name>TryBuy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

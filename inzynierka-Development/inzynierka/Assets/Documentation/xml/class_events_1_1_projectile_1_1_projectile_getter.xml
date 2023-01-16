@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_projectile_1_1_projectile_getter" kind="class" language="C#" prot="public">
+    <compoundname>Events::Projectile::ProjectileGetter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_projectile_1_1_projectile_getter_1a0b1a0d5247a309e0378c3eb2585857ee" prot="public" static="no" mutable="no">
+        <type>System.Func&lt; <ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">ProjectileType</ref>, <ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectaile.Projectile</ref> &gt;</type>
+        <definition>System.Func&lt;ProjectileType, Projectaile.Projectile&gt; Events.Projectile.ProjectileGetter.GetProjectile</definition>
+        <argsstring></argsstring>
+        <name>GetProjectile</name>
+        <qualifiedname>Events.Projectile.ProjectileGetter.GetProjectile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileGetter.cs" line="12" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileGetter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying providing projectile from poll events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Projectile.ProjectileGetter</label>
+        <link refid="class_events_1_1_projectile_1_1_projectile_getter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Projectile.ProjectileGetter</label>
+        <link refid="class_events_1_1_projectile_1_1_projectile_getter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>GetProjectile</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileGetter.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileGetter.cs" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_projectile_1_1_projectile_getter_1a0b1a0d5247a309e0378c3eb2585857ee" prot="public" virt="non-virtual"><scope>Events::Projectile::ProjectileGetter</scope><name>GetProjectile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

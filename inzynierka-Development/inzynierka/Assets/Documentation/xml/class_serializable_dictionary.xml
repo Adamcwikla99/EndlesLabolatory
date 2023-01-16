@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_serializable_dictionary" kind="class" language="C#" prot="public">
+    <compoundname>SerializableDictionary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ISerializationCallbackReceiver</basecompoundref>
+    <innerclass refid="struct_serializable_dictionary_1_1_element" prot="private">SerializableDictionary::Element</innerclass>
+    <templateparamlist>
+      <param>
+        <type>TKey</type>
+      </param>
+      <param>
+        <type>TValue</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_serializable_dictionary_1aa686d4cd2611f311fa8acc4b392369d0" prot="private" static="no" mutable="no">
+        <type>List&lt; Element &gt;</type>
+        <definition>List&lt;Element&gt; SerializableDictionary&lt; TKey, TValue &gt;.dictionaryAsList</definition>
+        <argsstring></argsstring>
+        <name>dictionaryAsList</name>
+        <qualifiedname>SerializableDictionary.dictionaryAsList</qualifiedname>
+        <initializer>= new List&lt;Element&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" line="14" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_serializable_dictionary_1a9d70c9887806ecccb070d00ca8a5f721" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; TKey, TValue &gt;</type>
+        <definition>Dictionary&lt;TKey, TValue&gt; SerializableDictionary&lt; TKey, TValue &gt;.dictionary</definition>
+        <argsstring></argsstring>
+        <name>dictionary</name>
+        <qualifiedname>SerializableDictionary.dictionary</qualifiedname>
+        <initializer>= new Dictionary&lt;TKey, TValue&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" line="19" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_serializable_dictionary_1acbc0f36637d6a012e405477ce7c57467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SerializableDictionary&lt; TKey, TValue &gt;.OnAfterDeserialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnAfterDeserialize</name>
+        <qualifiedname>SerializableDictionary.OnAfterDeserialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" line="24" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" bodystart="24" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_serializable_dictionary_1a5b366b25f525e879d9235f741ab2a3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SerializableDictionary&lt; TKey, TValue &gt;.OnBeforeSerialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnBeforeSerialize</name>
+        <qualifiedname>SerializableDictionary.OnBeforeSerialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" line="38" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" bodystart="38" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements serializable dictionary. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="1">
+        <label>SerializableDictionary&lt; TKey, TValue &gt;</label>
+        <link refid="class_serializable_dictionary"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="1">
+        <label>SerializableDictionary&lt; TKey, TValue &gt;</label>
+        <link refid="class_serializable_dictionary"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" line="9" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/SerializableDictionary.cs" bodystart="10" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_serializable_dictionary_1a9d70c9887806ecccb070d00ca8a5f721" prot="public" virt="non-virtual"><scope>SerializableDictionary</scope><name>dictionary</name></member>
+      <member refid="class_serializable_dictionary_1aa686d4cd2611f311fa8acc4b392369d0" prot="private" virt="non-virtual"><scope>SerializableDictionary</scope><name>dictionaryAsList</name></member>
+      <member refid="class_serializable_dictionary_1acbc0f36637d6a012e405477ce7c57467" prot="public" virt="non-virtual"><scope>SerializableDictionary</scope><name>OnAfterDeserialize</name></member>
+      <member refid="class_serializable_dictionary_1a5b366b25f525e879d9235f741ab2a3da" prot="public" virt="non-virtual"><scope>SerializableDictionary</scope><name>OnBeforeSerialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

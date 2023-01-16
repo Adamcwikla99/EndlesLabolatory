@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_studio_listener" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::StudioListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_listener_1ae961779671bd99ca2c26bb396d58bb00" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FMODUnity.StudioListener.attenuationObject</definition>
+        <argsstring></argsstring>
+        <name>attenuationObject</name>
+        <qualifiedname>FMODUnity.StudioListener.attenuationObject</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="10" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_listener_1afe1aec5080584f2c91738888becaf761" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_studio_listener" kindref="compound">StudioListener</ref> &gt;</type>
+        <definition>List&lt;StudioListener&gt; FMODUnity.StudioListener.listeners</definition>
+        <argsstring></argsstring>
+        <name>listeners</name>
+        <qualifiedname>FMODUnity.StudioListener.listeners</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_f_m_o_d_unity_1_1_studio_listener" kindref="compound">StudioListener</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="19" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_studio_listener_1abeb86a7391b47610d2833375ccf14be1" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int FMODUnity.StudioListener.ListenerCount</definition>
+        <argsstring></argsstring>
+        <name>ListenerCount</name>
+        <qualifiedname>FMODUnity.StudioListener.ListenerCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="21" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_studio_listener_1a7f429efc09c733bb09aa7088e3cb7acb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int FMODUnity.StudioListener.ListenerNumber</definition>
+        <argsstring></argsstring>
+        <name>ListenerNumber</name>
+        <qualifiedname>FMODUnity.StudioListener.ListenerNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="29" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1a059359336738d3ea391bdbb4d9a0d6e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float FMODUnity.StudioListener.DistanceToNearestListener</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>DistanceToNearestListener</name>
+        <qualifiedname>FMODUnity.StudioListener.DistanceToNearestListener</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="37" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1a5fb1895da2abdc5599f55f851a2aa836" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.StudioListener.AddListener</definition>
+        <argsstring>(StudioListener listener)</argsstring>
+        <name>AddListener</name>
+        <qualifiedname>FMODUnity.StudioListener.AddListener</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_listener" kindref="compound">StudioListener</ref></type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="47" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="47" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1ae2e9b59873c78466e4f80ddd38a9eb95" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.StudioListener.RemoveListener</definition>
+        <argsstring>(StudioListener listener)</argsstring>
+        <name>RemoveListener</name>
+        <qualifiedname>FMODUnity.StudioListener.RemoveListener</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_listener" kindref="compound">StudioListener</ref></type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="66" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1a4c6a1a4b4f6d8aca5d7975c9fc94f470" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioListener.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.StudioListener.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="72" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="72" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1a0d4330bebc085d118f6786e584a5fc71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioListener.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>FMODUnity.StudioListener.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="84" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1a5efbd212d44381d4e53e2fe04541b6b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioListener.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>FMODUnity.StudioListener.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="89" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_listener_1aa701789816cecce8e03e39499cb836dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioListener.SetListenerLocation</definition>
+        <argsstring>()</argsstring>
+        <name>SetListenerLocation</name>
+        <qualifiedname>FMODUnity.StudioListener.SetListenerLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="97" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="97" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.StudioListener</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.StudioListener</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" line="7" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioListener.cs" bodystart="8" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1a5fb1895da2abdc5599f55f851a2aa836" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>AddListener</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1ae961779671bd99ca2c26bb396d58bb00" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>attenuationObject</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1a059359336738d3ea391bdbb4d9a0d6e7" prot="public" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>DistanceToNearestListener</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1abeb86a7391b47610d2833375ccf14be1" prot="public" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>ListenerCount</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1a7f429efc09c733bb09aa7088e3cb7acb" prot="public" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>ListenerNumber</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1afe1aec5080584f2c91738888becaf761" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>listeners</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1a0d4330bebc085d118f6786e584a5fc71" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>OnDisable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1a4c6a1a4b4f6d8aca5d7975c9fc94f470" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1ae2e9b59873c78466e4f80ddd38a9eb95" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>RemoveListener</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1aa701789816cecce8e03e39499cb836dc" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>SetListenerLocation</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_listener_1a5efbd212d44381d4e53e2fe04541b6b4" prot="private" virt="non-virtual"><scope>FMODUnity::StudioListener</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

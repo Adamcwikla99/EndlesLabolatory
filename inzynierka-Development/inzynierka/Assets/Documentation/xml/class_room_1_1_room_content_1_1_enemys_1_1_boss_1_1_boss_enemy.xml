@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Boss::BossEnemy</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" prot="public" virt="non-virtual">Room.RoomContent.Enemys.RoomEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a74c0a0ea46d93771c31018954da3c548" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_controlers_1_1_boss_room_controller" kindref="compound">BossRoomController</ref></type>
+        <definition>BossRoomController Room.RoomContent.Enemys.Boss.BossEnemy.ThisBossRoomController</definition>
+        <argsstring></argsstring>
+        <name>ThisBossRoomController</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.ThisBossRoomController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="16" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a256ce77b6372c0a334090a5e1c7cc05d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" kindref="compound">BossEnemyAttackAi</ref></type>
+        <definition>BossEnemyAttackAi Room.RoomContent.Enemys.Boss.BossEnemy.EntityAttackStats</definition>
+        <argsstring></argsstring>
+        <name>EntityAttackStats</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.EntityAttackStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="19" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a5001c4a2ebc34f2c1baf010ca02544f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void Room.RoomContent.Enemys.Boss.BossEnemy.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="29" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a8008fa42fa76d6691cd4d79943ffc17f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemy.PowerUp</definition>
+        <argsstring>(EntityBoost boostValue)</argsstring>
+        <name>PowerUp</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.PowerUp</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_wrapper_1_1_entity_boost" kindref="compound">EntityBoost</ref></type>
+          <declname>boostValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that boss up boss entity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="65" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="65" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1aff779e91d190f252a61f23b0e42ea1e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemy.BossSurviveCheck</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>BossSurviveCheck</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.BossSurviveCheck</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if boss survived taking damage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="84" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="84" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a404f4c6ab8d3087077a0d75873ec7e08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemy.SetBossRoomController</definition>
+        <argsstring>(BossRoomController controller)</argsstring>
+        <name>SetBossRoomController</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.SetBossRoomController</qualifiedname>
+        <param>
+          <type><ref refid="class_room_1_1_room_controlers_1_1_boss_room_controller" kindref="compound">BossRoomController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>methode that assignes reference to boss room controler that boss enemy is located in </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="43" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a97de17a80c82435429920de53c3d8f1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Boss.BossEnemy.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.TakeDamage</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af500209a8af5ff7d47c9ac69b7c7516e">TakeDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that applies damage to boss entity <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="51" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="51" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1aa2ad5ed2b84aba915d1be3f3b529f12d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemy.PlayFireSound</definition>
+        <argsstring>()</argsstring>
+        <name>PlayFireSound</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemy.PlayFireSound</qualifiedname>
+        <briefdescription>
+<para>methode that plays firing sound </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="76" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements boss enemy logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Room.RoomContent.Enemys.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Structures.Wrapper.ContentAttackStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_attack_stats"/>
+      </node>
+      <node id="5">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" line="11" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemy.cs" bodystart="12" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a678e98e91d910397c141fb120bff9cb4" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>AdjustOutline</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ad918920fdfce315c36c6b687e3bae29e" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>attackStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1aff779e91d190f252a61f23b0e42ea1e0" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>BossSurviveCheck</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1acc57f8b0fad7871ab4c5d1a47393538f" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>CalculateNewOutlineIntensity</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1aa1f2251a93dfad5d5bb8aeafef25af6e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>CheckIfSurvived</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a053c9c463e545dc8fd7c6a40e8b323cc" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1aaa355175f135adaa9bae5107c8ab6898" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a256ce77b6372c0a334090a5e1c7cc05d" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>EntityAttackStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8d5ea56a34abed99dce5575bf45cc538" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a81aa745c4890409c45554a8eaf12a82e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>ManageEnemyFloorBoost</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a72042c037621941c5348e974c3c52cad" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>MAX_OUTLINE_INTENSITY</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a44e2c319a84d92de6a27cdd1f81e0d24" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>OnParticleCollision</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8b0a71856b1c291573d9e14a7aaa0598" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>PlayDesolveAnimation</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af6396b30984e85d9ba0da930db752553" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>PlayerGameScore</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1aa2ad5ed2b84aba915d1be3f3b529f12d" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>PlayFireSound</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a8008fa42fa76d6691cd4d79943ffc17f" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>PowerUp</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a404f4c6ab8d3087077a0d75873ec7e08" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>SetBossRoomController</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ac2790791b7b4a9aa45625c330151f1ea" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>SpawnReword</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a5001c4a2ebc34f2c1baf010ca02544f7" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a97de17a80c82435429920de53c3d8f1f" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>TakeDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a74c0a0ea46d93771c31018954da3c548" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>ThisBossRoomController</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ace5b1abac330e5e8caaaf4d819569858" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemy</scope><name>thisEntity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

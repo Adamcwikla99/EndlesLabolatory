@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Obsticle::DeflectionObstacle</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.RoomObstacle</basecompoundref>
+    <basecompoundref refid="interface_interface_1_1_i_damage" prot="public" virt="non-virtual">Interface.IDamage</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1abd7f488a72a5cf69e61d81dba9200e25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.DeflectionObstacle.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <qualifiedname>Room.RoomContent.Obsticle.DeflectionObstacle.OnCollisionEnter</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" line="13" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a9ddd742be782351f2505a4b1d35d25e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.DeflectionObstacle.Deflection</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>Deflection</name>
+        <qualifiedname>Room.RoomContent.Obsticle.DeflectionObstacle.Deflection</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that deflects game object that came in contact with it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a39dc25d6efce552af8966b75a623640f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.DeflectionObstacle.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Room.RoomContent.Obsticle.DeflectionObstacle.TakeDamage</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2">TakeDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>method responsible for applying damage to deflection obstacle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" line="24" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a5ff77b4409530da7c8d6e89aec1bea51" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Obsticle.DeflectionObstacle.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Room.RoomContent.Obsticle.DeflectionObstacle.DeflectProjectile</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419">DeflectProjectile</reimplements>
+        <briefdescription>
+<para>methode that determins if obstacle can deflect projectiles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" line="29" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements deflection obstacle logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Obsticle.DeflectionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Obsticle.DeflectionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/DeflectionObstacle.cs" bodystart="10" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a9ddd742be782351f2505a4b1d35d25e9" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>Deflection</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a5ff77b4409530da7c8d6e89aec1bea51" prot="public" virt="virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb" prot="protected" virt="virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1abd7f488a72a5cf69e61d81dba9200e25" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a39dc25d6efce552af8966b75a623640f" prot="public" virt="virtual"><scope>Room::RoomContent::Obsticle::DeflectionObstacle</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

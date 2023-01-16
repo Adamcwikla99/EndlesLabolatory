@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r__3_d_a_t_t_r_i_b_u_t_e_s" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::DSP_PARAMETER_3DATTRIBUTES</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r__3_d_a_t_t_r_i_b_u_t_e_s_1a8c1aab3156d4c58dd65ac8c0049b6bc9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+        <definition>ATTRIBUTES_3D FMOD.DSP_PARAMETER_3DATTRIBUTES.relative</definition>
+        <argsstring></argsstring>
+        <name>relative</name>
+        <qualifiedname>FMOD.DSP_PARAMETER_3DATTRIBUTES.relative</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_dsp.cs" line="248" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_dsp.cs" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r__3_d_a_t_t_r_i_b_u_t_e_s_1ad274b84f44bcada113fc5593f94f6c54" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+        <definition>ATTRIBUTES_3D FMOD.DSP_PARAMETER_3DATTRIBUTES.absolute</definition>
+        <argsstring></argsstring>
+        <name>absolute</name>
+        <qualifiedname>FMOD.DSP_PARAMETER_3DATTRIBUTES.absolute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_dsp.cs" line="249" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_dsp.cs" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMOD.DSP_PARAMETER_3DATTRIBUTES</label>
+        <link refid="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r__3_d_a_t_t_r_i_b_u_t_e_s"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>absolute</edgelabel>
+          <edgelabel>relative</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FMOD.ATTRIBUTES_3D</label>
+        <link refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>forward</edgelabel>
+          <edgelabel>position</edgelabel>
+          <edgelabel>up</edgelabel>
+          <edgelabel>velocity</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FMOD.VECTOR</label>
+        <link refid="struct_f_m_o_d_1_1_v_e_c_t_o_r"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_dsp.cs" line="246" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_dsp.cs" bodystart="247" bodyend="250"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r__3_d_a_t_t_r_i_b_u_t_e_s_1ad274b84f44bcada113fc5593f94f6c54" prot="public" virt="non-virtual"><scope>FMOD::DSP_PARAMETER_3DATTRIBUTES</scope><name>absolute</name></member>
+      <member refid="struct_f_m_o_d_1_1_d_s_p___p_a_r_a_m_e_t_e_r__3_d_a_t_t_r_i_b_u_t_e_s_1a8c1aab3156d4c58dd65ac8c0049b6bc9" prot="public" virt="non-virtual"><scope>FMOD::DSP_PARAMETER_3DATTRIBUTES</scope><name>relative</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

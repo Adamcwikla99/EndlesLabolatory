@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_chat_controller" kind="class" language="C#" prot="public">
+    <compoundname>ChatController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_chat_controller_1a8878195f15891c5c291673c5117010b6" prot="public" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text ChatController.ChatDisplayOutput</definition>
+        <argsstring></argsstring>
+        <name>ChatDisplayOutput</name>
+        <qualifiedname>ChatController.ChatDisplayOutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="9" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chat_controller_1a79979151cb7bb96b48ec5ab977facaf5" prot="public" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField ChatController.ChatInputField</definition>
+        <argsstring></argsstring>
+        <name>ChatInputField</name>
+        <qualifiedname>ChatController.ChatInputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="11" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57" prot="public" static="no" mutable="no">
+        <type>Scrollbar</type>
+        <definition>Scrollbar ChatController.ChatScrollbar</definition>
+        <argsstring></argsstring>
+        <name>ChatScrollbar</name>
+        <qualifiedname>ChatController.ChatScrollbar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="13" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChatController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ChatController.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="16" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChatController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>ChatController.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="18" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChatController.AddToChatOutput</definition>
+        <argsstring>(string newText)</argsstring>
+        <name>AddToChatOutput</name>
+        <qualifiedname>ChatController.AddToChatOutput</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>newText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="23" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" bodystart="23" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ChatController</label>
+        <link refid="class_chat_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ChatController</label>
+        <link refid="class_chat_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" line="6" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" bodystart="7" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" prot="private" virt="non-virtual"><scope>ChatController</scope><name>AddToChatOutput</name></member>
+      <member refid="class_chat_controller_1a8878195f15891c5c291673c5117010b6" prot="public" virt="non-virtual"><scope>ChatController</scope><name>ChatDisplayOutput</name></member>
+      <member refid="class_chat_controller_1a79979151cb7bb96b48ec5ab977facaf5" prot="public" virt="non-virtual"><scope>ChatController</scope><name>ChatInputField</name></member>
+      <member refid="class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57" prot="public" virt="non-virtual"><scope>ChatController</scope><name>ChatScrollbar</name></member>
+      <member refid="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" prot="private" virt="non-virtual"><scope>ChatController</scope><name>OnDisable</name></member>
+      <member refid="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" prot="private" virt="non-virtual"><scope>ChatController</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

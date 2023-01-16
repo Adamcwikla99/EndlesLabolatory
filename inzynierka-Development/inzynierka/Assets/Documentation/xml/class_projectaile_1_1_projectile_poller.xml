@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_projectaile_1_1_projectile_poller" kind="class" language="C#" prot="public">
+    <compoundname>Projectaile::ProjectilePoller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_projectaile_1_1_projectile_poller_1a152512f394be339ae66b61730e22ef78" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_structures_1_1_wrapper_1_1_projectile_pool_data" kindref="compound">ProjectilePoolData</ref> &gt;</type>
+        <definition>List&lt;ProjectilePoolData&gt; Projectaile.ProjectilePoller.IndividualPools</definition>
+        <argsstring></argsstring>
+        <name>IndividualPools</name>
+        <qualifiedname>Projectaile.ProjectilePoller.IndividualPools</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_structures_1_1_wrapper_1_1_projectile_pool_data" kindref="compound">ProjectilePoolData</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="18" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_projectaile_1_1_projectile_poller_1a4174ce4bd336d49873ce86f40a913602" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_projectile_1_1_projectile_getter" kindref="compound">ProjectileGetter</ref></type>
+        <definition>ProjectileGetter Projectaile.ProjectilePoller.GetProjectileEvents</definition>
+        <argsstring></argsstring>
+        <name>GetProjectileEvents</name>
+        <qualifiedname>Projectaile.ProjectilePoller.GetProjectileEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="21" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_projectaile_1_1_projectile_poller_1ad5cae814bb55816065bade62a21607cb" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_projectile_1_1_projectile_returner" kindref="compound">ProjectileReturner</ref></type>
+        <definition>ProjectileReturner Projectaile.ProjectilePoller.IndividualProjectileReturner</definition>
+        <argsstring></argsstring>
+        <name>IndividualProjectileReturner</name>
+        <qualifiedname>Projectaile.ProjectilePoller.IndividualProjectileReturner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="24" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_projectaile_1_1_projectile_poller_1af93c4f22bb1b6882af06a1cc3a371ad2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Projectaile.ProjectilePoller.QueSizeIncrise</definition>
+        <argsstring></argsstring>
+        <name>QueSizeIncrise</name>
+        <qualifiedname>Projectaile.ProjectilePoller.QueSizeIncrise</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="27" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projectaile_1_1_projectile_poller_1a6d25ddd82d1997f9fd05bed523c1ad5c" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">Structures.Enums.ProjectileType</ref>, Queue&lt; <ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectile</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;Structures.Enums.ProjectileType, Queue&lt;Projectile&gt; &gt; Projectaile.ProjectilePoller.projectilePool</definition>
+        <argsstring></argsstring>
+        <name>projectilePool</name>
+        <qualifiedname>Projectaile.ProjectilePoller.projectilePool</qualifiedname>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">ProjectileType</ref>, Queue&lt;<ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectile</ref>&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="32" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1a0f91d800554e64a512b3844611d52408" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Projectaile.ProjectilePoller.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="37" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1a2bcb71f987a38ca4ecf82adde19fcaec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Projectaile.ProjectilePoller.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="42" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1a1cea87e50de6497f10dd55b897f9951d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Projectaile.ProjectilePoller.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="47" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1a8ec670e0bf88d697f5a0dd2343ceea95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.InitDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>InitDictionary</name>
+        <qualifiedname>Projectaile.ProjectilePoller.InitDictionary</qualifiedname>
+        <briefdescription>
+<para>methode that initialize projectile object dictionary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="58" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1a0cdfccc21e26de38f68b8c06f4bf1b43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.IndividualProjectileTypeSpawn</definition>
+        <argsstring>(ProjectilePoolData projectilePoolData)</argsstring>
+        <name>IndividualProjectileTypeSpawn</name>
+        <qualifiedname>Projectaile.ProjectilePoller.IndividualProjectileTypeSpawn</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_wrapper_1_1_projectile_pool_data" kindref="compound">ProjectilePoolData</ref></type>
+          <declname>projectilePoolData</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns projectiles of specified type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="69" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1ac0e4638dcfa1796b5e361f09abbd09e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectile</ref></type>
+        <definition>Projectile Projectaile.ProjectilePoller.GetProjectile</definition>
+        <argsstring>(Structures.Enums.ProjectileType type)</argsstring>
+        <name>GetProjectile</name>
+        <qualifiedname>Projectaile.ProjectilePoller.GetProjectile</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">Structures.Enums.ProjectileType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>methode that provides projectile of given type for script usage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="82" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="82" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1a1fff2619218909c8662969607ccc0289" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.ReturnProjectileToQue</definition>
+        <argsstring>(Projectile projectile, Structures.Enums.ProjectileType type)</argsstring>
+        <name>ReturnProjectileToQue</name>
+        <qualifiedname>Projectaile.ProjectilePoller.ReturnProjectileToQue</qualifiedname>
+        <param>
+          <type><ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectile</ref></type>
+          <declname>projectile</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">Structures.Enums.ProjectileType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns projectile object to que </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="102" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1ae8cb9f4139ed76275f98c983ec35d4ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>Projectaile.ProjectilePoller.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="111" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_projectile_poller_1aef7cb9fbdf3c52eb96eb008b721d85dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.ProjectilePoller.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>Projectaile.ProjectilePoller.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="120" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="120" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that stores created and unused projectiles - implement object poll patern. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.ProjectilePoller</label>
+        <link refid="class_projectaile_1_1_projectile_poller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.ProjectilePoller</label>
+        <link refid="class_projectaile_1_1_projectile_poller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" line="13" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/ProjectilePoller.cs" bodystart="14" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_projectaile_1_1_projectile_poller_1aef7cb9fbdf3c52eb96eb008b721d85dd" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>DisableEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1ae8cb9f4139ed76275f98c983ec35d4ae" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>EnableEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1ac0e4638dcfa1796b5e361f09abbd09e6" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>GetProjectile</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a4174ce4bd336d49873ce86f40a913602" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>GetProjectileEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a152512f394be339ae66b61730e22ef78" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>IndividualPools</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1ad5cae814bb55816065bade62a21607cb" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>IndividualProjectileReturner</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a0cdfccc21e26de38f68b8c06f4bf1b43" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>IndividualProjectileTypeSpawn</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a8ec670e0bf88d697f5a0dd2343ceea95" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>InitDictionary</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a1cea87e50de6497f10dd55b897f9951d" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>OnDisable</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a2bcb71f987a38ca4ecf82adde19fcaec" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>OnEnable</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a6d25ddd82d1997f9fd05bed523c1ad5c" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>projectilePool</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1af93c4f22bb1b6882af06a1cc3a371ad2" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>QueSizeIncrise</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a1fff2619218909c8662969607ccc0289" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>ReturnProjectileToQue</name></member>
+      <member refid="class_projectaile_1_1_projectile_poller_1a0f91d800554e64a512b3844611d52408" prot="private" virt="non-virtual"><scope>Projectaile::ProjectilePoller</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

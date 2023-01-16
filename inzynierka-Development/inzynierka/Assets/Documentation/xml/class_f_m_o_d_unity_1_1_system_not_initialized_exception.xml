@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_system_not_initialized_exception" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::SystemNotInitializedException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1aa44a0826bae53e30ec530fa1e7bebc0d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+        <definition>FMOD.RESULT FMODUnity.SystemNotInitializedException.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>FMODUnity.SystemNotInitializedException.Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="163" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1ab88847acbdcabe7e1296de1740e9e61e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.SystemNotInitializedException.Location</definition>
+        <argsstring></argsstring>
+        <name>Location</name>
+        <qualifiedname>FMODUnity.SystemNotInitializedException.Location</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="164" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1a92afe5ba8210b6867a836d7080ba071b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SystemNotInitializedException.SystemNotInitializedException</definition>
+        <argsstring>(FMOD.RESULT result, string location)</argsstring>
+        <name>SystemNotInitializedException</name>
+        <qualifiedname>FMODUnity.SystemNotInitializedException.SystemNotInitializedException</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">FMOD.RESULT</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>location</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="166" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1a3880392cf3800ce730dba67e220b1227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SystemNotInitializedException.SystemNotInitializedException</definition>
+        <argsstring>(Exception inner)</argsstring>
+        <name>SystemNotInitializedException</name>
+        <qualifiedname>FMODUnity.SystemNotInitializedException.SystemNotInitializedException</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>inner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="173" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="173" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.SystemNotInitializedException</label>
+        <link refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.SystemNotInitializedException</label>
+        <link refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="161" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="162" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1ab88847acbdcabe7e1296de1740e9e61e" prot="public" virt="non-virtual"><scope>FMODUnity::SystemNotInitializedException</scope><name>Location</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1aa44a0826bae53e30ec530fa1e7bebc0d" prot="public" virt="non-virtual"><scope>FMODUnity::SystemNotInitializedException</scope><name>Result</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1a92afe5ba8210b6867a836d7080ba071b" prot="public" virt="non-virtual"><scope>FMODUnity::SystemNotInitializedException</scope><name>SystemNotInitializedException</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_system_not_initialized_exception_1a3880392cf3800ce730dba67e220b1227" prot="public" virt="non-virtual"><scope>FMODUnity::SystemNotInitializedException</scope><name>SystemNotInitializedException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

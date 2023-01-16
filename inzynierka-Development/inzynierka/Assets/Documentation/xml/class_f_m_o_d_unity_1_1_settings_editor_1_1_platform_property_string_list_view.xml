@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::SettingsEditor::PlatformPropertyStringListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditorInternal.ReorderableList</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1ab49c3c8ba1adfe174cd8c00646af5c5c" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.PlatformPropertyStringListView.ElementPadding</definition>
+        <argsstring></argsstring>
+        <name>ElementPadding</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.ElementPadding</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2415" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1affe5b07fb80c4e3e0a944a4c613e4d84" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.SettingsEditor.PlatformPropertyStringListView.platform</definition>
+        <argsstring></argsstring>
+        <name>platform</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.platform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2417" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2417" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1ab409dd9b1f9cf581a95ee0b2c85234bf" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.SettingsEditor.PlatformPropertyStringListView.displayList</definition>
+        <argsstring></argsstring>
+        <name>displayList</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.displayList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2419" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2419" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1ae3b9d9f09f9469379a75c4d3f912c2b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Platform.PropertyAccessor&lt; List&lt; string &gt; &gt;</type>
+        <definition>Platform.PropertyAccessor&lt;List&lt;string&gt; &gt; FMODUnity.SettingsEditor.PlatformPropertyStringListView.property</definition>
+        <argsstring></argsstring>
+        <name>property</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.property</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2438" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2438" bodyend="2438"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a26b7e94941d3f1cf73ed908211a43cd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SettingsEditor.PlatformPropertyStringListView.PlatformPropertyStringListView</definition>
+        <argsstring>(Platform.PropertyAccessor&lt; List&lt; string &gt; &gt; property)</argsstring>
+        <name>PlatformPropertyStringListView</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.PlatformPropertyStringListView</qualifiedname>
+        <param>
+          <type>Platform.PropertyAccessor&lt; List&lt; string &gt; &gt;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2421" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2421" bodyend="2436"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1abc0add3b8b8446fd6b158cc83a6378dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformPropertyStringListView.DrawLayout</definition>
+        <argsstring>()</argsstring>
+        <name>DrawLayout</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.DrawLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2443" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2443" bodyend="2455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a03eb7e35394bf90cc0d39b74ba400870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.SettingsEditor.PlatformPropertyStringListView.IsReloadNeeded</definition>
+        <argsstring>()</argsstring>
+        <name>IsReloadNeeded</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.IsReloadNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2457" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2457" bodyend="2475"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a48da7acf38897a6a699f10019600dd73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformPropertyStringListView.DrawElement</definition>
+        <argsstring>(Rect rect, int index, bool active, bool focused)</argsstring>
+        <name>DrawElement</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.DrawElement</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>focused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2477" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2477" bodyend="2493"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a805a084e33ef641920c42dbe6d60bc7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformPropertyStringListView.AddElement</definition>
+        <argsstring>(UnityEditorInternal.ReorderableList list)</argsstring>
+        <name>AddElement</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.AddElement</qualifiedname>
+        <param>
+          <type>UnityEditorInternal.ReorderableList</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2495" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2495" bodyend="2498"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1adec316e2b9660b73fc231c7c24eb96c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformPropertyStringListView.RemoveElement</definition>
+        <argsstring>(UnityEditorInternal.ReorderableList list)</argsstring>
+        <name>RemoveElement</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.RemoveElement</qualifiedname>
+        <param>
+          <type>UnityEditorInternal.ReorderableList</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2500" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2500" bodyend="2503"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1aac3b1b80dce1106a69e46f98a2e2e833" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.PlatformPropertyStringListView.OnReorder</definition>
+        <argsstring>(UnityEditorInternal.ReorderableList list)</argsstring>
+        <name>OnReorder</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.OnReorder</qualifiedname>
+        <param>
+          <type>UnityEditorInternal.ReorderableList</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2505" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2505" bodyend="2511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a5014e763a7e3912b726fafbe46d43486" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt; string &gt; FMODUnity.SettingsEditor.PlatformPropertyStringListView.AffirmOverriddenList</definition>
+        <argsstring>()</argsstring>
+        <name>AffirmOverriddenList</name>
+        <qualifiedname>FMODUnity.SettingsEditor.PlatformPropertyStringListView.AffirmOverriddenList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2513" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2513" bodyend="2523"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.PlatformPropertyStringListView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditorInternal::ReorderableList</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.PlatformPropertyStringListView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>platform</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FMODUnity.Platform</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Properties</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FMODUnity.Platform.PropertyBool</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_bool"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>FMODUnity.Platform.PropertyCallbackHandler</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_callback_handler"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>FMODUnity.Platform.PropertyInt</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_int"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>FMODUnity.Platform.PropertySpeakerMode</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_speaker_mode"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FMODUnity.Platform.PropertyStorage</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_storage"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>LiveUpdate</edgelabel>
+          <edgelabel>Logging</edgelabel>
+          <edgelabel>Overlay</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>DSPBufferCount</edgelabel>
+          <edgelabel>DSPBufferLength</edgelabel>
+          <edgelabel>LiveUpdatePort</edgelabel>
+          <edgelabel>RealChannelCount</edgelabel>
+          <edgelabel>SampleRate</edgelabel>
+          <edgelabel>VirtualChannelCount</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>BuildDirectory</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>SpeakerMode</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>Plugins</edgelabel>
+          <edgelabel>StaticPlugins</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>CallbackHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>FMODUnity.Platform.PropertyString</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_string"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>FMODUnity.Platform.PropertyStringList</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_string_list"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Property&lt; FMOD.SPEAKERMODE &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="15">
+        <label>Property&lt; List&lt; string &gt; &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="17">
+        <label>Property&lt; PlatformCallbackHandler &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="7">
+        <label>Property&lt; TriStateBool &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="9">
+        <label>Property&lt; int &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="11">
+        <label>Property&lt; string &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>UnityEditorInternal::ReorderableList</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2413" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2414" bodyend="2524"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a805a084e33ef641920c42dbe6d60bc7e" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>AddElement</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a5014e763a7e3912b726fafbe46d43486" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>AffirmOverriddenList</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1ab409dd9b1f9cf581a95ee0b2c85234bf" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>displayList</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a48da7acf38897a6a699f10019600dd73" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>DrawElement</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1abc0add3b8b8446fd6b158cc83a6378dd" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>DrawLayout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1ab49c3c8ba1adfe174cd8c00646af5c5c" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>ElementPadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a03eb7e35394bf90cc0d39b74ba400870" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>IsReloadNeeded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1aac3b1b80dce1106a69e46f98a2e2e833" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>OnReorder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1affe5b07fb80c4e3e0a944a4c613e4d84" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>platform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1a26b7e94941d3f1cf73ed908211a43cd6" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>PlatformPropertyStringListView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1ae3b9d9f09f9469379a75c4d3f912c2b6" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>property</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_platform_property_string_list_view_1adec316e2b9660b73fc231c7c24eb96c1" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::PlatformPropertyStringListView</scope><name>RemoveElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

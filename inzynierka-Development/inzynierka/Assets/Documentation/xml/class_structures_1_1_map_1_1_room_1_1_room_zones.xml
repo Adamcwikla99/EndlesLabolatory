@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_room_1_1_room_zones" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::Room::RoomZones</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a18503c7f4f02ebe9ae0750dd2dda04d1" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+        <definition>RoomGridCell Structures.Map.Room.RoomZones.zoneType</definition>
+        <argsstring></argsstring>
+        <name>zoneType</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.zoneType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="13" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a175083563a699cdd2186c94843c61ac9" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>List&lt;CordsXY&gt; Structures.Map.Room.RoomZones.zoneCords</definition>
+        <argsstring></argsstring>
+        <name>zoneCords</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.zoneCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="14" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a1c5f7cc148fe4c95545c0418ffcdeb60" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Structures.Map.Room.RoomZones.gridSize</definition>
+        <argsstring></argsstring>
+        <name>gridSize</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.gridSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="15" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1aaa2ee3d0252deba2c1722574d563229b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.Room.RoomZones.RoomZones</definition>
+        <argsstring>(RoomGridCell zoneType, int gridSize)</argsstring>
+        <name>RoomZones</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.RoomZones</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>zoneType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gridSize</declname>
+        </param>
+        <briefdescription>
+<para>constructor that sets zone type and list of zone cords </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="23" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a5564a4efa1925a5ed892785adcd90577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.Room.RoomZones.RoomZones</definition>
+        <argsstring>(RoomZones toCopy)</argsstring>
+        <name>RoomZones</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.RoomZones</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref></type>
+          <declname>toCopy</declname>
+        </param>
+        <briefdescription>
+<para>constructor that sets zone type and list of zone cords </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="33" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a5c1b85a317803925575a47043d6cfc39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomZones.ZoneContainsCord</definition>
+        <argsstring>(CordsXY toCheck)</argsstring>
+        <name>ZoneContainsCord</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.ZoneContainsCord</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>toCheck</declname>
+        </param>
+        <briefdescription>
+<para>method that check if zone contains cord </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="46" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="46" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1aca4566371e65690b3acbc829427271a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+        <definition>RoomGridCell Structures.Map.Room.RoomZones.GetZoneType</definition>
+        <argsstring>()</argsstring>
+        <name>GetZoneType</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.GetZoneType</qualifiedname>
+        <briefdescription>
+<para>methode thar returns zone type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="68" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a66110655d7646e94e34553bc073ec7bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Room.RoomZones.AddNewCord</definition>
+        <argsstring>(CordsXY newCord)</argsstring>
+        <name>AddNewCord</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.AddNewCord</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>newCord</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds new cord to zone </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newCord</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="74" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a14e6c565e38beac5b1e13d289fc6e773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>List&lt; CordsXY &gt; Structures.Map.Room.RoomZones.GetRoomZoneCords</definition>
+        <argsstring>()</argsstring>
+        <name>GetRoomZoneCords</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.GetRoomZoneCords</qualifiedname>
+        <briefdescription>
+<para>methode that returns all zone cords </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="81" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_zones_1a06d0aa886b0e04cfb8204e22120b8923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Room.RoomZones.JoinZoneCords</definition>
+        <argsstring>(RoomZones toJoin)</argsstring>
+        <name>JoinZoneCords</name>
+        <qualifiedname>Structures.Map.Room.RoomZones.JoinZoneCords</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref></type>
+          <declname>toJoin</declname>
+        </param>
+        <briefdescription>
+<para>methode that joins two zones into one </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toJoin</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="87" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing room zones finding logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" line="9" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomZones.cs" bodystart="10" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a66110655d7646e94e34553bc073ec7bd" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>AddNewCord</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a14e6c565e38beac5b1e13d289fc6e773" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>GetRoomZoneCords</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1aca4566371e65690b3acbc829427271a4" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>GetZoneType</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a1c5f7cc148fe4c95545c0418ffcdeb60" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>gridSize</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a06d0aa886b0e04cfb8204e22120b8923" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>JoinZoneCords</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1aaa2ee3d0252deba2c1722574d563229b" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>RoomZones</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a5564a4efa1925a5ed892785adcd90577" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>RoomZones</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a5c1b85a317803925575a47043d6cfc39" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>ZoneContainsCord</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a175083563a699cdd2186c94843c61ac9" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>zoneCords</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_zones_1a18503c7f4f02ebe9ae0750dd2dda04d1" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomZones</scope><name>zoneType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

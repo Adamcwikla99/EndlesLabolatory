@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor" kind="struct" language="C#" prot="package">
+    <compoundname>FMODUnity::Platform::PropertyAccessor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FMODUnity.Platform.PropertyOverrideControl</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1a321417e1f6fda20adaa9f7411d53f403" prot="private" static="no" mutable="no">
+        <type>readonly Func&lt; <ref refid="class_f_m_o_d_unity_1_1_platform_1_1_property_storage" kindref="compound">PropertyStorage</ref>, <ref refid="class_f_m_o_d_unity_1_1_platform_1_1_property" kindref="compound">Property</ref>&lt; T &gt; &gt;</type>
+        <definition>readonly Func&lt;PropertyStorage, Property&lt;T&gt; &gt; FMODUnity.Platform.PropertyAccessor&lt; T &gt;.Getter</definition>
+        <argsstring></argsstring>
+        <name>Getter</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.Getter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="740" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ad0579314e1bbfa99a1d48c63fc089ec8" prot="private" static="no" mutable="no">
+        <type>readonly T</type>
+        <definition>readonly T FMODUnity.Platform.PropertyAccessor&lt; T &gt;.DefaultValue</definition>
+        <argsstring></argsstring>
+        <name>DefaultValue</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.DefaultValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="741" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="741" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ae5e9f328fd3584dab190fc78825a473c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.Platform.PropertyAccessor&lt; T &gt;.PropertyAccessor</definition>
+        <argsstring>(Func&lt; PropertyStorage, Property&lt; T &gt; &gt; getter, T defaultValue)</argsstring>
+        <name>PropertyAccessor</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.PropertyAccessor</qualifiedname>
+        <param>
+          <type>Func&lt; <ref refid="class_f_m_o_d_unity_1_1_platform_1_1_property_storage" kindref="compound">PropertyStorage</ref>, <ref refid="class_f_m_o_d_unity_1_1_platform_1_1_property" kindref="compound">Property</ref>&lt; T &gt; &gt;</type>
+          <declname>getter</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="743" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="743" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ad96757f5ea1ab284ce6db04626f6e1e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.Platform.PropertyAccessor&lt; T &gt;.HasValue</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>HasValue</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.HasValue</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="751" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="751" bodyend="754"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ae353abf03e530942c42020dd64723efc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T FMODUnity.Platform.PropertyAccessor&lt; T &gt;.Get</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>Get</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.Get</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="757" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="757" bodyend="780"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ab44d50c37dc1d6ded2e351e66b763b07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Platform.PropertyAccessor&lt; T &gt;.Set</definition>
+        <argsstring>(Platform platform, T value)</argsstring>
+        <name>Set</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.Set</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="784" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="784" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1a57c43f564980b1a0775b70cdbe2242a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Platform.PropertyAccessor&lt; T &gt;.Clear</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>Clear</name>
+        <qualifiedname>FMODUnity.Platform.PropertyAccessor.Clear</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="794" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="794" bodyend="797"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.Platform.PropertyAccessor&lt; T &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyOverrideControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.Platform.PropertyAccessor&lt; T &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyOverrideControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" line="738" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Platform.cs" bodystart="739" bodyend="798"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1a57c43f564980b1a0775b70cdbe2242a9" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>Clear</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ad0579314e1bbfa99a1d48c63fc089ec8" prot="private" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>DefaultValue</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ae353abf03e530942c42020dd64723efc" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>Get</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1a321417e1f6fda20adaa9f7411d53f403" prot="private" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>Getter</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ad96757f5ea1ab284ce6db04626f6e1e3" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>HasValue</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ae5e9f328fd3584dab190fc78825a473c" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>PropertyAccessor</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_platform_1_1_property_accessor_1ab44d50c37dc1d6ded2e351e66b763b07" prot="public" virt="non-virtual"><scope>FMODUnity::Platform::PropertyAccessor</scope><name>Set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

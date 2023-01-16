@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_turet_enemy_attack_ai" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::TuretEnemyAttackAi</compoundname>
+    <basecompoundref refid="class_enemy_attack_ai" prot="public" virt="non-virtual">EnemyAttackAi</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_turet_enemy_attack_ai_1a85f2c20bebebac26998b142e068af645" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_sound_1_1_enemy_fired" kindref="compound">EnemyFired</ref></type>
+        <definition>EnemyFired Room.RoomContent.TuretEnemyAttackAi.EnemyFireEffect</definition>
+        <argsstring></argsstring>
+        <name>EnemyFireEffect</name>
+        <qualifiedname>Room.RoomContent.TuretEnemyAttackAi.EnemyFireEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/TuretEnemyAttackAi.cs" line="17" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/TuretEnemyAttackAi.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_turet_enemy_attack_ai_1abe4bf206812517f6c9cf2c8ffa616826" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.TuretEnemyAttackAi.FireAtPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>FireAtPlayer</name>
+        <qualifiedname>Room.RoomContent.TuretEnemyAttackAi.FireAtPlayer</qualifiedname>
+        <reimplements refid="class_enemy_attack_ai_1a924145c19708889360bef937e6fe8122">FireAtPlayer</reimplements>
+        <briefdescription>
+<para>method responsible for initialization of fire at player action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/TuretEnemyAttackAi.cs" line="37" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/TuretEnemyAttackAi.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements turret enemy attack AI logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EnemyAttackAi</label>
+        <link refid="class_enemy_attack_ai"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.TuretEnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_turet_enemy_attack_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EnemyAttackAi</label>
+        <link refid="class_enemy_attack_ai"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.TuretEnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_turet_enemy_attack_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/TuretEnemyAttackAi.cs" line="12" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/TuretEnemyAttackAi.cs" bodystart="13" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_enemy_attack_ai_1a93c864b1668aea9611836b327048a6d0" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>Accuracy</name></member>
+      <member refid="class_enemy_attack_ai_1ad6ebd6b9fc49cefd0c2ef06ce93cf1b5" prot="public" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>AllowFire</name></member>
+      <member refid="class_enemy_attack_ai_1a2426dac58ede9cb787ddb01a9bdcf770" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>bonusDamage</name></member>
+      <member refid="class_enemy_attack_ai_1a8bdc8be9445584afbdea0fa1a5e9aee8" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>bonusSpeed</name></member>
+      <member refid="class_enemy_attack_ai_1a87f3ac88f65cbddeb9d3a0735ba63649" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>canFire</name></member>
+      <member refid="class_enemy_attack_ai_1ac1ac33b527e0de9fe9a31ec426d5dd7e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>ChangeCanFireState</name></member>
+      <member refid="class_enemy_attack_ai_1a061517f84b5c7ba0d6c3341cc47840f1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>currentReloadTime</name></member>
+      <member refid="class_room_1_1_room_content_1_1_turet_enemy_attack_ai_1a85f2c20bebebac26998b142e068af645" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_room_1_1_room_content_1_1_turet_enemy_attack_ai_1abe4bf206812517f6c9cf2c8ffa616826" prot="protected" virt="virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>FireAtPlayer</name></member>
+      <member refid="class_enemy_attack_ai_1a00431af181fa9725406d987358f78026" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>FireDeley</name></member>
+      <member refid="class_enemy_attack_ai_1ab329711f7fe6b375d608f5ae0c9b53a0" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>GetAccuracyError</name></member>
+      <member refid="class_enemy_attack_ai_1a66ad03a3873d6a3712961c25ee02ff6b" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>GetProjectileEvents</name></member>
+      <member refid="class_enemy_attack_ai_1a7fc4f9e17463f846375f1d62c75ee980" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>isReoladed</name></member>
+      <member refid="class_enemy_attack_ai_1a2330a97c54632c9e6daf6ecd7d3e43c4" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>playerObject</name></member>
+      <member refid="class_enemy_attack_ai_1a094d0fc2ac1cef02b33e1f082bd2ef95" prot="public" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>SetBonusStats</name></member>
+      <member refid="class_enemy_attack_ai_1a9991941982ad49b5a33d04c7535685ef" prot="public" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>SetPlayer</name></member>
+      <member refid="class_enemy_attack_ai_1aa52eb53209049f9f4bccc8867e441ea1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>UpdateActions</name></member>
+      <member refid="class_enemy_attack_ai_1a5183b33fabf526456befc771baf7fb85" prot="protected" virt="non-virtual"><scope>Room::RoomContent::TuretEnemyAttackAi</scope><name>UpdateReloadTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

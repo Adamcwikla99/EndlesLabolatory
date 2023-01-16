@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_sound_1_1_test_sound_player" kind="class" language="C#" prot="public">
+    <compoundname>Sound::TestSoundPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sound_1_1_test_sound_player_1a92be9429116631033c802f6f16a91dd2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StudioEventEmitter</type>
+        <definition>StudioEventEmitter Sound.TestSoundPlayer.Test</definition>
+        <argsstring></argsstring>
+        <name>Test</name>
+        <qualifiedname>Sound.TestSoundPlayer.Test</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" line="15" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sound_1_1_test_sound_player_1a91767c45954d131ecd3155598d9e1307" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sound.TestSoundPlayer.Play</definition>
+        <argsstring></argsstring>
+        <name>Play</name>
+        <qualifiedname>Sound.TestSoundPlayer.Play</qualifiedname>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" line="21" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sound_1_1_test_sound_player_1a28ce48a28ed8ff968d59943375d6e36b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sound.TestSoundPlayer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Sound.TestSoundPlayer.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_1_1_test_sound_player_1a21c48c2d9704e57a51145d09628e3c89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sound.TestSoundPlayer.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Sound.TestSoundPlayer.Update</qualifiedname>
+        <briefdescription>
+<para>methode that plays sound when value of bool variable was changed in editor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" line="35" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" bodystart="35" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements test sound logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Sound.TestSoundPlayer</label>
+        <link refid="class_sound_1_1_test_sound_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Sound.TestSoundPlayer</label>
+        <link refid="class_sound_1_1_test_sound_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/TestSoundPlayer.cs" bodystart="11" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_sound_1_1_test_sound_player_1a91767c45954d131ecd3155598d9e1307" prot="public" virt="non-virtual"><scope>Sound::TestSoundPlayer</scope><name>Play</name></member>
+      <member refid="class_sound_1_1_test_sound_player_1a28ce48a28ed8ff968d59943375d6e36b" prot="private" virt="non-virtual"><scope>Sound::TestSoundPlayer</scope><name>Start</name></member>
+      <member refid="class_sound_1_1_test_sound_player_1a92be9429116631033c802f6f16a91dd2" prot="private" virt="non-virtual"><scope>Sound::TestSoundPlayer</scope><name>Test</name></member>
+      <member refid="class_sound_1_1_test_sound_player_1a21c48c2d9704e57a51145d09628e3c89" prot="private" virt="non-virtual"><scope>Sound::TestSoundPlayer</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

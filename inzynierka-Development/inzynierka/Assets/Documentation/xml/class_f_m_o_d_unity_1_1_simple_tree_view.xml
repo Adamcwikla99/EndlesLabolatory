@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_simple_tree_view" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::SimpleTreeView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditor.IMGUI.Controls.TreeView</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_audio_source_item" prot="private">FMODUnity::SimpleTreeView::AudioSourceItem</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_parent_item" prot="private">FMODUnity::SimpleTreeView::ParentItem</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item" prot="private">FMODUnity::SimpleTreeView::SceneItem</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_simple_tree_view_1ae07d070a798d6dc0da9f9ab3fe11a86d" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SimpleTreeView.BodyHeight</definition>
+        <argsstring></argsstring>
+        <name>BodyHeight</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.BodyHeight</qualifiedname>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="952" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="952" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1ad525f8765681cc9e724558ba26c3e93d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SimpleTreeView.SimpleTreeView</definition>
+        <argsstring>(TreeViewState state)</argsstring>
+        <name>SimpleTreeView</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.SimpleTreeView</qualifiedname>
+        <param>
+          <type>TreeViewState</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="954" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="954" bodyend="959"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1a36f66757b7aeef7de5ac5c8899ac012d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SimpleTreeView.Drawlayout</definition>
+        <argsstring>()</argsstring>
+        <name>Drawlayout</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.Drawlayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1113" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1113" bodyend="1120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1a8fc5a596fbddb1ec2613facfbf2f4ac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SimpleTreeView.Toolbar</definition>
+        <argsstring>()</argsstring>
+        <name>Toolbar</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.Toolbar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1122" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1122" bodyend="1137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1a703ed8ab1cc70000439b890ac675aa1d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.SimpleTreeView.CanMultiSelect</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanMultiSelect</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.CanMultiSelect</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="961" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="961" bodyend="964"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1a90c0cabbed1f3101099edb5a64b58ada" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.SimpleTreeView.CanChangeExpandedState</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanChangeExpandedState</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.CanChangeExpandedState</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="966" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="966" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1a82cbc4464cdb023ce4cddb1f08e70629" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SimpleTreeView.SelectionChanged</definition>
+        <argsstring>(IList&lt; int &gt; selectedIds)</argsstring>
+        <name>SelectionChanged</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.SelectionChanged</qualifiedname>
+        <param>
+          <type>IList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="971" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="971" bodyend="992"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1a06ac4fc15aa9040a80303c3d0d671bcf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override TreeViewItem</type>
+        <definition>override TreeViewItem FMODUnity.SimpleTreeView.BuildRoot</definition>
+        <argsstring>()</argsstring>
+        <name>BuildRoot</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.BuildRoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="994" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="994" bodyend="1004"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1afc0ef035de869a39f62ff536e2fe80db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SimpleTreeView.CreateItems</definition>
+        <argsstring>(TreeViewItem root, AudioSource[] audioSources)</argsstring>
+        <name>CreateItems</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.CreateItems</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>AudioSource[]</type>
+          <declname>audioSources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1073" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1073" bodyend="1111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.SimpleTreeView</label>
+        <link refid="class_f_m_o_d_unity_1_1_simple_tree_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.SimpleTreeView</label>
+        <link refid="class_f_m_o_d_unity_1_1_simple_tree_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="950" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="951" bodyend="1138"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1ae07d070a798d6dc0da9f9ab3fe11a86d" prot="private" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>BodyHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1a06ac4fc15aa9040a80303c3d0d671bcf" prot="protected" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>BuildRoot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1a90c0cabbed1f3101099edb5a64b58ada" prot="protected" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>CanChangeExpandedState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1a703ed8ab1cc70000439b890ac675aa1d" prot="protected" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>CanMultiSelect</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1afc0ef035de869a39f62ff536e2fe80db" prot="private" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>CreateItems</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1a36f66757b7aeef7de5ac5c8899ac012d" prot="public" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>Drawlayout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1a82cbc4464cdb023ce4cddb1f08e70629" prot="protected" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>SelectionChanged</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1ad525f8765681cc9e724558ba26c3e93d" prot="public" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>SimpleTreeView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1a8fc5a596fbddb1ec2613facfbf2f4ac0" prot="public" virt="non-virtual"><scope>FMODUnity::SimpleTreeView</scope><name>Toolbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

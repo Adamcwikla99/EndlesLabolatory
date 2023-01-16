@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_interface_1_1_i_damage" kind="interface" language="C#" prot="public" abstract="yes">
+    <compoundname>Interface::IDamage</compoundname>
+    <derivedcompoundref refid="class_player_1_1_player" prot="public" virt="non-virtual">Player.Player</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_body" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldBody</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_canon" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.TuretEnemy.TurretCanon</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" prot="public" virt="non-virtual">Room.RoomContent.Enemys.RoomEntity</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.DeflectionObstacle</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.ExplosionObstacle</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.WallObstacle</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Interface.IDamage.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Interface.IDamage.TakeDamage</qualifiedname>
+        <reimplementedby refid="class_player_1_1_player_1a5821007c8cd53581720a7f6bc0f7fb82">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a97de17a80c82435429920de53c3d8f1f">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_body_1a4fdfd87c780a7e834e1397cfd266ade6">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_canon_1af4be69e5d1583677392745675e967f0c">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1ab29861744fdb149c7f1c0d567d283de5">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af500209a8af5ff7d47c9ac69b7c7516e">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a39dc25d6efce552af8966b75a623640f">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a4c5f1077767d93e6bc7652244849cfba">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle_1ab43991626e327549eb9f7c7998679715">TakeDamage</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Interface/IDamage.cs" line="10" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool Interface.IDamage.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Interface.IDamage.DeflectProjectile</qualifiedname>
+        <reimplementedby refid="class_player_1_1_player_1a1997a8d55ad3460a16c83cf9b93b116a">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_body_1ad73d3eedd245ad3df862422b7cb24644">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a286077ff3e6fe355b33a2c276e26543c">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_canon_1a3550e4e7cacf595428b35733559d274b">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body_1af95aef2bc069876f7e6716359adb5519">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a053c9c463e545dc8fd7c6a40e8b323cc">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle_1a5ff77b4409530da7c8d6e89aec1bea51">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a682e26af62cdf4e0aa9d3d150c283963">DeflectProjectile</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle_1a15e09a63026721a36128102389a72125">DeflectProjectile</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Interface/IDamage.cs" line="12" column="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_interface" kindref="compound">Interface</ref> containing damage receiving methode. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Interface.IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>Player.Player</label>
+        <link refid="class_player_1_1_player"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Room.RoomContent.Enemys.Normal.BaseEnemy.BaseEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldBody</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_body"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretCanon</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_canon"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretMainBody</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_main_body"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomContent.Enemys.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Room.RoomContent.Obsticle.DeflectionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Room.RoomContent.Obsticle.ExplosionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Room.RoomContent.Obsticle.WallObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Interface/IDamage.cs" line="6" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Interface/IDamage.cs" bodystart="7" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419" prot="public" virt="pure-virtual"><scope>Interface::IDamage</scope><name>DeflectProjectile</name></member>
+      <member refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2" prot="public" virt="pure-virtual"><scope>Interface::IDamage</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

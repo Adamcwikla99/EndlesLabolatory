@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_projectaile_1_1_arrow" kind="class" language="C#" prot="public">
+    <compoundname>Projectaile::Arrow</compoundname>
+    <basecompoundref refid="class_projectaile_1_1_projectile" prot="public" virt="non-virtual">Projectaile.Projectile</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projectaile_1_1_arrow_1a15fa366910c20d030002fba442dfb292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Arrow.Fire</definition>
+        <argsstring>(Quaternion rotation, Vector3 position, Vector3 velocity, float bonusDamage=0f, float bonusSpeed=0f)</argsstring>
+        <name>Fire</name>
+        <qualifiedname>Projectaile.Arrow.Fire</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1ae6edc884f488286584785fcc90b2d883">Fire</reimplements>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+          <defval>0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>methode that fires projectile </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Arrow.cs" line="15" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Arrow.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projectaile_1_1_arrow_1a2cc30ec2fce6fa1a00827b18522573e0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Arrow.OnHit</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnHit</name>
+        <qualifiedname>Projectaile.Arrow.OnHit</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1a108da1713bdd4eb5f5b7f45a4dd6dee5">OnHit</reimplements>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that determines collision behaviour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Arrow.cs" line="28" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Arrow.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing arrow projectile logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.Arrow</label>
+        <link refid="class_projectaile_1_1_arrow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.Arrow</label>
+        <link refid="class_projectaile_1_1_arrow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Projectaile.Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Arrow.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Arrow.cs" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_projectaile_1_1_projectile_1a7dbb111c64fc75d1f6d81e7fc241880b" prot="public" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>BaseDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a19dd989c9da4c107958c75b1021a9053" prot="public" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>BaseSpeed</name></member>
+      <member refid="class_projectaile_1_1_projectile_1aea0dbb373bd8d0ff4f8444621524e9c7" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>bonusDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a37324c9c477e4f0973fe53b7811f7894" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>DamageInterfaceCheck</name></member>
+      <member refid="class_projectaile_1_1_arrow_1a15fa366910c20d030002fba442dfb292" prot="public" virt="virtual"><scope>Projectaile::Arrow</scope><name>Fire</name></member>
+      <member refid="class_projectaile_1_1_projectile_1abe97d395ab55229a5c9a785d45999dac" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>ObjectHitEffect</name></member>
+      <member refid="class_projectaile_1_1_arrow_1a2cc30ec2fce6fa1a00827b18522573e0" prot="protected" virt="virtual"><scope>Projectaile::Arrow</scope><name>OnHit</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a9510afc22654bc44b122f7c758e22dc9" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>PlacementOffset</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2cd668d040b5b87934706e2771d34eb6" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>ProjectileRigidbody</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a150ed3816ccc67f4ae44b3bef1b762ae" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>QueReturnEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a085a3d99ff3594ed5fa5b35bfc56d4e1" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>ResetProjectile</name></member>
+      <member refid="class_projectaile_1_1_projectile_1ac084810e388444cbfdfb40390de01254" prot="protected" virt="virtual"><scope>Projectaile::Arrow</scope><name>SetProjectileParameters</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2da38201b5fece9ecb43b1d47658634d" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>Start</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a1bb7f45c0ae3f2527482c9ae7b0b0208" prot="protected" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>thisProjectile</name></member>
+      <member refid="class_projectaile_1_1_projectile_1ac09d12b4cae2915efb5b284b85228452" prot="public" virt="non-virtual"><scope>Projectaile::Arrow</scope><name>ThisType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

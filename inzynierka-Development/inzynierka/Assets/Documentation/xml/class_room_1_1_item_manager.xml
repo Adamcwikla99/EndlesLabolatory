@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_item_manager" kind="class" language="C#" prot="public">
+    <compoundname>Room::ItemManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_item_manager_1a6617d26482242ba609df4b3fc993fce4" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.ItemManager.ReloadItem</definition>
+        <argsstring></argsstring>
+        <name>ReloadItem</name>
+        <qualifiedname>Room.ItemManager.ReloadItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="16" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_item_manager_1a25a60912372fd019bb78325fc933f7b5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.ItemManager.DamageItem</definition>
+        <argsstring></argsstring>
+        <name>DamageItem</name>
+        <qualifiedname>Room.ItemManager.DamageItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="19" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_item_manager_1a15f904a054eabe8949f0c097200757c4" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.ItemManager.SpeedItem</definition>
+        <argsstring></argsstring>
+        <name>SpeedItem</name>
+        <qualifiedname>Room.ItemManager.SpeedItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="22" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_item_manager_1a4123db001860bfb2034455a8bdffbcaf" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_projectile_1_1_bullets_stats_events" kindref="compound">BulletsStatsEvents</ref></type>
+        <definition>BulletsStatsEvents Room.ItemManager.BulletStats</definition>
+        <argsstring></argsstring>
+        <name>BulletStats</name>
+        <qualifiedname>Room.ItemManager.BulletStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="25" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_room_1_1_item_manager_1aff35664bce05d48d3e04f85d01d7f8c4" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="namespace_structures_1_1_enums_1a142743985ca0abfba47884de37c46a11" kindref="member">BulletStatType</ref>, float &gt;</type>
+        <definition>System.Action&lt;BulletStatType, float&gt; Room.ItemManager.pickupItem</definition>
+        <argsstring></argsstring>
+        <name>pickupItem</name>
+        <qualifiedname>Room.ItemManager.pickupItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="31" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_item_manager_1a7777fb63c110d29ad0f7bbaa8b21b764" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Room.ItemManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="37" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_item_manager_1af4f905ca3c64244225425a346c8c13dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Room.ItemManager.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="42" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_item_manager_1a7434a398fdb5ab12f0400be6fbf66aa1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemManager.PlayerPickupItem</definition>
+        <argsstring>(BulletStatType type, float value)</argsstring>
+        <name>PlayerPickupItem</name>
+        <qualifiedname>Room.ItemManager.PlayerPickupItem</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a142743985ca0abfba47884de37c46a11" kindref="member">BulletStatType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>method that triggers adding bullet stats </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="54" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_item_manager_1a870dda7ba99b2cfe8a930b6aa1d769f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemManager.AddStat</definition>
+        <argsstring>(BulletStatType type, float value)</argsstring>
+        <name>AddStat</name>
+        <qualifiedname>Room.ItemManager.AddStat</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a142743985ca0abfba47884de37c46a11" kindref="member">BulletStatType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds stat according to picked up item <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="63" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="63" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_item_manager_1a4cc53e67ded7dc0d017ec8a1b8b61b83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemManager.RemoveItems</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveItems</name>
+        <qualifiedname>Room.ItemManager.RemoveItems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="81" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="81" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements item manager logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.ItemManager</label>
+        <link refid="class_room_1_1_item_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.ItemManager</label>
+        <link refid="class_room_1_1_item_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>pickupItem</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" line="11" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemManager.cs" bodystart="12" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_item_manager_1a870dda7ba99b2cfe8a930b6aa1d769f9" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>AddStat</name></member>
+      <member refid="class_room_1_1_item_manager_1a4123db001860bfb2034455a8bdffbcaf" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>BulletStats</name></member>
+      <member refid="class_room_1_1_item_manager_1a25a60912372fd019bb78325fc933f7b5" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>DamageItem</name></member>
+      <member refid="class_room_1_1_item_manager_1af4f905ca3c64244225425a346c8c13dd" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>OnDisable</name></member>
+      <member refid="class_room_1_1_item_manager_1a7777fb63c110d29ad0f7bbaa8b21b764" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>OnEnable</name></member>
+      <member refid="class_room_1_1_item_manager_1aff35664bce05d48d3e04f85d01d7f8c4" prot="public" virt="non-virtual"><scope>Room::ItemManager</scope><name>pickupItem</name></member>
+      <member refid="class_room_1_1_item_manager_1a7434a398fdb5ab12f0400be6fbf66aa1" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>PlayerPickupItem</name></member>
+      <member refid="class_room_1_1_item_manager_1a6617d26482242ba609df4b3fc993fce4" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>ReloadItem</name></member>
+      <member refid="class_room_1_1_item_manager_1a4cc53e67ded7dc0d017ec8a1b8b61b83" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>RemoveItems</name></member>
+      <member refid="class_room_1_1_item_manager_1a15f904a054eabe8949f0c097200757c4" prot="private" virt="non-virtual"><scope>Room::ItemManager</scope><name>SpeedItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

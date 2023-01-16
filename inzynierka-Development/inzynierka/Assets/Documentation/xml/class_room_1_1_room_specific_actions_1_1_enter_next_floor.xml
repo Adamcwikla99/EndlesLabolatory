@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_specific_actions_1_1_enter_next_floor" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomSpecificActions::EnterNextFloor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_specific_actions_1_1_enter_next_floor_1a7dddc9c78b5ed213b2235f20885c97c0" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_floor_1_1_floor_events" kindref="compound">FloorEvents</ref></type>
+        <definition>FloorEvents Room.RoomSpecificActions.EnterNextFloor.IndividualFloorEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualFloorEvents</name>
+        <qualifiedname>Room.RoomSpecificActions.EnterNextFloor.IndividualFloorEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" line="15" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_specific_actions_1_1_enter_next_floor_1a1e48546e986a12f853475794fa0d4ebe" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_game_1_1_game_score" kindref="compound">GameScore</ref></type>
+        <definition>GameScore Room.RoomSpecificActions.EnterNextFloor.ManageGameScore</definition>
+        <argsstring></argsstring>
+        <name>ManageGameScore</name>
+        <qualifiedname>Room.RoomSpecificActions.EnterNextFloor.ManageGameScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" line="18" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_specific_actions_1_1_enter_next_floor_1aab5507af3ac1042d3d9d400a87af8ec9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomSpecificActions.EnterNextFloor.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Room.RoomSpecificActions.EnterNextFloor.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that generates next floor after entering portal generated after defeating the boss </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" line="26" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements floor changing logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomSpecificActions.EnterNextFloor</label>
+        <link refid="class_room_1_1_room_specific_actions_1_1_enter_next_floor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomSpecificActions.EnterNextFloor</label>
+        <link refid="class_room_1_1_room_specific_actions_1_1_enter_next_floor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomSpecificActions/EnterNextFloor.cs" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_specific_actions_1_1_enter_next_floor_1a7dddc9c78b5ed213b2235f20885c97c0" prot="private" virt="non-virtual"><scope>Room::RoomSpecificActions::EnterNextFloor</scope><name>IndividualFloorEvents</name></member>
+      <member refid="class_room_1_1_room_specific_actions_1_1_enter_next_floor_1a1e48546e986a12f853475794fa0d4ebe" prot="private" virt="non-virtual"><scope>Room::RoomSpecificActions::EnterNextFloor</scope><name>ManageGameScore</name></member>
+      <member refid="class_room_1_1_room_specific_actions_1_1_enter_next_floor_1aab5507af3ac1042d3d9d400a87af8ec9" prot="private" virt="non-virtual"><scope>Room::RoomSpecificActions::EnterNextFloor</scope><name>OnTriggerEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

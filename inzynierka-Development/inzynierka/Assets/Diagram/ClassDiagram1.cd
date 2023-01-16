@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Projectaile.Projectile">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQAAACAAAAAAAAICAAUAEAAEAAJIAAACgAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectaile.ProjectilePoller">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAACAAAAAAFAgAAACQAAAAAAAMAAEACgAACAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\ProjectilePoller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectaile.Arrow">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\Arrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectaile.Bullet">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectaile.EnemyProjectile">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAEAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\EnemyProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectaile.Grenade">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAAAAAAAAAsQAgAEBABIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\Grenade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectaile.Rocket">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAEAAAASCDAAAAAwAAAkAABIAAAAAAACCAA=</HashCode>
+      <FileName>Assets\Scripts\Projectaile\Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.RoomEntity">
+    <Position X="6.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAIAACAAAAIAAMAFAIACACwAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\RoomEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Room.RoomContent.Enemys.Boss.BossEnemy">
+    <Position X="4.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABASAAAAAAAAAAQgAAAIAAAAAAAAAAgAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Enemys\Boss\TempBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Enemys.Normal.BaseEnemy">
+    <Position X="6" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQABgBASAAAAAAAAAAAgAAAAAAAAAAACAAACAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Enemys\Normal\BaseEnemy\BaseEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController">
+    <Position X="7.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAoACQAAABAAAAAAAAAAACAAgCAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Enemys\Normal\ShieldEnemy\ShieldController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Enemys.Normal.TuretEnemy.TurretController">
+    <Position X="9.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAACIAAAoACQCAAhAAAQAAAAQAACAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Enemys\Normal\TuretEnemy\TurretController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy">
+    <Position X="11.25" Y="15" Width="1.5" />
+    <InheritanceLine Type="Room.RoomContent.RoomEntity" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="14.386" />
+        <Point X="7.5" Y="14.7" />
+        <Point X="12" Y="14.7" />
+        <Point X="12" Y="15" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Enemys\Normal\WallEnemy\WallEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.RoomContent">
+    <Position X="8.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAAAAAAAAAAAAABAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\RoomContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.Menu.Pages.UIMenu">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAABAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\UIMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreditsMenu">
+    <Position X="22" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\CreditsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndGameMenu">
+    <Position X="24" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAABAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\EndGameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.Menu.Pages.EndGamePopup">
+    <Position X="26" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAkAgAAiAAAAAIQAAAAAgAAaAAAAAAAAAAAABAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\EndGamePopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.Menu.Pages.MainMenu">
+    <Position X="30" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAAAAAQAQgEIAAAAAgAACAAAAAIAAABABCAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionsMenu">
+    <Position X="32" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAIEBAAQAAAAAAAAECAAAAAAAAAAAFAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.Menu.Pages.PauseMenu">
+    <Position X="28" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAkAiAAiAAAAAIQAAAAAgAAaAAAAAAAAAAAABAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu\Pages\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.RoomObstacle" Collapsed="true">
+    <Position X="10.75" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="Room.RoomContent.RoomContent" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="10.25" />
+        <Point X="10.75" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\RoomObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Obsticle.DeflectionObstacle">
+    <Position X="11" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Obsticle\DeflectionObstacle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Room.RoomContent.Obsticle.ExplosionObstacle">
+    <Position X="12.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAAAAAwAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Obsticle\ExplosionObstacle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Room.RoomContent.Obsticle.FireZone">
+    <Position X="14.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAgAAAAAAAgAAAAABAAAAAAAAIAAQIAAAACAFAE=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Obsticle\FireZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Obsticle.SlowZone">
+    <Position X="16.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAACABAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Obsticle\SlowZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Obsticle.WallObstacle">
+    <Position X="18" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAwAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Obsticle\WallObstacle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Room.RoomContent.Drop.Drop">
+    <Position X="22.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAoAAIAAAAQAAAAAAAAAAAAAAABAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Drop\Drop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Drop.AmmunitionDrop">
+    <Position X="21.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAAAAAAAAAAAAAAAAIAQQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Drop\AmmunitionDrop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room.RoomContent.Drop.StatsDrop">
+    <Position X="23.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAACAAAAARAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Room\RoomContent\Drop\StatsDrop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

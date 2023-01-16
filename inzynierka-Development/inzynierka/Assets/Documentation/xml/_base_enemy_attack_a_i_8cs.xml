@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_base_enemy_attack_a_i_8cs" kind="file" language="C#">
+    <compoundname>BaseEnemyAttackAI.cs</compoundname>
+    <innerclass refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i" prot="public">Room::RoomContent::Enemys::Normal::BaseEnemy::BaseEnemyAttackAI</innerclass>
+    <innernamespace refid="namespace_room">Room</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content">Room::RoomContent</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content_1_1_enemys">Room::RoomContent::Enemys</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content_1_1_enemys_1_1_normal">Room::RoomContent::Enemys::Normal</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy">Room::RoomContent::Enemys::Normal::BaseEnemy</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_projectaile" kindref="compound">Projectaile</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy" kindref="compound">Room.RoomContent.Enemys.Normal.BaseEnemy</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i" kindref="compound">BaseEnemyAttackAI</ref><sp/>:<sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai" kindref="compound">EnemyAttackAi</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[field:<sp/>SerializeField]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy" kindref="compound">BaseEnemy</ref><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i_1a79817819e1e2ec89064a0930377590b4" kindref="member">ThisEnemyObject</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.ThisEnemyObject<sp/>=<sp/>this.gameObject.GetComponent&lt;<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy" kindref="compound">BaseEnemy</ref>&gt;();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i_1ae0c257185809b85ae1b1163e12e5595a" kindref="member">FireAtPlayer</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectile</ref><sp/>toFire<sp/>=<sp/>this.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a52e183ccf07c97c6008fb8dc4c5c0415" kindref="member">GetProjectileEvents</ref>.GetProjectile?.Invoke(<ref refid="namespace_structures" kindref="compound">Structures</ref>.<ref refid="namespace_structures_1_1_enums" kindref="compound">Enums</ref>.ProjectileType.Enemy);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isReoladed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.LookAt(this.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abcbe9dc9ff314af090f1255a742715d1" kindref="member">playerObject</ref>.transform);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toFire.<ref refid="class_projectaile_1_1_projectile_1ae6edc884f488286584785fcc90b2d883" kindref="member">Fire</ref>(this.transform.rotation,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.transform.position,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.transform.forward<sp/>+<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.GetAccuracyError(),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.bonusDamage,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.bonusSpeed);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i_1a79817819e1e2ec89064a0930377590b4" kindref="member">ThisEnemyObject</ref>?.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_1a9f0347b68705c943b540c677c4f6b8ba" kindref="member">PlayFireSound</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/BaseEnemy/BaseEnemyAttackAI.cs"/>
+  </compounddef>
+</doxygen>

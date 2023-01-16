@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_room_1_1_hostile_room_events" kind="class" language="C#" prot="public">
+    <compoundname>Events::Room::HostileRoomEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_room_1_1_hostile_room_events_1a71f1b254eb778a8c131e0029c5b64e51" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>System.Action&lt;CordsXY&gt; Events.Room.HostileRoomEvents.ClearedRoom</definition>
+        <argsstring></argsstring>
+        <name>ClearedRoom</name>
+        <qualifiedname>Events.Room.HostileRoomEvents.ClearedRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/HostileRoomEvents.cs" line="12" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/HostileRoomEvents.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying room clear confirmation events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Room.HostileRoomEvents</label>
+        <link refid="class_events_1_1_room_1_1_hostile_room_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Room.HostileRoomEvents</label>
+        <link refid="class_events_1_1_room_1_1_hostile_room_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ClearedRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/HostileRoomEvents.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/HostileRoomEvents.cs" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_room_1_1_hostile_room_events_1a71f1b254eb778a8c131e0029c5b64e51" prot="public" virt="non-virtual"><scope>Events::Room::HostileRoomEvents</scope><name>ClearedRoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

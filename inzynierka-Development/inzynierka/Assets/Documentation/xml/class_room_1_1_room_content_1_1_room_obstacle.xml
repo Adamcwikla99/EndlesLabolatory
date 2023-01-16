@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_room_obstacle" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::RoomObstacle</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_room_content" prot="public" virt="non-virtual">Room.RoomContent.RoomContent</basecompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.DeflectionObstacle</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.ExplosionObstacle</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.FireZone</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_slow_zone" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.SlowZone</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.WallObstacle</derivedcompoundref>
+    <briefdescription>
+<para>Class that simplified polimorfizm operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_room_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Obsticle.DeflectionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomContent.Obsticle.ExplosionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomContent.Obsticle.FireZone</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Room.RoomContent.Obsticle.SlowZone</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_slow_zone"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Room.RoomContent.Obsticle.WallObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_room_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.EnemyRoomController</label>
+        <link refid="class_room_1_1_enemy_room_controller"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Structures.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomObstacle.cs" line="8" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomObstacle.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomObstacle</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb" prot="protected" virt="virtual"><scope>Room::RoomContent::RoomObstacle</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomObstacle</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomObstacle</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

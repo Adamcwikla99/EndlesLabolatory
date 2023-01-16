@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_player_1_1_player_movement_events" kind="class" language="C#" prot="public">
+    <compoundname>Events::Player::PlayerMovementEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_player_1_1_player_movement_events_1a1d19462a3ebba84204ef28778c8037bf" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; GameObject &gt;</type>
+        <definition>System.Action&lt;GameObject&gt; Events.Player.PlayerMovementEvents.PlayerCanJump</definition>
+        <argsstring></argsstring>
+        <name>PlayerCanJump</name>
+        <qualifiedname>Events.Player.PlayerMovementEvents.PlayerCanJump</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerMovementEvents.cs" line="11" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerMovementEvents.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying re-enable player jump event. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Player.PlayerMovementEvents</label>
+        <link refid="class_events_1_1_player_1_1_player_movement_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Player.PlayerMovementEvents</label>
+        <link refid="class_events_1_1_player_1_1_player_movement_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>PlayerCanJump</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerMovementEvents.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Player/PlayerMovementEvents.cs" bodystart="10" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_player_1_1_player_movement_events_1a1d19462a3ebba84204ef28778c8037bf" prot="public" virt="non-virtual"><scope>Events::Player::PlayerMovementEvents</scope><name>PlayerCanJump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

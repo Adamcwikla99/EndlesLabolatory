@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::StudioParameterTriggerEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a1a2de9cd9f4751a91617d09340b03ce7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+        <definition>StudioEventEmitter FMODUnity.StudioParameterTriggerEditor.targetEmitter</definition>
+        <argsstring></argsstring>
+        <name>targetEmitter</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.targetEmitter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="10" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a841244de50be7b9df2db0e7856792ac9" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.StudioParameterTriggerEditor.emitters</definition>
+        <argsstring></argsstring>
+        <name>emitters</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.emitters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="11" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1abe19dc3a46ffbdd02431622252c7c720" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.StudioParameterTriggerEditor.trigger</definition>
+        <argsstring></argsstring>
+        <name>trigger</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.trigger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="12" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a3a24e77f7200c1254618ce215b962189" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.StudioParameterTriggerEditor.tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="13" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a7a6f293a1ef26f16210a152eb9131a52" prot="private" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] FMODUnity.StudioParameterTriggerEditor.expanded</definition>
+        <argsstring></argsstring>
+        <name>expanded</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.expanded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="15" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a81fae55740645fd04cbc14214ffa39c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioParameterTriggerEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="17" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="17" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1aa0f1571a7ea4b3d9776ab7a08f912f2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.StudioParameterTriggerEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <qualifiedname>FMODUnity.StudioParameterTriggerEditor.OnInspectorGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="34" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="34" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.StudioParameterTriggerEditor</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.StudioParameterTriggerEditor</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs" bodystart="9" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a841244de50be7b9df2db0e7856792ac9" prot="private" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>emitters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a7a6f293a1ef26f16210a152eb9131a52" prot="private" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>expanded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a81fae55740645fd04cbc14214ffa39c5" prot="private" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1aa0f1571a7ea4b3d9776ab7a08f912f2e" prot="public" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a3a24e77f7200c1254618ce215b962189" prot="private" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>tag</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1a1a2de9cd9f4751a91617d09340b03ce7" prot="private" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>targetEmitter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_parameter_trigger_editor_1abe19dc3a46ffbdd02431622252c7c720" prot="private" virt="non-virtual"><scope>FMODUnity::StudioParameterTriggerEditor</scope><name>trigger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_projectaile_1_1_enemy_projectile" kind="class" language="C#" prot="public">
+    <compoundname>Projectaile::EnemyProjectile</compoundname>
+    <basecompoundref refid="class_projectaile_1_1_projectile" prot="public" virt="non-virtual">Projectaile.Projectile</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projectaile_1_1_enemy_projectile_1a6c6630ad23ed2449c5f8735d67cecc97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.EnemyProjectile.Fire</definition>
+        <argsstring>(Quaternion rotation, Vector3 position, Vector3 velocity, float bonusDamage=0f, float bonusSpeed=0f)</argsstring>
+        <name>Fire</name>
+        <qualifiedname>Projectaile.EnemyProjectile.Fire</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1ae6edc884f488286584785fcc90b2d883">Fire</reimplements>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+          <defval>0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>methode that fires projectile </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" line="16" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" bodystart="16" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projectaile_1_1_enemy_projectile_1af002fac78c74c503524f3951efe6b109" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.EnemyProjectile.OnHit</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnHit</name>
+        <qualifiedname>Projectaile.EnemyProjectile.OnHit</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1a108da1713bdd4eb5f5b7f45a4dd6dee5">OnHit</reimplements>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that determines collision behaviour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" line="27" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_enemy_projectile_1a8a5f8491ac681a5dafb579c8c1b08cd1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.EnemyProjectile.SetProjectileParameters</definition>
+        <argsstring>(Quaternion rotation, Vector3 position, Vector3 velocity, float bonusDamage=0f, float bonusSpeed=0f)</argsstring>
+        <name>SetProjectileParameters</name>
+        <qualifiedname>Projectaile.EnemyProjectile.SetProjectileParameters</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1ac084810e388444cbfdfb40390de01254">SetProjectileParameters</reimplements>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+          <defval>0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>methode that sets projectile parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" line="38" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing enemy projectile projectile logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.EnemyProjectile</label>
+        <link refid="class_projectaile_1_1_enemy_projectile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.EnemyProjectile</label>
+        <link refid="class_projectaile_1_1_enemy_projectile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Projectaile.Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/EnemyProjectile.cs" bodystart="10" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_projectaile_1_1_projectile_1a7dbb111c64fc75d1f6d81e7fc241880b" prot="public" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>BaseDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a19dd989c9da4c107958c75b1021a9053" prot="public" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>BaseSpeed</name></member>
+      <member refid="class_projectaile_1_1_projectile_1aea0dbb373bd8d0ff4f8444621524e9c7" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>bonusDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a37324c9c477e4f0973fe53b7811f7894" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>DamageInterfaceCheck</name></member>
+      <member refid="class_projectaile_1_1_enemy_projectile_1a6c6630ad23ed2449c5f8735d67cecc97" prot="public" virt="virtual"><scope>Projectaile::EnemyProjectile</scope><name>Fire</name></member>
+      <member refid="class_projectaile_1_1_projectile_1abe97d395ab55229a5c9a785d45999dac" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>ObjectHitEffect</name></member>
+      <member refid="class_projectaile_1_1_enemy_projectile_1af002fac78c74c503524f3951efe6b109" prot="protected" virt="virtual"><scope>Projectaile::EnemyProjectile</scope><name>OnHit</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a9510afc22654bc44b122f7c758e22dc9" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>PlacementOffset</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2cd668d040b5b87934706e2771d34eb6" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>ProjectileRigidbody</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a150ed3816ccc67f4ae44b3bef1b762ae" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>QueReturnEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a085a3d99ff3594ed5fa5b35bfc56d4e1" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>ResetProjectile</name></member>
+      <member refid="class_projectaile_1_1_enemy_projectile_1a8a5f8491ac681a5dafb579c8c1b08cd1" prot="protected" virt="virtual"><scope>Projectaile::EnemyProjectile</scope><name>SetProjectileParameters</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2da38201b5fece9ecb43b1d47658634d" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>Start</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a1bb7f45c0ae3f2527482c9ae7b0b0208" prot="protected" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>thisProjectile</name></member>
+      <member refid="class_projectaile_1_1_projectile_1ac09d12b4cae2915efb5b284b85228452" prot="public" virt="non-virtual"><scope>Projectaile::EnemyProjectile</scope><name>ThisType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_projectile_1_1_projectile_returner" kind="class" language="C#" prot="public">
+    <compoundname>Events::Projectile::ProjectileReturner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_projectile_1_1_projectile_returner_1a61aff7f5cd5feddd65fc326e4573a312" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectaile.Projectile</ref>, <ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">ProjectileType</ref> &gt;</type>
+        <definition>System.Action&lt;Projectaile.Projectile, ProjectileType&gt; Events.Projectile.ProjectileReturner.ReturnToQue</definition>
+        <argsstring></argsstring>
+        <name>ReturnToQue</name>
+        <qualifiedname>Events.Projectile.ProjectileReturner.ReturnToQue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileReturner.cs" line="12" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileReturner.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying item return to que events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Projectile.ProjectileReturner</label>
+        <link refid="class_events_1_1_projectile_1_1_projectile_returner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Projectile.ProjectileReturner</label>
+        <link refid="class_events_1_1_projectile_1_1_projectile_returner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ReturnToQue</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileReturner.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Projectile/ProjectileReturner.cs" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_projectile_1_1_projectile_returner_1a61aff7f5cd5feddd65fc326e4573a312" prot="public" virt="non-virtual"><scope>Events::Projectile::ProjectileReturner</scope><name>ReturnToQue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

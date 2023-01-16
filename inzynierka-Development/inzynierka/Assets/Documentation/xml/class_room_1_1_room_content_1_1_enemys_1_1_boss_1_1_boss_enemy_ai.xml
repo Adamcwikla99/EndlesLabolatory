@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Boss::BossEnemyAi</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.EnemyAI</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a65fa7e7455579e28e83feeefea220309" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" kindref="compound">BossEnemyAttackAi</ref></type>
+        <definition>BossEnemyAttackAi Room.RoomContent.Enemys.Boss.BossEnemyAi.EnemyAttackController</definition>
+        <argsstring></argsstring>
+        <name>EnemyAttackController</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.EnemyAttackController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="16" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1ac86ee90deebaf1264ba4aba85a5559d3" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Boss.BossEnemyAi.FireDistance</definition>
+        <argsstring></argsstring>
+        <name>FireDistance</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.FireDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="21" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a1a9810dbc1aa267d5bcb37e4430ebd8e" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Boss.BossEnemyAi.StopFollowDistance</definition>
+        <argsstring></argsstring>
+        <name>StopFollowDistance</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.StopFollowDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="24" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a764b50d8456a07ead5de013e13ed0569" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Boss.BossEnemyAi.movmentSpeed</definition>
+        <argsstring></argsstring>
+        <name>movmentSpeed</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.movmentSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="27" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a84a4d1490b3a65d944cbca5655f5b69f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Boss.BossEnemyAi.reloadCountdown</definition>
+        <argsstring></argsstring>
+        <name>reloadCountdown</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.reloadCountdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="32" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1ae65f7b23de7df849683a7b94a81d70ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Boss.BossEnemyAi.lastSeenStatus</definition>
+        <argsstring></argsstring>
+        <name>lastSeenStatus</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.lastSeenStatus</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a4e314d3846011193dd745b4ec03a8450" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Boss.BossEnemyAi.newSeenStatus</definition>
+        <argsstring></argsstring>
+        <name>newSeenStatus</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.newSeenStatus</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a0fc8ef9b50ac6755a35ec7f1142ab58b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Boss.BossEnemyAi.CanSeePlayer</definition>
+        <argsstring>()</argsstring>
+        <name>CanSeePlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.CanSeePlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a281cb3306e1b1ab5b666565569e29e41">CanSeePlayer</reimplements>
+        <briefdescription>
+<para>methode that determins if boss can see player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="42" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="42" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a8ca747f5bfceedb75ca3d081c9102df6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Boss.BossEnemyAi.SetFoundPlayer</definition>
+        <argsstring>(GameObject player)</argsstring>
+        <name>SetFoundPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.SetFoundPlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a2330e5df77339baea4b91bb071e1c6b8">SetFoundPlayer</reimplements>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets reference to player gameobject </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="97" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1aa15d316f0e69ed5fa6768d37b36c062f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemyAi.ToggleFire</definition>
+        <argsstring>(RaycastHit hit, Vector3 playerDirection)</argsstring>
+        <name>ToggleFire</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.ToggleFire</qualifiedname>
+        <param>
+          <type>RaycastHit</type>
+          <declname>hit</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that allows for performing fire action if conditions are meet </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="60" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="60" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1ad2579e9ea05f682deb60ed0b9519b534" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemyAi.TryFollowPlayer</definition>
+        <argsstring>(Vector3 playerDirection)</argsstring>
+        <name>TryFollowPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.TryFollowPlayer</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that trys to move boss to player gameobject </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="75" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a2b0387420892a4e5b70e819595892db6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemyAi.FollowPlayer</definition>
+        <argsstring>(Vector3 playerDirection)</argsstring>
+        <name>FollowPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAi.FollowPlayer</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that makes boss follows player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="88" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="88" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements boss enemy AI logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemyAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemyAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAi.cs" bodystart="10" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a0fc8ef9b50ac6755a35ec7f1142ab58b" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>CanSeePlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a8b921ec3a85ee2a5fbb184f8148edd5e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>detectedPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4f2ce267a30eca56bb470709ccbddf0d" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>DisableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1af0a4d7e715891015301ca2244b6878e1" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>EnableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a65fa7e7455579e28e83feeefea220309" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>EnemyAttackController</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1ac86ee90deebaf1264ba4aba85a5559d3" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>FireDistance</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a2b0387420892a4e5b70e819595892db6" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>FollowPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1afb1705769ff4049a725ce5739ee432c8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>FoundPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1ae65f7b23de7df849683a7b94a81d70ba" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>lastSeenStatus</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a91b09f1f9fb121e4de332137d51a1d94" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>Mask</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a764b50d8456a07ead5de013e13ed0569" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>movmentSpeed</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a4e314d3846011193dd745b4ec03a8450" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>newSeenStatus</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4452b7332ee4bae54e37d9bb06eb1451" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>Player</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a9dd101342db3c1f15fb3d56429805009" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>PlayerObject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a84a4d1490b3a65d944cbca5655f5b69f" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>reloadCountdown</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a8ca747f5bfceedb75ca3d081c9102df6" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>SetFoundPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a1a9810dbc1aa267d5bcb37e4430ebd8e" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>StopFollowDistance</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1aa15d316f0e69ed5fa6768d37b36c062f" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>ToggleFire</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1ad2579e9ea05f682deb60ed0b9519b534" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>TryFollowPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ab676dddc2dbb697ad15f0e3751080efe" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAi</scope><name>wasPlayerDetected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

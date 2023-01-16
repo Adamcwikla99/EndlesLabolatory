@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_scenes_manager_1_1_room_content_manager" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager::RoomContentManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scenes_manager_1_1_room_content_manager_1a1b3935eae98369409d73aef6bb758e54" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_enemys_1_1_entity_party" kindref="compound">EntityParty</ref> &gt;</type>
+        <definition>List&lt;EntityParty&gt; ScenesManager.RoomContentManager.EntityList</definition>
+        <argsstring></argsstring>
+        <name>EntityList</name>
+        <qualifiedname>ScenesManager.RoomContentManager.EntityList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="18" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_room_content_manager_1a12282f922517e3fc498a190206866890" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref> &gt;</type>
+        <definition>List&lt;RoomObstacle&gt; ScenesManager.RoomContentManager.ObsticleList</definition>
+        <argsstring></argsstring>
+        <name>ObsticleList</name>
+        <qualifiedname>ScenesManager.RoomContentManager.ObsticleList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="21" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_room_content_manager_1a5aa973dd1e6f2eb5be459e6b810ce2a3" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_content_1_1_room_content_getter" kindref="compound">RoomContentGetter</ref></type>
+        <definition>RoomContentGetter ScenesManager.RoomContentManager.ContentGetter</definition>
+        <argsstring></argsstring>
+        <name>ContentGetter</name>
+        <qualifiedname>ScenesManager.RoomContentManager.ContentGetter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="24" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1aa5595a0c2b15913ac1a44d5e60c20788" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomContentManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ScenesManager.RoomContentManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="29" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1af174478c5ae99929d9ec2ffbe980bdea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomContentManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>ScenesManager.RoomContentManager.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="34" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1a3fb82c530363513f2436fed2cdc2d3a0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_entity_party" kindref="compound">EntityParty</ref></type>
+        <definition>EntityParty ScenesManager.RoomContentManager.GetRandomRoomEntity</definition>
+        <argsstring>()</argsstring>
+        <name>GetRandomRoomEntity</name>
+        <qualifiedname>ScenesManager.RoomContentManager.GetRandomRoomEntity</qualifiedname>
+        <briefdescription>
+<para>method that return random room entity from entity list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="45" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1a7ea7a984066e13ccdd790eddec4ddfec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_enemys_1_1_entity_party" kindref="compound">EntityParty</ref> &gt;</type>
+        <definition>List&lt; EntityParty &gt; ScenesManager.RoomContentManager.GetRoomEntityList</definition>
+        <argsstring>()</argsstring>
+        <name>GetRoomEntityList</name>
+        <qualifiedname>ScenesManager.RoomContentManager.GetRoomEntityList</qualifiedname>
+        <briefdescription>
+<para>method that returns room entity list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="50" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1aa8fc2c11624e8681ac06bd2a9ec41270" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_entity_party" kindref="compound">EntityParty</ref></type>
+        <definition>EntityParty ScenesManager.RoomContentManager.GetRoomEntity</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetRoomEntity</name>
+        <qualifiedname>ScenesManager.RoomContentManager.GetRoomEntity</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>method that returns room entity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="55" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1a9c48e0a8890e72f2ab768ef452957589" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref></type>
+        <definition>RoomObstacle ScenesManager.RoomContentManager.GetRoomObstacle</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetRoomObstacle</name>
+        <qualifiedname>ScenesManager.RoomContentManager.GetRoomObstacle</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>method that returns room obstacle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="60" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1ac358e2d436d26283469425bd19a97ad0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref></type>
+        <definition>RoomObstacle ScenesManager.RoomContentManager.GetRandomRoomObstacle</definition>
+        <argsstring>()</argsstring>
+        <name>GetRandomRoomObstacle</name>
+        <qualifiedname>ScenesManager.RoomContentManager.GetRandomRoomObstacle</qualifiedname>
+        <briefdescription>
+<para>method that returns random room obstacle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="65" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1a113cf80f98e85e7d335a17b51ba25ab6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" kindref="compound">RoomObstacle</ref> &gt;</type>
+        <definition>List&lt; RoomObstacle &gt; ScenesManager.RoomContentManager.GetRoomObstacleList</definition>
+        <argsstring>()</argsstring>
+        <name>GetRoomObstacleList</name>
+        <qualifiedname>ScenesManager.RoomContentManager.GetRoomObstacleList</qualifiedname>
+        <briefdescription>
+<para>method that returns room obstacles list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="70" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1a59791b9a556f226415a12241f5252ba3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomContentManager.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>ScenesManager.RoomContentManager.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables room content list methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="75" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_room_content_manager_1a3f262a80ce0af696c9583abe9f1be130" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomContentManager.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>ScenesManager.RoomContentManager.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables room content list methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="88" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="88" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that oversees room content. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.RoomContentManager</label>
+        <link refid="class_scenes_manager_1_1_room_content_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.RoomContentManager</label>
+        <link refid="class_scenes_manager_1_1_room_content_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" line="13" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomContentManager.cs" bodystart="14" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a5aa973dd1e6f2eb5be459e6b810ce2a3" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>ContentGetter</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a3f262a80ce0af696c9583abe9f1be130" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>DisableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a59791b9a556f226415a12241f5252ba3" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>EnableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a1b3935eae98369409d73aef6bb758e54" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>EntityList</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a3fb82c530363513f2436fed2cdc2d3a0" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>GetRandomRoomEntity</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1ac358e2d436d26283469425bd19a97ad0" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>GetRandomRoomObstacle</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1aa8fc2c11624e8681ac06bd2a9ec41270" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>GetRoomEntity</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a7ea7a984066e13ccdd790eddec4ddfec" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>GetRoomEntityList</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a9c48e0a8890e72f2ab768ef452957589" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>GetRoomObstacle</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a113cf80f98e85e7d335a17b51ba25ab6" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>GetRoomObstacleList</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1a12282f922517e3fc498a190206866890" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>ObsticleList</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1af174478c5ae99929d9ec2ffbe980bdea" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>OnDisable</name></member>
+      <member refid="class_scenes_manager_1_1_room_content_manager_1aa5595a0c2b15913ac1a44d5e60c20788" prot="private" virt="non-virtual"><scope>ScenesManager::RoomContentManager</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

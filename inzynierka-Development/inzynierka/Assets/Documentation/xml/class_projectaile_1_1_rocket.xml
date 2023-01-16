@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_projectaile_1_1_rocket" kind="class" language="C#" prot="public">
+    <compoundname>Projectaile::Rocket</compoundname>
+    <basecompoundref refid="class_projectaile_1_1_projectile" prot="public" virt="non-virtual">Projectaile.Projectile</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_projectaile_1_1_rocket_1a2d2a216a2b5ca2b1eaf61e5c8d6a4836" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem Projectaile.Rocket.SmokeParticles</definition>
+        <argsstring></argsstring>
+        <name>SmokeParticles</name>
+        <qualifiedname>Projectaile.Rocket.SmokeParticles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="14" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_projectaile_1_1_rocket_1a351464181b25dafdbfdf6aca133e4764" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem Projectaile.Rocket.FireParticles</definition>
+        <argsstring></argsstring>
+        <name>FireParticles</name>
+        <qualifiedname>Projectaile.Rocket.FireParticles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="17" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_projectaile_1_1_rocket_1aad94334215740b785819aa580c400dc1" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Projectaile.Rocket.ExplosionParticles</definition>
+        <argsstring></argsstring>
+        <name>ExplosionParticles</name>
+        <qualifiedname>Projectaile.Rocket.ExplosionParticles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="20" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_projectaile_1_1_rocket_1a8170aa92638ac9d67d2e4abe6c388185" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Projectaile.Rocket.ExplosionParticleSystem</definition>
+        <argsstring></argsstring>
+        <name>ExplosionParticleSystem</name>
+        <qualifiedname>Projectaile.Rocket.ExplosionParticleSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="23" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projectaile_1_1_rocket_1ae26bc9a28e724720d363246c8fa6c32f" prot="private" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Projectaile.Rocket.returnAfterDelay</definition>
+        <argsstring></argsstring>
+        <name>returnAfterDelay</name>
+        <qualifiedname>Projectaile.Rocket.returnAfterDelay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="28" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1a6f708478a1fd3e846553267104bda45f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Projectaile.Rocket.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1ab4afc8dccfcc242c22ead22703dd9e5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Projectaile.Rocket.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="38" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1a5537e64a8420b960bd1c668f2cd0ff33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.ActivateParticles</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateParticles</name>
+        <qualifiedname>Projectaile.Rocket.ActivateParticles</qualifiedname>
+        <briefdescription>
+<para>methode that activate particles emission </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="70" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1a1274523312a2cc39d03fad6df9953b61" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.DeactivateParticles</definition>
+        <argsstring>()</argsstring>
+        <name>DeactivateParticles</name>
+        <qualifiedname>Projectaile.Rocket.DeactivateParticles</qualifiedname>
+        <briefdescription>
+<para>methode that deactivate particles emission </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="79" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1a03d015f520515e7d44a401e65919d22a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.RocketHitCheck</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>RocketHitCheck</name>
+        <qualifiedname>Projectaile.Rocket.RocketHitCheck</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that checks if rocket hit any obect </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="89" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="89" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1a3a84151d6e1604f73d3f4e9ed6b85b2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.ReturnRocket</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnRocket</name>
+        <qualifiedname>Projectaile.Rocket.ReturnRocket</qualifiedname>
+        <briefdescription>
+<para>methode that returns rocket object to object pool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="112" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1afdc6e87501e95fa486ab80ce4444a76d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>Projectaile.Rocket.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="121" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1ad546cc03084d666c11aba4f5445efab8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Rocket.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>Projectaile.Rocket.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="129" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1aa8c208ecc81dedac56b1f1107c80aabe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Rocket.Fire</definition>
+        <argsstring>(Quaternion rotation, Vector3 position, Vector3 velocity, float bonusDamage=0f, float bonusSpeed=0f)</argsstring>
+        <name>Fire</name>
+        <qualifiedname>Projectaile.Rocket.Fire</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1ae6edc884f488286584785fcc90b2d883">Fire</reimplements>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+          <defval>0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>methode that fires projectile </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="49" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="49" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projectaile_1_1_rocket_1a6709d2404bbe5584d8c53a3e47a99fb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Rocket.OnHit</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnHit</name>
+        <qualifiedname>Projectaile.Rocket.OnHit</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1a108da1713bdd4eb5f5b7f45a4dd6dee5">OnHit</reimplements>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that determines collision behaviour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="62" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing rocket projectile logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.Rocket</label>
+        <link refid="class_projectaile_1_1_rocket"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.Rocket</label>
+        <link refid="class_projectaile_1_1_rocket"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Projectaile.Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Rocket.cs" bodystart="10" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_projectaile_1_1_rocket_1a5537e64a8420b960bd1c668f2cd0ff33" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ActivateParticles</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a7dbb111c64fc75d1f6d81e7fc241880b" prot="public" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>BaseDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a19dd989c9da4c107958c75b1021a9053" prot="public" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>BaseSpeed</name></member>
+      <member refid="class_projectaile_1_1_projectile_1aea0dbb373bd8d0ff4f8444621524e9c7" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>bonusDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a37324c9c477e4f0973fe53b7811f7894" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>DamageInterfaceCheck</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a1274523312a2cc39d03fad6df9953b61" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>DeactivateParticles</name></member>
+      <member refid="class_projectaile_1_1_rocket_1ad546cc03084d666c11aba4f5445efab8" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>DisableEvents</name></member>
+      <member refid="class_projectaile_1_1_rocket_1afdc6e87501e95fa486ab80ce4444a76d" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>EnableEvents</name></member>
+      <member refid="class_projectaile_1_1_rocket_1aad94334215740b785819aa580c400dc1" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ExplosionParticles</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a8170aa92638ac9d67d2e4abe6c388185" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ExplosionParticleSystem</name></member>
+      <member refid="class_projectaile_1_1_rocket_1aa8c208ecc81dedac56b1f1107c80aabe" prot="public" virt="virtual"><scope>Projectaile::Rocket</scope><name>Fire</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a351464181b25dafdbfdf6aca133e4764" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>FireParticles</name></member>
+      <member refid="class_projectaile_1_1_projectile_1abe97d395ab55229a5c9a785d45999dac" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ObjectHitEffect</name></member>
+      <member refid="class_projectaile_1_1_rocket_1ab4afc8dccfcc242c22ead22703dd9e5d" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>OnDisable</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a6f708478a1fd3e846553267104bda45f" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>OnEnable</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a6709d2404bbe5584d8c53a3e47a99fb0" prot="protected" virt="virtual"><scope>Projectaile::Rocket</scope><name>OnHit</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a9510afc22654bc44b122f7c758e22dc9" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>PlacementOffset</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2cd668d040b5b87934706e2771d34eb6" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ProjectileRigidbody</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a150ed3816ccc67f4ae44b3bef1b762ae" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>QueReturnEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a085a3d99ff3594ed5fa5b35bfc56d4e1" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ResetProjectile</name></member>
+      <member refid="class_projectaile_1_1_rocket_1ae26bc9a28e724720d363246c8fa6c32f" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>returnAfterDelay</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a3a84151d6e1604f73d3f4e9ed6b85b2e" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ReturnRocket</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a03d015f520515e7d44a401e65919d22a" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>RocketHitCheck</name></member>
+      <member refid="class_projectaile_1_1_projectile_1ac084810e388444cbfdfb40390de01254" prot="protected" virt="virtual"><scope>Projectaile::Rocket</scope><name>SetProjectileParameters</name></member>
+      <member refid="class_projectaile_1_1_rocket_1a2d2a216a2b5ca2b1eaf61e5c8d6a4836" prot="private" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>SmokeParticles</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2da38201b5fece9ecb43b1d47658634d" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>Start</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a1bb7f45c0ae3f2527482c9ae7b0b0208" prot="protected" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>thisProjectile</name></member>
+      <member refid="class_projectaile_1_1_projectile_1ac09d12b4cae2915efb5b284b85228452" prot="public" virt="non-virtual"><scope>Projectaile::Rocket</scope><name>ThisType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

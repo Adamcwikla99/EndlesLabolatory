@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::RoomLeyout::RoomGridEditorController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a2dfdf964a1245b124efb3bd7d739194c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.RoomLeyout.RoomGridEditorController.CameraObj</definition>
+        <argsstring></argsstring>
+        <name>CameraObj</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.CameraObj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="24" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1aa5f8b52a93c1ee40fd6864343b30995c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapGenerator.RoomLeyout.RoomGridEditorController.indexOffset</definition>
+        <argsstring></argsstring>
+        <name>indexOffset</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.indexOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="43" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a88e8914cc3382ca7e6bb9fbe5adf92cd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_map_generator_1_1_room_leyout_1_1_room_marker" kindref="compound">RoomMarker</ref>[,]</type>
+        <definition>RoomMarker [,] MapGenerator.RoomLeyout.RoomGridEditorController.roomMarkers</definition>
+        <argsstring></argsstring>
+        <name>roomMarkers</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.roomMarkers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="44" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a08fa0dddbcfe2765c00722d5f72d210e" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>[,]</type>
+        <definition>RoomGridCell [,] MapGenerator.RoomLeyout.RoomGridEditorController.roomCell</definition>
+        <argsstring></argsstring>
+        <name>roomCell</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.roomCell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="45" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a9ef9bad96242e1079daf634267755282" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+        <definition>RoomGridCell MapGenerator.RoomLeyout.RoomGridEditorController.currentType</definition>
+        <argsstring></argsstring>
+        <name>currentType</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.currentType</qualifiedname>
+        <initializer>= RoomGridCell.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="46" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a144707c49303695857d0b678ae0ac2b8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text MapGenerator.RoomLeyout.RoomGridEditorController.CurrentPaintMode</definition>
+        <argsstring></argsstring>
+        <name>CurrentPaintMode</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.CurrentPaintMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="27" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a643d2a553650074d3f326836727a5fd0" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_editor_1_1_player_editor" kindref="compound">PlayerEditor</ref></type>
+        <definition>PlayerEditor MapGenerator.RoomLeyout.RoomGridEditorController.PlayerInput</definition>
+        <argsstring></argsstring>
+        <name>PlayerInput</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.PlayerInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="30" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a2dde8079e41a2d326b70ea5ef4f30521" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_file_managment_1_1_save_system" kindref="compound">SaveSystem</ref></type>
+        <definition>SaveSystem MapGenerator.RoomLeyout.RoomGridEditorController.SaveEvents</definition>
+        <argsstring></argsstring>
+        <name>SaveEvents</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.SaveEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="33" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a1b26345523d6c628cc928be0e854889f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3</type>
+        <definition>Vector3 MapGenerator.RoomLeyout.RoomGridEditorController.WorldPosition</definition>
+        <argsstring></argsstring>
+        <name>WorldPosition</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.WorldPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="38" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1aed8b05b87c600175dd6c6de101e2f578" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapGenerator.RoomLeyout.RoomGridEditorController.columnLength</definition>
+        <argsstring></argsstring>
+        <name>columnLength</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.columnLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="51" column="12" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a5b1690e8d2b104cce65d076c35c14ed5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapGenerator.RoomLeyout.RoomGridEditorController.rowLength</definition>
+        <argsstring></argsstring>
+        <name>rowLength</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.rowLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="51" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a8a8995f446fe80676d7c3f3e8017840b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MapGenerator.RoomLeyout.RoomGridEditorController.fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.fileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="52" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1af5717ef410fe723dd3f4ae1eb41ecd53" prot="public" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask MapGenerator.RoomLeyout.RoomGridEditorController.layerMask</definition>
+        <argsstring></argsstring>
+        <name>layerMask</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.layerMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="53" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ae234b8c946d38c0a5e1b3181928f0ac3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MapGenerator.RoomLeyout.RoomGridEditorController.loadChanges</definition>
+        <argsstring></argsstring>
+        <name>loadChanges</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.loadChanges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="54" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a541cb5f8f3a536b357060f3f78896b14" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MapGenerator.RoomLeyout.RoomGridEditorController.prefab</definition>
+        <argsstring></argsstring>
+        <name>prefab</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.prefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="55" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1aeaa93a7a1fad310c6f8ffc013c5a9a0f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MapGenerator.RoomLeyout.RoomGridEditorController.saveChanges</definition>
+        <argsstring></argsstring>
+        <name>saveChanges</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.saveChanges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="57" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a4bd3ac508ce48cb348fb53ac55579997" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.RoomLeyout.RoomGridEditorController.x_Space</definition>
+        <argsstring></argsstring>
+        <name>x_Space</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.x_Space</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="58" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ad61406041ce2620736ac8ace38652b20" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.RoomLeyout.RoomGridEditorController.y_Space</definition>
+        <argsstring></argsstring>
+        <name>y_Space</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.y_Space</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="58" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a0b7cacac1dbca302a396ab925a27f32b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.RoomLeyout.RoomGridEditorController.x_Start</definition>
+        <argsstring></argsstring>
+        <name>x_Start</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.x_Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="60" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a80271fd1f025ba528b800bb5f2d14a92" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.RoomLeyout.RoomGridEditorController.y_Start</definition>
+        <argsstring></argsstring>
+        <name>y_Start</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.y_Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="60" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a22e8673ca9b90033927ec52f268e2237" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="66" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a4328aa7bb60bed538e4409c2cb6e7022" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="68" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a9575b7f5ad3f9c99973cdb75f3cd95b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="70" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a563a69a0f631644a68f25c4c17ad7176" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="72" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a77317979159f1db2ee547dec0cc212ba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="74" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a81f479ccd41b55ce80ffb3131c31fe7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.InitGrid</definition>
+        <argsstring>()</argsstring>
+        <name>InitGrid</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.InitGrid</qualifiedname>
+        <briefdescription>
+<para>methode that initializes the grid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="82" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="82" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1acc878ec1684c8957aeb69aa742ba7054" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.SpawnMark</definition>
+        <argsstring>(ref int x, ref int tempI, int i)</argsstring>
+        <name>SpawnMark</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.SpawnMark</qualifiedname>
+        <param>
+          <type>ref int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>tempI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns grid marked object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="97" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="97" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1acf5dd8cad76003f503984c7524afec5f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.AdjustGridLists</definition>
+        <argsstring>(int x, int tempI, GameObject spawnedMark)</argsstring>
+        <name>AdjustGridLists</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.AdjustGridLists</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tempI</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>spawnedMark</declname>
+        </param>
+        <briefdescription>
+<para>methode that updates marker list grid </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tempI</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spawnedMark</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="116" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="116" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a9e6f7a7bc6c4d560f639db8cdbdf7d03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.MoveGridIterator</definition>
+        <argsstring>(ref int x, ref int tempI, int i)</argsstring>
+        <name>MoveGridIterator</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.MoveGridIterator</qualifiedname>
+        <param>
+          <type>ref int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>tempI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>methode that updates grid cell that designer is looking at </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="125" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="125" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a532a55114b099365dea66c54b9b1f65c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.ChangeCameraZoom</definition>
+        <argsstring>(float toModify)</argsstring>
+        <name>ChangeCameraZoom</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.ChangeCameraZoom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>toModify</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes camera coom </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="141" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a4d2523b08fb9367c5447d514774751d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.ChangeCameraPosition</definition>
+        <argsstring>(Vector2 toModify)</argsstring>
+        <name>ChangeCameraPosition</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.ChangeCameraPosition</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>toModify</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes camera position </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toModify</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="147" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="147" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ac6cd97e078f1b6ef70cbe19a21379fcd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.ChangeMarkerType</definition>
+        <argsstring>(RaycastHit hitData)</argsstring>
+        <name>ChangeMarkerType</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.ChangeMarkerType</qualifiedname>
+        <param>
+          <type>RaycastHit</type>
+          <declname>hitData</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes marker type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hitData</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="157" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="157" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ad51d01ce093fd37d75944b6fccd4b507" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.RoomLeyout.RoomGridEditorController.FindGridCellCord</definition>
+        <argsstring>(Vector3 pos)</argsstring>
+        <name>FindGridCellCord</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.FindGridCellCord</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>methode that finds cell on cell grid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="170" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="170" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a3db05b5c38c2e0d2a1b9051f7f28c95e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.Init</qualifiedname>
+        <briefdescription>
+<para>methode that initializes class values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="190" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="190" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a63ce82eb34e92b8a592e604a346f5f78" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.InitGridVariables</definition>
+        <argsstring>()</argsstring>
+        <name>InitGridVariables</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.InitGridVariables</qualifiedname>
+        <briefdescription>
+<para>methode that initializes grid values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="200" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="200" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a514f6570792e7211b253cb997f14474d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.InitDisplayedText</definition>
+        <argsstring>()</argsstring>
+        <name>InitDisplayedText</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.InitDisplayedText</qualifiedname>
+        <briefdescription>
+<para>methode that initializes displayed text </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="212" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1afa072dc76713d11ae4b012d01ee69923" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.CheckForFileOperations</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForFileOperations</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.CheckForFileOperations</qualifiedname>
+        <briefdescription>
+<para>methode that checks if save or load should be performed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="217" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="217" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ad5e2c95c9a20fa47c764a8f7f0fb50a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.SaveData</definition>
+        <argsstring>()</argsstring>
+        <name>SaveData</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.SaveData</qualifiedname>
+        <briefdescription>
+<para>methode that saves template </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="233" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a41db24c476826871632e7e336b77e2d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.LoadData</definition>
+        <argsstring>()</argsstring>
+        <name>LoadData</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.LoadData</qualifiedname>
+        <briefdescription>
+<para>methode that loads template </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="242" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="242" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a64498fb793248cde6390313a4468d86a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.ProcessLoadedData</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessLoadedData</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.ProcessLoadedData</qualifiedname>
+        <briefdescription>
+<para>methode that processes loaded template </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="254" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="254" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1af51d391f6b4d025b8105601ecc022f13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color MapGenerator.RoomLeyout.RoomGridEditorController.GetColor</definition>
+        <argsstring>(RoomGridCell cell)</argsstring>
+        <name>GetColor</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.GetColor</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets cell color base on cell type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="268" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a90e45cd45986de3e53049f118c567781" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.NextCellType</definition>
+        <argsstring>()</argsstring>
+        <name>NextCellType</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.NextCellType</qualifiedname>
+        <briefdescription>
+<para>methode that sets next cell type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="279" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="279" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a57ee33126bb40cdd1b3d85a049ebfeb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.PreviousCellType</definition>
+        <argsstring>()</argsstring>
+        <name>PreviousCellType</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.PreviousCellType</qualifiedname>
+        <briefdescription>
+<para>methode that previous next cell type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="288" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="288" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a1e811b8498ffdd74e77a292c15afb479" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.UnSubscribeFromEvents</definition>
+        <argsstring>()</argsstring>
+        <name>UnSubscribeFromEvents</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.UnSubscribeFromEvents</qualifiedname>
+        <briefdescription>
+<para>methode that subscribes to events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="297" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="297" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1accc887d21077f00355972bf835312b39" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomGridEditorController.SubscribeToEvents</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeToEvents</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomGridEditorController.SubscribeToEvents</qualifiedname>
+        <briefdescription>
+<para>methode that unsubscribes to events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="309" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="309" bodyend="316"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class that allows to create in editor room entity spawning zones </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.RoomLeyout.RoomGridEditorController</label>
+        <link refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.RoomLeyout.RoomGridEditorController</label>
+        <link refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" line="19" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomGridEditorController.cs" bodystart="20" bodyend="319"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1acf5dd8cad76003f503984c7524afec5f" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>AdjustGridLists</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a22e8673ca9b90033927ec52f268e2237" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>Awake</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a2dfdf964a1245b124efb3bd7d739194c" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>CameraObj</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a4d2523b08fb9367c5447d514774751d6" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>ChangeCameraPosition</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a532a55114b099365dea66c54b9b1f65c" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>ChangeCameraZoom</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ac6cd97e078f1b6ef70cbe19a21379fcd" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>ChangeMarkerType</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1afa072dc76713d11ae4b012d01ee69923" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>CheckForFileOperations</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1aed8b05b87c600175dd6c6de101e2f578" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>columnLength</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a144707c49303695857d0b678ae0ac2b8" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>CurrentPaintMode</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a9ef9bad96242e1079daf634267755282" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>currentType</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a8a8995f446fe80676d7c3f3e8017840b" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>fileName</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ad51d01ce093fd37d75944b6fccd4b507" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>FindGridCellCord</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1af51d391f6b4d025b8105601ecc022f13" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>GetColor</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1aa5f8b52a93c1ee40fd6864343b30995c" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>indexOffset</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a3db05b5c38c2e0d2a1b9051f7f28c95e" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>Init</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a514f6570792e7211b253cb997f14474d" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>InitDisplayedText</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a81f479ccd41b55ce80ffb3131c31fe7a" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>InitGrid</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a63ce82eb34e92b8a592e604a346f5f78" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>InitGridVariables</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1af5717ef410fe723dd3f4ae1eb41ecd53" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>layerMask</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ae234b8c946d38c0a5e1b3181928f0ac3" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>loadChanges</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a41db24c476826871632e7e336b77e2d6" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>LoadData</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a9e6f7a7bc6c4d560f639db8cdbdf7d03" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>MoveGridIterator</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a90e45cd45986de3e53049f118c567781" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>NextCellType</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a9575b7f5ad3f9c99973cdb75f3cd95b6" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>OnDisable</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a4328aa7bb60bed538e4409c2cb6e7022" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>OnEnable</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a643d2a553650074d3f326836727a5fd0" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>PlayerInput</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a541cb5f8f3a536b357060f3f78896b14" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>prefab</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a57ee33126bb40cdd1b3d85a049ebfeb7" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>PreviousCellType</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a64498fb793248cde6390313a4468d86a" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>ProcessLoadedData</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a08fa0dddbcfe2765c00722d5f72d210e" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>roomCell</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a88e8914cc3382ca7e6bb9fbe5adf92cd" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>roomMarkers</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a5b1690e8d2b104cce65d076c35c14ed5" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>rowLength</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1aeaa93a7a1fad310c6f8ffc013c5a9a0f" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>saveChanges</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ad5e2c95c9a20fa47c764a8f7f0fb50a2" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>SaveData</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a2dde8079e41a2d326b70ea5ef4f30521" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>SaveEvents</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1acc878ec1684c8957aeb69aa742ba7054" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>SpawnMark</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a563a69a0f631644a68f25c4c17ad7176" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>Start</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1accc887d21077f00355972bf835312b39" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>SubscribeToEvents</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a1e811b8498ffdd74e77a292c15afb479" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>UnSubscribeFromEvents</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a77317979159f1db2ee547dec0cc212ba" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>Update</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a1b26345523d6c628cc928be0e854889f" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>WorldPosition</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a4bd3ac508ce48cb348fb53ac55579997" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>x_Space</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a0b7cacac1dbca302a396ab925a27f32b" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>x_Start</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1ad61406041ce2620736ac8ace38652b20" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>y_Space</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_grid_editor_controller_1a80271fd1f025ba528b800bb5f2d14a92" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomGridEditorController</scope><name>y_Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

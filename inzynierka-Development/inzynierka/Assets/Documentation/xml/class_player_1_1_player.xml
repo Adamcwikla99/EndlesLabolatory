@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_player_1_1_player" kind="class" language="C#" prot="public">
+    <compoundname>Player::Player</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_interface_1_1_i_damage" prot="public" virt="non-virtual">Interface.IDamage</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_1_1_player_1a619b5b5159dc9a8c603c51a5baec932a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Player.Player.IsInClearedRoom</definition>
+        <argsstring></argsstring>
+        <name>IsInClearedRoom</name>
+        <qualifiedname>Player.Player.IsInClearedRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="24" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1a162f113ee2bb529a58558f9707aa1865" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Player.Player.PlayerRoomPosition</definition>
+        <argsstring></argsstring>
+        <name>PlayerRoomPosition</name>
+        <qualifiedname>Player.Player.PlayerRoomPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="27" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1ab42d76b9aa4738c49805060c4dfe7051" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_wrapper_1_1_content_durability_stats" kindref="compound">ContentDurabilityStats</ref></type>
+        <definition>ContentDurabilityStats Player.Player.DurabilityStats</definition>
+        <argsstring></argsstring>
+        <name>DurabilityStats</name>
+        <qualifiedname>Player.Player.DurabilityStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="30" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1aec19b4eb3f85c0601aa725cec74ec1ad" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_speed_events" kindref="compound">PlayerSpeedEvents</ref></type>
+        <definition>PlayerSpeedEvents Player.Player.PlayerSpeedController</definition>
+        <argsstring></argsstring>
+        <name>PlayerSpeedController</name>
+        <qualifiedname>Player.Player.PlayerSpeedController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="33" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1a79c718fcb7ab7822e70ac9b3f4f0a834" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.Player.Money</definition>
+        <argsstring></argsstring>
+        <name>Money</name>
+        <qualifiedname>Player.Player.Money</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="36" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1abfa5f28de7de7bf2a6100162e4af3394" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_stats_events" kindref="compound">PlayerStatsEvents</ref></type>
+        <definition>PlayerStatsEvents Player.Player.PlayerStats</definition>
+        <argsstring></argsstring>
+        <name>PlayerStats</name>
+        <qualifiedname>Player.Player.PlayerStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="39" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1a26997d15a0723f68c54ea1e885a6ab8f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.Player.IndividualParticleDamage</definition>
+        <argsstring></argsstring>
+        <name>IndividualParticleDamage</name>
+        <qualifiedname>Player.Player.IndividualParticleDamage</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="42" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1ae182f696aa301e892a6080fcc2997b1c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats" kindref="compound">DisplayedUIStats</ref></type>
+        <definition>DisplayedUIStats Player.Player.StatsChangeEvents</definition>
+        <argsstring></argsstring>
+        <name>StatsChangeEvents</name>
+        <qualifiedname>Player.Player.StatsChangeEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="45" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1afe49288684f65d946c050645d9ffc778" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StudioEventEmitter</type>
+        <definition>StudioEventEmitter Player.Player.PlayerDeath</definition>
+        <argsstring></argsstring>
+        <name>PlayerDeath</name>
+        <qualifiedname>Player.Player.PlayerDeath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="48" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1a2b2ca3e7d118f2ec91d277c34b13c63a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_switch_menu" kindref="compound">SwitchMenu</ref></type>
+        <definition>SwitchMenu Player.Player.SwitchActiveUI</definition>
+        <argsstring></argsstring>
+        <name>SwitchActiveUI</name>
+        <qualifiedname>Player.Player.SwitchActiveUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="51" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1abf902bac5d74b890603ae51805d39685" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_scenes_manager_1_1_game_progress_manager" kindref="compound">GameProgressManager</ref></type>
+        <definition>GameProgressManager Player.Player.ProgressManager</definition>
+        <argsstring></argsstring>
+        <name>ProgressManager</name>
+        <qualifiedname>Player.Player.ProgressManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="54" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_1a4f01c88c9b865d42caedd8222b80c6c9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_object_getter" kindref="compound">PlayerObjectGetter</ref></type>
+        <definition>PlayerObjectGetter Player.Player.PlayerObject</definition>
+        <argsstring></argsstring>
+        <name>PlayerObject</name>
+        <qualifiedname>Player.Player.PlayerObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="57" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1_1_player_1a3aab2b5ddda750a93e97e3fa55c4c340" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Player.Player.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="62" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1a3613387ac0ce77ba009074bf48bc56aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Player.Player.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="67" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1afbd5d3c3d847d6cce7b192dacfe433ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Player.Player.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="74" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1a76401858acb6bc84bb2254798af458c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.OnParticleCollision</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnParticleCollision</name>
+        <qualifiedname>Player.Player.OnParticleCollision</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="81" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1a8b9f0e3cbb0569444add5a29cc062bb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject Player.Player.ReturnPlayerObject</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnPlayerObject</name>
+        <qualifiedname>Player.Player.ReturnPlayerObject</qualifiedname>
+        <briefdescription>
+<para>methode that returns player game object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="93" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1ad1dec337381cff77fe7ecc8bf1ca74ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.AddStat</definition>
+        <argsstring>(PlayerStats statType, float value)</argsstring>
+        <name>AddStat</name>
+        <qualifiedname>Player.Player.AddStat</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1aa3f180d1ad30e38f57c65f329938fe06" kindref="member">PlayerStats</ref></type>
+          <declname>statType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes one of players stats </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="145" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="145" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1a8d9e1a4d4fe540af37cf6dc6cb1ab865" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.AddHealthStat</definition>
+        <argsstring>(float value)</argsstring>
+        <name>AddHealthStat</name>
+        <qualifiedname>Player.Player.AddHealthStat</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds health stat </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="170" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="170" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1aa1d3da402f9bc050136beb7a7f8145bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Player.Player.GetStat</definition>
+        <argsstring>(PlayerStats statType)</argsstring>
+        <name>GetStat</name>
+        <qualifiedname>Player.Player.GetStat</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1aa3f180d1ad30e38f57c65f329938fe06" kindref="member">PlayerStats</ref></type>
+          <declname>statType</declname>
+        </param>
+        <briefdescription>
+<para>methode that reruns one of player stats </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="186" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="186" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1_1_player_1a4cb70e3410f10dd78158883b2bc2e3f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.SetIsInClearedRoom</definition>
+        <argsstring>(bool newState)</argsstring>
+        <name>SetIsInClearedRoom</name>
+        <qualifiedname>Player.Player.SetIsInClearedRoom</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets if player is in cleared room </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newState</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="102" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1ad839cb83abc92b3182137cc62fd92ade" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Player.SetPlayerRoomPosition</definition>
+        <argsstring>(CordsXY newPosition)</argsstring>
+        <name>SetPlayerRoomPosition</name>
+        <qualifiedname>Player.Player.SetPlayerRoomPosition</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>newPosition</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets player cell map position </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="110" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1a5821007c8cd53581720a7f6bc0f7fb82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Player.Player.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Player.Player.TakeDamage</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2">TakeDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that applies damage to player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="118" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="118" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_1a1997a8d55ad3460a16c83cf9b93b116a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Player.Player.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Player.Player.DeflectProjectile</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419">DeflectProjectile</reimplements>
+        <briefdescription>
+<para>methode that informs if player can deflect projectile </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="140" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for controlling player behaviors and statistics </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player.Player</label>
+        <link refid="class_player_1_1_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player.Player</label>
+        <link refid="class_player_1_1_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" line="19" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/Player.cs" bodystart="20" bodyend="198"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_player_1a8d9e1a4d4fe540af37cf6dc6cb1ab865" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>AddHealthStat</name></member>
+      <member refid="class_player_1_1_player_1ad1dec337381cff77fe7ecc8bf1ca74ef" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>AddStat</name></member>
+      <member refid="class_player_1_1_player_1a1997a8d55ad3460a16c83cf9b93b116a" prot="public" virt="virtual"><scope>Player::Player</scope><name>DeflectProjectile</name></member>
+      <member refid="class_player_1_1_player_1ab42d76b9aa4738c49805060c4dfe7051" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>DurabilityStats</name></member>
+      <member refid="class_player_1_1_player_1aa1d3da402f9bc050136beb7a7f8145bd" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>GetStat</name></member>
+      <member refid="class_player_1_1_player_1a26997d15a0723f68c54ea1e885a6ab8f" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>IndividualParticleDamage</name></member>
+      <member refid="class_player_1_1_player_1a619b5b5159dc9a8c603c51a5baec932a" prot="public" virt="non-virtual"><scope>Player::Player</scope><name>IsInClearedRoom</name></member>
+      <member refid="class_player_1_1_player_1a79c718fcb7ab7822e70ac9b3f4f0a834" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>Money</name></member>
+      <member refid="class_player_1_1_player_1afbd5d3c3d847d6cce7b192dacfe433ee" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>OnDisable</name></member>
+      <member refid="class_player_1_1_player_1a3613387ac0ce77ba009074bf48bc56aa" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>OnEnable</name></member>
+      <member refid="class_player_1_1_player_1a76401858acb6bc84bb2254798af458c4" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>OnParticleCollision</name></member>
+      <member refid="class_player_1_1_player_1afe49288684f65d946c050645d9ffc778" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>PlayerDeath</name></member>
+      <member refid="class_player_1_1_player_1a4f01c88c9b865d42caedd8222b80c6c9" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>PlayerObject</name></member>
+      <member refid="class_player_1_1_player_1a162f113ee2bb529a58558f9707aa1865" prot="public" virt="non-virtual"><scope>Player::Player</scope><name>PlayerRoomPosition</name></member>
+      <member refid="class_player_1_1_player_1aec19b4eb3f85c0601aa725cec74ec1ad" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>PlayerSpeedController</name></member>
+      <member refid="class_player_1_1_player_1abfa5f28de7de7bf2a6100162e4af3394" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>PlayerStats</name></member>
+      <member refid="class_player_1_1_player_1abf902bac5d74b890603ae51805d39685" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>ProgressManager</name></member>
+      <member refid="class_player_1_1_player_1a8b9f0e3cbb0569444add5a29cc062bb2" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>ReturnPlayerObject</name></member>
+      <member refid="class_player_1_1_player_1a4cb70e3410f10dd78158883b2bc2e3f5" prot="public" virt="non-virtual"><scope>Player::Player</scope><name>SetIsInClearedRoom</name></member>
+      <member refid="class_player_1_1_player_1ad839cb83abc92b3182137cc62fd92ade" prot="public" virt="non-virtual"><scope>Player::Player</scope><name>SetPlayerRoomPosition</name></member>
+      <member refid="class_player_1_1_player_1a3aab2b5ddda750a93e97e3fa55c4c340" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>Start</name></member>
+      <member refid="class_player_1_1_player_1ae182f696aa301e892a6080fcc2997b1c" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>StatsChangeEvents</name></member>
+      <member refid="class_player_1_1_player_1a2b2ca3e7d118f2ec91d277c34b13c63a" prot="private" virt="non-virtual"><scope>Player::Player</scope><name>SwitchActiveUI</name></member>
+      <member refid="class_player_1_1_player_1a5821007c8cd53581720a7f6bc0f7fb82" prot="public" virt="virtual"><scope>Player::Player</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

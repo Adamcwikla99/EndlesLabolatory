@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.EnemyAttackAi</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a1beb3553bf120189146a76c6ea93d41d" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy" kindref="compound">BossEnemy</ref></type>
+        <definition>BossEnemy Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.ThisEnemyObject</definition>
+        <argsstring></argsstring>
+        <name>ThisEnemyObject</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.ThisEnemyObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" line="15" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1ad683f4244dcf755d7cfdc9a669887425" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.TestValue</definition>
+        <argsstring></argsstring>
+        <name>TestValue</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.TestValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" line="18" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a62c389e1dd4f58a980f50f175ad66a71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a0b77bcc85822f894dc971a5a8d7f80ab" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.FireAtPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>FireAtPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi.FireAtPlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a03d7e323a54b30b9d4d6008798f0abe9">FireAtPlayer</reimplements>
+        <briefdescription>
+<para>methode that implements fire at player boss action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" line="30" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements boss enemy attack AI logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemyAttackAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a0bb0d918f2a6c835de316e3812d7ae97" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>Accuracy</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a34e97bf83c3e66b738cfee417cf44cc2" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>AllowFire</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aa02d8952e05bebecf6cf6af822c456f8" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>bonusDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a8ca5fcac374d254cbb9a3236bb5fdaf1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>bonusSpeed</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a6ea20803e53233bf21712a41fa25e63e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>canFire</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aaf15d38139f4d14d478e1fc44ddeae99" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>ChangeCanFireState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a2b666b93d930fc3f3a54fa63bda09408" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>currentReloadTime</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a0b77bcc85822f894dc971a5a8d7f80ab" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>FireAtPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1ac6905a23401904b903414070e66c89eb" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>FireDeley</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1aebdba749378bbde06ed9ec99994aa0c3" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>GetAccuracyError</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a52e183ccf07c97c6008fb8dc4c5c0415" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>GetProjectileEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a4594998a6b02c639e2305971fe9c60e0" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>isReoladed</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abcbe9dc9ff314af090f1255a742715d1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>playerObject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a3f1353f59f2dd03da95332e9718f8597" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>SetBonusStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1ac0f8b946403088d5a30c4001779a37f7" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>SetPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a62c389e1dd4f58a980f50f175ad66a71" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1ad683f4244dcf755d7cfdc9a669887425" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>TestValue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a1beb3553bf120189146a76c6ea93d41d" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>ThisEnemyObject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a1c7f0e12f7bfff216d31cfb4ecee64f4" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>UpdateActions</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a7db1886757324940fffd2938a8d91a02" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</scope><name>UpdateReloadTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

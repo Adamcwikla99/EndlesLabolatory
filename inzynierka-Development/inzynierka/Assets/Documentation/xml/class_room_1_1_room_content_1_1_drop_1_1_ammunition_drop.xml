@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Drop::AmmunitionDrop</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_drop_1_1_drop" prot="public" virt="non-virtual">Room.RoomContent.Drop.Drop</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1a6f063c7136b7bafee70c31bb23c5f7e7" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">Structures.Enums.ProjectileType</ref></type>
+        <definition>Structures.Enums.ProjectileType Room.RoomContent.Drop.AmmunitionDrop.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>Room.RoomContent.Drop.AmmunitionDrop.Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" line="14" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1a8cc3582c70dc6b053d02f0dc54d9320a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_projectile_1_1_ammunition_adder" kindref="compound">AmmunitionAdder</ref></type>
+        <definition>AmmunitionAdder Room.RoomContent.Drop.AmmunitionDrop.AddAmmunitionEvent</definition>
+        <argsstring></argsstring>
+        <name>AddAmmunitionEvent</name>
+        <qualifiedname>Room.RoomContent.Drop.AmmunitionDrop.AddAmmunitionEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" line="17" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1aaa196134fcbbd330225753ca67744916" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.AmmunitionDrop.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Drop.AmmunitionDrop.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1aca182cddff0c42d04b57283a0f77e2cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.AmmunitionDrop.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Room.RoomContent.Drop.AmmunitionDrop.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1a8557b51da570c6610d9868483e82a36e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.AmmunitionDrop.TryPickupDrop</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>TryPickupDrop</name>
+        <qualifiedname>Room.RoomContent.Drop.AmmunitionDrop.TryPickupDrop</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that acknowledge ammunition being picked up by player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" line="38" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" bodystart="38" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing ammunition drop logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Drop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Drop.AmmunitionDrop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Drop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisDrop</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Drop.AmmunitionDrop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Drop.Drop</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisDrop</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/AmmunitionDrop.cs" bodystart="10" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1a8cc3582c70dc6b053d02f0dc54d9320a" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>AddAmmunitionEvent</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1ae2bb5c972527f67ec427920e993378e5" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>AmmunitionDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a6e587144c961b3715ce445d6a58e9bd4" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>DropQueReturner</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1add19b4a2c5a42e65d316e8eaf9996aab" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>DropType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1af264e2754dd6388baa68e6b68d989a0d" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>DropValue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a5f4cd1b8a7fab2fdac927dc077916829" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>InitDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1aca182cddff0c42d04b57283a0f77e2cf" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1ab21143b0e7ada8a7e2be467f35f4aae1" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>PickUpSound</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a222973de84d91fa18a80059506ecd5c5" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>SetDropType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a713f9c919baf68e806468a25df98771c" prot="public" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>SetDropValue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1aaa196134fcbbd330225753ca67744916" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_1a8baa396c6daa7f0e0bf6ab90def64079" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>thisDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1a8557b51da570c6610d9868483e82a36e" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>TryPickupDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_ammunition_drop_1a6f063c7136b7bafee70c31bb23c5f7e7" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::AmmunitionDrop</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

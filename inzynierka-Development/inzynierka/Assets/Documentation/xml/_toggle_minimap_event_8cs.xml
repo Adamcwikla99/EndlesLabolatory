@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_toggle_minimap_event_8cs" kind="file" language="C#">
+    <compoundname>ToggleMinimapEvent.cs</compoundname>
+    <innerclass refid="class_events_1_1_menu_1_1_toggle_minimap_event" prot="public">Events::Menu::ToggleMinimapEvent</innerclass>
+    <innernamespace refid="namespace_events">Events</innernamespace>
+    <innernamespace refid="namespace_events_1_1_menu">Events::Menu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_events_1_1_menu" kindref="compound">Events.Menu</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ToggleMinimapEvent&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ToggleMinimapEvent/ToggleMinimapEvent&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="9" refid="class_events_1_1_menu_1_1_toggle_minimap_event" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_events_1_1_menu_1_1_toggle_minimap_event" kindref="compound">ToggleMinimapEvent</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action<sp/><ref refid="class_events_1_1_menu_1_1_toggle_minimap_event_1ac73b0a1b24fb896a0ec381f0695a0ab5" kindref="member">ToggleMinimap</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_menu_1_1_toggle_minimap_event_1a056d17b41a9860c2e3ff7710edc235c6" kindref="member">ChangeMinimapState</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Menu/ToggleMinimapEvent.cs"/>
+  </compounddef>
+</doxygen>

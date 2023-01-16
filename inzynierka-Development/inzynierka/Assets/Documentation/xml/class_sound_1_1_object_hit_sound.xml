@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_sound_1_1_object_hit_sound" kind="class" language="C#" prot="public">
+    <compoundname>Sound::ObjectHitSound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sound_1_1_object_hit_sound_1af5a449de9173c4a8b8dc2df4295062dd" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StudioEventEmitter</type>
+        <definition>StudioEventEmitter Sound.ObjectHitSound.ObjectHitEffect</definition>
+        <argsstring></argsstring>
+        <name>ObjectHitEffect</name>
+        <qualifiedname>Sound.ObjectHitSound.ObjectHitEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" line="15" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sound_1_1_object_hit_sound_1abbefbb97ee684e8fb52b46e8c8ed9038" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_sound_1_1_entity_hit" kindref="compound">EntityHit</ref></type>
+        <definition>EntityHit Sound.ObjectHitSound.EnemyFireEffect</definition>
+        <argsstring></argsstring>
+        <name>EnemyFireEffect</name>
+        <qualifiedname>Sound.ObjectHitSound.EnemyFireEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" line="18" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sound_1_1_object_hit_sound_1a13043dba51e83a02bcbe75f05c122387" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sound.ObjectHitSound.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Sound.ObjectHitSound.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" line="23" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_1_1_object_hit_sound_1aaaaf6f43546efabddee410bab7498806" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sound.ObjectHitSound.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Sound.ObjectHitSound.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" line="25" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements object hit sound logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Sound.ObjectHitSound</label>
+        <link refid="class_sound_1_1_object_hit_sound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Sound.ObjectHitSound</label>
+        <link refid="class_sound_1_1_object_hit_sound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/ObjectHitSound.cs" bodystart="11" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_sound_1_1_object_hit_sound_1abbefbb97ee684e8fb52b46e8c8ed9038" prot="private" virt="non-virtual"><scope>Sound::ObjectHitSound</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_sound_1_1_object_hit_sound_1af5a449de9173c4a8b8dc2df4295062dd" prot="private" virt="non-virtual"><scope>Sound::ObjectHitSound</scope><name>ObjectHitEffect</name></member>
+      <member refid="class_sound_1_1_object_hit_sound_1aaaaf6f43546efabddee410bab7498806" prot="private" virt="non-virtual"><scope>Sound::ObjectHitSound</scope><name>OnDisable</name></member>
+      <member refid="class_sound_1_1_object_hit_sound_1a13043dba51e83a02bcbe75f05c122387" prot="private" virt="non-virtual"><scope>Sound::ObjectHitSound</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

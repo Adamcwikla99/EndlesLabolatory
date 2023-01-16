@@ -1,0 +1,792 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_editor_settings" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EditorSettings</compoundname>
+    <basecompoundref refid="interface_f_m_o_d_unity_1_1_i_editor_settings" prot="public" virt="non-virtual">FMODUnity.IEditorSettings</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_processor" prot="public">FMODUnity::EditorSettings::BuildProcessor</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_editor_settings_1_1_build_target_checker" prot="public">FMODUnity::EditorSettings::BuildTargetChecker</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_settings_1a6d8913950ead4e5a4095de497e1d8a47" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EditorSettings.DownloadURL</definition>
+        <argsstring></argsstring>
+        <name>DownloadURL</name>
+        <qualifiedname>FMODUnity.EditorSettings.DownloadURL</qualifiedname>
+        <initializer>= &quot;https://www.fmod.com/download&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="20" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_settings_1a5352ca34461225808418655c4cf306c0" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; BuildTarget, <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref> &gt;</type>
+        <definition>Dictionary&lt;BuildTarget, Platform&gt; FMODUnity.EditorSettings.PlatformForBuildTarget</definition>
+        <argsstring></argsstring>
+        <name>PlatformForBuildTarget</name>
+        <qualifiedname>FMODUnity.EditorSettings.PlatformForBuildTarget</qualifiedname>
+        <initializer>= new Dictionary&lt;BuildTarget, <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="23" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_settings_1a8b5be34a232cf8060554f48bf2038b14" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, bool &gt;</type>
+        <definition>Dictionary&lt;string, bool&gt; FMODUnity.EditorSettings.binaryCompatibilitiesBeforeBuild</definition>
+        <argsstring></argsstring>
+        <name>binaryCompatibilitiesBeforeBuild</name>
+        <qualifiedname>FMODUnity.EditorSettings.binaryCompatibilitiesBeforeBuild</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="36" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1ad77b20bdfc5042cdecd337edee1af8ca" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EditorSettings.FMODFolderFull</definition>
+        <argsstring></argsstring>
+        <name>FMODFolderFull</name>
+        <qualifiedname>FMODUnity.EditorSettings.FMODFolderFull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="25" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1a45bd7cca81e8279ed032dc35c32f9cc5" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EditorSettings.CacheFolderRelative</definition>
+        <argsstring></argsstring>
+        <name>CacheFolderRelative</name>
+        <qualifiedname>FMODUnity.EditorSettings.CacheFolderRelative</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="28" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1aae25ecfbbc6641314c695795c77b03a6" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EditorSettings.CacheFolderFull</definition>
+        <argsstring></argsstring>
+        <name>CacheFolderFull</name>
+        <qualifiedname>FMODUnity.EditorSettings.CacheFolderFull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="29" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1a26a857dce067acb3451190882d7b8d2c" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EditorSettings.RegisterStaticPluginsAssetPathRelative</definition>
+        <argsstring></argsstring>
+        <name>RegisterStaticPluginsAssetPathRelative</name>
+        <qualifiedname>FMODUnity.EditorSettings.RegisterStaticPluginsAssetPathRelative</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="32" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1a6672b5de96c887144e289738598f09d0" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EditorSettings.RegisterStaticPluginsAssetPathFull</definition>
+        <argsstring></argsstring>
+        <name>RegisterStaticPluginsAssetPathFull</name>
+        <qualifiedname>FMODUnity.EditorSettings.RegisterStaticPluginsAssetPathFull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="33" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1ac7659b63849df6589a5fb31bd149a3ea" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_settings" kindref="compound">EditorSettings</ref></type>
+        <definition>EditorSettings FMODUnity.EditorSettings.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>FMODUnity.EditorSettings.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="38" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1ac3e70c2fbd4b5ec9d2e2b1238fa46dc8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings FMODUnity.EditorSettings.RuntimeSettings</definition>
+        <argsstring></argsstring>
+        <name>RuntimeSettings</name>
+        <qualifiedname>FMODUnity.EditorSettings.RuntimeSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="46" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1a17632b07cc635984817ebdf97d04983d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.EditorSettings.CurrentEditorPlatform</definition>
+        <argsstring></argsstring>
+        <name>CurrentEditorPlatform</name>
+        <qualifiedname>FMODUnity.EditorSettings.CurrentEditorPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="359" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="360" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_settings_1ae1777d0b423e93371dbff8a4a2eea18d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EditorSettings.ForceLoggingBinaries</definition>
+        <argsstring></argsstring>
+        <name>ForceLoggingBinaries</name>
+        <qualifiedname>FMODUnity.EditorSettings.ForceLoggingBinaries</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="618" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="618" bodyend="618"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_settings_1afad872736bc2f1535fe6e5e0fecd4ef9" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EditorSettings.CacheFolderName</definition>
+        <argsstring></argsstring>
+        <name>CacheFolderName</name>
+        <qualifiedname>FMODUnity.EditorSettings.CacheFolderName</qualifiedname>
+        <initializer>= &quot;Cache&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="27" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_settings_1affa17759fca6ab2aa71d3291da15ad5f" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EditorSettings.RegisterStaticPluginsFile</definition>
+        <argsstring></argsstring>
+        <name>RegisterStaticPluginsFile</name>
+        <qualifiedname>FMODUnity.EditorSettings.RegisterStaticPluginsFile</qualifiedname>
+        <initializer>= &quot;RegisterStaticPlugins.cs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="31" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1ab2a7461e4d8850d7d120605ca0d6305b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FMODUnity.EditorSettings.EditorSettings</definition>
+        <argsstring>()</argsstring>
+        <name>EditorSettings</name>
+        <qualifiedname>FMODUnity.EditorSettings.EditorSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="15" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a860254281da16eeca0d9a28b613fd7f2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EditorSettings.SelectBinaries</definition>
+        <argsstring>(Platform platform, BuildTarget target, Platform.BinaryType binaryType)</argsstring>
+        <name>SelectBinaries</name>
+        <qualifiedname>FMODUnity.EditorSettings.SelectBinaries</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type>BuildTarget</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Platform.BinaryType</type>
+          <declname>binaryType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="573" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="573" bodyend="616"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a4657b3ecac8fe0142e37004117c0324a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EditorSettings.EditSettings</definition>
+        <argsstring>()</argsstring>
+        <name>EditSettings</name>
+        <qualifiedname>FMODUnity.EditorSettings.EditSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="49" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a4f95545a6727d61c329b9731acc0ae70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>FMODUnity.EditorSettings.Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="55" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a6eacac91a7a9409412baa24c615f7d02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.CreateSettingsAsset</definition>
+        <argsstring>(string assetName)</argsstring>
+        <name>CreateSettingsAsset</name>
+        <qualifiedname>FMODUnity.EditorSettings.CreateSettingsAsset</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>assetName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="61" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="61" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a26667ad66c70b24be770faf0b00f70cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.AddPlatformForBuildTargets</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>AddPlatformForBuildTargets</name>
+        <qualifiedname>FMODUnity.EditorSettings.AddPlatformForBuildTargets</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="74" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="74" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1abff34fdb74648dfea89082adcfe60822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform_group" kindref="compound">PlatformGroup</ref></type>
+        <definition>PlatformGroup FMODUnity.EditorSettings.AddPlatformGroup</definition>
+        <argsstring>(string displayName, int sortOrder)</argsstring>
+        <name>AddPlatformGroup</name>
+        <qualifiedname>FMODUnity.EditorSettings.AddPlatformGroup</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sortOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="93" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="93" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a8fee97f8a019bdc087152b52a28ffa8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.ResetPlatformSettings</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPlatformSettings</name>
+        <qualifiedname>FMODUnity.EditorSettings.ResetPlatformSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="127" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1ad38ec96510c53141b875af97a066d423" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.ReimportLegacyPlatforms</definition>
+        <argsstring>()</argsstring>
+        <name>ReimportLegacyPlatforms</name>
+        <qualifiedname>FMODUnity.EditorSettings.ReimportLegacyPlatforms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="134" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="134" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a577361657fd8ea885cf34d9a52f5e440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.UpdateMigratedPlatform</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>UpdateMigratedPlatform</name>
+        <qualifiedname>FMODUnity.EditorSettings.UpdateMigratedPlatform</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="141" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a4ef1ac05c94cf5b4108f6b515ae16778" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.AddMissingPlatforms</definition>
+        <argsstring>()</argsstring>
+        <name>AddMissingPlatforms</name>
+        <qualifiedname>FMODUnity.EditorSettings.AddMissingPlatforms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="152" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="152" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1af6a925dc6e512f464ccd193fc9628152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.EditorSettings.GetPlatform</definition>
+        <argsstring>(BuildTarget buildTarget)</argsstring>
+        <name>GetPlatform</name>
+        <qualifiedname>FMODUnity.EditorSettings.GetPlatform</qualifiedname>
+        <param>
+          <type>BuildTarget</type>
+          <declname>buildTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="367" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="367" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a1e42258eb934779f2bec47937d8a0786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.SetPlatformParent</definition>
+        <argsstring>(Platform platform, Platform newParent)</argsstring>
+        <name>SetPlatformParent</name>
+        <qualifiedname>FMODUnity.EditorSettings.SetPlatformParent</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>newParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="379" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="379" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a59b43fe8cf9712ccb4cf329644e568b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.SetPlatformSortOrder</definition>
+        <argsstring>(Platform platform, float sortOrder)</argsstring>
+        <name>SetPlatformSortOrder</name>
+        <qualifiedname>FMODUnity.EditorSettings.SetPlatformSortOrder</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sortOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="401" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="401" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a921e29fc8e2914a256dfd58b0153d6f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.SortPlatformChildren</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>SortPlatformChildren</name>
+        <qualifiedname>FMODUnity.EditorSettings.SortPlatformChildren</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="414" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="414" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a460e7832a441c51c7dd37e6ec8310448" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.EditorSettings.CanBuildTarget</definition>
+        <argsstring>(BuildTarget target, Platform.BinaryType binaryType, out string error)</argsstring>
+        <name>CanBuildTarget</name>
+        <qualifiedname>FMODUnity.EditorSettings.CanBuildTarget</qualifiedname>
+        <param>
+          <type>BuildTarget</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Platform.BinaryType</type>
+          <declname>binaryType</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="442" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="442" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a802be9a0692c72bbd4b1719686a77b44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.PreprocessBuild</definition>
+        <argsstring>(BuildTarget target, Platform.BinaryType binaryType)</argsstring>
+        <name>PreprocessBuild</name>
+        <qualifiedname>FMODUnity.EditorSettings.PreprocessBuild</qualifiedname>
+        <param>
+          <type>BuildTarget</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Platform.BinaryType</type>
+          <declname>binaryType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="496" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="496" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1af8974ac329ce457b3f01643e2ca39757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.CleanTemporaryFiles</definition>
+        <argsstring>()</argsstring>
+        <name>CleanTemporaryFiles</name>
+        <qualifiedname>FMODUnity.EditorSettings.CleanTemporaryFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="558" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="558" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1aaf5a0d5af89f7caa9e39fbb1082086df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.DeleteTemporaryFile</definition>
+        <argsstring>(string assetPath)</argsstring>
+        <name>DeleteTemporaryFile</name>
+        <qualifiedname>FMODUnity.EditorSettings.DeleteTemporaryFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>assetPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="563" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="563" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a0ebae24884a3caaf0527926a7be93981" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.AddPlatformsToAsset</definition>
+        <argsstring>()</argsstring>
+        <name>AddPlatformsToAsset</name>
+        <qualifiedname>FMODUnity.EditorSettings.AddPlatformsToAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="682" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="682" bodyend="685"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a2efa158856980d992c9d8bdef648cdbd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.ClearPlatformSettings</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPlatformSettings</name>
+        <qualifiedname>FMODUnity.EditorSettings.ClearPlatformSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="106" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="106" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1ae1652f8e42763fb893e5f80dad5e6700" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.MigrateLegacyPlatforms&lt; TValue, TSetting &gt;</definition>
+        <argsstring>(List&lt; TSetting &gt; settings, Platform.PropertyAccessor&lt; TValue &gt; property, Func&lt; Legacy.Platform, Platform &gt; getMigrationTarget)</argsstring>
+        <name>MigrateLegacyPlatforms&lt; TValue, TSetting &gt;</name>
+        <qualifiedname>FMODUnity.EditorSettings.MigrateLegacyPlatforms&lt; TValue, TSetting &gt;</qualifiedname>
+        <param>
+          <type>List&lt; TSetting &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>Platform.PropertyAccessor&lt; TValue &gt;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>Func&lt; Legacy.Platform, <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref> &gt;</type>
+          <declname>getMigrationTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="343" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="343" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a7d099bda6a9776e9fd176f9e1575a37f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.AffirmPlatformProperties</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>AffirmPlatformProperties</name>
+        <qualifiedname>FMODUnity.EditorSettings.AffirmPlatformProperties</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="425" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="425" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a43409c9353a12eedd4b939025ae2dcbd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.RemovePlatformFromAsset</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>RemovePlatformFromAsset</name>
+        <qualifiedname>FMODUnity.EditorSettings.RemovePlatformFromAsset</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="434" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="434" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1afb755c526266f0b3e5925a29bb02e4b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.PostprocessBuild</definition>
+        <argsstring>(BuildTarget target)</argsstring>
+        <name>PostprocessBuild</name>
+        <qualifiedname>FMODUnity.EditorSettings.PostprocessBuild</qualifiedname>
+        <param>
+          <type>BuildTarget</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="505" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="505" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a3d64fec0fa8e7ba71bdf03fab00e0bac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.PreprocessStaticPlugins</definition>
+        <argsstring>(Platform platform, BuildTarget target)</argsstring>
+        <name>PreprocessStaticPlugins</name>
+        <qualifiedname>FMODUnity.EditorSettings.PreprocessStaticPlugins</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type>BuildTarget</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="518" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="518" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_editor_settings_1a7f495e39f318c62bdc7ff49555761246" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EditorSettings.AddPlatformToAsset</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>AddPlatformToAsset</name>
+        <qualifiedname>FMODUnity.EditorSettings.AddPlatformToAsset</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="687" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="687" bodyend="694"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EditorSettings</label>
+        <link refid="class_f_m_o_d_unity_1_1_editor_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEditorSettings</label>
+        <link refid="interface_f_m_o_d_unity_1_1_i_editor_settings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EditorSettings</label>
+        <link refid="class_f_m_o_d_unity_1_1_editor_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEditorSettings</label>
+        <link refid="interface_f_m_o_d_unity_1_1_i_editor_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" line="13" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" bodystart="14" bodyend="695"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a4ef1ac05c94cf5b4108f6b515ae16778" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>AddMissingPlatforms</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a26667ad66c70b24be770faf0b00f70cd" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>AddPlatformForBuildTargets</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1abff34fdb74648dfea89082adcfe60822" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>AddPlatformGroup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a0ebae24884a3caaf0527926a7be93981" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>AddPlatformsToAsset</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a7f495e39f318c62bdc7ff49555761246" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>AddPlatformToAsset</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a7d099bda6a9776e9fd176f9e1575a37f" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>AffirmPlatformProperties</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a8b5be34a232cf8060554f48bf2038b14" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>binaryCompatibilitiesBeforeBuild</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1aae25ecfbbc6641314c695795c77b03a6" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CacheFolderFull</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1afad872736bc2f1535fe6e5e0fecd4ef9" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CacheFolderName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a45bd7cca81e8279ed032dc35c32f9cc5" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CacheFolderRelative</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a460e7832a441c51c7dd37e6ec8310448" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CanBuildTarget</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1af8974ac329ce457b3f01643e2ca39757" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CleanTemporaryFiles</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a4f95545a6727d61c329b9731acc0ae70" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>Clear</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a2efa158856980d992c9d8bdef648cdbd" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>ClearPlatformSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a6eacac91a7a9409412baa24c615f7d02" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CreateSettingsAsset</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a17632b07cc635984817ebdf97d04983d" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>CurrentEditorPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1aaf5a0d5af89f7caa9e39fbb1082086df" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>DeleteTemporaryFile</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a6d8913950ead4e5a4095de497e1d8a47" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>DownloadURL</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ab2a7461e4d8850d7d120605ca0d6305b" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>EditorSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a4657b3ecac8fe0142e37004117c0324a" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>EditSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ad77b20bdfc5042cdecd337edee1af8ca" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>FMODFolderFull</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ae1777d0b423e93371dbff8a4a2eea18d" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>ForceLoggingBinaries</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1af6a925dc6e512f464ccd193fc9628152" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>GetPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ac7659b63849df6589a5fb31bd149a3ea" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>Instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ae1652f8e42763fb893e5f80dad5e6700" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>MigrateLegacyPlatforms&lt; TValue, TSetting &gt;</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a5352ca34461225808418655c4cf306c0" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>PlatformForBuildTarget</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1afb755c526266f0b3e5925a29bb02e4b3" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>PostprocessBuild</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a802be9a0692c72bbd4b1719686a77b44" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>PreprocessBuild</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a3d64fec0fa8e7ba71bdf03fab00e0bac" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>PreprocessStaticPlugins</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a6672b5de96c887144e289738598f09d0" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>RegisterStaticPluginsAssetPathFull</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a26a857dce067acb3451190882d7b8d2c" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>RegisterStaticPluginsAssetPathRelative</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1affa17759fca6ab2aa71d3291da15ad5f" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>RegisterStaticPluginsFile</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ad38ec96510c53141b875af97a066d423" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>ReimportLegacyPlatforms</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a43409c9353a12eedd4b939025ae2dcbd" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>RemovePlatformFromAsset</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a8fee97f8a019bdc087152b52a28ffa8f" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>ResetPlatformSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1ac3e70c2fbd4b5ec9d2e2b1238fa46dc8" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>RuntimeSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a860254281da16eeca0d9a28b613fd7f2" prot="private" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>SelectBinaries</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a1e42258eb934779f2bec47937d8a0786" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>SetPlatformParent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a59b43fe8cf9712ccb4cf329644e568b5" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>SetPlatformSortOrder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a921e29fc8e2914a256dfd58b0153d6f8" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>SortPlatformChildren</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_settings_1a577361657fd8ea885cf34d9a52f5e440" prot="public" virt="non-virtual"><scope>FMODUnity::EditorSettings</scope><name>UpdateMigratedPlatform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

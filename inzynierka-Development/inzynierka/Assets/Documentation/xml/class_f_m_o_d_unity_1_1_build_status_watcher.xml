@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_build_status_watcher" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::BuildStatusWatcher</compoundname>
+    <innerclass refid="class_f_m_o_d_unity_1_1_build_status_watcher_1_1_build_processor" prot="private">FMODUnity::BuildStatusWatcher::BuildProcessor</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_build_status_watcher_1a9225eb505e4c338a64c3190cce93e9aa" prot="public" static="yes" mutable="no">
+        <type>Action</type>
+        <definition>Action FMODUnity.BuildStatusWatcher.OnBuildStarted</definition>
+        <argsstring></argsstring>
+        <name>OnBuildStarted</name>
+        <qualifiedname>FMODUnity.BuildStatusWatcher.OnBuildStarted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1656" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_build_status_watcher_1a6a184685d8c28fb7aa63574f4ae382d3" prot="public" static="yes" mutable="no">
+        <type>Action</type>
+        <definition>Action FMODUnity.BuildStatusWatcher.OnBuildEnded</definition>
+        <argsstring></argsstring>
+        <name>OnBuildEnded</name>
+        <qualifiedname>FMODUnity.BuildStatusWatcher.OnBuildEnded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1657" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1657" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_build_status_watcher_1aae3aa8b0617bdc1de8a446d139ef413d" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.BuildStatusWatcher.buildInProgress</definition>
+        <argsstring></argsstring>
+        <name>buildInProgress</name>
+        <qualifiedname>FMODUnity.BuildStatusWatcher.buildInProgress</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1659" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1659" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_build_status_watcher_1a10a635db10148011be7032bd48050aef" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.BuildStatusWatcher.SetBuildInProgress</definition>
+        <argsstring>(bool inProgress)</argsstring>
+        <name>SetBuildInProgress</name>
+        <qualifiedname>FMODUnity.BuildStatusWatcher.SetBuildInProgress</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>inProgress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1661" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1661" bodyend="1686"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_build_status_watcher_1a92270a9d4ccbf23477bcc1b5e545e2c4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.BuildStatusWatcher.PollBuildStatus</definition>
+        <argsstring>()</argsstring>
+        <name>PollBuildStatus</name>
+        <qualifiedname>FMODUnity.BuildStatusWatcher.PollBuildStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1688" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1688" bodyend="1691"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_build_status_watcher_1a5e6bbe6e4b3856f27dff6d85800a3ff3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.BuildStatusWatcher.Startup</definition>
+        <argsstring>()</argsstring>
+        <name>Startup</name>
+        <qualifiedname>FMODUnity.BuildStatusWatcher.Startup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1708" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1708" bodyend="1723"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1654" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1655" bodyend="1724"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_build_status_watcher_1aae3aa8b0617bdc1de8a446d139ef413d" prot="private" virt="non-virtual"><scope>FMODUnity::BuildStatusWatcher</scope><name>buildInProgress</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_build_status_watcher_1a6a184685d8c28fb7aa63574f4ae382d3" prot="public" virt="non-virtual"><scope>FMODUnity::BuildStatusWatcher</scope><name>OnBuildEnded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_build_status_watcher_1a9225eb505e4c338a64c3190cce93e9aa" prot="public" virt="non-virtual"><scope>FMODUnity::BuildStatusWatcher</scope><name>OnBuildStarted</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_build_status_watcher_1a92270a9d4ccbf23477bcc1b5e545e2c4" prot="private" virt="non-virtual"><scope>FMODUnity::BuildStatusWatcher</scope><name>PollBuildStatus</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_build_status_watcher_1a10a635db10148011be7032bd48050aef" prot="private" virt="non-virtual"><scope>FMODUnity::BuildStatusWatcher</scope><name>SetBuildInProgress</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_build_status_watcher_1a5e6bbe6e4b3856f27dff6d85800a3ff3" prot="public" virt="non-virtual"><scope>FMODUnity::BuildStatusWatcher</scope><name>Startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

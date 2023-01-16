@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator" kind="class" language="C#" prot="public">
+    <compoundname>Animations::Enemys::TurretEnemy::TurretEnemyAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator_1aa36ccfc32ba6c3334c1a1498657dc774" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Animator</type>
+        <definition>Animator Animations.Enemys.TurretEnemy.TurretEnemyAnimator.TurretEnemy</definition>
+        <argsstring></argsstring>
+        <name>TurretEnemy</name>
+        <qualifiedname>Animations.Enemys.TurretEnemy.TurretEnemyAnimator.TurretEnemy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" line="13" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator_1a956b6bb5db558fc1ec40cb0fbfa4cbe8" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Animations.Enemys.TurretEnemy.TurretEnemyAnimator.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>Animations.Enemys.TurretEnemy.TurretEnemyAnimator.start</qualifiedname>
+        <initializer>= Animator.StringToHash(&quot;Start&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" line="18" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator_1a11907d284f76ccab99ddc8007edbee6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.TurretEnemy.TurretEnemyAnimator.PlayAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayAnimation</name>
+        <qualifiedname>Animations.Enemys.TurretEnemy.TurretEnemyAnimator.PlayAnimation</qualifiedname>
+        <briefdescription>
+<para>methode that plays the animations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" line="26" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for playing shield enemy animation </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Animations.Enemys.TurretEnemy.TurretEnemyAnimator</label>
+        <link refid="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Animations.Enemys.TurretEnemy.TurretEnemyAnimator</label>
+        <link refid="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/TurretEnemy/TurretEnemyAnimator.cs" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator_1a11907d284f76ccab99ddc8007edbee6f" prot="public" virt="non-virtual"><scope>Animations::Enemys::TurretEnemy::TurretEnemyAnimator</scope><name>PlayAnimation</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator_1a956b6bb5db558fc1ec40cb0fbfa4cbe8" prot="private" virt="non-virtual"><scope>Animations::Enemys::TurretEnemy::TurretEnemyAnimator</scope><name>start</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_turret_enemy_1_1_turret_enemy_animator_1aa36ccfc32ba6c3334c1a1498657dc774" prot="private" virt="non-virtual"><scope>Animations::Enemys::TurretEnemy::TurretEnemyAnimator</scope><name>TurretEnemy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

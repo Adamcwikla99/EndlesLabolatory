@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_scenes_manager_1_1_rooms_manager" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager::RoomsManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scenes_manager_1_1_rooms_manager_1a9546f998f34c2dda6d53e104327183f9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_file_managment_1_1_save_system" kindref="compound">SaveSystem</ref></type>
+        <definition>SaveSystem ScenesManager.RoomsManager.SaveEvents</definition>
+        <argsstring></argsstring>
+        <name>SaveEvents</name>
+        <qualifiedname>ScenesManager.RoomsManager.SaveEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="20" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_rooms_manager_1aefbafb063c09e27dd9cb66970a985155" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_room_events" kindref="compound">RoomEvents</ref></type>
+        <definition>RoomEvents ScenesManager.RoomsManager.IndividualRoomEvents</definition>
+        <argsstring></argsstring>
+        <name>IndividualRoomEvents</name>
+        <qualifiedname>ScenesManager.RoomsManager.IndividualRoomEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="23" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_rooms_manager_1a7c296d371d0dc8b154a5341ec563066a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ScenesManager.RoomsManager.roomSize</definition>
+        <argsstring></argsstring>
+        <name>roomSize</name>
+        <qualifiedname>ScenesManager.RoomsManager.roomSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="27" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_rooms_manager_1af2a6af9f3f7c30fe9fefac921f0b2deb" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>[,]&gt;</type>
+        <definition>List&lt;RoomGridCell[,]&gt; ScenesManager.RoomsManager.roomCellList</definition>
+        <argsstring></argsstring>
+        <name>roomCellList</name>
+        <qualifiedname>ScenesManager.RoomsManager.roomCellList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="28" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_rooms_manager_1a7f05d2c636f0ef53c967f0d4df79bc88" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref> &gt;</type>
+        <definition>List&lt;RoomCellLayout&gt; ScenesManager.RoomsManager.allTemplates</definition>
+        <argsstring></argsstring>
+        <name>allTemplates</name>
+        <qualifiedname>ScenesManager.RoomsManager.allTemplates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="29" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_rooms_manager_1a1a10798182006ae367d72b090148991a" prot="private" static="no" mutable="no">
+        <type>List&lt; Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;RoomGridCell, List&lt;RoomZones&gt; &gt; &gt; ScenesManager.RoomsManager.RoomTemplatesDictionary</definition>
+        <argsstring></argsstring>
+        <name>RoomTemplatesDictionary</name>
+        <qualifiedname>ScenesManager.RoomsManager.RoomTemplatesDictionary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="30" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1adbc7b8dfbb277655169c3c1e1ac1cf95" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ScenesManager.RoomsManager.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="35" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a4260012d8fc94400660981c57c565be7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ScenesManager.RoomsManager.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="37" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a830703162d10f8c802fe9b9a5072d169" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>ScenesManager.RoomsManager.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="42" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1aaaca34b22b15b8c8a5c499907305ee50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>ScenesManager.RoomsManager.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables template zones relaying methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="88" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a96a116ba3413bb6e827ac1558d5cdc1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>ScenesManager.RoomsManager.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disbales template zones relaying methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="97" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1ac5de2b08a3a1dba9baba00bbfe65a863" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.IndividualRowAction</definition>
+        <argsstring>(int x, RoomGridCell toFind, int lengthCount, RoomGridCell[,] currentRoomGridCell, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>IndividualRowAction</name>
+        <qualifiedname>ScenesManager.RoomsManager.IndividualRowAction</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lengthCount</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>currentRoomGridCell</declname>
+          <array>[,]</array>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that check individual room template rows </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="106" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a736499267fcfeafb1ccb14684b7e35cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; ScenesManager.RoomsManager.GetRandomProcessedRoomTemplate</definition>
+        <argsstring>()</argsstring>
+        <name>GetRandomProcessedRoomTemplate</name>
+        <qualifiedname>ScenesManager.RoomsManager.GetRandomProcessedRoomTemplate</qualifiedname>
+        <briefdescription>
+<para>methode that returns random processed room template <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="117" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a07a4b0917fe446156b6122bd6f1a569c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; ScenesManager.RoomsManager.GetProcessedRoomTemplate</definition>
+        <argsstring>(int i)</argsstring>
+        <name>GetProcessedRoomTemplate</name>
+        <qualifiedname>ScenesManager.RoomsManager.GetProcessedRoomTemplate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>method that returns processed room templates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="125" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="125" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1adffec645a462fd354a5d5be42363e282" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>ScenesManager.RoomsManager.Init</qualifiedname>
+        <briefdescription>
+<para>methode that initializes class lists and loads file datas </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="140" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a7f678fbd309cb6f0a0aeb7951d12d6b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.InitDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>InitDictionary</name>
+        <qualifiedname>ScenesManager.RoomsManager.InitDictionary</qualifiedname>
+        <briefdescription>
+<para>methode that initializes class dictonary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="150" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="150" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a22ec931b522e9e0be53da283e4bde59f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.LoadData</definition>
+        <argsstring>()</argsstring>
+        <name>LoadData</name>
+        <qualifiedname>ScenesManager.RoomsManager.LoadData</qualifiedname>
+        <briefdescription>
+<para>methode that loads files data form saving manager </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="163" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="163" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1ace0d6ba81596399b074d1db72049460f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.IndividualCellCheck</definition>
+        <argsstring>(int x, int y, RoomGridCell toFind, int lengthCount, RoomGridCell[,] currentRoomGridCell, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>IndividualCellCheck</name>
+        <qualifiedname>ScenesManager.RoomsManager.IndividualCellCheck</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lengthCount</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>currentRoomGridCell</declname>
+          <array>[,]</array>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that check individual room template cell </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="179" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="179" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a4c4e1ab162b658a34d2ef3d1b7d23360" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ScenesManager.RoomsManager.NoZoneExists</definition>
+        <argsstring>(int x, int y, RoomGridCell toFind, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>NoZoneExists</name>
+        <qualifiedname>ScenesManager.RoomsManager.NoZoneExists</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds new zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="198" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="198" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a2ed0193b875b6f9b40bfead3f13ad85e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.AddToOrCreateZone</definition>
+        <argsstring>(int x, int y, RoomGridCell toFind, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>AddToOrCreateZone</name>
+        <qualifiedname>ScenesManager.RoomsManager.AddToOrCreateZone</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds cord to existing zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="214" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="214" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a580de1d50cf0594b7ebb4bd39172fc68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ScenesManager.RoomsManager.LookForPointAlignedZones</definition>
+        <argsstring>(int x, int y, ref List&lt; int &gt; nearbyZones, List&lt; RoomZones &gt; temp)</argsstring>
+        <name>LookForPointAlignedZones</name>
+        <qualifiedname>ScenesManager.RoomsManager.LookForPointAlignedZones</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>ref List&lt; int &gt;</type>
+          <declname>nearbyZones</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt;</type>
+          <declname>temp</declname>
+        </param>
+        <briefdescription>
+<para>methode that looks for existing zones aligned to zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="233" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="233" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a064b83572068987df5cecc341664f670" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.PointAligntToZeneOperations</definition>
+        <argsstring>(int x, int y, RoomGridCell toFind, List&lt; int &gt; nearbyZones, List&lt; RoomZones &gt; zonesInRoom, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>PointAligntToZeneOperations</name>
+        <qualifiedname>ScenesManager.RoomsManager.PointAligntToZeneOperations</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>nearbyZones</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt;</type>
+          <declname>zonesInRoom</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that checks if point is alligned to two zones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="253" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="253" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a2b716fa82cde4f8e535240af43c5a275" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.AddToExistingZone</definition>
+        <argsstring>(int x, int y, List&lt; int &gt; nearbyZones, ref List&lt; RoomZones &gt; temp)</argsstring>
+        <name>AddToExistingZone</name>
+        <qualifiedname>ScenesManager.RoomsManager.AddToExistingZone</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>nearbyZones</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt;</type>
+          <declname>temp</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds point to existing zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="269" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1aef4a9e7df351dfc21daccba8441b2d60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.AddAndJoinZones</definition>
+        <argsstring>(int x, int y, RoomGridCell toFind, List&lt; int &gt; nearbyZones, ref List&lt; RoomZones &gt; zonesInRoom, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>AddAndJoinZones</name>
+        <qualifiedname>ScenesManager.RoomsManager.AddAndJoinZones</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>nearbyZones</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt;</type>
+          <declname>zonesInRoom</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that joins existing zones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="274" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="274" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a649438c887a6a8a4f6057f4f3908d71b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.CreateNewZone</definition>
+        <argsstring>(int x, int y, RoomGridCell toFind, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>CreateNewZone</name>
+        <qualifiedname>ScenesManager.RoomsManager.CreateNewZone</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode that creates new zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="287" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="287" bodyend="291"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a70874eadcaf1a08076a997e20eeda238" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.FindAllZones</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllZones</name>
+        <qualifiedname>ScenesManager.RoomsManager.FindAllZones</qualifiedname>
+        <briefdescription>
+<para>methode responsible for finding all zones in room template </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="53" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1a226b58c3a15801bd7d27af55c368edcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.FindZones</definition>
+        <argsstring>(int lengthCount, RoomGridCell[,] currentRoomGridCell, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>FindZones</name>
+        <qualifiedname>ScenesManager.RoomsManager.FindZones</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lengthCount</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>currentRoomGridCell</declname>
+          <array>[,]</array>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for finding individual room template zones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="65" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_rooms_manager_1ac60c60e985fa7860fbd9e563e8fafd46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.RoomsManager.FindType</definition>
+        <argsstring>(RoomGridCell toFind, int lengthCount, RoomGridCell[,] currentRoomGridCell, Dictionary&lt; RoomGridCell, List&lt; RoomZones &gt; &gt; currentRoomZonesDictionary)</argsstring>
+        <name>FindType</name>
+        <qualifiedname>ScenesManager.RoomsManager.FindType</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>toFind</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lengthCount</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>currentRoomGridCell</declname>
+          <array>[,]</array>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt;</type>
+          <declname>currentRoomZonesDictionary</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for finding zones of given type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="74" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that provides room template data and objects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.RoomsManager</label>
+        <link refid="class_scenes_manager_1_1_rooms_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.RoomsManager</label>
+        <link refid="class_scenes_manager_1_1_rooms_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" line="16" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/RoomsManager.cs" bodystart="17" bodyend="294"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1aef4a9e7df351dfc21daccba8441b2d60" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>AddAndJoinZones</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a2b716fa82cde4f8e535240af43c5a275" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>AddToExistingZone</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a2ed0193b875b6f9b40bfead3f13ad85e" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>AddToOrCreateZone</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a7f05d2c636f0ef53c967f0d4df79bc88" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>allTemplates</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a649438c887a6a8a4f6057f4f3908d71b" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>CreateNewZone</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a96a116ba3413bb6e827ac1558d5cdc1e" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>DisableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1aaaca34b22b15b8c8a5c499907305ee50" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>EnableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a70874eadcaf1a08076a997e20eeda238" prot="public" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>FindAllZones</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1ac60c60e985fa7860fbd9e563e8fafd46" prot="public" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>FindType</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a226b58c3a15801bd7d27af55c368edcf" prot="public" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>FindZones</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a07a4b0917fe446156b6122bd6f1a569c" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>GetProcessedRoomTemplate</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a736499267fcfeafb1ccb14684b7e35cf" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>GetRandomProcessedRoomTemplate</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1ace0d6ba81596399b074d1db72049460f" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>IndividualCellCheck</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1aefbafb063c09e27dd9cb66970a985155" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>IndividualRoomEvents</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1ac5de2b08a3a1dba9baba00bbfe65a863" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>IndividualRowAction</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1adffec645a462fd354a5d5be42363e282" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>Init</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a7f678fbd309cb6f0a0aeb7951d12d6b8" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>InitDictionary</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a22ec931b522e9e0be53da283e4bde59f" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>LoadData</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a580de1d50cf0594b7ebb4bd39172fc68" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>LookForPointAlignedZones</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a4c4e1ab162b658a34d2ef3d1b7d23360" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>NoZoneExists</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a830703162d10f8c802fe9b9a5072d169" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>OnDisable</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a4260012d8fc94400660981c57c565be7" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>OnEnable</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a064b83572068987df5cecc341664f670" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>PointAligntToZeneOperations</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1af2a6af9f3f7c30fe9fefac921f0b2deb" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>roomCellList</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a7c296d371d0dc8b154a5341ec563066a" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>roomSize</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a1a10798182006ae367d72b090148991a" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>RoomTemplatesDictionary</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1a9546f998f34c2dda6d53e104327183f9" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>SaveEvents</name></member>
+      <member refid="class_scenes_manager_1_1_rooms_manager_1adbc7b8dfbb277655169c3c1e1ac1cf95" prot="private" virt="non-virtual"><scope>ScenesManager::RoomsManager</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

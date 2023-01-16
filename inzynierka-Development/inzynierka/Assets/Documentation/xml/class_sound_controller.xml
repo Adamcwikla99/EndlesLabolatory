@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_sound_controller" kind="class" language="C#" prot="public">
+    <compoundname>SoundController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sound_controller_1af47efd470b163a18cbadb0b2d09d2a6e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SoundController.applySound</definition>
+        <argsstring></argsstring>
+        <name>applySound</name>
+        <qualifiedname>SoundController.applySound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="12" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a17e51e897f37a677e52ef1fac635b2bd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SoundController.soundValue</definition>
+        <argsstring></argsstring>
+        <name>soundValue</name>
+        <qualifiedname>SoundController.soundValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="13" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a13f07ad572906ce16cafebe10cf0978d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SoundController.mValue</definition>
+        <argsstring></argsstring>
+        <name>mValue</name>
+        <qualifiedname>SoundController.mValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="14" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sound_controller_1a3da45242464bb78b63b69e71d11c6e84" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus SoundController.Master</definition>
+        <argsstring></argsstring>
+        <name>Master</name>
+        <qualifiedname>SoundController.Master</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="20" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a3614845b935cefff18c8efcce89ca135" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus SoundController.Effects</definition>
+        <argsstring></argsstring>
+        <name>Effects</name>
+        <qualifiedname>SoundController.Effects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="21" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a1fcd10bfefdfe776a583134466238fc1" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus SoundController.Musics</definition>
+        <argsstring></argsstring>
+        <name>Musics</name>
+        <qualifiedname>SoundController.Musics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="22" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sound_controller_1a2d43fafd72aacda136eb40f793fe3db2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>SoundController.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="27" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a7e3065fc74ef5272a5b89d94bbdd2c46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>SoundController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="32" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a586fa2bbe4812be9397489df8030823d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>SoundController.Init</qualifiedname>
+        <briefdescription>
+<para>method that initialize sound bus variables </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="43" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1ac21c04868095c479ef17d21414729b36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.AdjustSound</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustSound</name>
+        <qualifiedname>SoundController.AdjustSound</qualifiedname>
+        <briefdescription>
+<para>methode that sets sound volume to selected by user value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="53" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements sound playing logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SoundController</label>
+        <link refid="class_sound_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SoundController</label>
+        <link refid="class_sound_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" line="8" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/SoundController.cs" bodystart="9" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_sound_controller_1ac21c04868095c479ef17d21414729b36" prot="private" virt="non-virtual"><scope>SoundController</scope><name>AdjustSound</name></member>
+      <member refid="class_sound_controller_1af47efd470b163a18cbadb0b2d09d2a6e" prot="public" virt="non-virtual"><scope>SoundController</scope><name>applySound</name></member>
+      <member refid="class_sound_controller_1a2d43fafd72aacda136eb40f793fe3db2" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Awake</name></member>
+      <member refid="class_sound_controller_1a3614845b935cefff18c8efcce89ca135" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Effects</name></member>
+      <member refid="class_sound_controller_1a586fa2bbe4812be9397489df8030823d" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Init</name></member>
+      <member refid="class_sound_controller_1a3da45242464bb78b63b69e71d11c6e84" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Master</name></member>
+      <member refid="class_sound_controller_1a1fcd10bfefdfe776a583134466238fc1" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Musics</name></member>
+      <member refid="class_sound_controller_1a13f07ad572906ce16cafebe10cf0978d" prot="public" virt="non-virtual"><scope>SoundController</scope><name>mValue</name></member>
+      <member refid="class_sound_controller_1a17e51e897f37a677e52ef1fac635b2bd" prot="public" virt="non-virtual"><scope>SoundController</scope><name>soundValue</name></member>
+      <member refid="class_sound_controller_1a7e3065fc74ef5272a5b89d94bbdd2c46" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

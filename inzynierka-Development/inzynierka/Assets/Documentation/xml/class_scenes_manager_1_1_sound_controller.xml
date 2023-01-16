@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_scenes_manager_1_1_sound_controller" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager::SoundController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_sound_controller_1a837cf42cf7886f7504485470ab7888a9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ScenesManager.SoundController.applySound</definition>
+        <argsstring></argsstring>
+        <name>applySound</name>
+        <qualifiedname>ScenesManager.SoundController.applySound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="12" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_sound_controller_1a2ade9f4df6e1865b9bc0e120032e40a1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ScenesManager.SoundController.soundValue</definition>
+        <argsstring></argsstring>
+        <name>soundValue</name>
+        <qualifiedname>ScenesManager.SoundController.soundValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="13" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_sound_controller_1a9cb19060ffe76acab3dbef4901963b50" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ScenesManager.SoundController.mValue</definition>
+        <argsstring></argsstring>
+        <name>mValue</name>
+        <qualifiedname>ScenesManager.SoundController.mValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="14" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_sound_controller_1a58389dc15d05896e7f3ef756e380fdf8" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus ScenesManager.SoundController.Master</definition>
+        <argsstring></argsstring>
+        <name>Master</name>
+        <qualifiedname>ScenesManager.SoundController.Master</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="20" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_sound_controller_1ad223ca53a3553ac240f09717e8edfd39" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus ScenesManager.SoundController.Effects</definition>
+        <argsstring></argsstring>
+        <name>Effects</name>
+        <qualifiedname>ScenesManager.SoundController.Effects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="21" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scenes_manager_1_1_sound_controller_1a487e685c9d2b34405408307a4e52f810" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus ScenesManager.SoundController.Musics</definition>
+        <argsstring></argsstring>
+        <name>Musics</name>
+        <qualifiedname>ScenesManager.SoundController.Musics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="22" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_sound_controller_1af38a612834850f3401c5d7526f6b41bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SoundController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ScenesManager.SoundController.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_sound_controller_1a23022836618d08b075a710772e7df64e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SoundController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ScenesManager.SoundController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="32" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_sound_controller_1a4f4ab7df6ef070df05c05ec2382179d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SoundController.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>ScenesManager.SoundController.Init</qualifiedname>
+        <briefdescription>
+<para>method that initialize sound bus variables </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="43" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_sound_controller_1a3e3e199bd546829a28a4e460213ec0a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SoundController.AdjustSound</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustSound</name>
+        <qualifiedname>ScenesManager.SoundController.AdjustSound</qualifiedname>
+        <briefdescription>
+<para>methode that sets sound volume to selected by user value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="53" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements sound playing logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.SoundController</label>
+        <link refid="class_scenes_manager_1_1_sound_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.SoundController</label>
+        <link refid="class_scenes_manager_1_1_sound_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SoundController.cs" bodystart="9" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a3e3e199bd546829a28a4e460213ec0a3" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>AdjustSound</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a837cf42cf7886f7504485470ab7888a9" prot="public" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>applySound</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1af38a612834850f3401c5d7526f6b41bc" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>Awake</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1ad223ca53a3553ac240f09717e8edfd39" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>Effects</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a4f4ab7df6ef070df05c05ec2382179d4" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>Init</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a58389dc15d05896e7f3ef756e380fdf8" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>Master</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a487e685c9d2b34405408307a4e52f810" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>Musics</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a9cb19060ffe76acab3dbef4901963b50" prot="public" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>mValue</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a2ade9f4df6e1865b9bc0e120032e40a1" prot="public" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>soundValue</name></member>
+      <member refid="class_scenes_manager_1_1_sound_controller_1a23022836618d08b075a710772e7df64e" prot="private" virt="non-virtual"><scope>ScenesManager::SoundController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_drop_1_1_drop_item" kind="class" language="C#" prot="public">
+    <compoundname>Events::Drop::DropItem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_drop_1_1_drop_item_1a9cbce0444695cf8a76809952e9f31cf0" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; Vector3 &gt;</type>
+        <definition>System.Action&lt;Vector3&gt; Events.Drop.DropItem.DropLoot</definition>
+        <argsstring></argsstring>
+        <name>DropLoot</name>
+        <qualifiedname>Events.Drop.DropItem.DropLoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/DropItem.cs" line="11" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/DropItem.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying drop item events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Drop.DropItem</label>
+        <link refid="class_events_1_1_drop_1_1_drop_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Drop.DropItem</label>
+        <link refid="class_events_1_1_drop_1_1_drop_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>DropLoot</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/DropItem.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/DropItem.cs" bodystart="10" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_drop_1_1_drop_item_1a9cbce0444695cf8a76809952e9f31cf0" prot="public" virt="non-virtual"><scope>Events::Drop::DropItem</scope><name>DropLoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

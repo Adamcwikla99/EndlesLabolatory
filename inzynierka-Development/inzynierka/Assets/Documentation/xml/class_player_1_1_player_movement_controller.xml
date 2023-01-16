@@ -1,0 +1,1131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_player_1_1_player_movement_controller" kind="class" language="C#" prot="public">
+    <compoundname>Player::PlayerMovementController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a548441a09fe4ea6c5ff9e2674dccb8c9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.BonusSpeedUp</definition>
+        <argsstring></argsstring>
+        <name>BonusSpeedUp</name>
+        <qualifiedname>Player.PlayerMovementController.BonusSpeedUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="22" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a87b02bba96af9e2da4712443dc4f88f6" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.BonusSpeedDown</definition>
+        <argsstring></argsstring>
+        <name>BonusSpeedDown</name>
+        <qualifiedname>Player.PlayerMovementController.BonusSpeedDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="25" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1ae3b25cfca49f1cfd835d40c1fe2411ea" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody Player.PlayerMovementController.GamePlayer</definition>
+        <argsstring></argsstring>
+        <name>GamePlayer</name>
+        <qualifiedname>Player.PlayerMovementController.GamePlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="28" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a0a21dbe54e40520443003a10536cd2a5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Camera</type>
+        <definition>Camera Player.PlayerMovementController.PlayerCamera</definition>
+        <argsstring></argsstring>
+        <name>PlayerCamera</name>
+        <qualifiedname>Player.PlayerMovementController.PlayerCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="31" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a86f68170a20bcb47672191f47368c08d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.AddMovementForce</definition>
+        <argsstring></argsstring>
+        <name>AddMovementForce</name>
+        <qualifiedname>Player.PlayerMovementController.AddMovementForce</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="34" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a89ad8223ac8348b200e0578ebbbaf9a5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.SprintSpeed</definition>
+        <argsstring></argsstring>
+        <name>SprintSpeed</name>
+        <qualifiedname>Player.PlayerMovementController.SprintSpeed</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="37" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1ae9b685e6b58c2cf3c50efb3eb6451ed7" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.MaxMovementSpeed</definition>
+        <argsstring></argsstring>
+        <name>MaxMovementSpeed</name>
+        <qualifiedname>Player.PlayerMovementController.MaxMovementSpeed</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="40" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a25c1d46fc107ee133ae1f2825211bfd2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.CameraSensibility</definition>
+        <argsstring></argsstring>
+        <name>CameraSensibility</name>
+        <qualifiedname>Player.PlayerMovementController.CameraSensibility</qualifiedname>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="43" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a7d26d6224c1a430ddd4939a2586302a5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.CameraMovementDeny</definition>
+        <argsstring></argsstring>
+        <name>CameraMovementDeny</name>
+        <qualifiedname>Player.PlayerMovementController.CameraMovementDeny</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="46" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1ab4ad32e02a503fe069679cf06f526709" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.CameraSped</definition>
+        <argsstring></argsstring>
+        <name>CameraSped</name>
+        <qualifiedname>Player.PlayerMovementController.CameraSped</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="49" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a944ca01bc97695bda89dc42dc3e1e1d2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_movement_events" kindref="compound">PlayerMovementEvents</ref></type>
+        <definition>PlayerMovementEvents Player.PlayerMovementController.MovementEvents</definition>
+        <argsstring></argsstring>
+        <name>MovementEvents</name>
+        <qualifiedname>Player.PlayerMovementController.MovementEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="52" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a6c2a9e0ebedf5e1b3e773fa0ffe75485" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_fire_events" kindref="compound">PlayerFireEvents</ref></type>
+        <definition>PlayerFireEvents Player.PlayerMovementController.FireEvents</definition>
+        <argsstring></argsstring>
+        <name>FireEvents</name>
+        <qualifiedname>Player.PlayerMovementController.FireEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="55" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a87fde0056d260ff3dfc412bc36ae1efe" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_change_weapon_events" kindref="compound">PlayerChangeWeaponEvents</ref></type>
+        <definition>PlayerChangeWeaponEvents Player.PlayerMovementController.ChangeWeaponEvents</definition>
+        <argsstring></argsstring>
+        <name>ChangeWeaponEvents</name>
+        <qualifiedname>Player.PlayerMovementController.ChangeWeaponEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="58" column="42" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1acf173e340784fba2914006959b4df98b" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_speed_events" kindref="compound">PlayerSpeedEvents</ref></type>
+        <definition>PlayerSpeedEvents Player.PlayerMovementController.PlayerSpeedController</definition>
+        <argsstring></argsstring>
+        <name>PlayerSpeedController</name>
+        <qualifiedname>Player.PlayerMovementController.PlayerSpeedController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="61" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1af9985e37386438c6bce5c2eef8dfbfa2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_buy_item_event" kindref="compound">BuyItemEvent</ref></type>
+        <definition>BuyItemEvent Player.PlayerMovementController.BuyEvent</definition>
+        <argsstring></argsstring>
+        <name>BuyEvent</name>
+        <qualifiedname>Player.PlayerMovementController.BuyEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="64" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a2cfc75a65dd58c5beb4d2b6fc95279ee" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_toggle_minimap_event" kindref="compound">ToggleMinimapEvent</ref></type>
+        <definition>ToggleMinimapEvent Player.PlayerMovementController.Toggle</definition>
+        <argsstring></argsstring>
+        <name>Toggle</name>
+        <qualifiedname>Player.PlayerMovementController.Toggle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="67" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1aa8c4c6f4f87284206b5e9824f896879f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_switch_menu" kindref="compound">SwitchMenu</ref></type>
+        <definition>SwitchMenu Player.PlayerMovementController.SwitchMenu</definition>
+        <argsstring></argsstring>
+        <name>SwitchMenu</name>
+        <qualifiedname>Player.PlayerMovementController.SwitchMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="70" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_1_1_player_movement_controller_1a2d2aaa862dbda0bb011d51224a21597d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_scenes_manager_1_1_game_progress_manager" kindref="compound">GameProgressManager</ref></type>
+        <definition>GameProgressManager Player.PlayerMovementController.ProgressManager</definition>
+        <argsstring></argsstring>
+        <name>ProgressManager</name>
+        <qualifiedname>Player.PlayerMovementController.ProgressManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="73" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a69b9cda0598dd02dda46233e87f3720d" prot="private" static="no" mutable="no">
+        <type>PlayerInputAction</type>
+        <definition>PlayerInputAction Player.PlayerMovementController.inputAction</definition>
+        <argsstring></argsstring>
+        <name>inputAction</name>
+        <qualifiedname>Player.PlayerMovementController.inputAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="78" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a6611e6f53f6f1aff2c53ccc00b7334ee" prot="private" static="no" mutable="no">
+        <type>PlayerInputAction.PlayerControlerActions</type>
+        <definition>PlayerInputAction.PlayerControlerActions Player.PlayerMovementController.inputActionPlayerController</definition>
+        <argsstring></argsstring>
+        <name>inputActionPlayerController</name>
+        <qualifiedname>Player.PlayerMovementController.inputActionPlayerController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="79" column="57" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a494e5fa1abe1446d1d1a3ff76a7a2b4a" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.playerPreviousWeapon</definition>
+        <argsstring></argsstring>
+        <name>playerPreviousWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.playerPreviousWeapon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="81" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1ab6fff9cc6d96463c23a9740d5e974803" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.playerNextWeapon</definition>
+        <argsstring></argsstring>
+        <name>playerNextWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.playerNextWeapon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="82" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a67a7f8a9f11c4b8a3d836c25aae13aac" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.playerBuyItem</definition>
+        <argsstring></argsstring>
+        <name>playerBuyItem</name>
+        <qualifiedname>Player.PlayerMovementController.playerBuyItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="83" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a0e1e9cf80c3c24fdb0f9a4d5392e3de8" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.playerJump</definition>
+        <argsstring></argsstring>
+        <name>playerJump</name>
+        <qualifiedname>Player.PlayerMovementController.playerJump</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="84" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a316db4da3efd7385d354aeaac928368a" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.playerSprint</definition>
+        <argsstring></argsstring>
+        <name>playerSprint</name>
+        <qualifiedname>Player.PlayerMovementController.playerSprint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="85" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1abcac7054050b9e28adfa34d92a21d5b3" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.showMinimap</definition>
+        <argsstring></argsstring>
+        <name>showMinimap</name>
+        <qualifiedname>Player.PlayerMovementController.showMinimap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="86" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a2e233729b8df8d91757394e7c818f47e" prot="private" static="no" mutable="no">
+        <type>InputAction</type>
+        <definition>InputAction Player.PlayerMovementController.pausePopup</definition>
+        <argsstring></argsstring>
+        <name>pausePopup</name>
+        <qualifiedname>Player.PlayerMovementController.pausePopup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="87" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1af5bcfc2baa9b3f74a5e3e7244e00caf0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Player.PlayerMovementController.sprint</definition>
+        <argsstring></argsstring>
+        <name>sprint</name>
+        <qualifiedname>Player.PlayerMovementController.sprint</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="89" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1ad5f103317ed753baff0cd7054420aa64" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Player.PlayerMovementController.canJump</definition>
+        <argsstring></argsstring>
+        <name>canJump</name>
+        <qualifiedname>Player.PlayerMovementController.canJump</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="90" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1ac76eaf74b97f88aff87d3f0e9196deeb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Player.PlayerMovementController.isSpeedUpActive</definition>
+        <argsstring></argsstring>
+        <name>isSpeedUpActive</name>
+        <qualifiedname>Player.PlayerMovementController.isSpeedUpActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="91" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_player_movement_controller_1a0523f9b7ca6bd8fa71806139b2780639" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Player.PlayerMovementController.isSpeedDownActive</definition>
+        <argsstring></argsstring>
+        <name>isSpeedDownActive</name>
+        <qualifiedname>Player.PlayerMovementController.isSpeedDownActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="92" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1ab5980883617655672fa2df2ac89970c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Player.PlayerMovementController.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="98" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="98" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a3a183895977565fd004b9b68879fc96f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Player.PlayerMovementController.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="111" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1aa0c2e284d20b530f25792a3373c99dc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <qualifiedname>Player.PlayerMovementController.LateUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="121" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a9c9d1bdf65bcfd13dcfcecbac5c9d2b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Player.PlayerMovementController.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="127" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1ad65d4ba40134dcb986e2a6f52c9ab699" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Player.PlayerMovementController.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="129" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1adcb4c0a6af18636a9db5bc2be7726726" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnableInputEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableInputEvents</name>
+        <qualifiedname>Player.PlayerMovementController.EnableInputEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables input events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="137" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="137" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1ae6d057bf220eb013321aa6663d02319e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnablePausePopup</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePausePopup</name>
+        <qualifiedname>Player.PlayerMovementController.EnablePausePopup</qualifiedname>
+        <briefdescription>
+<para>methode that enables pause popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="157" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a983bdbf0340e2900a5974cd457b3ca28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisablePausePopup</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePausePopup</name>
+        <qualifiedname>Player.PlayerMovementController.DisablePausePopup</qualifiedname>
+        <briefdescription>
+<para>methode that disables pause popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="165" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a6be9ce504baae0892c6b85dd06075a08" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.TogglePausePopup</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>TogglePausePopup</name>
+        <qualifiedname>Player.PlayerMovementController.TogglePausePopup</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that shows or hides pause popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="173" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1afc06eaaeb1afb21a58909fe841f132f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnableMinimap</definition>
+        <argsstring>()</argsstring>
+        <name>EnableMinimap</name>
+        <qualifiedname>Player.PlayerMovementController.EnableMinimap</qualifiedname>
+        <briefdescription>
+<para>methode that enables minimap popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="183" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="183" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a0c7ffc6bab8ae350038072d24a0055c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisableMinimap</definition>
+        <argsstring>()</argsstring>
+        <name>DisableMinimap</name>
+        <qualifiedname>Player.PlayerMovementController.DisableMinimap</qualifiedname>
+        <briefdescription>
+<para>methode that disables minimap popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="191" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1abcb019058cbc78d051e225e85c11ead9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.ShowMinimap</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>ShowMinimap</name>
+        <qualifiedname>Player.PlayerMovementController.ShowMinimap</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that shows minimap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="199" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a01450520f6e6df444269d44f80276c8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnablePlayerBuy</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePlayerBuy</name>
+        <qualifiedname>Player.PlayerMovementController.EnablePlayerBuy</qualifiedname>
+        <briefdescription>
+<para>methode that enables player buy event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="207" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a0da0355ecf33750a92ea2d38cdcbfd31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.OnPlayerBuyItemPerformed</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>OnPlayerBuyItemPerformed</name>
+        <qualifiedname>Player.PlayerMovementController.OnPlayerBuyItemPerformed</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that calls player buy event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="215" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a97da102965b41d4d9713a082418a6f10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisablePlayerBuy</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePlayerBuy</name>
+        <qualifiedname>Player.PlayerMovementController.DisablePlayerBuy</qualifiedname>
+        <briefdescription>
+<para>methode that disables player buy event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="223" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a965f68d39dd440138fbed8784258314f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnablePlayerJump</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePlayerJump</name>
+        <qualifiedname>Player.PlayerMovementController.EnablePlayerJump</qualifiedname>
+        <briefdescription>
+<para>methode that enables player jump event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="231" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1af6c5479adc5fcb6adde5354288d58f25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.TryReanableJump</definition>
+        <argsstring>(GameObject objectToCheck)</argsstring>
+        <name>TryReanableJump</name>
+        <qualifiedname>Player.PlayerMovementController.TryReanableJump</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>objectToCheck</declname>
+        </param>
+        <briefdescription>
+<para>methode that tries to perform jump action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="239" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="239" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1af434a3892aa8cbee3250d97eff2f5122" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnablePlayerSprint</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePlayerSprint</name>
+        <qualifiedname>Player.PlayerMovementController.EnablePlayerSprint</qualifiedname>
+        <briefdescription>
+<para>methode that enables player sprint event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="252" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="252" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a449efbcf688e15cfc26e6a831752c659" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.PlayerSprint</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>PlayerSprint</name>
+        <qualifiedname>Player.PlayerMovementController.PlayerSprint</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that performers player sprint event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="260" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1ab6de35c581ea9ca19eea10da4ac2fc78" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisablePlayerJump</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePlayerJump</name>
+        <qualifiedname>Player.PlayerMovementController.DisablePlayerJump</qualifiedname>
+        <briefdescription>
+<para>methode that disables player jump event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="268" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="268" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1ad5b80c1bbea3a2495d42beacbffa2c1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisablePlayerSprint</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePlayerSprint</name>
+        <qualifiedname>Player.PlayerMovementController.DisablePlayerSprint</qualifiedname>
+        <briefdescription>
+<para>methode that disables player sprint event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="276" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="276" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a39f35530f00ca086403a6a514fcd5be6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisableInputEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableInputEvents</name>
+        <qualifiedname>Player.PlayerMovementController.DisableInputEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables player input methodes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="284" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="284" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a57083a7d5b5b976e603fab831b53e5c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnablePlayerPreviousWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePlayerPreviousWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.EnablePlayerPreviousWeapon</qualifiedname>
+        <briefdescription>
+<para>methode that enables player change weapon to next type event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="303" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="303" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1aad74fadb8ae89823a26152d1731142c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.EnablePlayerNextWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>EnablePlayerNextWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.EnablePlayerNextWeapon</qualifiedname>
+        <briefdescription>
+<para>methode that disbales player change weapon to next type event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="311" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="311" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a61acb609a16f5643a0605ba412279f49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisablePlayerPreviousWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePlayerPreviousWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.DisablePlayerPreviousWeapon</qualifiedname>
+        <briefdescription>
+<para>methode that enables player change weapon to previous type event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="319" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="319" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a69adea5c5ac897ce93b860bf38030cc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.DisablePlayerNextWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>DisablePlayerNextWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.DisablePlayerNextWeapon</qualifiedname>
+        <briefdescription>
+<para>methode that disables player change weapon to previous type event </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="327" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="327" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1ac817aa135787789d81fece091738aa17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.ReadMovementInput</definition>
+        <argsstring>()</argsstring>
+        <name>ReadMovementInput</name>
+        <qualifiedname>Player.PlayerMovementController.ReadMovementInput</qualifiedname>
+        <briefdescription>
+<para>methode that reads player constant input </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="335" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="335" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a736c84efe0580b482562d89945241200" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.MovePlayer</definition>
+        <argsstring>(Vector2 movementValue)</argsstring>
+        <name>MovePlayer</name>
+        <qualifiedname>Player.PlayerMovementController.MovePlayer</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>movementValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that moves player on map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="350" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="350" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a829bc06bc98171a0dfd5fd04e29325dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Player.PlayerMovementController.CalculateMovementForce</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateMovementForce</name>
+        <qualifiedname>Player.PlayerMovementController.CalculateMovementForce</qualifiedname>
+        <briefdescription>
+<para>methode that calculates movement force </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="377" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="377" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a156ecbcf1c0bb509be0641f70b9aab09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.ReadCameraMovementInput</definition>
+        <argsstring>()</argsstring>
+        <name>ReadCameraMovementInput</name>
+        <qualifiedname>Player.PlayerMovementController.ReadCameraMovementInput</qualifiedname>
+        <briefdescription>
+<para>methode that read camera movement input </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="397" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="397" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1aae43dae8407c00039d227fbd82070f9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.RotateCamera</definition>
+        <argsstring>(Vector2 cameraMovementValue)</argsstring>
+        <name>RotateCamera</name>
+        <qualifiedname>Player.PlayerMovementController.RotateCamera</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>cameraMovementValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that rotates cammera </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cameraMovementValue</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="422" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="422" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a199300ad1cd00841838ff6ca099626bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.PlayerFire</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerFire</name>
+        <qualifiedname>Player.PlayerMovementController.PlayerFire</qualifiedname>
+        <briefdescription>
+<para>methode that fires players weapon </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="441" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="441" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1aca60bf10d591eb2f9a2c5fc89603ce6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.PlayerJump</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>PlayerJump</name>
+        <qualifiedname>Player.PlayerMovementController.PlayerJump</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that makes player jump </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="450" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="450" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1affd5322ddf037078121e7d72d2e4aa5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.ChangeToNextWeapon</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>ChangeToNextWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.ChangeToNextWeapon</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes player weapon type to next type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="462" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="462" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_player_movement_controller_1a1b861b8f6534e317676d750d6a7e9342" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.PlayerMovementController.ChangeToPreviousWeapon</definition>
+        <argsstring>(InputAction.CallbackContext obj)</argsstring>
+        <name>ChangeToPreviousWeapon</name>
+        <qualifiedname>Player.PlayerMovementController.ChangeToPreviousWeapon</qualifiedname>
+        <param>
+          <type>InputAction.CallbackContext</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes player weapon type to previous type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="470" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="470" bodyend="473"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for interpreting user input and performing required movement action - showing <ref refid="namespace_u_i" kindref="compound">UI</ref>, player map movement or event actions like jump/buy/weapon fire. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player.PlayerMovementController</label>
+        <link refid="class_player_1_1_player_movement_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Player.PlayerMovementController</label>
+        <link refid="class_player_1_1_player_movement_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" line="17" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Player/PlayerMovementController.cs" bodystart="18" bodyend="477"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_player_movement_controller_1a86f68170a20bcb47672191f47368c08d" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>AddMovementForce</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ab5980883617655672fa2df2ac89970c4" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>Awake</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a87b02bba96af9e2da4712443dc4f88f6" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>BonusSpeedDown</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a548441a09fe4ea6c5ff9e2674dccb8c9" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>BonusSpeedUp</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1af9985e37386438c6bce5c2eef8dfbfa2" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>BuyEvent</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a829bc06bc98171a0dfd5fd04e29325dc" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>CalculateMovementForce</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a7d26d6224c1a430ddd4939a2586302a5" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>CameraMovementDeny</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a25c1d46fc107ee133ae1f2825211bfd2" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>CameraSensibility</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ab4ad32e02a503fe069679cf06f526709" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>CameraSped</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ad5f103317ed753baff0cd7054420aa64" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>canJump</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1affd5322ddf037078121e7d72d2e4aa5a" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ChangeToNextWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a1b861b8f6534e317676d750d6a7e9342" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ChangeToPreviousWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a87fde0056d260ff3dfc412bc36ae1efe" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ChangeWeaponEvents</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a39f35530f00ca086403a6a514fcd5be6" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisableInputEvents</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a0c7ffc6bab8ae350038072d24a0055c4" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisableMinimap</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a983bdbf0340e2900a5974cd457b3ca28" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisablePausePopup</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a97da102965b41d4d9713a082418a6f10" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisablePlayerBuy</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ab6de35c581ea9ca19eea10da4ac2fc78" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisablePlayerJump</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a69adea5c5ac897ce93b860bf38030cc1" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisablePlayerNextWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a61acb609a16f5643a0605ba412279f49" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisablePlayerPreviousWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ad5b80c1bbea3a2495d42beacbffa2c1e" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>DisablePlayerSprint</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1adcb4c0a6af18636a9db5bc2be7726726" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnableInputEvents</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1afc06eaaeb1afb21a58909fe841f132f1" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnableMinimap</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ae6d057bf220eb013321aa6663d02319e" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnablePausePopup</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a01450520f6e6df444269d44f80276c8d" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnablePlayerBuy</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a965f68d39dd440138fbed8784258314f" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnablePlayerJump</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1aad74fadb8ae89823a26152d1731142c5" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnablePlayerNextWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a57083a7d5b5b976e603fab831b53e5c8" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnablePlayerPreviousWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1af434a3892aa8cbee3250d97eff2f5122" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>EnablePlayerSprint</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a6c2a9e0ebedf5e1b3e773fa0ffe75485" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>FireEvents</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ae3b25cfca49f1cfd835d40c1fe2411ea" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>GamePlayer</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a69b9cda0598dd02dda46233e87f3720d" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>inputAction</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a6611e6f53f6f1aff2c53ccc00b7334ee" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>inputActionPlayerController</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a0523f9b7ca6bd8fa71806139b2780639" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>isSpeedDownActive</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ac76eaf74b97f88aff87d3f0e9196deeb" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>isSpeedUpActive</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1aa0c2e284d20b530f25792a3373c99dc1" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>LateUpdate</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ae9b685e6b58c2cf3c50efb3eb6451ed7" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>MaxMovementSpeed</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a944ca01bc97695bda89dc42dc3e1e1d2" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>MovementEvents</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a736c84efe0580b482562d89945241200" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>MovePlayer</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ad65d4ba40134dcb986e2a6f52c9ab699" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>OnDisable</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a9c9d1bdf65bcfd13dcfcecbac5c9d2b9" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>OnEnable</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a0da0355ecf33750a92ea2d38cdcbfd31" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>OnPlayerBuyItemPerformed</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a2e233729b8df8d91757394e7c818f47e" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>pausePopup</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a67a7f8a9f11c4b8a3d836c25aae13aac" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>playerBuyItem</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a0a21dbe54e40520443003a10536cd2a5" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>PlayerCamera</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a199300ad1cd00841838ff6ca099626bc" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>PlayerFire</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a0e1e9cf80c3c24fdb0f9a4d5392e3de8" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>playerJump</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1aca60bf10d591eb2f9a2c5fc89603ce6a" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>PlayerJump</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ab6fff9cc6d96463c23a9740d5e974803" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>playerNextWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a494e5fa1abe1446d1d1a3ff76a7a2b4a" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>playerPreviousWeapon</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1acf173e340784fba2914006959b4df98b" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>PlayerSpeedController</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a316db4da3efd7385d354aeaac928368a" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>playerSprint</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a449efbcf688e15cfc26e6a831752c659" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>PlayerSprint</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a2d2aaa862dbda0bb011d51224a21597d" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ProgressManager</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a156ecbcf1c0bb509be0641f70b9aab09" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ReadCameraMovementInput</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1ac817aa135787789d81fece091738aa17" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ReadMovementInput</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1aae43dae8407c00039d227fbd82070f9f" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>RotateCamera</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1abcac7054050b9e28adfa34d92a21d5b3" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>showMinimap</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1abcb019058cbc78d051e225e85c11ead9" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>ShowMinimap</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1af5bcfc2baa9b3f74a5e3e7244e00caf0" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>sprint</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a89ad8223ac8348b200e0578ebbbaf9a5" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>SprintSpeed</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1aa8c4c6f4f87284206b5e9824f896879f" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>SwitchMenu</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a2cfc75a65dd58c5beb4d2b6fc95279ee" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>Toggle</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a6be9ce504baae0892c6b85dd06075a08" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>TogglePausePopup</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1af6c5479adc5fcb6adde5354288d58f25" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>TryReanableJump</name></member>
+      <member refid="class_player_1_1_player_movement_controller_1a3a183895977565fd004b9b68879fc96f" prot="private" virt="non-virtual"><scope>Player::PlayerMovementController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

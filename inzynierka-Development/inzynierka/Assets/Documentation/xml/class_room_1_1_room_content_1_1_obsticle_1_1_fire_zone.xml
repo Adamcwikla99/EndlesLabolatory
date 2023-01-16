@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Obsticle::FireZone</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.RoomObstacle</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a8f01954865919c3974fc2d3839976296" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Obsticle.FireZone.ZoneDamage</definition>
+        <argsstring></argsstring>
+        <name>ZoneDamage</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.ZoneDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="15" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a29ba112fa47bfd11d444369d5ce115c3" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.RoomContent.Obsticle.FireZone.playerGameobject</definition>
+        <argsstring></argsstring>
+        <name>playerGameobject</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.playerGameobject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="20" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a9e40c4a1eaf3496ab5381eecad6902e2" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_interface_1_1_i_damage" kindref="compound">IDamage</ref></type>
+        <definition>IDamage Room.RoomContent.Obsticle.FireZone.playerDamageInterface</definition>
+        <argsstring></argsstring>
+        <name>playerDamageInterface</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.playerDamageInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="21" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a96f4097821d4aebb92dac4d45710a6e4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Obsticle.FireZone.playerInZone</definition>
+        <argsstring></argsstring>
+        <name>playerInZone</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.playerInZone</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a7b069fca9a9adf4d485465378cc673a2" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine Room.RoomContent.Obsticle.FireZone.damageCoroutine</definition>
+        <argsstring></argsstring>
+        <name>damageCoroutine</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.damageCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="23" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a8833aaf47859cbca5c69cf0865166810" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.FireZone.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="28" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a14550ca7810c2a0b104ed52363367b95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.FireZone.OnTriggerExit</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerExit</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.OnTriggerExit</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a64402cbc49db9091110056e2499c91c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.FireZone.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="38" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1ac6cb214a19d677309db07dc058758930" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.FireZone.EnteredEntityCheck</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>EnteredEntityCheck</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.EnteredEntityCheck</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that apples damage to player if player have had entered the zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="49" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="49" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1ab64820eb84fd33b28c0b816abc075291" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.FireZone.ExitEntityCheck</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>ExitEntityCheck</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.ExitEntityCheck</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that stops applying damage to player if have left the zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="64" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a8c4cab0cdb615018b3d99c1e244710df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.FireZone.TryApplyPlayerDamage</definition>
+        <argsstring>()</argsstring>
+        <name>TryApplyPlayerDamage</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.TryApplyPlayerDamage</qualifiedname>
+        <briefdescription>
+<para>methode that tries to apply damage to player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="77" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1afe5732e426c082390b1cae148a47bd06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Room.RoomContent.Obsticle.FireZone.DamageTick</definition>
+        <argsstring>()</argsstring>
+        <name>DamageTick</name>
+        <qualifiedname>Room.RoomContent.Obsticle.FireZone.DamageTick</qualifiedname>
+        <briefdescription>
+<para>methode responsible for making damage tick </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="90" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="90" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements fire zone logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Obsticle.FireZone</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Obsticle.FireZone</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/FireZone.cs" bodystart="11" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a7b069fca9a9adf4d485465378cc673a2" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>damageCoroutine</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1afe5732e426c082390b1cae148a47bd06" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>DamageTick</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1ac6cb214a19d677309db07dc058758930" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>EnteredEntityCheck</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1ab64820eb84fd33b28c0b816abc075291" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>ExitEntityCheck</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb" prot="protected" virt="virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a8833aaf47859cbca5c69cf0865166810" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a14550ca7810c2a0b104ed52363367b95" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>OnTriggerExit</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a9e40c4a1eaf3496ab5381eecad6902e2" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>playerDamageInterface</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a29ba112fa47bfd11d444369d5ce115c3" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>playerGameobject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a96f4097821d4aebb92dac4d45710a6e4" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>playerInZone</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a8c4cab0cdb615018b3d99c1e244710df" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>TryApplyPlayerDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a64402cbc49db9091110056e2499c91c9" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>Update</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone_1a8f01954865919c3974fc2d3839976296" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::FireZone</scope><name>ZoneDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

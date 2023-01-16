@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_room_1_1_room_events" kind="class" language="C#" prot="public">
+    <compoundname>Events::Room::RoomEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_room_1_1_room_events_1a33f0678f9829688ec85c71280082ed7a" prot="public" static="no" mutable="no">
+        <type>Func&lt; int, Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt; &gt;</type>
+        <definition>Func&lt;int, Dictionary&lt;RoomGridCell, List&lt;RoomZones&gt; &gt; &gt; Events.Room.RoomEvents.GetRoomGridTemplate</definition>
+        <argsstring></argsstring>
+        <name>GetRoomGridTemplate</name>
+        <qualifiedname>Events.Room.RoomEvents.GetRoomGridTemplate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/RoomEvents.cs" line="15" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/RoomEvents.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_room_1_1_room_events_1a8c767e4fdc64707069e6101d73ead148" prot="public" static="no" mutable="no">
+        <type>Func&lt; Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>, List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_zones" kindref="compound">RoomZones</ref> &gt; &gt; &gt;</type>
+        <definition>Func&lt;Dictionary&lt;RoomGridCell, List&lt;RoomZones&gt; &gt; &gt; Events.Room.RoomEvents.GetRandomRoomGridTemplate</definition>
+        <argsstring></argsstring>
+        <name>GetRandomRoomGridTemplate</name>
+        <qualifiedname>Events.Room.RoomEvents.GetRandomRoomGridTemplate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/RoomEvents.cs" line="16" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/RoomEvents.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying room template reallying data events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Room.RoomEvents</label>
+        <link refid="class_events_1_1_room_1_1_room_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Room.RoomEvents</label>
+        <link refid="class_events_1_1_room_1_1_room_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/RoomEvents.cs" line="13" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/RoomEvents.cs" bodystart="14" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_room_1_1_room_events_1a8c767e4fdc64707069e6101d73ead148" prot="public" virt="non-virtual"><scope>Events::Room::RoomEvents</scope><name>GetRandomRoomGridTemplate</name></member>
+      <member refid="class_events_1_1_room_1_1_room_events_1a33f0678f9829688ec85c71280082ed7a" prot="public" virt="non-virtual"><scope>Events::Room::RoomEvents</scope><name>GetRoomGridTemplate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

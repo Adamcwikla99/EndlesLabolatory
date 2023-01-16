@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu" kind="class" language="C#" prot="public">
+    <compoundname>UI::Menu::Pages::EndGameMenu</compoundname>
+    <basecompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" prot="public" virt="non-virtual">UI.Menu.Pages.UIMenu</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1a4429fdb3c8a35cbdfe27c9194a8b34cf" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button UI.Menu.Pages.EndGameMenu.Restart</definition>
+        <argsstring></argsstring>
+        <name>Restart</name>
+        <qualifiedname>UI.Menu.Pages.EndGameMenu.Restart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="14" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ab6038388d5e5d1f19e4fbeac1b483320" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button UI.Menu.Pages.EndGameMenu.MainMenu</definition>
+        <argsstring></argsstring>
+        <name>MainMenu</name>
+        <qualifiedname>UI.Menu.Pages.EndGameMenu.MainMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="17" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ab71e4041259d853ad59975c096c70049" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UI.Menu.Pages.EndGameMenu.SubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeEvents</name>
+        <qualifiedname>UI.Menu.Pages.EndGameMenu.SubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a31b0c9caf56b78e516d9198387427d0b">SubscribeEvents</reimplements>
+        <briefdescription>
+<para>abstract methode that should contain assigment of action methods and initializing values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="22" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ac74687cbd1121c05cdd76358457c9c25" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void UI.Menu.Pages.EndGameMenu.UnsubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeEvents</name>
+        <qualifiedname>UI.Menu.Pages.EndGameMenu.UnsubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a0a54b6c0601a701b30daa453b530b7a4">UnsubscribeEvents</reimplements>
+        <briefdescription>
+<para>abstract methode that should contain assigment of action methods and initializing values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="28" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1a77b47c79b17ba6b486c0d772fffebb89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.Pages.EndGameMenu.RestartAction</definition>
+        <argsstring>()</argsstring>
+        <name>RestartAction</name>
+        <qualifiedname>UI.Menu.Pages.EndGameMenu.RestartAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="37" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1a743e0405b56063da943d7e5f270b729f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.Pages.EndGameMenu.MainMenuAction</definition>
+        <argsstring>()</argsstring>
+        <name>MainMenuAction</name>
+        <qualifiedname>UI.Menu.Pages.EndGameMenu.MainMenuAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="42" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements endgame menu logic - not used. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.Pages.EndGameMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.Pages.EndGameMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" line="9" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/EndGameMenu.cs" bodystart="10" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ab6038388d5e5d1f19e4fbeac1b483320" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>MainMenu</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1a743e0405b56063da943d7e5f270b729f" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>MainMenuAction</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a79d4b1063d0399e9e07b572fa626222d" prot="protected" virt="non-virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a12aaec1e5ab532b24922e876038759dd" prot="protected" virt="non-virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1a4429fdb3c8a35cbdfe27c9194a8b34cf" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>Restart</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1a77b47c79b17ba6b486c0d772fffebb89" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>RestartAction</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ab71e4041259d853ad59975c096c70049" prot="protected" virt="virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>SubscribeEvents</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_end_game_menu_1ac74687cbd1121c05cdd76358457c9c25" prot="protected" virt="virtual"><scope>UI::Menu::Pages::EndGameMenu</scope><name>UnsubscribeEvents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

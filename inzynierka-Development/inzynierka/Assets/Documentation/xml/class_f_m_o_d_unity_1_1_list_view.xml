@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_list_view" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::ListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditorInternal.ReorderableList</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_list_view_1a224a1f7243234b4a71e25742ab745ebf" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.ListView.ElementPadding</definition>
+        <argsstring></argsstring>
+        <name>ElementPadding</name>
+        <qualifiedname>FMODUnity.ListView.ElementPadding</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="8" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_list_view_1abec518458284b806bbe5d53c04a317fc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_list_view_1a0d6dc1f91e9390dee7c322071dc8c329" kindref="member">DrawElementWithLabelDelegate</ref></type>
+        <definition>DrawElementWithLabelDelegate FMODUnity.ListView.drawElementWithLabelCallback</definition>
+        <argsstring></argsstring>
+        <name>drawElementWithLabelCallback</name>
+        <qualifiedname>FMODUnity.ListView.drawElementWithLabelCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="10" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_list_view_1a0bb641e04bd9eca6c38b9b8ee55523a6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.ListView.labelRight</definition>
+        <argsstring></argsstring>
+        <name>labelRight</name>
+        <qualifiedname>FMODUnity.ListView.labelRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="15" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_list_view_1a0d6dc1f91e9390dee7c322071dc8c329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void FMODUnity.ListView.DrawElementWithLabelDelegate</definition>
+        <argsstring>(Rect rect, float labelRight, int index, bool active, bool focused)</argsstring>
+        <name>DrawElementWithLabelDelegate</name>
+        <qualifiedname>FMODUnity.ListView.DrawElementWithLabelDelegate</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>labelRight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>focused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="12" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_list_view_1a921a50d9f1526dc9c979edb587aef89f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.ListView.ListView</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>ListView</name>
+        <qualifiedname>FMODUnity.ListView.ListView</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="17" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_list_view_1a7ca1a3ba871314a9932298dbbb00bd2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.ListView.DrawLayout</definition>
+        <argsstring>()</argsstring>
+        <name>DrawLayout</name>
+        <qualifiedname>FMODUnity.ListView.DrawLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="25" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_list_view_1afcb3da2d9736714cb61daefdcec7d29c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.ListView.DrawElementWrapper</definition>
+        <argsstring>(Rect rect, int index, bool active, bool focused)</argsstring>
+        <name>DrawElementWrapper</name>
+        <qualifiedname>FMODUnity.ListView.DrawElementWrapper</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>focused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="34" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.ListView</label>
+        <link refid="class_f_m_o_d_unity_1_1_list_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditorInternal::ReorderableList</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.ListView</label>
+        <link refid="class_f_m_o_d_unity_1_1_list_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditorInternal::ReorderableList</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" line="6" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/ListView.cs" bodystart="7" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1abec518458284b806bbe5d53c04a317fc" prot="public" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>drawElementWithLabelCallback</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1a0d6dc1f91e9390dee7c322071dc8c329" prot="public" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>DrawElementWithLabelDelegate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1afcb3da2d9736714cb61daefdcec7d29c" prot="private" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>DrawElementWrapper</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1a7ca1a3ba871314a9932298dbbb00bd2b" prot="public" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>DrawLayout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1a224a1f7243234b4a71e25742ab745ebf" prot="private" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>ElementPadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1a0bb641e04bd9eca6c38b9b8ee55523a6" prot="private" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>labelRight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_list_view_1a921a50d9f1526dc9c979edb587aef89f" prot="public" virt="non-virtual"><scope>FMODUnity::ListView</scope><name>ListView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

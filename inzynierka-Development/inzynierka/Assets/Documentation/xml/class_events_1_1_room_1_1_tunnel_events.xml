@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_room_1_1_tunnel_events" kind="class" language="C#" prot="public">
+    <compoundname>Events::Room::TunnelEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_room_1_1_tunnel_events_1a1a4d7623cbd0ff00cae3ef42a7016872" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>System.Action&lt;CordsXY&gt; Events.Room.TunnelEvents.AwakeRoomEntity</definition>
+        <argsstring></argsstring>
+        <name>AwakeRoomEntity</name>
+        <qualifiedname>Events.Room.TunnelEvents.AwakeRoomEntity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/TunnelEvents.cs" line="12" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/TunnelEvents.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_room_1_1_tunnel_events_1a6d1edeb848bdfa5c055055616fcd5b52" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>System.Action&lt;CordsXY&gt; Events.Room.TunnelEvents.KillAllRoomEntity</definition>
+        <argsstring></argsstring>
+        <name>KillAllRoomEntity</name>
+        <qualifiedname>Events.Room.TunnelEvents.KillAllRoomEntity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/TunnelEvents.cs" line="13" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/TunnelEvents.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying tunnel traveling events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Room.TunnelEvents</label>
+        <link refid="class_events_1_1_room_1_1_tunnel_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Room.TunnelEvents</label>
+        <link refid="class_events_1_1_room_1_1_tunnel_events"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>AwakeRoomEntity</edgelabel>
+          <edgelabel>KillAllRoomEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/TunnelEvents.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Room/TunnelEvents.cs" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_room_1_1_tunnel_events_1a1a4d7623cbd0ff00cae3ef42a7016872" prot="public" virt="non-virtual"><scope>Events::Room::TunnelEvents</scope><name>AwakeRoomEntity</name></member>
+      <member refid="class_events_1_1_room_1_1_tunnel_events_1a6d1edeb848bdfa5c055055616fcd5b52" prot="public" virt="non-virtual"><scope>Events::Room::TunnelEvents</scope><name>KillAllRoomEntity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

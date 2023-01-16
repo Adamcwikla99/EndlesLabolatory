@@ -1,0 +1,3021 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_studio_1_1_system" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Studio::System</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_studio_1_1_system_1a94bafa7f760c64b0b927e47ecc7c5fbd" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Studio.System.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Studio.System.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="945" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="945" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1af7b5290f87e00379be83eb8f66f49cc9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.create</definition>
+        <argsstring>(out System system)</argsstring>
+        <name>create</name>
+        <qualifiedname>FMOD.Studio.System.create</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_system" kindref="compound">System</ref></type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="392" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="392" bodyend="395"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1addaf4027bca47e8f8b7f61990c6c7424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setAdvancedSettings</definition>
+        <argsstring>(ADVANCEDSETTINGS settings)</argsstring>
+        <name>setAdvancedSettings</name>
+        <qualifiedname>FMOD.Studio.System.setAdvancedSettings</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_a_d_v_a_n_c_e_d_s_e_t_t_i_n_g_s" kindref="compound">ADVANCEDSETTINGS</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="396" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="396" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a010adb4a9ee376c3a0f47b60e83259ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setAdvancedSettings</definition>
+        <argsstring>(ADVANCEDSETTINGS settings, string encryptionKey)</argsstring>
+        <name>setAdvancedSettings</name>
+        <qualifiedname>FMOD.Studio.System.setAdvancedSettings</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_a_d_v_a_n_c_e_d_s_e_t_t_i_n_g_s" kindref="compound">ADVANCEDSETTINGS</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>encryptionKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="401" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="401" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a6e1cee79f8fb98b7187b610461b886c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getAdvancedSettings</definition>
+        <argsstring>(out ADVANCEDSETTINGS settings)</argsstring>
+        <name>getAdvancedSettings</name>
+        <qualifiedname>FMOD.Studio.System.getAdvancedSettings</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_a_d_v_a_n_c_e_d_s_e_t_t_i_n_g_s" kindref="compound">ADVANCEDSETTINGS</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="412" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="412" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a49e2e96bc14a40f2c111db77f1a50952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.initialize</definition>
+        <argsstring>(int maxchannels, INITFLAGS studioflags, FMOD.INITFLAGS flags, IntPtr extradriverdata)</argsstring>
+        <name>initialize</name>
+        <qualifiedname>FMOD.Studio.System.initialize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxchannels</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4" kindref="member">INITFLAGS</ref></type>
+          <declname>studioflags</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a1eb59ee0c14b7edd1c75e577ecdca8d3" kindref="member">FMOD.INITFLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>extradriverdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="417" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="417" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1af26c773b241454255776b8b5bb2c1802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.Studio.System.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="421" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="421" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a16375faa67a0906d3b2f7a4e3db18fdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <qualifiedname>FMOD.Studio.System.update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="425" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="425" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad2136567ebb24d535b6470b1e69dc00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getCoreSystem</definition>
+        <argsstring>(out FMOD.System coresystem)</argsstring>
+        <name>getCoreSystem</name>
+        <qualifiedname>FMOD.Studio.System.getCoreSystem</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_system" kindref="compound">FMOD.System</ref></type>
+          <declname>coresystem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="429" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="429" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a7f84df3429ebc5c4f5b3b7936a6e23aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getEvent</definition>
+        <argsstring>(string path, out EventDescription _event)</argsstring>
+        <name>getEvent</name>
+        <qualifiedname>FMOD.Studio.System.getEvent</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">EventDescription</ref></type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="433" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="433" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a88721afe24bbba9a498dbbb69d1c8d7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBus</definition>
+        <argsstring>(string path, out Bus bus)</argsstring>
+        <name>getBus</name>
+        <qualifiedname>FMOD.Studio.System.getBus</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="440" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="440" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1af20b73707be730b67cb7c4dcdb658422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getVCA</definition>
+        <argsstring>(string path, out VCA vca)</argsstring>
+        <name>getVCA</name>
+        <qualifiedname>FMOD.Studio.System.getVCA</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a" kindref="compound">VCA</ref></type>
+          <declname>vca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="447" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="447" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8257a13815ab2ee835737a22b93fddbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBank</definition>
+        <argsstring>(string path, out Bank bank)</argsstring>
+        <name>getBank</name>
+        <qualifiedname>FMOD.Studio.System.getBank</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bank" kindref="compound">Bank</ref></type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="454" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="454" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad313a4f07a86ef4b09dd8565b78c7230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getEventByID</definition>
+        <argsstring>(GUID id, out EventDescription _event)</argsstring>
+        <name>getEventByID</name>
+        <qualifiedname>FMOD.Studio.System.getEventByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">EventDescription</ref></type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="462" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="462" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a1c7539339989e83aa2156ba200837aa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBusByID</definition>
+        <argsstring>(GUID id, out Bus bus)</argsstring>
+        <name>getBusByID</name>
+        <qualifiedname>FMOD.Studio.System.getBusByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="466" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="466" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a511481b6128cd21a779f84f044b10bf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getVCAByID</definition>
+        <argsstring>(GUID id, out VCA vca)</argsstring>
+        <name>getVCAByID</name>
+        <qualifiedname>FMOD.Studio.System.getVCAByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a" kindref="compound">VCA</ref></type>
+          <declname>vca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="470" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="470" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad4343c96d6d4d78135de5f07688fe046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBankByID</definition>
+        <argsstring>(GUID id, out Bank bank)</argsstring>
+        <name>getBankByID</name>
+        <qualifiedname>FMOD.Studio.System.getBankByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bank" kindref="compound">Bank</ref></type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="474" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="474" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a57fb752e43fe0df1f71e807ccff87a28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getSoundInfo</definition>
+        <argsstring>(string key, out SOUND_INFO info)</argsstring>
+        <name>getSoundInfo</name>
+        <qualifiedname>FMOD.Studio.System.getSoundInfo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_s_o_u_n_d___i_n_f_o" kindref="compound">SOUND_INFO</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="478" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="478" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aeebcce3683e677803af5c7fb111e6b2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterDescriptionByName</definition>
+        <argsstring>(string name, out PARAMETER_DESCRIPTION parameter)</argsstring>
+        <name>getParameterDescriptionByName</name>
+        <qualifiedname>FMOD.Studio.System.getParameterDescriptionByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">PARAMETER_DESCRIPTION</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="485" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="485" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a3ffba814f6302bd293acc94b1b67426c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterDescriptionByID</definition>
+        <argsstring>(PARAMETER_ID id, out PARAMETER_DESCRIPTION parameter)</argsstring>
+        <name>getParameterDescriptionByID</name>
+        <qualifiedname>FMOD.Studio.System.getParameterDescriptionByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">PARAMETER_DESCRIPTION</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="492" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="492" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8a954225fa4cf50aed59ba06b24c0acb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterLabelByName</definition>
+        <argsstring>(string name, int labelindex, out string label)</argsstring>
+        <name>getParameterLabelByName</name>
+        <qualifiedname>FMOD.Studio.System.getParameterLabelByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>labelindex</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="496" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="496" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1adb5c9c2f6bdd1675f3d47971167896c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterLabelByID</definition>
+        <argsstring>(PARAMETER_ID id, int labelindex, out string label)</argsstring>
+        <name>getParameterLabelByID</name>
+        <qualifiedname>FMOD.Studio.System.getParameterLabelByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>labelindex</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="523" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="523" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a281b2702f74372521bb76f3abf85b94b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterByID</definition>
+        <argsstring>(PARAMETER_ID id, out float value)</argsstring>
+        <name>getParameterByID</name>
+        <qualifiedname>FMOD.Studio.System.getParameterByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="549" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="549" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a2c5c01682d49995e55b26c02bb76c292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterByID</definition>
+        <argsstring>(PARAMETER_ID id, out float value, out float finalvalue)</argsstring>
+        <name>getParameterByID</name>
+        <qualifiedname>FMOD.Studio.System.getParameterByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="554" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="554" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a6cd6da7626420bc1ad1914a506a9b282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setParameterByID</definition>
+        <argsstring>(PARAMETER_ID id, float value, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByID</name>
+        <qualifiedname>FMOD.Studio.System.setParameterByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="558" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="558" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a7bc8ec32c28704016eefb125afa819fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setParameterByIDWithLabel</definition>
+        <argsstring>(PARAMETER_ID id, string label, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByIDWithLabel</name>
+        <qualifiedname>FMOD.Studio.System.setParameterByIDWithLabel</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="562" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="562" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a340baf40525264700a19517786035c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setParametersByIDs</definition>
+        <argsstring>(PARAMETER_ID[] ids, float[] values, int count, bool ignoreseekspeed=false)</argsstring>
+        <name>setParametersByIDs</name>
+        <qualifiedname>FMOD.Studio.System.setParametersByIDs</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref>[]</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="569" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="569" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a3a70e3fde395ece9f5bb1a3b7daff9e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterByName</definition>
+        <argsstring>(string name, out float value)</argsstring>
+        <name>getParameterByName</name>
+        <qualifiedname>FMOD.Studio.System.getParameterByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="573" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="573" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a521d94ad3371787e9c044fbd880ba5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterByName</definition>
+        <argsstring>(string name, out float value, out float finalvalue)</argsstring>
+        <name>getParameterByName</name>
+        <qualifiedname>FMOD.Studio.System.getParameterByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="578" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="578" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a242135f7c9bab917fb3501b76362960b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setParameterByName</definition>
+        <argsstring>(string name, float value, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByName</name>
+        <qualifiedname>FMOD.Studio.System.setParameterByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="585" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="585" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a51071f0da6131f519d69f8c143bb3516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setParameterByNameWithLabel</definition>
+        <argsstring>(string name, string label, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByNameWithLabel</name>
+        <qualifiedname>FMOD.Studio.System.setParameterByNameWithLabel</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="592" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="592" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a2d8b7fbcef9f93721c318d6ca61d6f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.lookupID</definition>
+        <argsstring>(string path, out GUID id)</argsstring>
+        <name>lookupID</name>
+        <qualifiedname>FMOD.Studio.System.lookupID</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="600" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="600" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ae56ee56fa5f2eae287b1236c464b43bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.lookupPath</definition>
+        <argsstring>(GUID id, out string path)</argsstring>
+        <name>lookupPath</name>
+        <qualifiedname>FMOD.Studio.System.lookupPath</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="607" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="607" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a72f7670918d19c3e32c919a718158502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getNumListeners</definition>
+        <argsstring>(out int numlisteners)</argsstring>
+        <name>getNumListeners</name>
+        <qualifiedname>FMOD.Studio.System.getNumListeners</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>numlisteners</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="632" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="632" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8efca0fe9e33d58174c2a9e033f28177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setNumListeners</definition>
+        <argsstring>(int numlisteners)</argsstring>
+        <name>setNumListeners</name>
+        <qualifiedname>FMOD.Studio.System.setNumListeners</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numlisteners</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="636" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="636" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad8e148a9d1f64c66932c218f37a72ce6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getListenerAttributes</definition>
+        <argsstring>(int listener, out ATTRIBUTES_3D attributes)</argsstring>
+        <name>getListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.getListenerAttributes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="640" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="640" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aae33a31e9f8e6bcd408fbd6a9a5a4056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getListenerAttributes</definition>
+        <argsstring>(int listener, out ATTRIBUTES_3D attributes, out VECTOR attenuationposition)</argsstring>
+        <name>getListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.getListenerAttributes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>attenuationposition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="644" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="644" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a433e8790afd9cdba1e52488e9d1c304d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setListenerAttributes</definition>
+        <argsstring>(int listener, ATTRIBUTES_3D attributes)</argsstring>
+        <name>setListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.setListenerAttributes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="648" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="648" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad63ea55677fc01a66dc6cb262bf2b21f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setListenerAttributes</definition>
+        <argsstring>(int listener, ATTRIBUTES_3D attributes, VECTOR attenuationposition)</argsstring>
+        <name>setListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.setListenerAttributes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>attenuationposition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="652" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="652" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ab46a85fb65e0d0d6b232c5356850cf25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getListenerWeight</definition>
+        <argsstring>(int listener, out float weight)</argsstring>
+        <name>getListenerWeight</name>
+        <qualifiedname>FMOD.Studio.System.getListenerWeight</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="656" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="656" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a33e957e983a2ae28d2f0aab89081685b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setListenerWeight</definition>
+        <argsstring>(int listener, float weight)</argsstring>
+        <name>setListenerWeight</name>
+        <qualifiedname>FMOD.Studio.System.setListenerWeight</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="660" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="660" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a1b92dbb28e51b36a3c95050347dec9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.loadBankFile</definition>
+        <argsstring>(string filename, LOAD_BANK_FLAGS flags, out Bank bank)</argsstring>
+        <name>loadBankFile</name>
+        <qualifiedname>FMOD.Studio.System.loadBankFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bank" kindref="compound">Bank</ref></type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="664" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="664" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aae25a1b65d72261673daec20983e0f36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.loadBankMemory</definition>
+        <argsstring>(byte[] buffer, LOAD_BANK_FLAGS flags, out Bank bank)</argsstring>
+        <name>loadBankMemory</name>
+        <qualifiedname>FMOD.Studio.System.loadBankMemory</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bank" kindref="compound">Bank</ref></type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="671" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="671" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a5f531d9a709dba351fb51616a9bc2cbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.loadBankCustom</definition>
+        <argsstring>(BANK_INFO info, LOAD_BANK_FLAGS flags, out Bank bank)</argsstring>
+        <name>loadBankCustom</name>
+        <qualifiedname>FMOD.Studio.System.loadBankCustom</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_b_a_n_k___i_n_f_o" kindref="compound">BANK_INFO</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bank" kindref="compound">Bank</ref></type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="680" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="680" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a4f7e3d8461dc253afbd363aa56faa849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.unloadAll</definition>
+        <argsstring>()</argsstring>
+        <name>unloadAll</name>
+        <qualifiedname>FMOD.Studio.System.unloadAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="685" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="685" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aaea4d367ad6c44baddbaa5877c397e90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.flushCommands</definition>
+        <argsstring>()</argsstring>
+        <name>flushCommands</name>
+        <qualifiedname>FMOD.Studio.System.flushCommands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="689" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="689" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aa431dfc38b513b8214df93d551f3b1e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.flushSampleLoading</definition>
+        <argsstring>()</argsstring>
+        <name>flushSampleLoading</name>
+        <qualifiedname>FMOD.Studio.System.flushSampleLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="693" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="693" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aff3a906898686a0ef39308a132a5c8b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.startCommandCapture</definition>
+        <argsstring>(string filename, COMMANDCAPTURE_FLAGS flags)</argsstring>
+        <name>startCommandCapture</name>
+        <qualifiedname>FMOD.Studio.System.startCommandCapture</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a351bea8424b177847afa3ffbd5813c35" kindref="member">COMMANDCAPTURE_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="697" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="697" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ac4efcb8465d79a0aebae31e1c4589a5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.stopCommandCapture</definition>
+        <argsstring>()</argsstring>
+        <name>stopCommandCapture</name>
+        <qualifiedname>FMOD.Studio.System.stopCommandCapture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="704" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="704" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a5a2de3cc20e81467818ea4e145fe5a30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.loadCommandReplay</definition>
+        <argsstring>(string filename, COMMANDREPLAY_FLAGS flags, out CommandReplay replay)</argsstring>
+        <name>loadCommandReplay</name>
+        <qualifiedname>FMOD.Studio.System.loadCommandReplay</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7" kindref="member">COMMANDREPLAY_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_command_replay" kindref="compound">CommandReplay</ref></type>
+          <declname>replay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="708" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="708" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a97cf60f839d83b8da7150878516da878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBankCount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getBankCount</name>
+        <qualifiedname>FMOD.Studio.System.getBankCount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="715" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="715" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1af4936e866f009ec4f25a7d07e248ca98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBankList</definition>
+        <argsstring>(out Bank[] array)</argsstring>
+        <name>getBankList</name>
+        <qualifiedname>FMOD.Studio.System.getBankList</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bank" kindref="compound">Bank</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="719" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="719" bodyend="753"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8930ced5b8234c4714726900d3bafd2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterDescriptionCount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getParameterDescriptionCount</name>
+        <qualifiedname>FMOD.Studio.System.getParameterDescriptionCount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="754" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="754" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8faf7c33df8d5b469aeaa24c6ed01106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getParameterDescriptionList</definition>
+        <argsstring>(out PARAMETER_DESCRIPTION[] array)</argsstring>
+        <name>getParameterDescriptionList</name>
+        <qualifiedname>FMOD.Studio.System.getParameterDescriptionList</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">PARAMETER_DESCRIPTION</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="758" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="758" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a26572185c8bf7e23cd655a4341a62034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getCPUUsage</definition>
+        <argsstring>(out CPU_USAGE usage, out FMOD.CPU_USAGE usage_core)</argsstring>
+        <name>getCPUUsage</name>
+        <qualifiedname>FMOD.Studio.System.getCPUUsage</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_c_p_u___u_s_a_g_e" kindref="compound">CPU_USAGE</ref></type>
+          <declname>usage</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_c_p_u___u_s_a_g_e" kindref="compound">FMOD.CPU_USAGE</ref></type>
+          <declname>usage_core</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="791" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="791" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a47284e7900ec44eca7e2deb080da09bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getBufferUsage</definition>
+        <argsstring>(out BUFFER_USAGE usage)</argsstring>
+        <name>getBufferUsage</name>
+        <qualifiedname>FMOD.Studio.System.getBufferUsage</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_b_u_f_f_e_r___u_s_a_g_e" kindref="compound">BUFFER_USAGE</ref></type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="795" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="795" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad308c4aba9fdfff211d9cb1ef8f0ec8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.resetBufferUsage</definition>
+        <argsstring>()</argsstring>
+        <name>resetBufferUsage</name>
+        <qualifiedname>FMOD.Studio.System.resetBufferUsage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="799" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="799" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ae71d007e5957403b46a8129634677dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setCallback</definition>
+        <argsstring>(SYSTEM_CALLBACK callback, SYSTEM_CALLBACK_TYPE callbackmask=SYSTEM_CALLBACK_TYPE.ALL)</argsstring>
+        <name>setCallback</name>
+        <qualifiedname>FMOD.Studio.System.setCallback</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a578aeda8b7f6905827a524b77f480d36" kindref="member">SYSTEM_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6f" kindref="member">SYSTEM_CALLBACK_TYPE</ref></type>
+          <declname>callbackmask</declname>
+          <defval><ref refid="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6fa5fb1f955b45e38e31789286a1790398d" kindref="member">SYSTEM_CALLBACK_TYPE.ALL</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="804" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="804" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aadf5e7a67ae17ebe1ff2d2a178e0249f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.Studio.System.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="809" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="809" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a0d02650ceeb6554f8d2a1c2b20d6b52d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.Studio.System.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="814" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="814" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a7f32876fe92c158b32a0d5d8088866d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.System.getMemoryUsage</definition>
+        <argsstring>(out MEMORY_USAGE memoryusage)</argsstring>
+        <name>getMemoryUsage</name>
+        <qualifiedname>FMOD.Studio.System.getMemoryUsage</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" kindref="compound">MEMORY_USAGE</ref></type>
+          <declname>memoryusage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="819" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="819" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ab1e642f638fc4e5c95636197ec8f1f5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Studio.System.System</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>System</name>
+        <qualifiedname>FMOD.Studio.System.System</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="947" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="947" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ac32653f952cca9ad5acde73dfc5f0036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.System.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Studio.System.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="948" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="948" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ae07c13573c232765ed82831dabdcd88a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Studio.System.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Studio.System.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="949" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="949" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad549de68ab738fe9476fd03b0c6d3985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.System.isValid</definition>
+        <argsstring>()</argsstring>
+        <name>isValid</name>
+        <qualifiedname>FMOD.Studio.System.isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="951" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="951" bodyend="954"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a7e11799690c79ed63a251a8f81a0501f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_Create</definition>
+        <argsstring>(out IntPtr system, uint headerversion)</argsstring>
+        <name>FMOD_Studio_System_Create</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_Create</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>headerversion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="826" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aaa9394eb93f6c48e5863ddd136b1f965" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMOD.Studio.System.FMOD_Studio_System_IsValid</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_IsValid</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_IsValid</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="828" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a1ce1b63e06d68fc0fb08038bd1f6a78b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetAdvancedSettings</definition>
+        <argsstring>(IntPtr system, ref ADVANCEDSETTINGS settings)</argsstring>
+        <name>FMOD_Studio_System_SetAdvancedSettings</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetAdvancedSettings</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_studio_1_1_a_d_v_a_n_c_e_d_s_e_t_t_i_n_g_s" kindref="compound">ADVANCEDSETTINGS</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="830" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a83765215945e97500d3a7bd3ab3aaa23" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetAdvancedSettings</definition>
+        <argsstring>(IntPtr system, out ADVANCEDSETTINGS settings)</argsstring>
+        <name>FMOD_Studio_System_GetAdvancedSettings</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetAdvancedSettings</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_a_d_v_a_n_c_e_d_s_e_t_t_i_n_g_s" kindref="compound">ADVANCEDSETTINGS</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="832" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a88c3b629bebdea9e046868183bfb9b51" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_Initialize</definition>
+        <argsstring>(IntPtr system, int maxchannels, INITFLAGS studioflags, FMOD.INITFLAGS flags, IntPtr extradriverdata)</argsstring>
+        <name>FMOD_Studio_System_Initialize</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_Initialize</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxchannels</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1ae0223424b474925a5e1dab2f93027af4" kindref="member">INITFLAGS</ref></type>
+          <declname>studioflags</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1a1eb59ee0c14b7edd1c75e577ecdca8d3" kindref="member">FMOD.INITFLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>extradriverdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="834" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a1a6d99c1d65d83c8208a9b33f0a1120a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_Release</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_Release</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="836" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a9653c98a41d825dd577c05a68c210124" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_Update</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_Update</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_Update</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="838" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a50db0745b74c7dfe5b6e5f452a14b086" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetCoreSystem</definition>
+        <argsstring>(IntPtr system, out IntPtr coresystem)</argsstring>
+        <name>FMOD_Studio_System_GetCoreSystem</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetCoreSystem</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>coresystem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="840" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a7c36e23c92bb446e4123a2b3abc87494" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetEvent</definition>
+        <argsstring>(IntPtr system, byte[] path, out IntPtr _event)</argsstring>
+        <name>FMOD_Studio_System_GetEvent</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetEvent</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="842" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a0f7bc7d7b3d9898e23411c58972a6a52" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBus</definition>
+        <argsstring>(IntPtr system, byte[] path, out IntPtr bus)</argsstring>
+        <name>FMOD_Studio_System_GetBus</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBus</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="844" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a5cdc942c962e8b6314ea22b793832020" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetVCA</definition>
+        <argsstring>(IntPtr system, byte[] path, out IntPtr vca)</argsstring>
+        <name>FMOD_Studio_System_GetVCA</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetVCA</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="846" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a5698e0c01a27b8316d3acd61b0f56829" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBank</definition>
+        <argsstring>(IntPtr system, byte[] path, out IntPtr bank)</argsstring>
+        <name>FMOD_Studio_System_GetBank</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBank</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="848" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad0b3713409ab1dccdd0a7d3c211847f2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetEventByID</definition>
+        <argsstring>(IntPtr system, ref GUID id, out IntPtr _event)</argsstring>
+        <name>FMOD_Studio_System_GetEventByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetEventByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="850" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a7475da44f031a5857e4a3e073cba005c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBusByID</definition>
+        <argsstring>(IntPtr system, ref GUID id, out IntPtr bus)</argsstring>
+        <name>FMOD_Studio_System_GetBusByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBusByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="852" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1adab5f56b19dc187397ce6a9db7d230ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetVCAByID</definition>
+        <argsstring>(IntPtr system, ref GUID id, out IntPtr vca)</argsstring>
+        <name>FMOD_Studio_System_GetVCAByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetVCAByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>vca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="854" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a9f71fb0cc0b461907f05290fe10250fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBankByID</definition>
+        <argsstring>(IntPtr system, ref GUID id, out IntPtr bank)</argsstring>
+        <name>FMOD_Studio_System_GetBankByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBankByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="856" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a98b307031b072b0ffe13eff5787d506c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetSoundInfo</definition>
+        <argsstring>(IntPtr system, byte[] key, out SOUND_INFO info)</argsstring>
+        <name>FMOD_Studio_System_GetSoundInfo</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetSoundInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_s_o_u_n_d___i_n_f_o" kindref="compound">SOUND_INFO</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="858" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a04b3d7fcb1739a40f95b3f46efadfb46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionByName</definition>
+        <argsstring>(IntPtr system, byte[] name, out PARAMETER_DESCRIPTION parameter)</argsstring>
+        <name>FMOD_Studio_System_GetParameterDescriptionByName</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionByName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">PARAMETER_DESCRIPTION</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="860" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a0df4e46328d7eaf8d6e10afeb4ba07ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionByID</definition>
+        <argsstring>(IntPtr system, PARAMETER_ID id, out PARAMETER_DESCRIPTION parameter)</argsstring>
+        <name>FMOD_Studio_System_GetParameterDescriptionByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">PARAMETER_DESCRIPTION</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="862" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8061763276efeb7d229c5bcdd98c0084" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterLabelByName</definition>
+        <argsstring>(IntPtr system, byte[] name, int labelindex, IntPtr label, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_System_GetParameterLabelByName</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterLabelByName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>labelindex</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="864" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a443be1718e84125487b9900c1d63cda1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterLabelByID</definition>
+        <argsstring>(IntPtr system, PARAMETER_ID id, int labelindex, IntPtr label, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_System_GetParameterLabelByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterLabelByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>labelindex</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="866" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a82165dc442446ee56d1da1690b393aa5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterByID</definition>
+        <argsstring>(IntPtr system, PARAMETER_ID id, out float value, out float finalvalue)</argsstring>
+        <name>FMOD_Studio_System_GetParameterByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="868" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1adc50f5f005bd31b3e8edc3daf50fbcf3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetParameterByID</definition>
+        <argsstring>(IntPtr system, PARAMETER_ID id, float value, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_System_SetParameterByID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetParameterByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="870" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1adbefdf3eafd82285aeb5a8c4f73fbe20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetParameterByIDWithLabel</definition>
+        <argsstring>(IntPtr system, PARAMETER_ID id, byte[] label, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_System_SetParameterByIDWithLabel</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetParameterByIDWithLabel</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="872" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a1db26858c97a6ed144cc30cf8cc0ae38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetParametersByIDs</definition>
+        <argsstring>(IntPtr system, PARAMETER_ID[] ids, float[] values, int count, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_System_SetParametersByIDs</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetParametersByIDs</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref>[]</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="874" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a6b613328ebd67a98e991940c2a82b3dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterByName</definition>
+        <argsstring>(IntPtr system, byte[] name, out float value, out float finalvalue)</argsstring>
+        <name>FMOD_Studio_System_GetParameterByName</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterByName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="876" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a334d4d7d7c7aaf644d0cc87fd6a628ba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetParameterByName</definition>
+        <argsstring>(IntPtr system, byte[] name, float value, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_System_SetParameterByName</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetParameterByName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="878" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a168ae460e6f559ea1c9d88386392d845" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetParameterByNameWithLabel</definition>
+        <argsstring>(IntPtr system, byte[] name, byte[] label, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_System_SetParameterByNameWithLabel</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetParameterByNameWithLabel</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="880" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a6e2f2fa3f996057398cd48b2129e2613" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_LookupID</definition>
+        <argsstring>(IntPtr system, byte[] path, out GUID id)</argsstring>
+        <name>FMOD_Studio_System_LookupID</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_LookupID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="882" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1aaeba8a6a2d2b75e96c1bbb889f6bf5e9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_LookupPath</definition>
+        <argsstring>(IntPtr system, ref GUID id, IntPtr path, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_System_LookupPath</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_LookupPath</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="884" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a43aa5a16e2fc9109a25b77342b19a32a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetNumListeners</definition>
+        <argsstring>(IntPtr system, out int numlisteners)</argsstring>
+        <name>FMOD_Studio_System_GetNumListeners</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetNumListeners</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>numlisteners</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="886" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ac82ac3ce5ee99e9cb7c142aa9719fecb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetNumListeners</definition>
+        <argsstring>(IntPtr system, int numlisteners)</argsstring>
+        <name>FMOD_Studio_System_SetNumListeners</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetNumListeners</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numlisteners</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="888" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8a80c0da724de6bab9442dd329f89dee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetListenerAttributes</definition>
+        <argsstring>(IntPtr system, int listener, out ATTRIBUTES_3D attributes, IntPtr zero)</argsstring>
+        <name>FMOD_Studio_System_GetListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetListenerAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="890" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a4eb4378c36eae89ae6c7f1b432f3e373" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetListenerAttributes</definition>
+        <argsstring>(IntPtr system, int listener, out ATTRIBUTES_3D attributes, out VECTOR attenuationposition)</argsstring>
+        <name>FMOD_Studio_System_GetListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetListenerAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>attenuationposition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="892" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a83b5204329872781e7ed7efb10c3897a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetListenerAttributes</definition>
+        <argsstring>(IntPtr system, int listener, ref ATTRIBUTES_3D attributes, IntPtr zero)</argsstring>
+        <name>FMOD_Studio_System_SetListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetListenerAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="894" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ad6625d29fd8d70cb722f8ec3f09c97bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetListenerAttributes</definition>
+        <argsstring>(IntPtr system, int listener, ref ATTRIBUTES_3D attributes, ref VECTOR attenuationposition)</argsstring>
+        <name>FMOD_Studio_System_SetListenerAttributes</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetListenerAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">VECTOR</ref></type>
+          <declname>attenuationposition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="896" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a73a6cf5612eab896503010371941ce0e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetListenerWeight</definition>
+        <argsstring>(IntPtr system, int listener, out float weight)</argsstring>
+        <name>FMOD_Studio_System_GetListenerWeight</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetListenerWeight</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="898" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a547ced0c83e991682551a18503e1c689" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetListenerWeight</definition>
+        <argsstring>(IntPtr system, int listener, float weight)</argsstring>
+        <name>FMOD_Studio_System_SetListenerWeight</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetListenerWeight</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listener</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="900" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1acd9bd453448b044e2b7dac77e8fe5de1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_LoadBankFile</definition>
+        <argsstring>(IntPtr system, byte[] filename, LOAD_BANK_FLAGS flags, out IntPtr bank)</argsstring>
+        <name>FMOD_Studio_System_LoadBankFile</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_LoadBankFile</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="902" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8df324f327bc6644f815d95f7a6eb99c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_LoadBankMemory</definition>
+        <argsstring>(IntPtr system, IntPtr buffer, int length, LOAD_MEMORY_MODE mode, LOAD_BANK_FLAGS flags, out IntPtr bank)</argsstring>
+        <name>FMOD_Studio_System_LoadBankMemory</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_LoadBankMemory</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a489db0ea3d521b9ce73e5192a6af8e7e" kindref="member">LOAD_MEMORY_MODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="904" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a01e095aa68fcd4e7604962b7c2bb73e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_LoadBankCustom</definition>
+        <argsstring>(IntPtr system, ref BANK_INFO info, LOAD_BANK_FLAGS flags, out IntPtr bank)</argsstring>
+        <name>FMOD_Studio_System_LoadBankCustom</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_LoadBankCustom</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_studio_1_1_b_a_n_k___i_n_f_o" kindref="compound">BANK_INFO</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adf49c83489b239b263992e7e0e634220" kindref="member">LOAD_BANK_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="906" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ae93323eb48a53c2f710a2a0e300975cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_UnloadAll</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_UnloadAll</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_UnloadAll</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="908" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a3d69989379bc937c8b97d162aedb0986" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_FlushCommands</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_FlushCommands</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_FlushCommands</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="910" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ac2c24edfc0de5b172f75da547870789e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_FlushSampleLoading</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_FlushSampleLoading</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_FlushSampleLoading</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="912" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a247961d6afb2e9a6d4f3891427c9da59" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_StartCommandCapture</definition>
+        <argsstring>(IntPtr system, byte[] filename, COMMANDCAPTURE_FLAGS flags)</argsstring>
+        <name>FMOD_Studio_System_StartCommandCapture</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_StartCommandCapture</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a351bea8424b177847afa3ffbd5813c35" kindref="member">COMMANDCAPTURE_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="914" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a29d943227ed194134351c47815b5de74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_StopCommandCapture</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_StopCommandCapture</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_StopCommandCapture</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="916" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ae63e621a2ab9eb68e29dbcc4f842a12d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_LoadCommandReplay</definition>
+        <argsstring>(IntPtr system, byte[] filename, COMMANDREPLAY_FLAGS flags, out IntPtr replay)</argsstring>
+        <name>FMOD_Studio_System_LoadCommandReplay</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_LoadCommandReplay</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a365d8a6db1e09996560430dce15d00d7" kindref="member">COMMANDREPLAY_FLAGS</ref></type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>replay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="918" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a365b5ca79e27a1a314184598f2f60516" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBankCount</definition>
+        <argsstring>(IntPtr system, out int count)</argsstring>
+        <name>FMOD_Studio_System_GetBankCount</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBankCount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="920" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1acc6d628d001c4607ec38e9972e7c4a89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBankList</definition>
+        <argsstring>(IntPtr system, IntPtr[] array, int capacity, out int count)</argsstring>
+        <name>FMOD_Studio_System_GetBankList</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBankList</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>IntPtr[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="922" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a8713dfaf582f59b8fba36ab0504fda39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionCount</definition>
+        <argsstring>(IntPtr system, out int count)</argsstring>
+        <name>FMOD_Studio_System_GetParameterDescriptionCount</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionCount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="924" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a02cea3246102155b1bdd22dac90e582c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionList</definition>
+        <argsstring>(IntPtr system, [Out] PARAMETER_DESCRIPTION[] array, int capacity, out int count)</argsstring>
+        <name>FMOD_Studio_System_GetParameterDescriptionList</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetParameterDescriptionList</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <attributes>[Out]</attributes>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">PARAMETER_DESCRIPTION</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="926" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a3ad9181794a3fa3fee59ca2a7f51609b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetCPUUsage</definition>
+        <argsstring>(IntPtr system, out CPU_USAGE usage, out FMOD.CPU_USAGE usage_core)</argsstring>
+        <name>FMOD_Studio_System_GetCPUUsage</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetCPUUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_c_p_u___u_s_a_g_e" kindref="compound">CPU_USAGE</ref></type>
+          <declname>usage</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_c_p_u___u_s_a_g_e" kindref="compound">FMOD.CPU_USAGE</ref></type>
+          <declname>usage_core</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="928" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a60eced3c4b58277ffa1ba9361a476364" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetBufferUsage</definition>
+        <argsstring>(IntPtr system, out BUFFER_USAGE usage)</argsstring>
+        <name>FMOD_Studio_System_GetBufferUsage</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetBufferUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_b_u_f_f_e_r___u_s_a_g_e" kindref="compound">BUFFER_USAGE</ref></type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="930" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a29915cea891e6ab7dc1473ce91f7fc2b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_ResetBufferUsage</definition>
+        <argsstring>(IntPtr system)</argsstring>
+        <name>FMOD_Studio_System_ResetBufferUsage</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_ResetBufferUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="932" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a4eb3b05f44a2509725538903a7bcedcf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetCallback</definition>
+        <argsstring>(IntPtr system, SYSTEM_CALLBACK callback, SYSTEM_CALLBACK_TYPE callbackmask)</argsstring>
+        <name>FMOD_Studio_System_SetCallback</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetCallback</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a578aeda8b7f6905827a524b77f480d36" kindref="member">SYSTEM_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a14d264a109848b10c2111e1c3b61dd6f" kindref="member">SYSTEM_CALLBACK_TYPE</ref></type>
+          <declname>callbackmask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="934" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1a314d5c0e1afb96ea7bc1b0de913a46ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetUserData</definition>
+        <argsstring>(IntPtr system, out IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_System_GetUserData</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="936" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ae7425998b520eef3930a528eb7e75872" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_SetUserData</definition>
+        <argsstring>(IntPtr system, IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_System_SetUserData</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="938" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_system_1ab3f17eaae5df2482ec4c33039c3c1c99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.System.FMOD_Studio_System_GetMemoryUsage</definition>
+        <argsstring>(IntPtr system, out MEMORY_USAGE memoryusage)</argsstring>
+        <name>FMOD_Studio_System_GetMemoryUsage</name>
+        <qualifiedname>FMOD.Studio.System.FMOD_Studio_System_GetMemoryUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" kindref="compound">MEMORY_USAGE</ref></type>
+          <declname>memoryusage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="940" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="389" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="390" bodyend="957"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ae07c13573c232765ed82831dabdcd88a" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1af7b5290f87e00379be83eb8f66f49cc9" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>create</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aaea4d367ad6c44baddbaa5877c397e90" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>flushCommands</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aa431dfc38b513b8214df93d551f3b1e4" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>flushSampleLoading</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a7e11799690c79ed63a251a8f81a0501f" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_Create</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a3d69989379bc937c8b97d162aedb0986" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_FlushCommands</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ac2c24edfc0de5b172f75da547870789e" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_FlushSampleLoading</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a83765215945e97500d3a7bd3ab3aaa23" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetAdvancedSettings</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a5698e0c01a27b8316d3acd61b0f56829" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBank</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a9f71fb0cc0b461907f05290fe10250fc" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBankByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a365b5ca79e27a1a314184598f2f60516" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBankCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1acc6d628d001c4607ec38e9972e7c4a89" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBankList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a60eced3c4b58277ffa1ba9361a476364" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBufferUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a0f7bc7d7b3d9898e23411c58972a6a52" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBus</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a7475da44f031a5857e4a3e073cba005c" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetBusByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a50db0745b74c7dfe5b6e5f452a14b086" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetCoreSystem</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a3ad9181794a3fa3fee59ca2a7f51609b" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a7c36e23c92bb446e4123a2b3abc87494" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetEvent</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad0b3713409ab1dccdd0a7d3c211847f2" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetEventByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8a80c0da724de6bab9442dd329f89dee" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a4eb4378c36eae89ae6c7f1b432f3e373" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a73a6cf5612eab896503010371941ce0e" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetListenerWeight</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ab3f17eaae5df2482ec4c33039c3c1c99" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetMemoryUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a43aa5a16e2fc9109a25b77342b19a32a" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetNumListeners</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a82165dc442446ee56d1da1690b393aa5" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a6b613328ebd67a98e991940c2a82b3dc" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a0df4e46328d7eaf8d6e10afeb4ba07ce" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterDescriptionByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a04b3d7fcb1739a40f95b3f46efadfb46" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterDescriptionByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8713dfaf582f59b8fba36ab0504fda39" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterDescriptionCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a02cea3246102155b1bdd22dac90e582c" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterDescriptionList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a443be1718e84125487b9900c1d63cda1" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterLabelByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8061763276efeb7d229c5bcdd98c0084" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetParameterLabelByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a98b307031b072b0ffe13eff5787d506c" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetSoundInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a314d5c0e1afb96ea7bc1b0de913a46ce" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a5cdc942c962e8b6314ea22b793832020" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetVCA</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1adab5f56b19dc187397ce6a9db7d230ef" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_GetVCAByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a88c3b629bebdea9e046868183bfb9b51" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_Initialize</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aaa9394eb93f6c48e5863ddd136b1f965" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_IsValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a01e095aa68fcd4e7604962b7c2bb73e6" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_LoadBankCustom</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1acd9bd453448b044e2b7dac77e8fe5de1" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_LoadBankFile</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8df324f327bc6644f815d95f7a6eb99c" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_LoadBankMemory</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ae63e621a2ab9eb68e29dbcc4f842a12d" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_LoadCommandReplay</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a6e2f2fa3f996057398cd48b2129e2613" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_LookupID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aaeba8a6a2d2b75e96c1bbb889f6bf5e9" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_LookupPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a1a6d99c1d65d83c8208a9b33f0a1120a" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a29915cea891e6ab7dc1473ce91f7fc2b" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_ResetBufferUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a1ce1b63e06d68fc0fb08038bd1f6a78b" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetAdvancedSettings</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a4eb3b05f44a2509725538903a7bcedcf" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a83b5204329872781e7ed7efb10c3897a" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad6625d29fd8d70cb722f8ec3f09c97bf" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a547ced0c83e991682551a18503e1c689" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetListenerWeight</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ac82ac3ce5ee99e9cb7c142aa9719fecb" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetNumListeners</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1adc50f5f005bd31b3e8edc3daf50fbcf3" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1adbefdf3eafd82285aeb5a8c4f73fbe20" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetParameterByIDWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a334d4d7d7c7aaf644d0cc87fd6a628ba" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a168ae460e6f559ea1c9d88386392d845" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetParameterByNameWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a1db26858c97a6ed144cc30cf8cc0ae38" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetParametersByIDs</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ae7425998b520eef3930a528eb7e75872" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a247961d6afb2e9a6d4f3891427c9da59" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_StartCommandCapture</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a29d943227ed194134351c47815b5de74" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_StopCommandCapture</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ae93323eb48a53c2f710a2a0e300975cd" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_UnloadAll</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a9653c98a41d825dd577c05a68c210124" prot="private" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>FMOD_Studio_System_Update</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a6e1cee79f8fb98b7187b610461b886c3" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getAdvancedSettings</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8257a13815ab2ee835737a22b93fddbf" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBank</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad4343c96d6d4d78135de5f07688fe046" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBankByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a97cf60f839d83b8da7150878516da878" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBankCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1af4936e866f009ec4f25a7d07e248ca98" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBankList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a47284e7900ec44eca7e2deb080da09bd" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBufferUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a88721afe24bbba9a498dbbb69d1c8d7f" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBus</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a1c7539339989e83aa2156ba200837aa9" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getBusByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad2136567ebb24d535b6470b1e69dc00a" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getCoreSystem</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a26572185c8bf7e23cd655a4341a62034" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a7f84df3429ebc5c4f5b3b7936a6e23aa" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getEvent</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad313a4f07a86ef4b09dd8565b78c7230" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getEventByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad8e148a9d1f64c66932c218f37a72ce6" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aae33a31e9f8e6bcd408fbd6a9a5a4056" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ab46a85fb65e0d0d6b232c5356850cf25" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getListenerWeight</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a7f32876fe92c158b32a0d5d8088866d1" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getMemoryUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a72f7670918d19c3e32c919a718158502" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getNumListeners</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a281b2702f74372521bb76f3abf85b94b" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a2c5c01682d49995e55b26c02bb76c292" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a3a70e3fde395ece9f5bb1a3b7daff9e2" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a521d94ad3371787e9c044fbd880ba5eb" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a3ffba814f6302bd293acc94b1b67426c" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterDescriptionByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aeebcce3683e677803af5c7fb111e6b2a" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterDescriptionByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8930ced5b8234c4714726900d3bafd2f" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterDescriptionCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8faf7c33df8d5b469aeaa24c6ed01106" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterDescriptionList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1adb5c9c2f6bdd1675f3d47971167896c1" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterLabelByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8a954225fa4cf50aed59ba06b24c0acb" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getParameterLabelByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a57fb752e43fe0df1f71e807ccff87a28" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getSoundInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aadf5e7a67ae17ebe1ff2d2a178e0249f" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1af20b73707be730b67cb7c4dcdb658422" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getVCA</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a511481b6128cd21a779f84f044b10bf7" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>getVCAByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a94bafa7f760c64b0b927e47ecc7c5fbd" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ac32653f952cca9ad5acde73dfc5f0036" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a49e2e96bc14a40f2c111db77f1a50952" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>initialize</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad549de68ab738fe9476fd03b0c6d3985" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>isValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a5f531d9a709dba351fb51616a9bc2cbe" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>loadBankCustom</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a1b92dbb28e51b36a3c95050347dec9d7" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>loadBankFile</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aae25a1b65d72261673daec20983e0f36" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>loadBankMemory</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a5a2de3cc20e81467818ea4e145fe5a30" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>loadCommandReplay</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a2d8b7fbcef9f93721c318d6ca61d6f53" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>lookupID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ae56ee56fa5f2eae287b1236c464b43bd" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>lookupPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1af26c773b241454255776b8b5bb2c1802" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad308c4aba9fdfff211d9cb1ef8f0ec8c" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>resetBufferUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1addaf4027bca47e8f8b7f61990c6c7424" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setAdvancedSettings</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a010adb4a9ee376c3a0f47b60e83259ad" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setAdvancedSettings</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ae71d007e5957403b46a8129634677dff" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a433e8790afd9cdba1e52488e9d1c304d" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ad63ea55677fc01a66dc6cb262bf2b21f" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setListenerAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a33e957e983a2ae28d2f0aab89081685b" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setListenerWeight</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a8efca0fe9e33d58174c2a9e033f28177" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setNumListeners</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a6cd6da7626420bc1ad1914a506a9b282" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a7bc8ec32c28704016eefb125afa819fa" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setParameterByIDWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a242135f7c9bab917fb3501b76362960b" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a51071f0da6131f519d69f8c143bb3516" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setParameterByNameWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a340baf40525264700a19517786035c01" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setParametersByIDs</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a0d02650ceeb6554f8d2a1c2b20d6b52d" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>setUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1aff3a906898686a0ef39308a132a5c8b7" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>startCommandCapture</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ac4efcb8465d79a0aebae31e1c4589a5c" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>stopCommandCapture</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1ab1e642f638fc4e5c95636197ec8f1f5e" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>System</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a4f7e3d8461dc253afbd363aa56faa849" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>unloadAll</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_system_1a16375faa67a0906d3b2f7a4e3db18fdd" prot="public" virt="non-virtual"><scope>FMOD::Studio::System</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

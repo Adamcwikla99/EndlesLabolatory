@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnityResonance::FmodResonanceAudioRoom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SurfaceMaterial</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.SurfaceMaterial</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a3d971943089a3388c01fb297a32d9ba7" prot="public">
+          <name>Transparent</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Transparent. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1ab0be3625f54933315a2abb60aafe4e42" prot="public">
+          <name>AcousticCeilingTiles</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Acoustic ceiling tiles. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1ab126b0b3cb0b87abfa871ead634db525" prot="public">
+          <name>BrickBare</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Brick, bare. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a2f2c67192a1e7588bb49ee47792454e0" prot="public">
+          <name>BrickPainted</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Brick, painted. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a45523ce642c052463d8ba1fd1db40408" prot="public">
+          <name>ConcreteBlockCoarse</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Concrete block, coarse. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1aa6128f48e7d80790085c6c4cabf1305e" prot="public">
+          <name>ConcreteBlockPainted</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>Concrete block, painted. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a193c00c05db45e4543e9290b191fa206" prot="public">
+          <name>CurtainHeavy</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>Curtain, heavy. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a9325d32e22aa28c684fa7e102477aef0" prot="public">
+          <name>FiberglassInsulation</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>Fiberglass insulation. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a7757597b5a92f9413562d684c971a1d9" prot="public">
+          <name>GlassThin</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>Glass, thin. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a57d9c9de29aea5b1f6e5a52e44085314" prot="public">
+          <name>GlassThick</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+<para>Glass, thick. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1aaac9a63596f76a62bb9f61a5dd7c0d25" prot="public">
+          <name>Grass</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>Grass. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a000d234b7a916a3a1c22d8ad7ee7314a" prot="public">
+          <name>LinoleumOnConcrete</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>Linoleum on concrete. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a7fb26875c639817a59912a87be6f7386" prot="public">
+          <name>Marble</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+<para>Marble. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1aeaa57a9b4248ce3968e718895e1c2f04" prot="public">
+          <name>Metal</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+<para>Galvanized sheet metal. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1ae1624da1c4144b606373a7495c804a44" prot="public">
+          <name>ParquetOnConcrete</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+<para>Parquet on concrete. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a4aebac55a367c11621083cabcc68a4c2" prot="public">
+          <name>PlasterRough</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+<para>Plaster, rough. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1af4c40b23a6c7a77fa84748c0bad45d9f" prot="public">
+          <name>PlasterSmooth</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+<para>Plaster, smooth. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a8b8483c28e86d1446c44b91e49f57c0c" prot="public">
+          <name>PlywoodPanel</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+<para>Plywood panel. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a42b8db95599e1f3374b37860e7793521" prot="public">
+          <name>PolishedConcreteOrTile</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+<para>Polished concrete or tile. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1acc4bb5a66cff1d8feb4e5cccba74c4bd" prot="public">
+          <name>Sheetrock</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+<para>Sheetrock. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a63c5238abaa6c713ee41b96cb4afe73b" prot="public">
+          <name>WaterOrIceSurface</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+<para>Water or ice surface. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1ac906895b1f5e07dcdd293cbadc841f96" prot="public">
+          <name>WoodCeiling</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+<para>Wood ceiling. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a2668dd10c264300dcded38167599ceb8" prot="public">
+          <name>WoodPanel</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+<para>Wood panel. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Material type that determines the acoustic properties of a room surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="27" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="28" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a6d0e4d1caacd38711b24f85a7ce237eb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" kindref="member">SurfaceMaterial</ref></type>
+        <definition>SurfaceMaterial FMODUnityResonance.FmodResonanceAudioRoom.LeftWall</definition>
+        <argsstring></argsstring>
+        <name>LeftWall</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.LeftWall</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a45523ce642c052463d8ba1fd1db40408" kindref="member">SurfaceMaterial.ConcreteBlockCoarse</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_room" kindref="compound">Room</ref> surface material in negative x direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="56" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1aa214e383249f473117960c3fa46715d9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" kindref="member">SurfaceMaterial</ref></type>
+        <definition>SurfaceMaterial FMODUnityResonance.FmodResonanceAudioRoom.RightWall</definition>
+        <argsstring></argsstring>
+        <name>RightWall</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.RightWall</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a45523ce642c052463d8ba1fd1db40408" kindref="member">SurfaceMaterial.ConcreteBlockCoarse</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_room" kindref="compound">Room</ref> surface material in positive x direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="60" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a59d54d3b3b666226ff87082374b3d712" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" kindref="member">SurfaceMaterial</ref></type>
+        <definition>SurfaceMaterial FMODUnityResonance.FmodResonanceAudioRoom.Floor</definition>
+        <argsstring></argsstring>
+        <name>Floor</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.Floor</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1ae1624da1c4144b606373a7495c804a44" kindref="member">SurfaceMaterial.ParquetOnConcrete</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_room" kindref="compound">Room</ref> surface material in negative y direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="64" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ab9318d7b29ce7e4d5d71751f320eefa0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" kindref="member">SurfaceMaterial</ref></type>
+        <definition>SurfaceMaterial FMODUnityResonance.FmodResonanceAudioRoom.Ceiling</definition>
+        <argsstring></argsstring>
+        <name>Ceiling</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.Ceiling</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a4aebac55a367c11621083cabcc68a4c2" kindref="member">SurfaceMaterial.PlasterRough</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_room" kindref="compound">Room</ref> surface material in positive y direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="68" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1adb0a2657ed96734e32d5bc5ef3798fe3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" kindref="member">SurfaceMaterial</ref></type>
+        <definition>SurfaceMaterial FMODUnityResonance.FmodResonanceAudioRoom.BackWall</definition>
+        <argsstring></argsstring>
+        <name>BackWall</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.BackWall</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a45523ce642c052463d8ba1fd1db40408" kindref="member">SurfaceMaterial.ConcreteBlockCoarse</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_room" kindref="compound">Room</ref> surface material in negative z direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="72" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a66c6aa56d2dfd3549d4c6305e9fec7c9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" kindref="member">SurfaceMaterial</ref></type>
+        <definition>SurfaceMaterial FMODUnityResonance.FmodResonanceAudioRoom.FrontWall</definition>
+        <argsstring></argsstring>
+        <name>FrontWall</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.FrontWall</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1a45523ce642c052463d8ba1fd1db40408" kindref="member">SurfaceMaterial.ConcreteBlockCoarse</ref></initializer>
+        <briefdescription>
+<para><ref refid="namespace_room" kindref="compound">Room</ref> surface material in positive z direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="76" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a4572e2bf895dd3af34122e2e63e03025" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnityResonance.FmodResonanceAudioRoom.Reflectivity</definition>
+        <argsstring></argsstring>
+        <name>Reflectivity</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.Reflectivity</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+<para>Reflectivity scalar for each surface of the room. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="80" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a97b3818d8ebddb1d256e54e70944b9f1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnityResonance.FmodResonanceAudioRoom.ReverbGainDb</definition>
+        <argsstring></argsstring>
+        <name>ReverbGainDb</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.ReverbGainDb</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+<para>Reverb gain modifier in decibels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="84" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a8eebac9da9306b831316a84f5d7c28ac" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnityResonance.FmodResonanceAudioRoom.ReverbBrightness</definition>
+        <argsstring></argsstring>
+        <name>ReverbBrightness</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.ReverbBrightness</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+<para>Reverb brightness modifier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="88" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a310cfd5650e4e7be5fb2979d563d7c1a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnityResonance.FmodResonanceAudioRoom.ReverbTime</definition>
+        <argsstring></argsstring>
+        <name>ReverbTime</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.ReverbTime</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+<para>Reverb time modifier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="92" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a5ddc77ef63352c5fce4dc4c7404bdb40" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 FMODUnityResonance.FmodResonanceAudioRoom.Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.Size</qualifiedname>
+        <initializer>= Vector3.one</initializer>
+        <briefdescription>
+<para>Size of the room (normalized with respect to scale of the game object). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="96" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a15f87a935caf046782ae3f8a4c44757f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnityResonance.FmodResonanceAudioRoom.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="98" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a66ae3b1909ce7e943bb9b59ac45d1423" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnityResonance.FmodResonanceAudioRoom.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="103" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a66cfc94815275d973239f6c338148922" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnityResonance.FmodResonanceAudioRoom.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="108" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a4e548f2b64e9e8293e3e3895125f246d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnityResonance.FmodResonanceAudioRoom.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <qualifiedname>FMODUnityResonance.FmodResonanceAudioRoom.OnDrawGizmosSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="113" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="113" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Resonance Audio room component that simulates environmental effects of a room with respect to the properties of the attached game object. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnityResonance.FmodResonanceAudioRoom</label>
+        <link refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnityResonance.FmodResonanceAudioRoom</label>
+        <link refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" line="24" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" bodystart="25" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1adb0a2657ed96734e32d5bc5ef3798fe3" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>BackWall</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ab9318d7b29ce7e4d5d71751f320eefa0" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>Ceiling</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a59d54d3b3b666226ff87082374b3d712" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>Floor</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a66c6aa56d2dfd3549d4c6305e9fec7c9" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>FrontWall</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a6d0e4d1caacd38711b24f85a7ce237eb" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>LeftWall</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a66ae3b1909ce7e943bb9b59ac45d1423" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>OnDisable</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a4e548f2b64e9e8293e3e3895125f246d" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a15f87a935caf046782ae3f8a4c44757f" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a4572e2bf895dd3af34122e2e63e03025" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>Reflectivity</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a8eebac9da9306b831316a84f5d7c28ac" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>ReverbBrightness</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a97b3818d8ebddb1d256e54e70944b9f1" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>ReverbGainDb</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a310cfd5650e4e7be5fb2979d563d7c1a" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>ReverbTime</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1aa214e383249f473117960c3fa46715d9" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>RightWall</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a5ddc77ef63352c5fce4dc4c7404bdb40" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>Size</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1ae3d521b65d4759d63265510b50be88b1" prot="public" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>SurfaceMaterial</name></member>
+      <member refid="class_f_m_o_d_unity_resonance_1_1_fmod_resonance_audio_room_1a66cfc94815275d973239f6c338148922" prot="private" virt="non-virtual"><scope>FMODUnityResonance::FmodResonanceAudioRoom</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

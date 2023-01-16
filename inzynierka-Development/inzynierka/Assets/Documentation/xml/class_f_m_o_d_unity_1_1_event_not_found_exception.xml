@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_not_found_exception" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EventNotFoundException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_not_found_exception_1a7c3905747b2a72caed69976f81843df0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+        <definition>FMOD.GUID FMODUnity.EventNotFoundException.Guid</definition>
+        <argsstring></argsstring>
+        <name>Guid</name>
+        <qualifiedname>FMODUnity.EventNotFoundException.Guid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="94" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_not_found_exception_1acd2caa6bf01665aec3e40403fe1aa04c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EventNotFoundException.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>FMODUnity.EventNotFoundException.Path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="95" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_not_found_exception_1a920f77f8cef1024f9c54d0936ed438bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.EventNotFoundException.EventNotFoundException</definition>
+        <argsstring>(string path)</argsstring>
+        <name>EventNotFoundException</name>
+        <qualifiedname>FMODUnity.EventNotFoundException.EventNotFoundException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="97" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_not_found_exception_1a1869f045078fce3b27db12ba8f610b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.EventNotFoundException.EventNotFoundException</definition>
+        <argsstring>(FMOD.GUID guid)</argsstring>
+        <name>EventNotFoundException</name>
+        <qualifiedname>FMODUnity.EventNotFoundException.EventNotFoundException</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="103" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_not_found_exception_1a64d7c9ab0470e00112c51f0e8ab5fc4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.EventNotFoundException.EventNotFoundException</definition>
+        <argsstring>(EventReference eventReference)</argsstring>
+        <name>EventNotFoundException</name>
+        <qualifiedname>FMODUnity.EventNotFoundException.EventNotFoundException</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="109" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="109" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.EventNotFoundException</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_not_found_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.EventNotFoundException</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_not_found_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="92" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="93" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_not_found_exception_1a920f77f8cef1024f9c54d0936ed438bd" prot="public" virt="non-virtual"><scope>FMODUnity::EventNotFoundException</scope><name>EventNotFoundException</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_not_found_exception_1a1869f045078fce3b27db12ba8f610b5e" prot="public" virt="non-virtual"><scope>FMODUnity::EventNotFoundException</scope><name>EventNotFoundException</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_not_found_exception_1a64d7c9ab0470e00112c51f0e8ab5fc4c" prot="public" virt="non-virtual"><scope>FMODUnity::EventNotFoundException</scope><name>EventNotFoundException</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_not_found_exception_1a7c3905747b2a72caed69976f81843df0" prot="public" virt="non-virtual"><scope>FMODUnity::EventNotFoundException</scope><name>Guid</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_not_found_exception_1acd2caa6bf01665aec3e40403fe1aa04c" prot="public" virt="non-virtual"><scope>FMODUnity::EventNotFoundException</scope><name>Path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

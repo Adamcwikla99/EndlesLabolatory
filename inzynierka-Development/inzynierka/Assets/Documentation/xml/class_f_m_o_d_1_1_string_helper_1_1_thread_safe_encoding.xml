@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding" kind="class" language="C#" prot="public">
+    <compoundname>FMOD::StringHelper::ThreadSafeEncoding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a9e75ce51f58b40848f6d620676027331" prot="private" static="no" mutable="no">
+        <type>UTF8Encoding</type>
+        <definition>UTF8Encoding FMOD.StringHelper.ThreadSafeEncoding.encoding</definition>
+        <argsstring></argsstring>
+        <name>encoding</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.encoding</qualifiedname>
+        <initializer>= new UTF8Encoding()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3865" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3865" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1af027533339102b433f152e704a606927" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] FMOD.StringHelper.ThreadSafeEncoding.encodedBuffer</definition>
+        <argsstring></argsstring>
+        <name>encodedBuffer</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.encodedBuffer</qualifiedname>
+        <initializer>= new byte[128]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3866" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a12c62e213715e2818b11c32171f841e4" prot="private" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] FMOD.StringHelper.ThreadSafeEncoding.decodedBuffer</definition>
+        <argsstring></argsstring>
+        <name>decodedBuffer</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.decodedBuffer</qualifiedname>
+        <initializer>= new char[128]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3867" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1aa5c565861724e4fab0edf5fd5cd26572" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMOD.StringHelper.ThreadSafeEncoding.inUse</definition>
+        <argsstring></argsstring>
+        <name>inUse</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.inUse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3868" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a9fd61d2a5318eb1b0d8758fee3006b32" prot="private" static="no" mutable="no">
+        <type>GCHandle</type>
+        <definition>GCHandle FMOD.StringHelper.ThreadSafeEncoding.gcHandle</definition>
+        <argsstring></argsstring>
+        <name>gcHandle</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.gcHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3869" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3869" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1ac0cd22a12953d1b3846c115201847110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.StringHelper.ThreadSafeEncoding.InUse</definition>
+        <argsstring>()</argsstring>
+        <name>InUse</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.InUse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3871" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3871" bodyend="3871"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a1f8a8af1da0acd7601b4348db9088c4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.StringHelper.ThreadSafeEncoding.SetInUse</definition>
+        <argsstring>()</argsstring>
+        <name>SetInUse</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.SetInUse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3872" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3872" bodyend="3872"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1ab70a9e17e9e5d8cb538d2f5ccb8ce5cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] FMOD.StringHelper.ThreadSafeEncoding.byteFromStringUTF8</definition>
+        <argsstring>(string s)</argsstring>
+        <name>byteFromStringUTF8</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.byteFromStringUTF8</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3885" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3885" bodyend="3906"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1affa8c179548c9c5ea290366b83de7212" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.StringHelper.ThreadSafeEncoding.intptrFromStringUTF8</definition>
+        <argsstring>(string s)</argsstring>
+        <name>intptrFromStringUTF8</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.intptrFromStringUTF8</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3908" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3908" bodyend="3917"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a41e4b376e550dda55bac868b6f39a5bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string FMOD.StringHelper.ThreadSafeEncoding.stringFromNative</definition>
+        <argsstring>(IntPtr nativePtr)</argsstring>
+        <name>stringFromNative</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.stringFromNative</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>nativePtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3919" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3919" bodyend="3957"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1ab668ed7e258d2b0c7875f25fb9b8de68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.StringHelper.ThreadSafeEncoding.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3959" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3959" bodyend="3969"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a6570e191d92493b7fb43a574fb4d518e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int FMOD.StringHelper.ThreadSafeEncoding.roundUpPowerTwo</definition>
+        <argsstring>(int number)</argsstring>
+        <name>roundUpPowerTwo</name>
+        <qualifiedname>FMOD.StringHelper.ThreadSafeEncoding.roundUpPowerTwo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3874" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3874" bodyend="3883"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMOD.StringHelper.ThreadSafeEncoding</label>
+        <link refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMOD.StringHelper.ThreadSafeEncoding</label>
+        <link refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" line="3863" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod.cs" bodystart="3864" bodyend="3970"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1ab70a9e17e9e5d8cb538d2f5ccb8ce5cc" prot="public" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>byteFromStringUTF8</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a12c62e213715e2818b11c32171f841e4" prot="private" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>decodedBuffer</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1ab668ed7e258d2b0c7875f25fb9b8de68" prot="public" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>Dispose</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1af027533339102b433f152e704a606927" prot="private" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>encodedBuffer</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a9e75ce51f58b40848f6d620676027331" prot="private" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>encoding</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a9fd61d2a5318eb1b0d8758fee3006b32" prot="private" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>gcHandle</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1affa8c179548c9c5ea290366b83de7212" prot="public" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>intptrFromStringUTF8</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1aa5c565861724e4fab0edf5fd5cd26572" prot="private" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>inUse</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1ac0cd22a12953d1b3846c115201847110" prot="public" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>InUse</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a6570e191d92493b7fb43a574fb4d518e" prot="private" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>roundUpPowerTwo</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a1f8a8af1da0acd7601b4348db9088c4f" prot="public" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>SetInUse</name></member>
+      <member refid="class_f_m_o_d_1_1_string_helper_1_1_thread_safe_encoding_1a41e4b376e550dda55bac868b6f39a5bd" prot="public" virt="non-virtual"><scope>FMOD::StringHelper::ThreadSafeEncoding</scope><name>stringFromNative</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

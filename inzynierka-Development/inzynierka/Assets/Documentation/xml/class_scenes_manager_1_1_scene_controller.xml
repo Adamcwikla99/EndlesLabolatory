@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_scenes_manager_1_1_scene_controller" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager::SceneController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scenes_manager_1_1_scene_controller_1ad0dd5e5fb2ad3ca0138d5d18578ff080" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Animator</type>
+        <definition>Animator ScenesManager.SceneController.FadeAnimation</definition>
+        <argsstring></argsstring>
+        <name>FadeAnimation</name>
+        <qualifiedname>ScenesManager.SceneController.FadeAnimation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="16" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_scenes_manager_1_1_scene_controller_1af8bcc78d505eea6675b74d34260bb2b2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_scene_1_1_switch_scene" kindref="compound">SwitchScene</ref></type>
+        <definition>SwitchScene ScenesManager.SceneController.SwitchCurrentScene</definition>
+        <argsstring></argsstring>
+        <name>SwitchCurrentScene</name>
+        <qualifiedname>ScenesManager.SceneController.SwitchCurrentScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="19" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_scene_controller_1a3d3ae5f6bf19fbec68fab2e12a604a7a" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a9c82a52844c7e2bc495dd91d5056a9ad" kindref="member">SceneType</ref></type>
+        <definition>SceneType ScenesManager.SceneController.currentScene</definition>
+        <argsstring></argsstring>
+        <name>currentScene</name>
+        <qualifiedname>ScenesManager.SceneController.currentScene</qualifiedname>
+        <initializer>= SceneType.None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="24" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1_1_scene_controller_1a383239901fd80ed82ec13016a1c2269a" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int ScenesManager.SceneController.StartAnimation</definition>
+        <argsstring></argsstring>
+        <name>StartAnimation</name>
+        <qualifiedname>ScenesManager.SceneController.StartAnimation</qualifiedname>
+        <initializer>= Animator.StringToHash(&quot;Start&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="25" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1ae1344fb7d4e0f1341a6a40c8e5f856a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ScenesManager.SceneController.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="30" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1a3e648f87307d8a90d5f8e676577fa375" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ScenesManager.SceneController.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="35" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1a71c7623c40ff4e3f96924266705df9bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>ScenesManager.SceneController.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="40" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1ae91bc69ed799a3f525cc42b23ff61640" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>ScenesManager.SceneController.Init</qualifiedname>
+        <briefdescription>
+<para>method responsible for initialization of variable storing currently active scene </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="51" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1a50c176cf3bcc9fe85561d439e9a5288b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>ScenesManager.SceneController.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables active scene manipulation events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="62" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1ae5bcb50ea04541a2a0fb5a8c5ba488bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>ScenesManager.SceneController.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables active scene manipulation events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="71" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1a3ad76a4420c9cd0d2457413df28983ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.ChangeCurrentSceneType</definition>
+        <argsstring>(SceneType scene)</argsstring>
+        <name>ChangeCurrentSceneType</name>
+        <qualifiedname>ScenesManager.SceneController.ChangeCurrentSceneType</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a9c82a52844c7e2bc495dd91d5056a9ad" kindref="member">SceneType</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes currently active scene </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="80" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1afcc8ad4ce0a59737def6bf3410e376f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.LoadScene</definition>
+        <argsstring>(SceneType scene)</argsstring>
+        <name>LoadScene</name>
+        <qualifiedname>ScenesManager.SceneController.LoadScene</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a9c82a52844c7e2bc495dd91d5056a9ad" kindref="member">SceneType</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+<para>methode that loads selected scene </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scene</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="86" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1aa48747c2e23dc0e72810c5e4dcadee06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.SceneController.RestartMap</definition>
+        <argsstring>()</argsstring>
+        <name>RestartMap</name>
+        <qualifiedname>ScenesManager.SceneController.RestartMap</qualifiedname>
+        <briefdescription>
+<para>methode that restarts game scene </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="91" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="91" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1_1_scene_controller_1a7ff7286ae3afdd76684ff3bcc5245dab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ScenesManager.SceneController.LoadNextScene</definition>
+        <argsstring>(SceneType scene)</argsstring>
+        <name>LoadNextScene</name>
+        <qualifiedname>ScenesManager.SceneController.LoadNextScene</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a9c82a52844c7e2bc495dd91d5056a9ad" kindref="member">SceneType</ref></type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+<para>methode that loads next scene </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="100" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="100" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements scene changing logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.SceneController</label>
+        <link refid="class_scenes_manager_1_1_scene_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager.SceneController</label>
+        <link refid="class_scenes_manager_1_1_scene_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" line="12" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/ScenesManager/SceneController.cs" bodystart="13" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a3ad76a4420c9cd0d2457413df28983ca" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>ChangeCurrentSceneType</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a3d3ae5f6bf19fbec68fab2e12a604a7a" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>currentScene</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1ae5bcb50ea04541a2a0fb5a8c5ba488bd" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>DisableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a50c176cf3bcc9fe85561d439e9a5288b" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>EnableEvents</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1ad0dd5e5fb2ad3ca0138d5d18578ff080" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>FadeAnimation</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1ae91bc69ed799a3f525cc42b23ff61640" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>Init</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a7ff7286ae3afdd76684ff3bcc5245dab" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>LoadNextScene</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1afcc8ad4ce0a59737def6bf3410e376f6" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>LoadScene</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a71c7623c40ff4e3f96924266705df9bd" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>OnDisable</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a3e648f87307d8a90d5f8e676577fa375" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>OnEnable</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1aa48747c2e23dc0e72810c5e4dcadee06" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>RestartMap</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1ae1344fb7d4e0f1341a6a40c8e5f856a7" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>Start</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1a383239901fd80ed82ec13016a1c2269a" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>StartAnimation</name></member>
+      <member refid="class_scenes_manager_1_1_scene_controller_1af8bcc78d505eea6675b74d34260bb2b2" prot="private" virt="non-virtual"><scope>ScenesManager::SceneController</scope><name>SwitchCurrentScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

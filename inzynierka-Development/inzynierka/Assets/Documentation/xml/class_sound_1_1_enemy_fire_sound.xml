@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_sound_1_1_enemy_fire_sound" kind="class" language="C#" prot="public">
+    <compoundname>Sound::EnemyFireSound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sound_1_1_enemy_fire_sound_1ab3cc51a3102179482b93803623c4ac03" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StudioEventEmitter</type>
+        <definition>StudioEventEmitter Sound.EnemyFireSound.EnemyFireEffect</definition>
+        <argsstring></argsstring>
+        <name>EnemyFireEffect</name>
+        <qualifiedname>Sound.EnemyFireSound.EnemyFireEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" line="15" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sound_1_1_enemy_fire_sound_1a64ecebc24438f8ffd2747a1e37be410e" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_sound_1_1_enemy_fired" kindref="compound">EnemyFired</ref></type>
+        <definition>EnemyFired Sound.EnemyFireSound.FireEvent</definition>
+        <argsstring></argsstring>
+        <name>FireEvent</name>
+        <qualifiedname>Sound.EnemyFireSound.FireEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" line="18" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sound_1_1_enemy_fire_sound_1a91da57a9524312fb5a7ecc3102a9d41f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sound.EnemyFireSound.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Sound.EnemyFireSound.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" line="23" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_1_1_enemy_fire_sound_1a4b58f5a819de676e2ec8b53ffa000fde" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sound.EnemyFireSound.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Sound.EnemyFireSound.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" line="25" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements enemy fire sound logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Sound.EnemyFireSound</label>
+        <link refid="class_sound_1_1_enemy_fire_sound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Sound.EnemyFireSound</label>
+        <link refid="class_sound_1_1_enemy_fire_sound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Sound/EnemyFireSound.cs" bodystart="11" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_sound_1_1_enemy_fire_sound_1ab3cc51a3102179482b93803623c4ac03" prot="private" virt="non-virtual"><scope>Sound::EnemyFireSound</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_sound_1_1_enemy_fire_sound_1a64ecebc24438f8ffd2747a1e37be410e" prot="private" virt="non-virtual"><scope>Sound::EnemyFireSound</scope><name>FireEvent</name></member>
+      <member refid="class_sound_1_1_enemy_fire_sound_1a4b58f5a819de676e2ec8b53ffa000fde" prot="private" virt="non-virtual"><scope>Sound::EnemyFireSound</scope><name>OnDisable</name></member>
+      <member refid="class_sound_1_1_enemy_fire_sound_1a91da57a9524312fb5a7ecc3102a9d41f" prot="private" virt="non-virtual"><scope>Sound::EnemyFireSound</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_projectile_pool_data" kind="class" language="C#" prot="public">
+    <compoundname>Structures::ProjectilePoolData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_projectile_pool_data_1a2b4e45f1b2d35ab42713f1ec1bd85df8" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Structures.ProjectilePoolData.prefab</definition>
+        <argsstring></argsstring>
+        <name>prefab</name>
+        <qualifiedname>Structures.ProjectilePoolData.prefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" line="15" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_projectile_pool_data_1a905651e104b99c07655a6241f4886ec5" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1aed5aef69595b9babf939b63f27579763" kindref="member">Structures.Enums.ProjectileType</ref></type>
+        <definition>Structures.Enums.ProjectileType Structures.ProjectilePoolData.projectileType</definition>
+        <argsstring></argsstring>
+        <name>projectileType</name>
+        <qualifiedname>Structures.ProjectilePoolData.projectileType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" line="18" column="46" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_projectile_pool_data_1a7950445bebd352fb64d434b14ac6ade4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Structures.ProjectilePoolData.initialCount</definition>
+        <argsstring></argsstring>
+        <name>initialCount</name>
+        <qualifiedname>Structures.ProjectilePoolData.initialCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" line="21" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>data wraper for projectile pool data informations </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Structures</label>
+      </node>
+      <node id="1">
+        <label>Structures.ProjectilePoolData</label>
+        <link refid="class_structures_1_1_projectile_pool_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>projectileType</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/ProjectilePoolData.cs" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_projectile_pool_data_1a7950445bebd352fb64d434b14ac6ade4" prot="public" virt="non-virtual"><scope>Structures::ProjectilePoolData</scope><name>initialCount</name></member>
+      <member refid="class_structures_1_1_projectile_pool_data_1a2b4e45f1b2d35ab42713f1ec1bd85df8" prot="public" virt="non-virtual"><scope>Structures::ProjectilePoolData</scope><name>prefab</name></member>
+      <member refid="class_structures_1_1_projectile_pool_data_1a905651e104b99c07655a6241f4886ec5" prot="public" virt="non-virtual"><scope>Structures::ProjectilePoolData</scope><name>projectileType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

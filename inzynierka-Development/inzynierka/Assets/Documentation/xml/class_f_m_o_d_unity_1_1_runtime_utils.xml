@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_runtime_utils" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::RuntimeUtils</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a22903cb7e4f01d57c9cc86464bc33c7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.RuntimeUtils.GetCommonPlatformPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetCommonPlatformPath</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.GetCommonPlatformPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="341" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="341" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1aecd3eff05e9fb5408781e8599878a9a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_v_e_c_t_o_r" kindref="compound">FMOD.VECTOR</ref></type>
+        <definition>static FMOD.VECTOR FMODUnity.RuntimeUtils.ToFMODVector</definition>
+        <argsstring>(this Vector3 vec)</argsstring>
+        <name>ToFMODVector</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.ToFMODVector</qualifiedname>
+        <param>
+          <type>this Vector3</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="351" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="351" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a974e72d0d683d5843a211edcfd17dc96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">FMOD.ATTRIBUTES_3D</ref></type>
+        <definition>static FMOD.ATTRIBUTES_3D FMODUnity.RuntimeUtils.To3DAttributes</definition>
+        <argsstring>(this Vector3 pos)</argsstring>
+        <name>To3DAttributes</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.To3DAttributes</qualifiedname>
+        <param>
+          <type>this Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="361" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="361" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a67f04886cc2135f05be509052c313c04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">FMOD.ATTRIBUTES_3D</ref></type>
+        <definition>static FMOD.ATTRIBUTES_3D FMODUnity.RuntimeUtils.To3DAttributes</definition>
+        <argsstring>(this Transform transform)</argsstring>
+        <name>To3DAttributes</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.To3DAttributes</qualifiedname>
+        <param>
+          <type>this Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="371" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="371" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a013e8ff1f306653373e13e8d1f0a8f4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">FMOD.ATTRIBUTES_3D</ref></type>
+        <definition>static FMOD.ATTRIBUTES_3D FMODUnity.RuntimeUtils.To3DAttributes</definition>
+        <argsstring>(this GameObject go)</argsstring>
+        <name>To3DAttributes</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.To3DAttributes</qualifiedname>
+        <param>
+          <type>this GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="381" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="381" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1af1d8e5df2acfbb6b133b8fed49a0018e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a0b7941251dee019d2109ffd1ff79016f" kindref="member">FMOD.THREAD_TYPE</ref></type>
+        <definition>static FMOD.THREAD_TYPE FMODUnity.RuntimeUtils.ToFMODThreadType</definition>
+        <argsstring>(ThreadType threadType)</argsstring>
+        <name>ToFMODThreadType</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.ToFMODThreadType</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1ac5c53297bab6d5178806199d10eb0266" kindref="member">ThreadType</ref></type>
+          <declname>threadType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="447" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="447" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a64cc4d60f79efa169ee40924e3476f32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.RuntimeUtils.DisplayName</definition>
+        <argsstring>(this ThreadType thread)</argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DisplayName</qualifiedname>
+        <param>
+          <type>this <ref refid="namespace_f_m_o_d_unity_1ac5c53297bab6d5178806199d10eb0266" kindref="member">ThreadType</ref></type>
+          <declname>thread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="482" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="482" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a9a68e26f21db9e1c0e9f520b4b54e817" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1abe505fb113d9e481bccf967f266c2152" kindref="member">FMOD.THREAD_AFFINITY</ref></type>
+        <definition>static FMOD.THREAD_AFFINITY FMODUnity.RuntimeUtils.ToFMODThreadAffinity</definition>
+        <argsstring>(ThreadAffinity affinity)</argsstring>
+        <name>ToFMODThreadAffinity</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.ToFMODThreadAffinity</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1ad7390dda29e4e2cc21af5b958871d042" kindref="member">ThreadAffinity</ref></type>
+          <declname>affinity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="487" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="487" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a53ffeafab302febec543422174a88c6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.EnforceLibraryOrder</definition>
+        <argsstring>()</argsstring>
+        <name>EnforceLibraryOrder</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.EnforceLibraryOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="520" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="520" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1ac4bed9f58652d55e654e0c36531af4c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLog</definition>
+        <argsstring>(string message)</argsstring>
+        <name>DebugLog</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLog</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="538" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="538" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1ab9441b050d0ea06a0c83db2c92f35417" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLogFormat</definition>
+        <argsstring>(string format, params object[] args)</argsstring>
+        <name>DebugLogFormat</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLogFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="546" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="546" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a710e60adff35f5aca2abca4f1cd86fcd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLogWarning</definition>
+        <argsstring>(string message)</argsstring>
+        <name>DebugLogWarning</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLogWarning</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="554" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="554" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a9ab7c4e0610964d1cc2ac2e21bb2e851" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLogWarningFormat</definition>
+        <argsstring>(string format, params object[] args)</argsstring>
+        <name>DebugLogWarningFormat</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLogWarningFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="562" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="562" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1acb5b93753c7743b5ac72abdd2eebf3da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLogError</definition>
+        <argsstring>(string message)</argsstring>
+        <name>DebugLogError</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLogError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="570" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="570" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a60e95c1a47a428aac14dc076b98a1ac3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLogErrorFormat</definition>
+        <argsstring>(string format, params object[] args)</argsstring>
+        <name>DebugLogErrorFormat</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLogErrorFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="578" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="578" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1a6d4851b4ba95bbe85a6166efcfc8cfda" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.DebugLogException</definition>
+        <argsstring>(Exception e)</argsstring>
+        <name>DebugLogException</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.DebugLogException</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="586" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="586" bodyend="592"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_runtime_utils_1afa6d143144a1257ec794751d04b506a2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.RuntimeUtils.SetFMODAffinityBit</definition>
+        <argsstring>(ThreadAffinity affinity, ThreadAffinity mask, FMOD.THREAD_AFFINITY fmodMask, ref FMOD.THREAD_AFFINITY fmodAffinity)</argsstring>
+        <name>SetFMODAffinityBit</name>
+        <qualifiedname>FMODUnity.RuntimeUtils.SetFMODAffinityBit</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1ad7390dda29e4e2cc21af5b958871d042" kindref="member">ThreadAffinity</ref></type>
+          <declname>affinity</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1ad7390dda29e4e2cc21af5b958871d042" kindref="member">ThreadAffinity</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1abe505fb113d9e481bccf967f266c2152" kindref="member">FMOD.THREAD_AFFINITY</ref></type>
+          <declname>fmodMask</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="namespace_f_m_o_d_1abe505fb113d9e481bccf967f266c2152" kindref="member">FMOD.THREAD_AFFINITY</ref></type>
+          <declname>fmodAffinity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="511" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="511" bodyend="518"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" line="302" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/RuntimeUtils.cs" bodystart="303" bodyend="593"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1ac4bed9f58652d55e654e0c36531af4c9" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLog</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1acb5b93753c7743b5ac72abdd2eebf3da" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLogError</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a60e95c1a47a428aac14dc076b98a1ac3" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLogErrorFormat</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a6d4851b4ba95bbe85a6166efcfc8cfda" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLogException</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1ab9441b050d0ea06a0c83db2c92f35417" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLogFormat</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a710e60adff35f5aca2abca4f1cd86fcd" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLogWarning</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a9ab7c4e0610964d1cc2ac2e21bb2e851" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DebugLogWarningFormat</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a64cc4d60f79efa169ee40924e3476f32" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>DisplayName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a53ffeafab302febec543422174a88c6f" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>EnforceLibraryOrder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a22903cb7e4f01d57c9cc86464bc33c7f" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>GetCommonPlatformPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1afa6d143144a1257ec794751d04b506a2" prot="private" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>SetFMODAffinityBit</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a974e72d0d683d5843a211edcfd17dc96" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>To3DAttributes</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a67f04886cc2135f05be509052c313c04" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>To3DAttributes</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a013e8ff1f306653373e13e8d1f0a8f4e" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>To3DAttributes</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1a9a68e26f21db9e1c0e9f520b4b54e817" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>ToFMODThreadAffinity</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1af1d8e5df2acfbb6b133b8fed49a0018e" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>ToFMODThreadType</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_runtime_utils_1aecd3eff05e9fb5408781e8599878a9a2" prot="public" virt="non-virtual"><scope>FMODUnity::RuntimeUtils</scope><name>ToFMODVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

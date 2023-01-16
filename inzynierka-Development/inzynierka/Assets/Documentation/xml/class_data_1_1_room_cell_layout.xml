@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_data_1_1_room_cell_layout" kind="class" language="C#" prot="public">
+    <compoundname>Data::RoomCellLayout</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_1_1_room_cell_layout_1afd816662e4a68afad53491b6730ce66d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data_1_1_cell_row_wrapper" kindref="compound">CellRowWrapper</ref>[]</type>
+        <definition>CellRowWrapper [] Data.RoomCellLayout.enumsToInt</definition>
+        <argsstring></argsstring>
+        <name>enumsToInt</name>
+        <qualifiedname>Data.RoomCellLayout.enumsToInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="17" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_data_1_1_room_cell_layout_1a8ec7fee61a583f34e824d633b4d4040e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>[,]</type>
+        <definition>RoomGridCell [,] Data.RoomCellLayout.forLoad</definition>
+        <argsstring></argsstring>
+        <name>forLoad</name>
+        <qualifiedname>Data.RoomCellLayout.forLoad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="22" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_data_1_1_room_cell_layout_1ac5bb3110168c331c983ccebd778abfef" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref>[][]</type>
+        <definition>RoomGridCell [][] Data.RoomCellLayout.roomCell</definition>
+        <argsstring></argsstring>
+        <name>roomCell</name>
+        <qualifiedname>Data.RoomCellLayout.roomCell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="23" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_1_1_room_cell_layout_1aa32943fff944d61816960108d5173a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data.RoomCellLayout.RoomCellLayout</definition>
+        <argsstring>()</argsstring>
+        <name>RoomCellLayout</name>
+        <qualifiedname>Data.RoomCellLayout.RoomCellLayout</qualifiedname>
+        <briefdescription>
+<para>JsonConstructor required constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="31" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_1_1_room_cell_layout_1a1b1c38e0f66f6366b1bde772a244d453" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data.RoomCellLayout.RoomCellLayout</definition>
+        <argsstring>(CellRowWrapper[] roomCell)</argsstring>
+        <name>RoomCellLayout</name>
+        <qualifiedname>Data.RoomCellLayout.RoomCellLayout</qualifiedname>
+        <param>
+          <type><ref refid="class_data_1_1_cell_row_wrapper" kindref="compound">CellRowWrapper</ref>[]</type>
+          <declname>roomCell</declname>
+        </param>
+        <briefdescription>
+<para>JsonConstructor custorm constructor that allows saving to json file format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roomCell</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="41" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="41" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_1_1_room_cell_layout_1a2ad3187965edd4b921d07b7da9bf5028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data.RoomCellLayout.RoomCellLayout</definition>
+        <argsstring>(RoomGridCell[,] roomCell)</argsstring>
+        <name>RoomCellLayout</name>
+        <qualifiedname>Data.RoomCellLayout.RoomCellLayout</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>roomCell</declname>
+          <array>[,]</array>
+        </param>
+        <briefdescription>
+<para>constructor responsible for setting room template cell data </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roomCell</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="60" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="60" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for representing room template layout </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" line="12" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Data/RoomCellLayout.cs" bodystart="13" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_data_1_1_room_cell_layout_1afd816662e4a68afad53491b6730ce66d" prot="private" virt="non-virtual"><scope>Data::RoomCellLayout</scope><name>enumsToInt</name></member>
+      <member refid="class_data_1_1_room_cell_layout_1a8ec7fee61a583f34e824d633b4d4040e" prot="public" virt="non-virtual"><scope>Data::RoomCellLayout</scope><name>forLoad</name></member>
+      <member refid="class_data_1_1_room_cell_layout_1ac5bb3110168c331c983ccebd778abfef" prot="public" virt="non-virtual"><scope>Data::RoomCellLayout</scope><name>roomCell</name></member>
+      <member refid="class_data_1_1_room_cell_layout_1aa32943fff944d61816960108d5173a98" prot="public" virt="non-virtual"><scope>Data::RoomCellLayout</scope><name>RoomCellLayout</name></member>
+      <member refid="class_data_1_1_room_cell_layout_1a1b1c38e0f66f6366b1bde772a244d453" prot="public" virt="non-virtual"><scope>Data::RoomCellLayout</scope><name>RoomCellLayout</name></member>
+      <member refid="class_data_1_1_room_cell_layout_1a2ad3187965edd4b921d07b7da9bf5028" prot="public" virt="non-virtual"><scope>Data::RoomCellLayout</scope><name>RoomCellLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

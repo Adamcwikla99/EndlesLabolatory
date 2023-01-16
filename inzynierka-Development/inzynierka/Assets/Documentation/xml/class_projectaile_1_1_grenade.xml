@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_projectaile_1_1_grenade" kind="class" language="C#" prot="public">
+    <compoundname>Projectaile::Grenade</compoundname>
+    <basecompoundref refid="class_projectaile_1_1_projectile" prot="public" virt="non-virtual">Projectaile.Projectile</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_projectaile_1_1_grenade_1afd5c722a3b5a2bd08b4d1624a076e5dc" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Projectaile.Grenade.ParticleSystem</definition>
+        <argsstring></argsstring>
+        <name>ParticleSystem</name>
+        <qualifiedname>Projectaile.Grenade.ParticleSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="13" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projectaile_1_1_grenade_1a7f61b20dbad74aadcf480c01fdd62eb2" prot="private" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Projectaile.Grenade.explosionDelay</definition>
+        <argsstring></argsstring>
+        <name>explosionDelay</name>
+        <qualifiedname>Projectaile.Grenade.explosionDelay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="18" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projectaile_1_1_grenade_1a558ede109bde32936623fc25474805f6" prot="private" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Projectaile.Grenade.explosion</definition>
+        <argsstring></argsstring>
+        <name>explosion</name>
+        <qualifiedname>Projectaile.Grenade.explosion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="19" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1a48a3e489102fefedfc1581d5790cc6be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Grenade.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Projectaile.Grenade.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="24" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1aeb83e056efcceabe57988f9c51cbc08f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Grenade.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Projectaile.Grenade.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="29" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1a27d3582a9d45ad4c8e9dbfa473f328b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Grenade.Explode</definition>
+        <argsstring>()</argsstring>
+        <name>Explode</name>
+        <qualifiedname>Projectaile.Grenade.Explode</qualifiedname>
+        <briefdescription>
+<para>methode implementing explosion logick </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="67" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1af9d7871a9ac089843445d92b212bda24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Grenade.ReturnActions</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnActions</name>
+        <qualifiedname>Projectaile.Grenade.ReturnActions</qualifiedname>
+        <briefdescription>
+<para>methode that returns grande object to object pool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="76" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1a6311257de80a54201fcf698de90b2eb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Grenade.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>Projectaile.Grenade.EnableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that enables events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="85" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1a712cf6c3918023a1d6e6ef14e6117420" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectaile.Grenade.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>Projectaile.Grenade.DisableEvents</qualifiedname>
+        <briefdescription>
+<para>methode that disables events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="94" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="94" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1a189c6364c0e48c801c27219b5484d9ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Grenade.Fire</definition>
+        <argsstring>(Quaternion rotation, Vector3 position, Vector3 velocity, float bonusDamage=0f, float bonusSpeed=0f)</argsstring>
+        <name>Fire</name>
+        <qualifiedname>Projectaile.Grenade.Fire</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1ae6edc884f488286584785fcc90b2d883">Fire</reimplements>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+          <defval>0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>methode that fires projectile </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="40" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1ad8660ddb175a9640b899506e1064396b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Grenade.SetProjectileParameters</definition>
+        <argsstring>(Quaternion rotation, Vector3 position, Vector3 velocity, float bonusDamage=0f, float bonusSpeed=0f)</argsstring>
+        <name>SetProjectileParameters</name>
+        <qualifiedname>Projectaile.Grenade.SetProjectileParameters</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1ac084810e388444cbfdfb40390de01254">SetProjectileParameters</reimplements>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusDamage</declname>
+          <defval>0f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusSpeed</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>methode that sets projectile parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="51" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projectaile_1_1_grenade_1a870cb2d823e711295378029050a56ee0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Projectaile.Grenade.OnHit</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnHit</name>
+        <qualifiedname>Projectaile.Grenade.OnHit</qualifiedname>
+        <reimplements refid="class_projectaile_1_1_projectile_1a108da1713bdd4eb5f5b7f45a4dd6dee5">OnHit</reimplements>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that determines collision behaviour </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="62" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing granade projectile logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.Grenade</label>
+        <link refid="class_projectaile_1_1_grenade"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Projectaile.Grenade</label>
+        <link refid="class_projectaile_1_1_grenade"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Projectaile.Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Projectile</label>
+        <link refid="class_projectaile_1_1_projectile"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>thisProjectile</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Projectaile/Grenade.cs" bodystart="9" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_projectaile_1_1_projectile_1a7dbb111c64fc75d1f6d81e7fc241880b" prot="public" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>BaseDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a19dd989c9da4c107958c75b1021a9053" prot="public" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>BaseSpeed</name></member>
+      <member refid="class_projectaile_1_1_projectile_1aea0dbb373bd8d0ff4f8444621524e9c7" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>bonusDamage</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a37324c9c477e4f0973fe53b7811f7894" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>DamageInterfaceCheck</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a712cf6c3918023a1d6e6ef14e6117420" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>DisableEvents</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a6311257de80a54201fcf698de90b2eb6" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>EnableEvents</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a27d3582a9d45ad4c8e9dbfa473f328b0" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>Explode</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a558ede109bde32936623fc25474805f6" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>explosion</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a7f61b20dbad74aadcf480c01fdd62eb2" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>explosionDelay</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a189c6364c0e48c801c27219b5484d9ba" prot="public" virt="virtual"><scope>Projectaile::Grenade</scope><name>Fire</name></member>
+      <member refid="class_projectaile_1_1_projectile_1abe97d395ab55229a5c9a785d45999dac" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>ObjectHitEffect</name></member>
+      <member refid="class_projectaile_1_1_grenade_1aeb83e056efcceabe57988f9c51cbc08f" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>OnDisable</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a48a3e489102fefedfc1581d5790cc6be" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>OnEnable</name></member>
+      <member refid="class_projectaile_1_1_grenade_1a870cb2d823e711295378029050a56ee0" prot="protected" virt="virtual"><scope>Projectaile::Grenade</scope><name>OnHit</name></member>
+      <member refid="class_projectaile_1_1_grenade_1afd5c722a3b5a2bd08b4d1624a076e5dc" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>ParticleSystem</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a9510afc22654bc44b122f7c758e22dc9" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>PlacementOffset</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2cd668d040b5b87934706e2771d34eb6" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>ProjectileRigidbody</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a150ed3816ccc67f4ae44b3bef1b762ae" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>QueReturnEvents</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a085a3d99ff3594ed5fa5b35bfc56d4e1" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>ResetProjectile</name></member>
+      <member refid="class_projectaile_1_1_grenade_1af9d7871a9ac089843445d92b212bda24" prot="private" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>ReturnActions</name></member>
+      <member refid="class_projectaile_1_1_grenade_1ad8660ddb175a9640b899506e1064396b" prot="protected" virt="virtual"><scope>Projectaile::Grenade</scope><name>SetProjectileParameters</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a2da38201b5fece9ecb43b1d47658634d" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>Start</name></member>
+      <member refid="class_projectaile_1_1_projectile_1a1bb7f45c0ae3f2527482c9ae7b0b0208" prot="protected" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>thisProjectile</name></member>
+      <member refid="class_projectaile_1_1_projectile_1ac09d12b4cae2915efb5b284b85228452" prot="public" virt="non-virtual"><scope>Projectaile::Grenade</scope><name>ThisType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

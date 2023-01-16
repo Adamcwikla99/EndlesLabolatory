@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_bank_refresh_window" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::BankRefreshWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1aa8754020bc3316b7c0c82923a5a3cfb8" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_bank_refresh_window" kindref="compound">BankRefreshWindow</ref></type>
+        <definition>BankRefreshWindow FMODUnity.BankRefreshWindow.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.instance</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="8" column="42" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1af7e2ef31aafe90315b96d4f47340a387" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.BankRefreshWindow.CloseDelay</definition>
+        <argsstring></argsstring>
+        <name>CloseDelay</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.CloseDelay</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="18" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a76bfdb8f3a4a52a9d53f2f7772bd116e" prot="private" static="no" mutable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject FMODUnity.BankRefreshWindow.serializedSettings</definition>
+        <argsstring></argsstring>
+        <name>serializedSettings</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.serializedSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="10" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a73ec87091a7d39bf817bdf972f838acb" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.BankRefreshWindow.cooldown</definition>
+        <argsstring></argsstring>
+        <name>cooldown</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.cooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="11" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a015340b9c2c84a163f8f9ad700b2bec0" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.BankRefreshWindow.showWindow</definition>
+        <argsstring></argsstring>
+        <name>showWindow</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.showWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="12" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1ac28a10f0aed75a840debf8240a38542c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.BankRefreshWindow.readyToRefreshBanks</definition>
+        <argsstring></argsstring>
+        <name>readyToRefreshBanks</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.readyToRefreshBanks</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="14" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a82e3868fb6e4acd08afc40f97b5544af" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.BankRefreshWindow.closeTime</definition>
+        <argsstring></argsstring>
+        <name>closeTime</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.closeTime</qualifiedname>
+        <initializer>= float.MaxValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="15" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a6b194bb082b4e543ac34511274c1e402" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.BankRefreshWindow.lastRefreshError</definition>
+        <argsstring></argsstring>
+        <name>lastRefreshError</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.lastRefreshError</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="16" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a929ff47782c2bcd64b09f44af478c80f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.BankRefreshWindow.IsVisible</definition>
+        <argsstring></argsstring>
+        <name>IsVisible</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.IsVisible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="20" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1ac39f52d189fcbd8ddd96e664abc95675" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.BankRefreshWindow.ReadyToRefreshBanks</definition>
+        <argsstring></argsstring>
+        <name>ReadyToRefreshBanks</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.ReadyToRefreshBanks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="22" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1acf41fa5190eb467e68eb80734b502842" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.BankRefreshWindow.ShowWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWindow</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.ShowWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="24" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="24" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a006c2f7be48487b63014be19b7452637" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.BankRefreshWindow.HandleBankRefresh</definition>
+        <argsstring>(string error)</argsstring>
+        <name>HandleBankRefresh</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.HandleBankRefresh</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="77" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="77" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1ad4a4a6aa7edd0a5b8e36572840b6c4f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.BankRefreshWindow.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="37" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="37" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1ac773e22c74f0686180ea707a5b5b19ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.BankRefreshWindow.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="54" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a2fdd2631617778569aeab9ca8e10e92b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.BankRefreshWindow.OnInspectorUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorUpdate</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.OnInspectorUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="62" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="62" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1ad7a8d51b679928232e29d20b856120e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.BankRefreshWindow.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="96" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="96" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1aa1a4fe2307383a9fe36b6f466701eaa3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.BankRefreshWindow.ConsumeEscapeKey</definition>
+        <argsstring>()</argsstring>
+        <name>ConsumeEscapeKey</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.ConsumeEscapeKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="111" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="111" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a9370acb0260f70393e15b3d38fb6b6a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.BankRefreshWindow.DrawStatus</definition>
+        <argsstring>()</argsstring>
+        <name>DrawStatus</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.DrawStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="124" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="124" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1a5a5afdf0a649237023b608418e591393" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.BankRefreshWindow.DrawButtons</definition>
+        <argsstring>()</argsstring>
+        <name>DrawButtons</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.DrawButtons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="214" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="214" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_bank_refresh_window_1acefb63bdb67f73b1d4efec0fa280c294" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.BankRefreshWindow.DrawCountdown</definition>
+        <argsstring>(string text, float remainingTime, float totalTime, GUIStyle labelStyle)</argsstring>
+        <name>DrawCountdown</name>
+        <qualifiedname>FMODUnity.BankRefreshWindow.DrawCountdown</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>remainingTime</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>totalTime</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>labelStyle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="188" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="188" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.BankRefreshWindow</label>
+        <link refid="class_f_m_o_d_unity_1_1_bank_refresh_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.BankRefreshWindow</label>
+        <link refid="class_f_m_o_d_unity_1_1_bank_refresh_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" line="6" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs" bodystart="7" bodyend="236"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1af7e2ef31aafe90315b96d4f47340a387" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>CloseDelay</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a82e3868fb6e4acd08afc40f97b5544af" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>closeTime</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1aa1a4fe2307383a9fe36b6f466701eaa3" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>ConsumeEscapeKey</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a73ec87091a7d39bf817bdf972f838acb" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>cooldown</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a5a5afdf0a649237023b608418e591393" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>DrawButtons</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1acefb63bdb67f73b1d4efec0fa280c294" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>DrawCountdown</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a9370acb0260f70393e15b3d38fb6b6a2" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>DrawStatus</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a006c2f7be48487b63014be19b7452637" prot="public" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>HandleBankRefresh</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1aa8754020bc3316b7c0c82923a5a3cfb8" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a929ff47782c2bcd64b09f44af478c80f" prot="public" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>IsVisible</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a6b194bb082b4e543ac34511274c1e402" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>lastRefreshError</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1ac773e22c74f0686180ea707a5b5b19ac" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>OnDestroy</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1ad4a4a6aa7edd0a5b8e36572840b6c4f2" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1ad7a8d51b679928232e29d20b856120e1" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a2fdd2631617778569aeab9ca8e10e92b" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>OnInspectorUpdate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1ac28a10f0aed75a840debf8240a38542c" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>readyToRefreshBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1ac39f52d189fcbd8ddd96e664abc95675" prot="public" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>ReadyToRefreshBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a76bfdb8f3a4a52a9d53f2f7772bd116e" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>serializedSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1a015340b9c2c84a163f8f9ad700b2bec0" prot="private" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>showWindow</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_bank_refresh_window_1acf41fa5190eb467e68eb80734b502842" prot="public" virt="non-virtual"><scope>FMODUnity::BankRefreshWindow</scope><name>ShowWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

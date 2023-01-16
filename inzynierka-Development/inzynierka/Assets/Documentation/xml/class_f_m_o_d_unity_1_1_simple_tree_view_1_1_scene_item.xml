@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::SimpleTreeView::SceneItem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TreeViewItem</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1aab841ecc94354484762aae9c447b982c" prot="public" static="no" mutable="no">
+        <type>Scene</type>
+        <definition>Scene FMODUnity.SimpleTreeView.SceneItem.m_scene</definition>
+        <argsstring></argsstring>
+        <name>m_scene</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.SceneItem.m_scene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1053" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1053" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1aa55a905fd00833a5f0a21a30cb2b04f9" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.SimpleTreeView.SceneItem.sceneIcon</definition>
+        <argsstring></argsstring>
+        <name>sceneIcon</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.SceneItem.sceneIcon</qualifiedname>
+        <initializer>= &quot;SceneAsset Icon&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1054" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1ac92be7ae41f7456f0fec867b7d6a0111" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.SimpleTreeView.SceneItem.folderIcon</definition>
+        <argsstring></argsstring>
+        <name>folderIcon</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.SceneItem.folderIcon</qualifiedname>
+        <initializer>= &quot;Folder Icon&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1055" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1ae6f42ade258b0c612491d4b25624cb76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SimpleTreeView.SceneItem.SceneItem</definition>
+        <argsstring>(Scene scene)</argsstring>
+        <name>SceneItem</name>
+        <qualifiedname>FMODUnity.SimpleTreeView.SceneItem.SceneItem</qualifiedname>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1057" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1057" bodyend="1070"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.SimpleTreeView.SceneItem</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeViewItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Scene</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.SimpleTreeView.SceneItem</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_scene</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeViewItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="1051" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="1052" bodyend="1071"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1ac92be7ae41f7456f0fec867b7d6a0111" prot="private" virt="non-virtual"><scope>FMODUnity::SimpleTreeView::SceneItem</scope><name>folderIcon</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1aab841ecc94354484762aae9c447b982c" prot="public" virt="non-virtual"><scope>FMODUnity::SimpleTreeView::SceneItem</scope><name>m_scene</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1aa55a905fd00833a5f0a21a30cb2b04f9" prot="private" virt="non-virtual"><scope>FMODUnity::SimpleTreeView::SceneItem</scope><name>sceneIcon</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_simple_tree_view_1_1_scene_item_1ae6f42ade258b0c612491d4b25624cb76" prot="public" virt="non-virtual"><scope>FMODUnity::SimpleTreeView::SceneItem</scope><name>SceneItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1983 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_studio_1_1_event_instance" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Studio::EventInstance</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1abf9422490655b99f4be395a68f236033" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Studio.EventInstance.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Studio.EventInstance.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1567" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1567" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5d72ef8cad6fc2211e8ecae3f951ff2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getDescription</definition>
+        <argsstring>(out EventDescription description)</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getDescription</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">EventDescription</ref></type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1303" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1303" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa4752b94458f666db697a1307fcb6f66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getVolume</definition>
+        <argsstring>(out float volume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1307" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1307" bodyend="1310"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6a5a3e80654dcf657060f10b5bf34e0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getVolume</definition>
+        <argsstring>(out float volume, out float finalvolume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1311" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1311" bodyend="1314"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad614b492f352f7ccdf2d0601911c4602" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>setVolume</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1315" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1315" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa80fa17b88a56a0944875adc5fe7beb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getPitch</definition>
+        <argsstring>(out float pitch)</argsstring>
+        <name>getPitch</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getPitch</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1319" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1319" bodyend="1322"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1adfc99239e0cbd3eb0ddde30956992182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getPitch</definition>
+        <argsstring>(out float pitch, out float finalpitch)</argsstring>
+        <name>getPitch</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getPitch</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalpitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1323" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1323" bodyend="1326"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a2867c4be9acc5b9fa2a5c02b5822a197" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setPitch</definition>
+        <argsstring>(float pitch)</argsstring>
+        <name>setPitch</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setPitch</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1327" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1327" bodyend="1330"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a20f9572bc1a4a6f4ad195636e5fd2d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.get3DAttributes</definition>
+        <argsstring>(out ATTRIBUTES_3D attributes)</argsstring>
+        <name>get3DAttributes</name>
+        <qualifiedname>FMOD.Studio.EventInstance.get3DAttributes</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1331" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1331" bodyend="1334"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a9ddc8dd0f262b92e879ae37221fa4737" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.set3DAttributes</definition>
+        <argsstring>(ATTRIBUTES_3D attributes)</argsstring>
+        <name>set3DAttributes</name>
+        <qualifiedname>FMOD.Studio.EventInstance.set3DAttributes</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1335" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1335" bodyend="1338"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a53ce0248bc3c9a85a79af83600eda823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getListenerMask</definition>
+        <argsstring>(out uint mask)</argsstring>
+        <name>getListenerMask</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getListenerMask</qualifiedname>
+        <param>
+          <type>out uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1339" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1339" bodyend="1342"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa28c5a4ae56841c6bb5a285938d42aa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setListenerMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>setListenerMask</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setListenerMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1343" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1343" bodyend="1346"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a9e32159e64afd57b0c5bc54e947f1179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getProperty</definition>
+        <argsstring>(EVENT_PROPERTY index, out float value)</argsstring>
+        <name>getProperty</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getProperty</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14a" kindref="member">EVENT_PROPERTY</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1347" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1347" bodyend="1350"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5a9926a2653bf2cca6b48f602d1a82be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setProperty</definition>
+        <argsstring>(EVENT_PROPERTY index, float value)</argsstring>
+        <name>setProperty</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setProperty</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14a" kindref="member">EVENT_PROPERTY</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1351" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1351" bodyend="1354"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1adf5dc5874f437fc8617f3c5b41a62cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getReverbLevel</definition>
+        <argsstring>(int index, out float level)</argsstring>
+        <name>getReverbLevel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getReverbLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1355" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1355" bodyend="1358"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a138d3dbc5043fba55de8748d7c3c19b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setReverbLevel</definition>
+        <argsstring>(int index, float level)</argsstring>
+        <name>setReverbLevel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setReverbLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1359" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1359" bodyend="1362"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a99de5b181d683ac99fbe9425484339da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getPaused</definition>
+        <argsstring>(out bool paused)</argsstring>
+        <name>getPaused</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getPaused</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1363" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1363" bodyend="1366"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ae8cad8bc9b3050f5019607b9ad1c35e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setPaused</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>setPaused</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setPaused</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1367" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1367" bodyend="1370"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a85e8bd074e09c26f247f565dfbdfd55c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <qualifiedname>FMOD.Studio.EventInstance.start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1371" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1371" bodyend="1374"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5ea04d86644f82f541c476a688d7ada7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.stop</definition>
+        <argsstring>(STOP_MODE mode)</argsstring>
+        <name>stop</name>
+        <qualifiedname>FMOD.Studio.EventInstance.stop</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881" kindref="member">STOP_MODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1375" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1375" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aff7dbbf2710ce328c4345517a4507663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getTimelinePosition</definition>
+        <argsstring>(out int position)</argsstring>
+        <name>getTimelinePosition</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getTimelinePosition</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1379" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1379" bodyend="1382"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a9d02e462c4dea9d92e9c6b20c0818b14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setTimelinePosition</definition>
+        <argsstring>(int position)</argsstring>
+        <name>setTimelinePosition</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setTimelinePosition</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1383" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1383" bodyend="1386"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad721076b17ec508dad41de230cc92951" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getPlaybackState</definition>
+        <argsstring>(out PLAYBACK_STATE state)</argsstring>
+        <name>getPlaybackState</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getPlaybackState</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602d" kindref="member">PLAYBACK_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1387" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1387" bodyend="1390"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a3e4eb4686159c05e615c0e090c1cf2ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getChannelGroup</definition>
+        <argsstring>(out FMOD.ChannelGroup group)</argsstring>
+        <name>getChannelGroup</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getChannelGroup</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_channel_group" kindref="compound">FMOD.ChannelGroup</ref></type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1391" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1391" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af07b83dd290e5cb7442ecf650639b4d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getMinMaxDistance</definition>
+        <argsstring>(out float min, out float max)</argsstring>
+        <name>getMinMaxDistance</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getMinMaxDistance</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1395" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1395" bodyend="1398"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a7f63a7b3a8d89d50e5b5fdcfc5d76f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>FMOD.Studio.EventInstance.release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1399" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1399" bodyend="1402"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a8dc3e1d2ddcb98b18866341b3f78387f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.isVirtual</definition>
+        <argsstring>(out bool virtualstate)</argsstring>
+        <name>isVirtual</name>
+        <qualifiedname>FMOD.Studio.EventInstance.isVirtual</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>virtualstate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1403" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1403" bodyend="1406"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1abdf26580ae71c8a37573dd176c0de7d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getParameterByID</definition>
+        <argsstring>(PARAMETER_ID id, out float value)</argsstring>
+        <name>getParameterByID</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getParameterByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1407" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1407" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1abb4736b1a5f462140249e18f21e9fd02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getParameterByID</definition>
+        <argsstring>(PARAMETER_ID id, out float value, out float finalvalue)</argsstring>
+        <name>getParameterByID</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getParameterByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1412" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1412" bodyend="1415"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0c571031e067174eca653e2bf1a88316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setParameterByID</definition>
+        <argsstring>(PARAMETER_ID id, float value, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByID</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setParameterByID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1416" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1416" bodyend="1419"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a740b011f0bcf2e12f6c0a60c428f5f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setParameterByIDWithLabel</definition>
+        <argsstring>(PARAMETER_ID id, string label, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByIDWithLabel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setParameterByIDWithLabel</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1420" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1420" bodyend="1426"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aaa9b2417cfbc4129dec7fa265066d080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setParametersByIDs</definition>
+        <argsstring>(PARAMETER_ID[] ids, float[] values, int count, bool ignoreseekspeed=false)</argsstring>
+        <name>setParametersByIDs</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setParametersByIDs</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref>[]</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1427" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1427" bodyend="1430"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a7b211889bc59fa4fb64c516612d33074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getParameterByName</definition>
+        <argsstring>(string name, out float value)</argsstring>
+        <name>getParameterByName</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getParameterByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1431" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1431" bodyend="1435"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a2c34f8bb6d2e917bcfa69b61aa7e38b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getParameterByName</definition>
+        <argsstring>(string name, out float value, out float finalvalue)</argsstring>
+        <name>getParameterByName</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getParameterByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1436" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1436" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a66336f4895ad01067bd5e34cb8e69d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setParameterByName</definition>
+        <argsstring>(string name, float value, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByName</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setParameterByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1443" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1443" bodyend="1449"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a8b360e705c594a16c24086535a6e3b6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setParameterByNameWithLabel</definition>
+        <argsstring>(string name, string label, bool ignoreseekspeed=false)</argsstring>
+        <name>setParameterByNameWithLabel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setParameterByNameWithLabel</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1450" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1450" bodyend="1457"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a207cc7b65417e1320d67f894d6b8aef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.keyOff</definition>
+        <argsstring>()</argsstring>
+        <name>keyOff</name>
+        <qualifiedname>FMOD.Studio.EventInstance.keyOff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1458" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1458" bodyend="1461"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a750977bbb913dffc824ca72755e57a61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setCallback</definition>
+        <argsstring>(EVENT_CALLBACK callback, EVENT_CALLBACK_TYPE callbackmask=EVENT_CALLBACK_TYPE.ALL)</argsstring>
+        <name>setCallback</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setCallback</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a5dbcaa08826b04164cc1456c31e87b85" kindref="member">EVENT_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777" kindref="member">EVENT_CALLBACK_TYPE</ref></type>
+          <declname>callbackmask</declname>
+          <defval><ref refid="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777a5fb1f955b45e38e31789286a1790398d" kindref="member">EVENT_CALLBACK_TYPE.ALL</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1462" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1462" bodyend="1465"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a194b428ac89730fbee744c0234b7d4bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1466" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1466" bodyend="1469"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a1458db79261f0578048783015466ba85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.Studio.EventInstance.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1470" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1470" bodyend="1473"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a8cc5e58d64d9f939c6b3bbe2ecb7dcc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getCPUUsage</definition>
+        <argsstring>(out uint exclusive, out uint inclusive)</argsstring>
+        <name>getCPUUsage</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getCPUUsage</qualifiedname>
+        <param>
+          <type>out uint</type>
+          <declname>exclusive</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>inclusive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1474" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1474" bodyend="1477"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a09ebb6fc8d8fa25ebef99b69d1a479bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.EventInstance.getMemoryUsage</definition>
+        <argsstring>(out MEMORY_USAGE memoryusage)</argsstring>
+        <name>getMemoryUsage</name>
+        <qualifiedname>FMOD.Studio.EventInstance.getMemoryUsage</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" kindref="compound">MEMORY_USAGE</ref></type>
+          <declname>memoryusage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1478" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1478" bodyend="1481"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a1cc72c3dcebaf7c1a4089a76529026c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Studio.EventInstance.EventInstance</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>EventInstance</name>
+        <qualifiedname>FMOD.Studio.EventInstance.EventInstance</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1569" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1569" bodyend="1569"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aea8b05f9d7a476c95e50fd97f71a3e2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.EventInstance.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Studio.EventInstance.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1570" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1570" bodyend="1570"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a65014580b269309c2fcbcddfbefe871e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Studio.EventInstance.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Studio.EventInstance.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1571" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1571" bodyend="1571"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6febd3da4b1769417c122cc686703a20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.EventInstance.isValid</definition>
+        <argsstring>()</argsstring>
+        <name>isValid</name>
+        <qualifiedname>FMOD.Studio.EventInstance.isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1573" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1573" bodyend="1576"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af1c5c1f4f8ca380ce0b2853054377ce3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_IsValid</definition>
+        <argsstring>(IntPtr _event)</argsstring>
+        <name>FMOD_Studio_EventInstance_IsValid</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_IsValid</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1484" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0b2c14d1127773bc5b0c8ca4435f4e42" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetDescription</definition>
+        <argsstring>(IntPtr _event, out IntPtr description)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetDescription</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetDescription</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1486" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ab0b5c2ec3c48f1d8d8b1aebeefc3a591" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetVolume</definition>
+        <argsstring>(IntPtr _event, out float volume, IntPtr zero)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetVolume</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1488" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5af5d886470cc6759a95873d615bb07a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetVolume</definition>
+        <argsstring>(IntPtr _event, out float volume, out float finalvolume)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetVolume</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1490" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ae0ad58f596dfef264aeb9953a1cd9e84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetVolume</definition>
+        <argsstring>(IntPtr _event, float volume)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetVolume</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1492" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a28ff0fa5f7d092a2e5573042dd59f3f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPitch</definition>
+        <argsstring>(IntPtr _event, out float pitch, IntPtr zero)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetPitch</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPitch</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1494" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0a7aa7445e25a233fc23345f550e26a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPitch</definition>
+        <argsstring>(IntPtr _event, out float pitch, out float finalpitch)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetPitch</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPitch</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalpitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1496" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a02236ff1a3804f1153031d8e3006ac5b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetPitch</definition>
+        <argsstring>(IntPtr _event, float pitch)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetPitch</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetPitch</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1498" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a41fafe40f26864814aff6a41d36df75f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Get3DAttributes</definition>
+        <argsstring>(IntPtr _event, out ATTRIBUTES_3D attributes)</argsstring>
+        <name>FMOD_Studio_EventInstance_Get3DAttributes</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Get3DAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1500" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a72b8f720e3190a08e3927deb2d441626" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Set3DAttributes</definition>
+        <argsstring>(IntPtr _event, ref ATTRIBUTES_3D attributes)</argsstring>
+        <name>FMOD_Studio_EventInstance_Set3DAttributes</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Set3DAttributes</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_1_1_a_t_t_r_i_b_u_t_e_s__3_d" kindref="compound">ATTRIBUTES_3D</ref></type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1502" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad027cd8203e466c7af5c4216c1644f40" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetListenerMask</definition>
+        <argsstring>(IntPtr _event, out uint mask)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetListenerMask</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetListenerMask</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1504" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a049da1c017641a8941d5ea7603f4def0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetListenerMask</definition>
+        <argsstring>(IntPtr _event, uint mask)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetListenerMask</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetListenerMask</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1506" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a06816f3ba008c8e77d03f0a4a40db8e9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetProperty</definition>
+        <argsstring>(IntPtr _event, EVENT_PROPERTY index, out float value)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetProperty</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetProperty</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14a" kindref="member">EVENT_PROPERTY</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1508" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af2ee388015d49ce606550103bc062254" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetProperty</definition>
+        <argsstring>(IntPtr _event, EVENT_PROPERTY index, float value)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetProperty</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetProperty</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1adbf26768a650be8dc6dfd5e3aa02b14a" kindref="member">EVENT_PROPERTY</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1510" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a4ca92db2158343c5991db1fdfe2a0570" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetReverbLevel</definition>
+        <argsstring>(IntPtr _event, int index, out float level)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetReverbLevel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetReverbLevel</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1512" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a136d4f881071dc1755505c2c91483841" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetReverbLevel</definition>
+        <argsstring>(IntPtr _event, int index, float level)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetReverbLevel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetReverbLevel</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1514" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6be0c511fded791c573237d4d444d333" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPaused</definition>
+        <argsstring>(IntPtr _event, out bool paused)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetPaused</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPaused</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1516" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a86932110ae8d74fe1cc80bb8bb079e1b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetPaused</definition>
+        <argsstring>(IntPtr _event, bool paused)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetPaused</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetPaused</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1518" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a627569caab24029241f5930931476eb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Start</definition>
+        <argsstring>(IntPtr _event)</argsstring>
+        <name>FMOD_Studio_EventInstance_Start</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Start</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1520" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af54e461aa6e2192596cba6fab03c263f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Stop</definition>
+        <argsstring>(IntPtr _event, STOP_MODE mode)</argsstring>
+        <name>FMOD_Studio_EventInstance_Stop</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Stop</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881" kindref="member">STOP_MODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1522" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1afeee830c7ef13c67b6927587305c0dce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetTimelinePosition</definition>
+        <argsstring>(IntPtr _event, out int position)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetTimelinePosition</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetTimelinePosition</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1524" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a30a8af01c8c72b0b7e4dc683e86a3b49" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetTimelinePosition</definition>
+        <argsstring>(IntPtr _event, int position)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetTimelinePosition</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetTimelinePosition</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1526" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af652deef2d16de7d312ead1fe33e96ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPlaybackState</definition>
+        <argsstring>(IntPtr _event, out PLAYBACK_STATE state)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetPlaybackState</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetPlaybackState</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1aa05fde4e413991a91165c01e9d85602d" kindref="member">PLAYBACK_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1528" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aaf4119f9bc1198e97388a293b37e3a02" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetChannelGroup</definition>
+        <argsstring>(IntPtr _event, out IntPtr group)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetChannelGroup</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetChannelGroup</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1530" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a576a0fe856d9dbf5150072f08da32c97" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetMinMaxDistance</definition>
+        <argsstring>(IntPtr _event, out float min, out float max)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetMinMaxDistance</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetMinMaxDistance</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1532" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ab961f4c7684d27b759797336d28bc6b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Release</definition>
+        <argsstring>(IntPtr _event)</argsstring>
+        <name>FMOD_Studio_EventInstance_Release</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_Release</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1534" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a596e1113a620646a5083890f79b452d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_IsVirtual</definition>
+        <argsstring>(IntPtr _event, out bool virtualstate)</argsstring>
+        <name>FMOD_Studio_EventInstance_IsVirtual</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_IsVirtual</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>virtualstate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1536" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa6798d0a2d7dc8189aaf57238ccb96cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetParameterByName</definition>
+        <argsstring>(IntPtr _event, byte[] name, out float value, out float finalvalue)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetParameterByName</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetParameterByName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1538" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af4a8436ed6e2f5ec530ed87f205ebe26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByName</definition>
+        <argsstring>(IntPtr _event, byte[] name, float value, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetParameterByName</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByName</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1540" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6cd5479450d7ff7b25fdab756ab8dcda" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByNameWithLabel</definition>
+        <argsstring>(IntPtr _event, byte[] name, byte[] label, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetParameterByNameWithLabel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByNameWithLabel</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1542" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ada582323d2e52229bba712581dbae994" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetParameterByID</definition>
+        <argsstring>(IntPtr _event, PARAMETER_ID id, out float value, out float finalvalue)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetParameterByID</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetParameterByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvalue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1544" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0eafabbf53048cb4fc9e62f79b27cba9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByID</definition>
+        <argsstring>(IntPtr _event, PARAMETER_ID id, float value, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetParameterByID</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1546" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a357f7f702af9f6bf26fb9f17c1e8662a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByIDWithLabel</definition>
+        <argsstring>(IntPtr _event, PARAMETER_ID id, byte[] label, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetParameterByIDWithLabel</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParameterByIDWithLabel</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1548" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a4b95c4d8403787d1f22de7989c1e9fc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParametersByIDs</definition>
+        <argsstring>(IntPtr _event, PARAMETER_ID[] ids, float[] values, int count, bool ignoreseekspeed)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetParametersByIDs</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetParametersByIDs</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">PARAMETER_ID</ref>[]</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1550" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ac24206d5915a6c9a67179af7a7ff60d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_KeyOff</definition>
+        <argsstring>(IntPtr _event)</argsstring>
+        <name>FMOD_Studio_EventInstance_KeyOff</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_KeyOff</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1552" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1afd57b1f36ad34c0b53da92cec40a5756" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetCallback</definition>
+        <argsstring>(IntPtr _event, EVENT_CALLBACK callback, EVENT_CALLBACK_TYPE callbackmask)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetCallback</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetCallback</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1a5dbcaa08826b04164cc1456c31e87b85" kindref="member">EVENT_CALLBACK</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acf844603065b7648d8d7913168192777" kindref="member">EVENT_CALLBACK_TYPE</ref></type>
+          <declname>callbackmask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1554" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad96591aa0134fe2b26b61daf72fade0b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetUserData</definition>
+        <argsstring>(IntPtr _event, out IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetUserData</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1556" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a975c06281941c4590c1d94f12fb9326d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetUserData</definition>
+        <argsstring>(IntPtr _event, IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_EventInstance_SetUserData</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1558" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a90627e0106522558b4734dee93b014cc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetCPUUsage</definition>
+        <argsstring>(IntPtr _event, out uint exclusive, out uint inclusive)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetCPUUsage</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetCPUUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>exclusive</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>inclusive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1560" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a28771594d1dff309cfec28a009021d33" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetMemoryUsage</definition>
+        <argsstring>(IntPtr _event, out MEMORY_USAGE memoryusage)</argsstring>
+        <name>FMOD_Studio_EventInstance_GetMemoryUsage</name>
+        <qualifiedname>FMOD.Studio.EventInstance.FMOD_Studio_EventInstance_GetMemoryUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>_event</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" kindref="compound">MEMORY_USAGE</ref></type>
+          <declname>memoryusage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1562" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1301" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1302" bodyend="1579"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a65014580b269309c2fcbcddfbefe871e" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a1cc72c3dcebaf7c1a4089a76529026c8" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>EventInstance</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a41fafe40f26864814aff6a41d36df75f" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_Get3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aaf4119f9bc1198e97388a293b37e3a02" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a90627e0106522558b4734dee93b014cc" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0b2c14d1127773bc5b0c8ca4435f4e42" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetDescription</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad027cd8203e466c7af5c4216c1644f40" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetListenerMask</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a28771594d1dff309cfec28a009021d33" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetMemoryUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a576a0fe856d9dbf5150072f08da32c97" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetMinMaxDistance</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ada582323d2e52229bba712581dbae994" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa6798d0a2d7dc8189aaf57238ccb96cb" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6be0c511fded791c573237d4d444d333" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a28ff0fa5f7d092a2e5573042dd59f3f0" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetPitch</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0a7aa7445e25a233fc23345f550e26a1" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetPitch</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af652deef2d16de7d312ead1fe33e96ec" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetPlaybackState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a06816f3ba008c8e77d03f0a4a40db8e9" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetProperty</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a4ca92db2158343c5991db1fdfe2a0570" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetReverbLevel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1afeee830c7ef13c67b6927587305c0dce" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetTimelinePosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad96591aa0134fe2b26b61daf72fade0b" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ab0b5c2ec3c48f1d8d8b1aebeefc3a591" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5af5d886470cc6759a95873d615bb07a" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_GetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af1c5c1f4f8ca380ce0b2853054377ce3" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_IsValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a596e1113a620646a5083890f79b452d2" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_IsVirtual</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ac24206d5915a6c9a67179af7a7ff60d3" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_KeyOff</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ab961f4c7684d27b759797336d28bc6b7" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_Release</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a72b8f720e3190a08e3927deb2d441626" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_Set3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1afd57b1f36ad34c0b53da92cec40a5756" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a049da1c017641a8941d5ea7603f4def0" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetListenerMask</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0eafabbf53048cb4fc9e62f79b27cba9" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a357f7f702af9f6bf26fb9f17c1e8662a" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetParameterByIDWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af4a8436ed6e2f5ec530ed87f205ebe26" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6cd5479450d7ff7b25fdab756ab8dcda" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetParameterByNameWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a4b95c4d8403787d1f22de7989c1e9fc7" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetParametersByIDs</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a86932110ae8d74fe1cc80bb8bb079e1b" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a02236ff1a3804f1153031d8e3006ac5b" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetPitch</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af2ee388015d49ce606550103bc062254" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetProperty</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a136d4f881071dc1755505c2c91483841" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetReverbLevel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a30a8af01c8c72b0b7e4dc683e86a3b49" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetTimelinePosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a975c06281941c4590c1d94f12fb9326d" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ae0ad58f596dfef264aeb9953a1cd9e84" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_SetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a627569caab24029241f5930931476eb7" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_Start</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af54e461aa6e2192596cba6fab03c263f" prot="private" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>FMOD_Studio_EventInstance_Stop</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a20f9572bc1a4a6f4ad195636e5fd2d99" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>get3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a3e4eb4686159c05e615c0e090c1cf2ca" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a8cc5e58d64d9f939c6b3bbe2ecb7dcc7" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5d72ef8cad6fc2211e8ecae3f951ff2a" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getDescription</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a53ce0248bc3c9a85a79af83600eda823" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getListenerMask</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a09ebb6fc8d8fa25ebef99b69d1a479bf" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getMemoryUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1af07b83dd290e5cb7442ecf650639b4d0" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getMinMaxDistance</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1abdf26580ae71c8a37573dd176c0de7d6" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1abb4736b1a5f462140249e18f21e9fd02" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a7b211889bc59fa4fb64c516612d33074" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a2c34f8bb6d2e917bcfa69b61aa7e38b8" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a99de5b181d683ac99fbe9425484339da" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa80fa17b88a56a0944875adc5fe7beb7" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getPitch</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1adfc99239e0cbd3eb0ddde30956992182" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getPitch</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad721076b17ec508dad41de230cc92951" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getPlaybackState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a9e32159e64afd57b0c5bc54e947f1179" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getProperty</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1adf5dc5874f437fc8617f3c5b41a62cfd" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getReverbLevel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aff7dbbf2710ce328c4345517a4507663" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getTimelinePosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a194b428ac89730fbee744c0234b7d4bc" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa4752b94458f666db697a1307fcb6f66" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6a5a3e80654dcf657060f10b5bf34e0f" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1abf9422490655b99f4be395a68f236033" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aea8b05f9d7a476c95e50fd97f71a3e2c" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a6febd3da4b1769417c122cc686703a20" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>isValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a8dc3e1d2ddcb98b18866341b3f78387f" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>isVirtual</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a207cc7b65417e1320d67f894d6b8aef9" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>keyOff</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a7f63a7b3a8d89d50e5b5fdcfc5d76f08" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>release</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a9ddc8dd0f262b92e879ae37221fa4737" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>set3DAttributes</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a750977bbb913dffc824ca72755e57a61" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setCallback</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aa28c5a4ae56841c6bb5a285938d42aa5" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setListenerMask</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a0c571031e067174eca653e2bf1a88316" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setParameterByID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a740b011f0bcf2e12f6c0a60c428f5f08" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setParameterByIDWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a66336f4895ad01067bd5e34cb8e69d91" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setParameterByName</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a8b360e705c594a16c24086535a6e3b6d" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setParameterByNameWithLabel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1aaa9b2417cfbc4129dec7fa265066d080" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setParametersByIDs</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ae8cad8bc9b3050f5019607b9ad1c35e6" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a2867c4be9acc5b9fa2a5c02b5822a197" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setPitch</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5a9926a2653bf2cca6b48f602d1a82be" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setProperty</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a138d3dbc5043fba55de8748d7c3c19b1" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setReverbLevel</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a9d02e462c4dea9d92e9c6b20c0818b14" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setTimelinePosition</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a1458db79261f0578048783015466ba85" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1ad614b492f352f7ccdf2d0601911c4602" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>setVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a85e8bd074e09c26f247f565dfbdfd55c" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>start</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_event_instance_1a5ea04d86644f82f541c476a688d7ada7" prot="public" virt="non-virtual"><scope>FMOD::Studio::EventInstance</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

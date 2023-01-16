@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu" kind="class" language="C#" prot="public">
+    <compoundname>UI::Menu::Pages::CreditsMenu</compoundname>
+    <basecompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" prot="public" virt="non-virtual">UI.Menu.Pages.UIMenu</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a7ba15c2d33556d07fd35859c68b8a58b" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button UI.Menu.Pages.CreditsMenu.Return</definition>
+        <argsstring></argsstring>
+        <name>Return</name>
+        <qualifiedname>UI.Menu.Pages.CreditsMenu.Return</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="16" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a85cc6baea0addd6ddebdb12d72e2b474" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_switch_menu" kindref="compound">SwitchMenu</ref></type>
+        <definition>SwitchMenu UI.Menu.Pages.CreditsMenu.SwitchCurrentMenu</definition>
+        <argsstring></argsstring>
+        <name>SwitchCurrentMenu</name>
+        <qualifiedname>UI.Menu.Pages.CreditsMenu.SwitchCurrentMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="19" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a95f4a54319628108c65163738e18a82b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override void</type>
+        <definition>override void UI.Menu.Pages.CreditsMenu.SubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeEvents</name>
+        <qualifiedname>UI.Menu.Pages.CreditsMenu.SubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a31b0c9caf56b78e516d9198387427d0b">SubscribeEvents</reimplements>
+        <briefdescription>
+<para>methode that assigns actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="27" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1ab8e7296d4565b0e2b5b7a0e6d15ee97c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override void</type>
+        <definition>override void UI.Menu.Pages.CreditsMenu.UnsubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeEvents</name>
+        <qualifiedname>UI.Menu.Pages.CreditsMenu.UnsubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a0a54b6c0601a701b30daa453b530b7a4">UnsubscribeEvents</reimplements>
+        <briefdescription>
+<para>methode that unassigned actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="32" column="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a4609c195d633324796a93e96112151de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UI.Menu.Pages.CreditsMenu.ReturnAction</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnAction</name>
+        <qualifiedname>UI.Menu.Pages.CreditsMenu.ReturnAction</qualifiedname>
+        <briefdescription>
+<para>methode that redirects player to main menu </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="40" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements credits menu logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.Pages.CreditsMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>UI.Menu.Pages.CreditsMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="11" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a79d4b1063d0399e9e07b572fa626222d" prot="protected" virt="non-virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a12aaec1e5ab532b24922e876038759dd" prot="protected" virt="non-virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>OnEnable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a7ba15c2d33556d07fd35859c68b8a58b" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>Return</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a4609c195d633324796a93e96112151de" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>ReturnAction</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a95f4a54319628108c65163738e18a82b" prot="protected" virt="virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>SubscribeEvents</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1a85cc6baea0addd6ddebdb12d72e2b474" prot="private" virt="non-virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>SwitchCurrentMenu</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_credits_menu_1ab8e7296d4565b0e2b5b7a0e6d15ee97c" prot="protected" virt="virtual"><scope>UI::Menu::Pages::CreditsMenu</scope><name>UnsubscribeEvents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

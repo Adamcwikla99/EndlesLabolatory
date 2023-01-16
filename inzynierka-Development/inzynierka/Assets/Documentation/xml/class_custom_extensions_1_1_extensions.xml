@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_custom_extensions_1_1_extensions" kind="class" language="C#" prot="public">
+    <compoundname>CustomExtensions::Extensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_custom_extensions_1_1_extensions_1ab3ee0be82012ad743d4a0f74114a19ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T CustomExtensions.Extensions.GetNext&lt; T &gt;</definition>
+        <argsstring>(this T src)</argsstring>
+        <name>GetNext&lt; T &gt;</name>
+        <qualifiedname>CustomExtensions.Extensions.GetNext&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this T</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>method that returns next enum type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum class object to operate on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>next enum next value</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception that is thrown if operating type isin&apos;t enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" line="17" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" bodystart="17" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_custom_extensions_1_1_extensions_1a64de7abb6d5480082289670c03fec15b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T CustomExtensions.Extensions.GetPrevious&lt; T &gt;</definition>
+        <argsstring>(this T src)</argsstring>
+        <name>GetPrevious&lt; T &gt;</name>
+        <qualifiedname>CustomExtensions.Extensions.GetPrevious&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this T</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>method that returns previous enum type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum class object to operate on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>previous enum value</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception that is thrown if operating type isin&apos;t enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" line="37" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_custom_extensions_1_1_extensions_1adc06f0029599db44ae8c812cc5123264" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CustomExtensions.Extensions.Next&lt; T &gt;</definition>
+        <argsstring>(ref this T src)</argsstring>
+        <name>Next&lt; T &gt;</name>
+        <qualifiedname>CustomExtensions.Extensions.Next&lt; T &gt;</qualifiedname>
+        <param>
+          <type>ref this T</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>method that changes variable enum type to next defined one </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum class object to operate on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception that is thrown if operating type isin&apos;t enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" line="56" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" bodystart="56" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_custom_extensions_1_1_extensions_1a124e948a4dd11391f47d9e2c321d0649" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CustomExtensions.Extensions.Previous&lt; T &gt;</definition>
+        <argsstring>(ref this T src)</argsstring>
+        <name>Previous&lt; T &gt;</name>
+        <qualifiedname>CustomExtensions.Extensions.Previous&lt; T &gt;</qualifiedname>
+        <param>
+          <type>ref this T</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>method that changes variable enum type to previous defined one </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum class object to operate on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception that is thrown if operating type isin&apos;t enum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" line="74" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" bodystart="74" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" line="6" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/Extensions.cs" bodystart="7" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_custom_extensions_1_1_extensions_1ab3ee0be82012ad743d4a0f74114a19ed" prot="public" virt="non-virtual"><scope>CustomExtensions::Extensions</scope><name>GetNext&lt; T &gt;</name></member>
+      <member refid="class_custom_extensions_1_1_extensions_1a64de7abb6d5480082289670c03fec15b" prot="public" virt="non-virtual"><scope>CustomExtensions::Extensions</scope><name>GetPrevious&lt; T &gt;</name></member>
+      <member refid="class_custom_extensions_1_1_extensions_1adc06f0029599db44ae8c812cc5123264" prot="public" virt="non-virtual"><scope>CustomExtensions::Extensions</scope><name>Next&lt; T &gt;</name></member>
+      <member refid="class_custom_extensions_1_1_extensions_1a124e948a4dd11391f47d9e2c321d0649" prot="public" virt="non-virtual"><scope>CustomExtensions::Extensions</scope><name>Previous&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::EventReferenceUpdater::TaskView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditor.IMGUI.Controls.TreeView</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1_1_asset_item" prot="private">FMODUnity::EventReferenceUpdater::TaskView::AssetItem</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1_1_task_item" prot="private">FMODUnity::EventReferenceUpdater::TaskView::TaskItem</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a0d3f757a664c9e6e99081ec1c755dc80" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Column</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.Column</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a0d3f757a664c9e6e99081ec1c755dc80a26e9054be7f40079575582b7ad3f7363" prot="public">
+          <name>Asset</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a0d3f757a664c9e6e99081ec1c755dc80aeaeb30f9f18e0c50b178676f3eaef45f" prot="public">
+          <name>Task</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a0d3f757a664c9e6e99081ec1c755dc80aec53a8c4f07baed5d8825072c89799be" prot="public">
+          <name>Status</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1953" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1954" bodyend="1958"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a8099d7dd376a949d5375fcc00943c39e" prot="private" static="no" mutable="no">
+        <type>List&lt; Task &gt;</type>
+        <definition>List&lt;Task&gt; FMODUnity.EventReferenceUpdater.TaskView.tasks</definition>
+        <argsstring></argsstring>
+        <name>tasks</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.tasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1889" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1af95996662380b7c82ffc6fac9e57fbac" prot="private" static="no" mutable="no">
+        <type>List&lt; Asset &gt;</type>
+        <definition>List&lt;Asset&gt; FMODUnity.EventReferenceUpdater.TaskView.assets</definition>
+        <argsstring></argsstring>
+        <name>assets</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.assets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1890" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a4c5a20fa3c6801df658efb6cd09ba012" prot="private" static="no" mutable="no">
+        <type>List&lt; Component &gt;</type>
+        <definition>List&lt;Component&gt; FMODUnity.EventReferenceUpdater.TaskView.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1891" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1adf70efeab9dcc44e7ebcd7abe61d63c0" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>TaskEventHandler</type>
+        <definition>TaskEventHandler FMODUnity.EventReferenceUpdater.TaskView.taskSelected</definition>
+        <argsstring></argsstring>
+        <name>taskSelected</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.taskSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1895" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1aa18c22717bd258c7d7ae27e4d725ffdd" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>TaskEventHandler</type>
+        <definition>TaskEventHandler FMODUnity.EventReferenceUpdater.TaskView.taskDoubleClicked</definition>
+        <argsstring></argsstring>
+        <name>taskDoubleClicked</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.taskDoubleClicked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1896" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a985fc02bf5c079c05cf2b056bcf1fbef" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>TaskEventHandler</type>
+        <definition>TaskEventHandler FMODUnity.EventReferenceUpdater.TaskView.taskEnableStateChanged</definition>
+        <argsstring></argsstring>
+        <name>taskEnableStateChanged</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.taskEnableStateChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1897" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a597e07472a0c5120915a72f7bc693dfc" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>AssetEventHandler</type>
+        <definition>AssetEventHandler FMODUnity.EventReferenceUpdater.TaskView.assetEnableStateChanged</definition>
+        <argsstring></argsstring>
+        <name>assetEnableStateChanged</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.assetEnableStateChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1901" column="44" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1901" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1af6cc1f57320de7fa2c258eb1234ca573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void FMODUnity.EventReferenceUpdater.TaskView.TaskEventHandler</definition>
+        <argsstring>(Task task)</argsstring>
+        <name>TaskEventHandler</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.TaskEventHandler</qualifiedname>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1893" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a55d2749cd732a2996cc059473765f6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void FMODUnity.EventReferenceUpdater.TaskView.AssetEventHandler</definition>
+        <argsstring>(Asset asset)</argsstring>
+        <name>AssetEventHandler</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.AssetEventHandler</qualifiedname>
+        <param>
+          <type>Asset</type>
+          <declname>asset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1899" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1aee2bc258ddbf013dc46f2ee05e7da103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.EventReferenceUpdater.TaskView.TaskView</definition>
+        <argsstring>(TreeViewState state, List&lt; Task &gt; tasks, List&lt; Asset &gt; assets, List&lt; Component &gt; components)</argsstring>
+        <name>TaskView</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.TaskView</qualifiedname>
+        <param>
+          <type>TreeViewState</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>List&lt; Task &gt;</type>
+          <declname>tasks</declname>
+        </param>
+        <param>
+          <type>List&lt; Asset &gt;</type>
+          <declname>assets</declname>
+        </param>
+        <param>
+          <type>List&lt; Component &gt;</type>
+          <declname>components</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1903" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1903" bodyend="1914"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a564d075612c0dbec2915b552c94b998e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventReferenceUpdater.TaskView.DrawLayout</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>DrawLayout</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.DrawLayout</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1946" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1946" bodyend="1951"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1adc03d5b872aa88fd869674391df69a2d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MultiColumnHeaderState</type>
+        <definition>static MultiColumnHeaderState FMODUnity.EventReferenceUpdater.TaskView.CreateHeaderState</definition>
+        <argsstring>()</argsstring>
+        <name>CreateHeaderState</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.CreateHeaderState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1916" column="50" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1916" bodyend="1944"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a6717765081d3dbd3e88fc1c4a3a2a153" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override TreeViewItem</type>
+        <definition>override TreeViewItem FMODUnity.EventReferenceUpdater.TaskView.BuildRoot</definition>
+        <argsstring>()</argsstring>
+        <name>BuildRoot</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.BuildRoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1970" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1970" bodyend="2015"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a3048f22b8d377d08a2f03aa0cbbe59c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.EventReferenceUpdater.TaskView.CanMultiSelect</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanMultiSelect</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.CanMultiSelect</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2017" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2017" bodyend="2020"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a78072e2e2044cfe44d65d189f01e24ed" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.EventReferenceUpdater.TaskView.SelectionChanged</definition>
+        <argsstring>(IList&lt; int &gt; selectedIds)</argsstring>
+        <name>SelectionChanged</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.SelectionChanged</qualifiedname>
+        <param>
+          <type>IList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2022" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2022" bodyend="2041"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a9877121b6aa08f7dfe9ce4cb21e0e130" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.EventReferenceUpdater.TaskView.SingleClickedItem</definition>
+        <argsstring>(int id)</argsstring>
+        <name>SingleClickedItem</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.SingleClickedItem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2043" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2043" bodyend="2055"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a33663cad274b169c11089c4f38425c55" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.EventReferenceUpdater.TaskView.DoubleClickedItem</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DoubleClickedItem</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.DoubleClickedItem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2057" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2057" bodyend="2070"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a1249c8cb388353189f73ed3990372afb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.EventReferenceUpdater.TaskView.RowGUI</definition>
+        <argsstring>(RowGUIArgs args)</argsstring>
+        <name>RowGUI</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.RowGUI</qualifiedname>
+        <param>
+          <type>RowGUIArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2072" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2072" bodyend="2112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a36bf0e3012d8067114068dd2f736002d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float FMODUnity.EventReferenceUpdater.TaskView.ToggleWidth</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleWidth</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.ToggleWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2114" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2114" bodyend="2117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a297f5cff2d265cb2fa599cf7fc8e02dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventReferenceUpdater.TaskView.AssetToggle</definition>
+        <argsstring>(Rect rect, Asset asset)</argsstring>
+        <name>AssetToggle</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.AssetToggle</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Asset</type>
+          <declname>asset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2119" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2119" bodyend="2139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a6cb09d2674f2028f0249a028cb1f55b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventReferenceUpdater.TaskView.TaskToggle</definition>
+        <argsstring>(Rect rect, Task task)</argsstring>
+        <name>TaskToggle</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.TaskToggle</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2141" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2141" bodyend="2155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a4aa842c0017d99352a9c108d13e01394" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.EventReferenceUpdater.TaskView.CellGUI</definition>
+        <argsstring>(Rect rect, Task task, int columnIndex, bool selected, bool focused)</argsstring>
+        <name>CellGUI</name>
+        <qualifiedname>FMODUnity.EventReferenceUpdater.TaskView.CellGUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>focused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="2157" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="2157" bodyend="2232"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EventReferenceUpdater.TaskView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EventReferenceUpdater.TaskView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" line="1887" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" bodystart="1888" bodyend="2233"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a597e07472a0c5120915a72f7bc693dfc" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>assetEnableStateChanged</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a55d2749cd732a2996cc059473765f6e7" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>AssetEventHandler</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1af95996662380b7c82ffc6fac9e57fbac" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>assets</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a297f5cff2d265cb2fa599cf7fc8e02dc" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>AssetToggle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a6717765081d3dbd3e88fc1c4a3a2a153" prot="protected" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>BuildRoot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a3048f22b8d377d08a2f03aa0cbbe59c3" prot="protected" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>CanMultiSelect</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a4aa842c0017d99352a9c108d13e01394" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>CellGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a0d3f757a664c9e6e99081ec1c755dc80" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>Column</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a4c5a20fa3c6801df658efb6cd09ba012" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>components</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1adc03d5b872aa88fd869674391df69a2d" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>CreateHeaderState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a33663cad274b169c11089c4f38425c55" prot="protected" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>DoubleClickedItem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a564d075612c0dbec2915b552c94b998e" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>DrawLayout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a1249c8cb388353189f73ed3990372afb" prot="protected" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>RowGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a78072e2e2044cfe44d65d189f01e24ed" prot="protected" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>SelectionChanged</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a9877121b6aa08f7dfe9ce4cb21e0e130" prot="protected" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>SingleClickedItem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1aa18c22717bd258c7d7ae27e4d725ffdd" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>taskDoubleClicked</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a985fc02bf5c079c05cf2b056bcf1fbef" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>taskEnableStateChanged</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1af6cc1f57320de7fa2c258eb1234ca573" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>TaskEventHandler</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a8099d7dd376a949d5375fcc00943c39e" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>tasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1adf70efeab9dcc44e7ebcd7abe61d63c0" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>taskSelected</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a6cb09d2674f2028f0249a028cb1f55b5" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>TaskToggle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1aee2bc258ddbf013dc46f2ee05e7da103" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>TaskView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_updater_1_1_task_view_1a36bf0e3012d8067114068dd2f736002d" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceUpdater::TaskView</scope><name>ToggleWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

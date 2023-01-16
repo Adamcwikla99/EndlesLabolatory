@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_room_position_comparer_8cs" kind="file" language="C#">
+    <compoundname>RoomPositionComparer.cs</compoundname>
+    <innerclass refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer" prot="public">Structures::Map::Room::RoomPositionComparer</innerclass>
+    <innernamespace refid="namespace_structures">Structures</innernamespace>
+    <innernamespace refid="namespace_structures_1_1_map">Structures::Map</innernamespace>
+    <innernamespace refid="namespace_structures_1_1_map_1_1_room">Structures::Map::Room</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_structures_1_1_map_1_1_room" kindref="compound">Structures.Map.Room</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer" kindref="compound">RoomPositionComparer</ref><sp/>:<sp/>IEqualityComparer&lt;CordsXY&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Public<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer_1a4d9d88a7002779948cd3fdbc3fd1d4e8" kindref="member">Equals</ref>(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref><sp/>cordA,<sp/><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref><sp/>cordB)<sp/>=&gt;<sp/>cordA.x<sp/>==<sp/>cordB.x<sp/>&amp;&amp;<sp/>cordA.y<sp/>==<sp/>cordB.<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y_1af9a10264bdba9ea169ac78f2831a38af" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_structures_1_1_map_1_1_room_1_1_room_position_comparer_1aaccc3df3b5c3e0151ef05c965950d104" kindref="member">GetHashCode</ref>(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref><sp/>obj)<sp/>=&gt;<sp/>obj.<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y_1a19e580f29d3f88365747836cf8dc6615" kindref="member">x</ref>.GetHashCode()<sp/>^<sp/>obj.<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y_1af9a10264bdba9ea169ac78f2831a38af" kindref="member">y</ref>.GetHashCode();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomPositionComparer.cs"/>
+  </compounddef>
+</doxygen>

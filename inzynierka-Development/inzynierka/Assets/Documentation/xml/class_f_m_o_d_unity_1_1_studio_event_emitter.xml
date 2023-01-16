@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_studio_event_emitter" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::StudioEventEmitter</compoundname>
+    <basecompoundref refid="class_f_m_o_d_unity_1_1_event_handler" prot="public" virt="non-virtual">FMODUnity.EventHandler</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa9e4dd10b0d1da6ce54d853a5e2ef308" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+        <definition>EventReference FMODUnity.StudioEventEmitter.EventReference</definition>
+        <argsstring></argsstring>
+        <name>EventReference</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.EventReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="11" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a90439faf3c0c0ce0cf9b5e7742ecd01b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.StudioEventEmitter.Event</definition>
+        <argsstring></argsstring>
+        <name>Event</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Event</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="14" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a3009052e43b8b976876f203723399da2" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1af5bcab54435cf76c79c62c6379965cc4" kindref="member">EmitterGameEvent</ref></type>
+        <definition>EmitterGameEvent FMODUnity.StudioEventEmitter.PlayEvent</definition>
+        <argsstring></argsstring>
+        <name>PlayEvent</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.PlayEvent</qualifiedname>
+        <initializer>= <ref refid="namespace_f_m_o_d_unity_1af5bcab54435cf76c79c62c6379965cc4a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">EmitterGameEvent.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="16" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a1972a527ebc1587ed36673919179508d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1af5bcab54435cf76c79c62c6379965cc4" kindref="member">EmitterGameEvent</ref></type>
+        <definition>EmitterGameEvent FMODUnity.StudioEventEmitter.StopEvent</definition>
+        <argsstring></argsstring>
+        <name>StopEvent</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.StopEvent</qualifiedname>
+        <initializer>= <ref refid="namespace_f_m_o_d_unity_1af5bcab54435cf76c79c62c6379965cc4a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">EmitterGameEvent.None</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="17" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a6e43ccce33f756834dd9816cd30526fd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.AllowFadeout</definition>
+        <argsstring></argsstring>
+        <name>AllowFadeout</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.AllowFadeout</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="18" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a750cd4714dc9ad6dfb951c572d82f383" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.TriggerOnce</definition>
+        <argsstring></argsstring>
+        <name>TriggerOnce</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.TriggerOnce</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="19" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a2138395b8b76e1aebb26136e645adc1e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.Preload</definition>
+        <argsstring></argsstring>
+        <name>Preload</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Preload</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="20" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a136dfd8f29e1016fd8c03e700d50fe09" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_param_ref" kindref="compound">ParamRef</ref>[]</type>
+        <definition>ParamRef [] FMODUnity.StudioEventEmitter.Params</definition>
+        <argsstring></argsstring>
+        <name>Params</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Params</qualifiedname>
+        <initializer>= new <ref refid="class_f_m_o_d_unity_1_1_param_ref" kindref="compound">ParamRef</ref>[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="21" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a9066b86be72bf972386ec07474d221ef" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.OverrideAttenuation</definition>
+        <argsstring></argsstring>
+        <name>OverrideAttenuation</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.OverrideAttenuation</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="22" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a049038c2dd77b2ad54da0e14a1b03d19" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.StudioEventEmitter.OverrideMinDistance</definition>
+        <argsstring></argsstring>
+        <name>OverrideMinDistance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.OverrideMinDistance</qualifiedname>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="23" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a9a39986aa804e1c0d11cf627aea86ebc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.StudioEventEmitter.OverrideMaxDistance</definition>
+        <argsstring></argsstring>
+        <name>OverrideMaxDistance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.OverrideMaxDistance</qualifiedname>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="24" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1ac16db73d7edb456318e34767b76e6f94" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref></type>
+        <definition>FMOD.Studio.EventDescription FMODUnity.StudioEventEmitter.eventDescription</definition>
+        <argsstring></argsstring>
+        <name>eventDescription</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.eventDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="26" column="46" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1af8fda20eb8f79e8f5be9ad0e5f964e8f" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+        <definition>FMOD.Studio.EventInstance FMODUnity.StudioEventEmitter.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="28" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a9d4fc0d03d62eb868a9c9c395bc77334" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.hasTriggered</definition>
+        <argsstring></argsstring>
+        <name>hasTriggered</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.hasTriggered</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="30" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a28ab220b2ded11e5e7b0ba34934cbf21" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.isQuitting</definition>
+        <argsstring></argsstring>
+        <name>isQuitting</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.isQuitting</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="31" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a142200e70a2b4b038aca9de909202237" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.isOneshot</definition>
+        <argsstring></argsstring>
+        <name>isOneshot</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.isOneshot</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="32" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa051695dc906986b02d47250917ec372" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_param_ref" kindref="compound">ParamRef</ref> &gt;</type>
+        <definition>List&lt;ParamRef&gt; FMODUnity.StudioEventEmitter.cachedParams</definition>
+        <argsstring></argsstring>
+        <name>cachedParams</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.cachedParams</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_f_m_o_d_unity_1_1_param_ref" kindref="compound">ParamRef</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a21189b379c96e3172531405bd4b36770" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref> &gt;</type>
+        <definition>List&lt;StudioEventEmitter&gt; FMODUnity.StudioEventEmitter.activeEmitters</definition>
+        <argsstring></argsstring>
+        <name>activeEmitters</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.activeEmitters</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="35" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a0d9cbbab52219734b35ea2bde3c5f7fc" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.StudioEventEmitter.SnapshotString</definition>
+        <argsstring></argsstring>
+        <name>SnapshotString</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.SnapshotString</qualifiedname>
+        <initializer>= &quot;snapshot&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="37" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa397e9b422868e327997fb731efec516" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">FMOD.Studio.EventDescription</ref></type>
+        <definition>FMOD.Studio.EventDescription FMODUnity.StudioEventEmitter.EventDescription</definition>
+        <argsstring></argsstring>
+        <name>EventDescription</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.EventDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="39" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1af45845967bab70dc2249626ce714e660" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_event_instance" kindref="compound">FMOD.Studio.EventInstance</ref></type>
+        <definition>FMOD.Studio.EventInstance FMODUnity.StudioEventEmitter.EventInstance</definition>
+        <argsstring></argsstring>
+        <name>EventInstance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.EventInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="41" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a0e08951e473a54c054683c35ad2dc530" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.IsActive</definition>
+        <argsstring></argsstring>
+        <name>IsActive</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.IsActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="43" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a5df91cd45578b374bb4fb8d078252270" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float FMODUnity.StudioEventEmitter.MaxDistance</definition>
+        <argsstring></argsstring>
+        <name>MaxDistance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.MaxDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="45" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="46" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1acf709e0fa249caaf0962fb95b3439878" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.StudioEventEmitter.UpdateActiveEmitters</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateActiveEmitters</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.UpdateActiveEmitters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="65" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="65" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a19d359d27cc658f90c099745c685a423" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.StudioEventEmitter.RegisterActiveEmitter</definition>
+        <argsstring>(StudioEventEmitter emitter)</argsstring>
+        <name>RegisterActiveEmitter</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.RegisterActiveEmitter</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="73" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a107e2b86189646626793b6a2c019fd01" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.StudioEventEmitter.DeregisterActiveEmitter</definition>
+        <argsstring>(StudioEventEmitter emitter)</argsstring>
+        <name>DeregisterActiveEmitter</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.DeregisterActiveEmitter</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="81" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1abde23f6699e35a2b8cbafa5d62081300" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.UpdatePlayingStatus</definition>
+        <argsstring>(bool force=false)</argsstring>
+        <name>UpdatePlayingStatus</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.UpdatePlayingStatus</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="86" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="86" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a0261b565a9f3ce73f560414a12bba7f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.OnApplicationQuit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="116" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1aedb686d53781d882f5b5e3160a0c62a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.Lookup</definition>
+        <argsstring>()</argsstring>
+        <name>Lookup</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Lookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="158" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="158" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1abbd88b17a4145c2e483ffa706c859405" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.PlayInstance</definition>
+        <argsstring>()</argsstring>
+        <name>PlayInstance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.PlayInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="216" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="216" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1adbe8d6011d39c4eea25348b256535ce0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.StopInstance</definition>
+        <argsstring>()</argsstring>
+        <name>StopInstance</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.StopInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="295" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="295" bodyend="308"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1ad3b8f2c1eb01d002897bb3c8b762241a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.StudioEventEmitter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Start</qualifiedname>
+        <reimplements refid="class_f_m_o_d_unity_1_1_event_handler_1ab2c1f0548da3b521f2ca742081c672c7">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="104" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="104" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1aec3d9c72321943a2b5fb8f3f0faec7e0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.StudioEventEmitter.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.OnDestroy</qualifiedname>
+        <reimplements refid="class_f_m_o_d_unity_1_1_event_handler_1a17e5ec02fdd65807fb14f3e473ef091b">OnDestroy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="121" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="121" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a450f7969f649a748ab064bbbf0f9ddbd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.StudioEventEmitter.HandleGameEvent</definition>
+        <argsstring>(EmitterGameEvent gameEvent)</argsstring>
+        <name>HandleGameEvent</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.HandleGameEvent</qualifiedname>
+        <reimplements refid="class_f_m_o_d_unity_1_1_event_handler_1a31916abb657cb0fd97b0516a3f98425c">HandleGameEvent</reimplements>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1af5bcab54435cf76c79c62c6379965cc4" kindref="member">EmitterGameEvent</ref></type>
+          <declname>gameEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="146" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="146" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a85d6f21422bd3c4bf29f448ec0f4a1df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.Play</definition>
+        <argsstring>()</argsstring>
+        <name>Play</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Play</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="173" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="173" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a2663bd2f2e9443dcdf49b1c1486bf71b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.Stop</definition>
+        <argsstring>()</argsstring>
+        <name>Stop</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.Stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="287" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="287" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a492170728df8303788abe46571ae2f19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.SetParameter</definition>
+        <argsstring>(string name, float value, bool ignoreseekspeed=false)</argsstring>
+        <name>SetParameter</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.SetParameter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="310" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="310" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa87a1dd5c8f082766e1281ecb60b81a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioEventEmitter.SetParameter</definition>
+        <argsstring>(FMOD.Studio.PARAMETER_ID id, float value, bool ignoreseekspeed=false)</argsstring>
+        <name>SetParameter</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.SetParameter</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">FMOD.Studio.PARAMETER_ID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreseekspeed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="337" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="337" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_event_emitter_1a5112fd41add0114f12151e37cb4f6f63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioEventEmitter.IsPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>IsPlaying</name>
+        <qualifiedname>FMODUnity.StudioEventEmitter.IsPlaying</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="364" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="364" bodyend="373"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EventHandler</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_handler"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FMODUnity.StudioEventEmitter</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_event_emitter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EventHandler</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_handler"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FMODUnity.StudioEventEmitter</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_event_emitter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>EventReference</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Params</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FMODUnity.EventReference</label>
+        <link refid="struct_f_m_o_d_unity_1_1_event_reference"/>
+      </node>
+      <node id="5">
+        <label>FMODUnity.ParamRef</label>
+        <link refid="class_f_m_o_d_unity_1_1_param_ref"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioEventEmitter.cs" bodystart="10" bodyend="374"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a21189b379c96e3172531405bd4b36770" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>activeEmitters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a6e43ccce33f756834dd9816cd30526fd" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>AllowFadeout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa051695dc906986b02d47250917ec372" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>cachedParams</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_handler_1a111bb91dcf4d78ed90b6b099268c6fa3" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>CollisionTag</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a107e2b86189646626793b6a2c019fd01" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>DeregisterActiveEmitter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a90439faf3c0c0ce0cf9b5e7742ecd01b" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Event</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1ac16db73d7edb456318e34767b76e6f94" prot="protected" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>eventDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa397e9b422868e327997fb731efec516" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>EventDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1af45845967bab70dc2249626ce714e660" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>EventInstance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa9e4dd10b0d1da6ce54d853a5e2ef308" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>EventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a450f7969f649a748ab064bbbf0f9ddbd" prot="protected" virt="virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>HandleGameEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a9d4fc0d03d62eb868a9c9c395bc77334" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>hasTriggered</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1af8fda20eb8f79e8f5be9ad0e5f964e8f" prot="protected" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a0e08951e473a54c054683c35ad2dc530" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>IsActive</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a142200e70a2b4b038aca9de909202237" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>isOneshot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a5112fd41add0114f12151e37cb4f6f63" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>IsPlaying</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a28ab220b2ded11e5e7b0ba34934cbf21" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>isQuitting</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1aedb686d53781d882f5b5e3160a0c62a8" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Lookup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a5df91cd45578b374bb4fb8d078252270" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>MaxDistance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a0261b565a9f3ce73f560414a12bba7f0" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>OnApplicationQuit</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1aec3d9c72321943a2b5fb8f3f0faec7e0" prot="protected" virt="virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>OnDestroy</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a9066b86be72bf972386ec07474d221ef" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>OverrideAttenuation</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a9a39986aa804e1c0d11cf627aea86ebc" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>OverrideMaxDistance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a049038c2dd77b2ad54da0e14a1b03d19" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>OverrideMinDistance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a136dfd8f29e1016fd8c03e700d50fe09" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Params</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a85d6f21422bd3c4bf29f448ec0f4a1df" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Play</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a3009052e43b8b976876f203723399da2" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>PlayEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1abbd88b17a4145c2e483ffa706c859405" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>PlayInstance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a2138395b8b76e1aebb26136e645adc1e" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Preload</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a19d359d27cc658f90c099745c685a423" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>RegisterActiveEmitter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a492170728df8303788abe46571ae2f19" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>SetParameter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1aa87a1dd5c8f082766e1281ecb60b81a6" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>SetParameter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a0d9cbbab52219734b35ea2bde3c5f7fc" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>SnapshotString</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1ad3b8f2c1eb01d002897bb3c8b762241a" prot="protected" virt="virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Start</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a2663bd2f2e9443dcdf49b1c1486bf71b" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>Stop</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a1972a527ebc1587ed36673919179508d" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>StopEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1adbe8d6011d39c4eea25348b256535ce0" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>StopInstance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1a750cd4714dc9ad6dfb951c572d82f383" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>TriggerOnce</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1acf709e0fa249caaf0962fb95b3439878" prot="public" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>UpdateActiveEmitters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_event_emitter_1abde23f6699e35a2b8cbafa5d62081300" prot="private" virt="non-virtual"><scope>FMODUnity::StudioEventEmitter</scope><name>UpdatePlayingStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

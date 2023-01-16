@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_create_event_popup" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::CreateEventPopup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_create_event_popup_1_1_bank_entry" prot="private">FMODUnity::CreateEventPopup::BankEntry</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_create_event_popup_1_1_folder_entry" prot="private">FMODUnity::CreateEventPopup::FolderEntry</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1aa1251c6fa2ce1b883fb6783e9eeff408" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty FMODUnity.CreateEventPopup.outputProperty</definition>
+        <argsstring></argsstring>
+        <name>outputProperty</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.outputProperty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="20" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1a146fefa28af052b657df9e0ed7b7f9eb" prot="private" static="no" mutable="no">
+        <type>FolderEntry</type>
+        <definition>FolderEntry FMODUnity.CreateEventPopup.rootFolder</definition>
+        <argsstring></argsstring>
+        <name>rootFolder</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.rootFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="22" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1aa5093d12a6343e8225c642ef638a006a" prot="private" static="no" mutable="no">
+        <type>FolderEntry</type>
+        <definition>FolderEntry FMODUnity.CreateEventPopup.currentFolder</definition>
+        <argsstring></argsstring>
+        <name>currentFolder</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.currentFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="23" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1a294f21830e1ca7e1359806ed54f97602" prot="private" static="no" mutable="no">
+        <type>List&lt; BankEntry &gt;</type>
+        <definition>List&lt;BankEntry&gt; FMODUnity.CreateEventPopup.banks</definition>
+        <argsstring></argsstring>
+        <name>banks</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.banks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="24" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1a667fb95026bbbc95f9a66c56f7158d7a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.CreateEventPopup.lastHover</definition>
+        <argsstring></argsstring>
+        <name>lastHover</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.lastHover</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="26" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1a744a550a99c755a22d5263220aa270c3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.CreateEventPopup.eventFolder</definition>
+        <argsstring></argsstring>
+        <name>eventFolder</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.eventFolder</qualifiedname>
+        <initializer>= &quot;/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="27" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1ad39605377513deca302b3808947fc5ee" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.CreateEventPopup.eventName</definition>
+        <argsstring></argsstring>
+        <name>eventName</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.eventName</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="28" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1a398670ba9e9258ff5a81b039ed188e27" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.CreateEventPopup.currentFilter</definition>
+        <argsstring></argsstring>
+        <name>currentFilter</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.currentFilter</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="29" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1aec075c566e5c98db7c650780b57e84c8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.CreateEventPopup.selectedBank</definition>
+        <argsstring></argsstring>
+        <name>selectedBank</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.selectedBank</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="30" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1a00f58fc8ba070d02efaecf9e955c1b6f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.CreateEventPopup.resetCursor</definition>
+        <argsstring></argsstring>
+        <name>resetCursor</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.resetCursor</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="31" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1acde3c67ffc8330516df54e0600614158" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FMODUnity.CreateEventPopup.scrollPos</definition>
+        <argsstring></argsstring>
+        <name>scrollPos</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.scrollPos</qualifiedname>
+        <initializer>= new Vector2()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="32" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1ae827048f1f168ea762db7699c2f5d456" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect FMODUnity.CreateEventPopup.scrollRect</definition>
+        <argsstring></argsstring>
+        <name>scrollRect</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.scrollRect</qualifiedname>
+        <initializer>= new Rect()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_create_event_popup_1ab6c1f6f88ac5bd9bf39701a75939dbad" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.CreateEventPopup.isConnected</definition>
+        <argsstring></argsstring>
+        <name>isConnected</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.isConnected</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1af884c19744b50912c4cb76e18a003ea9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.SelectEvent</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>SelectEvent</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.SelectEvent</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="36" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1ae5f66b8ea0f5d926b3e8753f51b24f47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.CreateEventPopup.CreateEventPopup</definition>
+        <argsstring>()</argsstring>
+        <name>CreateEventPopup</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.CreateEventPopup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="47" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1a5ad22bb0a73482048a04ddefaa399722" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="127" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="127" bodyend="338"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1a7a38a083ba5ffbec6fd4ac45f6a72d5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.BuildTree</definition>
+        <argsstring>()</argsstring>
+        <name>BuildTree</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.BuildTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="51" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="51" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1a7e75c0dc08a6ac522374881b4d248e50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.BuildTreeItem</definition>
+        <argsstring>(FolderEntry entry)</argsstring>
+        <name>BuildTreeItem</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.BuildTreeItem</qualifiedname>
+        <param>
+          <type>FolderEntry</type>
+          <declname>entry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="88" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="88" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1a89ed0adad3101c937723144fcc729cd6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.CreateEventInStudio</definition>
+        <argsstring>()</argsstring>
+        <name>CreateEventInStudio</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.CreateEventInStudio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="340" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="340" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1a2255fe2dc7c6c791801261dbffe44bf5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.UpdateListFromText</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateListFromText</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.UpdateListFromText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="361" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="361" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_create_event_popup_1ab20f192a1b45147ad76bfbbec02b504b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.CreateEventPopup.UpdateTextFromList</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTextFromList</name>
+        <qualifiedname>FMODUnity.CreateEventPopup.UpdateTextFromList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="387" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="387" bodyend="400"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.CreateEventPopup</label>
+        <link refid="class_f_m_o_d_unity_1_1_create_event_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.CreateEventPopup</label>
+        <link refid="class_f_m_o_d_unity_1_1_create_event_popup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs" bodystart="10" bodyend="401"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a294f21830e1ca7e1359806ed54f97602" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>banks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a7a38a083ba5ffbec6fd4ac45f6a72d5a" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>BuildTree</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a7e75c0dc08a6ac522374881b4d248e50" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>BuildTreeItem</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a89ed0adad3101c937723144fcc729cd6" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>CreateEventInStudio</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1ae5f66b8ea0f5d926b3e8753f51b24f47" prot="public" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>CreateEventPopup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a398670ba9e9258ff5a81b039ed188e27" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>currentFilter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1aa5093d12a6343e8225c642ef638a006a" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>currentFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a744a550a99c755a22d5263220aa270c3" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>eventFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1ad39605377513deca302b3808947fc5ee" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>eventName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1ab6c1f6f88ac5bd9bf39701a75939dbad" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>isConnected</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a667fb95026bbbc95f9a66c56f7158d7a" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>lastHover</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a5ad22bb0a73482048a04ddefaa399722" prot="public" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1aa1251c6fa2ce1b883fb6783e9eeff408" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>outputProperty</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a00f58fc8ba070d02efaecf9e955c1b6f" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>resetCursor</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a146fefa28af052b657df9e0ed7b7f9eb" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>rootFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1acde3c67ffc8330516df54e0600614158" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>scrollPos</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1ae827048f1f168ea762db7699c2f5d456" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>scrollRect</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1aec075c566e5c98db7c650780b57e84c8" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>selectedBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1af884c19744b50912c4cb76e18a003ea9" prot="package" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>SelectEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1a2255fe2dc7c6c791801261dbffe44bf5" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>UpdateListFromText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_create_event_popup_1ab20f192a1b45147ad76bfbbec02b504b" prot="private" virt="non-virtual"><scope>FMODUnity::CreateEventPopup</scope><name>UpdateTextFromList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_room_entity" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::RoomEntity</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_room_content" prot="public" virt="non-virtual">Room.RoomContent.RoomContent</basecompoundref>
+    <basecompoundref refid="interface_interface_1_1_i_damage" prot="public" virt="non-virtual">Interface.IDamage</basecompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Boss.BossEnemy</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.BaseEnemy</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.TuretEnemy.TurretController</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_room_entity_1a9e64de867282ef85f4824d55e0221d72" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.RoomEntity.ParticleDamageToEntity</definition>
+        <argsstring></argsstring>
+        <name>ParticleDamageToEntity</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.ParticleDamageToEntity</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="18" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_room_entity_1a0556d5cc43c80c51d9151cb43d105b2a" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_game_1_1_enemy_floor_boost" kindref="compound">EnemyFloorBoost</ref></type>
+        <definition>EnemyFloorBoost Room.RoomContent.RoomEntity.ManageEnemyFloorBoost</definition>
+        <argsstring></argsstring>
+        <name>ManageEnemyFloorBoost</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.ManageEnemyFloorBoost</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="21" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_room_entity_1ab5d92d691ba438ca35eaefb7eb6fdc75" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_game_1_1_game_score" kindref="compound">GameScore</ref></type>
+        <definition>GameScore Room.RoomContent.RoomEntity.PlayerGameScore</definition>
+        <argsstring></argsstring>
+        <name>PlayerGameScore</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.PlayerGameScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="24" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_room_entity_1ac08e08b9f2d0abf74d057df066378411" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_sound_1_1_enemy_fired" kindref="compound">EnemyFired</ref></type>
+        <definition>EnemyFired Room.RoomContent.RoomEntity.EnemyFireEffect</definition>
+        <argsstring></argsstring>
+        <name>EnemyFireEffect</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.EnemyFireEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_room_entity_1a42b10f3ed57b973fa61e952fa899489d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_content_attack_stats" kindref="compound">ContentAttackStats</ref></type>
+        <definition>ContentAttackStats Room.RoomContent.RoomEntity.attackStats</definition>
+        <argsstring></argsstring>
+        <name>attackStats</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.attackStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="32" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_room_entity_1aabf9bd55f806fb4f9c4f4392815008ad" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_room_entity" kindref="compound">RoomEntity</ref></type>
+        <definition>RoomEntity Room.RoomContent.RoomEntity.thisEntity</definition>
+        <argsstring></argsstring>
+        <name>thisEntity</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.thisEntity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_room_entity_1a9214eadfaf1bb8314f823aeb48d7a685" prot="protected" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Room.RoomContent.RoomEntity.MAX_OUTLINE_INTENSITY</definition>
+        <argsstring></argsstring>
+        <name>MAX_OUTLINE_INTENSITY</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.MAX_OUTLINE_INTENSITY</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="34" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1aa1d8bd2e6f53474a9dff7567789b2d14" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.RoomEntity.OnParticleCollision</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnParticleCollision</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.OnParticleCollision</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="39" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1ae49912e05be502f3dba0be7c169e076f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.RoomEntity.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.Init</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb">Init</reimplements>
+        <briefdescription>
+<para>methode that initializes room entity state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="50" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1aef2cd228553451d3ea68d4822435c773" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.RoomEntity.CheckIfSurvived</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>CheckIfSurvived</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.CheckIfSurvived</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if entity survived taking damage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="79" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="79" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1a72a67a0a26debe72da4d405e345c6c52" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.RoomEntity.SpawnReword</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnReword</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.SpawnReword</qualifiedname>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1af58ad2e3f3a0a413690697714f4b7b81">SpawnReword</reimplementedby>
+        <briefdescription>
+<para>methode that spawns reward for deafiting room entity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="97" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1a921f49eea752ae2cb273389f1b5df561" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.RoomEntity.AdjustOutline</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustOutline</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.AdjustOutline</qualifiedname>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1a42514bf5cd91b4ad0bad581fc92a9891">AdjustOutline</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller_1aef6d667ca716d4a4ee0801ac5d95b096">AdjustOutline</reimplementedby>
+        <briefdescription>
+<para>methode that adjusts material outline visibility </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="105" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1a9d550812ee21d42223c688816b18aeb2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Room.RoomContent.RoomEntity.CalculateNewOutlineIntensity</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateNewOutlineIntensity</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.CalculateNewOutlineIntensity</qualifiedname>
+        <briefdescription>
+<para>methode that calculates new outline intensity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="110" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1a8e0d6b9c25ed1e5d0a9e25cdeef49a04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.RoomEntity.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.TakeDamage</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2">TakeDamage</reimplements>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1a97de17a80c82435429920de53c3d8f1f">TakeDamage</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that applies damage to room entity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="60" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="60" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1ad238587b7ea142435d12b499852f89c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.RoomEntity.PlayDesolveAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayDesolveAnimation</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.PlayDesolveAnimation</qualifiedname>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1ab6615154ae06212f19ce179f11f11961">PlayDesolveAnimation</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a2dafad549fdf5fa94aa4b0b61c02a62a">PlayDesolveAnimation</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller_1ab602ef6980b94dbfb327650465dc3768">PlayDesolveAnimation</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1a275c15428e24b3f78dd9582619e90e40">PlayDesolveAnimation</reimplementedby>
+        <briefdescription>
+<para>methode that plays desolve animation if desolve material was added </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="74" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_entity_1a5a1ded33ae92823ffc39c587a8c69613" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Room.RoomContent.RoomEntity.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Room.RoomContent.RoomEntity.DeflectProjectile</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419">DeflectProjectile</reimplements>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller_1a286077ff3e6fe355b33a2c276e26543c">DeflectProjectile</reimplementedby>
+        <briefdescription>
+<para>methode that determins if object can deflect projectiles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="121" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements room entity logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_room_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomContent.Enemys.Normal.BaseEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_room_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.EnemyRoomController</label>
+        <link refid="class_room_1_1_enemy_room_controller"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Room.RoomContent.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_room_entity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Structures.ContentAttackStats</label>
+        <link refid="class_structures_1_1_content_attack_stats"/>
+      </node>
+      <node id="4">
+        <label>Structures.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" line="13" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomEntity.cs" bodystart="14" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a921f49eea752ae2cb273389f1b5df561" prot="protected" virt="virtual"><scope>Room::RoomContent::RoomEntity</scope><name>AdjustOutline</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a42b10f3ed57b973fa61e952fa899489d" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>attackStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a9d550812ee21d42223c688816b18aeb2" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>CalculateNewOutlineIntensity</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1aef2cd228553451d3ea68d4822435c773" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>CheckIfSurvived</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a5a1ded33ae92823ffc39c587a8c69613" prot="public" virt="virtual"><scope>Room::RoomContent::RoomEntity</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1ac08e08b9f2d0abf74d057df066378411" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1ae49912e05be502f3dba0be7c169e076f" prot="protected" virt="virtual"><scope>Room::RoomContent::RoomEntity</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a0556d5cc43c80c51d9151cb43d105b2a" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>ManageEnemyFloorBoost</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a9214eadfaf1bb8314f823aeb48d7a685" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>MAX_OUTLINE_INTENSITY</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1aa1d8bd2e6f53474a9dff7567789b2d14" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>OnParticleCollision</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a9e64de867282ef85f4824d55e0221d72" prot="private" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>ParticleDamageToEntity</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1ad238587b7ea142435d12b499852f89c6" prot="public" virt="virtual"><scope>Room::RoomContent::RoomEntity</scope><name>PlayDesolveAnimation</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1ab5d92d691ba438ca35eaefb7eb6fdc75" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>PlayerGameScore</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a72a67a0a26debe72da4d405e345c6c52" prot="protected" virt="virtual"><scope>Room::RoomContent::RoomEntity</scope><name>SpawnReword</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1a8e0d6b9c25ed1e5d0a9e25cdeef49a04" prot="public" virt="virtual"><scope>Room::RoomContent::RoomEntity</scope><name>TakeDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_entity_1aabf9bd55f806fb4f9c4f4392815008ad" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomEntity</scope><name>thisEntity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

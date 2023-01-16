@@ -1,0 +1,1181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_setup_wizard_window" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::SetupWizardWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1_1_update_task" prot="private">FMODUnity::SetupWizardWindow::UpdateTask</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640" prot="private" static="no" strong="yes">
+        <type>int</type>
+        <name>PAGES</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.PAGES</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a83218ac34c1834c26781fe4bde918ee4" prot="private">
+          <name>Welcome</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a6909beea5b50605780e3411f879fe916" prot="private">
+          <name>Updating</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a4f092927564ff7e51dfb99422375272a" prot="private">
+          <name>Linking</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a0c951aa4243e1a1cc407704d21596b89" prot="private">
+          <name>Listener</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a920274e08daa9212c9a8c7f67f32042d" prot="private">
+          <name>UnityAudio</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a27bce698043af26d894c73e7adcf1809" prot="private">
+          <name>UnitySources</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a2c476631489fbff611b404a2f1e8499c" prot="private">
+          <name>SourceControl</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a87557f11575c0ad78e4e28abedc13b6e" prot="private">
+          <name>End</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640a6a061313d22e51e0f25b7cd4dc065233" prot="private">
+          <name>Max</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="111" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="112" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>UpdateTaskType</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.UpdateTaskType</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560ae289dfd4990ba560865167b24ad93b03" prot="public">
+          <name>ReorganizePluginFiles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560ac1777f02cab7bd1f568c5d0599880aee" prot="public">
+          <name>UpdateEventReferences</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="124" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1abfd682d72bccc3f7489f48bdf44a1295" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_setup_wizard_window" kindref="compound">SetupWizardWindow</ref></type>
+        <definition>SetupWizardWindow FMODUnity.SetupWizardWindow.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="14" column="42" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a352feeaa3d5356efa588bc90f7044ae2" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; string &gt;</type>
+        <definition>readonly List&lt;string&gt; FMODUnity.SetupWizardWindow.pageNames</definition>
+        <argsstring></argsstring>
+        <name>pageNames</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.pageNames</qualifiedname>
+        <initializer>= new List&lt;string&gt;
+        {
+            &quot;Welcome&quot;,
+            &quot;Updating&quot;,
+            &quot;Linking&quot;,
+            &quot;Listener&quot;,
+            &quot;Unity Audio&quot;,
+            &quot;Unity Sources&quot;,
+            &quot;Source Control&quot;,
+            &quot;End&quot;
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="16" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a67f864d926d5877ee13bdc89f99c2399" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; bool &gt;</type>
+        <definition>readonly List&lt;bool&gt; FMODUnity.SetupWizardWindow.pageComplete</definition>
+        <argsstring></argsstring>
+        <name>pageComplete</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.pageComplete</qualifiedname>
+        <initializer>= new List&lt;bool&gt;(new bool[(int)PAGES.Max])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="28" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a9175aaee6be70762cfa69270f0bc6cff" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; UpdateTask &gt;</type>
+        <definition>readonly List&lt;UpdateTask&gt; FMODUnity.SetupWizardWindow.updateTasks</definition>
+        <argsstring></argsstring>
+        <name>updateTasks</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.updateTasks</qualifiedname>
+        <initializer>= new List&lt;UpdateTask&gt;() {
+            UpdateTask.Create(
+                type: <ref refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560ae289dfd4990ba560865167b24ad93b03" kindref="member">UpdateTaskType.ReorganizePluginFiles</ref>,
+                name: &quot;Reorganize Plugin Files&quot;,
+                description: &quot;Move FMOD for Unity files to match the latest layout.&quot;,
+                execute: <ref refid="class_f_m_o_d_unity_1_1_file_reorganizer_1aa8b2c060a5c3214a5a4b278b173835b7" kindref="member">FileReorganizer.ShowWindow</ref>,
+                checkComplete: <ref refid="class_f_m_o_d_unity_1_1_file_reorganizer_1a02fb880e3d2235d77ad6974fcfc8714f" kindref="member">FileReorganizer.IsUpToDate</ref>
+            ),
+            UpdateTask.Create(
+                type: <ref refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560ac1777f02cab7bd1f568c5d0599880aee" kindref="member">UpdateTaskType.UpdateEventReferences</ref>,
+                name: &quot;Update Event References&quot;,
+                description: &quot;Find event references that use the obsolete [EventRef] attribute &quot; +
+                    &quot;and update them to use the <ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref> type.&quot;,
+                execute: <ref refid="class_f_m_o_d_unity_1_1_event_reference_updater_1ab1c84b45959cd00f9e86c4e71534ea89" kindref="member">EventReferenceUpdater.ShowWindow</ref>,
+                checkComplete: <ref refid="class_f_m_o_d_unity_1_1_event_reference_updater_1ae55eb8567d9487a15dd75de9771693f2" kindref="member">EventReferenceUpdater.IsUpToDate</ref>
+            ),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="30" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a40cad1c9648668e08d323ee3176a934b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.SetupWizardWindow.updateTaskStatusChecked</definition>
+        <argsstring></argsstring>
+        <name>updateTaskStatusChecked</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.updateTaskStatusChecked</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="48" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a5c584d4a539a3b679ab3a10f163497e4" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.SetupWizardWindow.logoBlack</definition>
+        <argsstring></argsstring>
+        <name>logoBlack</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.logoBlack</qualifiedname>
+        <initializer>= &quot;FMODLogoBlack.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="73" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a1d3ef39eaa25b806afdf550f9e399d13" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.SetupWizardWindow.logoWhite</definition>
+        <argsstring></argsstring>
+        <name>logoWhite</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.logoWhite</qualifiedname>
+        <initializer>= &quot;FMODLogoWhite.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="74" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0e4b475f979940549c5170ffa5292db4" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.SetupWizardWindow.backButtonText</definition>
+        <argsstring></argsstring>
+        <name>backButtonText</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.backButtonText</qualifiedname>
+        <initializer>= &quot;Back&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="81" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ae234e6bfbfdf7e02fd584e5344741f9d" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step" kindref="compound">StagingSystem.UpdateStep</ref></type>
+        <definition>StagingSystem.UpdateStep FMODUnity.SetupWizardWindow.nextStagingStep</definition>
+        <argsstring></argsstring>
+        <name>nextStagingStep</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.nextStagingStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="88" column="48" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a74c1d83b7f5264e4ecb8553ecd04bc7f" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.SetupWizardWindow.IgnoreFileText</definition>
+        <argsstring></argsstring>
+        <name>IgnoreFileText</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.IgnoreFileText</qualifiedname>
+        <initializer>=
+@&quot;# Never ignore DLLs in the FMOD subfolder.
+!/[Aa]<ref refid="_editor_utils_8cs_1a532e6f1a83323d9ffe532ab120aaed8a" kindref="member">ssets</ref>/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/FMOD/**/<ref refid="_editor_utils_8cs_1a638f1da968a86a660d9b9a88c7586a9a" kindref="member">lib</ref>/*
+
+# Don&apos;t ignore images and gizmos used by FMOD in the Unity Editor.
+!/[Aa]<ref refid="_editor_utils_8cs_1a532e6f1a83323d9ffe532ab120aaed8a" kindref="member">ssets</ref>/Gizmos/FMOD/*
+!/[Aa]<ref refid="_editor_utils_8cs_1a532e6f1a83323d9ffe532ab120aaed8a" kindref="member">ssets</ref>/Editor Default Resources/FMOD/*
+                    
+# Ignore the Cache folder since it is updated locally.
+/[Aa]<ref refid="_editor_utils_8cs_1a532e6f1a83323d9ffe532ab120aaed8a" kindref="member">ssets</ref>/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/FMOD/Cache/*
+                    
+# Ignore bank files in the <ref refid="namespace_f_m_o_d_unity_1a9edfbf0a348cc29d7a6c5121404ab960a0b38d14680695e16fe6e41b1959921d0" kindref="member">StreamingAssets</ref> folder.
+/[Aa]<ref refid="_editor_utils_8cs_1a532e6f1a83323d9ffe532ab120aaed8a" kindref="member">ssets</ref>/<ref refid="namespace_f_m_o_d_unity_1a9edfbf0a348cc29d7a6c5121404ab960a0b38d14680695e16fe6e41b1959921d0" kindref="member">StreamingAssets</ref>/**/*.bank
+/[Aa]<ref refid="_editor_utils_8cs_1a532e6f1a83323d9ffe532ab120aaed8a" kindref="member">ssets</ref>/<ref refid="namespace_f_m_o_d_unity_1a9edfbf0a348cc29d7a6c5121404ab960a0b38d14680695e16fe6e41b1959921d0" kindref="member">StreamingAssets</ref>/**/*.bank.meta
+                    
+# If the source bank files are kept outside of the <ref refid="namespace_f_m_o_d_unity_1a9edfbf0a348cc29d7a6c5121404ab960a0b38d14680695e16fe6e41b1959921d0" kindref="member">StreamingAssets</ref> folder then these can be ignored.
+# Log files can be ignored.
+fmod_editor.log&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="92" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6dcb83627d35ab629ef747f6d59ddc44" prot="private" static="no" mutable="no">
+        <type>PAGES</type>
+        <definition>PAGES FMODUnity.SetupWizardWindow.currentPage</definition>
+        <argsstring></argsstring>
+        <name>currentPage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.currentPage</qualifiedname>
+        <initializer>= PAGES.Welcome</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="50" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1adbaddce5116fbf03b0f0ddac2b5d2608" prot="private" static="no" mutable="no">
+        <type>AudioListener[]</type>
+        <definition>AudioListener [] FMODUnity.SetupWizardWindow.unityListeners</definition>
+        <argsstring></argsstring>
+        <name>unityListeners</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.unityListeners</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="52" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ad746c1ce58eb383718d22f354d128a5b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_studio_listener" kindref="compound">StudioListener</ref>[]</type>
+        <definition>StudioListener [] FMODUnity.SetupWizardWindow.fmodListeners</definition>
+        <argsstring></argsstring>
+        <name>fmodListeners</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.fmodListeners</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="53" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a988dad9db1c23b01d4edd36cc57bc90b" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FMODUnity.SetupWizardWindow.scroll1</definition>
+        <argsstring></argsstring>
+        <name>scroll1</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.scroll1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="54" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aaf98145f670dacb4a629ef6b79f74101" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FMODUnity.SetupWizardWindow.scroll2</definition>
+        <argsstring></argsstring>
+        <name>scroll2</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.scroll2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="54" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a52f4e8fb3ad956b1b86dd156770822c3" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FMODUnity.SetupWizardWindow.stagingDetailsScroll</definition>
+        <argsstring></argsstring>
+        <name>stagingDetailsScroll</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.stagingDetailsScroll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="55" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a1ad79d718e0fb1a139595bb80440d734" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.SetupWizardWindow.bFoundUnityListener</definition>
+        <argsstring></argsstring>
+        <name>bFoundUnityListener</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.bFoundUnityListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="56" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a95370f927da0f95e2aaac35091fc5cab" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.SetupWizardWindow.bFoundFmodListener</definition>
+        <argsstring></argsstring>
+        <name>bFoundFmodListener</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.bFoundFmodListener</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="57" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ab953bc4d0cc57b057689559d2866f9f4" prot="private" static="no" mutable="no">
+        <type>AudioSource[]</type>
+        <definition>AudioSource [] FMODUnity.SetupWizardWindow.unityAudioSources</definition>
+        <argsstring></argsstring>
+        <name>unityAudioSources</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.unityAudioSources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="59" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0b621bf485efc7f03936b8126b3e6d5e" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.titleStyle</definition>
+        <argsstring></argsstring>
+        <name>titleStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.titleStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="61" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1acb26eccb8dcff2b5a4b735ab548da89f" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.titleLeftStyle</definition>
+        <argsstring></argsstring>
+        <name>titleLeftStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.titleLeftStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="62" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0347bbcd2aac843a1fb6e95dfb8e340e" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.bodyStyle</definition>
+        <argsstring></argsstring>
+        <name>bodyStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.bodyStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="63" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ae115ea7f654b7cd15d1b99eb581aa8c5" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.buttonStyle</definition>
+        <argsstring></argsstring>
+        <name>buttonStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.buttonStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="64" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a1a390fe596cd2d4d2a3b809b7aeeee89" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.navButtonStyle</definition>
+        <argsstring></argsstring>
+        <name>navButtonStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.navButtonStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="65" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0003f0516302489e9ecf05d8ef73f5d5" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.sourceButtonStyle</definition>
+        <argsstring></argsstring>
+        <name>sourceButtonStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.sourceButtonStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="66" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a7be04099d217f94345f52c6aec30bd91" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.descriptionStyle</definition>
+        <argsstring></argsstring>
+        <name>descriptionStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.descriptionStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="67" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a5f395c2dd2f2b7de20ef6d3d4e207121" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.crumbStyle</definition>
+        <argsstring></argsstring>
+        <name>crumbStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.crumbStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="68" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0aa0da06b3c472a23dafd3cc2abfaa3f" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.columnStyle</definition>
+        <argsstring></argsstring>
+        <name>columnStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.columnStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="69" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1afb038d4fb2f23f575d48543029f46479" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color FMODUnity.SetupWizardWindow.crumbDefault</definition>
+        <argsstring></argsstring>
+        <name>crumbDefault</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.crumbDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="70" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a29267bff1aea13069086f6a5e427c6c6" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color FMODUnity.SetupWizardWindow.crumbHighlight</definition>
+        <argsstring></argsstring>
+        <name>crumbHighlight</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.crumbHighlight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="71" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a350b34bbfb02c61a333477134fac64ce" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D FMODUnity.SetupWizardWindow.logoTexture</definition>
+        <argsstring></argsstring>
+        <name>logoTexture</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.logoTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="76" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a3a2c46b65bad15dff41ce2462f8b3c21" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D FMODUnity.SetupWizardWindow.tickTexture</definition>
+        <argsstring></argsstring>
+        <name>tickTexture</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.tickTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="77" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a270e76f625a5a17c6ea0af3a6da1843d" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D FMODUnity.SetupWizardWindow.crossTexture</definition>
+        <argsstring></argsstring>
+        <name>crossTexture</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.crossTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="78" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ac5e8b8442c286c0f57831554a082ed20" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SetupWizardWindow.iconStyle</definition>
+        <argsstring></argsstring>
+        <name>iconStyle</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.iconStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="79" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a146b5677504dfa66e83fe8a79d472289" prot="private" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_simple_tree_view" kindref="compound">SimpleTreeView</ref></type>
+        <definition>SimpleTreeView FMODUnity.SetupWizardWindow.m_SimpleTreeView</definition>
+        <argsstring></argsstring>
+        <name>m_SimpleTreeView</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.m_SimpleTreeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="83" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a643fa4e593b370a90fbb467ec8bec7a1" prot="private" static="no" mutable="no">
+        <type>TreeViewState</type>
+        <definition>TreeViewState FMODUnity.SetupWizardWindow.m_TreeViewState</definition>
+        <argsstring></argsstring>
+        <name>m_TreeViewState</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.m_TreeViewState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="84" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1aec36a1a64ab61c9f39c9fef6f58ea729" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.SetupWizardWindow.bStudioLinked</definition>
+        <argsstring></argsstring>
+        <name>bStudioLinked</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.bStudioLinked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="86" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ab9b32045bd890069640ba271d50be87b" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.SetupWizardWindow.IsStagingUpdateInProgress</definition>
+        <argsstring></argsstring>
+        <name>IsStagingUpdateInProgress</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.IsStagingUpdateInProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="90" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6802a8fad54092e485f5372043d163db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SetupWizardWindow.SetUpdateTaskComplete</definition>
+        <argsstring>(UpdateTaskType type)</argsstring>
+        <name>SetUpdateTaskComplete</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.SetUpdateTaskComplete</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560" kindref="member">UpdateTaskType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="152" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a86a0c7dd87d2977cf285b6229a310796" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SetupWizardWindow.Startup</definition>
+        <argsstring>()</argsstring>
+        <name>Startup</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.Startup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="179" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="179" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ae8f7b8e026f9921d1c8e5917c4b00c56" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SetupWizardWindow.ShowAssistant</definition>
+        <argsstring>()</argsstring>
+        <name>ShowAssistant</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.ShowAssistant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="210" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="210" bodyend="220"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a30d5baf1fbc50c6a2e030eb20ad75ab6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SetupWizardWindow.CheckUpdateTaskStatus</definition>
+        <argsstring>()</argsstring>
+        <name>CheckUpdateTaskStatus</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.CheckUpdateTaskStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="160" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="160" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0541e721e05b89a3905f0d784cde1b1f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.SetupWizardWindow.DoNextStagingStep</definition>
+        <argsstring>()</argsstring>
+        <name>DoNextStagingStep</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.DoNextStagingStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="173" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="173" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a731aaecc77096a50efc53553fd6a607d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="222" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="222" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a13d4b7dd9dd2f40e31d099212882ad8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="254" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="254" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a652b838a8c849cc21f299a9f327a42de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.OnInspectorUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorUpdate</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.OnInspectorUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="349" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="349" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a41fadb1dd74b0d9fb3ec83cfb7f3c5ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.CheckUpdatesComplete</definition>
+        <argsstring>()</argsstring>
+        <name>CheckUpdatesComplete</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.CheckUpdatesComplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="366" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="366" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1adefb9d22ed3dd62bbf99983875df7c24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.CheckStudioLinked</definition>
+        <argsstring>()</argsstring>
+        <name>CheckStudioLinked</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.CheckStudioLinked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="371" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="371" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a44301f1cae1ded033b8ef72932c6b5c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.SetupWizardWindow.IsStudioLinked</definition>
+        <argsstring>()</argsstring>
+        <name>IsStudioLinked</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.IsStudioLinked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="376" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="376" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a392ff0bb8a88d89390193bf9baae5494" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.CheckListeners</definition>
+        <argsstring>()</argsstring>
+        <name>CheckListeners</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.CheckListeners</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="381" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="381" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a91981685a94b1fed0fe2b618f1f008b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.CheckSources</definition>
+        <argsstring>()</argsstring>
+        <name>CheckSources</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.CheckSources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="396" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="396" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a18e9e2fb7cc76ce9aec553d7ed2b38a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.CheckUnityAudio</definition>
+        <argsstring>()</argsstring>
+        <name>CheckUnityAudio</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.CheckUnityAudio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="410" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="410" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1add363ea4212f7e1e2f39c44199260ba2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.WelcomePage</definition>
+        <argsstring>()</argsstring>
+        <name>WelcomePage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.WelcomePage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="418" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="418" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1afeeb7b4d4dfdfb93c16ad616b8e1df36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.Breadcrumbs</definition>
+        <argsstring>()</argsstring>
+        <name>Breadcrumbs</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.Breadcrumbs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="434" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="434" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ace2133dc9e63c4084d7cdcdf7a8151be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.UpdatingPage</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatingPage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.UpdatingPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="463" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="463" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1acee45977af4912697728fab058b79783" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.LinkingPage</definition>
+        <argsstring>()</argsstring>
+        <name>LinkingPage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.LinkingPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="510" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="510" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ac5eb6861780ae4c2fd2863dddea68f44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.ListenerPage</definition>
+        <argsstring>()</argsstring>
+        <name>ListenerPage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.ListenerPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="610" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="610" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ab5f8c5973d4b557ac6d53db37b9c6f9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.DisplayListeners&lt; T &gt;</definition>
+        <argsstring>(T[] listeners, ref Vector2 scrollPos)</argsstring>
+        <name>DisplayListeners&lt; T &gt;</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.DisplayListeners&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T[]</type>
+          <declname>listeners</declname>
+        </param>
+        <param>
+          <type>ref Vector2</type>
+          <declname>scrollPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="659" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="659" bodyend="704"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a90f5dce05d5a4a210eea4ffe8c991c3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.DisableUnityAudioPage</definition>
+        <argsstring>()</argsstring>
+        <name>DisableUnityAudioPage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.DisableUnityAudioPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="706" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="706" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a580adbf5ccc6943dabaca10a84f81e08" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.UnitySources</definition>
+        <argsstring>()</argsstring>
+        <name>UnitySources</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.UnitySources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="736" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="736" bodyend="760"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1ad3b11de555b12265e1c62a24db7e6050" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.SourceControl</definition>
+        <argsstring>()</argsstring>
+        <name>SourceControl</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.SourceControl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="762" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="762" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a8f5cf8cd0e177bf9123acb70b58c3cf7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.EndPage</definition>
+        <argsstring>()</argsstring>
+        <name>EndPage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.EndPage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="780" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="780" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a7bbceafafbb0a4fd051f80605a228e83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.Buttons</definition>
+        <argsstring>()</argsstring>
+        <name>Buttons</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.Buttons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="843" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="843" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_setup_wizard_window_1a2b5a1860a4cc3ead225dd359ced1377f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SetupWizardWindow.StagingUpdatePage</definition>
+        <argsstring>()</argsstring>
+        <name>StagingUpdatePage</name>
+        <qualifiedname>FMODUnity.SetupWizardWindow.StagingUpdatePage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="883" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="883" bodyend="947"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.SetupWizardWindow</label>
+        <link refid="class_f_m_o_d_unity_1_1_setup_wizard_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.SetupWizardWindow</label>
+        <link refid="class_f_m_o_d_unity_1_1_setup_wizard_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" line="12" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SetupWizard.cs" bodystart="13" bodyend="948"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0e4b475f979940549c5170ffa5292db4" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>backButtonText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a95370f927da0f95e2aaac35091fc5cab" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>bFoundFmodListener</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a1ad79d718e0fb1a139595bb80440d734" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>bFoundUnityListener</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0347bbcd2aac843a1fb6e95dfb8e340e" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>bodyStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1afeeb7b4d4dfdfb93c16ad616b8e1df36" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>Breadcrumbs</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1aec36a1a64ab61c9f39c9fef6f58ea729" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>bStudioLinked</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a7bbceafafbb0a4fd051f80605a228e83" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>Buttons</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ae115ea7f654b7cd15d1b99eb581aa8c5" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>buttonStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a392ff0bb8a88d89390193bf9baae5494" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>CheckListeners</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a91981685a94b1fed0fe2b618f1f008b3" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>CheckSources</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1adefb9d22ed3dd62bbf99983875df7c24" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>CheckStudioLinked</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a18e9e2fb7cc76ce9aec553d7ed2b38a1" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>CheckUnityAudio</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a41fadb1dd74b0d9fb3ec83cfb7f3c5ef" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>CheckUpdatesComplete</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a30d5baf1fbc50c6a2e030eb20ad75ab6" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>CheckUpdateTaskStatus</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0aa0da06b3c472a23dafd3cc2abfaa3f" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>columnStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a270e76f625a5a17c6ea0af3a6da1843d" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>crossTexture</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1afb038d4fb2f23f575d48543029f46479" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>crumbDefault</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a29267bff1aea13069086f6a5e427c6c6" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>crumbHighlight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a5f395c2dd2f2b7de20ef6d3d4e207121" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>crumbStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6dcb83627d35ab629ef747f6d59ddc44" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>currentPage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a7be04099d217f94345f52c6aec30bd91" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>descriptionStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a90f5dce05d5a4a210eea4ffe8c991c3e" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>DisableUnityAudioPage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ab5f8c5973d4b557ac6d53db37b9c6f9a" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>DisplayListeners&lt; T &gt;</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0541e721e05b89a3905f0d784cde1b1f" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>DoNextStagingStep</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a8f5cf8cd0e177bf9123acb70b58c3cf7" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>EndPage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ad746c1ce58eb383718d22f354d128a5b" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>fmodListeners</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ac5e8b8442c286c0f57831554a082ed20" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>iconStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a74c1d83b7f5264e4ecb8553ecd04bc7f" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>IgnoreFileText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1abfd682d72bccc3f7489f48bdf44a1295" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ab9b32045bd890069640ba271d50be87b" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>IsStagingUpdateInProgress</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a44301f1cae1ded033b8ef72932c6b5c9" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>IsStudioLinked</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1acee45977af4912697728fab058b79783" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>LinkingPage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ac5eb6861780ae4c2fd2863dddea68f44" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>ListenerPage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a5c584d4a539a3b679ab3a10f163497e4" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>logoBlack</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a350b34bbfb02c61a333477134fac64ce" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>logoTexture</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a1d3ef39eaa25b806afdf550f9e399d13" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>logoWhite</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a146b5677504dfa66e83fe8a79d472289" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>m_SimpleTreeView</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a643fa4e593b370a90fbb467ec8bec7a1" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>m_TreeViewState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a1a390fe596cd2d4d2a3b809b7aeeee89" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>navButtonStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ae234e6bfbfdf7e02fd584e5344741f9d" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>nextStagingStep</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a731aaecc77096a50efc53553fd6a607d" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a13d4b7dd9dd2f40e31d099212882ad8a" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a652b838a8c849cc21f299a9f327a42de" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>OnInspectorUpdate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a67f864d926d5877ee13bdc89f99c2399" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>pageComplete</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a352feeaa3d5356efa588bc90f7044ae2" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>pageNames</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1aff9a541b218e1b6685e461487e96f640" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>PAGES</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a988dad9db1c23b01d4edd36cc57bc90b" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>scroll1</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1aaf98145f670dacb4a629ef6b79f74101" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>scroll2</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6802a8fad54092e485f5372043d163db" prot="public" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>SetUpdateTaskComplete</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ae8f7b8e026f9921d1c8e5917c4b00c56" prot="public" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>ShowAssistant</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0003f0516302489e9ecf05d8ef73f5d5" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>sourceButtonStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ad3b11de555b12265e1c62a24db7e6050" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>SourceControl</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a52f4e8fb3ad956b1b86dd156770822c3" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>stagingDetailsScroll</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a2b5a1860a4cc3ead225dd359ced1377f" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>StagingUpdatePage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a86a0c7dd87d2977cf285b6229a310796" prot="public" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>Startup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a3a2c46b65bad15dff41ce2462f8b3c21" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>tickTexture</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1acb26eccb8dcff2b5a4b735ab548da89f" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>titleLeftStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a0b621bf485efc7f03936b8126b3e6d5e" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>titleStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ab953bc4d0cc57b057689559d2866f9f4" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>unityAudioSources</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1adbaddce5116fbf03b0f0ddac2b5d2608" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>unityListeners</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a580adbf5ccc6943dabaca10a84f81e08" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>UnitySources</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a9175aaee6be70762cfa69270f0bc6cff" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>updateTasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a40cad1c9648668e08d323ee3176a934b" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>updateTaskStatusChecked</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1a6ef5bb1004ba22c33fac17d4ae303560" prot="public" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>UpdateTaskType</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1ace2133dc9e63c4084d7cdcdf7a8151be" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>UpdatingPage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_setup_wizard_window_1add363ea4212f7e1e2f39c44199260ba2" prot="private" virt="non-virtual"><scope>FMODUnity::SetupWizardWindow</scope><name>WelcomePage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

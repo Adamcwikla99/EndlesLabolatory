@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_studio_1_1_bank" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Studio::Bank</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ad3253356be839f0ce2a3783798d26a00" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Studio.Bank.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Studio.Bank.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2057" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2057" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ae932e1654167f5ce9dab9fe5786e0c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getID</definition>
+        <argsstring>(out GUID id)</argsstring>
+        <name>getID</name>
+        <qualifiedname>FMOD.Studio.Bank.getID</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1806" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1806" bodyend="1809"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a9daad5c56ccce05f8555dc9d799e2244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getPath</definition>
+        <argsstring>(out string path)</argsstring>
+        <name>getPath</name>
+        <qualifiedname>FMOD.Studio.Bank.getPath</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1810" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1810" bodyend="1834"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ad71df19e366d07dab73f45236d2fc7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.unload</definition>
+        <argsstring>()</argsstring>
+        <name>unload</name>
+        <qualifiedname>FMOD.Studio.Bank.unload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1835" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1835" bodyend="1838"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a446553bf0e1db9fbf9cd787d37f38877" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.loadSampleData</definition>
+        <argsstring>()</argsstring>
+        <name>loadSampleData</name>
+        <qualifiedname>FMOD.Studio.Bank.loadSampleData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1839" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1839" bodyend="1842"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a3be10c38d71a7d32fa31347d79229a31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.unloadSampleData</definition>
+        <argsstring>()</argsstring>
+        <name>unloadSampleData</name>
+        <qualifiedname>FMOD.Studio.Bank.unloadSampleData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1843" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1843" bodyend="1846"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a538dd9c270de430848d4c2f77a5db001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getLoadingState</definition>
+        <argsstring>(out LOADING_STATE state)</argsstring>
+        <name>getLoadingState</name>
+        <qualifiedname>FMOD.Studio.Bank.getLoadingState</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548" kindref="member">LOADING_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1847" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1847" bodyend="1850"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a38ee2cb4cc7141976a6d4ff43edd4693" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getSampleLoadingState</definition>
+        <argsstring>(out LOADING_STATE state)</argsstring>
+        <name>getSampleLoadingState</name>
+        <qualifiedname>FMOD.Studio.Bank.getSampleLoadingState</qualifiedname>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548" kindref="member">LOADING_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1851" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1851" bodyend="1854"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a428c6e258c331ee54b310ee0e582b2f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getStringCount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getStringCount</name>
+        <qualifiedname>FMOD.Studio.Bank.getStringCount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1857" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1857" bodyend="1860"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a89fc89f9e010b48779806f44d8b5c4f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getStringInfo</definition>
+        <argsstring>(int index, out GUID id, out string path)</argsstring>
+        <name>getStringInfo</name>
+        <qualifiedname>FMOD.Studio.Bank.getStringInfo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1861" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1861" bodyend="1886"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a78dbeb2a3f3901cd37ac8f6c2d644612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getEventCount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getEventCount</name>
+        <qualifiedname>FMOD.Studio.Bank.getEventCount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1888" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1888" bodyend="1891"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a5cf0e205fa6e8f42c2709855286ebc0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getEventList</definition>
+        <argsstring>(out EventDescription[] array)</argsstring>
+        <name>getEventList</name>
+        <qualifiedname>FMOD.Studio.Bank.getEventList</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_event_description" kindref="compound">EventDescription</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1892" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1892" bodyend="1926"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a306daea308277d7c599b87eaa8b2386b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getBusCount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getBusCount</name>
+        <qualifiedname>FMOD.Studio.Bank.getBusCount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1927" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1927" bodyend="1930"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a934a8593052702b545d786f7423d50e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getBusList</definition>
+        <argsstring>(out Bus[] array)</argsstring>
+        <name>getBusList</name>
+        <qualifiedname>FMOD.Studio.Bank.getBusList</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_bus" kindref="compound">Bus</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1931" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1931" bodyend="1965"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a0825fab78f93646b1299403b31bbfcce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getVCACount</definition>
+        <argsstring>(out int count)</argsstring>
+        <name>getVCACount</name>
+        <qualifiedname>FMOD.Studio.Bank.getVCACount</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1966" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1966" bodyend="1969"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ad322580740cf87b3d1388e95f551e5ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getVCAList</definition>
+        <argsstring>(out VCA[] array)</argsstring>
+        <name>getVCAList</name>
+        <qualifiedname>FMOD.Studio.Bank.getVCAList</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_v_c_a" kindref="compound">VCA</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1970" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1970" bodyend="2004"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a0965bd76c9f75c48313b869e518f1974" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.getUserData</definition>
+        <argsstring>(out IntPtr userdata)</argsstring>
+        <name>getUserData</name>
+        <qualifiedname>FMOD.Studio.Bank.getUserData</qualifiedname>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2006" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2006" bodyend="2009"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ad6077f49445a76adb45f99c453558f43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bank.setUserData</definition>
+        <argsstring>(IntPtr userdata)</argsstring>
+        <name>setUserData</name>
+        <qualifiedname>FMOD.Studio.Bank.setUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2011" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2011" bodyend="2014"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ae9b9ce2ff880a220ccd5f78e60ca1f8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Studio.Bank.Bank</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>Bank</name>
+        <qualifiedname>FMOD.Studio.Bank.Bank</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2059" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2059" bodyend="2059"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a76ea58a052093343466c4c20953c06bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.Bank.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Studio.Bank.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2060" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2060" bodyend="2060"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a2f0b8c179094e3a042787232b4028e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Studio.Bank.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Studio.Bank.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2061" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2061" bodyend="2061"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a8b2b989e80eb6846369cdddab5e179c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.Bank.isValid</definition>
+        <argsstring>()</argsstring>
+        <name>isValid</name>
+        <qualifiedname>FMOD.Studio.Bank.isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2063" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="2063" bodyend="2066"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a89d5ecfe42b9ee4b150e977976f7fb08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMOD.Studio.Bank.FMOD_Studio_Bank_IsValid</definition>
+        <argsstring>(IntPtr bank)</argsstring>
+        <name>FMOD_Studio_Bank_IsValid</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_IsValid</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2018" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a63e2d3636829f3039af036bd1ae7f81a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetID</definition>
+        <argsstring>(IntPtr bank, out GUID id)</argsstring>
+        <name>FMOD_Studio_Bank_GetID</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2020" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1adfb519790e3c5c30fffed4e295116530" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetPath</definition>
+        <argsstring>(IntPtr bank, IntPtr path, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_Bank_GetPath</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetPath</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2022" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a76eb06958a50aae2a8600a4ffdfc4603" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_Unload</definition>
+        <argsstring>(IntPtr bank)</argsstring>
+        <name>FMOD_Studio_Bank_Unload</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_Unload</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2024" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1aeed47c2daf822619f64e91354e250430" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_LoadSampleData</definition>
+        <argsstring>(IntPtr bank)</argsstring>
+        <name>FMOD_Studio_Bank_LoadSampleData</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_LoadSampleData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2026" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ab3349b0ac93fabe011413986d028d78f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_UnloadSampleData</definition>
+        <argsstring>(IntPtr bank)</argsstring>
+        <name>FMOD_Studio_Bank_UnloadSampleData</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_UnloadSampleData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2028" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a6d90efabe7dcd0fddba264a5c87c8c01" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetLoadingState</definition>
+        <argsstring>(IntPtr bank, out LOADING_STATE state)</argsstring>
+        <name>FMOD_Studio_Bank_GetLoadingState</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetLoadingState</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548" kindref="member">LOADING_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2030" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1abc666555831d08c01b6518b56e443da8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetSampleLoadingState</definition>
+        <argsstring>(IntPtr bank, out LOADING_STATE state)</argsstring>
+        <name>FMOD_Studio_Bank_GetSampleLoadingState</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetSampleLoadingState</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out <ref refid="namespace_f_m_o_d_1_1_studio_1a0f792101100d817f51aa4dea577f1548" kindref="member">LOADING_STATE</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2032" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ab9f5e0868c6575f4c48c4425b0ee8273" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetStringCount</definition>
+        <argsstring>(IntPtr bank, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetStringCount</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetStringCount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2034" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a86762f30e86be836bf622d41ea454ef9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetStringInfo</definition>
+        <argsstring>(IntPtr bank, int index, out GUID id, IntPtr path, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_Bank_GetStringInfo</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetStringInfo</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2036" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a5e17448fa47c3a62b107a69a745a8345" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetEventCount</definition>
+        <argsstring>(IntPtr bank, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetEventCount</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetEventCount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2038" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a9a7671b26040d61f7bbfb625962c9239" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetEventList</definition>
+        <argsstring>(IntPtr bank, IntPtr[] array, int capacity, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetEventList</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetEventList</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>IntPtr[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2040" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a5a11e708a63be7455f28739be8d3fa22" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetBusCount</definition>
+        <argsstring>(IntPtr bank, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetBusCount</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetBusCount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2042" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1aed39804a422e0d3872414b6b9e0418f2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetBusList</definition>
+        <argsstring>(IntPtr bank, IntPtr[] array, int capacity, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetBusList</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetBusList</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>IntPtr[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2044" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1a1644c9768c9c7db1939dd6b09c0b7182" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetVCACount</definition>
+        <argsstring>(IntPtr bank, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetVCACount</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetVCACount</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2046" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1ac5185fab9a5150657dbfb9d34689556b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetVCAList</definition>
+        <argsstring>(IntPtr bank, IntPtr[] array, int capacity, out int count)</argsstring>
+        <name>FMOD_Studio_Bank_GetVCAList</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetVCAList</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>IntPtr[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2048" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1af2bfae46c9a9c8f668675d78484c3185" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_GetUserData</definition>
+        <argsstring>(IntPtr bank, out IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_Bank_GetUserData</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_GetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2050" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bank_1afb2933b7bde903d230a7201a11c66be0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bank.FMOD_Studio_Bank_SetUserData</definition>
+        <argsstring>(IntPtr bank, IntPtr userdata)</argsstring>
+        <name>FMOD_Studio_Bank_SetUserData</name>
+        <qualifiedname>FMOD.Studio.Bank.FMOD_Studio_Bank_SetUserData</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bank</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="2052" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1802" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1803" bodyend="2069"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ae9b9ce2ff880a220ccd5f78e60ca1f8a" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>Bank</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a2f0b8c179094e3a042787232b4028e88" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a5a11e708a63be7455f28739be8d3fa22" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetBusCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1aed39804a422e0d3872414b6b9e0418f2" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetBusList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a5e17448fa47c3a62b107a69a745a8345" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetEventCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a9a7671b26040d61f7bbfb625962c9239" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetEventList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a63e2d3636829f3039af036bd1ae7f81a" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a6d90efabe7dcd0fddba264a5c87c8c01" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetLoadingState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1adfb519790e3c5c30fffed4e295116530" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1abc666555831d08c01b6518b56e443da8" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetSampleLoadingState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ab9f5e0868c6575f4c48c4425b0ee8273" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetStringCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a86762f30e86be836bf622d41ea454ef9" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetStringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1af2bfae46c9a9c8f668675d78484c3185" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a1644c9768c9c7db1939dd6b09c0b7182" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetVCACount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ac5185fab9a5150657dbfb9d34689556b" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_GetVCAList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a89d5ecfe42b9ee4b150e977976f7fb08" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_IsValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1aeed47c2daf822619f64e91354e250430" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_LoadSampleData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1afb2933b7bde903d230a7201a11c66be0" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_SetUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a76eb06958a50aae2a8600a4ffdfc4603" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_Unload</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ab3349b0ac93fabe011413986d028d78f" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>FMOD_Studio_Bank_UnloadSampleData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a306daea308277d7c599b87eaa8b2386b" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getBusCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a934a8593052702b545d786f7423d50e8" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getBusList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a78dbeb2a3f3901cd37ac8f6c2d644612" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getEventCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a5cf0e205fa6e8f42c2709855286ebc0e" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getEventList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ae932e1654167f5ce9dab9fe5786e0c77" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a538dd9c270de430848d4c2f77a5db001" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getLoadingState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a9daad5c56ccce05f8555dc9d799e2244" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a38ee2cb4cc7141976a6d4ff43edd4693" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getSampleLoadingState</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a428c6e258c331ee54b310ee0e582b2f1" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getStringCount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a89fc89f9e010b48779806f44d8b5c4f3" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getStringInfo</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a0965bd76c9f75c48313b869e518f1974" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a0825fab78f93646b1299403b31bbfcce" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getVCACount</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ad322580740cf87b3d1388e95f551e5ff" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>getVCAList</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ad3253356be839f0ce2a3783798d26a00" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a76ea58a052093343466c4c20953c06bd" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a8b2b989e80eb6846369cdddab5e179c0" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>isValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a446553bf0e1db9fbf9cd787d37f38877" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>loadSampleData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ad6077f49445a76adb45f99c453558f43" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>setUserData</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1ad71df19e366d07dab73f45236d2fc7f2" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>unload</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bank_1a3be10c38d71a7d32fa31347d79229a31" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bank</scope><name>unloadSampleData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

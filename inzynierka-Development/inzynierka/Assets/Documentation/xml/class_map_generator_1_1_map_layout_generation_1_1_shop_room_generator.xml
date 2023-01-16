@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</compoundname>
+    <basecompoundref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder" prot="public" virt="non-virtual">MapGenerator.MapLayoutGeneration.RoomAdder</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1aa0f8db28b3ffd54adccc71afb93c7735" prot="private" static="no" mutable="no">
+        <type>List&lt;(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> cord, float dist)&gt;</type>
+        <definition>List&lt;(CordsXY cord, float dist)&gt; MapGenerator.MapLayoutGeneration.ShopRoomGenerator.distanceList</definition>
+        <argsstring></argsstring>
+        <name>distanceList</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.distanceList</qualifiedname>
+        <initializer>= new List&lt;(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> cord, float dist)&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="17" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a5975c7321d837a83aa49c6aecdde19bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.ShopRoomGenerator</definition>
+        <argsstring>(CordsXY[] allCordsAroundMiddle, int pointsAroundMiddleCount, MapGenerationParameters generationParameters, CordsXY middle, Row[] rows, FloorDimensions floorDimensions, List&lt;(CordsXY cord, float dist)&gt; distanceList)</argsstring>
+        <name>ShopRoomGenerator</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.ShopRoomGenerator</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+          <declname>allCordsAroundMiddle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointsAroundMiddleCount</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref></type>
+          <declname>generationParameters</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>middle</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+          <declname>floorDimensions</declname>
+        </param>
+        <param>
+          <type>List&lt;(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> cord, float dist)&gt;</type>
+          <declname>distanceList</declname>
+        </param>
+        <briefdescription>
+<para>constructor setting generation parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>allCordsAroundMiddle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>allowed filed cells next start room</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pointsAroundMiddleCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>allowed filed cells around start room</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generationParameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generation parameters</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>middle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>middle points cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of map rows</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorDimensions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>floor dimensions</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>distanceList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map generation thresholds limits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="32" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a291788a307e007a5a0085b783baf2be4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.ShopRoomGenerator.AddShopRoom</definition>
+        <argsstring>(ref FloorRoomsNodes roomsNodes, ref FloorEssentialRooms floorEssentialRooms, ref Row[] rowsToModify, Structures.Enums.RoomType roomType=RoomType.ShopRoom)</argsstring>
+        <name>AddShopRoom</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.AddShopRoom</qualifiedname>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_rooms_nodes" kindref="compound">FloorRoomsNodes</ref></type>
+          <declname>roomsNodes</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorEssentialRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rowsToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">Structures.Enums.RoomType</ref></type>
+          <declname>roomType</declname>
+          <defval>RoomType.ShopRoom</defval>
+        </param>
+        <briefdescription>
+<para>methode initializing addition process </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>roomsNodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned rooms </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorEssentialRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned essential rooms </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rowsToModify</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>shop room cords candidate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>roomType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of room to spawn</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if room was added successfully</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="49" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="49" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1addf4cd8e8c01daa4c4f97cf3dd121146" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.ShopRoomGenerator.SelectPotentialCords</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; potentialShopRooms)</argsstring>
+        <name>SelectPotentialCords</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.SelectPotentialCords</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for finding cords that meet generation parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of potential shop room cords</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="67" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1aefb50ab0be21a2f63cd7b4ed968ce21b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.ShopRoomGenerator.SkipEssentialRooms</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; potentialShopRooms, ref FloorEssentialRooms floorEssentialRooms)</argsstring>
+        <name>SkipEssentialRooms</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.SkipEssentialRooms</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorEssentialRooms</declname>
+        </param>
+        <briefdescription>
+<para>methode that exclude special rooms cords form potential cords list </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of potential shop room cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorEssentialRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned essential rooms </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="78" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a5ce443414c6dc223d044b650b92ceefc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.ShopRoomGenerator.SkipPointsAroundBossRoom</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; potentialShopRooms, ref FloorEssentialRooms floorEssentialRooms)</argsstring>
+        <name>SkipPointsAroundBossRoom</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.SkipPointsAroundBossRoom</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorEssentialRooms</declname>
+        </param>
+        <briefdescription>
+<para>methode that removes cords around boos room </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of potential shop room cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorEssentialRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned essential rooms </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="89" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a3ed15cf750569ea6b292d74ba49cddcf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.ShopRoomGenerator.CheckIndividualCord</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; potentialShopRooms, ref FloorEssentialRooms floorEssentialRooms, CordsXY offset)</argsstring>
+        <name>CheckIndividualCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.CheckIndividualCord</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorEssentialRooms</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>methode that checks in individual cords mees generation conditions </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of potential shop room cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorEssentialRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned essential rooms</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>offset from middle cord</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="103" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="103" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a75a7e440164736b7ac7269ab0b0c5e27" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.ShopRoomGenerator.IsElementInList</definition>
+        <argsstring>(List&lt; CordsXY &gt; potentialShopRooms, CordsXY cordToCheck, CordsXY offset)</argsstring>
+        <name>IsElementInList</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.IsElementInList</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordToCheck</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if cord has already assigned room type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of potential shop room cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cordToCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cord of room cord to check</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>offset from middle cord</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>if elements is in list</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="120" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a6de1c20ab4f313eb31b534ce0a69cd8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.ShopRoomGenerator.TryAddRoom</definition>
+        <argsstring>(List&lt; CordsXY &gt; potentialShopRooms, ref FloorEssentialRooms floorEssentialRooms, ref Row[] rowsToModify, Structures.Enums.RoomType roomType)</argsstring>
+        <name>TryAddRoom</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.TryAddRoom</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorEssentialRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rowsToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">Structures.Enums.RoomType</ref></type>
+          <declname>roomType</declname>
+        </param>
+        <briefdescription>
+<para>methode that trys to add shop room to map </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of potential shop room cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorEssentialRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned essential rooms</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rowsToModify</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of rows to modyfy</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>roomType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned room type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>information if room adding succeeded</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="131" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="131" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1af3d454b72648ef120afcd6da62957d44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.ShopRoomGenerator.AddRoom</definition>
+        <argsstring>(List&lt; CordsXY &gt; potentialShopRooms, ref FloorEssentialRooms floorBeneficialRooms, ref Row[] rowsToModify, Structures.Enums.RoomType roomType)</argsstring>
+        <name>AddRoom</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.ShopRoomGenerator.AddRoom</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialShopRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorBeneficialRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rowsToModify</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">Structures.Enums.RoomType</ref></type>
+          <declname>roomType</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for adding shop room to list map </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>potentialShopRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorBeneficialRooms</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rowsToModify</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>roomType</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="150" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="150" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for generating shop room </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.ShopRoomGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomAdder</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.ShopRoomGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomAdder</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>allCordsAroundMiddle</edgelabel>
+          <edgelabel>middle</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>rows</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>generationParameters</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>floorDimensions</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Structures.Map.FloorDimensions</label>
+        <link refid="class_structures_1_1_map_1_1_floor_dimensions"/>
+      </node>
+      <node id="5">
+        <label>Structures.Map.MapGenerationParameters</label>
+        <link refid="struct_structures_1_1_map_1_1_map_generation_parameters"/>
+      </node>
+      <node id="3">
+        <label>Structures.Map.Room.CordsXY</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y"/>
+      </node>
+      <node id="4">
+        <label>Structures.Map.Row</label>
+        <link refid="class_structures_1_1_map_1_1_row"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" line="13" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ShopRoomGenerator.cs" bodystart="14" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a31ba40ba915032a3dde5a7aef4e1e313" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>AddPoint</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aacf690025278057dc7ab39639f4c5c03" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>AddPointToNode</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1af3d454b72648ef120afcd6da62957d44" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>AddRoom</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a291788a307e007a5a0085b783baf2be4" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>AddShopRoom</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a44989e576e1fc75ef8487f2e32429768" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>allCordsAroundMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a15ff40134834b774655286a0d1c72395" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>AroundMiddleCondition</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aaf73167d6f76a6d25e4e6a0ca0a04f9f" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>CheckIfCanAddNextPoint</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a3ed15cf750569ea6b292d74ba49cddcf" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>CheckIndividualCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ada8e8f479b82cf9b2fb8a1eecf983ed3" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>CheckPotentialCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>Delegator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1aa0f8db28b3ffd54adccc71afb93c7735" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>distanceList</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a22f9824e564b5b852986b8b4f71b6623" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>EmptyNeighbourCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a8d09916cba3186e2113c76bed412a0e7" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>FindPotentialCordMoves</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa6008451bdebbcd40b3794e49793cf7d" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>floorDimensions</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aea917ca7eea78484523c0ddd21fe22e8" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>generationParameters</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abcf9a2425f9fdc1b26a9179adcdf6010" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>InMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a72871ee0f63a4ceb06c75d6060c349c4" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>IsCordEmpty</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a75a7e440164736b7ac7269ab0b0c5e27" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>IsElementInList</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad64560f6f1c9db62672f7299df32cee4" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>IsInLowerMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abae1041c5d685b89c145193efc393d3b" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>IsInUpperMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad44848cb819890b8e3f0d06024de0666" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>IsPointAroundMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a97a26f62b66f6b5d6cb460d8378da92a" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>middle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa0b8a5520977a723a1883b30eab1a9ac" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>pointsAroundMiddleCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aae560772c963c65f91f5fdd0547524fb" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>RemoveCordFromList</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a83e20af7a92dff9b8def5182b4177949" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>RoomAdder</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a61edae22ed1bc4a432f31eb71b956e42" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>rows</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1addf4cd8e8c01daa4c4f97cf3dd121146" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>SelectPotentialCords</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a5975c7321d837a83aa49c6aecdde19bb" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>ShopRoomGenerator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1aefb50ab0be21a2f63cd7b4ed968ce21b" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>SkipEssentialRooms</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a5ce443414c6dc223d044b650b92ceefc" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>SkipPointsAroundBossRoom</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator_1a6de1c20ab4f313eb31b534ce0a69cd8c" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::ShopRoomGenerator</scope><name>TryAddRoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

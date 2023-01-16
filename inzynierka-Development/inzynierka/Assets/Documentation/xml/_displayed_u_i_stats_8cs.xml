@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_displayed_u_i_stats_8cs" kind="file" language="C#">
+    <compoundname>DisplayedUIStats.cs</compoundname>
+    <innerclass refid="class_events_1_1_u_i_1_1_displayed_u_i_stats" prot="public">Events::UI::DisplayedUIStats</innerclass>
+    <innernamespace refid="namespace_events">Events</innernamespace>
+    <innernamespace refid="namespace_events_1_1_u_i">Events::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_events_1_1_u_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_events_1_1_u_i" kindref="compound">Events.UI</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;DisplayedUIStats&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;DisplayedUIStats/DisplayedUIStats&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="9" refid="class_events_1_1_u_i_1_1_displayed_u_i_stats" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats" kindref="compound">DisplayedUIStats</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;int,<sp/>int,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1a48a0b95aa76bb20fab6dd57ecfd18c3f" kindref="member">InitialAmmunitionSetup</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;float,<sp/>float,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1acd718d3828dc218a8a42283da60e9af8" kindref="member">InitialDurabilitySetup</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1ad16ec48e39524a88f33bdb10dc3ea25a" kindref="member">SetArrows</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1ace81515f7bf73ceafe9b1b38fe556983" kindref="member">SetGranades</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1a5bdcc20e6b1b422192e5d3b05b0d9815" kindref="member">SetRockets</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1a33ecd94aacb185633f7e10c24d6908b6" kindref="member">Hp</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1a5ea1207255230df6790297911f819ffb" kindref="member">MaxHp</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>System.Action&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;<sp/><ref refid="class_events_1_1_u_i_1_1_displayed_u_i_stats_1a167272d97232484fce92b16ef9f17d06" kindref="member">Money</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/UI/DisplayedUIStats.cs"/>
+  </compounddef>
+</doxygen>

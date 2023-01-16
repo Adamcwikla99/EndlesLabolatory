@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_wrapper_1_1_entity_boost" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Wrapper::EntityBoost</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_wrapper_1_1_entity_boost_1a614894123d32c55004fad756bfc32a50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Structures.Wrapper.EntityBoost.BonusMaxHP</definition>
+        <argsstring></argsstring>
+        <name>BonusMaxHP</name>
+        <qualifiedname>Structures.Wrapper.EntityBoost.BonusMaxHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="8" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_wrapper_1_1_entity_boost_1a0e09597311eb40f53588175727426e3c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Structures.Wrapper.EntityBoost.BonusProjectilePower</definition>
+        <argsstring></argsstring>
+        <name>BonusProjectilePower</name>
+        <qualifiedname>Structures.Wrapper.EntityBoost.BonusProjectilePower</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="9" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_wrapper_1_1_entity_boost_1a8efe8f46d41f5cd4a2156f594b771438" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Structures.Wrapper.EntityBoost.BonusProjectileSpeed</definition>
+        <argsstring></argsstring>
+        <name>BonusProjectileSpeed</name>
+        <qualifiedname>Structures.Wrapper.EntityBoost.BonusProjectileSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="10" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_wrapper_1_1_entity_boost_1ab6c5b211c65558640a9d552be0dfb9fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Wrapper.EntityBoost.EntityBoost</definition>
+        <argsstring>(int bonusMaxHP, float bonusProjectilePower, float bonusProjectileSpeed)</argsstring>
+        <name>EntityBoost</name>
+        <qualifiedname>Structures.Wrapper.EntityBoost.EntityBoost</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>bonusMaxHP</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusProjectilePower</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusProjectileSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="12" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_wrapper_1_1_entity_boost_1a58788eaf6523af0b7bb1582e660b7726" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Wrapper.EntityBoost.EntityBoost</definition>
+        <argsstring>()</argsstring>
+        <name>EntityBoost</name>
+        <qualifiedname>Structures.Wrapper.EntityBoost.EntityBoost</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="19" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_wrapper_1_1_entity_boost_1a1ad9a27856e25c803a844f2bcd03ad75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Wrapper.EntityBoost.CalculateNewBoost</definition>
+        <argsstring>(int beatenFloors, float bonusMaxHPScale, float bonusProjectilePowerScale, float bonusProjectileSpeedScale)</argsstring>
+        <name>CalculateNewBoost</name>
+        <qualifiedname>Structures.Wrapper.EntityBoost.CalculateNewBoost</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>beatenFloors</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusMaxHPScale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusProjectilePowerScale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bonusProjectileSpeedScale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="26" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>data wraper for entity boost variables information </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" line="6" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Wrapper/EntityBoost.cs" bodystart="7" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_wrapper_1_1_entity_boost_1a614894123d32c55004fad756bfc32a50" prot="public" virt="non-virtual"><scope>Structures::Wrapper::EntityBoost</scope><name>BonusMaxHP</name></member>
+      <member refid="class_structures_1_1_wrapper_1_1_entity_boost_1a0e09597311eb40f53588175727426e3c" prot="public" virt="non-virtual"><scope>Structures::Wrapper::EntityBoost</scope><name>BonusProjectilePower</name></member>
+      <member refid="class_structures_1_1_wrapper_1_1_entity_boost_1a8efe8f46d41f5cd4a2156f594b771438" prot="public" virt="non-virtual"><scope>Structures::Wrapper::EntityBoost</scope><name>BonusProjectileSpeed</name></member>
+      <member refid="class_structures_1_1_wrapper_1_1_entity_boost_1a1ad9a27856e25c803a844f2bcd03ad75" prot="public" virt="non-virtual"><scope>Structures::Wrapper::EntityBoost</scope><name>CalculateNewBoost</name></member>
+      <member refid="class_structures_1_1_wrapper_1_1_entity_boost_1ab6c5b211c65558640a9d552be0dfb9fa" prot="public" virt="non-virtual"><scope>Structures::Wrapper::EntityBoost</scope><name>EntityBoost</name></member>
+      <member refid="class_structures_1_1_wrapper_1_1_entity_boost_1a58788eaf6523af0b7bb1582e660b7726" prot="public" virt="non-virtual"><scope>Structures::Wrapper::EntityBoost</scope><name>EntityBoost</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

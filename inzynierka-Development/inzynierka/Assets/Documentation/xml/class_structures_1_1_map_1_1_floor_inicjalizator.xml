@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_floor_inicjalizator" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::FloorInicjalizator</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_inicjalizator_1aa1a9f1a3a368969950e10758312b09b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorInicjalizator.InitDimensions</definition>
+        <argsstring>(int rowsAmount, int columnsAmount, ref FloorDimensions floorDimensions, ref Row[] rows)</argsstring>
+        <name>InitDimensions</name>
+        <qualifiedname>Structures.Map.FloorInicjalizator.InitDimensions</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>rowsAmount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnsAmount</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+          <declname>floorDimensions</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for initialization of floor layout cells </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" line="15" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" bodystart="15" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_inicjalizator_1a35495f42dff23eadd472538db4639d3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorInicjalizator.InitCordsData</definition>
+        <argsstring>(FloorDimensions floorDimensions, ref FloorEssentialRooms floorEssentialRooms, ref CordsXY midle, ref int gridCount)</argsstring>
+        <name>InitCordsData</name>
+        <qualifiedname>Structures.Map.FloorInicjalizator.InitCordsData</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+          <declname>floorDimensions</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_essential_rooms" kindref="compound">FloorEssentialRooms</ref></type>
+          <declname>floorEssentialRooms</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>midle</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>gridCount</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for initialization of middle cord value and grid count value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" line="29" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" bodystart="29" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_inicjalizator_1ac498789bf34d9f1984885197a898e145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorInicjalizator.InitRandomnessVariables</definition>
+        <argsstring>(ref MapGenerationParameters generationParameters, ref FloorRoomsNodes roomsNodes)</argsstring>
+        <name>InitRandomnessVariables</name>
+        <qualifiedname>Structures.Map.FloorInicjalizator.InitRandomnessVariables</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref></type>
+          <declname>generationParameters</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_rooms_nodes" kindref="compound">FloorRoomsNodes</ref></type>
+          <declname>roomsNodes</declname>
+        </param>
+        <briefdescription>
+<para>method responsible for setting generation randomness parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" line="41" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_inicjalizator_1a052c603736e3bfbfd38d9bca3ae7b14e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorInicjalizator.InitPointsAroundMiddle</definition>
+        <argsstring>(ref int pointsAroundMidleCount, ref CordsXY[] allCordsAroundMidle, CordsXY midle)</argsstring>
+        <name>InitPointsAroundMiddle</name>
+        <qualifiedname>Structures.Map.FloorInicjalizator.InitPointsAroundMiddle</qualifiedname>
+        <param>
+          <type>ref int</type>
+          <declname>pointsAroundMidleCount</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+          <declname>allCordsAroundMidle</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>midle</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for setting points around middle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" line="52" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" bodystart="52" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements floor initialization logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" line="8" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorInicjalizator.cs" bodystart="9" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_floor_inicjalizator_1a35495f42dff23eadd472538db4639d3a" prot="public" virt="non-virtual"><scope>Structures::Map::FloorInicjalizator</scope><name>InitCordsData</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_inicjalizator_1aa1a9f1a3a368969950e10758312b09b4" prot="public" virt="non-virtual"><scope>Structures::Map::FloorInicjalizator</scope><name>InitDimensions</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_inicjalizator_1a052c603736e3bfbfd38d9bca3ae7b14e" prot="public" virt="non-virtual"><scope>Structures::Map::FloorInicjalizator</scope><name>InitPointsAroundMiddle</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_inicjalizator_1ac498789bf34d9f1984885197a898e145" prot="public" virt="non-virtual"><scope>Structures::Map::FloorInicjalizator</scope><name>InitRandomnessVariables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

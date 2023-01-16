@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::Room::RoomEnemyZone</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1ad92449761140b72054ae047f44d934bc" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell" kindref="compound">RoomEnemyZoneCell</ref> &gt;</type>
+        <definition>List&lt;RoomEnemyZoneCell&gt; Structures.Map.Room.RoomEnemyZone.cells</definition>
+        <argsstring></argsstring>
+        <name>cells</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.cells</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="12" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a4d161899052b2adecbb13afe1c54e430" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Structures.Map.Room.RoomEnemyZone.currentlyOccupied</definition>
+        <argsstring></argsstring>
+        <name>currentlyOccupied</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.currentlyOccupied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="13" column="12" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a6384c61dbaf1bbc1136ac86912d2c2bc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.Room.RoomEnemyZone.lastSpawnLocation</definition>
+        <argsstring></argsstring>
+        <name>lastSpawnLocation</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.lastSpawnLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="14" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1acb666605a16944fe02eb58c03db3ed7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.Room.RoomEnemyZone.RoomEnemyZone</definition>
+        <argsstring>()</argsstring>
+        <name>RoomEnemyZone</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.RoomEnemyZone</qualifiedname>
+        <briefdescription>
+<para>constructor responsible for initialization of enemy zone values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="22" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a7d221c008fff0560e96ef9bfb86a4c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomEnemyZone.TryAddEnemy</definition>
+        <argsstring>(int dimensionX, int dimensionY)</argsstring>
+        <name>TryAddEnemy</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.TryAddEnemy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode that checks if point can be added to enemy zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="35" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a71c1e6f716dcf91bb9f8b23e224f09fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomEnemyZone.AddedNewEnemy</definition>
+        <argsstring>(int dimensionX, int dimensionY)</argsstring>
+        <name>AddedNewEnemy</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.AddedNewEnemy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds new enemy cell to enemy zone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="48" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1afcbcec78aac235a281ad7d9a96a5a148" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>List&lt; CordsXY &gt; Structures.Map.Room.RoomEnemyZone.FindPotentialGenerationCords</definition>
+        <argsstring>(int dimensionX, int dimensionY)</argsstring>
+        <name>FindPotentialGenerationCords</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.FindPotentialGenerationCords</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns list of potential cords where enemy party can be spawned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="65" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a33782db06f38b95fe9d0eac36fa16a76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>List&lt; CordsXY &gt; Structures.Map.Room.RoomEnemyZone.BasePartySize</definition>
+        <argsstring>(int dimensionX, int dimensionY)</argsstring>
+        <name>BasePartySize</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.BasePartySize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns list of potential generation cords for basic party size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="72" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="72" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a3cb349890a357bb061a8dc4bd48d0c02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>List&lt; CordsXY &gt; Structures.Map.Room.RoomEnemyZone.FlexiblePartySize</definition>
+        <argsstring>(int dimensionX, int dimensionY)</argsstring>
+        <name>FlexiblePartySize</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.FlexiblePartySize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns list of potential generation cords for custom party size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="92" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="92" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a6dd24a829fc3aa9ed04eb1f8d7fee7b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomEnemyZone.CheckCordCorrectness</definition>
+        <argsstring>(CordsXY cordToCheck, int dimensionX, int dimensionY)</argsstring>
+        <name>CheckCordCorrectness</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.CheckCordCorrectness</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordToCheck</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if selected generation cord is correct </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="112" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="112" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1aa5615bb558355f3b2dd8530239a11a6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomEnemyZone.ZoneContainsAllCords</definition>
+        <argsstring>(List&lt; CordsXY &gt; zoneMustContainCords)</argsstring>
+        <name>ZoneContainsAllCords</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.ZoneContainsAllCords</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>zoneMustContainCords</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if zone contains all cords required to span enemy party </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="130" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a689ea56bcbdda9b8f67881781c8c26da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomEnemyZone.IsCordInZone</definition>
+        <argsstring>(CordsXY cordToCheck)</argsstring>
+        <name>IsCordInZone</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.IsCordInZone</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordToCheck</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if selected cord is enemy zone cord </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="147" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="147" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a68b99edef223355cf309dcb062063f88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Room.RoomEnemyZone.GenerateElement</definition>
+        <argsstring>(List&lt; CordsXY &gt; potentialGenerationCords, int dimensionX, int dimensionY)</argsstring>
+        <name>GenerateElement</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.GenerateElement</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>potentialGenerationCords</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for selecting generation cord from all potential party generation cords <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="168" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="168" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a1dda7f0db70510ae46084a666cc61351" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.Room.RoomEnemyZone.SetCordOccupation</definition>
+        <argsstring>(CordsXY cordToSet, bool newState=true)</argsstring>
+        <name>SetCordOccupation</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZone.SetCordOccupation</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordToSet</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>methode that sets information that selected cord if already occupied by enemy </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="187" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="187" bodyend="199"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements enemy room zone logic and managment. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Structures.Map.Room.RoomEnemyZone</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>lastSpawnLocation</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Structures.Map.Room.CordsXY</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" line="8" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZone.cs" bodystart="9" bodyend="202"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a71c1e6f716dcf91bb9f8b23e224f09fb" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>AddedNewEnemy</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a33782db06f38b95fe9d0eac36fa16a76" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>BasePartySize</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1ad92449761140b72054ae047f44d934bc" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>cells</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a6dd24a829fc3aa9ed04eb1f8d7fee7b8" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>CheckCordCorrectness</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a4d161899052b2adecbb13afe1c54e430" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>currentlyOccupied</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1afcbcec78aac235a281ad7d9a96a5a148" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>FindPotentialGenerationCords</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a3cb349890a357bb061a8dc4bd48d0c02" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>FlexiblePartySize</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a68b99edef223355cf309dcb062063f88" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>GenerateElement</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a689ea56bcbdda9b8f67881781c8c26da" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>IsCordInZone</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a6384c61dbaf1bbc1136ac86912d2c2bc" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>lastSpawnLocation</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1acb666605a16944fe02eb58c03db3ed7e" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>RoomEnemyZone</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a1dda7f0db70510ae46084a666cc61351" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>SetCordOccupation</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1a7d221c008fff0560e96ef9bfb86a4c97" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>TryAddEnemy</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_1aa5615bb558355f3b2dd8530239a11a6b" prot="private" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZone</scope><name>ZoneContainsAllCords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

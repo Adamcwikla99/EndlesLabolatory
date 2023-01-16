@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_testing_1_1_add_projectile_force" kind="class" language="C#" prot="public">
+    <compoundname>Testing::AddProjectileForce</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_testing_1_1_add_projectile_force_1a5575449d17be0cdcf59933e3ef7767dc" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Rigidbody</type>
+        <definition>Rigidbody Testing.AddProjectileForce.AddForceTarget</definition>
+        <argsstring></argsstring>
+        <name>AddForceTarget</name>
+        <qualifiedname>Testing.AddProjectileForce.AddForceTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" line="13" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_testing_1_1_add_projectile_force_1a5baeee17e7ce4e5b979be90fe840bf1b" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Testing.AddProjectileForce.AddForceValue</definition>
+        <argsstring></argsstring>
+        <name>AddForceValue</name>
+        <qualifiedname>Testing.AddProjectileForce.AddForceValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" line="16" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_testing_1_1_add_projectile_force_1a4266bacf1bb97d37fa299b87d974ff48" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Testing.AddProjectileForce.addForce</definition>
+        <argsstring></argsstring>
+        <name>addForce</name>
+        <qualifiedname>Testing.AddProjectileForce.addForce</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_testing_1_1_add_projectile_force_1a5eb7686f435c0009ca120ed3685f2abc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Testing.AddProjectileForce.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Testing.AddProjectileForce.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" line="28" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_testing_1_1_add_projectile_force_1aa09f78b1871ae39de17563449ccacd75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Testing.AddProjectileForce.AddForceToTarget</definition>
+        <argsstring>()</argsstring>
+        <name>AddForceToTarget</name>
+        <qualifiedname>Testing.AddProjectileForce.AddForceToTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" line="41" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements projectile adding force logic - for testing, not used in main project. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Testing.AddProjectileForce</label>
+        <link refid="class_testing_1_1_add_projectile_force"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Testing.AddProjectileForce</label>
+        <link refid="class_testing_1_1_add_projectile_force"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Testing/AddProjectileForce.cs" bodystart="9" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_testing_1_1_add_projectile_force_1a4266bacf1bb97d37fa299b87d974ff48" prot="private" virt="non-virtual"><scope>Testing::AddProjectileForce</scope><name>addForce</name></member>
+      <member refid="class_testing_1_1_add_projectile_force_1a5575449d17be0cdcf59933e3ef7767dc" prot="private" virt="non-virtual"><scope>Testing::AddProjectileForce</scope><name>AddForceTarget</name></member>
+      <member refid="class_testing_1_1_add_projectile_force_1aa09f78b1871ae39de17563449ccacd75" prot="private" virt="non-virtual"><scope>Testing::AddProjectileForce</scope><name>AddForceToTarget</name></member>
+      <member refid="class_testing_1_1_add_projectile_force_1a5baeee17e7ce4e5b979be90fe840bf1b" prot="private" virt="non-virtual"><scope>Testing::AddProjectileForce</scope><name>AddForceValue</name></member>
+      <member refid="class_testing_1_1_add_projectile_force_1a5eb7686f435c0009ca120ed3685f2abc" prot="private" virt="non-virtual"><scope>Testing::AddProjectileForce</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

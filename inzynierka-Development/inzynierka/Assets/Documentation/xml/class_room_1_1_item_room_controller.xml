@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_item_room_controller" kind="class" language="C#" prot="public">
+    <compoundname>Room::ItemRoomController</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_floor_room" prot="public" virt="non-virtual">Room.RoomContent.FloorRoom</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_item_room_controller_1acfd5a5a6167d0ef8c3b5589c786ad47f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemRoomController.Init</definition>
+        <argsstring>(Direction[] nonActiveGates=null, int florLevel=1)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Room.ItemRoomController.Init</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+          <declname>nonActiveGates</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>florLevel</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>methode that initializes item room state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemRoomController.cs" line="19" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemRoomController.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_item_room_controller_1abb10228d1a7d0d55c5a43216b9b39092" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ItemRoomController.InitRoomVariables</definition>
+        <argsstring>(Direction[] nonActiveGates, int florLevel)</argsstring>
+        <name>InitRoomVariables</name>
+        <qualifiedname>Room.ItemRoomController.InitRoomVariables</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+          <declname>nonActiveGates</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>florLevel</declname>
+        </param>
+        <briefdescription>
+<para>methode that initializes item room variables </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemRoomController.cs" line="31" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemRoomController.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements room item controller logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.ItemRoomController</label>
+        <link refid="class_room_1_1_item_room_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.ItemRoomController</label>
+        <link refid="class_room_1_1_item_room_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemRoomController.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ItemRoomController.cs" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a2cf10a4e84d657c7d3e79bc6a8977ef9" prot="public" virt="virtual"><scope>Room::ItemRoomController</scope><name>ActivateRoomEntitys</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a72f1cb04d9ea6cd42965b79417578ed1" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>ChangeSpecifiedWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af4d5d2a898155784baaa9c150e01f1ee" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>ChangeWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad98956e82c236c73941941d0defa814c" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>ContentGetter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a88d31235ac2aff776e3e4cf79021bcb3" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>CornerMark</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8b8957c5c801ce313d12cdff4c5f439" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>DirectionSwitch</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>florLevel</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af21cfcd6d46ae3cf9aba9e51d9d83285" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>IndividualRoomEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a7fb142491634a547ffbfcf9787aa4360" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>IndividualRoomGateEvents</name></member>
+      <member refid="class_room_1_1_item_room_controller_1acfd5a5a6167d0ef8c3b5589c786ad47f" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a34cf24785d3aece8f6a0c97db3ddf68c" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>InitRoomGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a4f2e0a48fc7c2ac5fd66cc7eb0cc438b" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>InitRoomTunnels</name></member>
+      <member refid="class_room_1_1_item_room_controller_1abb10228d1a7d0d55c5a43216b9b39092" prot="private" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>InitRoomVariables</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>nonActiveGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a887d6e6315026477d665d26f7964dcb9" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>RoomActive</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a1018b56f2e4a010f07bc11010f9cd126" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>RoomCleared</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a59012ab1eaf28c2cde0654c2c00ed012" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>RoomCordsPosition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a2f6e7190d0018c5c35a3366c8f708876" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>roomPossition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a0adced49599b22ab4682ebcdd794f295" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>SetRoomClearState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a3bddfe8287e37c0a3c8b2f6b33e0c8d4" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>SetRoomPosition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a294c4dae94f5d0658062e297f8de6cb0" prot="public" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>ThisRoomType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad47060501df6a1ffa43ae8e58a8bcaa8" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>ThisRoomWalls</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aff9889d325441b9461bc3fdbb6f33f14" prot="protected" virt="non-virtual"><scope>Room::ItemRoomController</scope><name>WorkingRoomGates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

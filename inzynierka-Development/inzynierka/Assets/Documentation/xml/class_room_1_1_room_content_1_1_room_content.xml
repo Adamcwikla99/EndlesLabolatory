@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_room_content" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::RoomContent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" prot="public" virt="non-virtual">Room.RoomContent.Enemys.RoomEntity</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.RoomObstacle</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_wrapper_1_1_content_durability_stats" kindref="compound">ContentDurabilityStats</ref></type>
+        <definition>ContentDurabilityStats Room.RoomContent.RoomContent.durabilityStats</definition>
+        <argsstring></argsstring>
+        <name>durabilityStats</name>
+        <qualifiedname>Room.RoomContent.RoomContent.durabilityStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" line="20" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" static="no" mutable="no">
+        <type><ref refid="class_room_1_1_room_controlers_1_1_enemy_room_controller" kindref="compound">EnemyRoomController</ref></type>
+        <definition>EnemyRoomController Room.RoomContent.RoomContent.parentRoom</definition>
+        <argsstring></argsstring>
+        <name>parentRoom</name>
+        <qualifiedname>Room.RoomContent.RoomContent.parentRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" line="21" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.RoomContent.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.RoomContent.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" line="26" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.RoomContent.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>Room.RoomContent.RoomContent.Init</qualifiedname>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8d5ea56a34abed99dce5575bf45cc538">Init</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" line="35" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_data" kindref="compound">Data</ref> wraper for room content stats - its health and if it can be destoryes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomContent.Enemys.Normal.BaseEnemy.BaseEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomContent.Enemys.Normal.ShieldEnemy.ShieldController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretController</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Room.RoomContent.Enemys.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Room.RoomContent.Obsticle.DeflectionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_deflection_obstacle"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Room.RoomContent.Obsticle.ExplosionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Room.RoomContent.Obsticle.FireZone</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_fire_zone"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Room.RoomContent.Obsticle.RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Room.RoomContent.Obsticle.SlowZone</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_slow_zone"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Room.RoomContent.Obsticle.WallObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_wall_obstacle"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" line="12" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/RoomContent.cs" bodystart="13" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomContent</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb" prot="protected" virt="virtual"><scope>Room::RoomContent::RoomContent</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::RoomContent</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::RoomContent</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

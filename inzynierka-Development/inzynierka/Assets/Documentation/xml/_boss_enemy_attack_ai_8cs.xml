@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_boss_enemy_attack_ai_8cs" kind="file" language="C#">
+    <compoundname>BossEnemyAttackAi.cs</compoundname>
+    <innerclass refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" prot="public">Room::RoomContent::Enemys::Boss::BossEnemyAttackAi</innerclass>
+    <innernamespace refid="namespace_room">Room</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content">Room::RoomContent</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content_1_1_enemys">Room::RoomContent::Enemys</innernamespace>
+    <innernamespace refid="namespace_room_1_1_room_content_1_1_enemys_1_1_boss">Room::RoomContent::Enemys::Boss</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_projectaile" kindref="compound">Projectaile</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content_1_1_enemys_1_1_normal" kindref="compound">Room.RoomContent.Enemys.Normal</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_room_1_1_room_content_1_1_enemys_1_1_boss" kindref="compound">Room.RoomContent.Enemys.Boss</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai" kindref="compound">BossEnemyAttackAi</ref><sp/>:<sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai" kindref="compound">EnemyAttackAi</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[field:<sp/>SerializeField]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy" kindref="compound">BossEnemy</ref><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a1beb3553bf120189146a76c6ea93d41d" kindref="member">ThisEnemyObject</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[field:<sp/>SerializeField]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1ad683f4244dcf755d7cfdc9a669887425" kindref="member">TestValue</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a1beb3553bf120189146a76c6ea93d41d" kindref="member">ThisEnemyObject</ref><sp/>=<sp/>this.gameObject.GetComponent&lt;<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy" kindref="compound">BossEnemy</ref>&gt;();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a0b77bcc85822f894dc971a5a8d7f80ab" kindref="member">FireAtPlayer</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;10;i++)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_projectaile_1_1_projectile" kindref="compound">Projectile</ref><sp/>toFire<sp/>=<sp/>this.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1a52e183ccf07c97c6008fb8dc4c5c0415" kindref="member">GetProjectileEvents</ref>.GetProjectile?.Invoke(<ref refid="namespace_structures" kindref="compound">Structures</ref>.<ref refid="namespace_structures_1_1_enums" kindref="compound">Enums</ref>.ProjectileType.Enemy);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.LookAt(this.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_attack_ai_1abcbe9dc9ff314af090f1255a742715d1" kindref="member">playerObject</ref>.transform);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toFire.<ref refid="class_projectaile_1_1_projectile_1ae6edc884f488286584785fcc90b2d883" kindref="member">Fire</ref>(this.transform.rotation,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.transform.position<sp/>+<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.transform.forward<sp/>*<sp/><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1ad683f4244dcf755d7cfdc9a669887425" kindref="member">TestValue</ref><sp/>+<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.GetAccuracyError(),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.transform.forward,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.bonusDamage,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.bonusSpeed);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_attack_ai_1a1beb3553bf120189146a76c6ea93d41d" kindref="member">ThisEnemyObject</ref>?.<ref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_1aa2ad5ed2b84aba915d1be3f3b529f12d" kindref="member">PlayFireSound</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isReoladed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Boss/BossEnemyAttackAi.cs"/>
+  </compounddef>
+</doxygen>

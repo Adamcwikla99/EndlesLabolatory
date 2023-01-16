@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d" kind="struct" language="C#" prot="public">
+    <compoundname>FMODUnity::EditorParamRef::ParameterID</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1ab52c6c438d5379b2068df6afa380b72a" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint FMODUnity.EditorParamRef.ParameterID.data1</definition>
+        <argsstring></argsstring>
+        <name>data1</name>
+        <qualifiedname>FMODUnity.EditorParamRef.ParameterID.data1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" line="64" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1a1b000def176271aec5ec2f813a9c878c" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint FMODUnity.EditorParamRef.ParameterID.data2</definition>
+        <argsstring></argsstring>
+        <name>data2</name>
+        <qualifiedname>FMODUnity.EditorParamRef.ParameterID.data2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" line="65" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1ad96fcebd0794471bef0a29bf93032694" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit FMODUnity.EditorParamRef.ParameterID.operator ParameterID</definition>
+        <argsstring>(FMOD.Studio.PARAMETER_ID source)</argsstring>
+        <name>operator ParameterID</name>
+        <qualifiedname>FMODUnity.EditorParamRef.ParameterID.operator ParameterID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">FMOD.Studio.PARAMETER_ID</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" line="43" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" bodystart="43" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1a6297cfa50b0e6541cd8027dafb93ca61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit FMODUnity.EditorParamRef.ParameterID.operator FMOD.Studio.PARAMETER_ID</definition>
+        <argsstring>(ParameterID source)</argsstring>
+        <name>operator FMOD.Studio.PARAMETER_ID</name>
+        <qualifiedname>FMODUnity.EditorParamRef.ParameterID.operator FMOD.Studio.PARAMETER_ID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d" kindref="compound">ParameterID</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" line="51" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" bodystart="51" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1adc70acb209e5f211038789af81e603dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.EditorParamRef.ParameterID.Equals</definition>
+        <argsstring>(FMOD.Studio.PARAMETER_ID other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>FMODUnity.EditorParamRef.ParameterID.Equals</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___i_d" kindref="compound">FMOD.Studio.PARAMETER_ID</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" line="59" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" line="41" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs" bodystart="42" bodyend="66"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1ab52c6c438d5379b2068df6afa380b72a" prot="public" virt="non-virtual"><scope>FMODUnity::EditorParamRef::ParameterID</scope><name>data1</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1a1b000def176271aec5ec2f813a9c878c" prot="public" virt="non-virtual"><scope>FMODUnity::EditorParamRef::ParameterID</scope><name>data2</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1adc70acb209e5f211038789af81e603dc" prot="public" virt="non-virtual"><scope>FMODUnity::EditorParamRef::ParameterID</scope><name>Equals</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1a6297cfa50b0e6541cd8027dafb93ca61" prot="public" virt="non-virtual"><scope>FMODUnity::EditorParamRef::ParameterID</scope><name>operator FMOD.Studio.PARAMETER_ID</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_editor_param_ref_1_1_parameter_i_d_1ad96fcebd0794471bef0a29bf93032694" prot="public" virt="non-virtual"><scope>FMODUnity::EditorParamRef::ParameterID</scope><name>operator ParameterID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

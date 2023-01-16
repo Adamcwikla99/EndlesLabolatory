@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_credits_menu" kind="class" language="C#" prot="public">
+    <compoundname>CreditsMenu</compoundname>
+    <basecompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" prot="public" virt="non-virtual">UI.Menu.Pages.UIMenu</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_credits_menu_1a7e5a2d07d3d0c09085e7327598d46b63" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button CreditsMenu.Return</definition>
+        <argsstring></argsstring>
+        <name>Return</name>
+        <qualifiedname>CreditsMenu.Return</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="15" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_credits_menu_1a6ff700927a2a9827fe8dee3391da7006" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_switch_menu" kindref="compound">SwitchMenu</ref></type>
+        <definition>SwitchMenu CreditsMenu.SwitchCurrentMenu</definition>
+        <argsstring></argsstring>
+        <name>SwitchCurrentMenu</name>
+        <qualifiedname>CreditsMenu.SwitchCurrentMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="18" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_credits_menu_1a1e2f296cd53ba3e51a79e8b74ff9fd44" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override void</type>
+        <definition>override void CreditsMenu.SubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeEvents</name>
+        <qualifiedname>CreditsMenu.SubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a31b0c9caf56b78e516d9198387427d0b">SubscribeEvents</reimplements>
+        <briefdescription>
+<para>methode that assigns actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="26" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_credits_menu_1a4a9f5f352af39a493dd40b74464cde25" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override void</type>
+        <definition>override void CreditsMenu.UnsubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeEvents</name>
+        <qualifiedname>CreditsMenu.UnsubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a0a54b6c0601a701b30daa453b530b7a4">UnsubscribeEvents</reimplements>
+        <briefdescription>
+<para>methode that unassigned actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="31" column="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_credits_menu_1a8e028d9832b64e87cc19491dae77ab27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CreditsMenu.ReturnAction</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnAction</name>
+        <qualifiedname>CreditsMenu.ReturnAction</qualifiedname>
+        <briefdescription>
+<para>methode that redirects player to main menu </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="39" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements credits menu logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CreditsMenu</label>
+        <link refid="class_credits_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CreditsMenu</label>
+        <link refid="class_credits_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" line="10" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/CreditsMenu.cs" bodystart="11" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a79d4b1063d0399e9e07b572fa626222d" prot="protected" virt="non-virtual"><scope>CreditsMenu</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a12aaec1e5ab532b24922e876038759dd" prot="protected" virt="non-virtual"><scope>CreditsMenu</scope><name>OnEnable</name></member>
+      <member refid="class_credits_menu_1a7e5a2d07d3d0c09085e7327598d46b63" prot="private" virt="non-virtual"><scope>CreditsMenu</scope><name>Return</name></member>
+      <member refid="class_credits_menu_1a8e028d9832b64e87cc19491dae77ab27" prot="private" virt="non-virtual"><scope>CreditsMenu</scope><name>ReturnAction</name></member>
+      <member refid="class_credits_menu_1a1e2f296cd53ba3e51a79e8b74ff9fd44" prot="protected" virt="virtual"><scope>CreditsMenu</scope><name>SubscribeEvents</name></member>
+      <member refid="class_credits_menu_1a6ff700927a2a9827fe8dee3391da7006" prot="private" virt="non-virtual"><scope>CreditsMenu</scope><name>SwitchCurrentMenu</name></member>
+      <member refid="class_credits_menu_1a4a9f5f352af39a493dd40b74464cde25" prot="protected" virt="virtual"><scope>CreditsMenu</scope><name>UnsubscribeEvents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

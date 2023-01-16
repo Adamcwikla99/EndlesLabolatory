@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::SettingsEditor::ReorderableList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditorInternal.ReorderableList</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1a0fa943d435b8f03405dfe84386619e85" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float FMODUnity.SettingsEditor.ReorderableList.ElementPadding</definition>
+        <argsstring></argsstring>
+        <name>ElementPadding</name>
+        <qualifiedname>FMODUnity.SettingsEditor.ReorderableList.ElementPadding</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2384" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2384" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1ac0632b1b5458c12f49cd106089fa135f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.SettingsEditor.ReorderableList.ReorderableList</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>ReorderableList</name>
+        <qualifiedname>FMODUnity.SettingsEditor.ReorderableList.ReorderableList</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2386" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2386" bodyend="2392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1afae4d01d912c30bacdef254a1b21abbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.ReorderableList.DrawLayout</definition>
+        <argsstring>()</argsstring>
+        <name>DrawLayout</name>
+        <qualifiedname>FMODUnity.SettingsEditor.ReorderableList.DrawLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2394" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2394" bodyend="2400"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1ac65bf87d31397b6d56d088311a229e28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.SettingsEditor.ReorderableList.DrawElement</definition>
+        <argsstring>(Rect rect, int index, bool active, bool focused)</argsstring>
+        <name>DrawElement</name>
+        <qualifiedname>FMODUnity.SettingsEditor.ReorderableList.DrawElement</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>focused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2402" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2402" bodyend="2410"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.ReorderableList</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditorInternal::ReorderableList</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.ReorderableList</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditorInternal::ReorderableList</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="2382" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="2383" bodyend="2411"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1ac65bf87d31397b6d56d088311a229e28" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::ReorderableList</scope><name>DrawElement</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1afae4d01d912c30bacdef254a1b21abbc" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::ReorderableList</scope><name>DrawLayout</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1a0fa943d435b8f03405dfe84386619e85" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::ReorderableList</scope><name>ElementPadding</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_reorderable_list_1ac0632b1b5458c12f49cd106089fa135f" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::ReorderableList</scope><name>ReorderableList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

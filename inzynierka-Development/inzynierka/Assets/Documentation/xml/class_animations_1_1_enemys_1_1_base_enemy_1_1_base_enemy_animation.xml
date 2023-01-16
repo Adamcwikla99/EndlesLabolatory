@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation" kind="class" language="C#" prot="public">
+    <compoundname>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a25851270c84b20509018e3495406c23d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Animator</type>
+        <definition>Animator Animations.Enemys.BaseEnemy.BaseEnemyAnimation.BaseEnemy</definition>
+        <argsstring></argsstring>
+        <name>BaseEnemy</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.BaseEnemy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="14" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a699a00e9125d06d0349ac67e2a30e512" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Animations.Enemys.BaseEnemy.BaseEnemyAnimation.animationTime</definition>
+        <argsstring></argsstring>
+        <name>animationTime</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.animationTime</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="19" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a75214de9febe9ed46e6d66620cc9cd11" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Animations.Enemys.BaseEnemy.BaseEnemyAnimation.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.start</qualifiedname>
+        <initializer>= Animator.StringToHash(&quot;Start&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="21" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a28eae98bb4d138b5ef93379a876f490f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Animations.Enemys.BaseEnemy.BaseEnemyAnimation.currentAnimationTime</definition>
+        <argsstring></argsstring>
+        <name>currentAnimationTime</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.currentAnimationTime</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="20" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1acc74412f917cbe5192b0775ca09451b9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Animations.Enemys.BaseEnemy.BaseEnemyAnimation.startedPlay</definition>
+        <argsstring></argsstring>
+        <name>startedPlay</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.startedPlay</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a56cc0300157ca9c999eb0294842be1d4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Animations.Enemys.BaseEnemy.BaseEnemyAnimation.startCount</definition>
+        <argsstring></argsstring>
+        <name>startCount</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.startCount</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="23" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a063cce84e6c4c141c20766c54b9e2fd0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAnimation.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="28" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a8781136d7676e7d07bd0e8a9c918255a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAnimation.CheckAnimationFaze</definition>
+        <argsstring>()</argsstring>
+        <name>CheckAnimationFaze</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.CheckAnimationFaze</qualifiedname>
+        <briefdescription>
+<para>methode that checks if animations has finished </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="48" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="48" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a77cd91e099b410f416d80d0daaf2d7b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAnimation.CountTime</definition>
+        <argsstring>()</argsstring>
+        <name>CountTime</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.CountTime</qualifiedname>
+        <briefdescription>
+<para>methode that measures animation time </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="66" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="66" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a0f85d523e96109e7e52205dfaec7a978" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAnimation.PlayAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayAnimation</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAnimation.PlayAnimation</qualifiedname>
+        <briefdescription>
+<para>methode that plays desolve animation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="39" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for playing base enemy animation </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Animations.Enemys.BaseEnemy.BaseEnemyAnimation</label>
+        <link refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Animations.Enemys.BaseEnemy.BaseEnemyAnimation</label>
+        <link refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAnimation.cs" bodystart="10" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a699a00e9125d06d0349ac67e2a30e512" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>animationTime</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a25851270c84b20509018e3495406c23d" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>BaseEnemy</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a8781136d7676e7d07bd0e8a9c918255a" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>CheckAnimationFaze</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a77cd91e099b410f416d80d0daaf2d7b4" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>CountTime</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a28eae98bb4d138b5ef93379a876f490f" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>currentAnimationTime</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a0f85d523e96109e7e52205dfaec7a978" prot="public" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>PlayAnimation</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a75214de9febe9ed46e6d66620cc9cd11" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>start</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a56cc0300157ca9c999eb0294842be1d4" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>startCount</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1acc74412f917cbe5192b0775ca09451b9" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>startedPlay</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation_1a063cce84e6c4c141c20766c54b9e2fd0" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAnimation</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

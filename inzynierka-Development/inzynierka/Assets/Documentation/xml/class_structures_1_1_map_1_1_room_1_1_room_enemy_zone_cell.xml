@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::Room::RoomEnemyZoneCell</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell_1a6ca17549764c004ddc32a93b69cfb7cf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Structures.Map.Room.RoomEnemyZoneCell.occupyed</definition>
+        <argsstring></argsstring>
+        <name>occupyed</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZoneCell.occupyed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" line="10" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell_1afb8d0e05c942e82c49892d2234099a83" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.Room.RoomEnemyZoneCell.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZoneCell.position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" line="11" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell_1ace961f1822b9fdcd75c56253647ebe82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.Room.RoomEnemyZoneCell.RoomEnemyZoneCell</definition>
+        <argsstring>(CordsXY position, bool occupyed)</argsstring>
+        <name>RoomEnemyZoneCell</name>
+        <qualifiedname>Structures.Map.Room.RoomEnemyZoneCell.RoomEnemyZoneCell</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>occupyed</declname>
+        </param>
+        <briefdescription>
+<para>constructor setting enemy zone cell position and occupation state <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" line="19" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_data" kindref="compound">Data</ref> wrapper for room enemy zone cell. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Structures.Map.Room.RoomEnemyZoneCell</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Structures.Map.Room.CordsXY</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" line="6" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/Room/RoomEnemyZoneCell.cs" bodystart="7" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell_1a6ca17549764c004ddc32a93b69cfb7cf" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZoneCell</scope><name>occupyed</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell_1afb8d0e05c942e82c49892d2234099a83" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZoneCell</scope><name>position</name></member>
+      <member refid="class_structures_1_1_map_1_1_room_1_1_room_enemy_zone_cell_1ace961f1822b9fdcd75c56253647ebe82" prot="public" virt="non-virtual"><scope>Structures::Map::Room::RoomEnemyZoneCell</scope><name>RoomEnemyZoneCell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_drop_1_1_return_drop_to_que" kind="class" language="C#" prot="public">
+    <compoundname>Events::Drop::ReturnDropToQue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_drop_1_1_return_drop_to_que_1a1aec0d3516f70fab5ebaa858b0979921" prot="public" static="no" mutable="no">
+        <type>System.Action&lt; <ref refid="namespace_structures_1_1_enums_1a03ef1a29f98741c9440987135ab34407" kindref="member">DropType</ref>, global::Room.RoomContent.Drop.Drop &gt;</type>
+        <definition>System.Action&lt;DropType, global::Room.RoomContent.Drop.Drop&gt; Events.Drop.ReturnDropToQue.ReturnToDropQue</definition>
+        <argsstring></argsstring>
+        <name>ReturnToDropQue</name>
+        <qualifiedname>Events.Drop.ReturnDropToQue.ReturnToDropQue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/ReturnDropToQue.cs" line="13" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/ReturnDropToQue.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying drop returning projectile to que events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Drop.ReturnDropToQue</label>
+        <link refid="class_events_1_1_drop_1_1_return_drop_to_que"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Drop.ReturnDropToQue</label>
+        <link refid="class_events_1_1_drop_1_1_return_drop_to_que"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ReturnToDropQue</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/ReturnDropToQue.cs" line="11" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Drop/ReturnDropToQue.cs" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_drop_1_1_return_drop_to_que_1a1aec0d3516f70fab5ebaa858b0979921" prot="public" virt="non-virtual"><scope>Events::Drop::ReturnDropToQue</scope><name>ReturnToDropQue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

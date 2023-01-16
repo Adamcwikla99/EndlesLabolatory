@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_find_and_replace" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::FindAndReplace</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1a784fca1e2dfdae1b51c6400dfa02bccb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.FindAndReplace.levelScope</definition>
+        <argsstring></argsstring>
+        <name>levelScope</name>
+        <qualifiedname>FMODUnity.FindAndReplace.levelScope</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="10" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1abfbf943afb8fc86843d07948e69d59d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.FindAndReplace.prefabScope</definition>
+        <argsstring></argsstring>
+        <name>prefabScope</name>
+        <qualifiedname>FMODUnity.FindAndReplace.prefabScope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="11" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1af46825e2cd35e6b12aa9f096cd421422" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.FindAndReplace.findText</definition>
+        <argsstring></argsstring>
+        <name>findText</name>
+        <qualifiedname>FMODUnity.FindAndReplace.findText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="12" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1a020d44306ad1f8e19d8b1b90cfe6878e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.FindAndReplace.replaceText</definition>
+        <argsstring></argsstring>
+        <name>replaceText</name>
+        <qualifiedname>FMODUnity.FindAndReplace.replaceText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="13" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1a5ae3c386325c40a0f4258335c4fdd773" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.FindAndReplace.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <qualifiedname>FMODUnity.FindAndReplace.message</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="14" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1a0a8c70af5c791610bd699097f02b081f" prot="private" static="no" mutable="no">
+        <type>MessageType</type>
+        <definition>MessageType FMODUnity.FindAndReplace.messageType</definition>
+        <argsstring></argsstring>
+        <name>messageType</name>
+        <qualifiedname>FMODUnity.FindAndReplace.messageType</qualifiedname>
+        <initializer>= MessageType.None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="15" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1ab547b0f98aae5056a57e02312cec55a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.FindAndReplace.lastMatch</definition>
+        <argsstring></argsstring>
+        <name>lastMatch</name>
+        <qualifiedname>FMODUnity.FindAndReplace.lastMatch</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="16" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1a8e4c34dfc749907af213c5998504d50e" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref> &gt;</type>
+        <definition>List&lt;StudioEventEmitter&gt; FMODUnity.FindAndReplace.emitters</definition>
+        <argsstring></argsstring>
+        <name>emitters</name>
+        <qualifiedname>FMODUnity.FindAndReplace.emitters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="17" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_find_and_replace_1a29c7a2c509629a5999ca88e5cc3e0afb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.FindAndReplace.first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <qualifiedname>FMODUnity.FindAndReplace.first</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="19" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1af6ec98a5a44756c71991ca3ca3dbb017" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.FindAndReplace.ShowFindAndReplace</definition>
+        <argsstring>()</argsstring>
+        <name>ShowFindAndReplace</name>
+        <qualifiedname>FMODUnity.FindAndReplace.ShowFindAndReplace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="22" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="22" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1a04fa37061c8cf017dfc74c2bbba1ce70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FindAndReplace.OnHierarchyChange</definition>
+        <argsstring>()</argsstring>
+        <name>OnHierarchyChange</name>
+        <qualifiedname>FMODUnity.FindAndReplace.OnHierarchyChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="33" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1aa5e9d16f120e1cdf45b61cfa73eb3e7c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FindAndReplace.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.FindAndReplace.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="48" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="48" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1a94b3355d3127813d1705cf27aa5c0a4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FindAndReplace.FindNext</definition>
+        <argsstring>()</argsstring>
+        <name>FindNext</name>
+        <qualifiedname>FMODUnity.FindAndReplace.FindNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="133" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="133" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1a5b364686c0e2594273390fc900641fd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FindAndReplace.ReplaceAll</definition>
+        <argsstring>()</argsstring>
+        <name>ReplaceAll</name>
+        <qualifiedname>FMODUnity.FindAndReplace.ReplaceAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="150" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="150" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1afa0abc7a9d739071b5b327d910a612fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.FindAndReplace.ReplaceText</definition>
+        <argsstring>(StudioEventEmitter emitter)</argsstring>
+        <name>ReplaceText</name>
+        <qualifiedname>FMODUnity.FindAndReplace.ReplaceText</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="165" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="165" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_find_and_replace_1a6beb8001d280c18398ecfbafea44cc5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FindAndReplace.Replace</definition>
+        <argsstring>()</argsstring>
+        <name>Replace</name>
+        <qualifiedname>FMODUnity.FindAndReplace.Replace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="184" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="184" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.FindAndReplace</label>
+        <link refid="class_f_m_o_d_unity_1_1_find_and_replace"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+      <node id="1">
+        <label>FMODUnity.FindAndReplace</label>
+        <link refid="class_f_m_o_d_unity_1_1_find_and_replace"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs" bodystart="9" bodyend="190"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a8e4c34dfc749907af213c5998504d50e" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>emitters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a94b3355d3127813d1705cf27aa5c0a4a" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>FindNext</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1af46825e2cd35e6b12aa9f096cd421422" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>findText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a29c7a2c509629a5999ca88e5cc3e0afb" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>first</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1ab547b0f98aae5056a57e02312cec55a7" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>lastMatch</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a784fca1e2dfdae1b51c6400dfa02bccb" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>levelScope</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a5ae3c386325c40a0f4258335c4fdd773" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>message</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a0a8c70af5c791610bd699097f02b081f" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>messageType</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1aa5e9d16f120e1cdf45b61cfa73eb3e7c" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a04fa37061c8cf017dfc74c2bbba1ce70" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>OnHierarchyChange</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1abfbf943afb8fc86843d07948e69d59d7" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>prefabScope</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a6beb8001d280c18398ecfbafea44cc5d" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>Replace</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a5b364686c0e2594273390fc900641fd4" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>ReplaceAll</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1a020d44306ad1f8e19d8b1b90cfe6878e" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>replaceText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1afa0abc7a9d739071b5b327d910a612fd" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>ReplaceText</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_find_and_replace_1af6ec98a5a44756c71991ca3ca3dbb017" prot="private" virt="non-virtual"><scope>FMODUnity::FindAndReplace</scope><name>ShowFindAndReplace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_animations_1_1_effects_1_1_explode_effect" kind="class" language="C#" prot="public">
+    <compoundname>Animations::Effects::ExplodeEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_effects_1_1_explode_effect_1a32f48eb9c132408d65263d84381d7397" prot="private" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Animations.Effects.ExplodeEffect.returnAfterDelay</definition>
+        <argsstring></argsstring>
+        <name>returnAfterDelay</name>
+        <qualifiedname>Animations.Effects.ExplodeEffect.returnAfterDelay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" line="10" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_animations_1_1_effects_1_1_explode_effect_1a909d1084d4ded202541a5c39566a161e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Effects.ExplodeEffect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Animations.Effects.ExplodeEffect.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" line="14" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_effects_1_1_explode_effect_1adbe2e98b08909251e3aa00e00257c533" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Effects.ExplodeEffect.Explode</definition>
+        <argsstring>()</argsstring>
+        <name>Explode</name>
+        <qualifiedname>Animations.Effects.ExplodeEffect.Explode</qualifiedname>
+        <briefdescription>
+<para>methode that plays explosion efect </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_effects_1_1_explode_effect_1aac431153d31fb6944f4e61f06191440f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Effects.ExplodeEffect.RemoveRocket</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveRocket</name>
+        <qualifiedname>Animations.Effects.ExplodeEffect.RemoveRocket</qualifiedname>
+        <briefdescription>
+<para>methode that destroys rocket gameobject </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" line="31" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements explosion effect logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Animations.Effects.ExplodeEffect</label>
+        <link refid="class_animations_1_1_effects_1_1_explode_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Animations.Effects.ExplodeEffect</label>
+        <link refid="class_animations_1_1_effects_1_1_explode_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Effects/ExplodeEffect.cs" bodystart="9" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_animations_1_1_effects_1_1_explode_effect_1adbe2e98b08909251e3aa00e00257c533" prot="private" virt="non-virtual"><scope>Animations::Effects::ExplodeEffect</scope><name>Explode</name></member>
+      <member refid="class_animations_1_1_effects_1_1_explode_effect_1aac431153d31fb6944f4e61f06191440f" prot="private" virt="non-virtual"><scope>Animations::Effects::ExplodeEffect</scope><name>RemoveRocket</name></member>
+      <member refid="class_animations_1_1_effects_1_1_explode_effect_1a32f48eb9c132408d65263d84381d7397" prot="private" virt="non-virtual"><scope>Animations::Effects::ExplodeEffect</scope><name>returnAfterDelay</name></member>
+      <member refid="class_animations_1_1_effects_1_1_explode_effect_1a909d1084d4ded202541a5c39566a161e" prot="private" virt="non-virtual"><scope>Animations::Effects::ExplodeEffect</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

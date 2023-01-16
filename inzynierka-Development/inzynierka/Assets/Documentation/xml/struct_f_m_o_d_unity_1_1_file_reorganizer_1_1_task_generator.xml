@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator" kind="struct" language="C#" prot="private">
+    <compoundname>FMODUnity::FileReorganizer::TaskGenerator</compoundname>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1_1_move_record" prot="private">FMODUnity::FileReorganizer::TaskGenerator::MoveRecord</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a5e832bb1ae001450e3b37e5a48298211" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.FileReorganizer.TaskGenerator.AssetsFolder</definition>
+        <argsstring></argsstring>
+        <name>AssetsFolder</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.AssetsFolder</qualifiedname>
+        <initializer>= &quot;Assets&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="921" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1afd18c36b5cd8695be936ba7076cfd230" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.FileReorganizer.TaskGenerator.FMODRoot</definition>
+        <argsstring></argsstring>
+        <name>FMODRoot</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.FMODRoot</qualifiedname>
+        <initializer>= &quot;Assets/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/FMOD&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="922" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ae24cdd10b3d74faa43e80c2a9cfa3052" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.FileReorganizer.TaskGenerator.FMODSource</definition>
+        <argsstring></argsstring>
+        <name>FMODSource</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.FMODSource</qualifiedname>
+        <initializer>= FMODRoot + &quot;/src&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="923" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ac479e43b031c7ed19105cc71ac612517" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] FMODUnity.FileReorganizer.TaskGenerator.BaseFolders</definition>
+        <argsstring></argsstring>
+        <name>BaseFolders</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.BaseFolders</qualifiedname>
+        <initializer>= {
+                FMODSource,
+                FMODRoot,
+                &quot;Assets/Plugins&quot;,
+                &quot;Assets&quot;,
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="925" column="44" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a5106f089501b7b014a89f5a6e459e54a" prot="private" static="yes" mutable="no">
+        <type>readonly MoveRecord[]</type>
+        <definition>readonly MoveRecord [] FMODUnity.FileReorganizer.TaskGenerator.looseAssets</definition>
+        <argsstring></argsstring>
+        <name>looseAssets</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.looseAssets</qualifiedname>
+        <initializer>= {
+                
+                new MoveRecord() { source = FMODRoot + &quot;/fmodplugins.cpp&quot;, destination = &quot;obsolete&quot; },
+                new MoveRecord() { source = &quot;Assets/GoogleVR&quot;, destination = &quot;addons&quot; },
+                new MoveRecord() { source = &quot;Assets/ResonanceAudio&quot;, destination = &quot;addons&quot; },
+                new MoveRecord() { source = &quot;Assets/Resources/FMODStudioSettings.asset&quot;, destination = &quot;Resources&quot; },
+                new MoveRecord() { source = &quot;Assets/FMODStudioCache.asset&quot;, destination = &quot;Resources&quot; },
+
+                
+                new MoveRecord() { source = FMODRoot + &quot;/src/Runtime/fmodplugins.cpp&quot;, destination = &quot;obsolete&quot; },
+
+                
+                new MoveRecord() { source = FMODRoot + &quot;/src/Runtime/fmod_static_plugin_support.h&quot;, destination = &quot;obsolete&quot; },
+
+                
+                new MoveRecord() { source = FMODRoot + &quot;/src/fmodplugins.cpp&quot;, destination = &quot;obsolete&quot; },
+                new MoveRecord() { source = FMODRoot + &quot;/src/fmod_static_plugin_support.h&quot;, destination = &quot;obsolete&quot; },
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="932" column="48" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a33b1b2e2396a4a6128791500f4e7ef70" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] FMODUnity.FileReorganizer.TaskGenerator.foldersToCleanUp</definition>
+        <argsstring></argsstring>
+        <name>foldersToCleanUp</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.foldersToCleanUp</qualifiedname>
+        <initializer>= {
+                &quot;Assets/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/FMOD/Runtime&quot;,
+                &quot;Assets/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/Editor&quot;,
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="951" column="44" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="951" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a3802a906a33b60e972a29ddc55d914ab" prot="private" static="yes" mutable="no">
+        <type>readonly MoveRecord[]</type>
+        <definition>readonly MoveRecord [] FMODUnity.FileReorganizer.TaskGenerator.codeFolders</definition>
+        <argsstring></argsstring>
+        <name>codeFolders</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.codeFolders</qualifiedname>
+        <initializer>= {
+                
+                new MoveRecord() { source = FMODSource + &quot;/Runtime&quot;, destination = &quot;src&quot; },
+                new MoveRecord() { source = FMODSource + &quot;/Runtime/Timeline&quot;, destination = &quot;src&quot; },
+                new MoveRecord() { source = FMODSource + &quot;/Runtime/wrapper&quot;, destination = &quot;src&quot; },
+                new MoveRecord() { source = FMODSource + &quot;/Editor/Timeline&quot;, destination = &quot;src/Editor&quot; },
+
+                
+                new MoveRecord() { source = FMODRoot + &quot;/Timeline&quot;, destination = &quot;src&quot; },
+                new MoveRecord() { source = FMODRoot + &quot;/Wrapper&quot;, destination = &quot;src&quot; },
+                new MoveRecord() { source = &quot;Assets/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/Editor/FMOD&quot;, destination = &quot;src/Editor&quot; },
+                new MoveRecord() { source = &quot;Assets/<ref refid="_editor_utils_8cs_1aca55ef81be85f3b080942470010614d9" kindref="member">Plugins</ref>/Editor/FMOD/Timeline&quot;, destination = &quot;src/Editor&quot; },
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1067" column="48" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1067" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a2972055a4e84c699b44164b9fb2a4bd6" prot="private" static="no" mutable="no">
+        <type>List&lt; Task &gt;</type>
+        <definition>List&lt;Task&gt; FMODUnity.FileReorganizer.TaskGenerator.tasks</definition>
+        <argsstring></argsstring>
+        <name>tasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.tasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="956" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="956" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1aae0406947c0199c45036358ec0110645" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.FileReorganizer.TaskGenerator.Generate</definition>
+        <argsstring>(List&lt; Task &gt; tasks)</argsstring>
+        <name>Generate</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.Generate</qualifiedname>
+        <param>
+          <type>List&lt; Task &gt;</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="958" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="958" bodyend="967"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a519efe7d4371189a2c1cd01e5edd29c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForPlatform</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>GenerateTasksForPlatform</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForPlatform</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="969" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="969" bodyend="1032"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a23441cda80e6693aa00e67deeb7d42ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.AddFolderTasks</definition>
+        <argsstring>(string path)</argsstring>
+        <name>AddFolderTasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.AddFolderTasks</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1034" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1034" bodyend="1051"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ac71a7dc1b4a8c2bc9bd7208d472ca5be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.AddFolderTask</definition>
+        <argsstring>(string path)</argsstring>
+        <name>AddFolderTask</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.AddFolderTask</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1053" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1053" bodyend="1059"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a24872b5c8ed3337ad8c2257c92245550" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.AddMoveTask</definition>
+        <argsstring>(string source, string destination)</argsstring>
+        <name>AddMoveTask</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.AddMoveTask</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1081" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1081" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a7a1c4d311916f7261c1a32b4bcc719fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForCodeFolders</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateTasksForCodeFolders</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForCodeFolders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1089" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1089" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a815cd361ce3aacde1ad4a7598cf1824e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForLooseAssets</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateTasksForLooseAssets</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForLooseAssets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1109" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1109" bodyend="1127"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ac38337102da21153739f1fea5607c48d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.GenerateFolderMergeTasks</definition>
+        <argsstring>(string sourceFolder, string destinationFolder)</argsstring>
+        <name>GenerateFolderMergeTasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.GenerateFolderMergeTasks</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sourceFolder</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>destinationFolder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1129" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1129" bodyend="1157"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a3ef3c5e4060dcd3d282bf0c5175ddfaa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForLegacyCodeFiles</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateTasksForLegacyCodeFiles</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForLegacyCodeFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1159" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1159" bodyend="1170"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a9241afdf507f84063bda073aa8b2ddd8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForFolderCleanup</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateTasksForFolderCleanup</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.GenerateTasksForFolderCleanup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1172" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1172" bodyend="1181"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1afe230719afaec9eebc66fd476372f232" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>static IEnumerable&lt; string &gt; FMODUnity.FileReorganizer.TaskGenerator.FindFileAssets</definition>
+        <argsstring>(string folder)</argsstring>
+        <name>FindFileAssets</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskGenerator.FindFileAssets</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>folder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="1183" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="1183" bodyend="1195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="919" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="920" bodyend="1196"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ac71a7dc1b4a8c2bc9bd7208d472ca5be" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>AddFolderTask</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a23441cda80e6693aa00e67deeb7d42ef" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>AddFolderTasks</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a24872b5c8ed3337ad8c2257c92245550" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>AddMoveTask</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a5e832bb1ae001450e3b37e5a48298211" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>AssetsFolder</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ac479e43b031c7ed19105cc71ac612517" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>BaseFolders</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a3802a906a33b60e972a29ddc55d914ab" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>codeFolders</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1afe230719afaec9eebc66fd476372f232" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>FindFileAssets</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1afd18c36b5cd8695be936ba7076cfd230" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>FMODRoot</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ae24cdd10b3d74faa43e80c2a9cfa3052" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>FMODSource</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a33b1b2e2396a4a6128791500f4e7ef70" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>foldersToCleanUp</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1aae0406947c0199c45036358ec0110645" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>Generate</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1ac38337102da21153739f1fea5607c48d" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>GenerateFolderMergeTasks</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a7a1c4d311916f7261c1a32b4bcc719fb" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>GenerateTasksForCodeFolders</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a9241afdf507f84063bda073aa8b2ddd8" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>GenerateTasksForFolderCleanup</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a3ef3c5e4060dcd3d282bf0c5175ddfaa" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>GenerateTasksForLegacyCodeFiles</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a815cd361ce3aacde1ad4a7598cf1824e" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>GenerateTasksForLooseAssets</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a519efe7d4371189a2c1cd01e5edd29c0" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>GenerateTasksForPlatform</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a5106f089501b7b014a89f5a6e459e54a" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>looseAssets</name></member>
+      <member refid="struct_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_generator_1a2972055a4e84c699b44164b9fb2a4bd6" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskGenerator</scope><name>tasks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_scene_1_1_switch_scene" kind="class" language="C#" prot="public">
+    <compoundname>Events::Scene::SwitchScene</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_scene_1_1_switch_scene_1a4c7de7e1e38c360edca3dc06efaf47e3" prot="public" static="no" mutable="no">
+        <type>Action&lt; <ref refid="namespace_structures_1_1_enums_1a9c82a52844c7e2bc495dd91d5056a9ad" kindref="member">SceneType</ref> &gt;</type>
+        <definition>Action&lt;SceneType&gt; Events.Scene.SwitchScene.SwitchCurrentScene</definition>
+        <argsstring></argsstring>
+        <name>SwitchCurrentScene</name>
+        <qualifiedname>Events.Scene.SwitchScene.SwitchCurrentScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Scene/SwitchScene.cs" line="14" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Scene/SwitchScene.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_scene_1_1_switch_scene_1aaece9455353e3129b1ed8a2bc3c7f40e" prot="public" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action Events.Scene.SwitchScene.RestartGameMap</definition>
+        <argsstring></argsstring>
+        <name>RestartGameMap</name>
+        <qualifiedname>Events.Scene.SwitchScene.RestartGameMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Scene/SwitchScene.cs" line="15" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Scene/SwitchScene.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying change scene events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Scene.SwitchScene</label>
+        <link refid="class_events_1_1_scene_1_1_switch_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Scene.SwitchScene</label>
+        <link refid="class_events_1_1_scene_1_1_switch_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Scene/SwitchScene.cs" line="12" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Scene/SwitchScene.cs" bodystart="13" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_scene_1_1_switch_scene_1aaece9455353e3129b1ed8a2bc3c7f40e" prot="public" virt="non-virtual"><scope>Events::Scene::SwitchScene</scope><name>RestartGameMap</name></member>
+      <member refid="class_events_1_1_scene_1_1_switch_scene_1a4c7de7e1e38c360edca3dc06efaf47e3" prot="public" virt="non-virtual"><scope>Events::Scene::SwitchScene</scope><name>SwitchCurrentScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1002 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_player_input_action" kind="class" language="C#" prot="public">
+    <compoundname>PlayerInputAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IInputActionCollection2</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <innerclass refid="interface_player_input_action_1_1_i_player_actions" prot="public">PlayerInputAction::IPlayerActions</innerclass>
+    <innerclass refid="interface_player_input_action_1_1_i_player_controler_actions" prot="public">PlayerInputAction::IPlayerControlerActions</innerclass>
+    <innerclass refid="interface_player_input_action_1_1_i_u_i_actions" prot="public">PlayerInputAction::IUIActions</innerclass>
+    <innerclass refid="struct_player_input_action_1_1_player_actions" prot="public">PlayerInputAction::PlayerActions</innerclass>
+    <innerclass refid="struct_player_input_action_1_1_player_controler_actions" prot="public">PlayerInputAction::PlayerControlerActions</innerclass>
+    <innerclass refid="struct_player_input_action_1_1_u_i_actions" prot="public">PlayerInputAction::UIActions</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_input_action_1acaf87ea2597d3fac23c48e1466f0bcc5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputActionAsset</type>
+        <definition>InputActionAsset PlayerInputAction.asset</definition>
+        <argsstring></argsstring>
+        <name>asset</name>
+        <qualifiedname>PlayerInputAction.asset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="20" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1ab560515e8f22f4509f3e83786c1d3cc9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>InputBinding?</type>
+        <definition>InputBinding? PlayerInputAction.bindingMask</definition>
+        <argsstring></argsstring>
+        <name>bindingMask</name>
+        <qualifiedname>PlayerInputAction.bindingMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1441" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1442" bodyend="1445"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1aa9108e692a88a8a61405ab2af0ed2cef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputDevice &gt;?</type>
+        <definition>ReadOnlyArray&lt;InputDevice&gt;? PlayerInputAction.devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <qualifiedname>PlayerInputAction.devices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1447" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1448" bodyend="1451"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1a3eb6da55f967f2ede8f698af900a872e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ReadOnlyArray&lt; InputControlScheme &gt;</type>
+        <definition>ReadOnlyArray&lt;InputControlScheme&gt; PlayerInputAction.controlSchemes</definition>
+        <argsstring></argsstring>
+        <name>controlSchemes</name>
+        <qualifiedname>PlayerInputAction.controlSchemes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1453" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1ad68cea82b21dcd0bdb81edf35d0484ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; InputBinding &gt;</type>
+        <definition>IEnumerable&lt;InputBinding&gt; PlayerInputAction.bindings</definition>
+        <argsstring></argsstring>
+        <name>bindings</name>
+        <qualifiedname>PlayerInputAction.bindings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1479" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1a96ae99c43757cc03996e3c953cd19df4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_player_input_action_1_1_player_actions" kindref="compound">PlayerActions</ref></type>
+        <definition>PlayerActions PlayerInputAction.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <qualifiedname>PlayerInputAction.Player</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1569" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1ac23805310b0f8da332c96a74738eecf7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_player_input_action_1_1_u_i_actions" kindref="compound">UIActions</ref></type>
+        <definition>UIActions PlayerInputAction.UI</definition>
+        <argsstring></argsstring>
+        <name>UI</name>
+        <qualifiedname>PlayerInputAction.UI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1674" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1a6294a790258349224e47142ed5344bdc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_player_input_action_1_1_player_controler_actions" kindref="compound">PlayerControlerActions</ref></type>
+        <definition>PlayerControlerActions PlayerInputAction.PlayerControler</definition>
+        <argsstring></argsstring>
+        <name>PlayerControler</name>
+        <qualifiedname>PlayerInputAction.PlayerControler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1787" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1abb69b0c01e653b4dabc9f20d61de9471" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme PlayerInputAction.KeyboardMouseScheme</definition>
+        <argsstring></argsstring>
+        <name>KeyboardMouseScheme</name>
+        <qualifiedname>PlayerInputAction.KeyboardMouseScheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1789" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1790" bodyend="1796"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1a405b2951e4ef61c242aeaa28d02a78c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme PlayerInputAction.GamepadScheme</definition>
+        <argsstring></argsstring>
+        <name>GamepadScheme</name>
+        <qualifiedname>PlayerInputAction.GamepadScheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1798" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1799" bodyend="1805"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1af937277f889980bae6937b54f1510321" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme PlayerInputAction.TouchScheme</definition>
+        <argsstring></argsstring>
+        <name>TouchScheme</name>
+        <qualifiedname>PlayerInputAction.TouchScheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1807" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1808" bodyend="1814"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1ac8da7fadee26d58c5bf409004a60bf1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme PlayerInputAction.JoystickScheme</definition>
+        <argsstring></argsstring>
+        <name>JoystickScheme</name>
+        <qualifiedname>PlayerInputAction.JoystickScheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1816" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1817" bodyend="1823"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_input_action_1a5af2f1480d529dbe0c6707222c155486" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>InputControlScheme</type>
+        <definition>InputControlScheme PlayerInputAction.XRScheme</definition>
+        <argsstring></argsstring>
+        <name>XRScheme</name>
+        <qualifiedname>PlayerInputAction.XRScheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1825" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1826" bodyend="1832"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_input_action_1adbe3f83cca810fe0a5a4f559ccb49fbc" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap PlayerInputAction.m_Player</definition>
+        <argsstring></argsstring>
+        <name>m_Player</name>
+        <qualifiedname>PlayerInputAction.m_Player</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1491" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1491" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1aa0de6023cdb16a1937c9192aee236ca2" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_player_input_action_1_1_i_player_actions" kindref="compound">IPlayerActions</ref></type>
+        <definition>IPlayerActions PlayerInputAction.m_PlayerActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerActionsCallbackInterface</name>
+        <qualifiedname>PlayerInputAction.m_PlayerActionsCallbackInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1492" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1af5ee2b806be261c591fb260e3dd068bf" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_Move</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Move</name>
+        <qualifiedname>PlayerInputAction.m_Player_Move</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1493" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a9942f6b2e9bb9054cc1d99fbe0da1454" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_Look</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Look</name>
+        <qualifiedname>PlayerInputAction.m_Player_Look</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1494" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1494" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a346eb25b89acbaef13edc091a2c6cca0" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_Fire</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Fire</name>
+        <qualifiedname>PlayerInputAction.m_Player_Fire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1495" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ad7f33e74923849455ec5f712ca992f5f" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_PointerPosition</definition>
+        <argsstring></argsstring>
+        <name>m_Player_PointerPosition</name>
+        <qualifiedname>PlayerInputAction.m_Player_PointerPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1496" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a36d52e8cf54c314a629ddf4f9915e57c" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_Zoom</definition>
+        <argsstring></argsstring>
+        <name>m_Player_Zoom</name>
+        <qualifiedname>PlayerInputAction.m_Player_Zoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1497" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1af7abd7abd2287768452fdf0e4523ebfd" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_NextCellType</definition>
+        <argsstring></argsstring>
+        <name>m_Player_NextCellType</name>
+        <qualifiedname>PlayerInputAction.m_Player_NextCellType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1498" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ae87f8988a5028cf1da5175dd1f7c4d48" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_Player_PreviousCellType</definition>
+        <argsstring></argsstring>
+        <name>m_Player_PreviousCellType</name>
+        <qualifiedname>PlayerInputAction.m_Player_PreviousCellType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1499" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a3c4dafbcbd5e6a67dc949c932c375f33" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap PlayerInputAction.m_UI</definition>
+        <argsstring></argsstring>
+        <name>m_UI</name>
+        <qualifiedname>PlayerInputAction.m_UI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1572" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1acd9b873013fecce73af9a827a8d8d065" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_player_input_action_1_1_i_u_i_actions" kindref="compound">IUIActions</ref></type>
+        <definition>IUIActions PlayerInputAction.m_UIActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_UIActionsCallbackInterface</name>
+        <qualifiedname>PlayerInputAction.m_UIActionsCallbackInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1573" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ac6b02427467269bba63aa073eb3951e1" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_Navigate</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Navigate</name>
+        <qualifiedname>PlayerInputAction.m_UI_Navigate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1574" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a0e8f3f45db5d9645a4738881413b2387" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_Submit</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Submit</name>
+        <qualifiedname>PlayerInputAction.m_UI_Submit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1575" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ad274ad1ab4c72671931ce9631c950770" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_Cancel</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Cancel</name>
+        <qualifiedname>PlayerInputAction.m_UI_Cancel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1576" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ae1a39a62e663976801dc6d1aa42891f6" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_Point</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Point</name>
+        <qualifiedname>PlayerInputAction.m_UI_Point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1577" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1adb606e4f73006cba181977a6da721cf6" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_Click</definition>
+        <argsstring></argsstring>
+        <name>m_UI_Click</name>
+        <qualifiedname>PlayerInputAction.m_UI_Click</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1578" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ab1857e55b1fb78e647c0d39a448a6e53" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_ScrollWheel</definition>
+        <argsstring></argsstring>
+        <name>m_UI_ScrollWheel</name>
+        <qualifiedname>PlayerInputAction.m_UI_ScrollWheel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1579" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1af4a3cf3db389bd2f91d56e128dec5e9f" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_MiddleClick</definition>
+        <argsstring></argsstring>
+        <name>m_UI_MiddleClick</name>
+        <qualifiedname>PlayerInputAction.m_UI_MiddleClick</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1580" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a4754f491c79acbe2205c001a99c6988e" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_RightClick</definition>
+        <argsstring></argsstring>
+        <name>m_UI_RightClick</name>
+        <qualifiedname>PlayerInputAction.m_UI_RightClick</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1581" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ac831454b3cee2fe64a36f38a4793b15a" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_TrackedDevicePosition</definition>
+        <argsstring></argsstring>
+        <name>m_UI_TrackedDevicePosition</name>
+        <qualifiedname>PlayerInputAction.m_UI_TrackedDevicePosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1582" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a4fe2d0521f7a5d4a492b13b9e653e7a9" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_UI_TrackedDeviceOrientation</definition>
+        <argsstring></argsstring>
+        <name>m_UI_TrackedDeviceOrientation</name>
+        <qualifiedname>PlayerInputAction.m_UI_TrackedDeviceOrientation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1583" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a0ff080e4abc0b7f44e102a57b71de25b" prot="private" static="no" mutable="no">
+        <type>readonly InputActionMap</type>
+        <definition>readonly InputActionMap PlayerInputAction.m_PlayerControler</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1677" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a8aa830b40687da6ae56c2c0eb8740b23" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_player_input_action_1_1_i_player_controler_actions" kindref="compound">IPlayerControlerActions</ref></type>
+        <definition>IPlayerControlerActions PlayerInputAction.m_PlayerControlerActionsCallbackInterface</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControlerActionsCallbackInterface</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControlerActionsCallbackInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1678" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a9d478de8e464246e68a15e2c32c8ccd7" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_Fire</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_Fire</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_Fire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1679" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1aad7beaf1b4297a688053d60b959ef038" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_Look</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_Look</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_Look</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1680" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a52d47ad5ca8d58b7d259d34c65e26ee5" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_Move</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_Move</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_Move</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1681" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ad1286b25b0ab4fdf7e87fecc357a638f" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_NextWepon</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_NextWepon</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_NextWepon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1682" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a920e4cac3ab501702de729dca150d552" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_PreviousWepon</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_PreviousWepon</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_PreviousWepon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1683" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1acc343fe8ffc100e7c49525a53420eb2f" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_Jump</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_Jump</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_Jump</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1684" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a60ef19906831932234643fbce30698ec" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_Dash</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_Dash</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_Dash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1685" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1af9a7a29a42d4b9628449298ee867a4ce" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_SprintToggle</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_SprintToggle</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_SprintToggle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1686" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1686" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a1006ac208f952df9a102ef426027a2e7" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_BuyItem</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_BuyItem</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_BuyItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1687" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1687" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1adb41b837630b00c9a2ec0c94e52c0764" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_ToggleMinimap</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_ToggleMinimap</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_ToggleMinimap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1688" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1688" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a78e8f44eaa18dbf4447ebdb92d812767" prot="private" static="no" mutable="no">
+        <type>readonly InputAction</type>
+        <definition>readonly InputAction PlayerInputAction.m_PlayerControler_Pause</definition>
+        <argsstring></argsstring>
+        <name>m_PlayerControler_Pause</name>
+        <qualifiedname>PlayerInputAction.m_PlayerControler_Pause</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1689" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1a53f89531f2243f4e1348398edbff7c6f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerInputAction.m_KeyboardMouseSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_KeyboardMouseSchemeIndex</name>
+        <qualifiedname>PlayerInputAction.m_KeyboardMouseSchemeIndex</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1788" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1788" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1aab715a5dbff8fb5380c1111bf6dfb87c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerInputAction.m_GamepadSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_GamepadSchemeIndex</name>
+        <qualifiedname>PlayerInputAction.m_GamepadSchemeIndex</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1797" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1aa17702ec133b3cc91211a4ee39a54ada" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerInputAction.m_TouchSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_TouchSchemeIndex</name>
+        <qualifiedname>PlayerInputAction.m_TouchSchemeIndex</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1806" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1806" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ad2c37efe4b433ccb6bae8ad111c40c56" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerInputAction.m_JoystickSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_JoystickSchemeIndex</name>
+        <qualifiedname>PlayerInputAction.m_JoystickSchemeIndex</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1815" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_input_action_1ad7ff3c550139576b678a983e304ac48f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerInputAction.m_XRSchemeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_XRSchemeIndex</name>
+        <qualifiedname>PlayerInputAction.m_XRSchemeIndex</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1824" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1824" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_input_action_1af640f2a30604826d834170362583d7d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlayerInputAction.PlayerInputAction</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerInputAction</name>
+        <qualifiedname>PlayerInputAction.PlayerInputAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="21" column="12" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="21" bodyend="1434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1a0b0f24d1453a90110ec1063e3c9c7eac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInputAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>PlayerInputAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1436" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1436" bodyend="1439"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1a980786829fe5c6b2cdebe76428c59cb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerInputAction.Contains</definition>
+        <argsstring>(InputAction action)</argsstring>
+        <name>Contains</name>
+        <qualifiedname>PlayerInputAction.Contains</qualifiedname>
+        <param>
+          <type>InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1455" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1455" bodyend="1458"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1aa8f3986488794a4228b7ee06cf7cd50d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; InputAction &gt;</type>
+        <definition>IEnumerator&lt; InputAction &gt; PlayerInputAction.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>PlayerInputAction.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1460" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1460" bodyend="1463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1a8e0c64e9aa967a7f4fb6ceca9c817919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInputAction.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <qualifiedname>PlayerInputAction.Enable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1470" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1470" bodyend="1473"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1a8f1b862ed1d8fe78791a9206a275c199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerInputAction.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>PlayerInputAction.Disable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1475" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1475" bodyend="1478"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1a0cf36568439a1aff4070d63d3e743c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>InputAction</type>
+        <definition>InputAction PlayerInputAction.FindAction</definition>
+        <argsstring>(string actionNameOrId, bool throwIfNotFound=false)</argsstring>
+        <name>FindAction</name>
+        <qualifiedname>PlayerInputAction.FindAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>actionNameOrId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwIfNotFound</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1481" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1481" bodyend="1484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_input_action_1a4cee31546b24de3f8b7c25193803490e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PlayerInputAction.FindBinding</definition>
+        <argsstring>(InputBinding bindingMask, out InputAction action)</argsstring>
+        <name>FindBinding</name>
+        <qualifiedname>PlayerInputAction.FindBinding</qualifiedname>
+        <param>
+          <type>InputBinding</type>
+          <declname>bindingMask</declname>
+        </param>
+        <param>
+          <type>out InputAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1485" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1485" bodyend="1488"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_input_action_1a23ed52c00d291f3f37d632cf3cfe34b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. PlayerInputAction.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>PlayerInputAction.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="1465" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="1465" bodyend="1468"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>PlayerInputAction</label>
+        <link refid="class_player_input_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IInputActionCollection2</label>
+      </node>
+      <node id="1">
+        <label>PlayerInputAction</label>
+        <link refid="class_player_input_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" line="18" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/InputSystem/PlayerInputAction.cs" bodystart="19" bodyend="1870"/>
+    <listofallmembers>
+      <member refid="class_player_input_action_1acaf87ea2597d3fac23c48e1466f0bcc5" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>asset</name></member>
+      <member refid="class_player_input_action_1ab560515e8f22f4509f3e83786c1d3cc9" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>bindingMask</name></member>
+      <member refid="class_player_input_action_1ad68cea82b21dcd0bdb81edf35d0484ef" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>bindings</name></member>
+      <member refid="class_player_input_action_1a980786829fe5c6b2cdebe76428c59cb9" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>Contains</name></member>
+      <member refid="class_player_input_action_1a3eb6da55f967f2ede8f698af900a872e" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>controlSchemes</name></member>
+      <member refid="class_player_input_action_1aa9108e692a88a8a61405ab2af0ed2cef" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>devices</name></member>
+      <member refid="class_player_input_action_1a8f1b862ed1d8fe78791a9206a275c199" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>Disable</name></member>
+      <member refid="class_player_input_action_1a0b0f24d1453a90110ec1063e3c9c7eac" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>Dispose</name></member>
+      <member refid="class_player_input_action_1a8e0c64e9aa967a7f4fb6ceca9c817919" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>Enable</name></member>
+      <member refid="class_player_input_action_1a0cf36568439a1aff4070d63d3e743c20" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>FindAction</name></member>
+      <member refid="class_player_input_action_1a4cee31546b24de3f8b7c25193803490e" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>FindBinding</name></member>
+      <member refid="class_player_input_action_1a405b2951e4ef61c242aeaa28d02a78c6" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>GamepadScheme</name></member>
+      <member refid="class_player_input_action_1aa8f3986488794a4228b7ee06cf7cd50d" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>GetEnumerator</name></member>
+      <member refid="class_player_input_action_1a23ed52c00d291f3f37d632cf3cfe34b6" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>GetEnumerator</name></member>
+      <member refid="class_player_input_action_1ac8da7fadee26d58c5bf409004a60bf1d" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>JoystickScheme</name></member>
+      <member refid="class_player_input_action_1abb69b0c01e653b4dabc9f20d61de9471" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>KeyboardMouseScheme</name></member>
+      <member refid="class_player_input_action_1aab715a5dbff8fb5380c1111bf6dfb87c" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_GamepadSchemeIndex</name></member>
+      <member refid="class_player_input_action_1ad2c37efe4b433ccb6bae8ad111c40c56" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_JoystickSchemeIndex</name></member>
+      <member refid="class_player_input_action_1a53f89531f2243f4e1348398edbff7c6f" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_KeyboardMouseSchemeIndex</name></member>
+      <member refid="class_player_input_action_1adbe3f83cca810fe0a5a4f559ccb49fbc" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player</name></member>
+      <member refid="class_player_input_action_1a346eb25b89acbaef13edc091a2c6cca0" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_Fire</name></member>
+      <member refid="class_player_input_action_1a9942f6b2e9bb9054cc1d99fbe0da1454" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_Look</name></member>
+      <member refid="class_player_input_action_1af5ee2b806be261c591fb260e3dd068bf" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_Move</name></member>
+      <member refid="class_player_input_action_1af7abd7abd2287768452fdf0e4523ebfd" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_NextCellType</name></member>
+      <member refid="class_player_input_action_1ad7f33e74923849455ec5f712ca992f5f" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_PointerPosition</name></member>
+      <member refid="class_player_input_action_1ae87f8988a5028cf1da5175dd1f7c4d48" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_PreviousCellType</name></member>
+      <member refid="class_player_input_action_1a36d52e8cf54c314a629ddf4f9915e57c" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_Player_Zoom</name></member>
+      <member refid="class_player_input_action_1aa0de6023cdb16a1937c9192aee236ca2" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerActionsCallbackInterface</name></member>
+      <member refid="class_player_input_action_1a0ff080e4abc0b7f44e102a57b71de25b" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler</name></member>
+      <member refid="class_player_input_action_1a1006ac208f952df9a102ef426027a2e7" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_BuyItem</name></member>
+      <member refid="class_player_input_action_1a60ef19906831932234643fbce30698ec" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_Dash</name></member>
+      <member refid="class_player_input_action_1a9d478de8e464246e68a15e2c32c8ccd7" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_Fire</name></member>
+      <member refid="class_player_input_action_1acc343fe8ffc100e7c49525a53420eb2f" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_Jump</name></member>
+      <member refid="class_player_input_action_1aad7beaf1b4297a688053d60b959ef038" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_Look</name></member>
+      <member refid="class_player_input_action_1a52d47ad5ca8d58b7d259d34c65e26ee5" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_Move</name></member>
+      <member refid="class_player_input_action_1ad1286b25b0ab4fdf7e87fecc357a638f" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_NextWepon</name></member>
+      <member refid="class_player_input_action_1a78e8f44eaa18dbf4447ebdb92d812767" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_Pause</name></member>
+      <member refid="class_player_input_action_1a920e4cac3ab501702de729dca150d552" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_PreviousWepon</name></member>
+      <member refid="class_player_input_action_1af9a7a29a42d4b9628449298ee867a4ce" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_SprintToggle</name></member>
+      <member refid="class_player_input_action_1adb41b837630b00c9a2ec0c94e52c0764" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControler_ToggleMinimap</name></member>
+      <member refid="class_player_input_action_1a8aa830b40687da6ae56c2c0eb8740b23" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_PlayerControlerActionsCallbackInterface</name></member>
+      <member refid="class_player_input_action_1aa17702ec133b3cc91211a4ee39a54ada" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_TouchSchemeIndex</name></member>
+      <member refid="class_player_input_action_1a3c4dafbcbd5e6a67dc949c932c375f33" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI</name></member>
+      <member refid="class_player_input_action_1ad274ad1ab4c72671931ce9631c950770" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_Cancel</name></member>
+      <member refid="class_player_input_action_1adb606e4f73006cba181977a6da721cf6" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_Click</name></member>
+      <member refid="class_player_input_action_1af4a3cf3db389bd2f91d56e128dec5e9f" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_MiddleClick</name></member>
+      <member refid="class_player_input_action_1ac6b02427467269bba63aa073eb3951e1" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_Navigate</name></member>
+      <member refid="class_player_input_action_1ae1a39a62e663976801dc6d1aa42891f6" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_Point</name></member>
+      <member refid="class_player_input_action_1a4754f491c79acbe2205c001a99c6988e" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_RightClick</name></member>
+      <member refid="class_player_input_action_1ab1857e55b1fb78e647c0d39a448a6e53" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_ScrollWheel</name></member>
+      <member refid="class_player_input_action_1a0e8f3f45db5d9645a4738881413b2387" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_Submit</name></member>
+      <member refid="class_player_input_action_1a4fe2d0521f7a5d4a492b13b9e653e7a9" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_TrackedDeviceOrientation</name></member>
+      <member refid="class_player_input_action_1ac831454b3cee2fe64a36f38a4793b15a" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UI_TrackedDevicePosition</name></member>
+      <member refid="class_player_input_action_1acd9b873013fecce73af9a827a8d8d065" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_UIActionsCallbackInterface</name></member>
+      <member refid="class_player_input_action_1ad7ff3c550139576b678a983e304ac48f" prot="private" virt="non-virtual"><scope>PlayerInputAction</scope><name>m_XRSchemeIndex</name></member>
+      <member refid="class_player_input_action_1a96ae99c43757cc03996e3c953cd19df4" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>Player</name></member>
+      <member refid="class_player_input_action_1a6294a790258349224e47142ed5344bdc" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>PlayerControler</name></member>
+      <member refid="class_player_input_action_1af640f2a30604826d834170362583d7d9" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>PlayerInputAction</name></member>
+      <member refid="class_player_input_action_1af937277f889980bae6937b54f1510321" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>TouchScheme</name></member>
+      <member refid="class_player_input_action_1ac23805310b0f8da332c96a74738eecf7" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>UI</name></member>
+      <member refid="class_player_input_action_1a5af2f1480d529dbe0c6707222c155486" prot="public" virt="non-virtual"><scope>PlayerInputAction</scope><name>XRScheme</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

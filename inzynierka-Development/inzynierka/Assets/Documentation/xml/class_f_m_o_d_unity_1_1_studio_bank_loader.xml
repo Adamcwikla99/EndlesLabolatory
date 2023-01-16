@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_studio_bank_loader" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::StudioBankLoader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1ad6edce3238a6ce995b43dfcb54ad84ae" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1ae941ddae0b9bf78378ee3be39a3ec4c6" kindref="member">LoaderGameEvent</ref></type>
+        <definition>LoaderGameEvent FMODUnity.StudioBankLoader.LoadEvent</definition>
+        <argsstring></argsstring>
+        <name>LoadEvent</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.LoadEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="9" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1ae44f56b6f4a871fb8cf63c68ffb5b251" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1ae941ddae0b9bf78378ee3be39a3ec4c6" kindref="member">LoaderGameEvent</ref></type>
+        <definition>LoaderGameEvent FMODUnity.StudioBankLoader.UnloadEvent</definition>
+        <argsstring></argsstring>
+        <name>UnloadEvent</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.UnloadEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="10" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1aedce2a82100883b19f304f0e112eaced" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.StudioBankLoader.Banks</definition>
+        <argsstring></argsstring>
+        <name>Banks</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.Banks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="12" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a6b85d7346c5bb754c84821170bd69217" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.StudioBankLoader.CollisionTag</definition>
+        <argsstring></argsstring>
+        <name>CollisionTag</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.CollisionTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="13" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1ac4c3fe271e6995624c030bb193470d7a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioBankLoader.PreloadSamples</definition>
+        <argsstring></argsstring>
+        <name>PreloadSamples</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.PreloadSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="14" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a23317b11288b51866a9c0ef382e07e32" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StudioBankLoader.isQuitting</definition>
+        <argsstring></argsstring>
+        <name>isQuitting</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.isQuitting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="15" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a198a53cdfa6cc54574726e751a7071e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.HandleGameEvent</definition>
+        <argsstring>(LoaderGameEvent gameEvent)</argsstring>
+        <name>HandleGameEvent</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.HandleGameEvent</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_unity_1ae941ddae0b9bf78378ee3be39a3ec4c6" kindref="member">LoaderGameEvent</ref></type>
+          <declname>gameEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="17" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="17" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a9e41505549c6eb559ef02d32f17d6e56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="29" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a76b19b478f6f5ce9b3438ab4ce922ec8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.OnApplicationQuit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="35" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a84a751ceaae0d5a6b67e5575c3cad9cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="40" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a9618ce4f0606e6c0274e079bdc3c14cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="84" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a14d522290430bf232a7f5fc6a514abd6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="89" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a1c6ab69f73ed2b8aaea71e51bbf179f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.Load</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="94" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="94" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_studio_bank_loader_1a7bad8cc786172c4ae9b41b66c56023e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.StudioBankLoader.Unload</definition>
+        <argsstring>()</argsstring>
+        <name>Unload</name>
+        <qualifiedname>FMODUnity.StudioBankLoader.Unload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="110" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="110" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.StudioBankLoader</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_bank_loader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.StudioBankLoader</label>
+        <link refid="class_f_m_o_d_unity_1_1_studio_bank_loader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" line="7" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/StudioBankLoader.cs" bodystart="8" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1aedce2a82100883b19f304f0e112eaced" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>Banks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a6b85d7346c5bb754c84821170bd69217" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>CollisionTag</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a198a53cdfa6cc54574726e751a7071e1" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>HandleGameEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a23317b11288b51866a9c0ef382e07e32" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>isQuitting</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a1c6ab69f73ed2b8aaea71e51bbf179f8" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>Load</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1ad6edce3238a6ce995b43dfcb54ad84ae" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>LoadEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a76b19b478f6f5ce9b3438ab4ce922ec8" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>OnApplicationQuit</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a84a751ceaae0d5a6b67e5575c3cad9cf" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>OnDestroy</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a14d522290430bf232a7f5fc6a514abd6" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>OnDisable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a9618ce4f0606e6c0274e079bdc3c14cb" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1ac4c3fe271e6995624c030bb193470d7a" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>PreloadSamples</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a9e41505549c6eb559ef02d32f17d6e56" prot="private" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>Start</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1a7bad8cc786172c4ae9b41b66c56023e3" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>Unload</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_studio_bank_loader_1ae44f56b6f4a871fb8cf63c68ffb5b251" prot="public" virt="non-virtual"><scope>FMODUnity::StudioBankLoader</scope><name>UnloadEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

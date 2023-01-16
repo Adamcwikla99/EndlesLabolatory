@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_tunnel_1_1_tunnel_controller" kind="class" language="C#" prot="public">
+    <compoundname>Room::Tunnel::TunnelController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_tunnel_1_1_tunnel_controller_1a2489739697720f4aa00fac826fb72398" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Room.Tunnel.TunnelController.AlignedRoom</definition>
+        <argsstring></argsstring>
+        <name>AlignedRoom</name>
+        <qualifiedname>Room.Tunnel.TunnelController.AlignedRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="15" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_tunnel_1_1_tunnel_controller_1ab2b984cb3d1e7cfc6cd27b10d17a9bb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Room.Tunnel.TunnelController.TunnelRoom</definition>
+        <argsstring></argsstring>
+        <name>TunnelRoom</name>
+        <qualifiedname>Room.Tunnel.TunnelController.TunnelRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="18" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_tunnel_1_1_tunnel_controller_1a09752a472ac4dddd2e0cbcc2db64efd8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>System.Action</type>
+        <definition>System.Action Room.Tunnel.TunnelController.PlayerEneredCollider</definition>
+        <argsstring></argsstring>
+        <name>PlayerEneredCollider</name>
+        <qualifiedname>Room.Tunnel.TunnelController.PlayerEneredCollider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="21" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_tunnel_1_1_tunnel_controller_1ad3458b2f4a649681ce2c030a350561f8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform Room.Tunnel.TunnelController.ForceFieldStartPosition</definition>
+        <argsstring></argsstring>
+        <name>ForceFieldStartPosition</name>
+        <qualifiedname>Room.Tunnel.TunnelController.ForceFieldStartPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="24" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_tunnel_1_1_tunnel_controller_1a09091810b20954fdb8ca86329023b23d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform Room.Tunnel.TunnelController.ForceFieldEndPosition</definition>
+        <argsstring></argsstring>
+        <name>ForceFieldEndPosition</name>
+        <qualifiedname>Room.Tunnel.TunnelController.ForceFieldEndPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="27" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_tunnel_1_1_tunnel_controller_1a6e162ff183fa3048c1e9c00b4fbbbe49" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_tunnel_events" kindref="compound">TunnelEvents</ref></type>
+        <definition>TunnelEvents Room.Tunnel.TunnelController.RoomTunnelEvents</definition>
+        <argsstring></argsstring>
+        <name>RoomTunnelEvents</name>
+        <qualifiedname>Room.Tunnel.TunnelController.RoomTunnelEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="30" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_tunnel_1_1_tunnel_controller_1accc4c1f7996dc68bbee08bb67ef092c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.Tunnel.TunnelController.SetAlignedRoom</definition>
+        <argsstring>(CordsXY alignedRoom)</argsstring>
+        <name>SetAlignedRoom</name>
+        <qualifiedname>Room.Tunnel.TunnelController.SetAlignedRoom</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>alignedRoom</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets tunnel aligned rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="47" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_tunnel_1_1_tunnel_controller_1acba916f46bd8b3961222c2da51282f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.Tunnel.TunnelController.SetTunnelRoom</definition>
+        <argsstring>(CordsXY tunnelRoom)</argsstring>
+        <name>SetTunnelRoom</name>
+        <qualifiedname>Room.Tunnel.TunnelController.SetTunnelRoom</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>tunnelRoom</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets tunnel aligned tunnels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="52" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_tunnel_1_1_tunnel_controller_1ae7e887919add01c5c1f4858053600929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.Tunnel.TunnelController.AwakeRoomEntitys</definition>
+        <argsstring>()</argsstring>
+        <name>AwakeRoomEntitys</name>
+        <qualifiedname>Room.Tunnel.TunnelController.AwakeRoomEntitys</qualifiedname>
+        <briefdescription>
+<para>methode that initializes room awakening process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="57" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements tunnel logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.Tunnel.TunnelController</label>
+        <link refid="class_room_1_1_tunnel_1_1_tunnel_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.Tunnel.TunnelController</label>
+        <link refid="class_room_1_1_tunnel_1_1_tunnel_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/Tunnel/TunnelController.cs" bodystart="11" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1a2489739697720f4aa00fac826fb72398" prot="public" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>AlignedRoom</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1ae7e887919add01c5c1f4858053600929" prot="public" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>AwakeRoomEntitys</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1a09091810b20954fdb8ca86329023b23d" prot="private" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>ForceFieldEndPosition</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1ad3458b2f4a649681ce2c030a350561f8" prot="private" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>ForceFieldStartPosition</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1a09752a472ac4dddd2e0cbcc2db64efd8" prot="public" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>PlayerEneredCollider</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1a6e162ff183fa3048c1e9c00b4fbbbe49" prot="private" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>RoomTunnelEvents</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1accc4c1f7996dc68bbee08bb67ef092c8" prot="public" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>SetAlignedRoom</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1acba916f46bd8b3961222c2da51282f9d" prot="public" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>SetTunnelRoom</name></member>
+      <member refid="class_room_1_1_tunnel_1_1_tunnel_controller_1ab2b984cb3d1e7cfc6cd27b10d17a9bb1" prot="public" virt="non-virtual"><scope>Room::Tunnel::TunnelController</scope><name>TunnelRoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

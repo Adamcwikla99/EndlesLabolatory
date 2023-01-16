@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_structures_1_1_map_1_1_floor_essential_rooms" kind="class" language="C#" prot="public">
+    <compoundname>Structures::Map::FloorEssentialRooms</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_essential_rooms_1a24a719457b6dba6a2ce3a3fc7bd06d83" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.FloorEssentialRooms.bossRoomCords</definition>
+        <argsstring></argsstring>
+        <name>bossRoomCords</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.bossRoomCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="13" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_essential_rooms_1affbb0ea162a0469e3dcfbc782c7e9a6e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.FloorEssentialRooms.shopRoomCords</definition>
+        <argsstring></argsstring>
+        <name>shopRoomCords</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.shopRoomCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="14" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_structures_1_1_map_1_1_floor_essential_rooms_1a8d739e2b9781e2abde6e431423917022" prot="public" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY Structures.Map.FloorEssentialRooms.startRoomCords</definition>
+        <argsstring></argsstring>
+        <name>startRoomCords</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.startRoomCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="15" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_essential_rooms_1a28522051fb508de2decd0c3fc5510834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.FloorEssentialRooms.FloorEssentialRooms</definition>
+        <argsstring>(CordsXY bossRoomCords, CordsXY shopRoomCords, CordsXY startRoomCords)</argsstring>
+        <name>FloorEssentialRooms</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.FloorEssentialRooms</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>bossRoomCords</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>shopRoomCords</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>startRoomCords</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets all essential rooms cords </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="23" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_essential_rooms_1a9d8449ccd0f1794db5579dbddad38abd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Structures.Map.FloorEssentialRooms.FloorEssentialRooms</definition>
+        <argsstring>()</argsstring>
+        <name>FloorEssentialRooms</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.FloorEssentialRooms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="30" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_essential_rooms_1aeb25eb33a2d465bc415b2ad1b4af14ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Structures.Map.FloorEssentialRooms.AllAssigned</definition>
+        <argsstring>()</argsstring>
+        <name>AllAssigned</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.AllAssigned</qualifiedname>
+        <briefdescription>
+<para>methode that check if all essential rooms has been assigned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="38" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="38" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_structures_1_1_map_1_1_floor_essential_rooms_1ac85fdb3625dd20b94f8fef932231a0ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Structures.Map.FloorEssentialRooms.InitAssigned</definition>
+        <argsstring>()</argsstring>
+        <name>InitAssigned</name>
+        <qualifiedname>Structures.Map.FloorEssentialRooms.InitAssigned</qualifiedname>
+        <briefdescription>
+<para>method that sets initial cords value of essential rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="66" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_data" kindref="compound">Data</ref> wraper for floor essential rooms. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Structures.Map.FloorEssentialRooms</label>
+        <link refid="class_structures_1_1_map_1_1_floor_essential_rooms"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>bossRoomCords</edgelabel>
+          <edgelabel>shopRoomCords</edgelabel>
+          <edgelabel>startRoomCords</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Structures.Map.Room.CordsXY</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" line="9" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Structures/Map/FloorEssentialRooms.cs" bodystart="10" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1aeb25eb33a2d465bc415b2ad1b4af14ec" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>AllAssigned</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1a24a719457b6dba6a2ce3a3fc7bd06d83" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>bossRoomCords</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1a28522051fb508de2decd0c3fc5510834" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>FloorEssentialRooms</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1a9d8449ccd0f1794db5579dbddad38abd" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>FloorEssentialRooms</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1ac85fdb3625dd20b94f8fef932231a0ce" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>InitAssigned</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1affbb0ea162a0469e3dcfbc782c7e9a6e" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>shopRoomCords</name></member>
+      <member refid="class_structures_1_1_map_1_1_floor_essential_rooms_1a8d739e2b9781e2abde6e431423917022" prot="public" virt="non-virtual"><scope>Structures::Map::FloorEssentialRooms</scope><name>startRoomCords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

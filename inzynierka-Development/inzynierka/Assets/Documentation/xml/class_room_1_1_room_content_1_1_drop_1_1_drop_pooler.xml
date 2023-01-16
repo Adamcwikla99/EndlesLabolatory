@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Drop::DropPooler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a4fce4ea44fc86c8c56cf057215461820" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_drop_1_1_drop_item" kindref="compound">DropItem</ref></type>
+        <definition>DropItem Room.RoomContent.Drop.DropPooler.DropItemEvent</definition>
+        <argsstring></argsstring>
+        <name>DropItemEvent</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.DropItemEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="19" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a06cfcf4630619953fae3dec4f4f9f2a8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_structures_1_1_wrapper_1_1_drop_pool_data" kindref="compound">DropPoolData</ref> &gt;</type>
+        <definition>List&lt;DropPoolData&gt; Room.RoomContent.Drop.DropPooler.DropPoolDatas</definition>
+        <argsstring></argsstring>
+        <name>DropPoolDatas</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.DropPoolDatas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a05a1b8011a50c4e06b98121d587fe865" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Room.RoomContent.Drop.DropPooler.IncriseCount</definition>
+        <argsstring></argsstring>
+        <name>IncriseCount</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.IncriseCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="25" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a783520c2ed50a5411e9e2b519d0d23a8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_drop_1_1_return_drop_to_que" kindref="compound">ReturnDropToQue</ref></type>
+        <definition>ReturnDropToQue Room.RoomContent.Drop.DropPooler.QueReturner</definition>
+        <argsstring></argsstring>
+        <name>QueReturner</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.QueReturner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="28" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1acdbecaf7d87d4b0fe1c8bbf60c7de3b7" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Room.RoomContent.Drop.DropPooler.LiftUpDrop</definition>
+        <argsstring></argsstring>
+        <name>LiftUpDrop</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.LiftUpDrop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="31" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1ab4553d979e7475caef0ef1f88bc7a4b1" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespace_structures_1_1_enums_1a03ef1a29f98741c9440987135ab34407" kindref="member">DropType</ref>, Queue&lt; <ref refid="class_room_1_1_room_content_1_1_drop_1_1_drop" kindref="compound">Drop</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;DropType, Queue&lt;Drop&gt; &gt; Room.RoomContent.Drop.DropPooler.poolDrop</definition>
+        <argsstring></argsstring>
+        <name>poolDrop</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.poolDrop</qualifiedname>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_structures_1_1_enums_1a03ef1a29f98741c9440987135ab34407" kindref="member">DropType</ref>, Queue&lt;<ref refid="class_room_1_1_room_content_1_1_drop_1_1_drop" kindref="compound">Drop</ref>&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="36" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1aec7624a7845a7197fdcc71bb605b2b92" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="41" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a4dcb268336fcec356703a90839f7181e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="47" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1af5cf45c6f0255b0ab76db52260a6b7aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="53" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a0ad0f097f9b0446e8e0076e215db6482" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.GenerateDrop</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>GenerateDrop</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.GenerateDrop</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode that drops gameobject if he is lucky </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="64" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a101a833093fbe5a43311916c7af7e1cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Drop.DropPooler.AllowDrop</definition>
+        <argsstring>()</argsstring>
+        <name>AllowDrop</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.AllowDrop</qualifiedname>
+        <briefdescription>
+<para>methode that determins if player should be rewarded </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="77" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a27b4f93eb8c84aee6e20ddbbe0cdd064" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.DropReward</definition>
+        <argsstring>(Vector3 position)</argsstring>
+        <name>DropReward</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.DropReward</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns drop object in location of defeated enemy </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="85" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="85" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1aa5b9e8d1961a0658761c11cc7d4e4195" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.AddNewElementsToQue</definition>
+        <argsstring>(DropType toDrop)</argsstring>
+        <name>AddNewElementsToQue</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.AddNewElementsToQue</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a03ef1a29f98741c9440987135ab34407" kindref="member">DropType</ref></type>
+          <declname>toDrop</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds new drop gameobject to the drop pool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="103" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="103" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a2f281958432e7366b288d27ce3aec455" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.ReturnToQue</definition>
+        <argsstring>(DropType type, Drop dropObject)</argsstring>
+        <name>ReturnToQue</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.ReturnToQue</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a03ef1a29f98741c9440987135ab34407" kindref="member">DropType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="class_room_1_1_room_content_1_1_drop_1_1_drop" kindref="compound">Drop</ref></type>
+          <declname>dropObject</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns drop obejct to pool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="116" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a57535dc33d2a3d6bcd84606cc00bdadd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.InitDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>InitDictionary</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.InitDictionary</qualifiedname>
+        <briefdescription>
+<para>methode that initialized drop poll dictionary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="124" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a33f4358863411995e6547478beaf7267" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Drop.DropPooler.IndividualProjectileTypeSpawn</definition>
+        <argsstring>(DropPoolData projectilePoolData)</argsstring>
+        <name>IndividualProjectileTypeSpawn</name>
+        <qualifiedname>Room.RoomContent.Drop.DropPooler.IndividualProjectileTypeSpawn</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_wrapper_1_1_drop_pool_data" kindref="compound">DropPoolData</ref></type>
+          <declname>projectilePoolData</declname>
+        </param>
+        <briefdescription>
+<para>methode that spawns projectile reward </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="135" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="135" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that stores created and unused drop objects - implement object poll patern. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Drop.DropPooler</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Drop.DropPooler</label>
+        <link refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" line="14" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Drop/DropPooler.cs" bodystart="15" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1aa5b9e8d1961a0658761c11cc7d4e4195" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>AddNewElementsToQue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a101a833093fbe5a43311916c7af7e1cb" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>AllowDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a4fce4ea44fc86c8c56cf057215461820" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>DropItemEvent</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a06cfcf4630619953fae3dec4f4f9f2a8" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>DropPoolDatas</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a27b4f93eb8c84aee6e20ddbbe0cdd064" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>DropReward</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a0ad0f097f9b0446e8e0076e215db6482" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>GenerateDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a05a1b8011a50c4e06b98121d587fe865" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>IncriseCount</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a33f4358863411995e6547478beaf7267" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>IndividualProjectileTypeSpawn</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a57535dc33d2a3d6bcd84606cc00bdadd" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>InitDictionary</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1acdbecaf7d87d4b0fe1c8bbf60c7de3b7" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>LiftUpDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a4dcb268336fcec356703a90839f7181e" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>OnDisable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1aec7624a7845a7197fdcc71bb605b2b92" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>OnEnable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1ab4553d979e7475caef0ef1f88bc7a4b1" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>poolDrop</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a783520c2ed50a5411e9e2b519d0d23a8" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>QueReturner</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1a2f281958432e7366b288d27ce3aec455" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>ReturnToQue</name></member>
+      <member refid="class_room_1_1_room_content_1_1_drop_1_1_drop_pooler_1af5cf45c6f0255b0ab76db52260a6b7aa" prot="private" virt="non-virtual"><scope>Room::RoomContent::Drop::DropPooler</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

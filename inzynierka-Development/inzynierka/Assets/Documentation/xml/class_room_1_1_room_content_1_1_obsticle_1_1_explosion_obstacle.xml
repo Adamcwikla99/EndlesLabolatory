@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Obsticle::ExplosionObstacle</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle" prot="public" virt="non-virtual">Room.RoomContent.Obsticle.RoomObstacle</basecompoundref>
+    <basecompoundref refid="interface_interface_1_1_i_damage" prot="public" virt="non-virtual">Interface.IDamage</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1ac4e03eedf4a0f930206c0734e329067a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem Room.RoomContent.Obsticle.ExplosionObstacle.Particles</definition>
+        <argsstring></argsstring>
+        <name>Particles</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.Particles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="14" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a0941974cf60382747624078ac0723039" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Room.RoomContent.Obsticle.ExplosionObstacle.ParticleDamageToObstacle</definition>
+        <argsstring></argsstring>
+        <name>ParticleDamageToObstacle</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.ParticleDamageToObstacle</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="17" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a90a221e2dfb289783ced32df9b70ba7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.ExplosionObstacle.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1ac3303594a7f8855009e8ffdefb21bf9e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.ExplosionObstacle.CheckIfSurvived</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>CheckIfSurvived</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.CheckIfSurvived</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that checks if obstacle survived damage application </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="56" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="56" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a4c5f1077767d93e6bc7652244849cfba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.ExplosionObstacle.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.TakeDamage</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2">TakeDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>method responsible for applying damage to explosion obstacle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="38" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a682e26af62cdf4e0aa9d3d150c283963" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Obsticle.ExplosionObstacle.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.DeflectProjectile</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419">DeflectProjectile</reimplements>
+        <briefdescription>
+<para>methode that determins if obstacle can deflect projectiles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="51" column="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1ad90880fa81b4041b893b734893754105" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Obsticle.ExplosionObstacle.OnParticleCollision</definition>
+        <argsstring>(GameObject other)</argsstring>
+        <name>OnParticleCollision</name>
+        <qualifiedname>Room.RoomContent.Obsticle.ExplosionObstacle.OnParticleCollision</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode that ensures that obstacle takes particle damage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="74" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements explosion obstacle logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Obsticle.ExplosionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Obsticle.ExplosionObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomObstacle</label>
+        <link refid="class_room_1_1_room_content_1_1_obsticle_1_1_room_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Obsticle/ExplosionObstacle.cs" bodystart="10" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a90a221e2dfb289783ced32df9b70ba7e" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>Awake</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1ac3303594a7f8855009e8ffdefb21bf9e" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>CheckIfSurvived</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a682e26af62cdf4e0aa9d3d150c283963" prot="public" virt="virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a7d1f099228d1a956d6fed247bb0a14bb" prot="protected" virt="virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1ad90880fa81b4041b893b734893754105" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>OnParticleCollision</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a0941974cf60382747624078ac0723039" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>ParticleDamageToObstacle</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1ac4e03eedf4a0f930206c0734e329067a" prot="private" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>Particles</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1a5d220c1b282000b1f17f1a341a65504e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_obsticle_1_1_explosion_obstacle_1a4c5f1077767d93e6bc7652244849cfba" prot="public" virt="virtual"><scope>Room::RoomContent::Obsticle::ExplosionObstacle</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

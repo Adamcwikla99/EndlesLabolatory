@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_file_managment_1_1_save_system" kind="class" language="C#" prot="public">
+    <compoundname>Events::FileManagment::SaveSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_file_managment_1_1_save_system_1a30522a79a41fe968cf226c28c8b649de" prot="public" static="no" mutable="no">
+        <type>Func&lt; List&lt; <ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref> &gt; &gt;</type>
+        <definition>Func&lt;List&lt;RoomCellLayout&gt; &gt; Events.FileManagment.SaveSystem.GetAllRoomTemplates</definition>
+        <argsstring></argsstring>
+        <name>GetAllRoomTemplates</name>
+        <qualifiedname>Events.FileManagment.SaveSystem.GetAllRoomTemplates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" line="14" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_file_managment_1_1_save_system_1a79e2024adbee75460d4f2fdc0079f15c" prot="public" static="no" mutable="no">
+        <type>Func&lt; string, <ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref> &gt;</type>
+        <definition>Func&lt;string, RoomCellLayout&gt; Events.FileManagment.SaveSystem.LoadRoomLayout</definition>
+        <argsstring></argsstring>
+        <name>LoadRoomLayout</name>
+        <qualifiedname>Events.FileManagment.SaveSystem.LoadRoomLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" line="15" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_events_1_1_file_managment_1_1_save_system_1a4a178d3be967b3470cd486a11e2f774f" prot="public" static="no" mutable="no">
+        <type>Action&lt; <ref refid="class_data_1_1_room_cell_layout" kindref="compound">RoomCellLayout</ref>, string &gt;</type>
+        <definition>Action&lt;RoomCellLayout, string&gt; Events.FileManagment.SaveSystem.SaveRoomLayout</definition>
+        <argsstring></argsstring>
+        <name>SaveRoomLayout</name>
+        <qualifiedname>Events.FileManagment.SaveSystem.SaveRoomLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" line="16" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying update saving and loading events. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.FileManagment.SaveSystem</label>
+        <link refid="class_events_1_1_file_managment_1_1_save_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.FileManagment.SaveSystem</label>
+        <link refid="class_events_1_1_file_managment_1_1_save_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" line="12" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_file_managment_1_1_save_system_1a30522a79a41fe968cf226c28c8b649de" prot="public" virt="non-virtual"><scope>Events::FileManagment::SaveSystem</scope><name>GetAllRoomTemplates</name></member>
+      <member refid="class_events_1_1_file_managment_1_1_save_system_1a79e2024adbee75460d4f2fdc0079f15c" prot="public" virt="non-virtual"><scope>Events::FileManagment::SaveSystem</scope><name>LoadRoomLayout</name></member>
+      <member refid="class_events_1_1_file_managment_1_1_save_system_1a4a178d3be967b3470cd486a11e2f774f" prot="public" virt="non-virtual"><scope>Events::FileManagment::SaveSystem</scope><name>SaveRoomLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

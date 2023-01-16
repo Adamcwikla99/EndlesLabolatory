@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator" kind="class" language="C#" prot="public">
+    <compoundname>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a0eb4cbcb9e034d502c6833aa551b9d42" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Animator</type>
+        <definition>Animator Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.BaseEnemy</definition>
+        <argsstring></argsstring>
+        <name>BaseEnemy</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.BaseEnemy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="13" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a2b548b24f7692d2867ec3abfd3cfa266" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.animationTime</definition>
+        <argsstring></argsstring>
+        <name>animationTime</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.animationTime</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="18" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a1a488d57eb502a67edbfd46fea18de3c" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.start</qualifiedname>
+        <initializer>= Animator.StringToHash(&quot;Start&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="20" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a226f0ab69fb730b954517ccd9a64058a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.currentAnimationTime</definition>
+        <argsstring></argsstring>
+        <name>currentAnimationTime</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.currentAnimationTime</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="19" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1abbcdd11ae8465c5bc99a05f9d73cbfe4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.startedPlay</definition>
+        <argsstring></argsstring>
+        <name>startedPlay</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.startedPlay</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="21" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a27d241a60f33e31989004c307c6f1c7d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.startCount</definition>
+        <argsstring></argsstring>
+        <name>startCount</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.startCount</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="22" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a84a82d33eb1d669f4a0ef02dc8ec6086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.PlayAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayAnimation</name>
+        <qualifiedname>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator.PlayAnimation</qualifiedname>
+        <briefdescription>
+<para>methode that plays animation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="30" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class responsible for playing shield enemy animation </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator</label>
+        <link refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Animations.Enemys.ShieldEnemy.ShieldEnemyAnimator</label>
+        <link refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" line="8" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/ShieldEnemy/ShieldEnemyAnimator.cs" bodystart="9" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a2b548b24f7692d2867ec3abfd3cfa266" prot="private" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>animationTime</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a0eb4cbcb9e034d502c6833aa551b9d42" prot="private" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>BaseEnemy</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a226f0ab69fb730b954517ccd9a64058a" prot="private" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>currentAnimationTime</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a84a82d33eb1d669f4a0ef02dc8ec6086" prot="public" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>PlayAnimation</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a1a488d57eb502a67edbfd46fea18de3c" prot="private" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>start</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1a27d241a60f33e31989004c307c6f1c7d" prot="private" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>startCount</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_shield_enemy_1_1_shield_enemy_animator_1abbcdd11ae8465c5bc99a05f9d73cbfe4" prot="private" virt="non-virtual"><scope>Animations::Enemys::ShieldEnemy::ShieldEnemyAnimator</scope><name>startedPlay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

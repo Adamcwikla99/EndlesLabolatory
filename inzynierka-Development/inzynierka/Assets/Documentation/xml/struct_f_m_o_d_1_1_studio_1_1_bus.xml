@@ -1,0 +1,816 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_f_m_o_d_1_1_studio_1_1_bus" kind="struct" language="C#" prot="public">
+    <compoundname>FMOD::Studio::Bus</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a865c492d17f7a5bd0dcbd8d1b05be382" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr FMOD.Studio.Bus.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>FMOD.Studio.Bus.handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1714" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1714" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a948b85fbdfab1b53ed5a57606aad178a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getID</definition>
+        <argsstring>(out GUID id)</argsstring>
+        <name>getID</name>
+        <qualifiedname>FMOD.Studio.Bus.getID</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1583" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1583" bodyend="1586"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a635187ffced7e6a2ecd0a1de66f5c5bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getPath</definition>
+        <argsstring>(out string path)</argsstring>
+        <name>getPath</name>
+        <qualifiedname>FMOD.Studio.Bus.getPath</qualifiedname>
+        <param>
+          <type>out string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1587" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1587" bodyend="1612"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a777e4df8f08d09fedd33fe4cb4c57557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getVolume</definition>
+        <argsstring>(out float volume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.Studio.Bus.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1613" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1613" bodyend="1617"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1ad3146170ee2ba9520f8d4f8a9bf55669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getVolume</definition>
+        <argsstring>(out float volume, out float finalvolume)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>FMOD.Studio.Bus.getVolume</qualifiedname>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1618" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1618" bodyend="1621"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a0cd20b87fe3c35af5b3f705f99c0aa2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.setVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>setVolume</name>
+        <qualifiedname>FMOD.Studio.Bus.setVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1622" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1622" bodyend="1625"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a01a24522ce2777daf8ae9dc645cb4f62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getPaused</definition>
+        <argsstring>(out bool paused)</argsstring>
+        <name>getPaused</name>
+        <qualifiedname>FMOD.Studio.Bus.getPaused</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1626" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1626" bodyend="1629"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1aa71ab01df0f2f93a108caa84d4bdfb14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.setPaused</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>setPaused</name>
+        <qualifiedname>FMOD.Studio.Bus.setPaused</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1630" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1630" bodyend="1633"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a04588dbd56f7755e2ad8bbb676754291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getMute</definition>
+        <argsstring>(out bool mute)</argsstring>
+        <name>getMute</name>
+        <qualifiedname>FMOD.Studio.Bus.getMute</qualifiedname>
+        <param>
+          <type>out bool</type>
+          <declname>mute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1634" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1634" bodyend="1637"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a5b1704fdd08f95196fb12423492fcc0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.setMute</definition>
+        <argsstring>(bool mute)</argsstring>
+        <name>setMute</name>
+        <qualifiedname>FMOD.Studio.Bus.setMute</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>mute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1638" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1638" bodyend="1641"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1aa14f0e1f76c81923f06cfa3b3c4edb60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.stopAllEvents</definition>
+        <argsstring>(STOP_MODE mode)</argsstring>
+        <name>stopAllEvents</name>
+        <qualifiedname>FMOD.Studio.Bus.stopAllEvents</qualifiedname>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881" kindref="member">STOP_MODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1642" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1642" bodyend="1645"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a782c4ba6b4f521d13b737a02a023c671" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.lockChannelGroup</definition>
+        <argsstring>()</argsstring>
+        <name>lockChannelGroup</name>
+        <qualifiedname>FMOD.Studio.Bus.lockChannelGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1646" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1646" bodyend="1649"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a4bc7016f0a0aab7437ac22524e4677d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.unlockChannelGroup</definition>
+        <argsstring>()</argsstring>
+        <name>unlockChannelGroup</name>
+        <qualifiedname>FMOD.Studio.Bus.unlockChannelGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1650" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1650" bodyend="1653"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a24d640383b6a1e5f1f2e4dd57128cf5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getChannelGroup</definition>
+        <argsstring>(out FMOD.ChannelGroup group)</argsstring>
+        <name>getChannelGroup</name>
+        <qualifiedname>FMOD.Studio.Bus.getChannelGroup</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_channel_group" kindref="compound">FMOD.ChannelGroup</ref></type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1654" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1654" bodyend="1657"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a33fae74b100f9cb0c9eb88488e91313a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getCPUUsage</definition>
+        <argsstring>(out uint exclusive, out uint inclusive)</argsstring>
+        <name>getCPUUsage</name>
+        <qualifiedname>FMOD.Studio.Bus.getCPUUsage</qualifiedname>
+        <param>
+          <type>out uint</type>
+          <declname>exclusive</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>inclusive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1658" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1658" bodyend="1661"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1adf7db92c90aff56cf46dd169a7b6e841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getMemoryUsage</definition>
+        <argsstring>(out MEMORY_USAGE memoryusage)</argsstring>
+        <name>getMemoryUsage</name>
+        <qualifiedname>FMOD.Studio.Bus.getMemoryUsage</qualifiedname>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" kindref="compound">MEMORY_USAGE</ref></type>
+          <declname>memoryusage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1662" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1662" bodyend="1665"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a8a6ce23dfbab0017b8dcc6a6b186fece" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.getPortIndex</definition>
+        <argsstring>(out ulong index)</argsstring>
+        <name>getPortIndex</name>
+        <qualifiedname>FMOD.Studio.Bus.getPortIndex</qualifiedname>
+        <param>
+          <type>out ulong</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1666" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1666" bodyend="1669"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a9db7329aa7432c2329d2c3ff3c0964fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>RESULT FMOD.Studio.Bus.setPortIndex</definition>
+        <argsstring>(ulong index)</argsstring>
+        <name>setPortIndex</name>
+        <qualifiedname>FMOD.Studio.Bus.setPortIndex</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1670" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1670" bodyend="1673"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a2607b84236fed24c7842f16a3a106fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMOD.Studio.Bus.Bus</definition>
+        <argsstring>(IntPtr ptr)</argsstring>
+        <name>Bus</name>
+        <qualifiedname>FMOD.Studio.Bus.Bus</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1716" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1716" bodyend="1716"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a366c3134c5a960c941cc152b54ab0a7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.Bus.hasHandle</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandle</name>
+        <qualifiedname>FMOD.Studio.Bus.hasHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1717" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1717" bodyend="1717"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a326b3b9ea26ddc74b89dbcf41f5b667f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMOD.Studio.Bus.clearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>clearHandle</name>
+        <qualifiedname>FMOD.Studio.Bus.clearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1718" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1718" bodyend="1718"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a2deb79e9f12710643125d64844488fd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMOD.Studio.Bus.isValid</definition>
+        <argsstring>()</argsstring>
+        <name>isValid</name>
+        <qualifiedname>FMOD.Studio.Bus.isValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1720" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1720" bodyend="1723"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a22114875cc26398be324f8c8ff9b6614" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMOD.Studio.Bus.FMOD_Studio_Bus_IsValid</definition>
+        <argsstring>(IntPtr bus)</argsstring>
+        <name>FMOD_Studio_Bus_IsValid</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_IsValid</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1677" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a2c7cfc13c0e30d3e7598070e7052645b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetID</definition>
+        <argsstring>(IntPtr bus, out GUID id)</argsstring>
+        <name>FMOD_Studio_Bus_GetID</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetID</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">GUID</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1679" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a5dcf82b4614ee19cc933010e69a8119d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetPath</definition>
+        <argsstring>(IntPtr bus, IntPtr path, int size, out int retrieved)</argsstring>
+        <name>FMOD_Studio_Bus_GetPath</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetPath</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>retrieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1681" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a8ace5737a38dac884a652b5667d904a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetVolume</definition>
+        <argsstring>(IntPtr bus, out float volume, out float finalvolume)</argsstring>
+        <name>FMOD_Studio_Bus_GetVolume</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>finalvolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1683" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a50f6dbd567891b3eb12f17980d9af903" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_SetVolume</definition>
+        <argsstring>(IntPtr bus, float volume)</argsstring>
+        <name>FMOD_Studio_Bus_SetVolume</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_SetVolume</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1685" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1abc35e2544125b31088104b54b70ce0e0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetPaused</definition>
+        <argsstring>(IntPtr bus, out bool paused)</argsstring>
+        <name>FMOD_Studio_Bus_GetPaused</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetPaused</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1687" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a2ed6c86517ced6ad36606766d8424673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_SetPaused</definition>
+        <argsstring>(IntPtr bus, bool paused)</argsstring>
+        <name>FMOD_Studio_Bus_SetPaused</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_SetPaused</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1689" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a54913c7a1562a5593359fd3b1e4c77d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetMute</definition>
+        <argsstring>(IntPtr bus, out bool mute)</argsstring>
+        <name>FMOD_Studio_Bus_GetMute</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetMute</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>mute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1691" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a84c1fe0b7afc6738e5c54895e528f5b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_SetMute</definition>
+        <argsstring>(IntPtr bus, bool mute)</argsstring>
+        <name>FMOD_Studio_Bus_SetMute</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_SetMute</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1693" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1aa7c9f2f78476e18e4863bce58b5ca232" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_StopAllEvents</definition>
+        <argsstring>(IntPtr bus, STOP_MODE mode)</argsstring>
+        <name>FMOD_Studio_Bus_StopAllEvents</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_StopAllEvents</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_f_m_o_d_1_1_studio_1acbb216a5cf3382209d27e7a0ea3be881" kindref="member">STOP_MODE</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1695" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a09550562fc0e8d6aa85e5d7b95c04c71" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_LockChannelGroup</definition>
+        <argsstring>(IntPtr bus)</argsstring>
+        <name>FMOD_Studio_Bus_LockChannelGroup</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_LockChannelGroup</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1697" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a125a4aeee101443ba34be466f5391058" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_UnlockChannelGroup</definition>
+        <argsstring>(IntPtr bus)</argsstring>
+        <name>FMOD_Studio_Bus_UnlockChannelGroup</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_UnlockChannelGroup</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1699" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1ac4cc18649fe0b69c1ea42168830f91ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetChannelGroup</definition>
+        <argsstring>(IntPtr bus, out IntPtr group)</argsstring>
+        <name>FMOD_Studio_Bus_GetChannelGroup</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetChannelGroup</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1701" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1ae57f8fa3074b91e9d9a9ccbb7ea6b68c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetCPUUsage</definition>
+        <argsstring>(IntPtr bus, out uint exclusive, out uint inclusive)</argsstring>
+        <name>FMOD_Studio_Bus_GetCPUUsage</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetCPUUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>exclusive</declname>
+        </param>
+        <param>
+          <type>out uint</type>
+          <declname>inclusive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1703" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1aac6cdafebfa14d9f26f778ec74d53818" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetMemoryUsage</definition>
+        <argsstring>(IntPtr bus, out MEMORY_USAGE memoryusage)</argsstring>
+        <name>FMOD_Studio_Bus_GetMemoryUsage</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetMemoryUsage</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_f_m_o_d_1_1_studio_1_1_m_e_m_o_r_y___u_s_a_g_e" kindref="compound">MEMORY_USAGE</ref></type>
+          <declname>memoryusage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1705" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a2450bdb9d9050b20e8c410950804905f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_GetPortIndex</definition>
+        <argsstring>(IntPtr bus, out ulong index)</argsstring>
+        <name>FMOD_Studio_Bus_GetPortIndex</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_GetPortIndex</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>out ulong</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1707" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_m_o_d_1_1_studio_1_1_bus_1a8954cbd81b40b3b5a5b87156c098fbb2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_1a305d1176ef3f8c8815861a60407ac33d" kindref="member">RESULT</ref></type>
+        <definition>static RESULT FMOD.Studio.Bus.FMOD_Studio_Bus_SetPortIndex</definition>
+        <argsstring>(IntPtr bus, ulong index)</argsstring>
+        <name>FMOD_Studio_Bus_SetPortIndex</name>
+        <qualifiedname>FMOD.Studio.Bus.FMOD_Studio_Bus_SetPortIndex</qualifiedname>
+        <param>
+          <type>IntPtr</type>
+          <declname>bus</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1709" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" line="1581" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/fmod_studio.cs" bodystart="1582" bodyend="1726"/>
+    <listofallmembers>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a2607b84236fed24c7842f16a3a106fe0" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>Bus</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a326b3b9ea26ddc74b89dbcf41f5b667f" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>clearHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1ac4cc18649fe0b69c1ea42168830f91ef" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1ae57f8fa3074b91e9d9a9ccbb7ea6b68c" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a2c7cfc13c0e30d3e7598070e7052645b" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1aac6cdafebfa14d9f26f778ec74d53818" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetMemoryUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a54913c7a1562a5593359fd3b1e4c77d9" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetMute</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a5dcf82b4614ee19cc933010e69a8119d" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1abc35e2544125b31088104b54b70ce0e0" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a2450bdb9d9050b20e8c410950804905f" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetPortIndex</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a8ace5737a38dac884a652b5667d904a3" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_GetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a22114875cc26398be324f8c8ff9b6614" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_IsValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a09550562fc0e8d6aa85e5d7b95c04c71" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_LockChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a84c1fe0b7afc6738e5c54895e528f5b0" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_SetMute</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a2ed6c86517ced6ad36606766d8424673" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_SetPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a8954cbd81b40b3b5a5b87156c098fbb2" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_SetPortIndex</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a50f6dbd567891b3eb12f17980d9af903" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_SetVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1aa7c9f2f78476e18e4863bce58b5ca232" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_StopAllEvents</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a125a4aeee101443ba34be466f5391058" prot="private" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>FMOD_Studio_Bus_UnlockChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a24d640383b6a1e5f1f2e4dd57128cf5c" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a33fae74b100f9cb0c9eb88488e91313a" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getCPUUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a948b85fbdfab1b53ed5a57606aad178a" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getID</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1adf7db92c90aff56cf46dd169a7b6e841" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getMemoryUsage</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a04588dbd56f7755e2ad8bbb676754291" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getMute</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a635187ffced7e6a2ecd0a1de66f5c5bd" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getPath</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a01a24522ce2777daf8ae9dc645cb4f62" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a8a6ce23dfbab0017b8dcc6a6b186fece" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getPortIndex</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a777e4df8f08d09fedd33fe4cb4c57557" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1ad3146170ee2ba9520f8d4f8a9bf55669" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>getVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a865c492d17f7a5bd0dcbd8d1b05be382" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>handle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a366c3134c5a960c941cc152b54ab0a7c" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>hasHandle</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a2deb79e9f12710643125d64844488fd7" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>isValid</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a782c4ba6b4f521d13b737a02a023c671" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>lockChannelGroup</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a5b1704fdd08f95196fb12423492fcc0b" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>setMute</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1aa71ab01df0f2f93a108caa84d4bdfb14" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>setPaused</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a9db7329aa7432c2329d2c3ff3c0964fd" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>setPortIndex</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a0cd20b87fe3c35af5b3f705f99c0aa2f" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>setVolume</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1aa14f0e1f76c81923f06cfa3b3c4edb60" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>stopAllEvents</name></member>
+      <member refid="struct_f_m_o_d_1_1_studio_1_1_bus_1a4bc7016f0a0aab7437ac22524e4677d2" prot="public" virt="non-virtual"><scope>FMOD::Studio::Bus</scope><name>unlockChannelGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

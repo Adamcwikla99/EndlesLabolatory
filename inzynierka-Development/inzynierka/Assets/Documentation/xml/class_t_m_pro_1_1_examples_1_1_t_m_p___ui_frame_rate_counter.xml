@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter" kind="class" language="C#" prot="public">
+    <compoundname>TMPro::Examples::TMP_UiFrameRateCounter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>FpsCounterAnchorPositions</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions</qualifiedname>
+        <enumvalue id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2eceab32beb056fbfe36afbabc6c88c81ab36" prot="public">
+          <name>TopLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea98e5a1c44509157ebcaf46c515c78875" prot="public">
+          <name>BottomLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea1d85a557894c340c318493f33bfa8efb" prot="public">
+          <name>TopRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea9146bfc669fddc88db2c4d89297d0e9a" prot="public">
+          <name>BottomRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="10" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a2cbc1725e08dd5ce8128da13d638d0f8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TMPro.Examples.TMP_UiFrameRateCounter.htmlColorTag</definition>
+        <argsstring></argsstring>
+        <name>htmlColorTag</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.htmlColorTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="15" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a7a0ceaadbbe57be4da25b914b1243713" prot="private" static="no" mutable="no">
+        <type><ref refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" kindref="member">FpsCounterAnchorPositions</ref></type>
+        <definition>FpsCounterAnchorPositions TMPro.Examples.TMP_UiFrameRateCounter.last_AnchorPosition</definition>
+        <argsstring></argsstring>
+        <name>last_AnchorPosition</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.last_AnchorPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="17" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a998f5fd4b12e6e65d4aa3b30bd0b946f" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform TMPro.Examples.TMP_UiFrameRateCounter.m_frameCounter_transform</definition>
+        <argsstring></argsstring>
+        <name>m_frameCounter_transform</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.m_frameCounter_transform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="18" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a15def6e4c1f2dabe6b5c09accd3214d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TMPro.Examples.TMP_UiFrameRateCounter.m_Frames</definition>
+        <argsstring></argsstring>
+        <name>m_Frames</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.m_Frames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="19" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa0a4c18ac66572a39932ee051ee42347" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TMPro.Examples.TMP_UiFrameRateCounter.m_LastInterval</definition>
+        <argsstring></argsstring>
+        <name>m_LastInterval</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.m_LastInterval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="20" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a9b8876219b8bea4c19e16a4ba44e54cd" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TMPro.Examples.TMP_UiFrameRateCounter.m_TextMeshPro</definition>
+        <argsstring></argsstring>
+        <name>m_TextMeshPro</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.m_TextMeshPro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="22" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1ab8bab87cb36b2bc9965d457fb52bf000" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string TMPro.Examples.TMP_UiFrameRateCounter.fpsLabel</definition>
+        <argsstring></argsstring>
+        <name>fpsLabel</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.fpsLabel</qualifiedname>
+        <initializer>= &quot;{0:2}&lt;/color&gt; &lt;#8080ff&gt;FPS \n&lt;#FF8000&gt;{1:2} &lt;#8080ff&gt;MS&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a1088605129e1b56d212d3dd4aa9d1e80" prot="public" static="no" mutable="no">
+        <type><ref refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" kindref="member">FpsCounterAnchorPositions</ref></type>
+        <definition>FpsCounterAnchorPositions TMPro.Examples.TMP_UiFrameRateCounter.AnchorPosition</definition>
+        <argsstring></argsstring>
+        <name>AnchorPosition</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.AnchorPosition</qualifiedname>
+        <initializer>= <ref refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea1d85a557894c340c318493f33bfa8efb" kindref="member">FpsCounterAnchorPositions.TopRight</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="31" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a826c5dd240c35cc3cec70d82d0e6d76e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TMPro.Examples.TMP_UiFrameRateCounter.UpdateInterval</definition>
+        <argsstring></argsstring>
+        <name>UpdateInterval</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.UpdateInterval</qualifiedname>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="32" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a63733cd9f5d1e78a990a482525bbbee9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TMPro.Examples.TMP_UiFrameRateCounter.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="35" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="35" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa9ff3b65ff7b296c647b5241b863d6ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TMPro.Examples.TMP_UiFrameRateCounter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="62" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a67a50a896baf5d72fefc16cc9d7087f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TMPro.Examples.TMP_UiFrameRateCounter.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="68" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="68" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a14ce96ceee956401615e16ad2709ab53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TMPro.Examples.TMP_UiFrameRateCounter.Set_FrameCounter_Position</definition>
+        <argsstring>(FpsCounterAnchorPositions anchor_position)</argsstring>
+        <name>Set_FrameCounter_Position</name>
+        <qualifiedname>TMPro.Examples.TMP_UiFrameRateCounter.Set_FrameCounter_Position</qualifiedname>
+        <param>
+          <type><ref refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" kindref="member">FpsCounterAnchorPositions</ref></type>
+          <declname>anchor_position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="98" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="98" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TMPro.Examples.TMP_UiFrameRateCounter</label>
+        <link refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TMPro.Examples.TMP_UiFrameRateCounter</label>
+        <link refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" line="6" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" bodystart="7" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a1088605129e1b56d212d3dd4aa9d1e80" prot="public" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>AnchorPosition</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a63733cd9f5d1e78a990a482525bbbee9" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>Awake</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" prot="public" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>FpsCounterAnchorPositions</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1ab8bab87cb36b2bc9965d457fb52bf000" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>fpsLabel</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a2cbc1725e08dd5ce8128da13d638d0f8" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>htmlColorTag</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a7a0ceaadbbe57be4da25b914b1243713" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>last_AnchorPosition</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a998f5fd4b12e6e65d4aa3b30bd0b946f" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>m_frameCounter_transform</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a15def6e4c1f2dabe6b5c09accd3214d4" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>m_Frames</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa0a4c18ac66572a39932ee051ee42347" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>m_LastInterval</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a9b8876219b8bea4c19e16a4ba44e54cd" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>m_TextMeshPro</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a14ce96ceee956401615e16ad2709ab53" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>Set_FrameCounter_Position</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa9ff3b65ff7b296c647b5241b863d6ee" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>Start</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a67a50a896baf5d72fefc16cc9d7087f2" prot="private" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>Update</name></member>
+      <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a826c5dd240c35cc3cec70d82d0e6d76e" prot="public" virt="non-virtual"><scope>TMPro::Examples::TMP_UiFrameRateCounter</scope><name>UpdateInterval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

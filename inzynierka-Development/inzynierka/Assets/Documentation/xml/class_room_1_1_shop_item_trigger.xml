@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_shop_item_trigger" kind="class" language="C#" prot="public">
+    <compoundname>Room::ShopItemTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_shop_item_trigger_1aa96c4e26a9cb02d8e450fc85802d6e1d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_shop_item_controller" kindref="compound">ShopItemController</ref></type>
+        <definition>ShopItemController Room.ShopItemTrigger.ItemController</definition>
+        <argsstring></argsstring>
+        <name>ItemController</name>
+        <qualifiedname>Room.ShopItemTrigger.ItemController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" line="14" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_shop_item_trigger_1acf0c3011516d1a6dd56a32867baf89ac" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_u_i_1_1_shop_popup" kindref="compound">ShopPopup</ref></type>
+        <definition>ShopPopup Room.ShopItemTrigger.PopupManagement</definition>
+        <argsstring></argsstring>
+        <name>PopupManagement</name>
+        <qualifiedname>Room.ShopItemTrigger.PopupManagement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" line="17" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_shop_item_trigger_1a193a5dac54f22b3e504cb98ca38dbe00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ShopItemTrigger.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>Room.ShopItemTrigger.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>method that shows shop item popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" line="24" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_shop_item_trigger_1a40c466663a2531da16d96dfe8cd5536e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.ShopItemTrigger.OnTriggerExit</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerExit</name>
+        <qualifiedname>Room.ShopItemTrigger.OnTriggerExit</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>method that hides shop item popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" line="38" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements popup logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.ShopItemTrigger</label>
+        <link refid="class_room_1_1_shop_item_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.ShopItemTrigger</label>
+        <link refid="class_room_1_1_shop_item_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/ShopItemTrigger.cs" bodystart="10" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_shop_item_trigger_1aa96c4e26a9cb02d8e450fc85802d6e1d" prot="private" virt="non-virtual"><scope>Room::ShopItemTrigger</scope><name>ItemController</name></member>
+      <member refid="class_room_1_1_shop_item_trigger_1a193a5dac54f22b3e504cb98ca38dbe00" prot="private" virt="non-virtual"><scope>Room::ShopItemTrigger</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_room_1_1_shop_item_trigger_1a40c466663a2531da16d96dfe8cd5536e" prot="private" virt="non-virtual"><scope>Room::ShopItemTrigger</scope><name>OnTriggerExit</name></member>
+      <member refid="class_room_1_1_shop_item_trigger_1acf0c3011516d1a6dd56a32867baf89ac" prot="private" virt="non-virtual"><scope>Room::ShopItemTrigger</scope><name>PopupManagement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_staging_system" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::StagingSystem</compoundname>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_staging_system_1_1_lib_info" prot="private">FMODUnity::StagingSystem::LibInfo</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step" prot="public">FMODUnity::StagingSystem::UpdateStep</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_staging_system_1a9d9c6918e1f89a39e5651f7e595c3bf4" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.StagingSystem.PlatformsFolder</definition>
+        <argsstring></argsstring>
+        <name>PlatformsFolder</name>
+        <qualifiedname>FMODUnity.StagingSystem.PlatformsFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1237" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_staging_system_1a9312201bd524614027d30c6733022786" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.StagingSystem.StagingFolder</definition>
+        <argsstring></argsstring>
+        <name>StagingFolder</name>
+        <qualifiedname>FMODUnity.StagingSystem.StagingFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1238" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_staging_system_1ae3d0f6adf0a032bef44f99dc256676f4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.StagingSystem.SourceLibsExist</definition>
+        <argsstring></argsstring>
+        <name>SourceLibsExist</name>
+        <qualifiedname>FMODUnity.StagingSystem.SourceLibsExist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1248" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1249" bodyend="1266"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_staging_system_1aea03de7497c2ba8ae783acc9d5cf18c0" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.StagingSystem.AnyCPU</definition>
+        <argsstring></argsstring>
+        <name>AnyCPU</name>
+        <qualifiedname>FMODUnity.StagingSystem.AnyCPU</qualifiedname>
+        <initializer>= &quot;AnyCPU&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1239" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_staging_system_1a09692b9a659c35eaf3f6024a3183af9c" prot="private" static="yes" mutable="no">
+        <type>readonly LibInfo[]</type>
+        <definition>readonly LibInfo [] FMODUnity.StagingSystem.LibrariesToUpdate</definition>
+        <argsstring></argsstring>
+        <name>LibrariesToUpdate</name>
+        <qualifiedname>FMODUnity.StagingSystem.LibrariesToUpdate</qualifiedname>
+        <initializer>= {
+            new LibInfo() {cpu = &quot;x86&quot;, os = &quot;Windows&quot;,  <ref refid="_editor_utils_8cs_1a638f1da968a86a660d9b9a88c7586a9a" kindref="member">lib</ref> = &quot;fmodstudioL.dll&quot;, platform = &quot;win&quot;, buildTarget = BuildTarget.StandaloneWindows},
+            new LibInfo() {cpu = &quot;x86_64&quot;, os = &quot;Windows&quot;, <ref refid="_editor_utils_8cs_1a638f1da968a86a660d9b9a88c7586a9a" kindref="member">lib</ref> = &quot;fmodstudioL.dll&quot;, platform = &quot;win&quot;, buildTarget = BuildTarget.StandaloneWindows64},
+            new LibInfo() {cpu = &quot;x86_64&quot;, os = &quot;Linux&quot;, <ref refid="_editor_utils_8cs_1a638f1da968a86a660d9b9a88c7586a9a" kindref="member">lib</ref> = &quot;libfmodstudioL.so&quot;, platform = &quot;linux&quot;, buildTarget = BuildTarget.StandaloneLinux64},
+            new LibInfo() {cpu = AnyCPU, os = &quot;OSX&quot;, <ref refid="_editor_utils_8cs_1a638f1da968a86a660d9b9a88c7586a9a" kindref="member">lib</ref> = &quot;fmodstudioL.bundle&quot;, platform = &quot;mac&quot;, buildTarget = BuildTarget.StandaloneOSX},
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1241" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1241" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_staging_system_1a6609cbfc37c4932b2ca502f80d9b4036" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step" kindref="compound">UpdateStep</ref>[]</type>
+        <definition>readonly UpdateStep [] FMODUnity.StagingSystem.UpdateSteps</definition>
+        <argsstring></argsstring>
+        <name>UpdateSteps</name>
+        <qualifiedname>FMODUnity.StagingSystem.UpdateSteps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1346" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1a41fd066530ece9d8288591a47ec9cfa8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.StagingSystem.GetTargetPath</definition>
+        <argsstring>(LibInfo libInfo)</argsstring>
+        <name>GetTargetPath</name>
+        <qualifiedname>FMODUnity.StagingSystem.GetTargetPath</qualifiedname>
+        <param>
+          <type>LibInfo</type>
+          <declname>libInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1277" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1277" bodyend="1290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1ab0ce583775d80191b3c1b3e769a1ef2b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.StagingSystem.GetTargetPath</definition>
+        <argsstring>(LibInfo libInfo, Platform.FileLayout layout)</argsstring>
+        <name>GetTargetPath</name>
+        <qualifiedname>FMODUnity.StagingSystem.GetTargetPath</qualifiedname>
+        <param>
+          <type>LibInfo</type>
+          <declname>libInfo</declname>
+        </param>
+        <param>
+          <type>Platform.FileLayout</type>
+          <declname>layout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1292" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1292" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1a9971ec66e8f9153164cbbb008a95ea11" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.StagingSystem.CPUAndLibPath</definition>
+        <argsstring>(LibInfo libInfo)</argsstring>
+        <name>CPUAndLibPath</name>
+        <qualifiedname>FMODUnity.StagingSystem.CPUAndLibPath</qualifiedname>
+        <param>
+          <type>LibInfo</type>
+          <declname>libInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1308" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1308" bodyend="1311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1ad35e23f5a59ad422febee5e31f574d03" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.StagingSystem.GetSourcePath</definition>
+        <argsstring>(LibInfo libInfo)</argsstring>
+        <name>GetSourcePath</name>
+        <qualifiedname>FMODUnity.StagingSystem.GetSourcePath</qualifiedname>
+        <param>
+          <type>LibInfo</type>
+          <declname>libInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1313" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1313" bodyend="1316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1ae0e9c79179af3307663d7afb3132c688" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PluginImporter</type>
+        <definition>static PluginImporter FMODUnity.StagingSystem.GetPluginImporter</definition>
+        <argsstring>(LibInfo libInfo)</argsstring>
+        <name>GetPluginImporter</name>
+        <qualifiedname>FMODUnity.StagingSystem.GetPluginImporter</qualifiedname>
+        <param>
+          <type>LibInfo</type>
+          <declname>libInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1498" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1498" bodyend="1510"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1a07577b22f08f7e1e26a6e16848d8d5b3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step" kindref="compound">UpdateStep</ref></type>
+        <definition>static UpdateStep FMODUnity.StagingSystem.FindUpdateStep</definition>
+        <argsstring>(Settings.SharedLibraryUpdateStages stage)</argsstring>
+        <name>FindUpdateStep</name>
+        <qualifiedname>FMODUnity.StagingSystem.FindUpdateStep</qualifiedname>
+        <param>
+          <type>Settings.SharedLibraryUpdateStages</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1512" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1512" bodyend="1515"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1adb4d9133eb191f29f9e136ee4b96aab0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.StagingSystem.ResetUpdateStage</definition>
+        <argsstring>()</argsstring>
+        <name>ResetUpdateStage</name>
+        <qualifiedname>FMODUnity.StagingSystem.ResetUpdateStage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1517" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1517" bodyend="1526"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1a0ed5549c0af5ab8469a5ee355415f343" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step" kindref="compound">UpdateStep</ref></type>
+        <definition>static UpdateStep FMODUnity.StagingSystem.Startup</definition>
+        <argsstring>()</argsstring>
+        <name>Startup</name>
+        <qualifiedname>FMODUnity.StagingSystem.Startup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1528" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1528" bodyend="1563"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_staging_system_1a23c782ca6a581650f15aca3c990a8e27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step" kindref="compound">UpdateStep</ref></type>
+        <definition>static UpdateStep FMODUnity.StagingSystem.GetNextUpdateStep</definition>
+        <argsstring>()</argsstring>
+        <name>GetNextUpdateStep</name>
+        <qualifiedname>FMODUnity.StagingSystem.GetNextUpdateStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1565" column="34" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1565" bodyend="1575"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.StagingSystem</label>
+        <link refid="class_f_m_o_d_unity_1_1_staging_system"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>UpdateSteps</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FMODUnity.Platform</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Properties</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FMODUnity.Platform.PropertyBool</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_bool"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>FMODUnity.Platform.PropertyCallbackHandler</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_callback_handler"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>FMODUnity.Platform.PropertyInt</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_int"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>FMODUnity.Platform.PropertySpeakerMode</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_speaker_mode"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FMODUnity.Platform.PropertyStorage</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_storage"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>LiveUpdate</edgelabel>
+          <edgelabel>Logging</edgelabel>
+          <edgelabel>Overlay</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>DSPBufferCount</edgelabel>
+          <edgelabel>DSPBufferLength</edgelabel>
+          <edgelabel>LiveUpdatePort</edgelabel>
+          <edgelabel>RealChannelCount</edgelabel>
+          <edgelabel>SampleRate</edgelabel>
+          <edgelabel>VirtualChannelCount</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>BuildDirectory</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>SpeakerMode</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>Plugins</edgelabel>
+          <edgelabel>StaticPlugins</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>CallbackHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>FMODUnity.Platform.PropertyString</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_string"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>FMODUnity.Platform.PropertyStringList</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_string_list"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FMODUnity.Settings</label>
+        <link refid="class_f_m_o_d_unity_1_1_settings"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>DefaultPlatform</edgelabel>
+          <edgelabel>PlayInEditorPlatform</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FMODUnity.StagingSystem.UpdateStep</label>
+        <link refid="class_f_m_o_d_unity_1_1_staging_system_1_1_update_step"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Stage</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Property&lt; FMOD.SPEAKERMODE &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="16">
+        <label>Property&lt; List&lt; string &gt; &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="18">
+        <label>Property&lt; PlatformCallbackHandler &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="8">
+        <label>Property&lt; TriStateBool &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="10">
+        <label>Property&lt; int &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="12">
+        <label>Property&lt; string &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" line="1235" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" bodystart="1236" bodyend="1576"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1aea03de7497c2ba8ae783acc9d5cf18c0" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>AnyCPU</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a9971ec66e8f9153164cbbb008a95ea11" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>CPUAndLibPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a07577b22f08f7e1e26a6e16848d8d5b3" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>FindUpdateStep</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a23c782ca6a581650f15aca3c990a8e27" prot="public" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>GetNextUpdateStep</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1ae0e9c79179af3307663d7afb3132c688" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>GetPluginImporter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1ad35e23f5a59ad422febee5e31f574d03" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>GetSourcePath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a41fd066530ece9d8288591a47ec9cfa8" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>GetTargetPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1ab0ce583775d80191b3c1b3e769a1ef2b" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>GetTargetPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a09692b9a659c35eaf3f6024a3183af9c" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>LibrariesToUpdate</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a9d9c6918e1f89a39e5651f7e595c3bf4" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>PlatformsFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1adb4d9133eb191f29f9e136ee4b96aab0" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>ResetUpdateStage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1ae3d0f6adf0a032bef44f99dc256676f4" prot="public" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>SourceLibsExist</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a9312201bd524614027d30c6733022786" prot="private" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>StagingFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a0ed5549c0af5ab8469a5ee355415f343" prot="public" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>Startup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_staging_system_1a6609cbfc37c4932b2ca502f80d9b4036" prot="public" virt="non-virtual"><scope>FMODUnity::StagingSystem</scope><name>UpdateSteps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

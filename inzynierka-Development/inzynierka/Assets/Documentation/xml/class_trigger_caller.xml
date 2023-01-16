@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_trigger_caller" kind="class" language="C#" prot="public">
+    <compoundname>TriggerCaller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_trigger_caller_1a6ccace1b3a846986240c9b479545f64a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a142743985ca0abfba47884de37c46a11" kindref="member">BulletStatType</ref></type>
+        <definition>BulletStatType TriggerCaller.StatsBuffType</definition>
+        <argsstring></argsstring>
+        <name>StatsBuffType</name>
+        <qualifiedname>TriggerCaller.StatsBuffType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" line="16" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trigger_caller_1a8b64b6f992b940810b9176711305ecde" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_specific_actions_1_1_item_manager" kindref="compound">ItemManager</ref></type>
+        <definition>ItemManager TriggerCaller.RoomItemManager</definition>
+        <argsstring></argsstring>
+        <name>RoomItemManager</name>
+        <qualifiedname>TriggerCaller.RoomItemManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" line="19" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trigger_caller_1a476ab35dd2be8ff2bad1c981b484b6e0" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float TriggerCaller.MinValue</definition>
+        <argsstring></argsstring>
+        <name>MinValue</name>
+        <qualifiedname>TriggerCaller.MinValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" line="22" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trigger_caller_1a81b26effc2ef9499a013c40e12d7c292" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float TriggerCaller.MaxValue</definition>
+        <argsstring></argsstring>
+        <name>MaxValue</name>
+        <qualifiedname>TriggerCaller.MaxValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" line="25" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_trigger_caller_1ab765fa566e4c03f235425bc4df69e869" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TriggerCaller.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <qualifiedname>TriggerCaller.OnTriggerEnter</qualifiedname>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for calling player stat boost event with chosen values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" line="34" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" bodystart="34" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements drop pickup logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TriggerCaller</label>
+        <link refid="class_trigger_caller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TriggerCaller</label>
+        <link refid="class_trigger_caller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" line="11" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Tools/TriggerCaller.cs" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_trigger_caller_1a81b26effc2ef9499a013c40e12d7c292" prot="private" virt="non-virtual"><scope>TriggerCaller</scope><name>MaxValue</name></member>
+      <member refid="class_trigger_caller_1a476ab35dd2be8ff2bad1c981b484b6e0" prot="private" virt="non-virtual"><scope>TriggerCaller</scope><name>MinValue</name></member>
+      <member refid="class_trigger_caller_1ab765fa566e4c03f235425bc4df69e869" prot="private" virt="non-virtual"><scope>TriggerCaller</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_trigger_caller_1a8b64b6f992b940810b9176711305ecde" prot="private" virt="non-virtual"><scope>TriggerCaller</scope><name>RoomItemManager</name></member>
+      <member refid="class_trigger_caller_1a6ccace1b3a846986240c9b479545f64a" prot="private" virt="non-virtual"><scope>TriggerCaller</scope><name>StatsBuffType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

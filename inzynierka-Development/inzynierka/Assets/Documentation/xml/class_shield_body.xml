@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_shield_body" kind="class" language="C#" prot="public">
+    <compoundname>ShieldBody</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_interface_1_1_i_damage" prot="public" virt="non-virtual">Interface.IDamage</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_shield_body_1a3fa2371e3b2041da9026ef9bda22a49f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_shield_enemy_1_1_shield_controller" kindref="compound">ShieldController</ref></type>
+        <definition>ShieldController ShieldBody.ThisTurretController</definition>
+        <argsstring></argsstring>
+        <name>ThisTurretController</name>
+        <qualifiedname>ShieldBody.ThisTurretController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" line="15" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_shield_body_1a529a9233326a964a8329ff5fee31d74a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShieldBody.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ShieldBody.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" line="27" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shield_body_1a9cc764299242c14454ea7266d0cfb843" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShieldBody.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ShieldBody.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" line="32" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shield_body_1a258a62def9a8c3b848a0ccf3419bb4fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ShieldBody.TakeDamage</definition>
+        <argsstring>(float damageValue)</argsstring>
+        <name>TakeDamage</name>
+        <qualifiedname>ShieldBody.TakeDamage</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1a3ee1cd807b1eb84b155d1e2deeffdcb2">TakeDamage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>damageValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that applies damage to shield enemy entity <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" line="48" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shield_body_1a0d863ef8d7c4551519116423218390e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ShieldBody.DeflectProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DeflectProjectile</name>
+        <qualifiedname>ShieldBody.DeflectProjectile</qualifiedname>
+        <reimplements refid="interface_interface_1_1_i_damage_1aa7320ea92b16c90449be5e28724b4419">DeflectProjectile</reimplements>
+        <briefdescription>
+<para>methode that determines if shield enemy can deflect projectiles <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" line="57" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements shield body logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShieldBody</label>
+        <link refid="class_shield_body"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShieldBody</label>
+        <link refid="class_shield_body"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" line="10" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/ShieldEnemy/ShieldBody.cs" bodystart="11" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_shield_body_1a0d863ef8d7c4551519116423218390e6" prot="public" virt="virtual"><scope>ShieldBody</scope><name>DeflectProjectile</name></member>
+      <member refid="class_shield_body_1a529a9233326a964a8329ff5fee31d74a" prot="private" virt="non-virtual"><scope>ShieldBody</scope><name>Start</name></member>
+      <member refid="class_shield_body_1a258a62def9a8c3b848a0ccf3419bb4fc" prot="public" virt="virtual"><scope>ShieldBody</scope><name>TakeDamage</name></member>
+      <member refid="class_shield_body_1a3fa2371e3b2041da9026ef9bda22a49f" prot="private" virt="non-virtual"><scope>ShieldBody</scope><name>ThisTurretController</name></member>
+      <member refid="class_shield_body_1a9cc764299242c14454ea7266d0cfb843" prot="private" virt="non-virtual"><scope>ShieldBody</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

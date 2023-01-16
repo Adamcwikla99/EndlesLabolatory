@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_reference_drawer" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EventReferenceDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1_1_mismatch_info" prot="private">FMODUnity::EventReferenceDrawer::MismatchInfo</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a8d98e487a11a8bc44ce5ecd0593d4a8d" prot="private" static="yes" mutable="no">
+        <type>readonly Texture</type>
+        <definition>readonly Texture FMODUnity.EventReferenceDrawer.RepairIcon</definition>
+        <argsstring></argsstring>
+        <name>RepairIcon</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.RepairIcon</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_1_1_editor_utils_1abe5dd0f73cc20828acd8f604112e824e" kindref="member">EditorUtils.LoadImage</ref>(&quot;Wrench.png&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="12" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1aaadacd0c3943d913f2b4f61372e9f69b" prot="private" static="yes" mutable="no">
+        <type>readonly Texture</type>
+        <definition>readonly Texture FMODUnity.EventReferenceDrawer.WarningIcon</definition>
+        <argsstring></argsstring>
+        <name>WarningIcon</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.WarningIcon</qualifiedname>
+        <initializer>= <ref refid="class_f_m_o_d_unity_1_1_editor_utils_1abe5dd0f73cc20828acd8f604112e824e" kindref="member">EditorUtils.LoadImage</ref>(&quot;NotFound.png&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="13" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a6969624bfd4c27f5918323e4d319e9c3" prot="private" static="yes" mutable="no">
+        <type>readonly GUIContent</type>
+        <definition>readonly GUIContent FMODUnity.EventReferenceDrawer.NotFoundWarning</definition>
+        <argsstring></argsstring>
+        <name>NotFoundWarning</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.NotFoundWarning</qualifiedname>
+        <initializer>= new GUIContent(&quot;Event Not Found&quot;, WarningIcon)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="14" column="44" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1ad5e21d4948fdac99fe5ab45d90c27eed" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.EventReferenceDrawer.buttonStyle</definition>
+        <argsstring></argsstring>
+        <name>buttonStyle</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.buttonStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="16" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1aa24b1456955c26456f4344fd7f54fb2f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 FMODUnity.EventReferenceDrawer.WarningSize</definition>
+        <argsstring>()</argsstring>
+        <name>WarningSize</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.WarningSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="18" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a9c2a85f0eb5c0272063dc53fe8ce83c5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float FMODUnity.EventReferenceDrawer.GetBaseHeight</definition>
+        <argsstring>()</argsstring>
+        <name>GetBaseHeight</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetBaseHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="23" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a536c172f16261e2855410ddb33ea7b74" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventReferenceDrawer.HandleDragEvents</definition>
+        <argsstring>(Rect position, SerializedProperty property)</argsstring>
+        <name>HandleDragEvents</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.HandleDragEvents</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="232" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="232" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1aae90cd3924b33d13853e6400b0ca7135" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventReferenceDrawer.DrawMismatchUI</definition>
+        <argsstring>(Rect rect, float repairButtonX, float repairButtonWidth, MismatchInfo mismatch, SerializedProperty property)</argsstring>
+        <name>DrawMismatchUI</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.DrawMismatchUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>repairButtonX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>repairButtonWidth</declname>
+        </param>
+        <param>
+          <type>MismatchInfo</type>
+          <declname>mismatch</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="272" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="272" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1aaa7e562c4c22b7587c2c03f63e1253f8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MismatchInfo</type>
+        <definition>static MismatchInfo FMODUnity.EventReferenceDrawer.GetMismatch</definition>
+        <argsstring>(EventReference eventReference, EditorEventRef editorEventRef)</argsstring>
+        <name>GetMismatch</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetMismatch</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+          <declname>editorEventRef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="290" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="290" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a6eff8340020c2fac682836a83d841688" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventReferenceDrawer.SetEvent</definition>
+        <argsstring>(SerializedProperty property, string path)</argsstring>
+        <name>SetEvent</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.SetEvent</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="332" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="332" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a37417993cb88d15d34ec655249547677" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>static SerializedProperty FMODUnity.EventReferenceDrawer.GetGuidProperty</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>GetGuidProperty</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetGuidProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="346" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="346" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1ab024389089c0f97407489c5f4bbc7965" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>static SerializedProperty FMODUnity.EventReferenceDrawer.GetPathProperty</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>GetPathProperty</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetPathProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="351" column="43" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="351" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1aa708a73197280e559efa36336f374154" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+        <definition>static EditorEventRef FMODUnity.EventReferenceDrawer.GetEditorEventRef</definition>
+        <argsstring>(EventReference eventReference)</argsstring>
+        <name>GetEditorEventRef</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetEditorEventRef</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="356" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="356" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1ad85c348d3f5c2e2265a4828beb2956c9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+        <definition>static EditorEventRef FMODUnity.EventReferenceDrawer.GetRenamedEventRef</definition>
+        <argsstring>(EventReference eventReference)</argsstring>
+        <name>GetRenamedEventRef</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetRenamedEventRef</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="368" column="39" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="368" bodyend="381"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1aeaab85bad6ccd4061a0774815b5a5aeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.EventReferenceDrawer.OnGUI</definition>
+        <argsstring>(Rect position, SerializedProperty property, GUIContent label)</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.OnGUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="28" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="28" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_reference_drawer_1a54c1ab40fbb36c2a8c1806d311f15d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float FMODUnity.EventReferenceDrawer.GetPropertyHeight</definition>
+        <argsstring>(SerializedProperty property, GUIContent label)</argsstring>
+        <name>GetPropertyHeight</name>
+        <qualifiedname>FMODUnity.EventReferenceDrawer.GetPropertyHeight</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>GUIContent</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="383" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="383" bodyend="414"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EventReferenceDrawer</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_reference_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EventReferenceDrawer</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_reference_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" line="10" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs" bodystart="11" bodyend="415"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1ad5e21d4948fdac99fe5ab45d90c27eed" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>buttonStyle</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1aae90cd3924b33d13853e6400b0ca7135" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>DrawMismatchUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a9c2a85f0eb5c0272063dc53fe8ce83c5" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetBaseHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1aa708a73197280e559efa36336f374154" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetEditorEventRef</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a37417993cb88d15d34ec655249547677" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetGuidProperty</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1aaa7e562c4c22b7587c2c03f63e1253f8" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetMismatch</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1ab024389089c0f97407489c5f4bbc7965" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetPathProperty</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a54c1ab40fbb36c2a8c1806d311f15d48" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1ad85c348d3f5c2e2265a4828beb2956c9" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>GetRenamedEventRef</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a536c172f16261e2855410ddb33ea7b74" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>HandleDragEvents</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a6969624bfd4c27f5918323e4d319e9c3" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>NotFoundWarning</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1aeaab85bad6ccd4061a0774815b5a5aeb" prot="public" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a8d98e487a11a8bc44ce5ecd0593d4a8d" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>RepairIcon</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1a6eff8340020c2fac682836a83d841688" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>SetEvent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1aaadacd0c3943d913f2b4f61372e9f69b" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>WarningIcon</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_reference_drawer_1aa24b1456955c26456f4344fd7f54fb2f" prot="private" virt="non-virtual"><scope>FMODUnity::EventReferenceDrawer</scope><name>WarningSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

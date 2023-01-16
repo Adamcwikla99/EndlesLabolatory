@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy" kind="class" language="C#" prot="public">
+    <compoundname>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity" prot="public" virt="non-virtual">Room.RoomContent.Enemys.RoomEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1aadab343a46262ed4f3cff860dddf1cf3" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_animation" kindref="compound">BaseEnemyAnimation</ref></type>
+        <definition>BaseEnemyAnimation Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy.DesolveAnimation</definition>
+        <argsstring></argsstring>
+        <name>DesolveAnimation</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy.DesolveAnimation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" line="14" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1aa4754a7518ff58a8996ce268c004b784" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" line="24" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1a275c15428e24b3f78dd9582619e90e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy.PlayDesolveAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayDesolveAnimation</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy.PlayDesolveAnimation</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8b0a71856b1c291573d9e14a7aaa0598">PlayDesolveAnimation</reimplements>
+        <briefdescription>
+<para>methode that plays desolve animation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" line="35" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements wall enemy logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IDamage</label>
+        <link refid="interface_interface_1_1_i_damage"/>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.WallEnemy.WallEnemy</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Room.RoomContent.Enemys.RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Room.RoomControlers.EnemyRoomController</label>
+        <link refid="class_room_1_1_room_controlers_1_1_enemy_room_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RoomContent</label>
+        <link refid="class_room_1_1_room_content_1_1_room_content"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>durabilityStats</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parentRoom</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomEntity</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>attackStats</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>thisEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Structures.Wrapper.ContentAttackStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_attack_stats"/>
+      </node>
+      <node id="5">
+        <label>Structures.Wrapper.ContentDurabilityStats</label>
+        <link refid="class_structures_1_1_wrapper_1_1_content_durability_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/WallEnemy/WallEnemy.cs" bodystart="10" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a678e98e91d910397c141fb120bff9cb4" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>AdjustOutline</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ad918920fdfce315c36c6b687e3bae29e" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>attackStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1acc57f8b0fad7871ab4c5d1a47393538f" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>CalculateNewOutlineIntensity</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1aa1f2251a93dfad5d5bb8aeafef25af6e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>CheckIfSurvived</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a053c9c463e545dc8fd7c6a40e8b323cc" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>DeflectProjectile</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1aadab343a46262ed4f3cff860dddf1cf3" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>DesolveAnimation</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1ab6f0f53d7a4798332ffb5e60971df0b8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>durabilityStats</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1aaa355175f135adaa9bae5107c8ab6898" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>EnemyFireEffect</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a8d5ea56a34abed99dce5575bf45cc538" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a81aa745c4890409c45554a8eaf12a82e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>ManageEnemyFloorBoost</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a72042c037621941c5348e974c3c52cad" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>MAX_OUTLINE_INTENSITY</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1a44e2c319a84d92de6a27cdd1f81e0d24" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>OnParticleCollision</name></member>
+      <member refid="class_room_1_1_room_content_1_1_room_content_1afafd052b702311e4c4892ad002e8cbad" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>parentRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1a275c15428e24b3f78dd9582619e90e40" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>PlayDesolveAnimation</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af6396b30984e85d9ba0da930db752553" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>PlayerGameScore</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ac2790791b7b4a9aa45625c330151f1ea" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>SpawnReword</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_wall_enemy_1_1_wall_enemy_1aa4754a7518ff58a8996ce268c004b784" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>Start</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1af500209a8af5ff7d47c9ac69b7c7516e" prot="public" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>TakeDamage</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_room_entity_1ace5b1abac330e5e8caaaf4d819569858" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::WallEnemy::WallEnemy</scope><name>thisEntity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

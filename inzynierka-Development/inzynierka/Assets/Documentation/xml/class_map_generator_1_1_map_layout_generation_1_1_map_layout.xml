@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_map_layout_generation_1_1_map_layout" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::MapLayoutGeneration::MapLayout</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1abda2953fa3457b7419de8594b2c4d5a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float MapGenerator.MapLayoutGeneration.MapLayout.MinimalBossDistanceThreshold</definition>
+        <argsstring></argsstring>
+        <name>MinimalBossDistanceThreshold</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.MinimalBossDistanceThreshold</qualifiedname>
+        <initializer>= 0.7f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="16" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a1049c4246153515f9995297ed6a89c15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>float</type>
+        <definition>float MapGenerator.MapLayoutGeneration.MapLayout.MinimalShopDistanceThreshold</definition>
+        <argsstring></argsstring>
+        <name>MinimalShopDistanceThreshold</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.MinimalShopDistanceThreshold</qualifiedname>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="19" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a3029ae6f16b89ad0b81fb945168aa5e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.MapLayoutGeneration.MapLayout.BossRoomCords</definition>
+        <argsstring></argsstring>
+        <name>BossRoomCords</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.BossRoomCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="22" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a7ba4cea2415009be7231519fbdd35f06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.MapLayoutGeneration.MapLayout.ShopRoomCords</definition>
+        <argsstring></argsstring>
+        <name>ShopRoomCords</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.ShopRoomCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="25" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a3fafe40a4beccf15aac7e16a09323694" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.MapLayoutGeneration.MapLayout.StartRoomCords</definition>
+        <argsstring></argsstring>
+        <name>StartRoomCords</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.StartRoomCords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="28" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1ab7e1a738e9b1fc27c4380489ed050431" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_room_map" kindref="compound">FloorRoomMap</ref></type>
+        <definition>FloorRoomMap MapGenerator.MapLayoutGeneration.MapLayout.FloorGenerator</definition>
+        <argsstring></argsstring>
+        <name>FloorGenerator</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.FloorGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a080d2209c7a55c746d6ae24708727580" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_visualize_map" kindref="compound">VisualizeMap</ref></type>
+        <definition>VisualizeMap MapGenerator.MapLayoutGeneration.MapLayout.MapVisualizator</definition>
+        <argsstring></argsstring>
+        <name>MapVisualizator</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.MapVisualizator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="37" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1acba45b5ad77900ec4ce6be3c64554511" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a5da7e882e52523843edda714c1cb5b50" kindref="member">RoomType</ref>[][]</type>
+        <definition>RoomType [][] MapGenerator.MapLayoutGeneration.MapLayout.floorRooms</definition>
+        <argsstring></argsstring>
+        <name>floorRooms</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.floorRooms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="42" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1afaaabe249154c9a0290e81448013cb47" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.MapLayoutGeneration.MapLayout.mapMiddle</definition>
+        <argsstring></argsstring>
+        <name>mapMiddle</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.mapMiddle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="43" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a164cbe038449b767dc0dede919de2ad2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapGenerator.MapLayoutGeneration.MapLayout.middle</definition>
+        <argsstring></argsstring>
+        <name>middle</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.middle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="44" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a0b0a73067a43125121ce817456fe6eda" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.MapLayout.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="49" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a5cda5491abae964f37f5d80e83a8a590" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.MapLayout.InitNewMap</definition>
+        <argsstring>()</argsstring>
+        <name>InitNewMap</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.InitNewMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="74" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a63d16556d581bad31fbd02f3da0fed2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.MapLayout.GenerateNewMap</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateNewMap</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.GenerateNewMap</qualifiedname>
+        <briefdescription>
+<para>methode that generates new map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="57" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a513e238f70805d910a7612c255616d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.MapLayout.SetMinimalBossDistanceThreshold</definition>
+        <argsstring>(float value)</argsstring>
+        <name>SetMinimalBossDistanceThreshold</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.SetMinimalBossDistanceThreshold</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets minimal boss distance threshold </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="63" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a6d3bc1518de2300a9db3a84cdef98a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.MapLayout.SetMinimalShopDistanceThreshold</definition>
+        <argsstring>(float value)</argsstring>
+        <name>SetMinimalShopDistanceThreshold</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.MapLayout.SetMinimalShopDistanceThreshold</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets minimal shop distance threshold </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="69" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for generation of floor rooms layout. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.MapLayout</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.MapLayout</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" line="11" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/MapLayout.cs" bodystart="12" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a3029ae6f16b89ad0b81fb945168aa5e1" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>BossRoomCords</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1ab7e1a738e9b1fc27c4380489ed050431" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>FloorGenerator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1acba45b5ad77900ec4ce6be3c64554511" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>floorRooms</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a63d16556d581bad31fbd02f3da0fed2b" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>GenerateNewMap</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a5cda5491abae964f37f5d80e83a8a590" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>InitNewMap</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1afaaabe249154c9a0290e81448013cb47" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>mapMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a080d2209c7a55c746d6ae24708727580" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>MapVisualizator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a164cbe038449b767dc0dede919de2ad2" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>middle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1abda2953fa3457b7419de8594b2c4d5a0" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>MinimalBossDistanceThreshold</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a1049c4246153515f9995297ed6a89c15" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>MinimalShopDistanceThreshold</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a513e238f70805d910a7612c255616d7f" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>SetMinimalBossDistanceThreshold</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a6d3bc1518de2300a9db3a84cdef98a48" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>SetMinimalShopDistanceThreshold</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a7ba4cea2415009be7231519fbdd35f06" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>ShopRoomCords</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a0b0a73067a43125121ce817456fe6eda" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>Start</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_map_layout_1a3fafe40a4beccf15aac7e16a09323694" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::MapLayout</scope><name>StartRoomCords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

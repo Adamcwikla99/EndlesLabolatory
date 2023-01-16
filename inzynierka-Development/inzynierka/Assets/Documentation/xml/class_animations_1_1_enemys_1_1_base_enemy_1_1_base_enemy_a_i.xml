@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i" kind="class" language="C#" prot="public">
+    <compoundname>Animations::Enemys::BaseEnemy::BaseEnemyAI</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.EnemyAI</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1af3a6f250783dd3ab681563de65f0905f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_base_enemy_1_1_base_enemy_attack_a_i" kindref="compound">BaseEnemyAttackAI</ref></type>
+        <definition>BaseEnemyAttackAI Animations.Enemys.BaseEnemy.BaseEnemyAI.EnemyAttackController</definition>
+        <argsstring></argsstring>
+        <name>EnemyAttackController</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.EnemyAttackController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="18" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1ab2b1208d509faad44e732468c5ba6e86" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Animations.Enemys.BaseEnemy.BaseEnemyAI.FireDistance</definition>
+        <argsstring></argsstring>
+        <name>FireDistance</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.FireDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="21" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1aea03cc4334a507473c39b540b752479a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Animations.Enemys.BaseEnemy.BaseEnemyAI.StopFollowDistance</definition>
+        <argsstring></argsstring>
+        <name>StopFollowDistance</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.StopFollowDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="24" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a3934be587a37f9b01fdf46a787c15f50" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Animations.Enemys.BaseEnemy.BaseEnemyAI.movmentSpeed</definition>
+        <argsstring></argsstring>
+        <name>movmentSpeed</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.movmentSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="27" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a87256269f9613250b0df67f0e727fa12" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Animations.Enemys.BaseEnemy.BaseEnemyAI.reloadCountdown</definition>
+        <argsstring></argsstring>
+        <name>reloadCountdown</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.reloadCountdown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="32" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a93cf816dbbf1ba3401e57a1e1be42025" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Animations.Enemys.BaseEnemy.BaseEnemyAI.lastSeenStatus</definition>
+        <argsstring></argsstring>
+        <name>lastSeenStatus</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.lastSeenStatus</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="33" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a89f518a0523dcf8246d8d1f8540fa4dc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Animations.Enemys.BaseEnemy.BaseEnemyAI.newSeenStatus</definition>
+        <argsstring></argsstring>
+        <name>newSeenStatus</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.newSeenStatus</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a0ed5e5b23bf42567b2baab1dc54a2b87" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Animations.Enemys.BaseEnemy.BaseEnemyAI.CanSeePlayer</definition>
+        <argsstring>()</argsstring>
+        <name>CanSeePlayer</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.CanSeePlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a281cb3306e1b1ab5b666565569e29e41">CanSeePlayer</reimplements>
+        <briefdescription>
+<para>method that check if enemy can see player </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="42" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="42" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a1be82549c044bd80cae7398d38fd04d1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Animations.Enemys.BaseEnemy.BaseEnemyAI.SetFoundPlayer</definition>
+        <argsstring>(GameObject player)</argsstring>
+        <name>SetFoundPlayer</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.SetFoundPlayer</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a2330e5df77339baea4b91bb071e1c6b8">SetFoundPlayer</reimplements>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets found player </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>player</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>game player object</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="102" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="102" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a6bc15ab4d503b33406d7b32f62d6284b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAI.ToggleFire</definition>
+        <argsstring>(RaycastHit hit, Vector3 playerDirection)</argsstring>
+        <name>ToggleFire</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.ToggleFire</qualifiedname>
+        <param>
+          <type>RaycastHit</type>
+          <declname>hit</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that enable enemy fire action </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ray that hit player </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>playerDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>player direction </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="62" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="62" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a5fc5e5d28e38dea6ff90bee5db593cbe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAI.TryFollowPlayer</definition>
+        <argsstring>(Vector3 playerDirection)</argsstring>
+        <name>TryFollowPlayer</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.TryFollowPlayer</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that trys to move enemy to player </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>player directione</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="78" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a7dd4315b8f3f25e2c5b91f3506c9c1b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Animations.Enemys.BaseEnemy.BaseEnemyAI.FollowPlayer</definition>
+        <argsstring>(Vector3 playerDirection)</argsstring>
+        <name>FollowPlayer</name>
+        <qualifiedname>Animations.Enemys.BaseEnemy.BaseEnemyAI.FollowPlayer</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>playerDirection</declname>
+        </param>
+        <briefdescription>
+<para>methode that moves enemy to player if conditions are met </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>player directione</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="92" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="92" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class implementing base enemy AI. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Animations.Enemys.BaseEnemy.BaseEnemyAI</label>
+        <link refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Animations.Enemys.BaseEnemy.BaseEnemyAI</label>
+        <link refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" line="13" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Animations/Enemys/BaseEnemy/BaseEnemyAI.cs" bodystart="14" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a0ed5e5b23bf42567b2baab1dc54a2b87" prot="protected" virt="virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>CanSeePlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a8b921ec3a85ee2a5fbb184f8148edd5e" prot="protected" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>detectedPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4f2ce267a30eca56bb470709ccbddf0d" prot="protected" virt="virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>DisableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1af0a4d7e715891015301ca2244b6878e1" prot="protected" virt="virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>EnableEvents</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1af3a6f250783dd3ab681563de65f0905f" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>EnemyAttackController</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1ab2b1208d509faad44e732468c5ba6e86" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>FireDistance</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a7dd4315b8f3f25e2c5b91f3506c9c1b3" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>FollowPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1afb1705769ff4049a725ce5739ee432c8" prot="public" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>FoundPlayer</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a93cf816dbbf1ba3401e57a1e1be42025" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>lastSeenStatus</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a91b09f1f9fb121e4de332137d51a1d94" prot="protected" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>Mask</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a3934be587a37f9b01fdf46a787c15f50" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>movmentSpeed</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a89f518a0523dcf8246d8d1f8540fa4dc" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>newSeenStatus</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4452b7332ee4bae54e37d9bb06eb1451" prot="protected" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>Player</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a9dd101342db3c1f15fb3d56429805009" prot="protected" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>PlayerObject</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a87256269f9613250b0df67f0e727fa12" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>reloadCountdown</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a1be82549c044bd80cae7398d38fd04d1" prot="protected" virt="virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>SetFoundPlayer</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1aea03cc4334a507473c39b540b752479a" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>StopFollowDistance</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a6bc15ab4d503b33406d7b32f62d6284b" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>ToggleFire</name></member>
+      <member refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a5fc5e5d28e38dea6ff90bee5db593cbe" prot="private" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>TryFollowPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ab676dddc2dbb697ad15f0e3751080efe" prot="protected" virt="non-virtual"><scope>Animations::Enemys::BaseEnemy::BaseEnemyAI</scope><name>wasPlayerDetected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

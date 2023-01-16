@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_room_leyout_1_1_room_marker" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::RoomLeyout::RoomMarker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_marker_1afe648b19b1aebb2dc5379f3b575e01bd" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+        <definition>RoomGridCell MapGenerator.RoomLeyout.RoomMarker.cell</definition>
+        <argsstring></argsstring>
+        <name>cell</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomMarker.cell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" line="13" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_room_leyout_1_1_room_marker_1a4c8484af300aab8f7198cc2b302ac0a7" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer MapGenerator.RoomLeyout.RoomMarker.renderer</definition>
+        <argsstring></argsstring>
+        <name>renderer</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomMarker.renderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" line="14" column="18" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_marker_1a3ab0643ab885606c51188d6d9f263363" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomMarker.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomMarker.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_marker_1acb9adef0e425489415c94931383ab1d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomMarker.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomMarker.Init</qualifiedname>
+        <briefdescription>
+<para>methode that initialize marker settings </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" line="39" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_generator_1_1_room_leyout_1_1_room_marker_1a072408291daec4debf577822c6328057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.RoomLeyout.RoomMarker.ChangeType</definition>
+        <argsstring>(RoomGridCell newType, Color color)</argsstring>
+        <name>ChangeType</name>
+        <qualifiedname>MapGenerator.RoomLeyout.RoomMarker.ChangeType</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1a4a7c7f8a80788519ecc82f7f0f1f2b7e" kindref="member">RoomGridCell</ref></type>
+          <declname>newType</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>methode that changes cell marker type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" line="27" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class to mark grid cell and its current type in template editor scene. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.RoomLeyout.RoomMarker</label>
+        <link refid="class_map_generator_1_1_room_leyout_1_1_room_marker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.RoomLeyout.RoomMarker</label>
+        <link refid="class_map_generator_1_1_room_leyout_1_1_room_marker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" line="9" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/RoomLeyout/RoomMarker.cs" bodystart="10" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_marker_1afe648b19b1aebb2dc5379f3b575e01bd" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomMarker</scope><name>cell</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_marker_1a072408291daec4debf577822c6328057" prot="public" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomMarker</scope><name>ChangeType</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_marker_1acb9adef0e425489415c94931383ab1d3" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomMarker</scope><name>Init</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_marker_1a4c8484af300aab8f7198cc2b302ac0a7" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomMarker</scope><name>renderer</name></member>
+      <member refid="class_map_generator_1_1_room_leyout_1_1_room_marker_1a3ab0643ab885606c51188d6d9f263363" prot="private" virt="non-virtual"><scope>MapGenerator::RoomLeyout::RoomMarker</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

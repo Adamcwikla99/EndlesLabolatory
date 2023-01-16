@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_player_touched_ground" kind="class" language="C#" prot="public">
+    <compoundname>Room::PlayerTouchedGround</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_player_touched_ground_1a67b2197bcadac07db34011ab6d9593d9" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_movement_events" kindref="compound">PlayerMovementEvents</ref></type>
+        <definition>PlayerMovementEvents Room.PlayerTouchedGround.MovementEvents</definition>
+        <argsstring></argsstring>
+        <name>MovementEvents</name>
+        <qualifiedname>Room.PlayerTouchedGround.MovementEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/PlayerTouchedGround.cs" line="14" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/PlayerTouchedGround.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_player_touched_ground_1adff90cd14efbe3e6a72578bc4174afd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.PlayerTouchedGround.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <qualifiedname>Room.PlayerTouchedGround.OnCollisionEnter</qualifiedname>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>methode that calls jump reanables action </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/PlayerTouchedGround.cs" line="27" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/PlayerTouchedGround.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements logic that check if player touched ground. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.PlayerTouchedGround</label>
+        <link refid="class_room_1_1_player_touched_ground"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.PlayerTouchedGround</label>
+        <link refid="class_room_1_1_player_touched_ground"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/PlayerTouchedGround.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/PlayerTouchedGround.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_player_touched_ground_1a67b2197bcadac07db34011ab6d9593d9" prot="private" virt="non-virtual"><scope>Room::PlayerTouchedGround</scope><name>MovementEvents</name></member>
+      <member refid="class_room_1_1_player_touched_ground_1adff90cd14efbe3e6a72578bc4174afd7" prot="private" virt="non-virtual"><scope>Room::PlayerTouchedGround</scope><name>OnCollisionEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

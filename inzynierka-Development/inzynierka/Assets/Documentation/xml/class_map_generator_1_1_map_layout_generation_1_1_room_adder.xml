@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_map_layout_generation_1_1_room_adder" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::MapLayoutGeneration::RoomAdder</compoundname>
+    <derivedcompoundref refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator" prot="public" virt="non-virtual">MapGenerator.MapLayoutGeneration.BasePathsGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_map_generator_1_1_map_layout_generation_1_1_boss_room_generator" prot="public" virt="non-virtual">MapGenerator.MapLayoutGeneration.BossRoomGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_map_generator_1_1_map_layout_generation_1_1_item_room_generator" prot="public" virt="non-virtual">MapGenerator.MapLayoutGeneration.ItemRoomGenerator</derivedcompoundref>
+    <derivedcompoundref refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator" prot="public" virt="non-virtual">MapGenerator.MapLayoutGeneration.ShopRoomGenerator</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa0b8a5520977a723a1883b30eab1a9ac" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapGenerator.MapLayoutGeneration.RoomAdder.pointsAroundMiddleCount</definition>
+        <argsstring></argsstring>
+        <name>pointsAroundMiddleCount</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.pointsAroundMiddleCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="22" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a44989e576e1fc75ef8487f2e32429768" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+        <definition>CordsXY [] MapGenerator.MapLayoutGeneration.RoomAdder.allCordsAroundMiddle</definition>
+        <argsstring></argsstring>
+        <name>allCordsAroundMiddle</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.allCordsAroundMiddle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="23" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a97a26f62b66f6b5d6cb460d8378da92a" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.MapLayoutGeneration.RoomAdder.middle</definition>
+        <argsstring></argsstring>
+        <name>middle</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.middle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="24" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a61edae22ed1bc4a432f31eb71b956e42" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+        <definition>Row [] MapGenerator.MapLayoutGeneration.RoomAdder.rows</definition>
+        <argsstring></argsstring>
+        <name>rows</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="25" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aea917ca7eea78484523c0ddd21fe22e8" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref></type>
+        <definition>MapGenerationParameters MapGenerator.MapLayoutGeneration.RoomAdder.generationParameters</definition>
+        <argsstring></argsstring>
+        <name>generationParameters</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.generationParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="26" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa6008451bdebbcd40b3794e49793cf7d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+        <definition>FloorDimensions MapGenerator.MapLayoutGeneration.RoomAdder.floorDimensions</definition>
+        <argsstring></argsstring>
+        <name>floorDimensions</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.floorDimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="27" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MapGenerator.MapLayoutGeneration.RoomAdder.Delegator</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; nodeToAdd, List&lt; CordsXY &gt; possibleMoves)</argsstring>
+        <name>Delegator</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.Delegator</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>nodeToAdd</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="15" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abcf9a2425f9fdc1b26a9179adcdf6010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate bool</type>
+        <definition>delegate bool MapGenerator.MapLayoutGeneration.RoomAdder.InMapBoundarys</definition>
+        <argsstring>(int baseValue)</argsstring>
+        <name>InMapBoundarys</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.InMapBoundarys</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>baseValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="17" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a83e20af7a92dff9b8def5182b4177949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MapGenerator.MapLayoutGeneration.RoomAdder.RoomAdder</definition>
+        <argsstring>(CordsXY[] allCordsAroundMiddle, int pointsAroundMiddleCount, MapGenerationParameters generationParameters, CordsXY middle, Row[] rows, FloorDimensions floorDimensions)</argsstring>
+        <name>RoomAdder</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.RoomAdder</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+          <declname>allCordsAroundMiddle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointsAroundMiddleCount</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref></type>
+          <declname>generationParameters</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>middle</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+          <declname>floorDimensions</declname>
+        </param>
+        <briefdescription>
+<para>constructor setting generation parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>allCordsAroundMiddle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>allowed filed cells next start room</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pointsAroundMiddleCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>allowed filed cells around start room</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generationParameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generation parameters</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>middle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>middle points cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of map rows</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorDimensions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>floor dimensions</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="41" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="41" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad64560f6f1c9db62672f7299df32cee4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.RoomAdder.IsInLowerMapBoundarys</definition>
+        <argsstring>(int baseValue)</argsstring>
+        <name>IsInLowerMapBoundarys</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.IsInLowerMapBoundarys</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>baseValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if value is in lower map boundarys </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>baseValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>base value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if value is in lower map boundarys</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="59" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abae1041c5d685b89c145193efc393d3b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.RoomAdder.IsInUpperMapBoundarys</definition>
+        <argsstring>(int baseValue)</argsstring>
+        <name>IsInUpperMapBoundarys</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.IsInUpperMapBoundarys</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>baseValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if value is in upper map boundarys </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>baseValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>base value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if value is in upper map boundarys</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="66" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aacf690025278057dc7ab39639f4c5c03" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.RoomAdder.AddPointToNode</definition>
+        <argsstring>(int cordX, int cordY, ref List&lt; CordsXY &gt; individualNode, ref List&lt; CordsXY &gt; allNodes, ref Row[] rows)</argsstring>
+        <name>AddPointToNode</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.AddPointToNode</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cordX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cordY</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>individualNode</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>allNodes</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds point to node </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cordX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x coordinate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cordY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y coordinate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>individualNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>room nodes</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allNodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>all room nodes</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map rows</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="76" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a31ba40ba915032a3dde5a7aef4e1e313" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.RoomAdder.AddPoint</definition>
+        <argsstring>(int cordX, int cordY, ref List&lt; CordsXY &gt; individualNode, ref List&lt; CordsXY &gt; allNodes, ref Row[] rows)</argsstring>
+        <name>AddPoint</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.AddPoint</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cordX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cordY</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>individualNode</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>allNodes</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds point to individual node </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cordX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x coordinate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cordY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y coordinate</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>individualNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>room nodes</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allNodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>all room nodes</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map rows</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="94" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a15ff40134834b774655286a0d1c72395" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.RoomAdder.AroundMiddleCondition</definition>
+        <argsstring>(int cordX, int cordY)</argsstring>
+        <name>AroundMiddleCondition</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.AroundMiddleCondition</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cordX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cordY</declname>
+        </param>
+        <briefdescription>
+<para>methode that check map filament around middle point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cordX</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cordY</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns true if can add next point around middle</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="107" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="107" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad44848cb819890b8e3f0d06024de0666" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.RoomAdder.IsPointAroundMiddle</definition>
+        <argsstring>(CordsXY cordAroundMiddle, int xToCheck, int yToCheck)</argsstring>
+        <name>IsPointAroundMiddle</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.IsPointAroundMiddle</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordAroundMiddle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xToCheck</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yToCheck</declname>
+        </param>
+        <briefdescription>
+<para>methode that point is next to midle point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cordAroundMiddle</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xToCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yToCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if point is next to middle point</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="127" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aaf73167d6f76a6d25e4e6a0ca0a04f9f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.RoomAdder.CheckIfCanAddNextPoint</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfCanAddNextPoint</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.CheckIfCanAddNextPoint</qualifiedname>
+        <briefdescription>
+<para>methode that checks if generator can add next point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if generator can add next point</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="133" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="133" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a22f9824e564b5b852986b8b4f71b6623" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MapGenerator.MapLayoutGeneration.RoomAdder.EmptyNeighbourCount</definition>
+        <argsstring>(CordsXY cordToCheck)</argsstring>
+        <name>EmptyNeighbourCount</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.EmptyNeighbourCount</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cordToCheck</declname>
+        </param>
+        <briefdescription>
+<para>methode that count empty cells around point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cordToCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point coordinates</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of empty point around middle</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="150" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="150" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a8d09916cba3186e2113c76bed412a0e7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.RoomAdder.FindPotentialCordMoves</definition>
+        <argsstring>(ref CordsXY[] possibleMoves, ref int potentialMovesCount, CordsXY generationStart)</argsstring>
+        <name>FindPotentialCordMoves</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.FindPotentialCordMoves</qualifiedname>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>potentialMovesCount</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>generationStart</declname>
+        </param>
+        <briefdescription>
+<para>methode that finds all potential new cords around given point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>possibleMoves</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array to fill with potential cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>potentialMovesCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>potential cords size</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generationStart</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point to check potential moves for</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="165" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="165" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ada8e8f479b82cf9b2fb8a1eecf983ed3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.RoomAdder.CheckPotentialCord</definition>
+        <argsstring>(CordsXY currentCord, ref CordsXY[] possibleMoves, ref int potentialMovesCount, CordsXY offset, InMapBoundarys condition, int conditionValue)</argsstring>
+        <name>CheckPotentialCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.CheckPotentialCord</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>potentialMovesCount</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abcf9a2425f9fdc1b26a9179adcdf6010" kindref="member">InMapBoundarys</ref></type>
+          <declname>condition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>conditionValue</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if can add cord in given direction </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentCord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point to check potential moves for</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>possibleMoves</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array to fill with potential cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>potentialMovesCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>potential cords size</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point to check direction</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>condition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>safety condition</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conditionValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cord direction to check</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="182" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="182" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a72871ee0f63a4ceb06c75d6060c349c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.RoomAdder.IsCordEmpty</definition>
+        <argsstring>(CordsXY currentCord, CordsXY offset)</argsstring>
+        <name>IsCordEmpty</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.IsCordEmpty</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>currentCord</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if given cord doesn&apos;t have assigned room </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentCord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point to check potential moves for</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point to check direction</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if cord is empty cell</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="197" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aae560772c963c65f91f5fdd0547524fb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.RoomAdder.RemoveCordFromList</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; cordsList, CordsXY cord)</argsstring>
+        <name>RemoveCordFromList</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.RoomAdder.RemoveCordFromList</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>cordsList</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cord</declname>
+        </param>
+        <briefdescription>
+<para>methode that removes cord form cords list </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cordsList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of cords</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cord to remove</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="204" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="204" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for inheritance purposes - it serves as an interface that provides universally needed variables and methods. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.RoomAdder</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder"/>
+      </node>
+      <node id="2">
+        <label>MapGenerator.MapLayoutGeneration.BasePathsGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MapGenerator.MapLayoutGeneration.BossRoomGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_boss_room_generator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MapGenerator.MapLayoutGeneration.ItemRoomGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_item_room_generator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MapGenerator.MapLayoutGeneration.ShopRoomGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_shop_room_generator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.RoomAdder</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>allCordsAroundMiddle</edgelabel>
+          <edgelabel>middle</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>rows</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>generationParameters</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>floorDimensions</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Structures.Map.FloorDimensions</label>
+        <link refid="class_structures_1_1_map_1_1_floor_dimensions"/>
+      </node>
+      <node id="4">
+        <label>Structures.Map.MapGenerationParameters</label>
+        <link refid="struct_structures_1_1_map_1_1_map_generation_parameters"/>
+      </node>
+      <node id="2">
+        <label>Structures.Map.Room.CordsXY</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y"/>
+      </node>
+      <node id="3">
+        <label>Structures.Map.Row</label>
+        <link refid="class_structures_1_1_map_1_1_row"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" line="11" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/RoomAdder.cs" bodystart="12" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a31ba40ba915032a3dde5a7aef4e1e313" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>AddPoint</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aacf690025278057dc7ab39639f4c5c03" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>AddPointToNode</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a44989e576e1fc75ef8487f2e32429768" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>allCordsAroundMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a15ff40134834b774655286a0d1c72395" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>AroundMiddleCondition</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aaf73167d6f76a6d25e4e6a0ca0a04f9f" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>CheckIfCanAddNextPoint</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ada8e8f479b82cf9b2fb8a1eecf983ed3" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>CheckPotentialCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>Delegator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a22f9824e564b5b852986b8b4f71b6623" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>EmptyNeighbourCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a8d09916cba3186e2113c76bed412a0e7" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>FindPotentialCordMoves</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa6008451bdebbcd40b3794e49793cf7d" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>floorDimensions</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aea917ca7eea78484523c0ddd21fe22e8" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>generationParameters</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abcf9a2425f9fdc1b26a9179adcdf6010" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>InMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a72871ee0f63a4ceb06c75d6060c349c4" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>IsCordEmpty</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad64560f6f1c9db62672f7299df32cee4" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>IsInLowerMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abae1041c5d685b89c145193efc393d3b" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>IsInUpperMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad44848cb819890b8e3f0d06024de0666" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>IsPointAroundMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a97a26f62b66f6b5d6cb460d8378da92a" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>middle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa0b8a5520977a723a1883b30eab1a9ac" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>pointsAroundMiddleCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aae560772c963c65f91f5fdd0547524fb" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>RemoveCordFromList</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a83e20af7a92dff9b8def5182b4177949" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>RoomAdder</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a61edae22ed1bc4a432f31eb71b956e42" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::RoomAdder</scope><name>rows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Room::RoomContent::Enemys::Normal::EnemyAI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i" prot="public" virt="non-virtual">Animations.Enemys.BaseEnemy.BaseEnemyAI</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Boss.BossEnemyAi</derivedcompoundref>
+    <derivedcompoundref refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i" prot="public" virt="non-virtual">Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1afb1705769ff4049a725ce5739ee432c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>System.Action&lt; GameObject &gt;</type>
+        <definition>System.Action&lt;GameObject&gt; Room.RoomContent.Enemys.Normal.EnemyAI.FoundPlayer</definition>
+        <argsstring></argsstring>
+        <name>FoundPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.FoundPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="14" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a91b09f1f9fb121e4de332137d51a1d94" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask Room.RoomContent.Enemys.Normal.EnemyAI.Mask</definition>
+        <argsstring></argsstring>
+        <name>Mask</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.Mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="17" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a9dd101342db3c1f15fb3d56429805009" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_player_1_1_player_object_getter" kindref="compound">PlayerObjectGetter</ref></type>
+        <definition>PlayerObjectGetter Room.RoomContent.Enemys.Normal.EnemyAI.PlayerObject</definition>
+        <argsstring></argsstring>
+        <name>PlayerObject</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.PlayerObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="20" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4452b7332ee4bae54e37d9bb06eb1451" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.RoomContent.Enemys.Normal.EnemyAI.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.Player</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="23" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ab676dddc2dbb697ad15f0e3751080efe" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Room.RoomContent.Enemys.Normal.EnemyAI.wasPlayerDetected</definition>
+        <argsstring></argsstring>
+        <name>wasPlayerDetected</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.wasPlayerDetected</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="28" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a8b921ec3a85ee2a5fbb184f8148edd5e" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.RoomContent.Enemys.Normal.EnemyAI.detectedPlayer</definition>
+        <argsstring></argsstring>
+        <name>detectedPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.detectedPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="29" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a910347d2a170de9386f5e4a5835183fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAI.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="34" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a994555aa879dbb378a84ebc83e4451a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="40" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ae521f2da393a18abf2d99bc6a4d059a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAI.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="45" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a449a4dc78297000ba3e7a94a57f28f76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.RoomContent.Enemys.Normal.EnemyAI.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="50" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a281cb3306e1b1ab5b666565569e29e41" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Room.RoomContent.Enemys.Normal.EnemyAI.CanSeePlayer</definition>
+        <argsstring>()</argsstring>
+        <name>CanSeePlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.CanSeePlayer</qualifiedname>
+        <reimplementedby refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a0ed5e5b23bf42567b2baab1dc54a2b87">CanSeePlayer</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a0fc8ef9b50ac6755a35ec7f1142ab58b">CanSeePlayer</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a689f9a0a51a1a39203a50c8fd3e2b87c">CanSeePlayer</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="58" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1af0a4d7e715891015301ca2244b6878e1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.Enemys.Normal.EnemyAI.EnableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>EnableEvents</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.EnableEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="60" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4f2ce267a30eca56bb470709ccbddf0d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.Enemys.Normal.EnemyAI.DisableEvents</definition>
+        <argsstring>()</argsstring>
+        <name>DisableEvents</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.DisableEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="65" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a2330e5df77339baea4b91bb071e1c6b8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Room.RoomContent.Enemys.Normal.EnemyAI.SetFoundPlayer</definition>
+        <argsstring>(GameObject player)</argsstring>
+        <name>SetFoundPlayer</name>
+        <qualifiedname>Room.RoomContent.Enemys.Normal.EnemyAI.SetFoundPlayer</qualifiedname>
+        <reimplementedby refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i_1a1be82549c044bd80cae7398d38fd04d1">SetFoundPlayer</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai_1a8ca747f5bfceedb75ca3d081c9102df6">SetFoundPlayer</reimplementedby>
+        <reimplementedby refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i_1a3e7de179be6e44c79f8fb5ad82a2f995">SetFoundPlayer</reimplementedby>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="70" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="70" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract class that implements basic enemy AI universally used methods. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Animations.Enemys.BaseEnemy.BaseEnemyAI</label>
+        <link refid="class_animations_1_1_enemys_1_1_base_enemy_1_1_base_enemy_a_i"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Room.RoomContent.Enemys.Boss.BossEnemyAi</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_boss_1_1_boss_enemy_ai"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Room.RoomContent.Enemys.Normal.TuretEnemy.TurretEnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_turet_enemy_1_1_turret_enemy_a_i"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.RoomContent.Enemys.Normal.EnemyAI</label>
+        <link refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" line="9" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/RoomContent/Enemys/Normal/EnemyAI.cs" bodystart="10" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a910347d2a170de9386f5e4a5835183fc" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>Awake</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a281cb3306e1b1ab5b666565569e29e41" prot="protected" virt="pure-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>CanSeePlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a8b921ec3a85ee2a5fbb184f8148edd5e" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>detectedPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4f2ce267a30eca56bb470709ccbddf0d" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>DisableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1af0a4d7e715891015301ca2244b6878e1" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>EnableEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1afb1705769ff4049a725ce5739ee432c8" prot="public" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>FoundPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a91b09f1f9fb121e4de332137d51a1d94" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>Mask</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a449a4dc78297000ba3e7a94a57f28f76" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>OnDisable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ae521f2da393a18abf2d99bc6a4d059a7" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>OnEnable</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a4452b7332ee4bae54e37d9bb06eb1451" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>Player</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a9dd101342db3c1f15fb3d56429805009" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>PlayerObject</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a2330e5df77339baea4b91bb071e1c6b8" prot="protected" virt="virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>SetFoundPlayer</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1a994555aa879dbb378a84ebc83e4451a9" prot="private" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>Update</name></member>
+      <member refid="class_room_1_1_room_content_1_1_enemys_1_1_normal_1_1_enemy_a_i_1ab676dddc2dbb697ad15f0e3751080efe" prot="protected" virt="non-virtual"><scope>Room::RoomContent::Enemys::Normal::EnemyAI</scope><name>wasPlayerDetected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_item_room_generator_8cs" kind="file" language="C#">
+    <compoundname>ItemRoomGenerator.cs</compoundname>
+    <innerclass refid="class_map_generator_1_1_map_layout_generation_1_1_item_room_generator" prot="public">MapGenerator::MapLayoutGeneration::ItemRoomGenerator</innerclass>
+    <innernamespace refid="namespace_map_generator">MapGenerator</innernamespace>
+    <innernamespace refid="namespace_map_generator_1_1_map_layout_generation">MapGenerator::MapLayoutGeneration</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_structures_1_1_map" kindref="compound">Structures.Map</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_structures_1_1_map_1_1_room" kindref="compound">Structures.Map.Room</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_map_generator_1_1_map_layout_generation" kindref="compound">MapGenerator.MapLayoutGeneration</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_map_generator_1_1_map_layout_generation_1_1_item_room_generator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_map_generator_1_1_map_layout_generation_1_1_item_room_generator" kindref="compound">ItemRoomGenerator</ref><sp/>:<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder" kindref="compound">RoomAdder</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Constructors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_item_room_generator" kindref="compound">ItemRoomGenerator</ref>(<ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a44989e576e1fc75ef8487f2e32429768" kindref="member">allCordsAroundMiddle</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa0b8a5520977a723a1883b30eab1a9ac" kindref="member">pointsAroundMiddleCount</ref>,<sp/><ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref><sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aea917ca7eea78484523c0ddd21fe22e8" kindref="member">generationParameters</ref>,<sp/><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref><sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a97a26f62b66f6b5d6cb460d8378da92a" kindref="member">middle</ref>,<sp/><ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a61edae22ed1bc4a432f31eb71b956e42" kindref="member">rows</ref>,<sp/><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref><sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa6008451bdebbcd40b3794e49793cf7d" kindref="member">floorDimensions</ref>)<sp/>:<sp/>base(<ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a44989e576e1fc75ef8487f2e32429768" kindref="member">allCordsAroundMiddle</ref>,<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa0b8a5520977a723a1883b30eab1a9ac" kindref="member">pointsAroundMiddleCount</ref>,<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aea917ca7eea78484523c0ddd21fe22e8" kindref="member">generationParameters</ref>,<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a97a26f62b66f6b5d6cb460d8378da92a" kindref="member">middle</ref>,<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a61edae22ed1bc4a432f31eb71b956e42" kindref="member">rows</ref>,<sp/><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa6008451bdebbcd40b3794e49793cf7d" kindref="member">floorDimensions</ref>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/ItemRoomGenerator.cs"/>
+  </compounddef>
+</doxygen>

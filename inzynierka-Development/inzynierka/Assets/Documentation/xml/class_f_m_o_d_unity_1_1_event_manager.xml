@@ -1,0 +1,845 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_event_manager" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EventManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_event_manager_1_1_active_build_target_listener" prot="public">FMODUnity::EventManager::ActiveBuildTargetListener</innerclass>
+    <innerclass refid="class_f_m_o_d_unity_1_1_event_manager_1_1_preprocess_scene" prot="public">FMODUnity::EventManager::PreprocessScene</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1ace80b7a3a101daf6e2fc22e0469e10c8" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventManager.FMODLabel</definition>
+        <argsstring></argsstring>
+        <name>FMODLabel</name>
+        <qualifiedname>FMODUnity.EventManager.FMODLabel</qualifiedname>
+        <initializer>= &quot;FMOD&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="17" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1a980d0c1b28f3e0fe8260655b26a96927" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventManager.AssetsFolderName</definition>
+        <argsstring></argsstring>
+        <name>AssetsFolderName</name>
+        <qualifiedname>FMODUnity.EventManager.AssetsFolderName</qualifiedname>
+        <initializer>= &quot;Assets&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="19" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1ac3e3ad7b9e57d1aed7010ae2736c09d9" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventManager.CacheAssetName</definition>
+        <argsstring></argsstring>
+        <name>CacheAssetName</name>
+        <qualifiedname>FMODUnity.EventManager.CacheAssetName</qualifiedname>
+        <initializer>= &quot;FMODStudioCache&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="21" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1a7e35ffffc953b206ed250f59327378d0" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_event_cache" kindref="compound">EventCache</ref></type>
+        <definition>EventCache FMODUnity.EventManager.eventCache</definition>
+        <argsstring></argsstring>
+        <name>eventCache</name>
+        <qualifiedname>FMODUnity.EventManager.eventCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="24" column="35" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1ab681bb104d5ce62109247cdc268548c6" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventManager.StringBankExtension</definition>
+        <argsstring></argsstring>
+        <name>StringBankExtension</name>
+        <qualifiedname>FMODUnity.EventManager.StringBankExtension</qualifiedname>
+        <initializer>= &quot;strings.bank&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="26" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1ab4865d572298dbdd060562cc6daed950" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.EventManager.BankExtension</definition>
+        <argsstring></argsstring>
+        <name>BankExtension</name>
+        <qualifiedname>FMODUnity.EventManager.BankExtension</qualifiedname>
+        <initializer>= &quot;bank&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="27" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_event_manager_1a107ce1bd6fca6412f0d1c8d83a9f03b8" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string FMODUnity.EventManager.UpdaterInstructions</definition>
+        <argsstring></argsstring>
+        <name>UpdaterInstructions</name>
+        <qualifiedname>FMODUnity.EventManager.UpdaterInstructions</qualifiedname>
+        <initializer>=
+            string.Format(&quot;Please run {0} to resolve this issue.&quot;, <ref refid="class_f_m_o_d_unity_1_1_event_reference_updater_1aa07b917d992c3d150d8b3aafb6a05be8" kindref="member">EventReferenceUpdater.MenuPath</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="621" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="621" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1a4bddd56d65dfd19b93e1521dda90df15" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EventManager.CacheAssetFullName</definition>
+        <argsstring></argsstring>
+        <name>CacheAssetFullName</name>
+        <qualifiedname>FMODUnity.EventManager.CacheAssetFullName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="22" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1a9c70196c1143895c2951375c120cd833" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime FMODUnity.EventManager.CacheTime</definition>
+        <argsstring></argsstring>
+        <name>CacheTime</name>
+        <qualifiedname>FMODUnity.EventManager.CacheTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1094" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1095" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1aff7f98ab4d21665eb9a243c14d2e6f62" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref> &gt;</type>
+        <definition>List&lt;EditorEventRef&gt; FMODUnity.EventManager.Events</definition>
+        <argsstring></argsstring>
+        <name>Events</name>
+        <qualifiedname>FMODUnity.EventManager.Events</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1109" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1110" bodyend="1116"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1aeea6a88c959c2b534100daf301cf543d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_bank_ref" kindref="compound">EditorBankRef</ref> &gt;</type>
+        <definition>List&lt;EditorBankRef&gt; FMODUnity.EventManager.Banks</definition>
+        <argsstring></argsstring>
+        <name>Banks</name>
+        <qualifiedname>FMODUnity.EventManager.Banks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1118" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1119" bodyend="1125"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1af25fc569228f6d7d62b264bb58706e8c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref> &gt;</type>
+        <definition>List&lt;EditorParamRef&gt; FMODUnity.EventManager.Parameters</definition>
+        <argsstring></argsstring>
+        <name>Parameters</name>
+        <qualifiedname>FMODUnity.EventManager.Parameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1127" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1128" bodyend="1134"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1af0a38dcaf5879e1678b786fb3a87441d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_bank_ref" kindref="compound">EditorBankRef</ref> &gt;</type>
+        <definition>List&lt;EditorBankRef&gt; FMODUnity.EventManager.MasterBanks</definition>
+        <argsstring></argsstring>
+        <name>MasterBanks</name>
+        <qualifiedname>FMODUnity.EventManager.MasterBanks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1136" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1137" bodyend="1143"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1aac2558b4b641db2e4da833702d347229" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventManager.IsLoaded</definition>
+        <argsstring></argsstring>
+        <name>IsLoaded</name>
+        <qualifiedname>FMODUnity.EventManager.IsLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1145" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1146" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1a1c49778844a8b58131eebcd03870a498" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventManager.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>FMODUnity.EventManager.IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1153" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1154" bodyend="1160"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_event_manager_1ae3e1673372e864e215de513d15bba120" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EventManager.IsInitialized</definition>
+        <argsstring></argsstring>
+        <name>IsInitialized</name>
+        <qualifiedname>FMODUnity.EventManager.IsInitialized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1162" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1163" bodyend="1168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a9daa131edf652ea91ad0b17e72e6e388" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.ClearCache</definition>
+        <argsstring>()</argsstring>
+        <name>ClearCache</name>
+        <qualifiedname>FMODUnity.EventManager.ClearCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="48" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="48" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a025b4425346bd1641510d88975cb5a2d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.AffirmEventCache</definition>
+        <argsstring>()</argsstring>
+        <name>AffirmEventCache</name>
+        <qualifiedname>FMODUnity.EventManager.AffirmEventCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="60" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1ab7715989fce1bd25bf4304982a16f087" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FMODUnity.EventManager.UpdateCache</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateCache</name>
+        <qualifiedname>FMODUnity.EventManager.UpdateCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="68" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="68" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a2ffe115136bfccd3ea958beeabdeb5f5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.ShowEventsRenamedDialog</definition>
+        <argsstring>()</argsstring>
+        <name>ShowEventsRenamedDialog</name>
+        <qualifiedname>FMODUnity.EventManager.ShowEventsRenamedDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="382" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="382" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a21f018c5d1b9cb216d1db678e97e5804" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.UpdateCacheBank</definition>
+        <argsstring>(EditorBankRef bankRef, ref bool renameOccurred)</argsstring>
+        <name>UpdateCacheBank</name>
+        <qualifiedname>FMODUnity.EventManager.UpdateCacheBank</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_bank_ref" kindref="compound">EditorBankRef</ref></type>
+          <declname>bankRef</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>renameOccurred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="394" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="394" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a1ecf37a3ecc4133eaf9031ec01d5a637" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.InitializeParamRef</definition>
+        <argsstring>(EditorParamRef paramRef, FMOD.Studio.PARAMETER_DESCRIPTION description, Func&lt; int, string &gt; getLabel)</argsstring>
+        <name>InitializeParamRef</name>
+        <qualifiedname>FMODUnity.EventManager.InitializeParamRef</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref></type>
+          <declname>paramRef</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">FMOD.Studio.PARAMETER_DESCRIPTION</ref></type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>Func&lt; int, string &gt;</type>
+          <declname>getLabel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="530" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="530" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1aeb9c5425ddbe503f2ccc93947003f8f8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] FMODUnity.EventManager.GetParameterLabels</definition>
+        <argsstring>(FMOD.Studio.PARAMETER_DESCRIPTION parameterDescription, Func&lt; int, string &gt; getLabel)</argsstring>
+        <name>GetParameterLabels</name>
+        <qualifiedname>FMODUnity.EventManager.GetParameterLabels</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_studio_1_1_p_a_r_a_m_e_t_e_r___d_e_s_c_r_i_p_t_i_o_n" kindref="compound">FMOD.Studio.PARAMETER_DESCRIPTION</ref></type>
+          <declname>parameterDescription</declname>
+        </param>
+        <param>
+          <type>Func&lt; int, string &gt;</type>
+          <declname>getLabel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="555" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="555" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1afcb4c1db460820c6c627ad84ebc69733" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FMODUnity.EventManager.EventManager</definition>
+        <argsstring>()</argsstring>
+        <name>EventManager</name>
+        <qualifiedname>FMODUnity.EventManager.EventManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="568" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="568" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a2870dbbdef6b9cee0897e8aa7b8bba5a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.ValidateEventEmitter</definition>
+        <argsstring>(StudioEventEmitter emitter, Scene scene)</argsstring>
+        <name>ValidateEventEmitter</name>
+        <qualifiedname>FMODUnity.EventManager.ValidateEventEmitter</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_studio_event_emitter" kindref="compound">StudioEventEmitter</ref></type>
+          <declname>emitter</declname>
+        </param>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="624" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="624" bodyend="642"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1adf89c416d528b31525ecbcc03b9a96fd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.ValidateEventReferenceFields</definition>
+        <argsstring>(MonoBehaviour behaviour, Scene scene)</argsstring>
+        <name>ValidateEventReferenceFields</name>
+        <qualifiedname>FMODUnity.EventManager.ValidateEventReferenceFields</qualifiedname>
+        <param>
+          <type>MonoBehaviour</type>
+          <declname>behaviour</declname>
+        </param>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="644" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="644" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1ab2de8bbf0fda62332081e0abcc568dcd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.EventManager.ValidateEventReference</definition>
+        <argsstring>(ref EventReference eventReference, Component parent, Scene scene, out bool changed)</argsstring>
+        <name>ValidateEventReference</name>
+        <qualifiedname>FMODUnity.EventManager.ValidateEventReference</qualifiedname>
+        <param>
+          <type>ref <ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <param>
+          <type>Component</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>changed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="683" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="683" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1af8708950f798eb9cc42157066fce35d9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.EnsureFoldersExist</definition>
+        <argsstring>(string filePath, string basePath)</argsstring>
+        <name>EnsureFoldersExist</name>
+        <qualifiedname>FMODUnity.EventManager.EnsureFoldersExist</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>basePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1004" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1004" bodyend="1041"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1aa2ffe4fd0fdef09b9dbe2a3a889a9cb6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.BuildTargetChanged</definition>
+        <argsstring>()</argsstring>
+        <name>BuildTargetChanged</name>
+        <qualifiedname>FMODUnity.EventManager.BuildTargetChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1043" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1043" bodyend="1049"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a904b0540f152bc7a497746097a2a6be2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.OnCacheChange</definition>
+        <argsstring>()</argsstring>
+        <name>OnCacheChange</name>
+        <qualifiedname>FMODUnity.EventManager.OnCacheChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1051" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1051" bodyend="1092"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a8fd27719767ebebd3557ae0c304349aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.EventManager.CompareLists</definition>
+        <argsstring>(List&lt; string &gt; tempBanks, List&lt; string &gt; banks)</argsstring>
+        <name>CompareLists</name>
+        <qualifiedname>FMODUnity.EventManager.CompareLists</qualifiedname>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>tempBanks</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>banks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1249" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1249" bodyend="1260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a936fba32dac95930b95ad274a85d7e13" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FMODUnity.EventManager.AssetHasLabel</definition>
+        <argsstring>(string assetPath, string label)</argsstring>
+        <name>AssetHasLabel</name>
+        <qualifiedname>FMODUnity.EventManager.AssetHasLabel</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>assetPath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1262" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1262" bodyend="1268"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a89d092ded2047ce643d9546142f14714" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.Startup</definition>
+        <argsstring>()</argsstring>
+        <name>Startup</name>
+        <qualifiedname>FMODUnity.EventManager.Startup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="579" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="579" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a3651e871757a1124c6f024fa90936458" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.ValidateEventReferences</definition>
+        <argsstring>(Scene scene)</argsstring>
+        <name>ValidateEventReferences</name>
+        <qualifiedname>FMODUnity.EventManager.ValidateEventReferences</qualifiedname>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="598" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="598" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a3f1befe26bf4fba85965a277cfae70f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.CopyToStreamingAssets</definition>
+        <argsstring>(BuildTarget buildTarget)</argsstring>
+        <name>CopyToStreamingAssets</name>
+        <qualifiedname>FMODUnity.EventManager.CopyToStreamingAssets</qualifiedname>
+        <param>
+          <type>BuildTarget</type>
+          <declname>buildTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="746" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="746" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a27f3dc124fcb2a3519d4b2c3ecb20493" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.UpdateBankStubAssets</definition>
+        <argsstring>(BuildTarget buildTarget)</argsstring>
+        <name>UpdateBankStubAssets</name>
+        <qualifiedname>FMODUnity.EventManager.UpdateBankStubAssets</qualifiedname>
+        <param>
+          <type>BuildTarget</type>
+          <declname>buildTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="868" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="868" bodyend="1002"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1ad8b7428d08d18b9be11b75ecdd4d9df0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_f_m_o_d_unity_1a160fcdf756b41e64c1b5dfa80220b2c0" kindref="member">EventLinkage</ref></type>
+        <definition>static EventLinkage FMODUnity.EventManager.GetEventLinkage</definition>
+        <argsstring>(EventReference eventReference)</argsstring>
+        <name>GetEventLinkage</name>
+        <qualifiedname>FMODUnity.EventManager.GetEventLinkage</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_unity_1_1_event_reference" kindref="compound">EventReference</ref></type>
+          <declname>eventReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1170" column="36" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1170" bodyend="1194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a19afd049aec82cbe0ccec57a05872572" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+        <definition>static EditorEventRef FMODUnity.EventManager.EventFromPath</definition>
+        <argsstring>(string pathOrGuid)</argsstring>
+        <name>EventFromPath</name>
+        <qualifiedname>FMODUnity.EventManager.EventFromPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>pathOrGuid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1196" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1196" bodyend="1208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a8e65b4298a3963f2154054116849a86c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+        <definition>static EditorEventRef FMODUnity.EventManager.EventFromString</definition>
+        <argsstring>(string path)</argsstring>
+        <name>EventFromString</name>
+        <qualifiedname>FMODUnity.EventManager.EventFromString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1210" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1210" bodyend="1214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a049f1541e20b506649928d114bedf335" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_event_ref" kindref="compound">EditorEventRef</ref></type>
+        <definition>static EditorEventRef FMODUnity.EventManager.EventFromGUID</definition>
+        <argsstring>(FMOD.GUID guid)</argsstring>
+        <name>EventFromGUID</name>
+        <qualifiedname>FMODUnity.EventManager.EventFromGUID</qualifiedname>
+        <param>
+          <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1216" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1216" bodyend="1220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1af637a498662dc3e14d6b0421f6a298fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref></type>
+        <definition>static EditorParamRef FMODUnity.EventManager.ParamFromPath</definition>
+        <argsstring>(string name)</argsstring>
+        <name>ParamFromPath</name>
+        <qualifiedname>FMODUnity.EventManager.ParamFromPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1222" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1222" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a074ca0cad56f4525569b0a3c0fb99825" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.RemoveBanks</definition>
+        <argsstring>(string basePath)</argsstring>
+        <name>RemoveBanks</name>
+        <qualifiedname>FMODUnity.EventManager.RemoveBanks</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>basePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1270" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1270" bodyend="1299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1ace4e94feeff5e2b0db42d7c1fcc1c547" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.MoveBanks</definition>
+        <argsstring>(string from, string to)</argsstring>
+        <name>MoveBanks</name>
+        <qualifiedname>FMODUnity.EventManager.MoveBanks</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1301" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1301" bodyend="1336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_event_manager_1a7c813a25a5f14de4f07c1274384efedf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.EventManager.RemoveEmptyFMODFolders</definition>
+        <argsstring>(string basePath)</argsstring>
+        <name>RemoveEmptyFMODFolders</name>
+        <qualifiedname>FMODUnity.EventManager.RemoveEmptyFMODFolders</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>basePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="1338" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="1338" bodyend="1354"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EventManager</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EventManager</label>
+        <link refid="class_f_m_o_d_unity_1_1_event_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" line="15" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EventManager.cs" bodystart="16" bodyend="1355"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a025b4425346bd1641510d88975cb5a2d" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>AffirmEventCache</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a936fba32dac95930b95ad274a85d7e13" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>AssetHasLabel</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a980d0c1b28f3e0fe8260655b26a96927" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>AssetsFolderName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ab4865d572298dbdd060562cc6daed950" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>BankExtension</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1aeea6a88c959c2b534100daf301cf543d" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>Banks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1aa2ffe4fd0fdef09b9dbe2a3a889a9cb6" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>BuildTargetChanged</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a4bddd56d65dfd19b93e1521dda90df15" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>CacheAssetFullName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ac3e3ad7b9e57d1aed7010ae2736c09d9" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>CacheAssetName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a9c70196c1143895c2951375c120cd833" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>CacheTime</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a9daa131edf652ea91ad0b17e72e6e388" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ClearCache</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a8fd27719767ebebd3557ae0c304349aa" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>CompareLists</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a3f1befe26bf4fba85965a277cfae70f1" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>CopyToStreamingAssets</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1af8708950f798eb9cc42157066fce35d9" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>EnsureFoldersExist</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a7e35ffffc953b206ed250f59327378d0" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>eventCache</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a049f1541e20b506649928d114bedf335" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>EventFromGUID</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a19afd049aec82cbe0ccec57a05872572" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>EventFromPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a8e65b4298a3963f2154054116849a86c" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>EventFromString</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1afcb4c1db460820c6c627ad84ebc69733" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>EventManager</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1aff7f98ab4d21665eb9a243c14d2e6f62" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>Events</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ace80b7a3a101daf6e2fc22e0469e10c8" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>FMODLabel</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ad8b7428d08d18b9be11b75ecdd4d9df0" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>GetEventLinkage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1aeb9c5425ddbe503f2ccc93947003f8f8" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>GetParameterLabels</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a1ecf37a3ecc4133eaf9031ec01d5a637" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>InitializeParamRef</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ae3e1673372e864e215de513d15bba120" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>IsInitialized</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1aac2558b4b641db2e4da833702d347229" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>IsLoaded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a1c49778844a8b58131eebcd03870a498" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>IsValid</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1af0a38dcaf5879e1678b786fb3a87441d" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>MasterBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ace4e94feeff5e2b0db42d7c1fcc1c547" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>MoveBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a904b0540f152bc7a497746097a2a6be2" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>OnCacheChange</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1af25fc569228f6d7d62b264bb58706e8c" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>Parameters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1af637a498662dc3e14d6b0421f6a298fe" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ParamFromPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a074ca0cad56f4525569b0a3c0fb99825" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>RemoveBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a7c813a25a5f14de4f07c1274384efedf" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>RemoveEmptyFMODFolders</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a2ffe115136bfccd3ea958beeabdeb5f5" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ShowEventsRenamedDialog</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a89d092ded2047ce643d9546142f14714" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>Startup</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ab681bb104d5ce62109247cdc268548c6" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>StringBankExtension</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a27f3dc124fcb2a3519d4b2c3ecb20493" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>UpdateBankStubAssets</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ab7715989fce1bd25bf4304982a16f087" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>UpdateCache</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a21f018c5d1b9cb216d1db678e97e5804" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>UpdateCacheBank</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a107ce1bd6fca6412f0d1c8d83a9f03b8" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>UpdaterInstructions</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a2870dbbdef6b9cee0897e8aa7b8bba5a" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ValidateEventEmitter</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1ab2de8bbf0fda62332081e0abcc568dcd" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ValidateEventReference</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1adf89c416d528b31525ecbcc03b9a96fd" prot="private" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ValidateEventReferenceFields</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_event_manager_1a3651e871757a1124c6f024fa90936458" prot="public" virt="non-virtual"><scope>FMODUnity::EventManager</scope><name>ValidateEventReferences</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_events_1_1_game_1_1_game_restart" kind="class" language="C#" prot="public">
+    <compoundname>Events::Game::GameRestart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_events_1_1_game_1_1_game_restart_1a8c593196abe0d19617dfebe483324633" prot="public" static="no" mutable="no">
+        <type>System.Action</type>
+        <definition>System.Action Events.Game.GameRestart.RestartScene</definition>
+        <argsstring></argsstring>
+        <name>RestartScene</name>
+        <qualifiedname>Events.Game.GameRestart.RestartScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Game/GameRestart.cs" line="11" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Game/GameRestart.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for relaying game restart event. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Events.Game.GameRestart</label>
+        <link refid="class_events_1_1_game_1_1_game_restart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Events.Game.GameRestart</label>
+        <link refid="class_events_1_1_game_1_1_game_restart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>RestartScene</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Game/GameRestart.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/Game/GameRestart.cs" bodystart="10" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_events_1_1_game_1_1_game_restart_1a8c593196abe0d19617dfebe483324633" prot="public" virt="non-virtual"><scope>Events::Game::GameRestart</scope><name>RestartScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

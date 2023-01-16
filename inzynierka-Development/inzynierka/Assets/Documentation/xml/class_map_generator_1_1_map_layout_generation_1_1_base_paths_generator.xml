@@ -1,0 +1,1144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator" kind="class" language="C#" prot="public">
+    <compoundname>MapGenerator::MapLayoutGeneration::BasePathsGenerator</compoundname>
+    <basecompoundref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder" prot="public" virt="non-virtual">MapGenerator.MapLayoutGeneration.RoomAdder</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7a448f76608ea09aece81eaa02c0a370" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>GenerationFaze</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerationFaze</qualifiedname>
+        <enumvalue id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7a448f76608ea09aece81eaa02c0a370a4f2a91e15af2631ff9424564b8a45fb2" prot="private">
+          <name>Initial</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7a448f76608ea09aece81eaa02c0a370ab1ca34f82e83c52b010f86955f264e05" prot="private">
+          <name>Middle</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7a448f76608ea09aece81eaa02c0a370a87557f11575c0ad78e4e28abedc13b6e" prot="private">
+          <name>End</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="23" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1aea83eb3f6906a6899ce629729a25dc6f" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MapGenerator.MapLayoutGeneration.BasePathsGenerator.GENERATION_SAFETY_LIMITER</definition>
+        <argsstring></argsstring>
+        <name>GENERATION_SAFETY_LIMITER</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GENERATION_SAFETY_LIMITER</qualifiedname>
+        <initializer>= 5000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="28" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a8aa5b7a42c243e3c163cb666add14e2a" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MapGenerator.MapLayoutGeneration.BasePathsGenerator.LIMIT_NODES_DIRECTIONS_CHANCE</definition>
+        <argsstring></argsstring>
+        <name>LIMIT_NODES_DIRECTIONS_CHANCE</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.LIMIT_NODES_DIRECTIONS_CHANCE</qualifiedname>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="29" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad7133653d21f3c59fa463a2c87bd58c4" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MapGenerator.MapLayoutGeneration.BasePathsGenerator.MIN_NODES_TO_LIMIT_COUNT</definition>
+        <argsstring></argsstring>
+        <name>MIN_NODES_TO_LIMIT_COUNT</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.MIN_NODES_TO_LIMIT_COUNT</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="30" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a1a0f9566b055d0dc618da1678915e2cb" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MapGenerator.MapLayoutGeneration.BasePathsGenerator.MAX_NODES_TO_LIMIT_COUNT</definition>
+        <argsstring></argsstring>
+        <name>MAX_NODES_TO_LIMIT_COUNT</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.MAX_NODES_TO_LIMIT_COUNT</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="31" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ac66ec8fbeff31891ccd46babf1a345fd" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MapGenerator.MapLayoutGeneration.BasePathsGenerator.MAX_POSIBLE_MOVES_COUNT</definition>
+        <argsstring></argsstring>
+        <name>MAX_POSIBLE_MOVES_COUNT</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.MAX_POSIBLE_MOVES_COUNT</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="32" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1acdd20980b3bdd5d98b39a9f0f358c675" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int MapGenerator.MapLayoutGeneration.BasePathsGenerator.LAST_DIRECTION_NODE_NUMERICAL_VALUE</definition>
+        <argsstring></argsstring>
+        <name>LAST_DIRECTION_NODE_NUMERICAL_VALUE</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.LAST_DIRECTION_NODE_NUMERICAL_VALUE</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="33" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ab07ca517475eca3f80a806dcd989103e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_structures_1_1_map_1_1_floor_rooms_nodes" kindref="compound">FloorRoomsNodes</ref></type>
+        <definition>FloorRoomsNodes MapGenerator.MapLayoutGeneration.BasePathsGenerator.roomsNodes</definition>
+        <argsstring></argsstring>
+        <name>roomsNodes</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.roomsNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="38" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7685caa3acee0f1cd2a8d5fb550ad19f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MapGenerator.MapLayoutGeneration.BasePathsGenerator.gridCount</definition>
+        <argsstring></argsstring>
+        <name>gridCount</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.gridCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="39" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a80b286dbae00f28925aa8813b1b24468" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MapGenerator.MapLayoutGeneration.BasePathsGenerator.mapFilment</definition>
+        <argsstring></argsstring>
+        <name>mapFilment</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.mapFilment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="40" column="15" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1abd8220c654f1118894e871bb6c13ba8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate bool</type>
+        <definition>delegate bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.RemoveCondition</definition>
+        <argsstring>(int count)</argsstring>
+        <name>RemoveCondition</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.RemoveCondition</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="18" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ae036feecfc6bbcae18ac76bf335446dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MapGenerator.MapLayoutGeneration.BasePathsGenerator.BasePathsGenerator</definition>
+        <argsstring>(ref Row[] rows, CordsXY middle, CordsXY[] allCordsAroundMiddle, FloorDimensions floorDimensions, MapGenerationParameters generationParameters, ref FloorRoomsNodes roomsNodes)</argsstring>
+        <name>BasePathsGenerator</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.BasePathsGenerator</qualifiedname>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>middle</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref>[]</type>
+          <declname>allCordsAroundMiddle</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_floor_dimensions" kindref="compound">FloorDimensions</ref></type>
+          <declname>floorDimensions</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_structures_1_1_map_1_1_map_generation_parameters" kindref="compound">MapGenerationParameters</ref></type>
+          <declname>generationParameters</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_floor_rooms_nodes" kindref="compound">FloorRoomsNodes</ref></type>
+          <declname>roomsNodes</declname>
+        </param>
+        <briefdescription>
+<para>constructor setting generation parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>middle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>middle cord</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allCordsAroundMiddle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of cords around middle</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>floorDimensions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map dimensions</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generationParameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generation parameters</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>roomsNodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spawned rooms</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="54" column="8" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a65ac1cd2c2e98299d785afe675b28e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerateBasePaths</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateBasePaths</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerateBasePaths</qualifiedname>
+        <briefdescription>
+<para>methode responsible for generating paths consistent of enemy rooms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="68" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="68" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad3ac6d051d8f2b0b91e2574199423c29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.DelegateConditionZero</definition>
+        <argsstring>(int count)</argsstring>
+        <name>DelegateConditionZero</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.DelegateConditionZero</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="84" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ada3e89e2b1524f575804ee97a12aff47" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.DelegateConditionOne</definition>
+        <argsstring>(int count)</argsstring>
+        <name>DelegateConditionOne</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.DelegateConditionOne</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="85" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a08b5196976fd76d4eb826830fb0e032e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt; int &gt; MapGenerator.MapLayoutGeneration.BasePathsGenerator.LimitNodesDirections</definition>
+        <argsstring>()</argsstring>
+        <name>LimitNodesDirections</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.LimitNodesDirections</qualifiedname>
+        <briefdescription>
+<para>methode that limit direction that generation can start form (start room is generation starting point) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="91" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a563e0cd3324c1937cc940381c243c9fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt; int &gt; MapGenerator.MapLayoutGeneration.BasePathsGenerator.SelectNodesToLimit</definition>
+        <argsstring>()</argsstring>
+        <name>SelectNodesToLimit</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.SelectNodesToLimit</qualifiedname>
+        <briefdescription>
+<para>methode that defines what directions should be skipped </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="97" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="97" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a30a00c81678018d831d2e8c41973a052" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt; int &gt; MapGenerator.MapLayoutGeneration.BasePathsGenerator.ChoseNodeToLimit</definition>
+        <argsstring>(List&lt; int &gt; limitList, int limitCount)</argsstring>
+        <name>ChoseNodeToLimit</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.ChoseNodeToLimit</qualifiedname>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>limitList</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limitCount</declname>
+        </param>
+        <briefdescription>
+<para>methode that chooses nodes to limit form all nodes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="109" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="109" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1afac46d4a7ca78b024ff0d4b9981cd4a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.IndividualNodeToLimitSelection</definition>
+        <argsstring>(ref List&lt; int &gt; limitList, ref int i)</argsstring>
+        <name>IndividualNodeToLimitSelection</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.IndividualNodeToLimitSelection</qualifiedname>
+        <param>
+          <type>ref List&lt; int &gt;</type>
+          <declname>limitList</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>methode that removes individual node direction form generation process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="122" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="122" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a3cf0ebef42165e6551777f532bf0611d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerationLoop</definition>
+        <argsstring>(List&lt; int &gt; list, int[] roomCountBoundarys)</argsstring>
+        <name>GenerationLoop</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerationLoop</qualifiedname>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>roomCountBoundarys</declname>
+        </param>
+        <briefdescription>
+<para>method responsible for generating base paths room by room till all conditions are met </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="139" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="139" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a3373f50aa70af602c3fa023f753845f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.ContinueGeneration</definition>
+        <argsstring>()</argsstring>
+        <name>ContinueGeneration</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.ContinueGeneration</qualifiedname>
+        <briefdescription>
+<para>methode that checks if generation should be continued </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="156" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="156" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a1a00d4fc6e7f45c9f6f5e52f57b1c2a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerationIteration</definition>
+        <argsstring>(List&lt; int &gt; list, int[] roomCountBoundarys, ref int potentialBreaker)</argsstring>
+        <name>GenerationIteration</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GenerationIteration</qualifiedname>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>roomCountBoundarys</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>potentialBreaker</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for single generation iteration </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="167" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="167" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a058ddbc8f02464c0dcb4f0372dfb7d67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenerationFaze</type>
+        <definition>GenerationFaze MapGenerator.MapLayoutGeneration.BasePathsGenerator.GetGenerationStage</definition>
+        <argsstring>(int[] boundarys)</argsstring>
+        <name>GetGenerationStage</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GetGenerationStage</qualifiedname>
+        <param>
+          <type>int[]</type>
+          <declname>boundarys</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for setting generation faze </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="181" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a09c893606f1f2ab45fd14a4d2024eb3d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+        <definition>Delegator MapGenerator.MapLayoutGeneration.BasePathsGenerator.SelectGenerationMethode</definition>
+        <argsstring>(GenerationFaze faze, Delegator initialFindAndAddCord, Delegator middleFindAndAddCord, Delegator endFindAndAddCord)</argsstring>
+        <name>SelectGenerationMethode</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.SelectGenerationMethode</qualifiedname>
+        <param>
+          <type>GenerationFaze</type>
+          <declname>faze</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+          <declname>initialFindAndAddCord</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+          <declname>middleFindAndAddCord</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+          <declname>endFindAndAddCord</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns delegator containing generation methode base on generation faze </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="192" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a0d1ea882b704c15d7cf9f410aba0f85a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.InitialFindAndAddCord</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; directionList, List&lt; CordsXY &gt; possibleMoves)</argsstring>
+        <name>InitialFindAndAddCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.InitialFindAndAddCord</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>directionList</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for finding potential enemy room cords in initial generation faze </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="203" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="203" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1afb3864b5149556944e2a1638404543cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.MiddleFindAndAddCord</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; directionList, List&lt; CordsXY &gt; possibleMoves)</argsstring>
+        <name>MiddleFindAndAddCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.MiddleFindAndAddCord</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>directionList</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for finding potential enemy room cords in middle generation faze </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="217" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="217" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a15e79d78b1ff17b37d63ec748639b2fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.EndFindAndAddCord</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; directionList, List&lt; CordsXY &gt; possibleMoves)</argsstring>
+        <name>EndFindAndAddCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.EndFindAndAddCord</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>directionList</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <briefdescription>
+<para>methode responsible for finding potential enemy room cords in end generation faze </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="232" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="232" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ac4e4a2da28d56d01651c084070460b5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.TrySelectNewCord</definition>
+        <argsstring>(out CordsXY temp, ref List&lt; CordsXY &gt; directionList, List&lt; CordsXY &gt; possibleMoves, int potentialNehbiours)</argsstring>
+        <name>TrySelectNewCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.TrySelectNewCord</qualifiedname>
+        <param>
+          <type>out <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>directionList</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>potentialNehbiours</declname>
+        </param>
+        <briefdescription>
+<para>methode that check potential cord </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="247" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="247" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a2e440a9b21ba32394e38e54ebf3ebc9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.CheckPossibleMovesPresence</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; possibleMoves, ref List&lt; CordsXY &gt; directionList)</argsstring>
+        <name>CheckPossibleMovesPresence</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.CheckPossibleMovesPresence</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>directionList</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if selected cord has any possible generation cord </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="258" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="258" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a4b2955a0371fb4cea0ccc7712226dc0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.FilterMovesCondition</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; possibleMoves, RemoveCondition conditionToCheck)</argsstring>
+        <name>FilterMovesCondition</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.FilterMovesCondition</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1abd8220c654f1118894e871bb6c13ba8d" kindref="member">RemoveCondition</ref></type>
+          <declname>conditionToCheck</declname>
+        </param>
+        <briefdescription>
+<para>methode that removes possible moves not meeting generation conditiones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="269" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="269" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ab3bc072fde4b6ca3e968d2f5d83fa118" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.IndividualCordCheck</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; possibleMoves, RemoveCondition conditionToCheck, int i)</argsstring>
+        <name>IndividualCordCheck</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.IndividualCordCheck</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1abd8220c654f1118894e871bb6c13ba8d" kindref="member">RemoveCondition</ref></type>
+          <declname>conditionToCheck</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>methode that checks if individual cord is valid generation cord </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="280" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="280" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ac32741a3a1076d3724b687b9942cc2f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.CheckGenerationCondition</definition>
+        <argsstring>(out CordsXY temp, List&lt; CordsXY &gt; possibleMoves, int condition)</argsstring>
+        <name>CheckGenerationCondition</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.CheckGenerationCondition</qualifiedname>
+        <param>
+          <type>out <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>condition</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if generation conditions are met </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="296" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="296" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1aba9a3d539a82d6cf239973a61b18047c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+        <definition>CordsXY MapGenerator.MapLayoutGeneration.BasePathsGenerator.SelectCordToAdd</definition>
+        <argsstring>(List&lt; CordsXY &gt; possibleMoves)</argsstring>
+        <name>SelectCordToAdd</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.SelectCordToAdd</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <briefdescription>
+<para>methode that select new generation cord form potential generation cords list </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="308" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="308" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad52b0799f587c2a323d25dcbcc76960f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.SafetyLoopBreak</definition>
+        <argsstring>(ref int potentialBreaker, int gridCount)</argsstring>
+        <name>SafetyLoopBreak</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.SafetyLoopBreak</qualifiedname>
+        <param>
+          <type>ref int</type>
+          <declname>potentialBreaker</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gridCount</declname>
+        </param>
+        <briefdescription>
+<para>methode that stops generation if it takes to loong </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="323" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="323" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad298640ac252251cd5ba7155583de3b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.DelegateCaller</definition>
+        <argsstring>(Delegator delegated, List&lt; int &gt; directionLimiter)</argsstring>
+        <name>DelegateCaller</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.DelegateCaller</qualifiedname>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+          <declname>delegated</declname>
+        </param>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>directionLimiter</declname>
+        </param>
+        <briefdescription>
+<para>methode that calls methode stored in delegator </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>delegated</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directionLimiter</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="341" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="341" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a821dea1bbd8aaba87ae039c3230d0654" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.TryAddToSelectedNode</definition>
+        <argsstring>(int randomNumber, Delegator delegated)</argsstring>
+        <name>TryAddToSelectedNode</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.TryAddToSelectedNode</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>randomNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+          <declname>delegated</declname>
+        </param>
+        <briefdescription>
+<para>methode that trys to add selected node to generated paths </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="364" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="364" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a3ce5b80b25f7c563fe8b61111ff98462" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MapGenerator.MapLayoutGeneration.BasePathsGenerator.AddFirstNodeCorde</definition>
+        <argsstring>(int cordX, int cordY, ref List&lt; CordsXY &gt; individualNode, ref List&lt; CordsXY &gt; allNodes, ref Row[] rows)</argsstring>
+        <name>AddFirstNodeCorde</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.AddFirstNodeCorde</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cordX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cordY</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>individualNode</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>allNodes</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_structures_1_1_map_1_1_row" kindref="compound">Row</ref>[]</type>
+          <declname>rows</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds first cord to given node direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="402" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="402" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a76eb8ecb3bdfcda863f4f91c78208979" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.AddNodeCorde</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; individualNode, Delegator delegatedMethode)</argsstring>
+        <name>AddNodeCorde</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.AddNodeCorde</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>individualNode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" kindref="member">Delegator</ref></type>
+          <declname>delegatedMethode</declname>
+        </param>
+        <briefdescription>
+<para>methode that adds cord to given node direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="417" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="417" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1af214c67474863a24e1d5d47b507edfae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.TryToAddCord</definition>
+        <argsstring>(CordsXY selectedCord, ref List&lt; CordsXY &gt; directionList)</argsstring>
+        <name>TryToAddCord</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.TryToAddCord</qualifiedname>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>selectedCord</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>directionList</declname>
+        </param>
+        <briefdescription>
+<para>methode that tries to add cord to direction node </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="432" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="432" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a6c70b36e259d6da99612da139f40babc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+        <definition>List&lt; CordsXY &gt; MapGenerator.MapLayoutGeneration.BasePathsGenerator.GetAllGoodMoves</definition>
+        <argsstring>(List&lt; CordsXY &gt; direction)</argsstring>
+        <name>GetAllGoodMoves</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.GetAllGoodMoves</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+<para>methode that returns all potential cords that meets generation condition </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="448" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="448" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1acf83685344007043607b47c86e4aa5de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.FindAllPotentialMoves</definition>
+        <argsstring>(List&lt; CordsXY &gt; node, ref List&lt; CordsXY &gt; possibleMoves)</argsstring>
+        <name>FindAllPotentialMoves</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.FindAllPotentialMoves</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <briefdescription>
+<para>methode that looks for all points that mee generation conditiones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="468" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="468" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1af88da954ad66b115fe92980aad0f35d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MapGenerator.MapLayoutGeneration.BasePathsGenerator.PotentialMoveCheck</definition>
+        <argsstring>(ref List&lt; CordsXY &gt; possibleMoves, CordsXY cord)</argsstring>
+        <name>PotentialMoveCheck</name>
+        <qualifiedname>MapGenerator.MapLayoutGeneration.BasePathsGenerator.PotentialMoveCheck</qualifiedname>
+        <param>
+          <type>ref List&lt; <ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref> &gt;</type>
+          <declname>possibleMoves</declname>
+        </param>
+        <param>
+          <type><ref refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y" kindref="compound">CordsXY</ref></type>
+          <declname>cord</declname>
+        </param>
+        <briefdescription>
+<para>methode that check if given cords are correct and adds them to list </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="479" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="479" bodyend="491"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for generating base floor room paths. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.BasePathsGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomAdder</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MapGenerator.MapLayoutGeneration.BasePathsGenerator</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RoomAdder</label>
+        <link refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>allCordsAroundMiddle</edgelabel>
+          <edgelabel>middle</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>rows</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>generationParameters</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>floorDimensions</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Structures.Map.FloorDimensions</label>
+        <link refid="class_structures_1_1_map_1_1_floor_dimensions"/>
+      </node>
+      <node id="5">
+        <label>Structures.Map.MapGenerationParameters</label>
+        <link refid="struct_structures_1_1_map_1_1_map_generation_parameters"/>
+      </node>
+      <node id="3">
+        <label>Structures.Map.Room.CordsXY</label>
+        <link refid="class_structures_1_1_map_1_1_room_1_1_cords_x_y"/>
+      </node>
+      <node id="4">
+        <label>Structures.Map.Row</label>
+        <link refid="class_structures_1_1_map_1_1_row"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" line="14" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/MapGenerator/MapLayoutGeneration/BasePathsGenerator.cs" bodystart="15" bodyend="494"/>
+    <listofallmembers>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a3ce5b80b25f7c563fe8b61111ff98462" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>AddFirstNodeCorde</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a76eb8ecb3bdfcda863f4f91c78208979" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>AddNodeCorde</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a31ba40ba915032a3dde5a7aef4e1e313" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>AddPoint</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aacf690025278057dc7ab39639f4c5c03" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>AddPointToNode</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a44989e576e1fc75ef8487f2e32429768" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>allCordsAroundMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a15ff40134834b774655286a0d1c72395" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>AroundMiddleCondition</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ae036feecfc6bbcae18ac76bf335446dc" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>BasePathsGenerator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ac32741a3a1076d3724b687b9942cc2f4" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>CheckGenerationCondition</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aaf73167d6f76a6d25e4e6a0ca0a04f9f" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>CheckIfCanAddNextPoint</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a2e440a9b21ba32394e38e54ebf3ebc9f" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>CheckPossibleMovesPresence</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ada8e8f479b82cf9b2fb8a1eecf983ed3" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>CheckPotentialCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a30a00c81678018d831d2e8c41973a052" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>ChoseNodeToLimit</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a3373f50aa70af602c3fa023f753845f0" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>ContinueGeneration</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad298640ac252251cd5ba7155583de3b7" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>DelegateCaller</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ada3e89e2b1524f575804ee97a12aff47" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>DelegateConditionOne</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad3ac6d051d8f2b0b91e2574199423c29" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>DelegateConditionZero</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa9d54d291cce17f36a5d2cdfc1a988dc" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>Delegator</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a22f9824e564b5b852986b8b4f71b6623" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>EmptyNeighbourCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a15e79d78b1ff17b37d63ec748639b2fa" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>EndFindAndAddCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a4b2955a0371fb4cea0ccc7712226dc0e" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>FilterMovesCondition</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1acf83685344007043607b47c86e4aa5de" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>FindAllPotentialMoves</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a8d09916cba3186e2113c76bed412a0e7" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>FindPotentialCordMoves</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa6008451bdebbcd40b3794e49793cf7d" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>floorDimensions</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a65ac1cd2c2e98299d785afe675b28e0b" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GenerateBasePaths</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1aea83eb3f6906a6899ce629729a25dc6f" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GENERATION_SAFETY_LIMITER</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7a448f76608ea09aece81eaa02c0a370" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GenerationFaze</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a1a00d4fc6e7f45c9f6f5e52f57b1c2a7" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GenerationIteration</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a3cf0ebef42165e6551777f532bf0611d" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GenerationLoop</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aea917ca7eea78484523c0ddd21fe22e8" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>generationParameters</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a6c70b36e259d6da99612da139f40babc" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GetAllGoodMoves</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a058ddbc8f02464c0dcb4f0372dfb7d67" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>GetGenerationStage</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a7685caa3acee0f1cd2a8d5fb550ad19f" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>gridCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ab3bc072fde4b6ca3e968d2f5d83fa118" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>IndividualCordCheck</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1afac46d4a7ca78b024ff0d4b9981cd4a8" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>IndividualNodeToLimitSelection</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a0d1ea882b704c15d7cf9f410aba0f85a" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>InitialFindAndAddCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abcf9a2425f9fdc1b26a9179adcdf6010" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>InMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a72871ee0f63a4ceb06c75d6060c349c4" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>IsCordEmpty</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad64560f6f1c9db62672f7299df32cee4" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>IsInLowerMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1abae1041c5d685b89c145193efc393d3b" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>IsInUpperMapBoundarys</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1ad44848cb819890b8e3f0d06024de0666" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>IsPointAroundMiddle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1acdd20980b3bdd5d98b39a9f0f358c675" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>LAST_DIRECTION_NODE_NUMERICAL_VALUE</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a8aa5b7a42c243e3c163cb666add14e2a" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>LIMIT_NODES_DIRECTIONS_CHANCE</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a08b5196976fd76d4eb826830fb0e032e" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>LimitNodesDirections</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a80b286dbae00f28925aa8813b1b24468" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>mapFilment</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a1a0f9566b055d0dc618da1678915e2cb" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>MAX_NODES_TO_LIMIT_COUNT</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ac66ec8fbeff31891ccd46babf1a345fd" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>MAX_POSIBLE_MOVES_COUNT</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a97a26f62b66f6b5d6cb460d8378da92a" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>middle</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1afb3864b5149556944e2a1638404543cb" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>MiddleFindAndAddCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad7133653d21f3c59fa463a2c87bd58c4" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>MIN_NODES_TO_LIMIT_COUNT</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aa0b8a5520977a723a1883b30eab1a9ac" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>pointsAroundMiddleCount</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1af88da954ad66b115fe92980aad0f35d0" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>PotentialMoveCheck</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1abd8220c654f1118894e871bb6c13ba8d" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>RemoveCondition</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1aae560772c963c65f91f5fdd0547524fb" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>RemoveCordFromList</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a83e20af7a92dff9b8def5182b4177949" prot="public" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>RoomAdder</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ab07ca517475eca3f80a806dcd989103e" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>roomsNodes</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_room_adder_1a61edae22ed1bc4a432f31eb71b956e42" prot="protected" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>rows</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ad52b0799f587c2a323d25dcbcc76960f" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>SafetyLoopBreak</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1aba9a3d539a82d6cf239973a61b18047c" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>SelectCordToAdd</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a09c893606f1f2ab45fd14a4d2024eb3d" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>SelectGenerationMethode</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a563e0cd3324c1937cc940381c243c9fe" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>SelectNodesToLimit</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1a821dea1bbd8aaba87ae039c3230d0654" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>TryAddToSelectedNode</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1ac4e4a2da28d56d01651c084070460b5a" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>TrySelectNewCord</name></member>
+      <member refid="class_map_generator_1_1_map_layout_generation_1_1_base_paths_generator_1af214c67474863a24e1d5d47b507edfae" prot="private" virt="non-virtual"><scope>MapGenerator::MapLayoutGeneration::BasePathsGenerator</scope><name>TryToAddCord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

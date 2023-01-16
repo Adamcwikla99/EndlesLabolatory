@@ -1,0 +1,1382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_settings" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_settings_1_1_platform_template" prot="package">FMODUnity::Settings::PlatformTemplate</innerclass>
+      <sectiondef kind="package-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_1_1_settings_1a6c47041144ef653fd8ad43a40e0a1a46" prot="package" static="no" strong="yes">
+        <type></type>
+        <name>SharedLibraryUpdateStages</name>
+        <qualifiedname>FMODUnity.Settings.SharedLibraryUpdateStages</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_1_1_settings_1a6c47041144ef653fd8ad43a40e0a1a46aa6122a65eaa676f700ae68d393054a37" prot="package">
+          <name>Start</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_settings_1a6c47041144ef653fd8ad43a40e0a1a46ac27b9470588434e8b9f2b2583eba083a" prot="package">
+          <name>DisableExistingLibraries</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_settings_1a6c47041144ef653fd8ad43a40e0a1a46a3a3a1b5910b49d93979f108c0f8f54ef" prot="package">
+          <name>RestartUnity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_settings_1a6c47041144ef653fd8ad43a40e0a1a46a1b5b0ff96aa548b0c3accf05c39851cd" prot="package">
+          <name>CopyNewLibraries</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="385" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="386" bodyend="391"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a4911619b85f7cf795cf913ee01352197" prot="package" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FMODUnity.Settings.SettingsAssetName</definition>
+        <argsstring></argsstring>
+        <name>SettingsAssetName</name>
+        <qualifiedname>FMODUnity.Settings.SettingsAssetName</qualifiedname>
+        <initializer>= &quot;FMODStudioSettings&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="89" column="31" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a406830498cfedb8a881c4122a62370cd" prot="package" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int FMODUnity.Settings.BankRefreshPrompt</definition>
+        <argsstring></argsstring>
+        <name>BankRefreshPrompt</name>
+        <qualifiedname>FMODUnity.Settings.BankRefreshPrompt</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="117" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a9861401d33b53447e313ce005ab99dab" prot="package" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int FMODUnity.Settings.BankRefreshManual</definition>
+        <argsstring></argsstring>
+        <name>BankRefreshManual</name>
+        <qualifiedname>FMODUnity.Settings.BankRefreshManual</qualifiedname>
+        <initializer>= -2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="118" column="28" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ae3a5bd4ca87e05b6e8595a96d5547910" prot="package" static="yes" mutable="no">
+        <type>List&lt; PlatformTemplate &gt;</type>
+        <definition>List&lt;PlatformTemplate&gt; FMODUnity.Settings.PlatformTemplates</definition>
+        <argsstring></argsstring>
+        <name>PlatformTemplates</name>
+        <qualifiedname>FMODUnity.Settings.PlatformTemplates</qualifiedname>
+        <initializer>= new List&lt;PlatformTemplate&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="240" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a28084c2d953f29d9c7fbf54b856436c9" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings FMODUnity.Settings.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>FMODUnity.Settings.instance</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="91" column="33" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a587d177345f7c639094867596a83c98d" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_f_m_o_d_unity_1_1_i_editor_settings" kindref="compound">IEditorSettings</ref></type>
+        <definition>IEditorSettings FMODUnity.Settings.editorSettings</definition>
+        <argsstring></argsstring>
+        <name>editorSettings</name>
+        <qualifiedname>FMODUnity.Settings.editorSettings</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="92" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a59b841f5337de534a6d744c9de3ca918" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.isInitializing</definition>
+        <argsstring></argsstring>
+        <name>isInitializing</name>
+        <qualifiedname>FMODUnity.Settings.isInitializing</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="93" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a10ece606053aae105227a74b6ef9f947" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.HasSourceProject</definition>
+        <argsstring></argsstring>
+        <name>HasSourceProject</name>
+        <qualifiedname>FMODUnity.Settings.HasSourceProject</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="96" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a44d4072eb18d9c03f520be42f02c08af" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.HasPlatforms</definition>
+        <argsstring></argsstring>
+        <name>HasPlatforms</name>
+        <qualifiedname>FMODUnity.Settings.HasPlatforms</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="99" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1aacffafbb5a2ff068078a8e0fabf79835" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.Settings.BankRefreshCooldown</definition>
+        <argsstring></argsstring>
+        <name>BankRefreshCooldown</name>
+        <qualifiedname>FMODUnity.Settings.BankRefreshCooldown</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="112" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ac30ba33e19972e3ef7ac07b12c16abd0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.ShowBankRefreshWindow</definition>
+        <argsstring></argsstring>
+        <name>ShowBankRefreshWindow</name>
+        <qualifiedname>FMODUnity.Settings.ShowBankRefreshWindow</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="115" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a2dd4383484b53abed4f564d233865997" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.AutomaticEventLoading</definition>
+        <argsstring></argsstring>
+        <name>AutomaticEventLoading</name>
+        <qualifiedname>FMODUnity.Settings.AutomaticEventLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="121" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1af61e911d616c010efe4780473addf918" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1ab5e4bfcf1a5294eaebc1ea28d421cfb3" kindref="member">BankLoadType</ref></type>
+        <definition>BankLoadType FMODUnity.Settings.BankLoadType</definition>
+        <argsstring></argsstring>
+        <name>BankLoadType</name>
+        <qualifiedname>FMODUnity.Settings.BankLoadType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="124" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ac1e667c118a9053f446b5e076af0c65d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.AutomaticSampleLoading</definition>
+        <argsstring></argsstring>
+        <name>AutomaticSampleLoading</name>
+        <qualifiedname>FMODUnity.Settings.AutomaticSampleLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="127" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a88bc2cd3c9354bbba6496d7c42a9de89" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.EncryptionKey</definition>
+        <argsstring></argsstring>
+        <name>EncryptionKey</name>
+        <qualifiedname>FMODUnity.Settings.EncryptionKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="130" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a0930be2f9d542fcf457b6f3a7e6f6430" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1a9edfbf0a348cc29d7a6c5121404ab960" kindref="member">ImportType</ref></type>
+        <definition>ImportType FMODUnity.Settings.ImportType</definition>
+        <argsstring></argsstring>
+        <name>ImportType</name>
+        <qualifiedname>FMODUnity.Settings.ImportType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="133" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a99557c8168a946048e0c8ef9590dbf9a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.TargetAssetPath</definition>
+        <argsstring></argsstring>
+        <name>TargetAssetPath</name>
+        <qualifiedname>FMODUnity.Settings.TargetAssetPath</qualifiedname>
+        <initializer>= &quot;FMODBanks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="136" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a9796c990e3f99c5ba3bdbaa4241c452d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.TargetBankFolder</definition>
+        <argsstring></argsstring>
+        <name>TargetBankFolder</name>
+        <qualifiedname>FMODUnity.Settings.TargetBankFolder</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="139" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a40e441aecdc928ba182a757a00025172" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1a160fcdf756b41e64c1b5dfa80220b2c0" kindref="member">EventLinkage</ref></type>
+        <definition>EventLinkage FMODUnity.Settings.EventLinkage</definition>
+        <argsstring></argsstring>
+        <name>EventLinkage</name>
+        <qualifiedname>FMODUnity.Settings.EventLinkage</qualifiedname>
+        <initializer>= <ref refid="namespace_f_m_o_d_unity_1a160fcdf756b41e64c1b5dfa80220b2c0aac70412e939d72a9234cdebb1af5867b" kindref="member">EventLinkage.Path</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="142" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1aeab1ee95b721bfcbd2d2787ee2a38319" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_1ae26c0e42bca4d9ba2b529ed29cf35b33" kindref="member">FMOD.DEBUG_FLAGS</ref></type>
+        <definition>FMOD.DEBUG_FLAGS FMODUnity.Settings.LoggingLevel</definition>
+        <argsstring></argsstring>
+        <name>LoggingLevel</name>
+        <qualifiedname>FMODUnity.Settings.LoggingLevel</qualifiedname>
+        <initializer>= <ref refid="namespace_f_m_o_d_1ae26c0e42bca4d9ba2b529ed29cf35b33a059e9861e0400dfbe05c98a841f3f96b" kindref="member">FMOD.DEBUG_FLAGS.WARNING</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="145" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a0c3defac46bfed2322972c07e723f79e" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.Settings.MasterBanks</definition>
+        <argsstring></argsstring>
+        <name>MasterBanks</name>
+        <qualifiedname>FMODUnity.Settings.MasterBanks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="172" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1af4e70499313d6882e2977a0a15080768" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.Settings.Banks</definition>
+        <argsstring></argsstring>
+        <name>Banks</name>
+        <qualifiedname>FMODUnity.Settings.Banks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="175" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a68f750bf78f71faa5e6d71f228504e53" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.Settings.BanksToLoad</definition>
+        <argsstring></argsstring>
+        <name>BanksToLoad</name>
+        <qualifiedname>FMODUnity.Settings.BanksToLoad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="178" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ad38f8a15531ec78cb5eb03c4c6a26866" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort FMODUnity.Settings.LiveUpdatePort</definition>
+        <argsstring></argsstring>
+        <name>LiveUpdatePort</name>
+        <qualifiedname>FMODUnity.Settings.LiveUpdatePort</qualifiedname>
+        <initializer>= 9264</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="181" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1aafd8e7826179516d9060cab76446d810" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.EnableMemoryTracking</definition>
+        <argsstring></argsstring>
+        <name>EnableMemoryTracking</name>
+        <qualifiedname>FMODUnity.Settings.EnableMemoryTracking</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="184" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a1f2b52c4fc8b53db5ae5faa079192932" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.AndroidUseOBB</definition>
+        <argsstring></argsstring>
+        <name>AndroidUseOBB</name>
+        <qualifiedname>FMODUnity.Settings.AndroidUseOBB</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="187" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1aa536278189e66868cf8a5931b3f91346" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_f_m_o_d_unity_1a41eeb478c74ddf2caf688bea06204b70" kindref="member">MeterChannelOrderingType</ref></type>
+        <definition>MeterChannelOrderingType FMODUnity.Settings.MeterChannelOrdering</definition>
+        <argsstring></argsstring>
+        <name>MeterChannelOrdering</name>
+        <qualifiedname>FMODUnity.Settings.MeterChannelOrdering</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="190" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a456a4363ff65652507ae4ab5c1bc8f56" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.StopEventsOutsideMaxDistance</definition>
+        <argsstring></argsstring>
+        <name>StopEventsOutsideMaxDistance</name>
+        <qualifiedname>FMODUnity.Settings.StopEventsOutsideMaxDistance</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="193" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a103c15a0a84c443df6d96363c28dcd34" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.EnableErrorCallback</definition>
+        <argsstring></argsstring>
+        <name>EnableErrorCallback</name>
+        <qualifiedname>FMODUnity.Settings.EnableErrorCallback</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="199" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1afa32257de6f479c8db948427d2e59d38" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.HideSetupWizard</definition>
+        <argsstring></argsstring>
+        <name>HideSetupWizard</name>
+        <qualifiedname>FMODUnity.Settings.HideSetupWizard</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="211" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ad6a55049e516b5a76cc7d3bb365cedf9" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref> &gt;</type>
+        <definition>List&lt;Platform&gt; FMODUnity.Settings.Platforms</definition>
+        <argsstring></argsstring>
+        <name>Platforms</name>
+        <qualifiedname>FMODUnity.Settings.Platforms</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="220" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a17796f616141880ffca4439cdb8939f4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.Settings.DefaultPlatform</definition>
+        <argsstring></argsstring>
+        <name>DefaultPlatform</name>
+        <qualifiedname>FMODUnity.Settings.DefaultPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="227" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a8c0edb8963a044a234bd5008ccdbd24a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.Settings.PlayInEditorPlatform</definition>
+        <argsstring></argsstring>
+        <name>PlayInEditorPlatform</name>
+        <qualifiedname>FMODUnity.Settings.PlayInEditorPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="231" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1aebb4b18bede2b0f914d78c24df603f24" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.sourceProjectPath</definition>
+        <argsstring></argsstring>
+        <name>sourceProjectPath</name>
+        <qualifiedname>FMODUnity.Settings.sourceProjectPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="102" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a9a90843743a93356c5613b9865a80b44" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.sourceBankPath</definition>
+        <argsstring></argsstring>
+        <name>sourceBankPath</name>
+        <qualifiedname>FMODUnity.Settings.sourceBankPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="105" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a32481e1e9c4f75c1a7f727fc0e8bfdbb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.sourceBankPathUnformatted</definition>
+        <argsstring></argsstring>
+        <name>sourceBankPathUnformatted</name>
+        <qualifiedname>FMODUnity.Settings.sourceBankPathUnformatted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="109" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1af1b10625c2b4b24cbabacec32ece39b5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.hasLoaded</definition>
+        <argsstring></argsstring>
+        <name>hasLoaded</name>
+        <qualifiedname>FMODUnity.Settings.hasLoaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="243" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a29f0f2a8dd34249aefbcd68d2cfd0a2d" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_int_setting" kindref="compound">Legacy.PlatformIntSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformIntSetting&gt; FMODUnity.Settings.SpeakerModeSettings</definition>
+        <argsstring></argsstring>
+        <name>SpeakerModeSettings</name>
+        <qualifiedname>FMODUnity.Settings.SpeakerModeSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="148" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a516bf329a5c6d9160652fc278718b19a" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_int_setting" kindref="compound">Legacy.PlatformIntSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformIntSetting&gt; FMODUnity.Settings.SampleRateSettings</definition>
+        <argsstring></argsstring>
+        <name>SampleRateSettings</name>
+        <qualifiedname>FMODUnity.Settings.SampleRateSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="151" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a2f933cc5681a91166988cd183333e35c" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_bool_setting" kindref="compound">Legacy.PlatformBoolSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformBoolSetting&gt; FMODUnity.Settings.LiveUpdateSettings</definition>
+        <argsstring></argsstring>
+        <name>LiveUpdateSettings</name>
+        <qualifiedname>FMODUnity.Settings.LiveUpdateSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="154" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ac219cba10faceae624bc360e5bb77b30" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_bool_setting" kindref="compound">Legacy.PlatformBoolSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformBoolSetting&gt; FMODUnity.Settings.OverlaySettings</definition>
+        <argsstring></argsstring>
+        <name>OverlaySettings</name>
+        <qualifiedname>FMODUnity.Settings.OverlaySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="157" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ad96f23ae18c36e989369018def01f6cb" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_string_setting" kindref="compound">Legacy.PlatformStringSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformStringSetting&gt; FMODUnity.Settings.BankDirectorySettings</definition>
+        <argsstring></argsstring>
+        <name>BankDirectorySettings</name>
+        <qualifiedname>FMODUnity.Settings.BankDirectorySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="160" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a100cbba67bf8fb76354bb326d736d4c8" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_int_setting" kindref="compound">Legacy.PlatformIntSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformIntSetting&gt; FMODUnity.Settings.VirtualChannelSettings</definition>
+        <argsstring></argsstring>
+        <name>VirtualChannelSettings</name>
+        <qualifiedname>FMODUnity.Settings.VirtualChannelSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="163" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ae63962534ebed85cada6b758aabb8c65" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_legacy_1_1_platform_int_setting" kindref="compound">Legacy.PlatformIntSetting</ref> &gt;</type>
+        <definition>List&lt;Legacy.PlatformIntSetting&gt; FMODUnity.Settings.RealChannelSettings</definition>
+        <argsstring></argsstring>
+        <name>RealChannelSettings</name>
+        <qualifiedname>FMODUnity.Settings.RealChannelSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="166" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a31b5a50baa1a7b6e29eb78dacdbaf24d" prot="package" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FMODUnity.Settings.Plugins</definition>
+        <argsstring></argsstring>
+        <name>Plugins</name>
+        <qualifiedname>FMODUnity.Settings.Plugins</qualifiedname>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="169" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a207aca82cffe0633a9ecd5531892bd58" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.BoltUnitOptionsBuildPending</definition>
+        <argsstring></argsstring>
+        <name>BoltUnitOptionsBuildPending</name>
+        <qualifiedname>FMODUnity.Settings.BoltUnitOptionsBuildPending</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="196" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1ac1de1cbf6b1bbbda1cea3b5338f7c500" prot="package" static="no" mutable="no">
+        <type>SharedLibraryUpdateStages</type>
+        <definition>SharedLibraryUpdateStages FMODUnity.Settings.SharedLibraryUpdateStage</definition>
+        <argsstring></argsstring>
+        <name>SharedLibraryUpdateStage</name>
+        <qualifiedname>FMODUnity.Settings.SharedLibraryUpdateStage</qualifiedname>
+        <initializer>= SharedLibraryUpdateStages.Start</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="202" column="44" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1af64b0692e66779087386ed32aec17b0f" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FMODUnity.Settings.SharedLibraryTimeSinceStart</definition>
+        <argsstring></argsstring>
+        <name>SharedLibraryTimeSinceStart</name>
+        <qualifiedname>FMODUnity.Settings.SharedLibraryTimeSinceStart</qualifiedname>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="205" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a1e9ae2110556cc8dac9ae27f32edc970" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.Settings.CurrentVersion</definition>
+        <argsstring></argsstring>
+        <name>CurrentVersion</name>
+        <qualifiedname>FMODUnity.Settings.CurrentVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="208" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a314420ef8fdd35ee5d1f3a7ca69e303a" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.Settings.LastEventReferenceScanVersion</definition>
+        <argsstring></argsstring>
+        <name>LastEventReferenceScanVersion</name>
+        <qualifiedname>FMODUnity.Settings.LastEventReferenceScanVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="214" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_1a310c6daed14241eb29ef70e84aeec0d1" prot="package" static="no" mutable="no">
+        <type>Dictionary&lt; RuntimePlatform, List&lt; <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;RuntimePlatform, List&lt;Platform&gt; &gt; FMODUnity.Settings.PlatformForRuntimePlatform</definition>
+        <argsstring></argsstring>
+        <name>PlatformForRuntimePlatform</name>
+        <qualifiedname>FMODUnity.Settings.PlatformForRuntimePlatform</qualifiedname>
+        <initializer>= new Dictionary&lt;RuntimePlatform, List&lt;<ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref>&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="223" column="29" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_1a640d4a3317c4e9a1235a31385a845e0b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_f_m_o_d_unity_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings FMODUnity.Settings.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>FMODUnity.Settings.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="245" column="32" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="246" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_1a7fa417ba59fb4942cc797914e029df91" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="interface_f_m_o_d_unity_1_1_i_editor_settings" kindref="compound">IEditorSettings</ref></type>
+        <definition>IEditorSettings FMODUnity.Settings.EditorSettings</definition>
+        <argsstring></argsstring>
+        <name>EditorSettings</name>
+        <qualifiedname>FMODUnity.Settings.EditorSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="294" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="295" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_1a4394186ebec78756bc05cda19d9dd4d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.SourceProjectPath</definition>
+        <argsstring></argsstring>
+        <name>SourceProjectPath</name>
+        <qualifiedname>FMODUnity.Settings.SourceProjectPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="306" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="307" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_1a217841d083ef6d58b4cafeb597151aff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.SourceBankPath</definition>
+        <argsstring></argsstring>
+        <name>SourceBankPath</name>
+        <qualifiedname>FMODUnity.Settings.SourceBankPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="318" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="319" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_1abade71c7ac81cf6de99144fab993e3d3" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.TargetPath</definition>
+        <argsstring></argsstring>
+        <name>TargetPath</name>
+        <qualifiedname>FMODUnity.Settings.TargetPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="330" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="331" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_settings_1a64f8115a3472e2fe8c0c84d328840931" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FMODUnity.Settings.TargetSubFolder</definition>
+        <argsstring></argsstring>
+        <name>TargetSubFolder</name>
+        <qualifiedname>FMODUnity.Settings.TargetSubFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="359" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="360" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a42b5f1e8044c8bd1184eb8845df365c7" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.Settings.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>FMODUnity.Settings.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="260" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="260" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a199f95dc078570993f23715f7d32e581" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FMODUnity.Settings.AddPlatformTemplate&lt; T &gt;</definition>
+        <argsstring>(string identifier)</argsstring>
+        <name>AddPlatformTemplate&lt; T &gt;</name>
+        <qualifiedname>FMODUnity.Settings.AddPlatformTemplate&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="535" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="535" bodyend="541"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1af66e697d71b12ddc5c998f761fa1ac8f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.Settings.FindPlatform</definition>
+        <argsstring>(string identifier)</argsstring>
+        <name>FindPlatform</name>
+        <qualifiedname>FMODUnity.Settings.FindPlatform</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="393" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="393" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a65af1fd6ee566ef210fb7dcc01c9dd41" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FMODUnity.Settings.PlatformExists</definition>
+        <argsstring>(string identifier)</argsstring>
+        <name>PlatformExists</name>
+        <qualifiedname>FMODUnity.Settings.PlatformExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="406" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="406" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a1a679b8d844a97105bec0427e834c0ff" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.AddPlatform</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>AddPlatform</name>
+        <qualifiedname>FMODUnity.Settings.AddPlatform</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="411" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="411" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a2141c7dd0c63b4903ba9ed76aa18a69a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.RemovePlatform</definition>
+        <argsstring>(string identifier)</argsstring>
+        <name>RemovePlatform</name>
+        <qualifiedname>FMODUnity.Settings.RemovePlatform</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="421" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="421" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a39b8762fe3d72bc4a58b2b7598d06f75" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.LinkPlatform</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>LinkPlatform</name>
+        <qualifiedname>FMODUnity.Settings.LinkPlatform</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="427" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="427" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a5f158bf9212a66355a114b982c312a12" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.DeclareRuntimePlatform</definition>
+        <argsstring>(RuntimePlatform runtimePlatform, Platform platform)</argsstring>
+        <name>DeclareRuntimePlatform</name>
+        <qualifiedname>FMODUnity.Settings.DeclareRuntimePlatform</qualifiedname>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>runtimePlatform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="441" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="441" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a3630c56d2442a3bec5a5b68af7aec6d6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>Platform FMODUnity.Settings.FindCurrentPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>FindCurrentPlatform</name>
+        <qualifiedname>FMODUnity.Settings.FindCurrentPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="467" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="467" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1af15c945e1ebb70d7cc08c84632d94ead" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.AddPlatformProperties</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>AddPlatformProperties</name>
+        <qualifiedname>FMODUnity.Settings.AddPlatformProperties</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="505" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="505" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a7e25069f3dc7b1b536f908203d9b0ee6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>FMODUnity.Settings.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="552" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="552" bodyend="619"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a51eea1f8802ba9d8ea0c14f9aca58856" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.LinkPlatformToParent</definition>
+        <argsstring>(Platform platform)</argsstring>
+        <name>LinkPlatformToParent</name>
+        <qualifiedname>FMODUnity.Settings.LinkPlatformToParent</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="458" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="458" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1acdfec2a887ab9b51edc563314d259655" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.Settings.Settings</definition>
+        <argsstring>()</argsstring>
+        <name>Settings</name>
+        <qualifiedname>FMODUnity.Settings.Settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="485" column="17" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="485" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1adf01f7d1d0b7a35b7d2d2bef518f68a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.PopulatePlatformsFromAsset</definition>
+        <argsstring>()</argsstring>
+        <name>PopulatePlatformsFromAsset</name>
+        <qualifiedname>FMODUnity.Settings.PopulatePlatformsFromAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="621" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="621" bodyend="673"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a64e39f66c8f0c42671a0970102fbbd52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.Settings.SetPlatformParent</definition>
+        <argsstring>(Platform platform, Platform newParent)</argsstring>
+        <name>SetPlatformParent</name>
+        <qualifiedname>FMODUnity.Settings.SetPlatformParent</qualifiedname>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+          <declname>newParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="520" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="520" bodyend="523"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_1a0fe1038b799d16a32c2c7ca731b8b80a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref></type>
+        <definition>static Platform FMODUnity.Settings.CreatePlatformInstance&lt; T &gt;</definition>
+        <argsstring>(string identifier)</argsstring>
+        <name>CreatePlatformInstance&lt; T &gt;</name>
+        <qualifiedname>FMODUnity.Settings.CreatePlatformInstance&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="543" column="24" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="543" bodyend="550"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.Settings</label>
+        <link refid="class_f_m_o_d_unity_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.Settings</label>
+        <link refid="class_f_m_o_d_unity_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>DefaultPlatform</edgelabel>
+          <edgelabel>PlayInEditorPlatform</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FMODUnity.Platform</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Properties</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FMODUnity.Platform.PropertyBool</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_bool"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>FMODUnity.Platform.PropertyCallbackHandler</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_callback_handler"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>FMODUnity.Platform.PropertyInt</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_int"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>FMODUnity.Platform.PropertySpeakerMode</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_speaker_mode"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FMODUnity.Platform.PropertyStorage</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_storage"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>LiveUpdate</edgelabel>
+          <edgelabel>Logging</edgelabel>
+          <edgelabel>Overlay</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>DSPBufferCount</edgelabel>
+          <edgelabel>DSPBufferLength</edgelabel>
+          <edgelabel>LiveUpdatePort</edgelabel>
+          <edgelabel>RealChannelCount</edgelabel>
+          <edgelabel>SampleRate</edgelabel>
+          <edgelabel>VirtualChannelCount</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>BuildDirectory</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>SpeakerMode</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>Plugins</edgelabel>
+          <edgelabel>StaticPlugins</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>CallbackHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>FMODUnity.Platform.PropertyString</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_string"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>FMODUnity.Platform.PropertyStringList</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property_string_list"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Property&lt; FMOD.SPEAKERMODE &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="14">
+        <label>Property&lt; List&lt; string &gt; &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="16">
+        <label>Property&lt; PlatformCallbackHandler &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="6">
+        <label>Property&lt; TriStateBool &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="8">
+        <label>Property&lt; int &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="10">
+        <label>Property&lt; string &gt;</label>
+        <link refid="class_f_m_o_d_unity_1_1_platform_1_1_property"/>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" line="81" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Settings.cs" bodystart="82" bodyend="674"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a1a679b8d844a97105bec0427e834c0ff" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>AddPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1af15c945e1ebb70d7cc08c84632d94ead" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>AddPlatformProperties</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a199f95dc078570993f23715f7d32e581" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>AddPlatformTemplate&lt; T &gt;</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a1f2b52c4fc8b53db5ae5faa079192932" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>AndroidUseOBB</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a2dd4383484b53abed4f564d233865997" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>AutomaticEventLoading</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ac1e667c118a9053f446b5e076af0c65d" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>AutomaticSampleLoading</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ad96f23ae18c36e989369018def01f6cb" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BankDirectorySettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1af61e911d616c010efe4780473addf918" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BankLoadType</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1aacffafbb5a2ff068078a8e0fabf79835" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BankRefreshCooldown</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a9861401d33b53447e313ce005ab99dab" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BankRefreshManual</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a406830498cfedb8a881c4122a62370cd" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BankRefreshPrompt</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1af4e70499313d6882e2977a0a15080768" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>Banks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a68f750bf78f71faa5e6d71f228504e53" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BanksToLoad</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a207aca82cffe0633a9ecd5531892bd58" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>BoltUnitOptionsBuildPending</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a0fe1038b799d16a32c2c7ca731b8b80a" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>CreatePlatformInstance&lt; T &gt;</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a1e9ae2110556cc8dac9ae27f32edc970" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>CurrentVersion</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a5f158bf9212a66355a114b982c312a12" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>DeclareRuntimePlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a17796f616141880ffca4439cdb8939f4" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>DefaultPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a587d177345f7c639094867596a83c98d" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>editorSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a7fa417ba59fb4942cc797914e029df91" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>EditorSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a103c15a0a84c443df6d96363c28dcd34" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>EnableErrorCallback</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1aafd8e7826179516d9060cab76446d810" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>EnableMemoryTracking</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a88bc2cd3c9354bbba6496d7c42a9de89" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>EncryptionKey</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a40e441aecdc928ba182a757a00025172" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>EventLinkage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a3630c56d2442a3bec5a5b68af7aec6d6" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>FindCurrentPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1af66e697d71b12ddc5c998f761fa1ac8f" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>FindPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1af1b10625c2b4b24cbabacec32ece39b5" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>hasLoaded</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a44d4072eb18d9c03f520be42f02c08af" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>HasPlatforms</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a10ece606053aae105227a74b6ef9f947" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>HasSourceProject</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1afa32257de6f479c8db948427d2e59d38" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>HideSetupWizard</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a0930be2f9d542fcf457b6f3a7e6f6430" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>ImportType</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a42b5f1e8044c8bd1184eb8845df365c7" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>Initialize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a28084c2d953f29d9c7fbf54b856436c9" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a640d4a3317c4e9a1235a31385a845e0b" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>Instance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a59b841f5337de534a6d744c9de3ca918" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>isInitializing</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a314420ef8fdd35ee5d1f3a7ca69e303a" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>LastEventReferenceScanVersion</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a39b8762fe3d72bc4a58b2b7598d06f75" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>LinkPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a51eea1f8802ba9d8ea0c14f9aca58856" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>LinkPlatformToParent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ad38f8a15531ec78cb5eb03c4c6a26866" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>LiveUpdatePort</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a2f933cc5681a91166988cd183333e35c" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>LiveUpdateSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1aeab1ee95b721bfcbd2d2787ee2a38319" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>LoggingLevel</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a0c3defac46bfed2322972c07e723f79e" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>MasterBanks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1aa536278189e66868cf8a5931b3f91346" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>MeterChannelOrdering</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a7e25069f3dc7b1b536f908203d9b0ee6" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>OnEnable</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ac219cba10faceae624bc360e5bb77b30" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>OverlaySettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a65af1fd6ee566ef210fb7dcc01c9dd41" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>PlatformExists</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a310c6daed14241eb29ef70e84aeec0d1" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>PlatformForRuntimePlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ad6a55049e516b5a76cc7d3bb365cedf9" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>Platforms</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ae3a5bd4ca87e05b6e8595a96d5547910" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>PlatformTemplates</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a8c0edb8963a044a234bd5008ccdbd24a" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>PlayInEditorPlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a31b5a50baa1a7b6e29eb78dacdbaf24d" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>Plugins</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1adf01f7d1d0b7a35b7d2d2bef518f68a8" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>PopulatePlatformsFromAsset</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ae63962534ebed85cada6b758aabb8c65" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>RealChannelSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a2141c7dd0c63b4903ba9ed76aa18a69a" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>RemovePlatform</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a516bf329a5c6d9160652fc278718b19a" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SampleRateSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a64e39f66c8f0c42671a0970102fbbd52" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SetPlatformParent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1acdfec2a887ab9b51edc563314d259655" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>Settings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a4911619b85f7cf795cf913ee01352197" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SettingsAssetName</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1af64b0692e66779087386ed32aec17b0f" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SharedLibraryTimeSinceStart</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ac1de1cbf6b1bbbda1cea3b5338f7c500" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SharedLibraryUpdateStage</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a6c47041144ef653fd8ad43a40e0a1a46" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SharedLibraryUpdateStages</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1ac30ba33e19972e3ef7ac07b12c16abd0" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>ShowBankRefreshWindow</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a9a90843743a93356c5613b9865a80b44" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>sourceBankPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a217841d083ef6d58b4cafeb597151aff" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SourceBankPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a32481e1e9c4f75c1a7f727fc0e8bfdbb" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>sourceBankPathUnformatted</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a4394186ebec78756bc05cda19d9dd4d5" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SourceProjectPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1aebb4b18bede2b0f914d78c24df603f24" prot="private" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>sourceProjectPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a29f0f2a8dd34249aefbcd68d2cfd0a2d" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>SpeakerModeSettings</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a456a4363ff65652507ae4ab5c1bc8f56" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>StopEventsOutsideMaxDistance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a99557c8168a946048e0c8ef9590dbf9a" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>TargetAssetPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a9796c990e3f99c5ba3bdbaa4241c452d" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>TargetBankFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1abade71c7ac81cf6de99144fab993e3d3" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>TargetPath</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a64f8115a3472e2fe8c0c84d328840931" prot="public" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>TargetSubFolder</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_1a100cbba67bf8fb76354bb326d736d4c8" prot="package" virt="non-virtual"><scope>FMODUnity::Settings</scope><name>VirtualChannelSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

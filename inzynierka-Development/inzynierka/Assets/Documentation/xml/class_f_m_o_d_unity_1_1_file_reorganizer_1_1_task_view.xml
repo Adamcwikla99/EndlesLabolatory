@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::FileReorganizer::TaskView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditor.IMGUI.Controls.TreeView</basecompoundref>
+    <innerclass refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1_1_task_item" prot="private">FMODUnity::FileReorganizer::TaskView::TaskItem</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a17e552945958ea02a85bd93552ea63a4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Column</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.Column</qualifiedname>
+        <enumvalue id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a17e552945958ea02a85bd93552ea63a4a48c7c41b72e1d678923ce3571aa65b2d" prot="public">
+          <name>Step</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a17e552945958ea02a85bd93552ea63a4aec53a8c4f07baed5d8825072c89799be" prot="public">
+          <name>Status</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a17e552945958ea02a85bd93552ea63a4a419f3742e6de8e0ec4b22cce005e7630" prot="public">
+          <name>Platform</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a17e552945958ea02a85bd93552ea63a4ab5a7adde1af5c87d7fd797b6245c2a39" prot="public">
+          <name>Description</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="330" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="331" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a21042b735a9098341e04b6b8a9533488" prot="private" static="no" mutable="no">
+        <type>List&lt; Task &gt;</type>
+        <definition>List&lt;Task&gt; FMODUnity.FileReorganizer.TaskView.tasks</definition>
+        <argsstring></argsstring>
+        <name>tasks</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.tasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="280" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1aa3cef13db11df935c3c293ede4a469ee" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>TaskSelectedHandler</type>
+        <definition>TaskSelectedHandler FMODUnity.FileReorganizer.TaskView.taskSelected</definition>
+        <argsstring></argsstring>
+        <name>taskSelected</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.taskSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="284" column="46" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a14bf73b7212a0af84c8026c6075b3e9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void FMODUnity.FileReorganizer.TaskView.TaskSelectedHandler</definition>
+        <argsstring>(Task task)</argsstring>
+        <name>TaskSelectedHandler</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.TaskSelectedHandler</qualifiedname>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="282" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1aecfc23d0d0e2a908648d7b7a52611f2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FMODUnity.FileReorganizer.TaskView.TaskView</definition>
+        <argsstring>(TreeViewState state, MultiColumnHeader header, List&lt; Task &gt; tasks)</argsstring>
+        <name>TaskView</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.TaskView</qualifiedname>
+        <param>
+          <type>TreeViewState</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>MultiColumnHeader</type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type>List&lt; Task &gt;</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="286" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="286" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1af3562047283665bfd32ba21552b5e421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.SortRows</definition>
+        <argsstring>()</argsstring>
+        <name>SortRows</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.SortRows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="400" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="400" bodyend="403"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ac81160deb35b692e626d90372e3dbfe2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MultiColumnHeaderState</type>
+        <definition>static MultiColumnHeaderState FMODUnity.FileReorganizer.TaskView.CreateHeaderState</definition>
+        <argsstring>()</argsstring>
+        <name>CreateHeaderState</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.CreateHeaderState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="296" column="50" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="296" bodyend="328"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a8b2844d4a6759492fe6309eff6fb5ce6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override TreeViewItem</type>
+        <definition>override TreeViewItem FMODUnity.FileReorganizer.TaskView.BuildRoot</definition>
+        <argsstring>()</argsstring>
+        <name>BuildRoot</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.BuildRoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="343" column="45" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="343" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a97cde0562c391310c2ffb60a6f400ba1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FMODUnity.FileReorganizer.TaskView.CanMultiSelect</definition>
+        <argsstring>(TreeViewItem item)</argsstring>
+        <name>CanMultiSelect</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.CanMultiSelect</qualifiedname>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="374" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="374" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1af5fc5a178ac2f520d03697cc0eddf3d9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.FileReorganizer.TaskView.SelectionChanged</definition>
+        <argsstring>(IList&lt; int &gt; selectedIds)</argsstring>
+        <name>SelectionChanged</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.SelectionChanged</qualifiedname>
+        <param>
+          <type>IList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="379" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="379" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a58552a62f50734c292b1df5ab5b202e1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float FMODUnity.FileReorganizer.TaskView.GetCustomRowHeight</definition>
+        <argsstring>(int row, TreeViewItem item)</argsstring>
+        <name>GetCustomRowHeight</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.GetCustomRowHeight</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>TreeViewItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="471" column="38" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="471" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a7f56d359fad2ce1e2bcca189767c477b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.FileReorganizer.TaskView.RowGUI</definition>
+        <argsstring>(RowGUIArgs args)</argsstring>
+        <name>RowGUI</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.RowGUI</qualifiedname>
+        <param>
+          <type>RowGUIArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="492" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="492" bodyend="507"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a0aea7a498dce76cf696f24d923831075" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.SortRows</definition>
+        <argsstring>(MultiColumnHeader header)</argsstring>
+        <name>SortRows</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.SortRows</qualifiedname>
+        <param>
+          <type>MultiColumnHeader</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="405" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="405" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a591a0e509d354f053d62017e06dd229f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IOrderedEnumerable&lt; TreeViewItem &gt;</type>
+        <definition>IOrderedEnumerable&lt; TreeViewItem &gt; FMODUnity.FileReorganizer.TaskView.InitialQuery</definition>
+        <argsstring>(IList&lt; TreeViewItem &gt; rows, Column column, bool ascending)</argsstring>
+        <name>InitialQuery</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.InitialQuery</qualifiedname>
+        <param>
+          <type>IList&lt; TreeViewItem &gt;</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>Column</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ascending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="436" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="436" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a6b4e2ddfb54968b64c6909384be7de58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.CellGUI</definition>
+        <argsstring>(Rect rect, Task task, int columnIndex)</argsstring>
+        <name>CellGUI</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.CellGUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="509" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="509" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ab7d15aabe6b49485141d2c08c32a0b79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.DrawDescription</definition>
+        <argsstring>(Rect rect, Task task)</argsstring>
+        <name>DrawDescription</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.DrawDescription</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="531" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="531" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ab0fbc837d200b3469a14473441a13d1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.DrawMoveDescription</definition>
+        <argsstring>(Rect rect, Task task)</argsstring>
+        <name>DrawMoveDescription</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.DrawMoveDescription</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="550" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="550" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a2e82d3ef9f8657620209d951cde27309" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.DrawRemoveFolderDescription</definition>
+        <argsstring>(Rect rect, Task task)</argsstring>
+        <name>DrawRemoveFolderDescription</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.DrawRemoveFolderDescription</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="576" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="576" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a8b94f79a740af12074ddbb76c112460f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.DrawRemoveAssetDescription</definition>
+        <argsstring>(Rect rect, Task task)</argsstring>
+        <name>DrawRemoveAssetDescription</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.DrawRemoveAssetDescription</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="603" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="603" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1aad2a06bee2181423c02dda404a2f8591" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FMODUnity.FileReorganizer.TaskView.DrawMissingDescription</definition>
+        <argsstring>(Rect rect, Task task)</argsstring>
+        <name>DrawMissingDescription</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.DrawMissingDescription</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="620" column="26" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="620" bodyend="626"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ad86fb2b55588807218e71d1cbd6d2dad" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IOrderedEnumerable&lt; TreeViewItem &gt;</type>
+        <definition>static IOrderedEnumerable&lt; TreeViewItem &gt; FMODUnity.FileReorganizer.TaskView.SubQuery</definition>
+        <argsstring>(IOrderedEnumerable&lt; TreeViewItem &gt; query, int column, bool ascending)</argsstring>
+        <name>SubQuery</name>
+        <qualifiedname>FMODUnity.FileReorganizer.TaskView.SubQuery</qualifiedname>
+        <param>
+          <type>IOrderedEnumerable&lt; TreeViewItem &gt;</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ascending</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="453" column="47" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="453" bodyend="469"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.FileReorganizer.TaskView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.FileReorganizer.TaskView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TreeView</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" line="278" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs" bodystart="279" bodyend="627"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a8b2844d4a6759492fe6309eff6fb5ce6" prot="protected" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>BuildRoot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a97cde0562c391310c2ffb60a6f400ba1" prot="protected" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>CanMultiSelect</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a6b4e2ddfb54968b64c6909384be7de58" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>CellGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a17e552945958ea02a85bd93552ea63a4" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>Column</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ac81160deb35b692e626d90372e3dbfe2" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>CreateHeaderState</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ab7d15aabe6b49485141d2c08c32a0b79" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>DrawDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1aad2a06bee2181423c02dda404a2f8591" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>DrawMissingDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ab0fbc837d200b3469a14473441a13d1b" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>DrawMoveDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a8b94f79a740af12074ddbb76c112460f" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>DrawRemoveAssetDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a2e82d3ef9f8657620209d951cde27309" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>DrawRemoveFolderDescription</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a58552a62f50734c292b1df5ab5b202e1" prot="protected" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>GetCustomRowHeight</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a591a0e509d354f053d62017e06dd229f" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>InitialQuery</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a7f56d359fad2ce1e2bcca189767c477b" prot="protected" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>RowGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1af5fc5a178ac2f520d03697cc0eddf3d9" prot="protected" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>SelectionChanged</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1af3562047283665bfd32ba21552b5e421" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>SortRows</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a0aea7a498dce76cf696f24d923831075" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>SortRows</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1ad86fb2b55588807218e71d1cbd6d2dad" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>SubQuery</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a21042b735a9098341e04b6b8a9533488" prot="private" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>tasks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1aa3cef13db11df935c3c293ede4a469ee" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>taskSelected</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1a14bf73b7212a0af84c8026c6075b3e9b" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>TaskSelectedHandler</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_file_reorganizer_1_1_task_view_1aecfc23d0d0e2a908648d7b7a52611f2b" prot="public" virt="non-virtual"><scope>FMODUnity::FileReorganizer::TaskView</scope><name>TaskView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

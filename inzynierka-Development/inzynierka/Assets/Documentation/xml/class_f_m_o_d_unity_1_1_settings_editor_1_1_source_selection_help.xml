@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help" kind="class" language="C#" prot="private">
+    <compoundname>FMODUnity::SettingsEditor::SourceSelectionHelp</compoundname>
+    <basecompoundref refid="class_f_m_o_d_unity_1_1_help_content" prot="public" virt="non-virtual">FMODUnity.HelpContent</basecompoundref>
+    <innerclass refid="struct_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1_1_list_entry" prot="private">FMODUnity::SettingsEditor::SourceSelectionHelp::ListEntry</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1affbef3e7195bb3461ab8f8a1f0b1baba" prot="private" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle FMODUnity.SettingsEditor.SourceSelectionHelp.style</definition>
+        <argsstring></argsstring>
+        <name>style</name>
+        <qualifiedname>FMODUnity.SettingsEditor.SourceSelectionHelp.style</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1529" column="30" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1a2e4fa9f085516b3d02bc31b3205eac76" prot="private" static="no" mutable="no">
+        <type>readonly GUIContent</type>
+        <definition>readonly GUIContent FMODUnity.SettingsEditor.SourceSelectionHelp.introduction</definition>
+        <argsstring></argsstring>
+        <name>introduction</name>
+        <qualifiedname>FMODUnity.SettingsEditor.SourceSelectionHelp.introduction</qualifiedname>
+        <initializer>= new GUIContent(&quot;Choose how to access your FMOD Studio content:&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1531" column="41" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1ae1da59982f6d337c80b9c4c5d66c3d7e" prot="private" static="no" mutable="no">
+        <type>readonly ListEntry[]</type>
+        <definition>readonly ListEntry [] FMODUnity.SettingsEditor.SourceSelectionHelp.listEntries</definition>
+        <argsstring></argsstring>
+        <name>listEntries</name>
+        <qualifiedname>FMODUnity.SettingsEditor.SourceSelectionHelp.listEntries</qualifiedname>
+        <initializer>= {
+                new ListEntry(&quot;FMOD Studio Project&quot;,
+                    &quot;If you have the complete FMOD Studio project.&quot;
+                ),
+                new ListEntry(&quot;Single <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref> Build&quot;,
+                    &quot;If you have the contents of the &lt;b&gt;Build&lt;/b&gt; folder for a single platform.&quot;
+                ),
+                new ListEntry(&quot;Multiple <ref refid="class_f_m_o_d_unity_1_1_platform" kindref="compound">Platform</ref> Build&quot;,
+                    &quot;If you have the contents of the &lt;b&gt;Build&lt;/b&gt; folder for multiple platforms, &quot; +
+                    &quot;with each platform in its own subdirectory.&quot;
+                ),
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1533" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1533" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1a12f7ac8607fea7ca5bde822fbf6e0644" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SettingsEditor.SourceSelectionHelp.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <qualifiedname>FMODUnity.SettingsEditor.SourceSelectionHelp.Prepare</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1546" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1546" bodyend="1552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1aa52b5540c48af2ed67c34f65c6fd816b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Vector2</type>
+        <definition>override Vector2 FMODUnity.SettingsEditor.SourceSelectionHelp.GetContentSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetContentSize</name>
+        <qualifiedname>FMODUnity.SettingsEditor.SourceSelectionHelp.GetContentSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1566" column="40" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1566" bodyend="1582"/>
+      </memberdef>
+      <memberdef kind="function" id="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1a143761703a985b11e07949aff7c9eaa1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FMODUnity.SettingsEditor.SourceSelectionHelp.DrawContent</definition>
+        <argsstring>()</argsstring>
+        <name>DrawContent</name>
+        <qualifiedname>FMODUnity.SettingsEditor.SourceSelectionHelp.DrawContent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1584" column="37" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1584" bodyend="1595"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.SourceSelectionHelp</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>HelpContent</label>
+        <link refid="class_f_m_o_d_unity_1_1_help_content"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PopupWindowContent</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.SettingsEditor.SourceSelectionHelp</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>HelpContent</label>
+        <link refid="class_f_m_o_d_unity_1_1_help_content"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PopupWindowContent</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" line="1527" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" bodystart="1528" bodyend="1596"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1a143761703a985b11e07949aff7c9eaa1" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>DrawContent</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1aa52b5540c48af2ed67c34f65c6fd816b" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>GetContentSize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1a1a1df9fccfefba7c1de627cb9740ccbb" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>GetWindowSize</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1a2e4fa9f085516b3d02bc31b3205eac76" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>introduction</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1ae1da59982f6d337c80b9c4c5d66c3d7e" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>listEntries</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1aaa02fe80dbd734b9ec4c9229b437a67c" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>OnGUI</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_help_content_1aed5dc1bc1bcc648e86b011343a94d57e" prot="public" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>OnOpen</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1a12f7ac8607fea7ca5bde822fbf6e0644" prot="protected" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>Prepare</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_settings_editor_1_1_source_selection_help_1affbef3e7195bb3461ab8f8a1f0b1baba" prot="private" virt="non-virtual"><scope>FMODUnity::SettingsEditor::SourceSelectionHelp</scope><name>style</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_room_1_1_boss_room_controller" kind="class" language="C#" prot="public">
+    <compoundname>Room::BossRoomController</compoundname>
+    <basecompoundref refid="class_room_1_1_room_content_1_1_floor_room" prot="public" virt="non-virtual">Room.RoomContent.FloorRoom</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_room_1_1_boss_room_controller_1a62cbe53c5321d93430545928da27bc0d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Transform</type>
+        <definition>Transform Room.BossRoomController.ExitGate</definition>
+        <argsstring></argsstring>
+        <name>ExitGate</name>
+        <qualifiedname>Room.BossRoomController.ExitGate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="18" column="19" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_boss_room_controller_1a1238f09e9abf57c7bdec6f671c7e4d60" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_room_entity" kindref="compound">RoomEntity</ref> &gt;</type>
+        <definition>List&lt;RoomEntity&gt; Room.BossRoomController.PossibleBossedList</definition>
+        <argsstring></argsstring>
+        <name>PossibleBossedList</name>
+        <qualifiedname>Room.BossRoomController.PossibleBossedList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="21" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_boss_room_controller_1a60f1e2dc4bb3d9afb0fb1a92dbd756a5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_room_1_1_room_content_1_1_room_entity" kindref="compound">RoomEntity</ref> &gt;</type>
+        <definition>List&lt;RoomEntity&gt; Room.BossRoomController.SpawnedEntitys</definition>
+        <argsstring></argsstring>
+        <name>SpawnedEntitys</name>
+        <qualifiedname>Room.BossRoomController.SpawnedEntitys</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="24" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_boss_room_controller_1acb6f9af81a79e8c916824d8c881a329e" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_room_1_1_hostile_room_events" kindref="compound">HostileRoomEvents</ref></type>
+        <definition>HostileRoomEvents Room.BossRoomController.HostileRoom</definition>
+        <argsstring></argsstring>
+        <name>HostileRoom</name>
+        <qualifiedname>Room.BossRoomController.HostileRoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="27" column="27" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_room_1_1_boss_room_controller_1a11eaa92de06966308da1c0fd9cae6eb8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>GameObject</type>
+        <definition>GameObject Room.BossRoomController.ExitPortal</definition>
+        <argsstring></argsstring>
+        <name>ExitPortal</name>
+        <qualifiedname>Room.BossRoomController.ExitPortal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="30" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1ad15cccc6c22776e2ecdffd59d16c151f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.BossRoomController.Init</definition>
+        <argsstring>(Direction[] nonActiveGates=null, int florLevel=1)</argsstring>
+        <name>Init</name>
+        <qualifiedname>Room.BossRoomController.Init</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+          <declname>nonActiveGates</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>florLevel</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>methode that initializes boss room initial state </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="39" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1a82e555ea1fb8c2980208ecf370e480e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Room.BossRoomController.ActivateRoomEntitys</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateRoomEntitys</name>
+        <qualifiedname>Room.BossRoomController.ActivateRoomEntitys</qualifiedname>
+        <reimplements refid="class_room_1_1_room_content_1_1_floor_room_1a2cf10a4e84d657c7d3e79bc6a8977ef9">ActivateRoomEntitys</reimplements>
+        <briefdescription>
+<para>methode that activates boss room entitys </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="49" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="49" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1a1411fe90a03c8ea7e8263f2afa908493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.BossRoomController.BossDefeat</definition>
+        <argsstring>()</argsstring>
+        <name>BossDefeat</name>
+        <qualifiedname>Room.BossRoomController.BossDefeat</qualifiedname>
+        <briefdescription>
+<para>methode that initializes boss defeat logic - spawning reward and portal to next floor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="62" column="13" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1a2713ff78efa81ddb192f4f8f39025e9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.BossRoomController.ActivateExit</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateExit</name>
+        <qualifiedname>Room.BossRoomController.ActivateExit</qualifiedname>
+        <briefdescription>
+<para>methode that creates portal to next floor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="72" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1aff31bb1ef013bdef5da8b2a4b8450e28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.BossRoomController.ActivateEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateEnemy</name>
+        <qualifiedname>Room.BossRoomController.ActivateEnemy</qualifiedname>
+        <briefdescription>
+<para>methode that activates enemys entities </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="80" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1a28c1fb61207896849361abc1dbfffe98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.BossRoomController.InitRoomVariables</definition>
+        <argsstring>(Direction[] nonActiveGates, int florLevel)</argsstring>
+        <name>InitRoomVariables</name>
+        <qualifiedname>Room.BossRoomController.InitRoomVariables</qualifiedname>
+        <param>
+          <type><ref refid="namespace_structures_1_1_enums_1ac2bc921ed71ecf0568751a7ce310df27" kindref="member">Direction</ref>[]</type>
+          <declname>nonActiveGates</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>florLevel</declname>
+        </param>
+        <briefdescription>
+<para>methode that sets room position and type informations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="94" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_room_1_1_boss_room_controller_1ae3c3a67420c038c22bc6cde1be30d3b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Room.BossRoomController.SpawnBoss</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnBoss</name>
+        <qualifiedname>Room.BossRoomController.SpawnBoss</qualifiedname>
+        <briefdescription>
+<para>methode that spawns room boss entity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="104" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="104" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements boss room controller logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.BossRoomController</label>
+        <link refid="class_room_1_1_boss_room_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FloorRoom</label>
+        <link refid="class_room_1_1_room_content_1_1_floor_room"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Room.BossRoomController</label>
+        <link refid="class_room_1_1_boss_room_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" line="13" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Room/BossRoomController.cs" bodystart="14" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_room_1_1_boss_room_controller_1aff31bb1ef013bdef5da8b2a4b8450e28" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ActivateEnemy</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a2713ff78efa81ddb192f4f8f39025e9a" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ActivateExit</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a82e555ea1fb8c2980208ecf370e480e6" prot="public" virt="virtual"><scope>Room::BossRoomController</scope><name>ActivateRoomEntitys</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a1411fe90a03c8ea7e8263f2afa908493" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>BossDefeat</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a72f1cb04d9ea6cd42965b79417578ed1" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ChangeSpecifiedWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af4d5d2a898155784baaa9c150e01f1ee" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ChangeWorkingGatesState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad98956e82c236c73941941d0defa814c" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ContentGetter</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a88d31235ac2aff776e3e4cf79021bcb3" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>CornerMark</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8b8957c5c801ce313d12cdff4c5f439" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>DirectionSwitch</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a62cbe53c5321d93430545928da27bc0d" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ExitGate</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a11eaa92de06966308da1c0fd9cae6eb8" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ExitPortal</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aabcd26ccd46afce3c949e6158139d531" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>florLevel</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1acb6f9af81a79e8c916824d8c881a329e" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>HostileRoom</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af21cfcd6d46ae3cf9aba9e51d9d83285" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>IndividualRoomEvents</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a7fb142491634a547ffbfcf9787aa4360" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>IndividualRoomGateEvents</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1ad15cccc6c22776e2ecdffd59d16c151f" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>Init</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a34cf24785d3aece8f6a0c97db3ddf68c" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>InitRoomGates</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a4f2e0a48fc7c2ac5fd66cc7eb0cc438b" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>InitRoomTunnels</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a28c1fb61207896849361abc1dbfffe98" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>InitRoomVariables</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1af8099b77f3bcb5e713b0210de1ba08f6" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>nonActiveGates</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a1238f09e9abf57c7bdec6f671c7e4d60" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>PossibleBossedList</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a887d6e6315026477d665d26f7964dcb9" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>RoomActive</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a1018b56f2e4a010f07bc11010f9cd126" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>RoomCleared</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a59012ab1eaf28c2cde0654c2c00ed012" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>RoomCordsPosition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a2f6e7190d0018c5c35a3366c8f708876" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>roomPossition</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a0adced49599b22ab4682ebcdd794f295" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>SetRoomClearState</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a3bddfe8287e37c0a3c8b2f6b33e0c8d4" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>SetRoomPosition</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1ae3c3a67420c038c22bc6cde1be30d3b3" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>SpawnBoss</name></member>
+      <member refid="class_room_1_1_boss_room_controller_1a60f1e2dc4bb3d9afb0fb1a92dbd756a5" prot="private" virt="non-virtual"><scope>Room::BossRoomController</scope><name>SpawnedEntitys</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1a294c4dae94f5d0658062e297f8de6cb0" prot="public" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ThisRoomType</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1ad47060501df6a1ffa43ae8e58a8bcaa8" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>ThisRoomWalls</name></member>
+      <member refid="class_room_1_1_room_content_1_1_floor_room_1aff9889d325441b9461bc3fdbb6f33f14" prot="protected" virt="non-virtual"><scope>Room::BossRoomController</scope><name>WorkingRoomGates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

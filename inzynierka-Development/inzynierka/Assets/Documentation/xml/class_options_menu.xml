@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_options_menu" kind="class" language="C#" prot="public">
+    <compoundname>OptionsMenu</compoundname>
+    <basecompoundref refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu" prot="public" virt="non-virtual">UI.Menu.Pages.UIMenu</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_options_menu_1ab7b253f9ce0f3c8200ebaf364948fbad" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Button</type>
+        <definition>Button OptionsMenu.Return</definition>
+        <argsstring></argsstring>
+        <name>Return</name>
+        <qualifiedname>OptionsMenu.Return</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="15" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_options_menu_1a55a6078797985ede7ae79b7d68c72a4a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Slider</type>
+        <definition>Slider OptionsMenu.MasterSlider</definition>
+        <argsstring></argsstring>
+        <name>MasterSlider</name>
+        <qualifiedname>OptionsMenu.MasterSlider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="18" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_options_menu_1a441daa33ab1be936119057450dd72237" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Slider</type>
+        <definition>Slider OptionsMenu.MusicsSlider</definition>
+        <argsstring></argsstring>
+        <name>MusicsSlider</name>
+        <qualifiedname>OptionsMenu.MusicsSlider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="21" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_options_menu_1ac1fb420296b1cc7227915585a79a28e5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Slider</type>
+        <definition>Slider OptionsMenu.EffectsSlider</definition>
+        <argsstring></argsstring>
+        <name>EffectsSlider</name>
+        <qualifiedname>OptionsMenu.EffectsSlider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="24" column="16" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_options_menu_1a4cb651c29eeb0c220ddbec7428b8dcd6" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_events_1_1_menu_1_1_switch_menu" kindref="compound">SwitchMenu</ref></type>
+        <definition>SwitchMenu OptionsMenu.SwitchCurrentMenu</definition>
+        <argsstring></argsstring>
+        <name>SwitchCurrentMenu</name>
+        <qualifiedname>OptionsMenu.SwitchCurrentMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="27" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_options_menu_1a113aff5bedeb1f9bd0f0cd7ecadc4b53" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus OptionsMenu.master</definition>
+        <argsstring></argsstring>
+        <name>master</name>
+        <qualifiedname>OptionsMenu.master</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="33" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_options_menu_1a28c95061729e7c091dd1a6bb4211f51d" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus OptionsMenu.effects</definition>
+        <argsstring></argsstring>
+        <name>effects</name>
+        <qualifiedname>OptionsMenu.effects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="34" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_options_menu_1a87cbfe401c882f221f6ea7b90f8602fc" prot="private" static="no" mutable="no">
+        <type>FMOD.Studio.Bus</type>
+        <definition>FMOD.Studio.Bus OptionsMenu.musics</definition>
+        <argsstring></argsstring>
+        <name>musics</name>
+        <qualifiedname>OptionsMenu.musics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="35" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_options_menu_1a3cdd7c76000cfbbb1245eee8aa6b233f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OptionsMenu.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>OptionsMenu.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="40" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_options_menu_1a365520fa3bac49cf471aaf98e582f631" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OptionsMenu.ReturnAction</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnAction</name>
+        <qualifiedname>OptionsMenu.ReturnAction</qualifiedname>
+        <briefdescription>
+<para>methode that redirects player to main menu </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="79" column="14" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_options_menu_1a89b259d95baf26ff846a548763068de3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void OptionsMenu.SubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>SubscribeEvents</name>
+        <qualifiedname>OptionsMenu.SubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a31b0c9caf56b78e516d9198387427d0b">SubscribeEvents</reimplements>
+        <briefdescription>
+<para>methode that assigns actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="53" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_options_menu_1a5eb1b92bfa4ed4b41eb45720661e4dba" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void OptionsMenu.UnsubscribeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>UnsubscribeEvents</name>
+        <qualifiedname>OptionsMenu.UnsubscribeEvents</qualifiedname>
+        <reimplements refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a0a54b6c0601a701b30daa453b530b7a4">UnsubscribeEvents</reimplements>
+        <briefdescription>
+<para>methode that unassigned actions methods </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="65" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="65" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that implements options menu logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OptionsMenu</label>
+        <link refid="class_options_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OptionsMenu</label>
+        <link refid="class_options_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UIMenu</label>
+        <link refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" line="10" column="7" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/UI/Menu/Pages/OptionsMenu.cs" bodystart="11" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_options_menu_1a3cdd7c76000cfbbb1245eee8aa6b233f" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>Awake</name></member>
+      <member refid="class_options_menu_1a28c95061729e7c091dd1a6bb4211f51d" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>effects</name></member>
+      <member refid="class_options_menu_1ac1fb420296b1cc7227915585a79a28e5" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>EffectsSlider</name></member>
+      <member refid="class_options_menu_1a113aff5bedeb1f9bd0f0cd7ecadc4b53" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>master</name></member>
+      <member refid="class_options_menu_1a55a6078797985ede7ae79b7d68c72a4a" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>MasterSlider</name></member>
+      <member refid="class_options_menu_1a87cbfe401c882f221f6ea7b90f8602fc" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>musics</name></member>
+      <member refid="class_options_menu_1a441daa33ab1be936119057450dd72237" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>MusicsSlider</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a79d4b1063d0399e9e07b572fa626222d" prot="protected" virt="non-virtual"><scope>OptionsMenu</scope><name>OnDisable</name></member>
+      <member refid="class_u_i_1_1_menu_1_1_pages_1_1_u_i_menu_1a12aaec1e5ab532b24922e876038759dd" prot="protected" virt="non-virtual"><scope>OptionsMenu</scope><name>OnEnable</name></member>
+      <member refid="class_options_menu_1ab7b253f9ce0f3c8200ebaf364948fbad" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>Return</name></member>
+      <member refid="class_options_menu_1a365520fa3bac49cf471aaf98e582f631" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>ReturnAction</name></member>
+      <member refid="class_options_menu_1a89b259d95baf26ff846a548763068de3" prot="protected" virt="virtual"><scope>OptionsMenu</scope><name>SubscribeEvents</name></member>
+      <member refid="class_options_menu_1a4cb651c29eeb0c220ddbec7428b8dcd6" prot="private" virt="non-virtual"><scope>OptionsMenu</scope><name>SwitchCurrentMenu</name></member>
+      <member refid="class_options_menu_1a5eb1b92bfa4ed4b41eb45720661e4dba" prot="protected" virt="virtual"><scope>OptionsMenu</scope><name>UnsubscribeEvents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

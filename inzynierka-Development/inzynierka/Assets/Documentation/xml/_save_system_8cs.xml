@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_save_system_8cs" kind="file" language="C#">
+    <compoundname>SaveSystem.cs</compoundname>
+    <innerclass refid="class_events_1_1_file_managment_1_1_save_system" prot="public">Events::FileManagment::SaveSystem</innerclass>
+    <innernamespace refid="namespace_events">Events</innernamespace>
+    <innernamespace refid="namespace_events_1_1_file_managment">Events::FileManagment</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_data" kindref="compound">Data</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_events_1_1_file_managment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_events_1_1_file_managment" kindref="compound">Events.FileManagment</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;SaveSystem&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GameEvents/SaveSystem&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12" refid="class_events_1_1_file_managment_1_1_save_system" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_events_1_1_file_managment_1_1_save_system" kindref="compound">SaveSystem</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;List&lt;RoomCellLayout&gt;&gt;<sp/><ref refid="class_events_1_1_file_managment_1_1_save_system_1a30522a79a41fe968cf226c28c8b649de" kindref="member">GetAllRoomTemplates</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Func&lt;string,<sp/>RoomCellLayout&gt;<sp/><ref refid="class_events_1_1_file_managment_1_1_save_system_1a79e2024adbee75460d4f2fdc0079f15c" kindref="member">LoadRoomLayout</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Action&lt;RoomCellLayout,<sp/>string&gt;<sp/><ref refid="class_events_1_1_file_managment_1_1_save_system_1a4a178d3be967b3470cd486a11e2f774f" kindref="member">SaveRoomLayout</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Scripts/Events/FileManagment/SaveSystem.cs"/>
+  </compounddef>
+</doxygen>

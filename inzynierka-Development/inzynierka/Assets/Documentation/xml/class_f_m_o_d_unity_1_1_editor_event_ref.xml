@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_f_m_o_d_unity_1_1_editor_event_ref" kind="class" language="C#" prot="public">
+    <compoundname>FMODUnity::EditorEventRef</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1ae9b198d618d5c43ab922eb6f85ba1ccb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FMODUnity.EditorEventRef.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>FMODUnity.EditorEventRef.Path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="12" column="23" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a1ef37690970785ee8d95427e9c642ad7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_m_o_d_1_1_g_u_i_d" kindref="compound">FMOD.GUID</ref></type>
+        <definition>FMOD.GUID FMODUnity.EditorEventRef.Guid</definition>
+        <argsstring></argsstring>
+        <name>Guid</name>
+        <qualifiedname>FMODUnity.EditorEventRef.Guid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="15" column="25" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a7b69b211a01c934da1bca8c26418e5b0" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_bank_ref" kindref="compound">EditorBankRef</ref> &gt;</type>
+        <definition>List&lt;EditorBankRef&gt; FMODUnity.EditorEventRef.Banks</definition>
+        <argsstring></argsstring>
+        <name>Banks</name>
+        <qualifiedname>FMODUnity.EditorEventRef.Banks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="18" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a15eb784896a733597a027b2265d1043d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EditorEventRef.IsStream</definition>
+        <argsstring></argsstring>
+        <name>IsStream</name>
+        <qualifiedname>FMODUnity.EditorEventRef.IsStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="20" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a87c43bc58a50fa5082ad7f732798ff78" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EditorEventRef.Is3D</definition>
+        <argsstring></argsstring>
+        <name>Is3D</name>
+        <qualifiedname>FMODUnity.EditorEventRef.Is3D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="22" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a68722b53e41bcc5ac66c2504436c9243" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FMODUnity.EditorEventRef.IsOneShot</definition>
+        <argsstring></argsstring>
+        <name>IsOneShot</name>
+        <qualifiedname>FMODUnity.EditorEventRef.IsOneShot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="24" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1ac7965c8d3efd9cdd1311154f0b4c2bd8" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref> &gt;</type>
+        <definition>List&lt;EditorParamRef&gt; FMODUnity.EditorEventRef.Parameters</definition>
+        <argsstring></argsstring>
+        <name>Parameters</name>
+        <qualifiedname>FMODUnity.EditorEventRef.Parameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="26" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a623304e06f5d3dc0918e6a1bb3acc925" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.EditorEventRef.MinDistance</definition>
+        <argsstring></argsstring>
+        <name>MinDistance</name>
+        <qualifiedname>FMODUnity.EditorEventRef.MinDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="28" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a0dd3f66432474a5eb670a27c4e884fed" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FMODUnity.EditorEventRef.MaxDistance</definition>
+        <argsstring></argsstring>
+        <name>MaxDistance</name>
+        <qualifiedname>FMODUnity.EditorEventRef.MaxDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="30" column="22" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a1c0c542b801d90faffe756d7a479d10f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FMODUnity.EditorEventRef.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <qualifiedname>FMODUnity.EditorEventRef.Length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="32" column="20" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_event_ref_1abad0060ed7c875a09edb4bc00aec6d04" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref> &gt;</type>
+        <definition>List&lt;EditorParamRef&gt; FMODUnity.EditorEventRef.LocalParameters</definition>
+        <argsstring></argsstring>
+        <name>LocalParameters</name>
+        <qualifiedname>FMODUnity.EditorEventRef.LocalParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="34" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_f_m_o_d_unity_1_1_editor_event_ref_1a5dd5a0d74549f0821647f0e6ecf7bfe2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_f_m_o_d_unity_1_1_editor_param_ref" kindref="compound">EditorParamRef</ref> &gt;</type>
+        <definition>List&lt;EditorParamRef&gt; FMODUnity.EditorEventRef.GlobalParameters</definition>
+        <argsstring></argsstring>
+        <name>GlobalParameters</name>
+        <qualifiedname>FMODUnity.EditorEventRef.GlobalParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="39" column="21" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FMODUnity.EditorEventRef</label>
+        <link refid="class_f_m_o_d_unity_1_1_editor_event_ref"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FMODUnity.EditorEventRef</label>
+        <link refid="class_f_m_o_d_unity_1_1_editor_event_ref"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" line="9" column="11" bodyfile="C:/UnityProj/inzynierka/inzynierka/Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs" bodystart="10" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a7b69b211a01c934da1bca8c26418e5b0" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>Banks</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a5dd5a0d74549f0821647f0e6ecf7bfe2" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>GlobalParameters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a1ef37690970785ee8d95427e9c642ad7" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>Guid</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a87c43bc58a50fa5082ad7f732798ff78" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>Is3D</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a68722b53e41bcc5ac66c2504436c9243" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>IsOneShot</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a15eb784896a733597a027b2265d1043d" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>IsStream</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a1c0c542b801d90faffe756d7a479d10f" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>Length</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1abad0060ed7c875a09edb4bc00aec6d04" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>LocalParameters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a0dd3f66432474a5eb670a27c4e884fed" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>MaxDistance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1a623304e06f5d3dc0918e6a1bb3acc925" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>MinDistance</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1ac7965c8d3efd9cdd1311154f0b4c2bd8" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>Parameters</name></member>
+      <member refid="class_f_m_o_d_unity_1_1_editor_event_ref_1ae9b198d618d5c43ab922eb6f85ba1ccb" prot="public" virt="non-virtual"><scope>FMODUnity::EditorEventRef</scope><name>Path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
